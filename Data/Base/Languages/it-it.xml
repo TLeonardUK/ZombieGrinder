@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="name_long">Italian (Incomplete)</string>
+	<string name="name_short">IT-IT</string>
+	<string name="glyphs"> !#$%&amp;'()*+,-./0123456789:&lt;&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~¦ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜø£Ø×ƒáíóúñÑªº¿®¬½¼¡«»¦¦¦¦¦ÁÂÀ©¦¦++¢¥++--+-+ãÃ++--¦-+¤ðÐÊËÈiÍÎÏ++¦_¦Ì¯ÓßÔÒõÕµþÞÚÛÙýÝ¯´­±=¾¶§÷¸°¨·¹³²¦</string>
+		  
+	<string name="title">Zombie Grinder</string>
+  
+	<string name="menu_copyright">Version {GAME_VERSION} - Copyright TwinDrills 2009-2015</string>
+	<string name="load_message"/>
+	 
+	<string name="menu_back"/>	
+	</resources>

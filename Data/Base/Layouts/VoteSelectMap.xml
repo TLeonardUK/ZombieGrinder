@@ -1,0 +1,22 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>vote_select_map</name>
+	</settings>
+	<layout>			
+		<!-- <element name="" 					type="Label"  	box="0.13,0.37,0.7,0.070" ForeColor="255,255,255,255" Value="#sub_menu_vote_map_title"  /> -->
+    <!--		<element name="map_box" 			type="ComboBox" box="0.13,0.44,0.7,0.067"  FrameColor="112,154,209,255" /> -->
+
+    <element name="map_image_panel"			type="Panel"		box="0.55,0.34,0.4,0.4"    BackColor="255,255,255,255" BGScaleMode="Zoom" ForeImage="screen_main_map_preview_foreground" />
+    <element name="map_name_label"			type="Label"		box="0.13,0.44,0.4,0.2"	  ForeColor="255,255,255,220" Value="" />
+    <element name="map_description_label"	type="Label"		box="0.13,0.50,0.4,0.2"	  ForeColor="255,255,255,220" VAlign="Top" Value="" />
+
+    <element name="map_label" 			type="Label" 		box="0.13,0.28,0.4,0.065"  ForeColor="255,255,255,255" Value="#find_game_map_name_label"  />
+    <element name="map_box" 			type="ComboBox" 	box="0.13,0.34,0.4,0.065"  FrameColor="255,255,255,255" />
+
+    <element name="ok_button" 			type="Button" 		box="0.13,0.72,0.3,0.070" FrameColor="255,255,255,200" Value="#sub_menu_vote_start" />	
+		<element name="back_button" 		type="Button" 		box="0.13,0.80,0.3,0.070" FrameColor="255,255,255,200" Value="#menu_back" />	
+	</layout>
+</xml>

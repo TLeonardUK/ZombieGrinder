@@ -1,0 +1,27 @@
+ <xml>
+   <editor>
+     <asset_type>Layout</asset_type>
+   </editor>
+	<settings>
+		<name>find_game_setup</name>
+	</settings>
+	<layout>
+		<element name="background"			type="Panel" 		box="0,0.20,1.0,0.6" 	  BackColor="0,0,0,220" AspectScaling="0" />		
+		
+		<element name="map_image_panel"			type="Panel"		box="0.05,0.24,0.4,0.4"    BackColor="255,255,255,255" BGScaleMode="Zoom" ForeImage="screen_main_map_preview_foreground" />
+		<element name="map_name_label"			type="Label"		box="0.05,0.24,0.3,0.2"	  ForeColor="255,255,255,220" Value="" />	
+		<element name="map_description_label"	type="Label"		box="0.05,0.44,0.3,0.2"	  ForeColor="255,255,255,220" VAlign="Bottom" Value="" />
+
+    <element name="game_mode_label" 			type="Label" 		box="0.55,0.22,0.4,0.065"  ForeColor="255,255,255,255" Value="#host_game_game_mode_name_label"  />
+    <element name="game_mode_box" 			type="ComboBox" 	box="0.55,0.28,0.4,0.065"  FrameColor="255,255,255,255" />
+
+    <element name="map_label" 			type="Label" 		box="0.55,0.36,0.4,0.065"  ForeColor="255,255,255,255" Value="#find_game_map_name_label"  />	
+		<element name="map_box" 			type="ComboBox" 	box="0.55,0.42,0.4,0.065"  FrameColor="255,255,255,255" />	
+
+		<element name="game_checkbox" 		type="CheckBox" 	box="0.55,0.52,0.4,0.065" FrameColor="255,255,255,200" Value="#find_game_map_join_games_in_progress"  />	
+		<element name="lobby_checkbox" 	type="CheckBox" 	box="0.55,0.59,0.4,0.065" FrameColor="255,255,255,200" Value="#find_game_map_join_lobbies" DownElement="cancel_button" />
+
+    <element name="ok_button" 		type="Button" 		box="0.76,0.68,0.19,0.070"  FrameColor="255,255,255,200" Value="#find_game_map_find_game"  RightElement="cancel_button"  LeftElement="cancel_button"  UpElement="secure_checkbox" />
+    <element name="cancel_button" 		type="Button" 		box="0.54,0.68,0.19,0.070"  FrameColor="255,255,255,200" Value="#menu_cancel" RightElement="ok_button"  LeftElement="ok_button"  UpElement="secure_checkbox" />
+	</layout>
+</xml>

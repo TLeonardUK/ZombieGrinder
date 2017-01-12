@@ -1,0 +1,25 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>shop</name>
+	</settings>
+	<layout>
+		<element name="title_label"   			type="Label" box="0,0,1,0.1" HAlign="Center" VAlign="Center" ForeColor="102,102,102,255" Padding="0,0,0,0" value="#menu_shop_title" />	
+		
+		<element name="source_box" 				type="ComboBox" 	box="0.10,0.13,0.80,0.070"  FrameColor="112,154,209,255" />	
+				
+		<element name="grid_view"				type="Grid"			box="0.10,0.22,0.80,0.61" Dimensions="7,4" GridSpacing="5,5" />
+		
+		<element name="gold_label"   			type="Label"		 box="0.10,0.85,0.50,0.070" HAlign="Left" VAlign="Center" ForeColor="255,255,255,255" Padding="0,0,0,0" value="" UseMarkup="True" />	
+		<element name="back_button" 			type="Button" 		box="0.70,0.85,0.2,0.070" FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#menu_back"  />	
+
+		<element name="info_panel"					type="Panel" 		box="0,0.0,0.35,0.25" 	  FrameColor="255,255,255,0" Frame="screen_main_box_inactive_#" AspectScaling="False" >			
+			<element name="info_name_label"   		type="Label" 		box="0.05,0.05,1.0,0.15" HAlign="Left" VAlign="Center" ForeColor="255,255,255,0" Padding="0,0,0,0" value="" UseMarkup="True" />	
+			<element name="info_price_label"  	 	type="Label" 		box="0.05,0.05,0.9,0.15" HAlign="Right" VAlign="Center" ForeColor="255,255,255,0" Padding="0,0,0,0" value="" UseMarkup="True" />	
+			<element name="info_description_label"  type="Label" 		box="0.05,0.225,0.9,0.60" HAlign="Left" VAlign="Top" ForeColor="255,255,255,0" Padding="0,0,0,0" value="" UseMarkup="True" WordWrap="True" Scale="0.65,0.65" />	
+		</element>	
+		    
+	</layout> 
+</xml>

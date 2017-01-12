@@ -1,0 +1,39 @@
+<xml>
+  <editor>
+    <asset_type>Atlas</asset_type>
+  </editor>
+	<settings>
+		<texture-size>2048</texture-size>
+		<max-textures>8</max-textures>
+		<name>Screens</name>
+	</settings> 
+	<images>
+		<image type="single" name="screen_credits_end" file="Data/Atlases/Screens/Credits/end.png" />
+		<image type="single" name="screen_intro_0" file="Data/Atlases/Screens/Intro/0.png" />
+		<image type="single" name="screen_intro_1" file="Data/Atlases/Screens/Intro/1.png" />
+		<!--<image type="single" name="screen_intro_2" file="Data/Atlases/Screens/Intro/2.png" />-->
+		<!--<image type="single" name="screen_intro_3" file="Data/Atlases/Screens/Intro/3.png" />-->
+		<image type="single" name="autosave_icon" file="Data/Atlases/Screens/Intro/autosave_icon.png" />
+		<image type="single" name="uploading_icon" file="Data/Atlases/Screens/Intro/uploading_icon.png" origin="0.5,0.5" />
+		<image type="single" name="screen_loading_person_1" file="Data/Atlases/Screens/Loading/person_1.png" />
+		<image type="single" name="screen_loading_person_2" file="Data/Atlases/Screens/Loading/person_2.png" />
+		<image type="single" name="screen_loading_person_3" file="Data/Atlases/Screens/Loading/person_3.png" />
+		<image type="single" name="screen_loading_person_4" file="Data/Atlases/Screens/Loading/person_4.png" />
+		<image type="single" name="screen_main_bg_1" file="Data/Atlases/Screens/Main/bg_1.png" />
+		<image type="single" name="screen_main_bg_1_fade" file="Data/Atlases/Screens/Main/bg_1_fade.png" />
+		<image type="single" name="screen_main_map_loading" file="Data/Atlases/Screens/Main/map_loading.png" />
+		<image type="single" name="screen_main_map_preview" file="Data/Atlases/Screens/Main/map_preview.png" />
+		<image type="single" name="screen_main_map_preview_foreground" file="Data/Atlases/Screens/Main/map_preview_foreground.png" />
+		<image type="single" name="screen_main_title" file="Data/Atlases/Screens/Main/title.png" origin="0.5,0.5" />
+		<image type="single" name="screen_sub_background" file="Data/Atlases/Screens/Sub/background.png" />
+    <image type="single" name="screen_minimap_background" file="Data/Atlases/Screens/Sub/minimap_background.png" />
+		<image type="single" name="screen_sub_bars" file="Data/Atlases/Screens/Sub/bars.png" />
+		<image type="single" name="screen_challenge_announce_ghost" file="Data/Atlases/Screens/Game/Challenges/ghost.png" />
+    <image type="single" name="screen_broken_item" file="Data/Atlases/Screens/Game/broken_item.png" origin="0.5,0.5" />
+    
+    <image type="single" name="screen_upgrade_arrow" file="Data/Atlases/Screens/Game/upgrade_arrow.png" />
+
+  </images>
+	<animations>
+	</animations>
+</xml>

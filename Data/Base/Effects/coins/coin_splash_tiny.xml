@@ -1,0 +1,297 @@
+<xml>
+	<settings>
+		<name>coin_splash_tiny</name>
+	</settings>
+	<emitters>
+		<emitter>
+			<settings>
+				<name>Bronze</name>
+				<important>true</important>
+				<render_pass>geometry</render_pass>
+				<lock_rotation_to_direction>false</lock_rotation_to_direction>
+				<keep_effect_alive>true</keep_effect_alive>
+				<global_max_particles>0</global_max_particles>
+				<draw_method>Sprite</draw_method>
+				<cycle_length>0.1</cycle_length>
+				<cycle_count>1</cycle_count>
+				<max_particles_per_cycle>2</max_particles_per_cycle>
+				<sprite>particle_collectible_coin_bronze</sprite>
+				<affected_by_attractors>true</affected_by_attractors>
+				<move_based_on_direction>true</move_based_on_direction>
+				<enable_collision>true</enable_collision>
+				<collision_reponse>Bounce</collision_reponse>
+				<spawn_shape>Circle</spawn_shape>
+				<collision_scale_x>0.5</collision_scale_x>
+				<collision_scale_y>0.5</collision_scale_y>
+				<collision_offset_x>0</collision_offset_x>
+				<collision_offset_y>0</collision_offset_y>
+				<spawn_inner_radius>3</spawn_inner_radius>
+				<spawn_outer_radius>6</spawn_outer_radius>
+				<track_effect>false</track_effect>
+				<draw_shadow>true</draw_shadow>
+				<offset_by_height>false</offset_by_height>
+				<spawn_offset_x>0</spawn_offset_x>
+				<spawn_offset_y>0</spawn_offset_y>
+				<scale_proportional>false</scale_proportional>
+				<invert_scale_on_bounce>false</invert_scale_on_bounce>
+				<add_emitter_direction>false</add_emitter_direction>				
+				
+				<collection_enabled>true</collection_enabled>
+				<collection_value>10</collection_value>
+				<collection_type>coin</collection_type>
+				
+				<layer_offset>0</layer_offset>
+				<depth_bias>16</depth_bias>
+				<enable_damage>false</enable_damage>
+				<constant_damage>false</constant_damage>
+				<damage_offset_x>0</damage_offset_x>
+				<damage_offset_y>0</damage_offset_y>
+				<damage_radius>0</damage_radius>
+				<damage_type>None</damage_type>
+			</settings>
+			<curves>
+				<Sprite_Frame start_min="200" start_max="200" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="0.358779" y="0.45"/>
+					<point x="0.668484" y="0.164286"/>
+					<point x="1" y="0"/>
+				</Sprite_Frame>
+				<Direction start_min="0" start_max="360" end_min="0" end_max="360">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Direction>
+				<Spawn_Rate start_min="60" start_max="120" end_min="60" end_max="120">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Spawn_Rate>
+				<Velocity_X start_min="0" start_max="0" end_min="2" end_max="4">
+					<point x="0" y="1"/>
+					<point x="0.141767" y="0"/>
+					<point x="1" y="0"/>
+				</Velocity_X>
+				<Velocity_Y start_min="0" start_max="0" end_min="2" end_max="4">
+					<point x="0" y="0.995475"/>
+					<point x="0.140676" y="0"/>
+					<point x="1" y="0"/>
+				</Velocity_Y>
+				<Velocity_Height start_min="0" start_max="0" end_min="32" end_max="32">
+					<point x="0" y="0.642045"/>
+					<point x="0.089422" y="0.417614"/>
+					<point x="0.101418" y="0"/>
+					<point x="1" y="0"/>
+				</Velocity_Height>
+				<Velocity_Rotation start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Velocity_Rotation>
+				<Velocity_Direction start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Velocity_Direction>
+				<Color_R start_min="0" start_max="0" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Color_R>
+				<Color_G start_min="0" start_max="0" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Color_G>
+				<Color_B start_min="0" start_max="0" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Color_B>
+				<Color_A start_min="0" start_max="0" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="0.754615" y="1"/>
+					<point x="0.788274" y="0"/>
+					<point x="0.814332" y="1"/>
+					<point x="0.844734" y="0"/>
+					<point x="0.867535" y="1"/>
+					<point x="0.895765" y="0"/>
+					<point x="0.908795" y="1"/>
+					<point x="0.933768" y="0"/>
+					<point x="0.944625" y="1"/>
+					<point x="0.961998" y="0"/>
+					<point x="0.976113" y="1"/>
+					<point x="0.984799" y="0"/>
+					<point x="0.994571" y="1"/>
+					<point x="1" y="0"/>
+				</Color_A>
+				<Scale_X start_min="0" start_max="0" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Scale_X>
+				<Scale_Y start_min="0" start_max="0" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Scale_Y>
+				<Lifetime start_min="15" start_max="20" end_min="15" end_max="20">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Lifetime>
+				<Rotation start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Rotation>
+				<Height start_min="0" start_max="0" end_min="0" end_max="32">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Height>
+				<Damage start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Damage>
+			</curves>
+			<events>
+				<event x="0" probability="1" type="Play_Sound" trigger="Bounce" param="sfx_objects_pickups_coin_bounce"/>
+				<event x="0" probability="1" type="Play_Sound" trigger="Collect" param="sfx_hud_score_increase"/>
+			</events>
+		</emitter>
+		<emitter>
+			<settings>
+				<name>Silver</name>
+				<important>true</important>
+				<render_pass>geometry</render_pass>
+				<lock_rotation_to_direction>false</lock_rotation_to_direction>
+				<keep_effect_alive>true</keep_effect_alive>
+				<global_max_particles>0</global_max_particles>
+				<draw_method>Sprite</draw_method>
+				<cycle_length>0.1</cycle_length>
+				<cycle_count>1</cycle_count>
+				<max_particles_per_cycle>1</max_particles_per_cycle>
+				<sprite>particle_collectible_coin_silver</sprite>
+				<affected_by_attractors>true</affected_by_attractors>
+				<move_based_on_direction>true</move_based_on_direction>
+				<enable_collision>true</enable_collision>
+				<collision_reponse>Bounce</collision_reponse>
+				<spawn_shape>Circle</spawn_shape>
+				<collision_scale_x>0.5</collision_scale_x>
+				<collision_scale_y>0.5</collision_scale_y>
+				<collision_offset_x>0</collision_offset_x>
+				<collision_offset_y>0</collision_offset_y>
+				<spawn_inner_radius>3</spawn_inner_radius>
+				<spawn_outer_radius>6</spawn_outer_radius>
+				<track_effect>false</track_effect>
+				<draw_shadow>true</draw_shadow>
+				<offset_by_height>false</offset_by_height>
+				<spawn_offset_x>0</spawn_offset_x>
+				<spawn_offset_y>0</spawn_offset_y>
+				<scale_proportional>false</scale_proportional>
+				<invert_scale_on_bounce>false</invert_scale_on_bounce>
+				<add_emitter_direction>false</add_emitter_direction>			
+				
+				<collection_enabled>true</collection_enabled>
+				<collection_value>20</collection_value>
+				<collection_type>coin</collection_type>
+				
+				<layer_offset>0</layer_offset>
+				<depth_bias>16</depth_bias>
+				<enable_damage>false</enable_damage>
+				<constant_damage>false</constant_damage>
+				<damage_offset_x>0</damage_offset_x>
+				<damage_offset_y>0</damage_offset_y>
+				<damage_radius>0</damage_radius>
+				<damage_type>None</damage_type>
+			</settings>
+			<curves>
+				<Sprite_Frame start_min="200" start_max="200" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="0.358779" y="0.45"/>
+					<point x="0.668484" y="0.164286"/>
+					<point x="1" y="0"/>
+				</Sprite_Frame>
+				<Direction start_min="0" start_max="360" end_min="0" end_max="360">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Direction>
+				<Spawn_Rate start_min="30" start_max="60" end_min="30" end_max="60">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Spawn_Rate>
+				<Velocity_X start_min="0" start_max="0" end_min="2" end_max="4">
+					<point x="0" y="1"/>
+					<point x="0.141767" y="0"/>
+					<point x="1" y="0"/>
+				</Velocity_X>
+				<Velocity_Y start_min="0" start_max="0" end_min="2" end_max="4">
+					<point x="0" y="0.995475"/>
+					<point x="0.140676" y="0"/>
+					<point x="1" y="0"/>
+				</Velocity_Y>
+				<Velocity_Height start_min="0" start_max="0" end_min="32" end_max="32">
+					<point x="0" y="0.642045"/>
+					<point x="0.089422" y="0.417614"/>
+					<point x="0.101418" y="0"/>
+					<point x="1" y="0"/>
+				</Velocity_Height>
+				<Velocity_Rotation start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Velocity_Rotation>
+				<Velocity_Direction start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Velocity_Direction>
+				<Color_R start_min="0" start_max="0" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Color_R>
+				<Color_G start_min="0" start_max="0" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Color_G>
+				<Color_B start_min="0" start_max="0" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Color_B>
+				<Color_A start_min="0" start_max="0" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="0.754615" y="1"/>
+					<point x="0.788274" y="0"/>
+					<point x="0.814332" y="1"/>
+					<point x="0.844734" y="0"/>
+					<point x="0.867535" y="1"/>
+					<point x="0.895765" y="0"/>
+					<point x="0.908795" y="1"/>
+					<point x="0.933768" y="0"/>
+					<point x="0.944625" y="1"/>
+					<point x="0.961998" y="0"/>
+					<point x="0.976113" y="1"/>
+					<point x="0.984799" y="0"/>
+					<point x="0.994571" y="1"/>
+					<point x="1" y="0"/>
+				</Color_A>
+				<Scale_X start_min="0" start_max="0" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Scale_X>
+				<Scale_Y start_min="0" start_max="0" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Scale_Y>
+				<Lifetime start_min="15" start_max="20" end_min="15" end_max="20">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Lifetime>
+				<Rotation start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Rotation>
+				<Height start_min="0" start_max="0" end_min="0" end_max="32">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Height>
+				<Damage start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Damage>
+			</curves>
+			<events>
+				<event x="0" probability="1" type="Play_Sound" trigger="Bounce" param="sfx_objects_pickups_coin_bounce"/>
+				<event x="0" probability="1" type="Play_Sound" trigger="Collect" param="sfx_hud_score_increase"/>
+			</events>
+		</emitter>	
+	</emitters>
+	<attractors/>
+</xml>
+

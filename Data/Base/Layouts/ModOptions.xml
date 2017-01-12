@@ -1,0 +1,40 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+  <settings>
+    <name>mod_options</name>
+  </settings>
+  <layout>
+    <element name="title_label"   					type="Label" 		box="0,0,1,0.1" HAlign="Center" VAlign="Center" ForeColor="102,102,102,255" Padding="0,0,0,0" value="#menu_mod_options_title" />
+
+    <element name="source_box" 						type="ComboBox" 	box="0.15,0.11,0.80,0.070"  FrameColor="112,154,209,255" />
+
+    <!--
+    <element name="source_box" 						type="Label" 	box="0.15,0.13,0.80,0.070"  ForeColor="102,102,102,255"   HAlign="Left" VAlign="Center"  value="#menu_mod_options_apply" />
+-->
+    
+    <element name="server_listview" 				type="ListView" 	 ItemHeight="44" ItemSpacing="2" box="0.15,0.20,0.80,0.66" ForeColor="156,157,158,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,200" Padding="10,10,10,10" NoHeader="True"  />
+
+    <!--
+    <element name="server_listview" 				type="ListView" 	box="0.15,0.13,0.80,0.68" ForeColor="156,157,158,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,200" Padding="10,10,10,10" />
+  -->
+    
+    <element name="view_all_button" 					type="Button" 		box="0.15,0.89,0.25,0.070" FrameColor="255,255,255,200" Value="#menu_view_workshop"  />
+
+    <element name="view_unapproved_checkbox"  type="CheckBox" 	box="0.42,0.89,0.2,0.070" FrameColor="255,255,255,200" Value="#mod_view_non_whitelisted"  />
+
+    <element name="back_button" 					type="Button" 		box="0.75,0.89,0.2,0.070" FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#menu_back"  />
+
+    <element name="mod_option_menu"	type="DropDownMenu" box="0.50,0.16,0.20,0.22" FrameColor="255,255,255,230">
+      
+      <element name="subscribe_button"	 	type="Button" 	  box="0.05,0.05,0.9,0.15" FrameColor="255,255,255,230" Value="#menu_mod_subscribe" 	HAlign="Left" VAlign="Center" NoFrame="1" />
+      <element name="favorite_button" 	type="Button" 	    box="0.05,0.20,0.9,0.15" FrameColor="255,255,255,230"   Value="#menu_mod_favorite" 	HAlign="Left" VAlign="Center" NoFrame="1" />
+      <element name="view_on_steam_button"	 	type="Button" box="0.05,0.35,0.9,0.15" FrameColor="255,255,255,230" Value="#menu_mod_view_on_steam" 	HAlign="Left" VAlign="Center" NoFrame="1" />
+      <element name="vote_up_button" 	type="Button" 	      box="0.05,0.50,0.9,0.15" FrameColor="255,255,255,230"     Value="#menu_mod_vote_up" 	HAlign="Left" VAlign="Center" NoFrame="1" />
+      <element name="vote_down_button" 	type="Button" 	    box="0.05,0.65,0.9,0.15" FrameColor="255,255,255,230"   Value="#menu_mod_vote_down" 	HAlign="Left" VAlign="Center" NoFrame="1" />
+      <element name="close_button" 	type="Button" 	        box="0.05,0.80,0.9,0.15" FrameColor="255,255,255,230"       Value="#menu_close" 			HAlign="Left" VAlign="Center" NoFrame="1" />
+    
+    </element>
+  </layout>
+</xml>

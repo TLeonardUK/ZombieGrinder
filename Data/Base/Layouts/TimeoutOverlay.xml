@@ -1,0 +1,14 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+  <settings>
+    <name>TimeoutOverlay</name>
+  </settings>
+  <layout>
+    <element name="background"	type="Panel" 		box="0.02,0.02,0.4,0.06" 	  BackColor="200,0,0,190" AspectScaling="0" />
+
+    <element name="label"				type="Label"		box="0.02,0.02,0.4,0.05"  AspectScaling="0" ForeColor="255,255,255,255" HAlign="Center" VAlign="Center" Padding="2,2,2,2" Value="" ShadowedText="True" />
+
+  </layout>
+</xml>

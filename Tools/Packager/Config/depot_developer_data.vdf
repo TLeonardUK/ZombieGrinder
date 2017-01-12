@@ -1,0 +1,23 @@
+"DepotBuildConfig"
+{
+	"DepotID" "263921"
+
+	// include all files recursivley
+	"FileMapping"
+	{
+		"LocalPath" "./data/Data/*"
+		"DepotPath" "./Data/"
+		"recursive" "1"
+	}
+
+	// include docs
+	"FileMapping"
+	{
+		"LocalPath" "./data/Docs/*"
+		"DepotPath" "./Docs/"
+		"recursive" "1"
+	}
+	
+	// but exclude all symbol files  
+	"FileExclusion" "*.pdb"
+}

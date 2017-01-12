@@ -1,0 +1,18 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>item_broken</name>
+	</settings>
+	<layout>
+		<element name="background"			type="Panel" 		box="0,0.15,1.0,0.7" 	  BackColor="0,0,0,220" AspectScaling="0" />		
+		<element name="intro_label"		 type="Label"		box="0.1,0.15,0.8,0.10"     ForeColor="200,200,200,220" HAlign="Center" VAlign="ScaleToFit" Padding="0,0,0,0" Value="#inventory_item_broken_title" UseMarkup="true" />
+    <element name="name_label"		 type="Label"		box="0.1,0.21,0.8,0.15"     ForeColor="200,200,200,220" HAlign="Center" VAlign="Center" Padding="0,0,0,0" Value="" UseMarkup="true" />
+    <element name="image_panel"			type="Panel"		box="0.42,0.28,0.16,0.16"    BackColor="255,255,255,255" BGScaleMode="FullHeight" />
+
+    <element name="description_label"		 type="Label"		box="0.05,0.35,0.9,0.27"     ForeColor="200,200,200,220" HAlign="Center" VAlign="Center" Padding="0,0,0,0" Value="" UseMarkup="true" />
+    <element name="sub_label"		 type="Label"		box="0.25,0.58,0.5,0.70"     ForeColor="200,200,200,220" HAlign="Center" VAlign="Top" Padding="0,0,0,0" Value="#inventory_item_broken_sub" UseMarkup="true" />
+    <element name="back_button" 		type="Button" 		box="0.35,0.75,0.3,0.070"  FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#menu_confirm"  />	
+	</layout>
+</xml>

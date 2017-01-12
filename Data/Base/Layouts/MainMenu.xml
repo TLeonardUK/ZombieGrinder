@@ -1,0 +1,15 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>main_menu</name>
+	</settings>
+	<layout>
+		<element name="start_button" type="Button" 		box="0.35,0.56,0.3,0.060" 	FrameColor="255,255,255,200" Value="#menu_item_start" />	
+		<element name="premium_button" type="Button" 	box="0.35,0.625,0.3,0.060" 	FrameColor="255,255,255,200" Value="#menu_item_premium_account" />
+    <element name="mod_button" type="Button" 	    box="0.35,0.69,0.3,0.060" 	FrameColor="255,255,255,200" Value="#menu_options_mod" />
+		<element name="options_button" type="Button" 	box="0.35,0.755,0.3,0.060" 	FrameColor="255,255,255,200" Value="#menu_item_options" />
+		<element name="quit_button" type="Button" 		box="0.35,0.820,0.3,0.060" 	FrameColor="255,255,255,200" Value="#menu_item_quit" />	
+	</layout>
+</xml>

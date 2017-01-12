@@ -1,0 +1,88 @@
+#
+# Copyright (c) 2013 No Face Press, LLC
+# Copyright (c) 2014-2015 the Civetweb developers
+#
+# License http://opensource.org/licenses/mit-license.php MIT License
+#
+
+ifndef WITH_LUA
+  $(error WITH_LUA is not defined)
+endif
+
+LUA_DIR = src/third_party/lua-5.2.4/src
+LUA_CFLAGS = -I$(LUA_DIR) -DLUA_COMPAT_ALL -DUSE_LUA
+
+ifneq ($(TARGET_OS),WIN32)
+  LUA_CFLAGS += -DLUA_USE_POSIX -DLUA_USE_DLOPEN
+endif
+
+ifdef WITH_LUA_SHARED
+
+  LUA_SOURCE_FILES =
+
+  $(info Lua: using dynamic linking)
+
+else
+
+  LUA_SOURCE_FILES = lapi.c  \
+    lauxlib.c \
+    lbaselib.c  \
+    lbitlib.c  \
+    lcode.c  \
+    lcorolib.c \
+    lctype.c \
+    ldblib.c  \
+    ldebug.c  \
+    ldo.c  \
+    ldump.c \
+    lfunc.c  \
+    lgc.c  \
+    linit.c \
+    liolib.c  \
+    llex.c \
+    lmathlib.c \
+    lmem.c  \
+    loadlib.c  \
+    lobject.c  \
+    lopcodes.c \
+    loslib.c  \
+    lparser.c  \
+    lstate.c  \
+    lstring.c \
+    lstrlib.c  \
+    ltable.c  \
+    ltablib.c \
+    ltm.c  \
+    lundump.c \
+    lvm.c  \
+    lzio.c
+
+  $(info Lua: using static library)
+
+endif
+
+LUA_SOURCES = $(addprefix $(LUA_DIR)/, $(LUA_SOURCE_FILES))
+LUA_OBJECTS = $(LUA_SOURCES:.c=.o)
+
+SQLITE_DIR = src/third_party
+SQLITE_SOURCE_FILES = sqlite3.c lsqlite3.c
+SQLITE_SOURCES = $(addprefix $(SQLITE_DIR)/, $(SQLITE_SOURCE_FILES))
+SQLITE_OBJECTS = $(SQLITE_SOURCES:.c=.o)
+SQLITE_CFLAGS = -I$(SQLITE_DIR) -DTHREADSAFE=1 -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS
+
+LFS_DIR = src/third_party
+LFS_SOURCE_FILES = lfs.c
+LFS_SOURCES = $(addprefix $(LFS_DIR)/, $(LFS_SOURCE_FILES))
+LFS_OBJECTS = $(LFS_SOURCES:.c=.o)
+LFS_CFLAGS = -I$(LFS_DIR)
+
+LXML_DIR = src/third_party
+LXML_SOURCE_FILES = LuaXML_lib.c
+LXML_SOURCES = $(addprefix $(LXML_DIR)/, $(LXML_SOURCE_FILES))
+LXML_OBJECTS = $(LXML_SOURCES:.c=.o)
+LXML_CFLAGS = -I$(LXML_DIR)
+
+OBJECTS += $(LUA_OBJECTS) $(SQLITE_OBJECTS) $(LFS_OBJECTS) $(LXML_OBJECTS)
+CFLAGS += $(LUA_CFLAGS) $(SQLITE_CFLAGS) $(LFS_CFLAGS) -DUSE_LUA_SQLITE3 -DUSE_LUA_FILE_SYSTEM -DUSE_LUA_LUAXML
+SOURCE_DIRS = $(LUA_DIR)
+

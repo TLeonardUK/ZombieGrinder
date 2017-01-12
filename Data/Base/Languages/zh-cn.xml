@@ -1,0 +1,2462 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="name_long">简体中文</string>
+  <string name="name_short">ZH-CN</string>
+  <string name="glyphs"> !#$%&amp;'()*+,-./0123456789:&lt;&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[^_`abcdefghijklmnopqrstuvwxyz{|}~¦ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜø£Ø×ƒáíóúñÑªº¿®¬½¼¡«»¦¦¦¦¦ÁÂÀ©¦¦++¢¥++--+-+ãÃ++--¦-+¤ðÐÊËÈiÍÎÏ++¦_¦Ì¯ÓßÔÒõÕµþÞÚÛÙýÝ¯´­±=¾¶§÷¸°¨·¹³²¦</string>
+
+  <string name="title">#title</string>
+
+  <string name="menu_copyright">Version {GAME_VERSION} - Copyright TwinDrills 2009-2015</string>
+  <string name="load_message">载入中 ...</string>
+
+  <string name="global_chat_server">服务器</string>
+  <string name="global_chat_global">全球</string>
+  <string name="global_chat_not_access">你没有权限连接到全球聊天服务器</string>
+  <string name="global_chat_not_connected">全球聊天服务器异常</string>
+  <string name="global_chat_lost_connection">全球聊天服务器连接丢失</string>
+  <string name="global_chat_kicked">你被踢出了全球聊天服务器</string>
+
+  <string name="autosave_warning">游戏使用了自动保存系统，此标志显示时\n请不要关闭游戏\n\n\n[img=autosave_icon,1.0,1.0]</string>
+  <string name="premium_warning">如果你喜欢这游戏，请考虑购买\n[c=255,194,14,255]黄金账户[/c] 来支持游戏的发展吧！\n\n你会获得很多很棒的奖励\n这页面也将不再显示！</string>
+
+  <string name="menu_premium_title">.升级到黄金账户</string>
+  <string name="menu_premium_purchase">打开Steam付款</string>
+  <string name="menu_premium_text">购买 [c=255,194,14,255]黄金账户[/c] 支持开发者，你将获得以下奖励。 升级为 [c=255,194,14,255]黄金账户[/c] 是一次性永久升级。 [img=game_hud_weaponicon_none_0,1.0,1.0] 死亡或旁观时可以控制 [c=14,255,14,255]僵尸[/c] [img=game_hud_weaponicon_none_0,1.0,1.0] 可以进入专属 [c=255,194,14,255]黄金服务器[/c] [img=game_hud_weaponicon_none_0,1.0,1.0] 在商店获得各种专属 [c=255,194,14,255]黄金道具[/c] [img=game_hud_weaponicon_none_0,1.0,1.0] [c=255,194,14,255]黄金道具[/c]被添加进 Steam 库存 [img=game_hud_weaponicon_none_0,1.0,1.0] 在积分榜上的用户名旁边显示独特的 [c=255,194,14,255]徽章[/c] [img=game_hud_weaponicon_none_0,1.0,1.0] 用户名显示为 [c=255,194,14,255]金色[/c]. [img=game_hud_weaponicon_none_0,1.0,1.0] 玩家的幽灵颜色改变为 [c=255,194,14,255]金色[/c]. [img=game_hud_weaponicon_none_0,1.0,1.0] 独特的 [c=255,194,14,255]黄金颜料[/c] 和 [c=255,194,14,255]自定义颜色[/c] [img=game_hud_weaponicon_none_0,1.0,1.0] 双倍经验、宝石和金币获得率 [img=game_hud_weaponicon_none_0,1.0,1.0] 额外的 [c=255,194,14,255]角色槽[/c] [img=game_hud_weaponicon_none_0,1.0,1.0] 额外的 [c=255,194,14,255]物品栏储存空间[/c]. [img=game_hud_weaponicon_none_0,1.0,1.0] 新建角色 [c=255,194,14,255]钱包装满金币[/c]. [img=game_hud_weaponicon_none_0,1.0,1.0] 没有 [c=255,194,14,255]恼人的闪屏广告[/c]. 这列表并不一定足够详尽，有时会有新的福利被添加进 [c=255,194,14,255]黄金账户[/c]</string>
+
+  <string name="ban_notice_title">[c=235,52,52]你被BAN了！[/c]</string>
+  <string name="ban_notice_message">你被VAC反作弊系统BAN了，有效期至 \'%s\' 这是因为你在 \'%s\' 被举报，审查人员们在观看了回放等信息后认为你构成了以下行为: %s</string>
+  <string name="ban_notice_message_indefinite">你被VAC反作弊系统永久BAN了 这是因为你在 \'%s\' 被举报，审查人员们在观看了回放等信息后认为你构成了以下行为: %s</string>
+
+  <string name="ban_notice_exploit">滥用BUG</string>
+  <string name="ban_notice_cheat">作弊</string>
+  <string name="ban_notice_abuse">辱骂</string>
+  <string name="ban_notice_grief">挑衅</string>
+  <string name="ban_notice_type_seperator">，</string>
+  
+  
+  <string name="moderation_notice_title">[c=235,52,52]风纪[/c]</string>
+  <string name="moderation_notice">恭喜，你被系统随机选为了游戏社区的风纪委员！ 风纪按钮会周期性的可用，你可以审查并评判其他玩家举报的游戏回放。如果你的评判被证明是正确的且与其他用户的判决一致，你将继续获得评判案件的机会</string>
+ 
+
+	<string name="moderation_title">.风纪</string>	
+	<string name="moderation_case_id">[c=0,200,200,255]案件 ID[/c]: %i</string>
+	<string name="moderation_case_timeframe">[c=0,200,200,255]案件时段[/c]: %i+ 分钟</string>
+	<string name="moderation_reported_user">[c=0,200,200,255]举报用户[/c]: %s</string>
+	<string name="moderation_reported_for">[c=0,200,200,255]举报原因[/c]: %s</string>		
+	<string name="moderation_description">请仔细查看并确定用户是否有违规行为，忽略那些回放中的细节问题 - 比如子弹打不中敌人等待 - 这可能只是玩家的技术不好而已。要从全局寻找用户是否有违规的证据，在看完回放之后，你会被要求对用户进行评判</string>
+	<string name="moderation_downloading">回放下载中， %.2f%% ...</string>
+	<string name="moderation_download_success">回放下载完成</string>
+ 	<string name="moderation_download_failed">回放下载失败</string>
+ 	<string name="moderation_download_retry">重试</string>
+ 	<string name="moderation_download_judgement_dialog">您已经看完了回放，现在要对其做出评判么 (如果不的话回放会被重播)？</string>	
+	<string name="moderation_judgement_description">看完回放后，您认为用户具有哪些违规行为？</string>
+ 	<string name="moderation_judgement_submit">提交评判</string>
+	<string name="moderation_judgement_guilty">我认为该用户有违规行为:</string>
+	<string name="moderation_judgement_inconclusive">我认为证据过于模糊</string>
+	<string name="moderation_judgement_innocent">我认为用户是清白的</string>
+	
+	<string name="moderation_judgement_exploit">滥用BUG (滥用游戏缺陷)</string>
+	<string name="moderation_judgement_cheat">作弊 (使用第三方作弊软件)</string>
+	<string name="moderation_judgement_abuse">辱骂 (有意使人不愉快的行为)</string>
+	<string name="moderation_judgement_grief">挑衅 (试图挑起玩家负面反应)</string>
+
+	<string name="moderation_judgement_upload_message">您的评判依据被上传了，现在可以继续进行游戏了，但是右上角的图标消失前请不要关闭游戏</string>
+
+  <string name="restricted_mode_ingame_warning_title">[c=235,52,52]未通过审核的地图[/c]</string>
+  <string name="restricted_mode_ingame_warning">你在游戏里不会获得任何奖励 - 经验值，金币，成就等等</string>
+
+  <string name="restricted_mode_warning_title">[c=235,52,52]受限模式[/c]</string>
+  <string name="restricted_mode_warning">你当前正处在受限模式下。这事因为以下未通过审核的MOD更改了游戏的主要文件:\n\n%s\n\n在受限模式下，你的游戏不会被保存，持续性的功能(成就，排行榜，数据)被禁用。你只能加入和你的MOD设置完全相同的服务器进行游戏。\n\n这种模式是为了测试，如果你希望取消这些限制，请提醒 TwinDrills 的开发人员来审核这些MOD</string>
+  <string name="mod_whitelisted">已审核</string>
+  <string name="mod_not_whitelisted">未审核</string>
+  <string name="mod_view_non_whitelisted">查看未审核</string>
+  <string name="mod_whitelisted_warning_title">[c=235,52,52]MOD警告[/c]</string>
+  <string name="mod_whitelisted_warning">更改了游戏主要文件或有缺陷隐患的MOD，在使用前需要提交审核。如果在未审核的情况下使用这些MOD，您将处于受限模式下进行游戏。\n\n在受限模式下，你的游戏不会被保存，持续性的功能(成就，排行榜，数据)被禁用。你只能加入和你的MOD设置完全相同的服务器进行游戏。\n\n默认状态下屏幕上只会显示审核通过的MOD，你可以使用页面下方的复选框来改变这一设置</string>
+
+  <string name="inventory_item_drop_title">你找到了一个 ...</string>
+  <string name="inventory_item_unpack_drop_title">你打开了 ...</string>
+  <string name="inventory_item_challenge_drop_title">挑战奖励</string>
+
+  <string name="inventory_item_drop_coins_name">%i 金币</string>
+  <string name="inventory_item_drop_coins_description">你想怎么花它们？</string>
+  <string name="inventory_item_drop_xp_name">%i 经验值</string>
+  <string name="inventory_item_drop_xp_description">你的技巧和能力越来越强了！</string>
+
+  <string name="no_user_assigned_to_input_device">没有角色分配给这个输入设备，无法编辑角色</string>
+
+  <string name="inventory_item_broken_title">[c=255,64,64]你的道具坏掉了 ...[/c]</string>
+  <string name="inventory_item_broken_sub">你可以尝试在游戏里或 Steam 市场获得坚不可摧的道具！</string>
+ 
+  <string name="unlock_dialog_title">[c=255,194,14,255]新道具 ...[/c]</string>
+
+  <string name="unlock_dialog_title_item_broken">[c=255,64,64,255]你的 %s 坏掉了 ...[/c]</string>
+  <string name="unlock_dialog_action_item_broken">[c=255,64,64,255]道具损坏[/c]</string>
+  <string name="unlock_dialog_description_item_broken">你可以在商店里买个新的，或在\n游戏内寻找坚不可摧的道具！</string>
+  
+  <string name="unlock_dialog_title_challenge">[c=255,194,14,255]你获得了一个 %s ...[/c]</string>
+  <string name="unlock_dialog_action_challenge">[c=255,194,14,255]挑战奖励[/c]</string>
+    
+  <string name="unlock_dialog_title_online">[c=255,194,14,255]你找到了一个 %s ...[/c]</string>
+  <string name="unlock_dialog_action_online">[c=255,194,14,255]STEAM 道具[/c]</string>
+  
+  <string name="unlock_dialog_title_item_unlocked">[c=255,194,14,255]你解锁了 %s ...[/c]</string>
+  <string name="unlock_dialog_action_item_unlocked">[c=255,194,14,255]道具解锁[/c]</string>
+  <string name="unlock_dialog_description_item_unlocked">%s\n你可以从商店购买它了！</string>
+  
+  <string name="unlock_dialog_title_skill_unlocked">[c=64,64,255,255]你解锁了 [c=255,194,14,255]%s[/c] ...[/c]</string>
+  <string name="unlock_dialog_action_skill_unlocked">[c=64,64,255,255]技能解锁[/c]</string>
+  <string name="unlock_dialog_description_skill_unlocked">%s\n你现在可以从技能界面购买它了！</string>
+  
+  <string name="unlock_dialog_title_unpack_xp">[c=64,64,255,255]你打开了 [c=255,194,14,255]%i[/c] 经验包裹 ...[/c]</string>
+  <string name="unlock_dialog_action_unpack_xp">[c=64,64,255,255]解包经验[/c]</string>
+  <string name="unlock_dialog_description_unpack_xp">是时候开始升级了！</string>
+  
+  <string name="unlock_dialog_title_unpack_coins">[c=64,64,255,255]你打开了 [c=255,194,14,255]%i[/c] 金币包裹 ...[/c]</string>
+  <string name="unlock_dialog_action_unpack_coins">[c=64,64,255,255]解包金币包[/c]</string>
+  <string name="unlock_dialog_description_unpack_coins">是时候花钱了！</string>
+  
+  <string name="unlock_dialog_title_unpack_item">[c=64,64,255,255]你解包了 %s ...[/c]</string>
+  <string name="unlock_dialog_action_unpack_item">[c=64,64,255,255]解包道具[/c]</string>
+  
+  <string name="menu_back">返回</string>
+  <string name="menu_begin">开始</string>
+  <string name="menu_cancel">取消</string>
+  <string name="menu_confirm">确认</string>
+  <string name="menu_refresh">刷新</string>
+  <string name="menu_continue">继续</string>
+  <string name="menu_combine">合并</string>
+  <string name="menu_apply_paint">使用油漆</string>
+  <string name="menu_cancel_combine">取消合并</string>
+  <string name="menu_equip">装备</string>
+  <string name="menu_unequip">卸下</string>
+  <string name="menu_unpack">打开</string>
+  <string name="menu_sell">售卖</string>
+  <string name="menu_upgrade">升级</string>
+  <string name="menu_yes">是</string>
+  <string name="menu_no">不</string>
+  <string name="menu_close">关闭</string>
+  <string name="menu_apply_changes">应用更变</string>
+  <string name="menu_back_description">返回上级菜单</string>
+  <string name="menu_gamepad_enter_text">输入文字</string>
+  <string name="menu_open_workshop">打开创意工坊</string>
+
+  <string name="menu_item_start">开始游戏</string>
+  <string name="menu_item_premium_account">升级账户</string>
+  <string name="menu_item_options">选项</string>
+  <string name="menu_item_global_chat">全球聊天</string>
+  <string name="menu_item_credits">制作名单</string>
+  <string name="menu_item_quit">退出</string>
+
+  <string name="tutorial_title">[c=34,177,76]教程[/c]</string>
+  <string name="tutorial_movement">使用 [key=left][key=up][key=down][key=right] 来移动你的角色.</string>
+  <string name="tutorial_shoot">按下 [key=fire] 键射击</string>
+  <string name="tutorial_reload">使用 [key=reload] 键主动装填</string>
+  <string name="tutorial_strafe">按住 [key=strafe] 在移动中锁定你的角色朝向，这相当重要！</string>
+  <string name="tutorial_cycle_weapons">使用 [key=WeaponCycleBackward][key=WeaponCycleForward] 键切换武器</string>
+  <string name="tutorial_fodder_zombies">如果你站在蓝色僵尸的视野之外他们是不具备攻击性的</string>
+  <string name="tutorial_chaser_zombies">绿色僵尸成群的时候很危险，它们会试图用尸海战术淹没你</string>
+  <string name="tutorial_explosive_zombies">爆炸僵尸可以吸收大量子弹，在近距离时会造成大量伤害</string>
+  <string name="tutorial_large_blobby_zombies">大型球状僵尸会喷出毒雾，并且在承受一定伤害后会分裂</string>&gt;
+  <string name="tutorial_small_blobby_zombies">小型球状僵尸移动缓慢，但是要小心它们喷出的毒雾</string>
+  <string name="tutorial_bouncer_zombies">弹跳僵尸移动缓慢，但它们跳起来时撞人非常狠</string>
+  <string name="tutorial_floater_zombies">飞行僵尸会向你喷射血球，很疼！</string>
+  <string name="tutorial_alt_fire">有些武器有副开火模式，你可以通过 [key=altfire] 键来激活它</string>
+  <string name="tutorial_gems">使用 [key=SkillSlot1][key=SkillSlot2][key=SkillSlot3] 键消耗宝石来激活已解锁的主动技能</string>
+  <string name="tutorial_coins">金币可以用来在商店购买新的道具和能力，全部买下来！</string>
+  <string name="tutorial_interact">使用 [key=interact] 键来和物体互动，注意金色的箭头</string>
+  <string name="tutorial_sprint">如果你有足够多的体力，你可以使用 [key=sprint] 键冲刺以脱离危险</string>
+
+  <string name="minimap_title">地牢 - Level %i</string>
+  <string name="minimap_controls">使用 [key=left][key=up][key=down][key=right] 键移动</string>
+
+  <string name="message_pickup_gem_title">[c=34,177,76]收集物品[/c]</string>
+  <string name="message_pickup_gem">你捡起了一个 [c=34,177,76]%s[/c]，它现在在你的物品栏里了</string>
+
+  <string name="message_pickup_gem_sold_title">[c=235,152,152]物品栏已满[/c]</string>
+  <string name="message_pickup_gem_sold">你卖掉了 [c=34,177,76]%s[/c]，获得了 [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]</string>
+
+  <string name="message_inventory_full_title">[c=235,152,152]物品栏已满[/c]</string>
+  <string name="message_inventory_full">你的物品栏满了！拾取到的物品将被自动售卖</string>
+
+  <string name="message_wallet_full_title">[c=235,152,152]钱包已满[/c]</string>
+  <string name="message_wallet_full">你的钱包满了！拾取的钱将不再能被保存</string>
+
+
+  <string name="scoreboard_column_coins">金币</string>
+  <string name="scoreboard_column_kills">击杀</string>
+  <string name="scoreboard_column_captures">夺取</string>
+  <string name="scoreboard_column_deaths">死亡</string>
+  <string name="scoreboard_column_revives">复活队友</string>
+  <string name="scoreboard_title_eliminate_threat">消除威胁！</string>
+  <string name="scoreboard_title_survive">活下去！</string>
+  <string name="scoreboard_title_follow_objectives">遵循目标！</string>
+  <string name="scoreboard_title_kill_everything">杀掉所有会动的东西！</string>
+  <string name="scoreboard_title_first_to_n">First to %i Kills!</string>
+  <string name="scoreboard_title_capture_the_bag">夺取包裹！</string>
+  <string name="scoreboard_title_find_the_exit">找到出口！</string>
+
+  <string name="scoreboard_team_humans">人类</string>
+  <string name="scoreboard_team_red">红队</string>
+  <string name="scoreboard_team_blue">蓝队</string>
+  <string name="scoreboard_team_green">绿队</string>
+  <string name="scoreboard_team_yellow">黄队</string>
+
+  <string name="hud_boss_whipper_intro_text">[c=255,194,14,255]鞭笞者出现！[/c]</string>
+  <string name="hud_boss">[c=255,14,14]BOSS[/c]</string>
+  <string name="hud_free_camera">自由视角</string>
+  <string name="hud_spectating">旁观 - [c=0,200,200,255]%s[/c]</string>
+  <string name="hud_cycle_cameras">按下 [key=fire] 键切换视角</string>
+  <string name="hud_cycle_cameras_demo_pause">%02i:%02i - %02i:%02i [key=fire] 视角 [key=interact] 暂停 [key=altfire] 重新开始 [key=left][key=right] 慢动作</string>
+  <string name="hud_cycle_cameras_demo_resume">%02i:%02i - %02i:%02i [key=fire] 视角 [key=interact] 恢复 [key=altfire] 重新开始 [key=left][key=right] 慢动作</string>
+  <string name="hud_being_revived">正在被队友 [c=0,200,200,255]%s[/c] 复活</string>
+  <string name="hud_press_to_control_zombie">按下 [key=interact] 键控制僵尸</string>
+  <string name="hud_press_to_control_zombie_waiting">等待可用僵尸 ...</string>
+
+  <string name="game_over_coins_earnt">[c=255,194,14,255]获得金币[/c]</string>
+  <string name="game_over_coins_earnt_value_format">[img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]</string>
+  <string name="game_over_skill_points_earnt">[c=0,200,200,255]获得技能点[/c]</string>
+  <string name="game_over_skill_points_earnt_value_format">[img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c]</string>
+
+  <string name="leaderboad_auto_map">最高分 - %s</string>
+
+  <string name="profile_stat_name_wallet_interest">Wallet Interest</string>
+  <string name="profile_stat_name_max_health">最大生命值</string>
+  <string name="profile_stat_name_health_regen">生命回复</string>
+  <string name="profile_stat_name_speed">移动速度</string>
+  <string name="profile_stat_name_ammo_capacity">弹药量</string>
+  <string name="profile_stat_name_ammo_regen">弹药量恢复</string>
+  <string name="profile_stat_name_gold_drop">金币掉率</string>
+  <string name="profile_stat_name_gold_magnet">金币拾取范围</string>
+  <string name="profile_stat_name_buy_price">道具购买价格</string>
+  <string name="profile_stat_name_sell_price">道具出售价格</string>
+  <string name="profile_stat_name_gem_drop">宝石掉率</string>
+  <string name="profile_stat_name_gem_magnet">宝石拾取范围</string>
+  <string name="profile_stat_name_xp">经验获取</string>
+  <string name="profile_stat_name_melee_damage">肉搏伤害</string>
+  <string name="profile_stat_name_melee_stamina">体力</string>
+  <string name="profile_stat_name_rifle_damage">步枪伤害</string>
+  <string name="profile_stat_name_rifle_ammo">步枪弹药量</string>
+  <string name="profile_stat_name_heavy_weapon_damage">重型武器伤害</string>
+  <string name="profile_stat_name_heavy_weapon_ammo">重型武器弹药量</string>
+  <string name="profile_stat_name_explosion_radius">爆炸范围</string>
+  <string name="profile_stat_name_enemy_status_duration">敌人状态持续时间</string>
+  <string name="profile_stat_name_turret_damage">炮台伤害</string>
+  <string name="profile_stat_name_turret_ammo">炮台弹药量</string>
+  <string name="profile_stat_name_small_arms_damage">轻型武器伤害</string>
+  <string name="profile_stat_name_small_arms_ammo">轻型武器弹药量</string>
+  <string name="profile_stat_name_buff_grenade_radius">增益手雷范围</string>
+  <string name="profile_stat_name_buff_grenade_ammo">增益手雷弹药量</string>
+  <string name="profile_stat_name_ghost_life_time">幽灵状态持续时间</string>
+  <string name="profile_stat_name_ghost_revive_time">幽灵状复活速度</string>
+  <string name="profile_stat_name_healing_speed">恢复速度</string>
+  <string name="profile_stat_name_damage">伤害</string>
+  <string name="profile_stat_name_damage_taken">伤害抵抗</string>
+  <string name="profile_stat_name_rate_of_fire">射击频率</string>
+  <string name="profile_stat_name_reload_speed">装填速度</string>
+  <string name="profile_stat_name_ammo_usage">弹药使用</string>
+  <string name="profile_stat_name_targetable">可命中</string>
+
+  <string name="item_stat_negative">[c=220,60,70]%s%% %s[/c]</string>
+  <string name="item_stat_positive">[c=60,220,70]%s%% %s[/c]</string>
+  
+  <string name="video_skip">跳过</string>
+
+  <string name="game_over_level_complete_title">LEVEL COMPLETE</string>
+  <string name="game_over_title">GAME OVER</string>
+  <string name="game_over_restart_text">%i 秒后重开...</string>
+  <string name="game_over_continue_text">%i 秒后继续...</string>
+  <string name="game_over_waiting_for_cutscenes">等待玩家过场动画 ...</string>
+  <string name="game_over_bonus_base">队伍分数</string>
+  <string name="game_over_bonus_round">回合奖励</string>
+  <string name="game_over_bonus_time">时间奖励</string>
+  <string name="game_over_bonus_multiplier">倍数奖励</string>
+  <string name="game_over_bonus_pity">营救奖励</string>
+  <string name="game_over_bonus_kills">击杀奖励</string>
+  <string name="game_over_bonus_revives">复活奖励</string>
+  <string name="game_over_bonus_dungeon_level">地牢等级奖励</string>
+
+  <string name="prompt_price_postfix">" 需要 [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%i[/c]"</string>
+  <string name="ghost_revive_prompt">[key=interact] 键复活</string>
+  <string name="press_button_prompt">[key=interact] 键按下</string>
+  <string name="fill_ammo_prompt">[key=interact] 键装填弹药</string>
+  <string name="move_prompt">[key=interact] 键移动</string>
+  <string name="place_prompt">[key=interact] 键放置</string>
+  <string name="pickup_prompt">[key=interact] 键捡起</string>
+  <string name="rebuild_prompt">[key=interact] 键重建</string>
+  <string name="buy_generic_prompt">[key=interact] 键购买 %s</string>
+  <string name="buy_open_prompt">[key=interact] 键打开</string>
+  <string name="interact_prompt">[key=interact] 键互动</string>
+  <string name="interact_map_prompt">[key=interact] 键查看地图</string>
+  <string name="buy_close_prompt">[key=interact] 键关闭</string>
+  <string name="buy_health_prompt">[key=interact] 键购买 %s (+ %i HP)</string>
+  <string name="buy_armour_prompt">[key=interact] 键购买 %s (+ %i Armor)</string>
+  <string name="save_survivor_prompt">[key=interact] 键营救</string>
+  <string name="pet_cucco_prompt">[key=interact] 键喂养</string>
+  <string name="descend_prompt">[key=interact] 键下降</string>
+  <string name="item_soda_name">汽水</string>
+  <string name="item_food_name">食物</string>
+
+  <string name="not_enough_coins_prompt">你还需要 [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%i[/c]</string>
+
+  <string name="objective_push_the_button">按下按钮！</string>
+  <string name="objective_get_to_the_mall">去商场！</string>
+  <string name="objective_mall_closed_find_another_path">商场关闭了，另找一条路！</string>
+  <string name="objective_mall_find_entrance">找到商场入口</string>
+  <string name="objective_hold_out">坚持 %s！</string>
+
+  <string name="objective_load_up_at_gun_shop">带到枪店去！</string>
+  <string name="objective_get_to_mall_back">返回商场！</string>
+  <string name="objective_find_game_shop">寻找电子游戏！</string>
+  <string name="objective_escape_mall">逃离商场！</string>
+  <string name="objective_find_a_key">门锁住了，寻找钥匙！</string>
+
+  <string name="objective_find_transport">寻找运输站！</string>
+
+  <string name="menu_mod_options_title">.Steam 创意工坊</string>
+  <string name="menu_mod_options_apply">重启游戏以应用MOD订阅的内容</string>
+  <string name="menu_view_workshop">使用Steam浏览</string>
+  <string name="menu_mod_preview">预览</string>
+  <string name="menu_mod_name">名称</string>
+  <string name="menu_mod_author">作者</string>
+  <string name="menu_mod_not_subscribed">没有已订阅的MOD</string>
+
+  <string name="menu_mod_restart_dialog">订阅的MOD将在下次启动游戏时生效</string>
+
+  <string name="menu_mod_subscribe">订阅</string>
+  <string name="menu_mod_unsubscribe">取消订阅</string>
+  <string name="menu_mod_favorite">收藏</string>
+  <string name="menu_mod_unfavorite">取消收藏</string>
+  <string name="menu_mod_view_on_steam">在Steam上查看</string>
+  <string name="menu_mod_vote_up">顶</string>
+  <string name="menu_mod_vote_down">踩</string>
+  <string name="menu_mod_vote_text">[c=80,255,80]%i[/c] / [c=255,80,80]%i[/c]</string>
+
+  <string name="menu_report_player_confirm_dialog">你的报告正在上传，现在可以继续进行游戏。在右边的图标消失前请不要关闭游戏</string>
+
+  <string name="menu_report_player_title">.报告作弊</string>
+  <string name="menu_report_player_description">你可以使用这个工具来向开发者报告那些滥用BUG，作弊或辱骂其他人的玩家。当你提交一个报告后，你最近几次的游戏记录和你提供的信息将会被上传，这些信息将被审查并处理。胡乱使用这工具会浪费你的举报次数并可能导致暂时被BAN，请在正确的场合使用它</string>
+  <string name="menu_report_player_explanation_title">描述:</string>
+  <string name="menu_report_player_timeline_title">时段:</string>
+  <string name="menu_report_player_player_title">玩家:</string>
+
+  <string name="menu_report_player_timeline_5min">5 分钟</string>
+  <string name="menu_report_player_timeline_10min">10 分钟</string>
+  <string name="menu_report_player_timeline_15min">15+ 分钟</string>  
+  <string name="menu_report_player_timeline_30min">30 分钟</string>
+  <string name="menu_report_player_timeline_1hr">1 小时+</string>
+  
+  <string name="menu_report_player_send_report">发送报告</string>
+  <string name="menu_report_player_type_title">分类:</string>
+  <string name="menu_report_player_exploit">滥用BUG (滥用游戏缺陷)</string>
+  <string name="menu_report_player_cheat">作弊 (在游戏内使用第三方作弊软件)</string>
+  <string name="menu_report_player_abusive">辱骂 (故意让人不愉快的行为)</string>
+  <string name="menu_report_player_griefing">挑衅 (找架)</string>
+  
+  <string name="menu_server_browser_title">.服务器浏览</string>
+  <string name="menu_server_browser_dedicated_label">[c=0,200,255,255]这个颜色[/c] = 专用服务器</string>
+  <string name="menu_server_browser_user_label">[c=255,255,255,255]这个颜色[/c] = 玩家服务器</string>
+  <string name="menu_server_browser_name_column">名称</string>
+  <string name="menu_server_browser_map_column">地图</string>
+  <string name="menu_server_browser_players_column">玩家数</string>
+  <string name="menu_server_browser_ping_column">Ping</string>
+  <string name="menu_server_browser_source_internet">互联网服务器</string>
+  <string name="menu_server_browser_source_lan">局域网服务器</string>
+  <string name="menu_server_browser_source_friends">好友服务器</string>
+  <string name="menu_server_browser_source_favorites">收藏服务器</string>
+  <string name="menu_server_browser_source_history">服务器历史记录</string>
+
+  <string name="menu_connecting_to_server">正在连接服务器 ...</string>
+
+  <string name="connect_overlay_error">连接中断 (%.1f s) ...</string>
+
+  <string name="menu_starting_local_server">正在开启本地服务器 ...</string>
+
+  <string name="menu_rank_stats_title">.排名和统计</string>
+  
+  <string name="menu_game_setup_title">.游戏设置</string>
+  <string name="menu_game_setup_find_game">寻找游戏</string>
+  <string name="menu_game_setup_find_game_any_map">任何地图</string>
+  <string name="menu_game_setup_quick_game">快速游戏</string>
+  <string name="menu_game_setup_host_game">创建游戏</string>
+  <string name="menu_game_setup_browse_servers">浏览服务器</string>
+  <string name="menu_game_setup_moderation">Moderation</string>
+  <string name="menu_game_setup_ranks">排名 / 统计</string>
+  <string name="menu_game_setup_find_game_description">自动加入最符合你的要求的游戏</string>
+  <string name="menu_game_setup_quick_game_description">快速加入首个找到的游戏</string>
+  <string name="menu_game_setup_host_game_description">使用你的设定创建一个新的游戏，然后邀请你的朋友或公开游戏让其他玩家加入</string>
+  <string name="menu_game_setup_browse_servers_description">浏览所有正在运行的服务器，然后选择一个加入</string>
+  <string name="menu_game_setup_inventory_description">装备不同的初始道具，升级技能树；是你的角色更具个性！</string>
+  <string name="menu_game_setup_global_chat_description">与其他正在游戏中的玩家交谈！你也可以调整这里使全球聊天能在游戏里显示</string>
+  <string name="menu_game_setup_achievements_description">查看你在游戏中获得的成就</string>
+  <string name="menu_game_setup_leaderboards_description">查看你在不同地图中的全球排名</string>
+  <string name="menu_game_setup_back_description">返回玩家登陆菜单</string>
+
+  <string name="menu_game_setup_challenge_daily">每日挑战</string>
+  <string name="menu_game_setup_challenge_weekly">每周挑战</string>
+  <string name="menu_game_setup_challenge_monthly">每月挑战</string>
+  <string name="menu_game_setup_challenge_completed">已完成</string>
+  <string name="menu_game_setup_challenge_time_remaining">剩余时间: %02id %02ih %02im %02is</string>
+  <string name="menu_game_setup_challenge_rewards">奖励</string>
+  <string name="daily_challenge_completed_description">你已完成每日挑战，返回菜单查看你的奖励！</string>
+  <string name="weekly_challenge_completed_description">你已完成每周挑战，返回菜单查看你的奖励！</string>
+  <string name="monthly_challenge_completed_description">你已完成每月挑战，返回菜单查看你的奖励！</string>
+  <string name="daily_challenge_completed_name">[c=152,152,235]每日挑战完成[/c]</string>
+  <string name="weekly_challenge_completed_name">[c=152,152,235]每周挑战完成[/c]</string>
+  <string name="monthly_challenge_completed_name">[c=152,152,235]每月挑战完成[/c]</string>
+
+  <string name="challenge_1hp_survival_description">1点生命值，不能使用技能和手枪，获得 %i 分，地图: %s</string>
+  <string name="challenge_hp_bullets_description">你的子弹就是你的生命，获得 %i 分，地图: %s</string>
+  <string name="challenge_hp_movement_description">移动会损失生命值，静止时恢复生命值，获得 %i 分，地图: %s</string>
+  <string name="challenge_max_multiplier_description">获得 %i 分数倍率，地图: %s</string>
+  <string name="challenge_max_score_description">获得 %i 分，地图: %s</string>
+  <string name="challenge_max_waves_description">达到 %i 波，地图: %s</string>
+  <string name="challenge_bullets_fired_description">射出 %i 发子弹</string>
+  <string name="challenge_zombie_kills_description">击杀 %i 个敌人</string>
+  <string name="challenge_pvp_kills_description">击杀 %i 名玩家</string>
+  <string name="challenge_revive_players_description">复活 %i 名玩家</string>
+  <string name="challenge_heal_players_description">恢复其他玩家共 %i 点生命值</string>
+  <string name="challenge_weapon_switch_description">每十秒切换一次武器，达到 %i 波，地图: %s</string>
+  <string name="challenge_reversed_controls_description">你的控制反转了，达到 %i 波，地图: %s</string>
+  <string name="challenge_boxes_destroyed_description">摧毁 %i 个箱子</string>
+  <string name="challenge_modded_map_description">和其他玩家一起玩一局MOD地图</string>
+  <string name="challenge_pvp_top_place_description">以第一名的成绩完成 %i 个PVP地图</string>
+  <string name="challenge_halloween_description">收集1,000块玉米糖完成吓人鬼的挑战！</string>
+
+  <string name="challenge_halloween_announce_name">吓人鬼向你发起挑战！</string>
+  <string name="challenge_halloween_announce_description">吓人鬼向你发起了万圣节寻宝的挑战！ 帮他找到1,000块玉米糖，他会奖励你一个吓人的惊喜！</string>
+    
+  <string name="challenge_weapon_kills_description">造成 %i 点伤害，武器: %s</string>
+  <string name="challenge_weapon_sub_type_melee">肉搏</string>
+  <string name="challenge_weapon_sub_type_heavy">重型武器</string>
+  <string name="challenge_weapon_sub_type_turret">炮塔</string>
+  <string name="challenge_weapon_sub_type_small_arms">轻型武器</string>
+  <string name="challenge_weapon_sub_type_rifle">步枪</string>
+  <string name="challenge_weapon_sub_type_grenade">手雷</string>
+
+  <string name="challenge_to_many_local_users">挑战地图只能由单人用户进行 请登出其他用户再试一次</string>
+
+  <string name="menu_options_title">.选项</string>
+  <string name="menu_options_input">按键绑定</string>
+  <string name="menu_options_audio">音效</string>
+  <string name="menu_options_graphics">图像</string>
+  <string name="menu_options_gameplay">游戏设定</string>
+  <string name="menu_options_misc">杂项</string>
+  <string name="menu_options_mod">Steam 创意工坊</string>
+  <string name="menu_options_resolution_change_confirm">请确认分辨率正确无误 %i 秒后返回之前的分辨率...</string>
+  <string name="menu_options_input_press_bind_key">请按下你希望为这动作绑定的按键</string>
+  <string name="menu_options_input_description">重新绑定游戏操作到您自己的偏好 我们完全支持键盘，鼠标和游戏手柄</string>
+  <string name="menu_options_audio_description">改变游戏的音效设定 音乐、音效和音量等</string>
+  <string name="menu_options_graphics_description">改变游戏的渲染设定 分辨率和逼真度等</string>
+  <string name="menu_options_gameplay_description">改变游戏的内容设定 屏幕晃动和互动箭头等</string>
+  <string name="menu_options_misc_description">改变游戏的其他设定 语言和 Steam 设置等</string>
+  <string name="menu_options_mod_description">探索，安装和卸载其他用户创建的内容 基于 Steam 创意工坊</string>
+  <string name="menu_options_credits_description">查看游戏的制作人员的名字！</string>
+  <string name="menu_options_back_description">返回且不保存更改</string>
+  <string name="menu_options_apply_description">应用更改</string>
+  
+  <string name="menu_options_gameplay_title">.游戏设定</string>
+  <string name="menu_options_gameplay_screen_shake">启用屏幕晃动</string>
+  <string name="menu_options_gameplay_interaction_arrows">显示互动箭头</string>
+  <string name="menu_options_gameplay_interaction_messages">显示互动信息</string>
+  <string name="menu_options_gameplay_occluding_objects">物体遮挡透明</string>
+  <string name="menu_options_gameplay_input_to_pickup">拾取道具需按键</string>
+  <string name="menu_options_gameplay_fire_when_aiming">瞄准时自动射击</string>
+  <string name="menu_options_gameplay_show_numeric_stats">显示状态数值</string>
+  
+  <string name="menu_options_gameplay_screen_shake_description">在爆炸附近或射击某些武器时晃动屏幕</string>
+  <string name="menu_options_gameplay_interaction_arrows_description">在可互动的物体上显示箭头</string>
+  <string name="menu_options_gameplay_interaction_messages_description">当靠近可互动物体时在HUD显示消息</string>
+  <string name="menu_options_gameplay_occluding_objects_description">当物体遮挡玩家时变成半透明</string>
+  <string name="menu_options_gameplay_input_to_pickup_description">玩家需要使用互动键才能够拾取道具，而不是走过就能拾取</string>
+  <string name="menu_options_gameplay_fire_when_aiming_description">使用 瞄准/朝向 键时自动射击，类似经典的双杆射击游戏(例如以撒)</string>
+  <string name="menu_options_gameplay_show_numeric_stats_description">为生命值、体力值、经验值等状态显示数字</string>
+
+  <string name="menu_options_misc_title">.杂项设定</string>
+  <string name="menu_options_misc_language_text">语言</string>
+  <string name="menu_options_misc_notification_text">Steam 通知栏位置</string>
+
+  <string name="menu_options_audio_title">.音效设置</string>
+  <string name="menu_options_audio_bgm_text">背景音乐音量</string>
+  <string name="menu_options_audio_sfx_text">音效音量</string>
+  <string name="menu_options_audio_voice_recv_text">语音音量</string>
+  <string name="menu_options_audio_voice_send_text">麦克风音量</string>
+  <string name="menu_options_audio_voice_enabled_text">启用语音聊天</string>
+  <string name="menu_options_audio_voice_push_to_talk_enabled_text">按键交谈</string>
+
+  <string name="menu_options_input_title">.输入设置</string>
+  <string name="menu_options_input_gamepad_dead_zone">手柄灵敏度</string>
+  <string name="menu_options_input_column_1">动作</string>
+  <string name="menu_options_input_column_2">键盘</string>
+  <string name="menu_options_input_column_3">手柄</string>
+
+  <string name="menu_options_graphics_title">.图像设置</string>
+  <string name="menu_options_graphics_resolution">分辨率:</string>
+  <string name="menu_options_graphics_mode">显示模式:</string>
+  <string name="menu_options_graphics_quality">渲染密度:</string>
+  <string name="menu_options_graphics_advanced_settings">高级设置</string>
+  <string name="menu_graphics_resolution_description">分辨率决定的游戏窗口的尺寸</string>
+  <string name="menu_graphics_mode_description">显示模式决定游戏窗口的显示方式</string>
+  <string name="menu_graphics_quality_description">这选项可以调整全局范围的游戏渲染质量、颗粒效果等，降低它可以帮助提高FPS.</string>
+  <string name="menu_graphics_advanced_description">更多更详细的图像设置</string>
+
+  <string name="menu_options_advanced_graphics_title">.详细图像设置</string>
+  <string name="menu_options_advanced_graphics_vsync">启用垂直同步</string>
+  <string name="menu_options_advanced_graphics_hq2x">启用平滑过滤</string>
+  <string name="menu_options_advanced_graphics_shaders">启用后期处理</string>
+  <string name="menu_options_advanced_graphics_distortion">启用扭曲效果</string>
+  <string name="menu_options_advanced_graphics_legacy">使用固定渲染效果</string>
+  <string name="menu_options_advanced_graphics_perf_overlay">显示性能状态</string>
+  <string name="menu_options_advanced_graphics_extended_perf_overlay">显示扩展性能状态</string>
+  <string name="menu_options_advanced_graphics_vsync_description">垂直同步可以将游戏框架频率锁定为你的屏幕刷新频率，这可以放置屏幕撕裂以及一些其他的图像问题</string>
+  <string name="menu_options_advanced_graphics_hq2x_description">" 平滑过滤可以使像素在放大为高分辨率后看起来更平滑 不过依然很粗糙，努力改善中！ "</string>
+  <string name="menu_options_advanced_graphics_shaders_description">后期处理用于提升全屏特效，比如角色快挂掉的时候的灰度效果</string>
+  <string name="menu_options_advanced_graphics_distortion_description">扭曲效果用来生成爆炸和火焰周围产生的波纹，这对低端图形处理硬件来说很费力</string>
+  <string name="menu_options_advanced_graphics_perf_overlay_description">在游戏中显示帧率等信息，对非开发者不太有用</string>
+  <string name="menu_options_advanced_graphics_extended_perf_overlay_description">更详细的性能信息，对非开发者不太有用</string>
+  <string name="menu_options_advanced_graphics_legacy_description">使用固定渲染管线 ，这将导致大多数图像效果都被禁用。只应该在GPU功效很低或不被支持时使用</string>
+  <string name="menu_options_advanced_graphics_legacy_description_forced">使用固定渲染管线 ，这将导致大多数图像效果都被禁用。只应该在GPU功效很低或不被支持时使用 [c=255,64,64,255]警告: 你的GPU不被支持[/c]</string>
+
+  <string name="legacy_rendering_notice">[c=255,64,64,255]警告: 您的GPU不被支持[/c] 您的显卡不能支持游戏内采用的一些效果，为了保证游戏正常运行将开启固定渲染模式，除了基础渲染以外的其他效果都被禁用了 如果您使用的不是集成显卡，且是五年内的型号，请告知我们 (twindrills.com) 这可能是我们的失误</string>
+
+
+  <string name="menu_player_login_title">.控制器分配</string>
+  <string name="menu_player_login_guest_name">Guest</string>
+  <string name="menu_player_login_press_to_join">[key=gui_input_select,joystick]</string>
+  <string name="menu_player_login_press_to_join_first_player">[key=gui_input_select,keyboard] 或 [key=gui_input_select,joystick]</string>
+  <string name="menu_player_login_keyboard">[c=255,255,255]键盘[/c]</string>
+  <string name="menu_player_login_joystick">[c=255,255,255]控制器 %i[/c]</string>
+
+  <string name="menu_select_character_title">.选择角色</string>
+  <string name="menu_select_character_new_character">&lt; 新建角色 &gt;</string>
+  <string name="menu_select_character_level">Level %i</string>
+  <string name="menu_select_character_select">选择角色</string>
+  <string name="menu_select_character_delete">删除角色</string>
+  <string name="menu_select_character_create">新建角色</string>
+  <string name="menu_select_character_confirm_delete">你确定要删除这角色么？</string>
+  <string name="menu_select_character_untitled_name">未命名角色</string>
+  <string name="menu_select_character_confirm_untitled">你确定要使用默认的角色名么？</string>
+
+  <string name="matching_error_internal_error">网络错误导致匹配被中止</string>
+  <string name="matching_error_invalid_state">匹配系统传入了无效状态，无法完成操作</string>
+  <string name="matching_error_offline">无法连接到匹配服务器</string>
+  <string name="matching_error_timeout">匹配超时</string>
+  <string name="matching_error_access_denied">匹配系统拒绝访问，无法完成操作</string>
+  <string name="matching_error_limit_exceeded">匹配频率超过系统限制，无法完成操作</string>
+  <string name="matching_error_kicked">你已经被踢出了游戏</string>
+  <string name="matching_error_map_not_found">你没有安装该房间所使用的地图</string>
+  <string name="matching_error_no_lobby_matches">未找到符合您的需求的房间</string>
+
+  <string name="matching_error_dosent_exist">该游戏已经不存在了</string>
+  <string name="matching_error_no_permission">你没有权限加入这个游戏</string>
+  <string name="matching_error_full">游戏房间已满</string>
+  <string name="matching_error_banned">你已经被BAN了</string>
+  <string name="matching_error_clan_disabled">家族不可用</string>
+  <string name="matching_error_community_lock">你的账户被社区锁定了</string>
+  <string name="matching_error_blocked_by_member">游戏内的某玩家屏蔽了你</string>
+  <string name="matching_error_contains_blocked_member">游戏内有你屏蔽的玩家</string>
+
+  <string name="net_error_internal_error">内部异常导致连接中断</string>
+  <string name="net_error_unavailable">无法连接，服务器不可用</string>
+  <string name="net_error_timeout">连接超时</string>
+  <string name="net_error_wrong_version">当前游戏版本和服务器所用版本不一致</string>
+  <string name="net_error_server_full">服务器已满</string>
+  <string name="net_error_server_premium">该服务器是高级用户专用服务器</string>
+  <string name="net_error_banned">你已经被此服务器BAN了</string>
+  <string name="net_error_kicked">你被踢出了服务器</string>
+  <string name="net_error_lost_connection">你丢失了服务器的连接</string>
+  <string name="net_error_duplicate_connection">你已经在服务器里了，服务器拒绝连接</string>
+  <string name="net_error_tranmission_error">连接关闭，数据格式错误</string>
+  <string name="net_error_server_reserved">该服务器是大厅专用服务器</string>
+  <string name="net_error_invalid_ticket">认证证书无效，服务器拒绝连接</string>
+  <string name="net_error_client_mod_missmatch">你缺少了一些该服务器正在使用的MOD(或MOD版本与服务器所使用的不同)。 缺失MOD: %s</string>
+  <string name="net_error_server_mod_missmatch">服务器缺少一些你当前正在使用的MOD(或MOD版本与服务器所使用的不同)。 缺失MOD: %s</string>
+
+  <string name="online_platform_error_offline">没有连接到在线平台</string>
+  <string name="online_platform_feature_not_available_offline">你没有连接到 Steam 或互联网 该功能在离线模式下不可用</string>
+  <string name="online_platform_feature_offline_lobby">该大厅是在离线模式下创建的 为了使用该功能，请联网并重新创建大厅</string>
+
+  <string name="game_mode_prefix_name_ctb">夺取包裹</string>
+  <string name="game_mode_prefix_name_arena">竞技场</string>
+  <string name="game_mode_prefix_name_wave">波次防御</string>
+  <string name="game_mode_prefix_name_ru">把他们吊起来</string>
+  <string name="game_mode_prefix_name_tdm">团队死亡竞赛</string>
+  <string name="game_mode_prefix_name_dm">死亡竞赛</string>
+  <string name="game_mode_prefix_name_dc">随机地牢</string>
+  <string name="game_mode_prefix_name_gg">武器竞赛</string>
+  <string name="game_mode_prefix_name_ggwave">武器竞赛 - 波次防御</string>
+  <string name="game_mode_prefix_name_c1">战役 - 新游戏</string>
+  <string name="game_mode_prefix_name_misc">其他</string>
+
+  <string name="host_game_game_mode_name_label">游戏模式:</string>
+  <string name="host_game_map_name_label">地图:</string>
+  <string name="host_game_map_player_count_label">玩家数量:</string>
+  <string name="host_game_map_private_game">非开放游戏</string>
+  <string name="host_game_map_secure_game">VAC 反作弊</string>
+  <string name="host_game_map_host_game">创建游戏</string>
+  <string name="host_game_setting_up_server">游戏设置中 ...</string>
+
+  <string name="find_game_game_mode_name_label">游戏模式:</string>
+  <string name="find_game_map_name_label">地图:</string>
+  <string name="find_game_map_join_games_in_progress">加入已经开始的游戏</string>
+  <string name="find_game_map_join_lobbies">加入大厅</string>
+  <string name="find_game_map_find_game">寻找游戏</string>
+  <string name="find_game_finding_game">游戏寻找中 ...</string>
+
+  <string name="lobby_change_settings">设置</string>
+  <string name="lobby_start_game">开始</string>
+  <string name="lobby_cancel_start">取消</string>
+  <string name="lobby_invite">邀请</string>
+  <string name="lobby_leave_game">离开</string>
+  <string name="lobby_title">.大厅</string>
+  <string name="lobby_number_of_players">%i 玩家</string>
+  <string name="lobby_vac_secure">VAC 反作弊</string>
+  <string name="lobby_vac_insecure">无 VAC 反作弊</string>
+  <string name="lobby_private_game">非开放游戏</string>
+  <string name="lobby_public_game">开放游戏</string>
+  <string name="lobby_member_joined_lobby">[c=152,193,235,255]%s 加入了大厅[/c]</string>
+  <string name="lobby_member_left_lobby">[c=152,193,235,255]%s 离开了大厅[/c]</string>
+  <string name="lobby_member_searching_server">[c=152,193,235,255]寻找游戏服务器中[/c]</string>
+  <string name="lobby_member_search_server_cancel">[c=152,193,235,255]寻找取消[/c]</string>
+  <string name="lobby_member_search_server_found">[c=152,193,235,255]服务器已找到，正在开始游戏[/c]</string>
+  <string name="lobby_member_search_no_server_found">[c=152,193,235,255]没有可用服务器，从本地创建服务器，游戏开始[/c]</string>
+  <string name="lobby_member_search_no_local_server">[c=152,193,235,255]无法创建本地服务器[/c]</string>
+  <string name="lobby_member_open_slot">[c=128,128,128,128]打开槽位[/c]</string>
+  <string name="lobby_member_owner_postfix">[c=255,64,64,128](Leader)[/c]</string>
+  <string name="lobby_kick_player">踢出玩家</string>
+  <string name="lobby_view_profile">查看概况</string>
+  <string name="lobby_custom_map">自定义地图</string>
+
+  <string name="map_load_waiting_for_server">等待服务器指令</string>
+  <string name="map_load_loading_map">载入地图</string>menu_game_setup_inventory_description
+  <string name="map_load_sending_client_info">发送客户端信息</string>
+  <string name="map_load_sync_with_server">与服务器同步</string>
+  <string name="map_load_error_unknown_map">您没有安装此服务器使用的地图</string>
+  <string name="map_load_error_failed_load">地图已找到，但由于内部原因无法加载</string>
+  <string name="map_load_error_unknown_map_workshop">服务器使用了由玩家创建的地图，请在 Steam 创意工坊 订阅后再加入此服务器</string>
+
+  <string name="sub_menu_copyright">Version {GAME_VERSION} - Copyright TwinDrills 2009-2015</string>
+  <string name="sub_menu_server_name">[c=0,200,200,255]%s[/c] - 创建者 %s</string>
+  <string name="sub_menu_global_chat_button_text">全球聊天</string>
+  <string name="sub_menu_inventory_button_text">编辑角色</string>
+  <string name="sub_menu_vote_button_text">投票/举报</string>
+  <string name="sub_menu_team_button_text">改变队伍</string>
+  <string name="sub_menu_achievements_button_text">成就</string>
+  <string name="sub_menu_leaderboards_button_text">排行榜</string>
+  <string name="sub_menu_statistics_button_text">统计</string>
+  <string name="sub_menu_exit_button_text">退出到菜单</string>
+
+  <string name="menu_global_chat_pipe_checkbox">在游戏中显示全球聊天</string>
+  <string name="menu_global_chat_online_label">当前有 %i 在全球聊天频道里</string>
+  <string name="menu_global_chat_title">.全球聊天</string>
+
+  <string name="menu_inventory_not_available_in_pvp">[c=200,32,32]PVP中不可用[/c]</string>
+  <string name="menu_inventory_title">.编辑角色</string>
+  <string name="menu_inventory_voice_type">声音类型</string>
+  <string name="menu_inventory_voice_type_male">男性</string>
+  <string name="menu_inventory_voice_type_female">女性</string>
+  <string name="menu_inventory_max_level">最大等级</string>
+  <string name="menu_inventory_create_title">.创建角色</string>
+  <string name="menu_inventory_equipment">装备</string>
+  <string name="menu_inventory_skill_tree">技能树</string>
+  <string name="menu_inventory_item_shop">道具商店</string>
+  <string name="menu_inventory_broken">[c=255,64,64,255]已损坏[/c]</string>
+  <string name="menu_inventory_skill_tree_avail">技能树 ([img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c])</string>
+  <string name="menu_inventory_item_shop_avail">道具商店 ([img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c])</string>
+  <string name="menu_inventory_skill_points">[img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c]</string>
+  <string name="menu_inventory_gold">[img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]</string>
+  <string name="menu_inventory_locked">[c=255,64,64]未解锁[/c]</string>
+  <string name="menu_inventory_gold_full">[img=screen_main_gold_icon,1.0,1.0][c=255,14,14,255]%s[/c]</string>
+  <string name="menu_inventory_durability">耐久</string>
+  <string name="menu_inventory_level">Level %i</string>
+  <string name="menu_inventory_xp">%s / %s 经验</string>
+  <string name="menu_inventory_xp_no_postfix">%s / %s</string>
+  <string name="menu_inventory_confirm_unspent">你还有 [img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c] / [img=screen_main_gold_icon,2.0,2.0][c=255,194,14,255]%s[/c] 可以使用\n\n你真的希望现在就创建角色么？不用担心，你可以稍后再来使用它们</string>
+
+  <string name="menu_upgrade_title">.升级武器</string>
+  <string name="menu_upgrade_multi_purchase">此升级不能被多次购买</string>
+  <string name="menu_upgrade_not_available">在你购买其前一个升级前，此升级不可用</string>
+  <string name="menu_upgrade_no_energy">你没有购买此升级所需要的宝石</string>
+  <string name="menu_upgrade_no_energy_can_combo">你没有购买此升级所需要的宝石，但你可以通过合并其他宝石来获得它，需要自动合并么？</string>
+  <string name="menu_upgrade_max_level">这个武器已经达到它的等级上限了 你需要提升武器的等级上限才能继续升级它，购买武器的负面升级可以提升武器的等级上限</string>
+  <string name="menu_upgrade_socket_name">镶嵌: %s</string>
+  <string name="menu_upgrade_socket_cost">%s 强化等级</string>
+  <string name="menu_upgrade_socket_cost_negative">%s 等级上限</string>  
+  <string name="menu_upgrade_level_text">强化等级 - %i/%i</string>
+
+  <string name="weapon_upgrade_mod_damage_description">%s%% 伤害</string>
+  <string name="weapon_upgrade_mod_damage_description_bbcode">[color=#22B14C]%s%% 伤害[/color]</string>
+  
+  <string name="weapon_upgrade_mod_ammocapacity_description">%s%% 弹药量</string>
+  <string name="weapon_upgrade_mod_ammocapacity_description_bbcode">[color=#C06ADD]%s%% 弹药量[/color]</string>
+  
+  <string name="weapon_upgrade_mod_rateoffire_description">%s%% 射击频率</string>
+  <string name="weapon_upgrade_mod_rateoffire_description_bbcode">[color=#FFC924]%s%% 射击频率[/color]</string>
+  
+  <string name="weapon_upgrade_mod_reloadspeed_description">%s%% 装填速度</string>
+  <string name="weapon_upgrade_mod_reloadspeed_description_bbcode">[color=#FF7E00]%s%% 装填速度[/color]</string>
+  
+  <string name="weapon_upgrade_mod_projectilespeed_description">%s%% 弹道速度</string>
+  <string name="weapon_upgrade_mod_projectilespeed_description_bbcode">[color=#0080FF]%s%% 弹道速度[/color]</string>
+  
+  <string name="weapon_upgrade_mod_durability_description">%s%% 耐久</string>
+  <string name="weapon_upgrade_mod_durability_description_bbcode">[color=#ED1C24]%s%% 耐久[/color]</string>
+
+  <string name="weapon_upgrade_mod_infinite_durability_description">+ 无限耐久</string>
+  <string name="weapon_upgrade_mod_infinite_durability_description_bbcode">[color=#ED1C24]+ 无限耐久[/color]</string>
+
+  <string name="weapon_upgrade_mod_accuracy_description">%s%% 准确度</string>
+  <string name="weapon_upgrade_mod_accuracy_description_bbcode">[color=#30BDF3]%s%% 准确度[/color]</string>
+  
+  
+  <string name="weapon_upgrade_mod_penetration_description">%s%% 穿透</string>
+  <string name="weapon_upgrade_mod_penetration_description_bbcode">[color=#ED1C24]%s%% 穿透[/color]</string>
+
+  <string name="weapon_upgrade_mod_tri_barrel_description">+ 三联散射</string>
+  <string name="weapon_upgrade_mod_tri_barrel_description_bbcode">[color=#ED1C24]+ Tri Barrel Spread[/color]</string>
+  
+  <string name="weapon_upgrade_mod_quad_barrel_description">+ 四联散射</string>
+  <string name="weapon_upgrade_mod_quad_barrel_description_bbcode">[color=#ED1C24]+ Quad Barrel Spread[/color]</string>
+  
+  <string name="weapon_upgrade_mod_multi_tap_description">+ 双弹头</string>
+  <string name="weapon_upgrade_mod_multi_tap_description_bbcode">[color=#ED1C24]+ 双弹头[/color]</string>
+  
+  <string name="weapon_upgrade_mod_suicidal_description">+ 自杀子弹散射</string>
+  <string name="weapon_upgrade_mod_suicidal_description_bbcode">[color=#ED1C24]+ 自杀子弹散射[/color]</string>
+  
+
+  <string name="menu_equipment_title">.编辑装备</string>
+  <string name="menu_equipment_sell_confirm">你真的希望把 %s 以 [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c] 卖掉么？</string>
+  <string name="menu_equipment_sell_confirm_inventory">你真的希望把 %s 以 [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c] 卖掉么？ 这是一个 Steam 物品栏道具，你也可以通过 Steam 市场来交易它</string>
+  <string name="menu_equipment_sell_must_have_head">你必须至少拥有一个非市场物品栏道具的头部。你不能出售这道具，不然你可能会变成巴麻美！</string>
+  <string name="menu_equipment_need_inventory_connection">你只能在联网时这样做，市场物品栏道具需要连接到 Steam</string>
+  <string name="menu_equipment_cannot_equip_broken">你不能装备已损坏的道具，它们需要被修理后才能继续使用</string>
+  
+  <string name="menu_skills_title">.技能树</string>
+  <string name="menu_skills_reroll">重置技能</string>
+  <string name="menu_skills_name">[c=175,96,225]%s[/c]</string>
+  <string name="menu_skills_energy_source">花费一个 %s 或更高级的该类物品</string>
+  <string name="menu_skills_reroll_cannot_multi_purchase">此技能不可被多次购买，即使是在重置之后</string>
+  <string name="menu_skills_reroll_not_enough">花费 [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c] 重置技能点\n\n你还需要 [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c].</string>
+  <string name="menu_skills_reroll_confirm">花费 [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c] 重置技能点\n\n你确定要重置技能点么？</string>
+  <string name="menu_skills_purchase_confirm">你确定要购买 %s 么？这将花费 [img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c]</string>
+  <string name="menu_skills_purchase_not_enough">你还需要 [img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c] 来购买此技能</string>
+  <string name="menu_skills_purchase_sibling_unlocked_mutex">你不能再购买此技能了，它和 \'%s\' 是相互冲突的</string>
+  <string name="menu_skills_purchase_parent_not_unlocked">你需要先购买 \'%s\' 才能购买 \'%s\'.</string>
+  <string name="menu_skills_purchase_confirm_mutex">这技能和其他直系技能冲突，购买此技能后将不能再购买其他直系技能(红线表示).\n\n你确定要购买 %s 么？这将花费 [img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c]</string>
+  <string name="menu_skills_equip_slots">装备中的主动技能</string>
+  <string name="menu_skills_purchase_skill_locked">这技能 [c=255,64,64]未解锁[/c]. 你需要先查看它的解锁条件</string>  
+
+  <string name="menu_buy_item_title">购买 \'[c=128,128,255,255]%s[/c]\' ...</string>
+  <string name="menu_buy_item_fragile_item">易碎道具最终会被损耗，它们不能通过商店或 Steam 市场进行交易</string>
+  <string name="menu_buy_item_fragile_item_button">购买易碎道具 [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]</string>
+  <string name="menu_buy_item_fragile_item_button_not_available">此道具的易碎版本不可用</string>
+  <string name="menu_buy_item_fragile_item_button_inventory_full">你的物品栏满了</string>
+  <string name="menu_buy_item_fragile_item_button_not_enoungh_coins">你还需要 [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]</string>
+  <string name="menu_buy_item_indestructable_item">坚不可摧的道具可以被交易或在市场上出售，他们可以通过现金购买，游戏内随机掉落，交易或 Steam 市场获得</string>
+  <string name="menu_buy_item_indestructable_item_button">从 Steam 购买坚不可摧的道具</string>
+
+  <string name="menu_shop_title">.道具商店</string>  
+  <string name="menu_shop_purchase_item_locked">此道具 [c=255,64,64]未解锁[/c]. 你需要先查看它的解锁条件</string>  
+  <string name="menu_shop_purchase_item_confirm">你确定要购买 %s 么？这将花费 [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]</string>
+  <string name="menu_shop_purchase_not_enough_coins">你还需要 [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c] 来购买 \'%s\'.</string>
+  <string name="menu_shop_purchase_full_inventory">你的物品栏满了，在腾出空位前不能购买新道具</string>
+  <string name="menu_shop_purchase_premium_only">这道具是 [c=255,194,14,255]高级账户[/c] 限定，你可以在主菜单升级你的账户</string>
+
+  <string name="menu_shop_unlock_criteria">[c=255,64,64,255]解锁条件[/c]</string>
+  <string name="menu_shop_unlock_required_rank">[img=game_hud_weaponicon_none_0,1.0,1.0][c=255,64,64,255]提升等级到 %i[/c]</string>
+  <string name="menu_shop_unlock_ailments_from_weapon">[img=game_hud_weaponicon_none_0,1.0,1.0][c=255,64,64,255]电击 %i/%i 个敌人，武器: %s.[/c]</string>
+  <string name="menu_shop_unlock_damage_from_weapon">[img=game_hud_weaponicon_none_0,1.0,1.0][c=255,64,64,255]造成 %i/%i 点伤害，武器: %s.[/c]</string>
+  <string name="menu_shop_unlock_heal_from_weapon">[img=game_hud_weaponicon_none_0,1.0,1.0][c=255,64,64,255]治疗 %i/%i 点HP，武器: %s.[/c]</string>
+  <string name="menu_shop_unlock_kills_from_weapon">[img=game_hud_weaponicon_none_0,1.0,1.0][c=255,64,64,255]击杀 %i/%i 个敌人，武器: %s.[/c]</string>
+  <string name="menu_statistics_title">.统计</string>
+  <string name="menu_statistics_name_column">名称</string>
+  <string name="menu_statistics_value_column">分数</string>
+  <string name="menu_statistics_local">本地玩家统计</string>
+  <string name="menu_statistics_global">全球统计</string>
+
+  <string name="scoreboard_header_level">lvl</string>
+  <string name="scoreboard_header_name">名称</string>
+  <string name="scoreboard_header_score">分数</string>
+  <string name="scoreboard_header_deaths">死亡</string>
+  <string name="scoreboard_header_kills">击杀</string>
+  <string name="scoreboard_header_ping">延迟</string>
+
+  <string name="menu_achievements_title">.成就</string>
+
+  <string name="achievement_gold_name">金闪闪</string>
+  <string name="achievement_gold_description">得分超过 1,000,000,000</string>
+
+  <string name="achievement_silver_name">白银</string>
+  <string name="achievement_silver_description">得分超过 10,000,000</string>
+
+  <string name="achievement_bronze_name">黄铜</string>
+  <string name="achievement_bronze_description">得分超过 1,000,000</string>
+
+  <string name="achievement_horder_name">就不剁手</string>
+  <string name="achievement_horder_description">钱包里的金币达到 500,000！</string>
+
+  <string name="achievement_canttouchthis_name">碰不着</string>
+  <string name="achievement_canttouchthis_description">在波次防御中生存到 50 波</string>
+
+  <string name="achievement_cheater_name">作弊者</string>
+  <string name="achievement_cheater_description">99级！？你这肮脏的作弊者 ...</string>
+
+  <string name="achievement_cremationship_name">超远距离火葬</string>
+  <string name="achievement_cremationship_description">在128个像素之外点燃100只僵尸！</string>
+
+  <string name="achievement_developerdeath_name">*蛋开发者</string>
+  <string name="achievement_developerdeath_description">杀死一名(本游戏的)开发者</string>
+
+  <string name="achievement_dick_name">屌</string>
+  <string name="achievement_dick_description">你为什么要这样做！？</string>
+
+  <string name="achievement_eagleeye_name">鹰眼</string>
+  <string name="achievement_eagleeye_description">50发一发都没中？射的好，伙计</string>
+
+  <string name="achievement_failure_name">死亡大师</string>
+  <string name="achievement_failure_description">你好像死了501次了？</string>
+
+  <string name="achievement_frigid_name">冷漠</string>
+  <string name="achievement_frigid_description">冻结100只僵尸！</string>
+
+  <string name="achievement_itshotinhere_name">这里边火辣辣的</string>
+  <string name="achievement_itshotinhere_description">点燃100只僵尸！</string>
+
+  <string name="achievement_headshothoncho_name">爆头儿</string>
+  <string name="achievement_headshothoncho_description">爆掉一百个头！</string>
+
+  <string name="achievement_healinglevel1_name">爱的法则</string>
+  <string name="achievement_healinglevel1_description">治疗 10,000 点生命值！</string>
+
+  <string name="achievement_healinglevel2_name">爱的礼物</string>
+  <string name="achievement_healinglevel2_description">治疗 50,000 点生命值！!</string>
+
+  <string name="achievement_healinglevel3_name">爱的力量</string>
+  <string name="achievement_healinglevel3_description">治疗 100,000 点生命值！</string>
+
+  <string name="achievement_healinglevel4_name">&lt;3 &lt;3 &lt;3 &lt;3 </string>
+  <string name="achievement_healinglevel4_description">治疗 1,000,000 点生命值！</string>
+
+  <string name="achievement_iceandfire_name">I冰与火</string>
+  <string name="achievement_iceandfire_description">点燃 5 只被冻结的僵尸</string>
+
+  <string name="achievement_ihateboxes_name">我讨厌箱子</string>
+  <string name="achievement_ihateboxes_description">你就是喜欢破坏东西不是么？</string>
+
+  <string name="achievement_mammy_name">妈呀</string>
+  <string name="achievement_mammy_description">你个混球把游戏爆机了！</string>
+
+  <string name="achievement_marathonman_name">像素推进机</string>
+  <string name="achievement_marathonman_description">经过 1,000,000 个像素！</string>
+
+  <string name="achievement_n00b_name">n00b</string>
+  <string name="achievement_n00b_description">杀死一只僵尸！</string>
+
+  <string name="achievement_owned_name">Owned!</string>
+  <string name="achievement_owned_description">杀死 10 个人类玩家</string>
+
+  <string name="achievement_penetrator_name">穿甲弹</string>
+  <string name="achievement_penetrator_description">一发子弹穿透 5 名或更多敌人</string>
+
+  <string name="achievement_winner_name">胜利者!</string>
+  <string name="achievement_winner_description">在任何地图里挤进前十名</string>
+
+  <string name="achievement_redmist_name">红雾</string>
+  <string name="achievement_redmist_description">一次爆炸击杀 3 个敌人</string>
+
+  <string name="achievement_saviour_name">救世主</string>
+  <string name="achievement_saviour_description">把一个哥们从来世带回来！</string>
+
+  <string name="achievement_theghostisclear_name">幽灵清理完毕！</string>
+  <string name="achievement_theghostisclear_description">解救 20 名幽灵状态的玩家</string>
+
+  <string name="achievement_trickshot_name">花式射击</string>
+  <string name="achievement_trickshot_description">100 次反弹击杀？ Sweeeeet.</string>
+
+  <string name="achievement_youdidntcrash_name">你是我的英雄！</string>
+  <string name="achievement_youdidntcrash_description">你一局游戏玩了 60 分钟了居然还没崩？</string>
+
+  <string name="achievement_zombiekiller_name">僵尸杀手</string>
+  <string name="achievement_zombiekiller_description">生存到第 10 波！</string>
+
+  <string name="achievement_zombiemaster_name">僵尸大师</string>
+  <string name="achievement_zombiemaster_description">生存到第 20 波！</string>
+
+  <string name="achievement_zombiegrinder_name">Zombie Grinder</string>
+  <string name="achievement_zombiegrinder_description">生存到第 30 波！</string>
+
+  <string name="achievement_zombinator_name">僵尸终结者</string>
+  <string name="achievement_zombinator_description">杀死 53,598 个僵尸！</string>
+
+  <string name="achievement_multiplier5_name">嗨起来！</string>
+  <string name="achievement_multiplier5_description">分数倍数达到 5x.</string>
+
+  <string name="achievement_multiplier10_name">再高点！</string>
+  <string name="achievement_multiplier10_description">分数倍数达到 10x.</string>
+
+  <string name="achievement_multiplier15_name">我去，这倍数 ...</string>
+  <string name="achievement_multiplier15_description">分数倍数达到 15x.</string>
+
+  <string name="achievement_dungeonlevel1_name">地牢爬行着</string>
+  <string name="achievement_dungeonlevel1_description">通过第 1 级随机地牢！</string>
+
+  <string name="achievement_dungeonlevel2_name">地牢大师</string>
+  <string name="achievement_dungeonlevel2_description">通过第 5 级随机地牢！</string>
+
+  <string name="achievement_dungeonlevel3_name">地牢Boss</string>
+  <string name="achievement_dungeonlevel3_description">通过第 10 级随机地牢！</string>
+
+  <string name="achievement_workshop_name">我做了个东西！</string>
+  <string name="achievement_workshop_description">向创意工坊提交一个道具！</string>
+
+  <string name="statistic_group_general">通常</string>
+  <string name="statistic_group_players">玩家</string>
+  <string name="statistic_group_enemies">敌人</string>
+
+  <string name="statistic_aggregated_boxes_destroyed_name">摧毁箱子(全球)</string>
+  <string name="statistic_aggregated_boxes_destroyed_description">[Unused]</string>
+
+  <string name="statistic_aggregated_characters_created_name">角色创建</string>
+  <string name="statistic_aggregated_characters_created_description">[Unused]</string>
+
+  <string name="statistic_aggregated_gold_gathered_name">收集金币</string>
+  <string name="statistic_aggregated_gold_gathered_description">[Unused]</string>
+
+  <string name="statistic_aggregated_human_deaths_name">玩家死亡</string>
+  <string name="statistic_aggregated_human_deaths_description">[Unused]</string>
+
+  <string name="statistic_aggregated_human_revives_name">玩家复活</string>
+  <string name="statistic_aggregated_human_revives_description">[Unused]</string>
+
+  <string name="statistic_aggregated_level_ups_name">升级次数</string>
+  <string name="statistic_aggregated_level_ups_description">[Unused]</string>
+
+  <string name="statistic_aggregated_maps_played_name">地图游戏次数</string>
+  <string name="statistic_aggregated_maps_played_description">[Unused]</string>
+
+  <string name="statistic_aggregated_pixels_moved_name">移动像素</string>
+  <string name="statistic_aggregated_pixels_moved_description">[Unused]</string>
+
+  <string name="statistic_aggregated_pvp_kills_name">PVP击杀</string>
+  <string name="statistic_aggregated_pvp_kills_description">[Unused]</string>
+
+  <string name="statistic_aggregated_zombies_frozen_name">冰冻敌人</string>
+  <string name="statistic_aggregated_zombies_frozen_description">[Unused]</string>
+
+  <string name="statistic_aggregated_zombies_ignited_name">点燃敌人</string>
+  <string name="statistic_aggregated_zombies_ignited_description">[Unused]</string>
+
+  <string name="statistic_aggregated_zombies_killed_name">击杀敌人</string>
+  <string name="statistic_aggregated_zombies_killed_description">[Unused]</string>
+
+  <string name="statistic_aggregated_zombies_shocked_name">电击敌人</string>
+  <string name="statistic_aggregated_zombies_shocked_description">[Unused]</string>
+
+  <string name="statistic_aggregated_play_time_name">游戏时间 (小时)</string>
+  <string name="statistic_aggregated_play_time_description">[Unused]</string>
+
+  <string name="statistic_boxes_destroyed_name">摧毁箱子</string>
+  <string name="statistic_boxes_destroyed_description">[Unused]</string>
+
+  <string name="statistic_gold_gathered_name">收集金币</string>
+  <string name="statistic_gold_gathered_description">[Unused]</string>
+
+  <string name="statistic_human_deaths_name">玩家死亡</string>
+  <string name="statistic_human_deaths_description">[Unused]</string>
+
+  <string name="statistic_human_revives_name">玩家复活</string>
+  <string name="statistic_human_revives_description">[Unused]</string>
+
+  <string name="statistic_maps_played_name">地图游戏次数</string>
+  <string name="statistic_maps_played_description">[Unused]</string>
+
+  <string name="statistic_pixels_moved_name">移动像素</string>
+  <string name="statistic_pixels_moved_description">[Unused]</string>
+
+  <string name="statistic_pvp_kills_name">PVP击杀</string>
+  <string name="statistic_pvp_kills_description">[Unused]</string>
+
+  <string name="statistic_zombies_frozen_name">冰冻敌人</string>
+  <string name="statistic_zombies_frozen_description">[Unused]</string>
+
+  <string name="statistic_zombies_ignited_name">点燃敌人</string>
+  <string name="statistic_zombies_ignited_description">[Unused]</string>
+
+  <string name="statistic_zombies_killed_name">击杀敌人</string>
+  <string name="statistic_zombies_killed_description">[Unused]</string>
+
+  <string name="statistic_zombies_shocked_name">电击敌人</string>
+  <string name="statistic_zombies_shocked_description">[Unused]</string>
+
+  <string name="statistic_zombies_long_distance_ignited_name">远距离点燃敌人</string>
+  <string name="statistic_zombies_long_distance_ignited_description">[Unused]</string>
+
+  <string name="statistic_damage_dealt_name">造成伤害</string>
+  <string name="statistic_damage_dealt_description">[Unused]</string>
+
+  <string name="statistic_healing_dealt_name">治疗</string>
+  <string name="statistic_healing_dealt_description">[Unused]</string>
+
+  <string name="statistic_zombies_frozen_ignited_name">冰冻点燃的敌人</string>
+  <string name="statistic_zombies_frozen_Ignited_description">[Unused]</string>
+
+  <string name="statistic_highest_rank_name">最高排名</string>
+  <string name="statistic_highest_rank_description">[Unused]</string>
+
+  <string name="statistic_highest_score_name">最高分</string>
+  <string name="statistic_highest_score_description">[Unused]</string>
+
+  <string name="statistic_highest_multiplier_name">最高倍数</string>
+  <string name="statistic_highest_multiplier_description">[Unused]</string>
+
+  <string name="statistic_highest_wave_name">最高波次</string>
+  <string name="statistic_highest_wave_description">[Unused]</string>
+
+  <string name="statistic_rebound_shots_name">反弹击杀</string>
+  <string name="statistic_rebound_shots_description">[Unused]</string>
+
+  <string name="statistic_play_time_name">游戏时间 (小时)</string>
+  <string name="statistic_play_time_description">[Unused]</string>
+
+  <string name="statistic_zombies_headshots_name">爆僵尸头</string>
+  <string name="statistic_zombies_headhosts_description">[Unused]</string>
+
+  <string name="statistic_dungeon_level_name">最高地牢等级</string>
+  <string name="statistic_dungeon_level_description">[Unused]</string>
+
+  <string name="menu_leaderboards_title">.排行榜</string>
+  <string name="menu_leaderboards_friends_only">只查看好友</string>
+  <string name="menu_leaderboards_rank_column">排名</string>
+  <string name="menu_leaderboards_rank_short_column">#</string>
+  <string name="menu_leaderboards_name_column">名称</string>
+  <string name="menu_leaderboards_score_column">分数</string>
+  <string name="menu_leaderboards_loading_text">载入中 ...</string>
+  <string name="menu_leaderboards_no_entries_text">没有进入排行榜</string>
+  <string name="menu_leaderboards_no_entries_short_text">未进入</string>
+
+  <string name="chat_message_player_join">%s 加入了游戏</string>
+  <string name="chat_message_player_leave">%s 离开了游戏</string>
+  <string name="chat_message_player_rename">%s 把他的名字改成了 %s</string>
+  <string name="chat_message_player_team_change">%s 换到了 [c=%i,%i,%i,255]%s[/c] 队</string>
+  <string name="chat_message_invalid_command">无效指令或指令不正确</string>
+  <string name="chat_message_invalid_destination">未知的用户名</string>
+  <string name="chat_message_private">(PM %s) %s: %s</string>
+  <string name="chat_message_global">%s: %s</string>
+  <string name="chat_message_game_global">[c=100,255,100](全球) [c=80,200,80]%s[/c]: %s[/c]</string>
+  <string name="chat_message_action">[c=234,211,109,255]* %s %s[/c]</string>
+  <string name="chat_message_server">[c=152,193,235,255]%s[/c]</string>
+  <string name="chat_message_called_vote">%s 开启了 %s 投票</string>
+  <string name="chat_message_vote_passed">投票通过</string>
+  <string name="chat_message_vote_failed">投票失败</string>
+  <string name=" chat_message_vote_cannot_kick_dev">投票对开发者无效</string>
+  <string name="chat_message_vote_cannot_kick_host">投票对房主无效</string>
+  <string name="chat_message_player_killed">[c=220,60,70]%s[/c] 被 [c=220,60,70]%s[/c] 杀死了</string>
+  <string name="chat_message_player_killed_imposter">[c=220,60,70]%s[/c] 被 [c=220,60,70]%s[/c] 的 [c=220,60,70]%s[/c] 杀死了</string>
+  <string name="chat_message_player_killed_enemy">[c=220,60,70]%s[/c] 被杀死了</string>
+  <string name="chat_message_player_captured_bag">[c=%i,%i,%i,255]%s[/c] 夺取了包裹</string>
+  <string name="chat_message_called_invalid_map_vote">%s 试图开启此服务器上可用的地图的投票</string>
+
+  <string name="sub_menu_vote_report_player">举报作弊</string>
+  <string name="sub_menu_vote_kick_player">踢出玩家</string>
+  <string name="sub_menu_vote_restart_map">重开地图</string>
+  <string name="sub_menu_vote_enter_edit_mode">进入编辑模式</string>
+  <string name="sub_menu_vote_exit_edit_mode">退出编辑模式</string>
+  <string name="sub_menu_vote_change_map">改变地图</string>
+  <string name="sub_menu_vote_start">开始投票</string>
+  <string name="sub_menu_vote_player_title">选择玩家:</string>
+  <string name="sub_menu_vote_map_title">选择地图:</string>
+  <string name="sub_menu_edit_mode_vote_name">改变编辑模式</string>
+  <string name="sub_menu_edit_mode_vote_enter_description">进入编辑模式？</string>
+  <string name="sub_menu_edit_mode_vote_exit_description">退出编辑模式？</string>
+  <string name="sub_menu_kick_vote_name">踢出玩家</string>
+  <string name="sub_menu_kick_vote_description">踢掉 \'%s\' ？</string>
+  <string name="sub_menu_kick_vote_unknown_user">未知玩家</string>
+  <string name="sub_menu_restart_vote_name">重开地图</string>
+  <string name="sub_menu_restart_vote_description">重开地图？</string>
+  <string name="sub_menu_change_map_vote_name">改变地图</string>
+  <string name="sub_menu_change_map_vote_description">将地图改变为 \'%s\' ？</string>
+  <string name="sub_menu_kick_vote_unknown_map">位置地图</string>
+  <string name="vote_overlay_vote_yes">按 [key=voteyes] 键同意</string>
+  <string name="vote_overlay_vote_no">按 [key=voteno] 键不同意</string>
+
+  <string name="editor_pfx_editor">PFX 编辑</string>
+  <string name="editor_show_collision">显示最佳碰撞</string>
+  <string name="editor_show_lighting">显示闪电</string>
+  <string name="editor_show_paths">显示路径</string>
+  <string name="editor_show_randgen">显示随机生成模板</string>
+  <string name="editor_new_map">新建地图</string>
+  <string name="editor_open_map">打开地图</string>
+  <string name="editor_save_map">储存地图</string>
+  <string name="editor_save_map_as">地图另存为</string>
+  <string name="editor_return_to_game">回到游戏</string>
+  <string name="editor_exit_to_menu">退出到菜单</string>
+  <string name="editor_exit_to_editor">返回编辑器</string>
+  <string name="editor_new_pfx">新建 PFX</string>
+  <string name="editor_open_pfx">打开 PFX</string>
+  <string name="editor_save_pfx">储存 PFX</string>
+  <string name="editor_save_pfx_as">PFX 另存为</string>
+  <string name="editor_undo">撤销</string>
+  <string name="editor_redo">重做</string>
+  <string name="editor_cut">剪切</string>
+  <string name="editor_copy">复制</string>
+  <string name="editor_paste">粘贴</string>
+  <string name="editor_delete">删除</string>
+  <string name="editor_reset_camera">重置视角</string>
+  <string name="editor_layer1">层 1</string>
+  <string name="editor_layer2">层 2</string>
+  <string name="editor_layer3">层 3</string>
+  <string name="editor_layer4">层 4</string>
+  <string name="editor_layer5">层 5</string>
+  <string name="editor_tiles">方块</string>
+  <string name="editor_collision">碰撞</string>
+  <string name="editor_objects">物件</string>
+  <string name="editor_select">选择</string>
+  <string name="editor_paint">绘制</string>
+  <string name="editor_flood">油漆桶</string>
+  <string name="editor_erase">擦除</string>
+  <string name="editor_map_properties">地图属性</string>
+  <string name="editor_object_properties">物件属性</string>
+  <string name="editor_windows">窗口</string>
+  <string name="editor_change_tool">改变工具</string>
+  <string name="editor_change_mode">改变模式</string>
+  <string name="editor_change_layer">改变层</string>
+  <string name="editor_change_layer_visibility">改变层的可见性</string>
+  <string name="editor_change_tile_properties">改变方块属性</string>
+  <string name="editor_view">查看</string>
+  <string name="editor_edit">编辑</string>
+  <string name="editor_file">文件</string>
+  <string name="editor_flip_h">垂直翻转</string>
+  <string name="editor_flip_v">水平翻转</string>
+  <string name="editor_publish_as_mod">推送到创意工坊</string>
+
+  <string name="editor_publish_text">您的地图将会被提交，并被连接到创意工坊的已上传物品里，之后的推送只会更新已经存在的文件而不会再新建一个\n\n您需要同意 Steam 创意工坊 的服务条款才能上传这个地图</string>
+  <string name="editor_view_agreement">查看协议</string>
+  <string name="editor_cancel">取消</string>
+  <string name="editor_publish">推送</string>
+  <string name="editor_publish_name_text">名称: %s</string>
+  <string name="editor_publish_description_text">描述: %s</string>
+  <string name="editor_publish_mod_name_text">%s</string>
+  <string name="editor_publish_mod_description_text">%s 游戏模式: %s 玩家上限: %i</string>
+  <string name="editor_publish_progress_text">正在上传到 Steam 创意工坊 ( %.2f%% ) ... 请稍等 ...</string>
+  <string name="editor_error_game_mode_enabled">地图必须至少包含一个游戏模式才能够被使用</string>
+  <string name="editor_error_game_mode_main">地图必须至少包含一个游戏模式的 Is_Main 设置值为 true 才能够被使用</string>
+  <string name="editor_error_preview_center">地图必须至少包含一个主要预览标志才能够被使用</string>
+  <string name="editor_error_player_start">地图必须至少包含一个玩家出生点才能够被使用</string>
+  <string name="editor_error_path_marker">地图必须至少包含一个路径塔才能够被使用</string>
+  <string name="editor_error_preview_save">在推送之前你必须先保存地图</string>
+  <string name="editor_error_internal_error">推送时发生内部错误</string>
+
+  <string name="wave_game_mode_refactory_countdown">%i 秒后开始</string>
+  <string name="wave_game_mode_active_countdown">%i 波 - 还剩 %i 敌人</string>
+  <string name="wave_gun_game_mode_active_countdown">%i 波 - %s - 还剩 %i 敌人</string>
+
+  <string name="dungeon_game_mode_level">地牢等级 %i</string>
+
+  <string name="dm_game_mode_winning_status">[c=0,200,200,255]%s[/c] 完成 [c=255,194,14,255]%i[/c] 击杀取得胜利</string>
+  <string name="dm_game_mode_kills_left_status">剩余 [c=255,194,14,255]%i[/c] 击杀</string>
+  <string name="dm_game_mode_final_kill_status">[c=220,60,70]最后一杀！[/c]</string>
+  <string name="dm_game_mode_tie_status">等待首杀</string>
+
+  <string name="tdm_game_mode_winning_status">[c=%i,%i,%i,255]%s[/c] 完成 [c=255,194,14,255]%i[/c] 击杀取得胜利</string>
+  <string name="tdm_game_mode_kills_left_status">剩余 [c=255,194,14,255]%i[/c] 击杀</string>
+  <string name="tdm_game_mode_final_kill_status">[c=220,60,70]最后一杀！[/c]</string>
+  <string name="tdm_game_mode_tie_status">等待首杀</string>
+
+  <string name="ctb_game_mode_winning_status">[c=%i,%i,%i,255]%s[/c] 完成 [c=255,194,14,255]%i[/c] 击杀取得胜利</string>
+  <string name="ctb_game_mode_final_kill_status">[c=220,60,70]最后一个包裹！[/c]</string>
+  <string name="ctb_game_mode_tie_status">平局</string>
+
+  <string name="gg_game_mode_winning_status">[c=0,200,200,255]%s[/c] 即将获胜r [c=255,194,14,255]%i / %i[/c]</string>
+  <string name="gg_game_mode_tie_status">等待首杀</string>
+
+  <string name="reu_game_mode_winning_status">[c=0,200,200,255]%s[/c] 完成 [c=255,194,14,255]%i[/c] 击杀取得胜利</string>
+  <string name="reu_game_mode_tie_status">等待首杀</string>
+  <string name="reu_game_mode_weapon_change">[c=255,194,14,255]改变武器！[/c]</string>
+
+  <string name="ctb_game_mode_capture_status">[c=%i,%i,%i,255]%s[/c] 夺取包裹！</string>
+  <string name="ctb_game_mode_countdown_status">比赛即将开始 [c=255,194,14,255]%i[/c] ...</string>
+  <string name="ctb_game_mode_bag_respawn_timer">包裹即将刷新 [c=255,194,14,255]%i[/c] ...</string>
+  <string name="ctb_game_mode_bag_retrieve_status">[c=%i,%i,%i,255]%s[/c] 拿到了包裹！</string>
+  <string name="ctb_game_mode_bag_carry_status">杀死包裹持有者！</string>
+  <string name="ctb_game_mode_bag_carry_team_status">保护包裹持有者！</string>
+  <string name="ctb_game_mode_bag_capture_status">夺取包裹！</string>
+
+  <string name="pvp_game_mode_waiting_for_players">等待玩家 ...</string>
+
+  <string name="item_rarity_common">[c=79,198,120]%s[/c]</string>
+  <string name="item_rarity_uncommon">[c=136,136,255]%s[/c]</string>
+  <string name="item_rarity_rare">[c=174,28,28]%s[/c]</string>
+  <string name="item_rarity_ultra_rare">[c=255,255,23]%s[/c]</string>
+  <string name="item_rarity_legendary">[c=175,96,225]%s[/c]</string>
+
+  <string name="item_unlimited_prefix">无限 %s</string>
+  <string name="item_indestructable_prefix">坚不可摧 %s</string>
+  <string name="item_fragile_prefix">易碎 %s</string>
+
+  <string name="item_varient_damage">有害 %s</string>
+  <string name="item_varient_ammo_capacity">大容量 %s</string>
+  <string name="item_varient_rate_of_fire">高效 %s</string>
+  <string name="item_varient_reload_speed">高速装填 %s</string>
+  <string name="item_varient_projectile_speed">迅捷 %s</string>
+  <string name="item_varient_accuracy">精密 %s</string>
+  <string name="item_varient_penetrating">穿透 %s</string>
+  <string name="item_varient_tri_barrel">三联</string>
+  <string name="item_varient_quad_barrel">四联 %s</string>
+  <string name="item_varient_multi_tap">多弹头 %s</string>
+  <string name="item_varient_suicidal">自杀 %s</string>
+  
+  
+
+  <string name="item_single_use_postfix">%s 一次性</string>
+  <string name="item_unlimited_use_postfix">%s 无限使用</string>
+  
+  <string name="item_drink_name">饮料</string>
+  <string name="item_armor_name">护甲</string>
+  <string name="item_medipack_name">医疗包</string>
+  <string name="item_nachos_name">玉米片</string>
+  <string name="item_pill_name">药丸</string>
+  <string name="item_pill_container_name">药瓶</string>
+  <string name="item_ammo_name">弹药</string>
+
+
+
+
+  <string name="item_rocket_launcher_2_name">超频发射器</string>
+  <string name="item_rocket_launcher_2_description">用小型火箭轰炸你的敌人</string>
+  <string name="item_rocket_launcher_2_category">道具</string>
+
+  <string name="item_rocket_launcher_3_name">毁灭发射器</string>
+  <string name="item_rocket_launcher_3_description">超凡威力，不过速度也超慢！毁灭一切！</string>
+  <string name="item_rocket_launcher_3_category">道具</string>
+
+  <string name="item_sword_name">大师之剑</string>
+  <string name="item_sword_description">熟练地挥舞着剑，你可以说你是剑术大师了</string>
+  <string name="item_sword_category">道具</string>
+
+  <string name="item_frag_name">破片手榴弹</string>
+  <string name="item_frag_description">拉掉拉环后要记得丢出去</string>
+  <string name="item_frag_category">道具</string>
+
+  <string name="item_molotov_name">燃烧瓶</string>
+  <string name="item_molotov_description">别把自己烧着了</string>
+  <string name="item_molotov_category">道具</string>
+
+
+
+
+  <string name="item_bison_cap_name">Bison Gold</string>
+  <string name="item_bison_cap_description">Gold? YESSSS! YESSSS!</string>
+  <string name="item_bison_cap_category">帽子</string>
+  <string name="item_top_hat_name">Top Hat</string>
+  <string name="item_top_hat_description">Open a can of high class!</string>
+  <string name="item_top_hat_category">帽子</string>
+  <string name="item_headset_name">Headset</string>
+  <string name="item_headset_description">Bumpin\' choons!</string>
+  <string name="item_headset_category">配件</string>
+  <string name="item_halo_name">Developer Halo</string>
+  <string name="item_halo_description">Rule with an iron fist!</string>
+  <string name="item_halo_category">配件</string>
+  <string name="item_pompador_name">Modest puff</string>
+  <string name="item_pompador_description">Some call it the half-fro!</string>
+  <string name="item_pompador_category">帽子</string>
+  <string name="item_player1hair_name">Jordan\'s Head</string>
+  <string name="item_player1hair_description">Always play as Jordan!</string>
+  <string name="item_player1hair_category">帽子</string>
+  <string name="item_player2hair_name">Delko\'s Head</string>
+  <string name="item_player2hair_description">Always play as Delko!</string>
+  <string name="item_player2hair_category">帽子</string>
+  <string name="item_player3hair_name">Travis\'s Head</string>
+  <string name="item_player3hair_description">Always play as Travis!</string>
+  <string name="item_player3hair_category">帽子</string>
+  <string name="item_player4hair_name">Tim\'s Head</string>
+  <string name="item_player4hair_description">Always play as Tim!</string>
+  <string name="item_player4hair_category">帽子</string>
+  <string name="item_gatsby_name">Gatsby</string>
+  <string name="item_gatsby_description">Undeniably stylish!</string>
+  <string name="item_gatsby_category">帽子</string>
+  <string name="item_turbo_boy_name">Turbo Boy</string>
+  <string name="item_turbo_boy_description">Arm cannon not included.</string>
+  <string name="item_turbo_boy_category">帽子</string>
+  <string name="item_cheer_bringer_name">Cheer Bringer</string>
+  <string name="item_cheer_bringer_description">Make a list; Check it twice.</string>
+  <string name="item_cheer_bringer_category">帽子</string>
+  <string name="item_louisiana_jones_name">Louisiana Jones</string>
+  <string name="item_louisiana_jones_description">Here comes Launchman!</string>
+  <string name="item_louisiana_jones_category">帽子</string>
+  <string name="item_antlers_name">Antlers</string>
+  <string name="item_antlers_description">Ho ho HO, these are tacky!</string>
+  <string name="item_antlers_category">配件</string>
+  <string name="item_ghetto_superstar_name">Ghetto Superstar</string>
+  <string name="item_ghetto_superstar_description">You\'re definitely in your zone.</string>
+  <string name="item_ghetto_superstar_category">配件</string>
+  <string name="item_bow_name">Bow</string>
+  <string name="item_bow_description">Never too cute to kill zombies!</string>
+  <string name="item_bow_category">配件</string>
+  <string name="item_glasses_name">Glasses</string>
+  <string name="item_glasses_description">Improves accuracy, probably...</string>
+  <string name="item_glasses_category">配件</string>
+  <string name="item_beanie_1_name">Beanie Type 1</string>
+  <string name="item_beanie_1_description">Hip beanie!</string>
+  <string name="item_beanie_1_category">帽子</string>
+  <string name="item_beanie_2_name">Beanie Type 2</string>
+  <string name="item_beanie_2_description">Cute beanie!</string>
+  <string name="item_beanie_2_category">帽子</string>
+  <string name="item_little_sis_name">Little Sis</string>
+  <string name="item_little_sis_description">I don\'t have anything funny to say...</string>
+  <string name="item_little_sis_category">帽子</string>
+  <string name="item_scruffy_sidekick_name">Scruffy Sidekick</string>
+  <string name="item_scruffy_sidekick_description">One day you\'ll be in the limelight!</string>
+  <string name="item_scruffy_sidekick_category">帽子</string>
+  <string name="item_pillager_name">Pillager</string>
+  <string name="item_pillager_description">One of a kind! (I think...)</string>
+  <string name="item_pillager_category">帽子</string>
+  <string name="item_desgardes_name">Des Kap</string>
+  <string name="item_desgardes_description">A David Kaplan original!</string>
+  <string name="item_desgardes_category">帽子</string>
+  <string name="item_golfers_delight_name">Golfer\'s Delight</string>
+  <string name="item_golfers_delight_description">Worth it\'s weight in bells!</string>
+  <string name="item_golfers_delight_category">帽子</string>
+  <string name="item_scouter_name">Scouter</string>
+  <string name="item_scouter_description">No longer able to read power levels...</string>
+  <string name="item_scouter_category">配件</string>
+  <string name="item_gi_joe_name">G.I. Shmoe</string>
+  <string name="item_gi_joe_description">Zombies won\'t be getting YOUR brains!</string>
+  <string name="item_gi_joe_category">帽子</string>
+  <string name="item_bsod_name">Bug Smash Of Doom</string>
+  <string name="item_bsod_description">Error occured in hat.exe.</string>
+  <string name="item_bsod_category">帽子</string>
+  <string name="item_boxbot_name">Robox</string>
+  <string name="item_boxbot_description">Smells kind of funny...</string>
+  <string name="item_boxbot_category">帽子</string>
+  <string name="item_pigtails_name">Pigtails</string>
+  <string name="item_pigtails_description">The shorter, the better!</string>
+  <string name="item_pigtails_category">帽子</string>
+  <string name="item_poniteru_name">Poofy Ponytail</string>
+  <string name="item_poniteru_description">Don\'t forget to condition!</string>
+  <string name="item_poniteru_category">帽子</string>
+  <string name="item_twintails_name">Twintails</string>
+  <string name="item_twintails_description">Two tails are more than one!</string>
+  <string name="item_twintails_category">帽子</string>
+  <string name="item_twindrills_name">Twin Drills</string>
+  <string name="item_twindrills_description">Pierce the heavens!!</string>
+  <string name="item_twindrills_category">帽子</string>
+  <string name="item_bison_cap_2_name">Bison Silver</string>
+  <string name="item_bison_cap_2_description">Silver? Meh.</string>
+  <string name="item_bison_cap_2_category">帽子</string>
+  <string name="item_bison_cap_3_name">Bison Bronze</string>
+  <string name="item_bison_cap_3_description">Bronze? NOOOO! NOOOO!</string>
+  <string name="item_bison_cap_3_category">帽子</string>
+  <string name="item_ami_name">Idol 1</string>
+  <string name="item_ami_description">Dress to the left?</string>
+  <string name="item_ami_category">帽子</string>
+  <string name="item_mami_name">Idol 2</string>
+  <string name="item_mami_description">Dress to the right?</string>
+  <string name="item_mami_category">帽子</string>
+  <string name="item_nekomimi_name">Cat Ears</string>
+  <string name="item_nekomimi_description">Raise a fist to your cheek and say MEOW</string>
+  <string name="item_nekomimi_category">配件</string>
+  <string name="item_aviators_name">Aviators</string>
+  <string name="item_aviators_description">Demand respect, with ATTITUDE!</string>
+  <string name="item_aviators_category">配件</string>
+  <string name="item_shades_name">Shades</string>
+  <string name="item_shades_description">Deal with it...</string>
+  <string name="item_shades_category">配件</string>
+  <string name="item_ball_cap_name">Ball Cap</string>
+  <string name="item_ball_cap_description">The team sucks, but it\'s autographed!</string>
+  <string name="item_ball_cap_category">帽子</string>
+  <string name="item_dantz_name">Dantz</string>
+  <string name="item_dantz_description">The original player #4!</string>
+  <string name="item_dantz_category">帽子</string>
+  <string name="item_flat_top_name">Flat Top</string>
+  <string name="item_flat_top_description">You could balance a drink on that dome!</string>
+  <string name="item_flat_top_category">帽子</string>
+  <string name="item_fred_head_name">Fred Head</string>
+  <string name="item_fred_head_description">10% Freddier than Bed Head!</string>
+  <string name="item_fred_head_category">帽子</string>
+  <string name="item_trucker_name">Trucker</string>
+  <string name="item_trucker_description">Hide that ridiculous hair in style!</string>
+  <string name="item_trucker_category">帽子</string>
+  <string name="item_heroic_hood_name">Heroic Hood</string>
+  <string name="item_heroic_hood_description">Hero of Time - Zombie Slaying Time!</string>
+  <string name="item_heroic_hood_category">帽子</string>
+  <string name="item_desura_name">Dapper Chapeau</string>
+  <string name="item_desura_description">Thanks for your support during our Desura campaign!</string>
+  <string name="item_desura_category">帽子</string>
+  <string name="item_masterson_name">Sgt. Masterson</string>
+  <string name="item_masterson_description">Less QQ. More pew pew.</string>
+  <string name="item_masterson_category">帽子</string>
+  <string name="item_shizue_name">Perky Ponytail</string>
+  <string name="item_shizue_description">Dress it up!</string>
+  <string name="item_shizue_category">帽子</string>
+  <string name="item_thugpomp_name">Thuggish Pompador</string>
+  <string name="item_thugpomp_description">Gimme your lunch money, nerd!</string>
+  <string name="item_thugpomp_category">帽子</string>
+  <string name="item_pumpkin_name">Pumpkin!</string>
+  <string name="item_pumpkin_description">Obscures your vision...</string>
+  <string name="item_pumpkin_category">帽子</string>
+  <string name="item_skull_name">Skull!</string>
+  <string name="item_skull_description">Scare your pals! BOO!!</string>
+  <string name="item_skull_category">帽子</string>
+  <string name="item_doppleganger_name">Zombie mask</string>
+  <string name="item_doppleganger_description">Gets sweaty inside after a while... gross...</string>
+  <string name="item_doppleganger_category">帽子</string>
+  <string name="item_yayoi_name">Idol #3</string>
+  <string name="item_yayoi_description">Kicked out of the group after their debut.</string>
+  <string name="item_yayoi_category">帽子</string>
+  <string name="item_presento_name">Present!</string>
+  <string name="item_presento_description">Surprise! *confetti*</string>
+  <string name="item_presento_category">帽子</string>
+  <string name="item_steve_name">Bob</string>
+  <string name="item_steve_description">Look what we dug up!</string>
+  <string name="item_steve_category">帽子</string>
+  <string name="item_gameboy_name">Retrospecs</string>
+  <string name="item_gameboy_description">4 AA batteries not included. Has unique post-processing effect.</string>
+  <string name="item_gameboy_category">配件</string>
+  <string name="item_deus_ex_name">Augmented Shades</string>
+  <string name="item_deus_ex_description">Unatco Standard Issue. Has unique post-processing effect.</string>
+  <string name="item_deus_ex_category">配件</string>
+  <string name="item_scattergun_name">散射枪</string>
+  <string name="item_scattergun_description">请削弱一下吧</string>
+  <string name="item_scattergun_category">道具</string>
+  <string name="item_uzi_name">乌兹</string>
+  <string name="item_uzi_description">+45 哒哒哒！</string>
+  <string name="item_uzi_category">道具</string>
+
+  <string name="item_moe_eyes_name">Cutie Eyes</string>
+  <string name="item_moe_eyes_description">Somebody end me...</string>
+  <string name="item_moe_eyes_category">配件</string>
+
+  <string name="item_afro_puff_name">Afro</string>
+  <string name="item_afro_puff_description">Bring Disco back, BY FORCE.</string>
+  <string name="item_afro_puff_category">帽子</string>
+
+  <string name="item_beret_name">Beret</string>
+  <string name="item_beret_description">Demand respect, via headwear.</string>
+  <string name="item_beret_category">帽子</string>
+
+  <string name="item_big_sis_name">Big Sis</string>
+  <string name="item_big_sis_description">Anime hairs, yo!</string>
+  <string name="item_big_sis_category">帽子</string>
+
+  <string name="item_buckethead_name">Paint Can</string>
+  <string name="item_buckethead_description">The paint bucket is also... a hat!</string>
+  <string name="item_buckethead_category">帽子</string>
+
+  <string name="item_colbydude_name">Colbydude</string>
+  <string name="item_colbydude_description">He\'ll melt your face with a wicked solo, then make a website about it!</string>
+  <string name="item_colbydude_category">帽子</string>
+
+  <string name="item_cowlick_name">Cowlick</string>
+  <string name="item_cowlick_description">This hair looks familiar...........</string>
+  <string name="item_cowlick_category">帽子</string>
+
+  <string name="item_engineer_hat_name">Builder Bob</string>
+  <string name="item_engineer_hat_description">Can we fix it? Nope... it\'s f*cked.</string>
+  <string name="item_engineer_hat_category">帽子</string>
+
+  <string name="item_foozball_name">Football Helmet</string>
+  <string name="item_foozball_description">Be like Cal Ripken Jr. on the road to the ironma- ....GOAL!!!</string>
+  <string name="item_foozball_category">帽子</string>
+
+  <string name="item_froghat_name">Frog Hat</string>
+  <string name="item_froghat_description">This is just kind of silly...</string>
+  <string name="item_froghat_category">帽子</string>
+
+  <string name="item_jojo_name">Jo-Jo</string>
+  <string name="item_jojo_description">Wacky adventures await you...</string>
+  <string name="item_jojo_category">帽子</string>
+
+  <string name="item_meguca_name">Meguca</string>
+  <string name="item_meguca_description">Being this is suffering...</string>
+  <string name="item_meguca_category">帽子</string>
+
+  <string name="item_messy_bun_name">Messy Bun</string>
+  <string name="item_messy_bun_description">Too many undead around to make it look good.</string>
+  <string name="item_messy_bun_category">帽子</string>
+
+  <string name="item_moe_mop_name">Moe Mop</string>
+  <string name="item_moe_mop_description">That\'s a lot of hair...</string>
+  <string name="item_moe_mop_category">帽子</string>
+
+  <string name="item_ryuko_name">Edge La Edge</string>
+  <string name="item_ryuko_description">Don\'t lose your way...</string>
+  <string name="item_ryuko_category">帽子</string>
+
+  <string name="item_secret_snake_name">Jake Boxton</string>
+  <string name="item_secret_snake_description">Tactical Infringement Action?</string>
+  <string name="item_secret_snake_category">帽子</string>
+
+  <string name="item_slenderbag_name">Slenderbag</string>
+  <string name="item_slenderbag_description">Why did anybody want this???</string>
+  <string name="item_slenderbag_category">帽子</string>
+
+  <string name="item_twinbuns_name">Rina</string>
+  <string name="item_twinbuns_description">She\'s cute!</string>
+  <string name="item_twinbuns_category">帽子</string>
+  
+  <string name="item_barricade_name">路障</string>
+  <string name="item_barricade_description">可以用来做掩护！</string>
+  <string name="item_barricade_category">道具</string>
+
+  <string name="item_love_pylon_name">爱之水晶塔</string>
+  <string name="item_love_pylon_description">你必须建造更多的水晶塔！</string>
+  <string name="item_love_pylon_category">道具</string>
+  <string name="item_turret_name">炮塔</string>
+  <string name="item_turret_description">发射子弹！</string>
+  <string name="item_turret_category">道具</string>
+  <string name="item_tripmine_name">绊雷</string>
+  <string name="item_tripmine_description">不会真的把敌人绊倒</string>
+  <string name="item_tripmine_category">道具</string>
+  <string name="item_shotgun_name">霰弹枪</string>
+  <string name="item_shotgun_description">标准装备！</string>
+  <string name="item_shotgun_category">道具</string>
+  <string name="item_rpc_name">火箭推进电锯</string>
+  <string name="item_rpc_description">电锯都怎么装进去的？</string>
+  <string name="item_rpc_category">道具</string>
+  <string name="item_rocket_launcher_name">火箭发射器</string>
+  <string name="item_rocket_launcher_description">Failed attempt at a rocket lawnchair...</string>
+  <string name="item_rocket_launcher_category">道具</string>
+  <string name="item_magnum_name">马格南</string>
+  <string name="item_magnum_description">上面有Clint Eastwood的签名！</string>
+  <string name="item_magnum_category">道具</string>
+  <string name="item_grenade_launcher_name">手雷发射器</string>
+  <string name="item_grenade_launcher_description">也可以用来发射T恤！</string>
+  <string name="item_grenade_launcher_category">道具</string>
+  <string name="item_freeze_ray_name">冷冻枪</string>
+  <string name="item_freeze_ray_description">这真是糟透了</string>
+  <string name="item_freeze_ray_category">道具</string>
+  <string name="item_flamethrower_name">火焰喷射器</string>
+  <string name="item_flamethrower_description">用日常用品拼出来的！</string>
+  <string name="item_flamethrower_category">道具</string>
+  <string name="item_double_barrel_shotgun_name">双管霰弹枪</string>
+  <string name="item_double_barrel_shotgun_description">S-Mart里最棒的商品</string>
+  <string name="item_double_barrel_shotgun_category">道具</string>
+  <string name="item_sticky_launcher_name">粘液发射器</string>
+  <string name="item_sticky_launcher_description">不要把枪口对着脸</string>
+  <string name="item_sticky_launcher_category">道具</string>
+  <string name="item_baseball_bat_name">棒球棍</string>
+  <string name="item_baseball_bat_description">初始武器</string>
+  <string name="item_baseball_bat_category">道具</string>
+  <string name="item_love_cannon_name">爱之加农炮</string>
+  <string name="item_love_cannon_description">用爱拯救世界！</string>
+  <string name="item_love_cannon_category">道具</string>
+  <string name="item_laser_cannon_name">激光加农炮</string>
+  <string name="item_laser_cannon_description">充能，发射！</string>
+  <string name="item_laser_cannon_category">道具</string>
+  <string name="item_flare_gun_name">信号枪</string>
+  <string name="item_flare_gun_description">可以用来求救，或烧某些东西！</string>
+  <string name="item_flare_gun_category">道具</string>
+  <string name="item_spaz_name">笨家伙</string>
+  <string name="item_spaz_description">永远是最需要的枪！</string>
+  <string name="item_spaz_category">道具</string>
+  <string name="item_fire_turret_name">火焰炮塔</string>
+  <string name="item_fire_turret_description">喷射火焰！</string>
+  <string name="item_fire_turret_category">道具</string>
+  <string name="item_freeze_turret_name">冷冻炮塔</string>
+  <string name="item_freeze_turret_description">冷冻敌人！</string>
+  <string name="item_freeze_turret_category">道具</string>
+  <string name="item_rocket_turret_name">火箭炮塔</string>
+  <string name="item_rocket_turret_description">为了希望和梦想！</string>
+  <string name="item_rocket_turret_category">道具</string>
+  <string name="item_love_thrower_name">爱之喷射器</string>
+  <string name="item_love_thrower_description">用爱的力量让朋友们燃起来吧！</string>
+  <string name="item_love_thrower_category">道具</string>
+  <string name="item_winchester_rifle_name">温切斯特步枪</string>
+  <string name="item_winchester_rifle_description">为了胜利！</string>
+  <string name="item_winchester_rifle_category">道具</string>
+  <string name="item_acid_gun_name">酸液枪</string>
+  <string name="item_acid_gun_description">是时候了！</string>
+  <string name="item_acid_gun_category">道具</string>
+  <string name="item_buff_grenade_health_name">增益手雷 - 生命</string>
+  <string name="item_buff_grenade_health_description">恢复范围内玩家的生命值</string>
+  <string name="item_buff_grenade_health_category">道具</string>
+  <string name="item_buff_grenade_ammo_name">增益手雷 - 弹药</string>
+  <string name="item_buff_grenade_ammo_description">恢复范围内玩家的弹药</string>
+  <string name="item_buff_grenade_ammo_category">道具</string>
+  <string name="item_buff_grenade_damage_name">增益手雷 - 伤害</string>
+  <string name="item_buff_grenade_damage_description">提高范围内玩家的伤害</string>
+  <string name="item_buff_grenade_damage_category">道具</string>
+  <string name="item_buff_grenade_price_name">增益手雷 - 价格</string>
+  <string name="item_buff_grenade_price_description">降低范围内玩家的物品购买价格</string>
+  <string name="item_buff_grenade_price_category">道具</string>
+  <string name="item_buff_grenade_reload_name">增益手雷 - 装填速度</string>
+  <string name="item_buff_grenade_reload_description">提高范围内玩家的装填速度</string>
+  <string name="item_buff_grenade_reload_category">道具</string>
+  <string name="item_buff_grenade_rof_name">增益手雷 - 射击频率</string>
+  <string name="item_buff_grenade_rof_description">提高范围内玩家的射速</string>
+  <string name="item_buff_grenade_rof_category">道具</string>
+  <string name="item_buff_grenade_speed_name">增益手雷 - 速度</string>
+  <string name="item_buff_grenade_speed_description">增加范围内玩家的移动速度</string>
+  <string name="item_buff_grenade_speed_category">道具</string>
+  <string name="item_buff_grenade_xp_name">增益手雷 - 经验</string>
+  <string name="item_buff_grenade_xp_description">提高范围内玩家获得的经验值</string>
+  <string name="item_buff_grenade_xp_category">道具</string>
+  <string name="item_developer_pistol_name">开发者手枪</string>
+  <string name="item_developer_pistol_description">这是在作弊 ...</string>
+  <string name="item_developer_pistol_category">道具</string>
+  <string name="item_fight_saber_name">光剑</string>
+  <string name="item_fight_saber_description">不适合 3 岁以下的儿童使用</string>
+  <string name="item_fight_saber_category">道具</string>
+  <string name="item_bolt_gun_name">泰瑟枪</string>
+  <string name="item_bolt_gun_description">发射高压电极</string>
+  <string name="item_bolt_gun_category">道具</string>
+  <string name="item_shock_rifle_name">电击枪</string>
+  <string name="item_shock_rifle_description">把他们全部电晕！</string>
+  <string name="item_shock_rifle_category">道具</string>
+  <string name="item_ak47_name">AK47</string>
+  <string name="item_ak47_description">上面有NateToaster的签名！</string>
+  <string name="item_ak47_category">道具</string>
+  <string name="item_assault_rifle_name">突击步枪</string>
+  <string name="item_assault_rifle_description">我还可以再干三天三夜！</string>
+  <string name="item_assault_rifle_category">道具</string>
+  <string name="item_pistol_name">Pistol</string>
+  <string name="item_pistol_description">初始手枪</string>
+  <string name="item_pistol_category">道具</string>
+  
+  <string name="item_explosive_ammo_name">爆炸弹药</string>
+  <string name="item_explosive_ammo_description">将子弹转换为纯粹的爆炸伤害\n\n和武器合并让其使用爆炸弹药</string>
+  <string name="item_explosive_ammo_category">消耗品</string>
+  <string name="item_incendiary_ammo_name">燃烧弹药</string>
+  <string name="item_incendiary_ammo_description">有谁不想让子弹烧起来！？\n\n和武器合并让其使用燃烧弹药</string>
+  <string name="item_incendiary_ammo_category">消耗品</string>
+  <string name="item_freeze_ammo_name">冰冻弹药</string>
+  <string name="item_freeze_ammo_description">子弹能把僵尸冻住？这是什么原理！？\n\nCombine with a weapon to spawn with freeze ammo.</string>
+  <string name="item_freeze_ammo_category">消耗品</string>
+  
+  <string name="item_spanner_name">螺丝刀</string>
+  <string name="item_spanner_description">和已损坏的道具合并将其修复至满耐久！</string>
+  <string name="item_spanner_category">消耗品</string>
+  
+  <string name="item_armour_name">护甲</string>
+  <string name="item_armour_description">替你承受大量伤害</string>
+  <string name="item_armour_category">配件</string>
+  <string name="item_1000_coins_name">起始金币 x 1000</string>
+  <string name="item_1000_coins_description">你可以在游戏开始时从钱包里取出 1000 金币来使用</string>
+  <string name="item_1000_coins_category">配件</string>
+  <string name="item_10000_coins_name">起始金币 x 10000</string>
+  <string name="item_10000_coins_description">你可以在游戏开始时从钱包里取出 10000 金币来使用</string>
+  <string name="item_10000_coins_category">配件</string>
+  <string name="item_2500_coins_name">起始金币 x 2500</string>
+  <string name="item_2500_coins_description">你可以在游戏开始时从钱包里取出 2500 金币来使用</string>
+  <string name="item_2500_coins_category">配件</string>
+  <string name="item_confetti_ammo_name">彩弹</string>
+  <string name="item_confetti_ammo_description">不是彩蛋 ...</string>
+  <string name="item_confetti_ammo_category">道具</string>
+
+  <string name="item_custom_paint_name">自定义颜料</string> 
+  <string name="item_custom_paint_description">将道具改变为用户自定义的颜色！</string>
+  <string name="item_custom_paint_category">颜料</string>
+  <string name="item_goldish_yellow_name">金黄</string>
+  <string name="item_goldish_yellow_description">改变道具的颜色！</string>
+  <string name="item_goldish_yellow_category">颜料</string>
+
+  <string name="item_reddish_rum_paint_name">酒红</string>
+  <string name="item_reddish_rum_paint_description">改变道具的颜色！</string>
+  <string name="item_reddish_rum_paint_category">颜料</string>
+  <string name="item_truish_blue_paint_name">青蓝</string>
+  <string name="item_truish_blue_paint_description">改变道具的颜色！</string>
+  <string name="item_truish_blue_paint_category">颜料</string>
+  <string name="item_greenish_green_paint_name">绿</string>
+  <string name="item_greenish_green_paint_description">改变道具的颜色！</string>
+  <string name="item_greenish_green_paint_category">颜料</string>
+  <string name="item_cutesy_pink_name">可爱粉</string>
+  <string name="item_cutesy_pink_description">改变道具的颜色！</string>
+  <string name="item_cutesy_pink_category">颜料</string>
+  <string name="item_lavenderp_name">藕色</string>
+  <string name="item_lavenderp_description">改变道具的颜色！</string>
+  <string name="item_lavenderp_category">颜料</string>
+  <string name="item_ultra_violet_name">纯紫</string>
+  <string name="item_ultra_violet_description">改变道具的颜色！</string>
+  <string name="item_ultra_violet_category">颜料</string>
+  <string name="item_off_black_name">漆黑</string>
+  <string name="item_off_black_description">改变道具的颜色！</string>
+  <string name="item_off_black_category">颜料</string>
+  <string name="item_yellowish_red_name">黄红</string>
+  <string name="item_yellowish_red_description">改变道具的颜色！</string>
+  <string name="item_yellowish_red_category">颜料</string>
+  <string name="item_burnt_orange_name">焦橙</string>
+  <string name="item_burnt_orange_description">改变道具的颜色！</string>
+  <string name="item_burnt_orange_category">颜料</string>
+  <string name="item_cbin_brown_name">CBIN 棕</string>
+  <string name="item_cbin_brown_description">改变道具的颜色！</string>
+  <string name="item_cbin_brown_category">颜料</string>
+  <string name="item_salmon_suplex_name">Salmon Suplex</string>
+  <string name="item_salmon_suplex_description">改变道具的颜色！</string>
+  <string name="item_salmon_suplex_category">颜料</string>
+  <string name="item_too_lime_name">石灰</string>
+  <string name="item_too_lime_description">改变道具的颜色！</string>
+  <string name="item_too_lime_category">颜料</string>
+  <string name="item_super_light_grey_name">淡灰</string>
+  <string name="item_super_light_grey_description">改变道具的颜色！</string>
+  <string name="item_super_light_grey_category">颜料</string>
+  <string name="item_grey_name">灰</string>
+  <string name="item_grey_description">改变道具的颜色！</string>
+  <string name="item_grey_category">颜料</string>
+  <string name="item_dark_grey_name">暗灰</string>
+  <string name="item_dark_grey_description">改变道具的颜色！</string>
+  <string name="item_dark_grey_category">颜料</string>
+  <string name="item_turbo_grey_name">Turbo_Grey</string>
+  <string name="item_turbo_grey_description">改变道具的颜色！</string>
+  <string name="item_turbo_grey_category">颜料</string>
+  <string name="item_cream_gravy_name">奶油汁</string>
+  <string name="item_cream_gravy_description">改变道具的颜色！</string>
+  <string name="item_cream_gravy_category">颜料</string>
+  <string name="item_lukewarm_pink_name">品红</string>
+  <string name="item_lukewarm_pink_description">改变道具的颜色！</string>
+  <string name="item_lukewarm_pink_category">颜料</string>
+  <string name="item_demin_dan_name">牛仔</string>
+  <string name="item_demin_dan_description">改变道具的颜色！</string>
+  <string name="item_demin_dan_category">颜料</string>
+  <string name="item_chocolate_name">巧克力</string>
+  <string name="item_chocolate_description">改变道具的颜色！</string>
+  <string name="item_chocolate_category">颜料</string>
+  <string name="item_highway_to_pastel_name">公路粉</string>
+  <string name="item_highway_to_pastel_description">改变道具的颜色！</string>
+  <string name="item_highway_to_pastel_category">颜料</string>
+  <string name="item_team_player_name">队伍玩家</string>
+  <string name="item_team_player_description">改变道具的颜色！</string>
+  <string name="item_team_player_category">颜料</string>
+  <string name="item_garrison_glum_name">杀神的忧郁</string>
+  <string name="item_garrison_glum_description">改变道具的颜色！</string>
+  <string name="item_garrison_glum_category">颜料</string>
+  <string name="item_fps_brown_name">FPS 棕</string>
+  <string name="item_fps_brown_description">改变道具的颜色！</string>
+  <string name="item_fps_brown_category">颜料</string>
+  <string name="item_tealicious_name">香茶</string>
+  <string name="item_tealicious_description">改变道具的颜色！</string>
+  <string name="item_tealicious_category">颜料</string>
+  <string name="item_sea_of_green_name">绿海</string>
+  <string name="item_sea_of_green_description">改变道具的颜色！</string>
+  <string name="item_sea_of_green_category">颜料</string>
+  <string name="item_eggplant_name">深紫</string>
+  <string name="item_eggplant_description">改变道具的颜色！</string>
+  <string name="item_eggplant_category">颜料</string>
+  <string name="item_simply_black_name">纯黑</string>
+  <string name="item_simply_black_description">改变道具的颜色！</string>
+  <string name="item_simply_black_category">颜料</string>
+  <string name="item_spray_tan_name">古铜</string>
+  <string name="item_spray_tan_description">改变道具的颜色！</string>
+  <string name="item_spray_tan_category">颜料</string>
+  <string name="item_pine_name">松木</string>
+  <string name="item_pine_description">改变道具的颜色！</string>
+  <string name="item_pine_category">颜料</string>
+  <string name="item_mint_name">"Mint &amp; Chit "</string>
+  <string name="item_mint_description">改变道具的颜色！</string>
+  <string name="item_mint_category">颜料</string>
+  <string name="item_plum_name">梅红</string>
+  <string name="item_plum_description">改变道具的颜色！</string>
+  <string name="item_plum_category">颜料</string>
+  <string name="item_smooth_criminal_name">犯罪高手</string>
+  <string name="item_smooth_criminal_description">改变道具的颜色！</string>
+  <string name="item_smooth_criminal_category">颜料</string>
+  <string name="item_sawdust_name">木屑</string>
+  <string name="item_sawdust_description">改变道具的颜色！</string>
+  <string name="item_sawdust_category">颜料</string>
+  <string name="item_just_gray_name">这也是灰 ...</string>
+  <string name="item_just_gray_description">改变道具的颜色！</string>
+  <string name="item_just_gray_category">颜料</string>
+  <string name="item_bubblegum_name">泡泡糖</string>
+  <string name="item_bubblegum_description">改变道具的颜色！</string>
+  <string name="item_bubblegum_category">颜料</string>
+  <string name="item_so_white_name">纯白</string>
+  <string name="item_so_white_description">改变道具的颜色！</string>
+  <string name="item_so_white_category">颜料</string>
+  <string name="item_chocolate2_name">热可可</string>
+  <string name="item_chocolate2_description">改变道具的颜色！</string>
+  <string name="item_chocolate2_category">颜料</string>
+  <string name="item_lemony_name">柠檬黄</string>
+  <string name="item_lemony_description">改变道具的颜色！</string>
+  <string name="item_lemony_category">颜料</string>
+  <string name="item_limey_name">雪碧</string>
+  <string name="item_limey_description">改变道具的颜色！</string>
+  <string name="item_limey_category">颜料</string>
+  <string name="item_mauvelous_name">奇妙人生</string>
+  <string name="item_mauvelous_description">改变道具的颜色！</string>
+  <string name="item_mauvelous_category">颜料</string>
+  <string name="item_porridge_name">蛋糕糊</string>
+  <string name="item_porridge_description">改变道具的颜色！</string>
+  <string name="item_porridge_category">颜料</string>
+  <string name="item_salmon_name">Salmon 之泪</string>
+  <string name="item_salmon_description">改变道具的颜色！</string>
+  <string name="item_salmon_category">颜料</string>
+  <string name="item_beardy_name">茶胡子船长</string>
+  <string name="item_beardy_description">改变道具的颜色！</string>
+  <string name="item_beardy_category">颜料</string>
+  <string name="item_tappenade_name">橄榄酱</string>
+  <string name="item_tappenade_description">改变道具的颜色！</string>
+  <string name="item_tappenade_category">颜料</string>
+  <string name="item_dosh_name">DOSH</string>
+  <string name="item_dosh_description">改变道具的颜色！</string>
+  <string name="item_dosh_category">颜料</string>
+  <string name="item_green_gem_1_name">残缺的翡翠</string>
+  <string name="item_green_gem_1_description">镶嵌在武器中可以强化武器\n\n可以和另一个 残缺的翡翠 合并成一个 完整的翡翠</string>
+  <string name="item_green_gem_1_category">宝石</string>
+  <string name="item_green_gem_2_name">完整的翡翠</string>
+  <string name="item_green_gem_2_description">镶嵌在武器中可以强化武器\n\n可以和另一个 完整的翡翠 合并成一个 光滑的翡翠</string>
+  <string name="item_green_gem_2_category">宝石</string>
+  <string name="item_green_gem_3_name">光滑的翡翠</string>
+  <string name="item_green_gem_3_description">镶嵌在武器中可以强化武器\n\n可以和另一个 光滑的翡翠 合并成一个 甜美的翡翠!</string>
+  <string name="item_green_gem_3_category">宝石</string>
+  <string name="item_green_gem_4_name">甜美的翡翠</string>
+  <string name="item_green_gem_4_description">镶嵌在武器中可以强化武器\n\n可以和另一个 甜美的翡翠 合并成一个 贵族翡翠!</string>
+  <string name="item_green_gem_4_category">宝石</string>
+  <string name="item_green_gem_5_name">贵族翡翠</string>
+  <string name="item_green_gem_5_description">镶嵌在武器中可以强化武器</string>
+  <string name="item_green_gem_5_category">宝石</string>
+  <string name="item_purple_gem_1_name">残缺的紫水晶</string>
+  <string name="item_purple_gem_1_description">镶嵌在武器中可以强化武器\n\n可以和另一个 残缺的紫水晶 合并成一个 完整的紫水晶!</string>
+  <string name="item_purple_gem_1_category">宝石</string>
+  <string name="item_purple_gem_2_name">完整的紫水晶</string>
+  <string name="item_purple_gem_2_description">镶嵌在武器中可以强化武器\n\n可以和另一个 完整的紫水晶 合并成一个 光滑的紫水晶!</string>
+  <string name="item_purple_gem_2_category">宝石</string>
+  <string name="item_purple_gem_3_name">光滑的紫水晶</string>
+  <string name="item_purple_gem_3_description">镶嵌在武器中可以强化武器\n\n可以和另一个 光滑的紫水晶 合并成一个 甜美的紫水晶!</string>
+  <string name="item_purple_gem_3_category">宝石</string>
+  <string name="item_purple_gem_4_name">甜美的紫水晶</string>
+  <string name="item_purple_gem_4_description">镶嵌在武器中可以强化武器\n\n可以和另一个 甜美的紫水晶 合并成一个 贵族紫水晶!</string>
+  <string name="item_purple_gem_4_category">宝石</string>
+  <string name="item_purple_gem_5_name">贵族紫水晶</string>
+  <string name="item_purple_gem_5_description">镶嵌在武器中可以强化武器</string>
+  <string name="item_purple_gem_5_category">宝石</string>
+  <string name="item_red_gem_1_name">残缺的红宝石</string>
+  <string name="item_red_gem_1_description">镶嵌在武器中可以强化武器\n\n可以和另一个 残缺的红宝石 合并成一个 完整的红宝石!</string>
+  <string name="item_red_gem_1_category">宝石</string>
+  <string name="item_red_gem_2_name">完整的红宝石</string>
+  <string name="item_red_gem_2_description">镶嵌在武器中可以强化武器\n\n可以和另一个 完整的红宝石 合并成一个 光滑的红宝石!</string>
+  <string name="item_red_gem_2_category">宝石</string>
+  <string name="item_red_gem_3_name">光滑的红宝石</string>
+  <string name="item_red_gem_3_description">镶嵌在武器中可以强化武器\n\n可以和另一个 光滑的红宝石 合并成一个 甜美的红宝石!</string>
+  <string name="item_red_gem_3_category">宝石</string>
+  <string name="item_red_gem_4_name">甜美的红宝石</string>
+  <string name="item_red_gem_4_description">镶嵌在武器中可以强化武器\n\n可以和另一个 甜美的红宝石 合并成一个 贵族红宝石!</string>
+  <string name="item_red_gem_4_category">宝石</string>
+  <string name="item_red_gem_5_name">贵族红宝石</string>
+  <string name="item_red_gem_5_description">镶嵌在武器中可以强化武器</string>
+  <string name="item_red_gem_5_category">宝石</string>
+  <string name="item_pink_gem_1_name">残缺的欧泊</string>
+  <string name="item_pink_gem_1_description">镶嵌在武器中可以强化武器\n\n可以和另一个 残缺的欧泊 合并成一个 完整的欧泊!</string>
+  <string name="item_pink_gem_1_category">宝石</string>
+  <string name="item_pink_gem_2_name">完整的欧泊</string>
+  <string name="item_pink_gem_2_description">镶嵌在武器中可以强化武器\n\n可以和另一个 完整的欧泊 合并成一个 光滑的欧泊!</string>
+  <string name="item_pink_gem_2_category">宝石</string>
+  <string name="item_pink_gem_3_name">光滑的欧泊</string>
+  <string name="item_pink_gem_3_description">镶嵌在武器中可以强化武器\n\n可以和另一个 光滑的欧泊 合并成一个 欧泊甜美的!</string>
+  <string name="item_pink_gem_3_category">宝石</string>
+  <string name="item_pink_gem_4_name">欧泊甜美的</string>
+  <string name="item_pink_gem_4_description">镶嵌在武器中可以强化武器\n\n可以和另一个 欧泊甜美的 合并成一个 贵族欧泊!</string>
+  <string name="item_pink_gem_4_category">宝石</string>
+  <string name="item_pink_gem_5_name">贵族欧泊</string>
+  <string name="item_pink_gem_5_description">镶嵌在武器中可以强化武器</string>
+  <string name="item_pink_gem_5_category">宝石</string>
+  <string name="item_yellow_gem_1_name">残缺的黄玉</string>
+  <string name="item_yellow_gem_1_description">镶嵌在武器中可以强化武器\n\n可以和另一个 残缺的黄玉 合并成一个 完整的黄玉!</string>
+  <string name="item_yellow_gem_1_category">宝石</string>
+  <string name="item_yellow_gem_2_name">完整的黄玉</string>
+  <string name="item_yellow_gem_2_description">镶嵌在武器中可以强化武器\n\n可以和另一个 完整的黄玉 合并成一个 光滑的黄玉!</string>
+  <string name="item_yellow_gem_2_category">宝石</string>
+  <string name="item_yellow_gem_3_name">光滑的黄玉</string>
+  <string name="item_yellow_gem_3_description">镶嵌在武器中可以强化武器\n\n可以和另一个 光滑的黄玉 合并成一个 甜美的黄玉!</string>
+  <string name="item_yellow_gem_3_category">宝石</string>
+  <string name="item_yellow_gem_4_name">甜美的黄玉</string>
+  <string name="item_yellow_gem_4_description">镶嵌在武器中可以强化武器\n\n可以和另一个 甜美的黄玉 合并成一个 贵族黄玉!</string>
+  <string name="item_yellow_gem_4_category">宝石</string>
+  <string name="item_yellow_gem_5_name">贵族黄玉</string>
+  <string name="item_yellow_gem_5_description">镶嵌在武器中可以强化武器</string>
+  <string name="item_yellow_gem_5_category">宝石</string>
+  <string name="item_orange_gem_1_name">残缺的石榴石</string>
+  <string name="item_orange_gem_1_description">镶嵌在武器中可以强化武器\n\n可以和另一个 残缺的石榴石 合并成一个 完整的石榴石!</string>
+  <string name="item_orange_gem_1_category">宝石</string>
+  <string name="item_orange_gem_2_name">完整的石榴石</string>
+  <string name="item_orange_gem_2_description">镶嵌在武器中可以强化武器\n\n可以和另一个 完整的石榴石 合并成一个 光滑的石榴石!</string>
+  <string name="item_orange_gem_2_category">宝石</string>
+  <string name="item_orange_gem_3_name">光滑的石榴石</string>
+  <string name="item_orange_gem_3_description">镶嵌在武器中可以强化武器\n\n可以和另一个 光滑的石榴石 合并成一个 甜美的石榴石!</string>
+  <string name="item_orange_gem_3_category">宝石</string>
+  <string name="item_orange_gem_4_name">甜美的石榴石</string>
+  <string name="item_orange_gem_4_description">镶嵌在武器中可以强化武器\n\n可以和另一个 甜美的石榴石 合并成一个 贵族石榴石!</string>
+  <string name="item_orange_gem_4_category">宝石</string>
+  <string name="item_orange_gem_5_name">贵族石榴石</string>
+  <string name="item_orange_gem_5_description">镶嵌在武器中可以强化武器</string>
+  <string name="item_orange_gem_5_category">宝石</string>
+  <string name="item_blue_gem_1_name">残缺的蓝宝石</string>
+  <string name="item_blue_gem_1_description">镶嵌在武器中可以强化武器\n\n可以和另一个 残缺的蓝宝石 合并成一个 完整的蓝宝石!</string>
+  <string name="item_blue_gem_1_category">宝石</string>
+  <string name="item_blue_gem_2_name">完整的蓝宝石</string>
+  <string name="item_blue_gem_2_description">镶嵌在武器中可以强化武器\n\n可以和另一个 完整的蓝宝石 合并成一个 光滑的蓝宝石!</string>
+  <string name="item_blue_gem_2_category">宝石</string>
+  <string name="item_blue_gem_3_name">光滑的蓝宝石</string>
+  <string name="item_blue_gem_3_description">镶嵌在武器中可以强化武器\n\n可以和另一个 光滑的蓝宝石 合并成一个 甜美的蓝宝石!</string>
+  <string name="item_blue_gem_3_category">宝石</string>
+  <string name="item_blue_gem_4_name">甜美的蓝宝石</string>
+  <string name="item_blue_gem_4_description">镶嵌在武器中可以强化武器\n\n可以和另一个 甜美的蓝宝石 合并成一个 贵族蓝宝石!</string>
+  <string name="item_blue_gem_4_category">宝石</string>
+  <string name="item_blue_gem_5_name">贵族蓝宝石</string>
+  <string name="item_blue_gem_5_description">镶嵌在武器中可以强化武器</string>
+  <string name="item_blue_gem_5_category">宝石</string>
+  <string name="item_aqua_gem_1_name">残缺的海蓝宝石</string>
+  <string name="item_aqua_gem_1_description">镶嵌在武器中可以强化武器\n\n可以和另一个 残缺的海蓝宝石 合并成一个 完整的海蓝宝石!</string>
+  <string name="item_aqua_gem_1_category">宝石</string>
+  <string name="item_aqua_gem_2_name">完整的海蓝宝石</string>
+  <string name="item_aqua_gem_2_description">镶嵌在武器中可以强化武器\n\n可以和另一个 完整的海蓝宝石 合并成一个 光滑的海蓝宝石!</string>
+  <string name="item_aqua_gem_2_category">宝石</string>
+  <string name="item_aqua_gem_3_name">光滑的海蓝宝石</string>
+  <string name="item_aqua_gem_3_description">镶嵌在武器中可以强化武器\n\n可以和另一个 光滑的海蓝宝石 合并成一个 甜美的海蓝宝石!</string>
+  <string name="item_aqua_gem_3_category">宝石</string>
+  <string name="item_aqua_gem_4_name">甜美的海蓝宝石</string>
+  <string name="item_aqua_gem_4_description">镶嵌在武器中可以强化武器\n\n可以和另一个 甜美的海蓝宝石 合并成一个 贵族海蓝宝石!</string>
+  <string name="item_aqua_gem_4_category">宝石</string>
+  <string name="item_aqua_gem_5_name">贵族海蓝宝石</string>
+  <string name="item_aqua_gem_5_description">镶嵌在武器中可以强化武器</string>
+  <string name="item_aqua_gem_5_category">宝石</string>
+  <string name="item_large_donator_name">大额捐赠版本</string>
+  <string name="item_large_donator_description">移除闪屏界面~n可进入付费服务器~n排行版上显示金色徽章~n额外的 200,000 金币~n独特的 M. Bison Bronze 帽子~n专属激光加农炮~n专属信号枪~n每种贵族级别的宝石一个！</string>
+  <string name="item_large_donator_category">付费 / 捐赠</string>
+  <string name="item_small_donator_name">小额捐赠版本</string>
+  <string name="item_small_donator_description">移除闪屏界面~n可进入付费服务器~n排行版上显示银色徽章~n额外的 100,000 金币~n独特的 M. Bison Bronze 帽子~n专属激光加农炮~n专属信号枪~n每种贵族级别的宝石一个！</string>
+  <string name="item_small_donator_category">付费 / 捐赠</string>
+
+  <string name="item_small_coin_grab_bag_name">金币彩袋(小)</string>
+  <string name="item_small_coin_grab_bag_description">获得 25,000 到 50,000 之间的随机数量金币</string>
+  <string name="item_small_coin_grab_bag_category">额外</string>
+  <string name="item_medium_coin_grab_bag_name">金币彩袋(中)</string>
+  <string name="item_medium_coin_grab_bag_description">获得 50,000 到 100,000 之间的随机数量金币</string>
+  <string name="item_medium_coin_grab_bag_category">额外</string>
+  <string name="item_large_coin_grab_bag_name">金币彩袋(大)</string>
+  <string name="item_large_coin_grab_bag_description">获得 100,000 到 250,000 之间的随机数量金币</string>
+  <string name="item_large_coin_grab_bag_category">额外</string>
+
+  <string name="item_small_gem_grab_bag_name">宝石彩袋(小)</string>
+  <string name="item_small_gem_grab_bag_description">获得 3 个随机宝石，小几率获得罕见宝石</string>
+  <string name="item_small_gem_grab_bag_category">额外</string>
+  <string name="item_medium_gem_grab_bag_name">宝石彩袋(中)</string>
+  <string name="item_medium_gem_grab_bag_description">获得 5 个随机宝石，中等几率获得罕见宝石</string>
+  <string name="item_medium_gem_grab_bag_category">额外</string>
+  <string name="item_large_gem_grab_bag_name">宝石彩袋(大)</string>
+  <string name="item_large_gem_grab_bag_description">获得 10 个随机宝石，大几率获得罕见宝石</string>
+  <string name="item_large_gem_grab_bag_category">额外</string>
+
+  <string name="item_small_xp_grab_bag_name">经验彩袋(小)</string>
+  <string name="item_small_xp_grab_bag_description">获得提升 0.5 级所需经验！</string>
+  <string name="item_small_xp_grab_bag_category">额外</string>
+  <string name="item_medium_xp_grab_bag_name">经验彩袋(中)</string>
+  <string name="item_medium_xp_grab_bag_description">获得提升 1 级所需经验！</string>
+  <string name="item_medium_xp_grab_bag_category">额外</string>
+  <string name="item_large_xp_grab_bag_name">经验彩袋(大)</string>
+  <string name="item_large_xp_grab_bag_description">获得提升 1.5 级所需经验！</string>
+  <string name="item_large_xp_grab_bag_category">额外</string>
+
+  <string name="skill_root_name">技能树</string>
+  <string name="skill_root_description">子弹上膛！ 开始升级吧！</string>
+  <string name="skill_active_skills_name">主动技能</string>
+  <string name="skill_active_skills_description">你的角色可以装备主动技能并在游戏中使用它们，它们需要使用游戏中掉落的多种宝石作为能源</string>
+  <string name="skill_infinite_ammo_1_name">无限子弹 [Level 1]</string>
+  <string name="skill_infinite_ammo_1_description">你将在 10 秒内获得无限子弹</string>
+  <string name="skill_infinite_ammo_2_name">无限子弹 [Level 2]</string>
+  <string name="skill_infinite_ammo_2_description">你将在 20 秒内获得无限子弹</string>
+  <string name="skill_group_infinite_ammo_1_name">无限子弹(团队) [Level 1]</string>
+  <string name="skill_group_infinite_ammo_1_description">你的团队将在 10 秒内获得无限子弹</string>
+  <string name="skill_group_infinite_ammo_2_name">无限子弹(团队) [Level 2]</string>
+  <string name="skill_group_infinite_ammo_2_description">你的团队将在 20 秒内获得无限子弹</string>
+  <string name="skill_group_infinite_ammo_3_name">无限子弹(团队) [Level 3]</string>
+  <string name="skill_group_infinite_ammo_3_description">你的团队将在 30 秒内获得无限子弹</string>
+  <string name="skill_infinite_ammo_3_name">无限子弹 [Level 3]</string>
+  <string name="skill_infinite_ammo_3_description">你将在 30 秒内获得无限子弹</string>
+  <string name="skill_infinite_ammo_4_name">无限子弹 [Level 4]</string>
+  <string name="skill_infinite_ammo_4_description">你将在 60 秒内获得无限子弹</string>
+  <string name="skill_god_mode_1_name">天神下凡 [Level 1]</string>
+  <string name="skill_god_mode_1_description">你将在 5 秒内开启上帝模式</string>
+  <string name="skill_god_mode_2_name">天神下凡 [Level 2]</string>
+  <string name="skill_god_mode_2_description">你将在 10 秒内开启上帝模式</string>
+  <string name="skill_group_god_mode_1_name">天神下凡(团队) [Level 1]</string>
+  <string name="skill_group_god_mode_1_description">你的团队将在 5 秒内开启上帝模式</string>
+  <string name="skill_group_god_mode_2_name">天神下凡(团队) [Level 2]</string>
+  <string name="skill_group_god_mode_2_description">你的团队将在 10 秒内开启上帝模式</string>
+  <string name="skill_group_god_mode_3_name">天神下凡(团队) [Level 3]</string>
+  <string name="skill_group_god_mode_3_description">你的团队将在 15 秒内开启上帝模式</string>
+  <string name="skill_infinite_god_mode_3_name">天神下凡 [Level 3]</string>
+  <string name="skill_infinite_god_mode_3_description">你将在 15 秒内开启上帝模式</string>
+  <string name="skill_infinite_god_mode_4_name">天神下凡 [Level 4]</string>
+  <string name="skill_infinite_god_mode_4_description">你将在 30 秒内开启上帝模式</string>
+  <string name="skill_xp_boost_1_name">临阵磨枪 [Level 1]</string>
+  <string name="skill_xp_boost_1_description">你在 30 秒内获得的经验提高 50%</string>
+  <string name="skill_xp_boost_2_name">临阵磨枪 [Level 2]</string>
+  <string name="skill_xp_boost_2_description">你在 60 秒内获得的经验提高 100%</string>
+  <string name="skill_group_xp_boost_1_name">临阵磨枪(团队) [Level 1]</string>
+  <string name="skill_group_xp_boost_1_description">你的团队在 30 秒内获得的经验提高 50%</string>
+  <string name="skill_group_xp_boost_2_name">临阵磨枪(团队) [Level 2]</string>
+  <string name="skill_group_xp_boost_2_description">你的团队在 60 秒内获得的经验提高 100%</string>
+  <string name="skill_group_xp_boost_3_name">临阵磨枪(团队) [Level 3]</string>
+  <string name="skill_group_xp_boost_3_description">你的团队在 120 秒内获得的经验提高 200%</string>
+  <string name="skill_xp_boost_3_name">临阵磨枪 [Level 3]</string>
+  <string name="skill_xp_boost_3_description">你在 90 秒内获得的经验提高 150%</string>
+  <string name="skill_xp_boost_4_name">临阵磨枪 [Level 4]</string>
+  <string name="skill_xp_boost_4_description">你在 120 秒内获得的经验提高 200%</string>
+  <string name="skill_heal_1_name">活力 [Level 1]</string>
+  <string name="skill_heal_1_description">你将在 8 秒内回满生命值</string>
+  <string name="skill_heal_2_name">活力 [Level 2]</string>
+  <string name="skill_heal_2_description">你将在 5 秒内回满生命值</string>
+  <string name="skill_group_heal_1_name">活力(团队) [Level 1]</string>
+  <string name="skill_group_heal_1_description">你的团队将在 8 秒内回满生命值</string>
+  <string name="skill_group_heal_2_name">活力(团队) [Level 2]</string>
+  <string name="skill_group_heal_2_description">你的团队将在 5 秒内回满生命值</string>
+  <string name="skill_group_heal_3_name">活力(团队) [Level 3]</string>
+  <string name="skill_group_heal_3_description">立即回满所有队员的生命值</string>
+  <string name="skill_heal_3_name">活力 [Level 3]</string>
+  <string name="skill_heal_3_description">你将在 3 秒内回满生命值</string>
+  <string name="skill_heal_4_name">活力 [Level 4]</string>
+  <string name="skill_heal_4_description">立即回满你的生命值</string>
+  <string name="skill_full_ammo_1_name">弹药充足 [Level 1]</string>
+  <string name="skill_full_ammo_1_description">你将在 8 秒内回满弹药</string>
+  <string name="skill_full_ammo_2_name">弹药充足 [Level 2]</string>
+  <string name="skill_full_ammo_2_description">你将在 5 秒内回满弹药</string>
+  <string name="skill_group_full_ammo_1_name">弹药充足(团队) [Level 1]</string>
+  <string name="skill_group_full_ammo_1_description">你的团队将在 8 秒内回满弹药</string>
+  <string name="skill_group_full_ammo_2_name">弹药充足(团队) [Level 2]</string>
+  <string name="skill_group_full_ammo_2_description">你的团队将在 5 秒内回满弹药</string>
+  <string name="skill_group_full_ammo_3_name">弹药充足(团队) [Level 3]</string>
+  <string name="skill_group_full_ammo_3_description">立即回满所有队员的弹药</string>
+  <string name="skill_full_ammo_3_name">弹药充足 [Level 3]</string>
+  <string name="skill_full_ammo_3_description">你将在 3 秒内回满弹药</string>
+  <string name="skill_full_ammo_4_name">弹药充足 [Level 4]</string>
+  <string name="skill_full_ammo_4_description">立即回满你的弹药</string>
+  <string name="skill_bomb_1_name">湮灭 [Level 1]</string>
+  <string name="skill_bomb_1_description">爆炸性武器在近距离不会爆炸</string>
+  <string name="skill_bomb_2_name">湮灭 [Level 2]</string>
+  <string name="skill_bomb_2_description">爆炸对敌人的杀伤距离提高 200%</string>
+  <string name="skill_incendiary_bomb_1_name">火热湮灭 [Level 1]</string>
+  <string name="skill_incendiary_bomb_1_description">立即点燃所有未被击杀的敌人</string>
+  <string name="skill_incendiary_bomb_2_name">火热湮灭 [Level 2]</string>
+  <string name="skill_incendiary_bomb_2_description">爆炸的范围和伤害增加至 400%</string>
+  <string name="skill_freeze_bomb_1_name">急冻湮灭 [Level 1]</string>
+  <string name="skill_freeze_bomb_1_description">立即冻住屏幕上所有未被击杀的敌人</string>
+  <string name="skill_freeze_bomb_2_name">急冻湮 [Level 2]</string>
+  <string name="skill_freeze_bomb_2_description">爆炸的范围和伤害增加至 400%</string>
+  <string name="skill_bomb_3_name">湮灭 [Level 3]</string>
+  <string name="skill_bomb_3_description">爆炸伤害提高 200%</string>
+  <string name="skill_bomb_4_name">湮灭 [Level 4]</string>
+  <string name="skill_bomb_4_description">爆炸的范围和伤害增加至 400%</string>
+  <string name="skill_blind_zombies_1_name">潜伏者 [Level 1]</string>
+  <string name="skill_blind_zombies_1_description">5 秒内隐形，敌人将不会攻击你</string>
+  <string name="skill_blind_zombies_2_name">潜伏者 [Level 2]</string>
+  <string name="skill_blind_zombies_2_description">10 秒内隐形，敌人将不会攻击你</string>
+  <string name="skill_group_blind_zombies_1_name">潜伏者(团队) [Level 1]</string>
+  <string name="skill_group_blind_zombies_1_description">你的队伍 10 秒内隐形，敌人将不会攻击你或你的队员</string>
+  <string name="skill_group_blind_zombies_2_name">潜伏者(团队) [Level 2]</string>
+  <string name="skill_group_blind_zombies_2_description">你的队伍 20 秒内隐形，敌人将不会攻击你或你的队员</string>
+  <string name="skill_group_blind_zombies_3_name">潜伏者(团队) [Level 3]</string>
+  <string name="skill_group_blind_zombies_3_description">你的队伍 30 秒内隐形，敌人将不会攻击你或你的队员</string>
+  <string name="skill_blind_zombies_3_name">潜伏者 [Level 3]</string>
+  <string name="skill_blind_zombies_3_description">20 秒内隐形，敌人将不会攻击你</string>
+  <string name="skill_blind_zombies_4_name">潜伏者 [Level 4]</string>
+  <string name="skill_blind_zombies_4_description">30 秒内隐形，敌人将不会攻击你</string>
+  <string name="skill_speed_gunner_1_name">急速 [Level 1]</string>
+  <string name="skill_speed_gunner_1_description">你的射速和装填速度 30 秒内提高 20%</string>
+  <string name="skill_speed_gunner_2_name">急速 [Level 2]</string>
+  <string name="skill_speed_gunner_2_description">你的射速和装填速度 30 秒内提高 50%</string>
+  <string name="skill_speed_gunner_3_name">急速 [Level 3]</string>
+  <string name="skill_speed_gunner_3_description">你的射速和装填速度 30 秒内提高 70%</string>
+  <string name="skill_speed_gunner_4_name">急速 [Level 4]</string>
+  <string name="skill_speed_gunner_4_description">你的射速和装填速度 30 秒内提高 100%</string>
+  <string name="skill_random_weapon_1_name">神秘武器</string>
+  <string name="skill_random_weapon_1_description">你获得一把随机武器</string>
+  <string name="skill_random_small_arms_1_name">神秘武器 [轻型武器]</string>
+  <string name="skill_random_small_arms_1_description">你获得一把随机轻型武器</string>
+  <string name="skill_random_rifle_1_name">神秘武器 [霰弹枪]</string>
+  <string name="skill_random_rifle_1_description">你获得一把随机霰弹枪</string>
+  <string name="skill_random_heavy_1_name">神秘武器 [重型武器]</string>
+  <string name="skill_random_heavy_1_description">你获得一把随机重型武器</string>
+  <string name="skill_random_support_1_name">神秘武器 [支援]</string>
+  <string name="skill_random_support_1_description">你获得一个随机支援武器</string>
+  <string name="skill_insta_kill_1_name">立即死亡 [Level 1]</string>
+  <string name="skill_insta_kill_1_description">10 秒内你的武器将对敌人造成致命伤害</string>
+  <string name="skill_insta_kill_2_name">立即死亡 [Level 2]</string>
+  <string name="skill_insta_kill_2_description">15 秒内你的武器将对敌人造成致命伤害</string>
+  <string name="skill_group_insta_kill_1_name">立即死亡(团队) [Level 1]</string>
+  <string name="skill_group_insta_kill_1_description">10 秒内你的队员的武器将对敌人造成致命伤害</string>
+  <string name="skill_group_insta_kill_2_name">立即死亡(团队) [Level 2]</string>
+  <string name="skill_group_insta_kill_2_description">15 秒内你的队员的武器将对敌人造成致命伤害</string>
+  <string name="skill_group_insta_kill_3_name">立即死亡(团队) [Level 3]</string>
+  <string name="skill_group_insta_kill_3_description">30 秒内你的队员的武器将对敌人造成致命伤害</string>
+  <string name="skill_insta_kill_3_name">立即死亡 [Level 3]</string>
+  <string name="skill_insta_kill_3_description">20 秒内你的武器将对敌人造成致命伤害</string>
+  <string name="skill_insta_kill_4_name">立即死亡 [Level 4]</string>
+  <string name="skill_insta_kill_4_description">30 秒内你的武器将对敌人造成致命伤害</string>
+  <string name="skill_passive_skills_name">被动技能</string>
+  <string name="skill_passive_skills_description">被动技能可以永久增强你的角色的能力</string>
+  <string name="skill_increase_hp_1_name">耐久 [Level 1]</string>
+  <string name="skill_increase_hp_1_description">你的HP最大值增加 10%！</string>
+  <string name="skill_increase_hp_2_name">耐久 [Level 2]</string>
+  <string name="skill_increase_hp_2_description">你的HP最大值增加 25%！</string>
+  <string name="skill_increase_hp_3_name">耐久 [Level 3]</string>
+  <string name="skill_increase_hp_3_description">你的HP最大值增加 50%！</string>
+  <string name="skill_instant_skill_1_name">喔！好多技能点！</string>
+  <string name="skill_instant_skill_1_description">立即获得 5 点技能点！</string>
+  <string name="skill_health_regen_1_name">我们可以重建他 [Level 1]</string>
+  <string name="skill_health_regen_1_description">当你 15 秒未受到伤害，每秒回复 0.3% 生命值</string>
+  <string name="skill_health_regen_2_name">我们可以重建他 [Level 2]</string>
+  <string name="skill_health_regen_2_description">当你 15 秒未受到伤害，每秒回复 0.5% 生命值</string>
+  <string name="skill_health_regen_3_name">我们可以重建他 [Level 3]</string>
+  <string name="skill_health_regen_3_description">当你 15 秒未受到伤害，每秒回复 1.0% 生命值</string>
+  <string name="skill_increase_speed_1_name">气势 [Level 1]</string>
+  <string name="skill_increase_speed_1_description">你的最大速度增加 10% ！</string>
+  <string name="skill_increase_speed_2_name">气势 [Level 2]</string>
+  <string name="skill_increase_speed_2_description">你的最大速度增加 20% ！</string>
+  <string name="skill_increase_speed_3_name">气势 [Level 3]</string>
+  <string name="skill_increase_speed_3_description">你的最大速度增加 30% ！</string>
+  <string name="skill_instant_skill_2_name">喔！好多技能点！</string>
+  <string name="skill_instant_skill_2_description">立即获得 5 点技能点！</string>
+  <string name="skill_increase_ammo_capacity_1_name">储备 [Level 1]</string>
+  <string name="skill_increase_ammo_capacity_1_description">你的弹药可携带量增加 10% ！</string>
+  <string name="skill_increase_ammo_capacity_2_name">储备 [Level 2]</string>
+  <string name="skill_increase_ammo_capacity_2_description">你的弹药可携带量增加 25% ！</string>
+  <string name="skill_increase_ammo_capacity_3_name">储备 [Level 3]</string>
+  <string name="skill_increase_ammo_capacity_3_description">你的弹药可携带量增加 100% ！</string>
+  <string name="skill_instant_level_up_name">级别不够！</string>
+  <string name="skill_instant_level_up_description">立即升级！</string>
+  <string name="skill_ammo_regen_1_name">无尽储备 [Level 1]</string>
+  <string name="skill_ammo_regen_1_description">当你 15 秒未开火，每秒回复 0.3% 弹药量</string>
+  <string name="skill_ammo_regen_2_name">无尽储备 [Level 2]</string>
+  <string name="skill_ammo_regen_2_description">当你 15 秒未开火，每秒回复 0.5% 弹药量</string>
+  <string name="skill_ammo_regen_3_name">无尽储备 [Level 3]</string>
+  <string name="skill_ammo_regen_3_description">当你 15 秒未开火，每秒回复 1.0% 弹药量</string>
+  <string name="skill_gold_drop_1_name">金手指 [Level 1]</string>
+  <string name="skill_gold_drop_1_description">金币掉落增加 10% ！</string>
+  <string name="skill_gold_drop_2_name">金手指 [Level 2]</string>
+  <string name="skill_gold_drop_2_description">金币掉落增加 25% ！</string>
+  <string name="skill_gold_drop_3_name">金手指 [Level 3]</string>
+  <string name="skill_gold_drop_3_description">金币掉落增加 50% ！</string>
+  <string name="skill_instant_gold_1_name">没钱了 ...</string>
+  <string name="skill_instant_gold_1_description">立即获得 100,000 金币！</string>
+  <string name="skill_gold_magnet_1_name">黄金眼 [Level 1]</string>
+  <string name="skill_gold_magnet_1_description">金币拾取范围提高 10% ！</string>
+  <string name="skill_gold_magnet_2_name">黄金眼 [Level 2]</string>
+  <string name="skill_gold_magnet_2_description">金币拾取范围提高 25% ！</string>
+  <string name="skill_gold_magnet_3_name">黄金眼 [Level 3]</string>
+  <string name="skill_gold_magnet_3_description">金币拾取范围提高 50% ！</string>
+  <string name="skill_price_decrease_1_name">小气鬼 [Level 1]</string>
+  <string name="skill_price_decrease_1_description">物品购买价格降低 10%</string>
+  <string name="skill_price_decrease_2_name">小气鬼 [Level 2]</string>
+  <string name="skill_price_decrease_2_description">物品购买价格降低 20%</string>
+  <string name="skill_price_decrease_3_name">小气鬼 [Level 3]</string>
+  <string name="skill_price_decrease_3_description">物品购买价格降低 50%</string>
+  <string name="skill_sell_price_1_name">大亨 [Level 1]</string>
+  <string name="skill_sell_price_1_description">物品出售价格提高 10%</string>
+  <string name="skill_sell_price_2_name">大亨 [Level 2]</string>
+  <string name="skill_sell_price_2_description">物品出售价格提高 20%</string>
+  <string name="skill_sell_price_3_name">大亨 [Level 3]</string>
+  <string name="skill_sell_price_3_description">物品出售价格提高 50%</string>
+  <string name="skill_gem_drop_1_name">闪烁的宝石 [Level 1]</string>
+  <string name="skill_gem_drop_1_description">宝石掉落率提高 10% ！</string>
+  <string name="skill_gem_drop_2_name">闪烁的宝石 [Level 2]</string>
+  <string name="skill_gem_drop_2_description">宝石掉落率提高 25% ！</string>
+  <string name="skill_gem_drop_3_name">闪烁的宝石 [Level 3]</string>
+  <string name="skill_gem_drop_3_description">宝石掉落率提高 50% ！</string>
+  <string name="skill_instant_gem_1_name">忽闪忽闪的</string>
+  <string name="skill_instant_gem_1_description">立即获得每种贵族宝石 1 个</string>
+  <string name="skill_gem_magnet_1_name">珠宝商 [Level 1]</string>
+  <string name="skill_gem_magnet_1_description">宝石的拾取范围提高 10% ！</string>
+  <string name="skill_gem_magnet_2_name">珠宝商 [Level 2]</string>
+  <string name="skill_gem_magnet_2_description">宝石的拾取范围提高 25% ！</string>
+  <string name="skill_gem_magnet_3_name">珠宝商 [Level 3]</string>
+  <string name="skill_gem_magnet_3_description">宝石的拾取范围提高 50% ！</string>
+  <string name="skill_increase_xp_1_name">教条主义 [Level 1]</string>
+  <string name="skill_increase_xp_1_description">经验获取提高 10% ！</string>
+  <string name="skill_increase_xp_2_name">教条主义 [Level 2]</string>
+  <string name="skill_increase_xp_2_description">经验获取提高 25% ！</string>
+  <string name="skill_increase_xp_3_name">教条主义 [Level 3]</string>
+  <string name="skill_increase_xp_3_description">经验获取提高 50% ！</string>
+  <string name="skill_instant_item_1_name">Yeeeees! Yeeeees!</string>
+  <string name="skill_instant_item_1_description">立即获得一个 Bison Cap(帽子) ！</string>
+  <string name="skill_wallet_increase_1_name">钱袋 [Level 1]</string>
+  <string name="skill_wallet_increase_1_description">金币的可携带量提高 50% ！</string>
+  <string name="skill_wallet_increase_2_name">钱袋 [Level 2]</string>
+  <string name="skill_wallet_increase_2_description">金币的可携带量提高 75% ！</string>
+  <string name="skill_wallet_increase_3_name">钱袋 [Level 3]</string>
+  <string name="skill_wallet_increase_3_description">金币的可携带量提高 100% ！</string>
+  <string name="skill_wallet_interest_1_name">钱袋 [Level 4]</string>
+  <string name="skill_wallet_interest_1_description">玩家每小时获得 1% 的利息</string>
+  <string name="skill_inventory_increase_1_name">囤积者 [Level 1]</string>
+  <string name="skill_inventory_increase_1_description">物品栏大小提高至 2 页</string>
+  <string name="skill_inventory_increase_2_name">囤积者 [Level 2]</string>
+  <string name="skill_inventory_increase_2_description">物品栏大小提高至 3 页</string>
+  <string name="skill_inventory_increase_3_name">囤积者 [Level 3]</string>
+  <string name="skill_inventory_increase_3_description">物品栏大小提高至 4 页</string>
+  <string name="skill_play_styles_name">战斗风格</string>
+  <string name="skill_play_styles_description">升级不同分支的技能，形成不同的战斗风格</string>
+  <string name="skill_combat_name">好战</string>
+  <string name="skill_combat_description">近距离战斗更加灵活</string>
+  <string name="skill_melee_damage_1_name">超强肉搏 [Level 1]</string>
+  <string name="skill_melee_damage_1_description">肉搏武器伤害提高 10%</string>
+  <string name="skill_melee_damage_2_name">超强肉搏 [Level 2]</string>
+  <string name="skill_melee_damage_2_description">肉搏武器伤害提高 20%</string>
+  <string name="skill_melee_damage_3_name">超强肉搏 [Level 3]</string>
+  <string name="skill_melee_damage_3_description">肉搏武器伤害提高 50%</string>
+
+  <string name="skill_melee_stamina_1_name">耐力 [Level 1]</string>
+  <string name="skill_melee_stamina_1_description">体力恢复速度提高 25%</string>
+  <string name="skill_melee_stamina_2_name">耐力 [Level 2]</string>
+  <string name="skill_melee_stamina_2_description">体力恢复速度提高 50%</string>
+  <string name="skill_melee_stamina_3_name">耐力 [Level 3]</string>
+  <string name="skill_melee_stamina_3_description">体力恢复速度提高 100%</string>
+
+  <string name="skill_rifle_damage_1_name">步枪暴走 [Level 1]</string>
+  <string name="skill_rifle_damage_1_description">步枪造成伤害提高 10%</string>
+  <string name="skill_rifle_damage_2_name">步枪暴走 [Level 2]</string>
+  <string name="skill_rifle_damage_2_description">步枪造成伤害提高 20%</string>
+  <string name="skill_rifle_damage_3_name">步枪暴走 [Level 3]</string>
+  <string name="skill_rifle_damage_3_description">步枪造成伤害提高 50%</string>
+  <string name="skill_rifle_ammo_1_name">步枪弹药带 [Level 1]</string>
+  <string name="skill_rifle_ammo_1_description">步枪的弹药携带量增加 25%</string>
+  <string name="skill_rifle_ammo_2_name">步枪弹药带 [Level 2]</string>
+  <string name="skill_rifle_ammo_2_description">步枪的弹药携带量增加 50%</string>
+  <string name="skill_rifle_ammo_3_name">步枪弹药带 [Level 3]</string>
+  <string name="skill_rifle_ammo_3_description">步枪的弹药携带量增加 100%</string>
+  <string name="skill_ghost_life_time_1_name">幻痛 [Level 1]</string>
+  <string name="skill_ghost_life_time_1_description">你处于幽灵状态的时间延长 50%，让队友有更多机会复活你</string>
+  <string name="skill_ghost_life_time_2_name">幻痛 [Level 2]</string>
+  <string name="skill_ghost_life_time_2_description">你处于幽灵状态的时间延长 100%，让队友有更多机会复活你</string>
+  <string name="skill_ghost_life_time_3_name">幻痛 [Level 3]</string>
+  <string name="skill_ghost_life_time_3_description">你可以一直处于幽灵状态，直到被复活</string>
+  <string name="skill_heavy_name">致命</string>
+  <string name="skill_heavy_description">重型武器造成更多伤害</string>
+  <string name="skill_heavy_weapon_damage_1_name">重型武器暴走 [Level 1]</string>
+  <string name="skill_heavy_weapon_damage_1_description">重型武器造成伤害提高 10%</string>
+  <string name="skill_heavy_weapon_damage_2_name">重型武器暴走 [Level 2]</string>
+  <string name="skill_heavy_weapon_damage_2_description">重型武器造成伤害提高 20%</string>
+  <string name="skill_heavy_weapon_damage_3_name">重型武器暴走 [Level 3]</string>
+  <string name="skill_heavy_weapon_damage_3_description">重型武器造成伤害提高 50%</string>
+  <string name="skill_heavy_weapon_ammo_1_name">重型武器弹药带 [Level 1]</string>
+  <string name="skill_heavy_weapon_ammo_1_description">重型武器弹药携带量增加 25%</string>
+  <string name="skill_heavy_weapon_ammo_2_name">重型武器弹药带 [Level 2]</string>
+  <string name="skill_heavy_weapon_ammo_2_description">重型武器弹药携带量增加 50%</string>
+  <string name="skill_heavy_weapon_ammo_3_name">重型武器弹药带 [Level 3]</string>
+  <string name="skill_heavy_weapon_ammo_3_description">重型武器弹药携带量增加 100%</string>
+  <string name="skill_explosion_radius_1_name">爆炸性扩张 [Level 1]</string>
+  <string name="skill_explosion_radius_1_description">武器的爆炸范围提高 25%</string>
+  <string name="skill_explosion_radius_2_name">爆炸性扩张 [Level 2]</string>
+  <string name="skill_explosion_radius_2_description">武器的爆炸范围提高 50%</string>
+  <string name="skill_explosion_radius_3_name">爆炸性扩张 [Level 3]</string>
+  <string name="skill_explosion_radius_3_description">武器的爆炸范围提高 75%</string>
+  <string name="skill_status_duration_1_name">瘟疫 [Level 1]</string>
+  <string name="skill_status_duration_1_description">武器造成的异常状态持续时间提高 25%</string>
+  <string name="skill_status_duration_2_name">瘟疫 [Level 2]</string>
+  <string name="skill_status_duration_2_description">武器造成的异常状态持续时间提高 50%</string>
+  <string name="skill_status_duration_3_name">瘟疫 [Level 3]</string>
+  <string name="skill_status_duration_3_description">武器造成的异常状态持续时间提高 75%</string>
+  <string name="skill_turret_damage_1_name">炮台训练 [Level 1]</string>
+  <string name="skill_turret_damage_1_description">炮台的生命值提高 50%</string>
+  <string name="skill_turret_damage__2_name">炮台训练 [Level 2]</string>
+  <string name="skill_turret_damage__2_description">炮台的生命值提高 100%</string>
+  <string name="skill_turret_damage_3_name">炮台训练 [Level 3]</string>
+  <string name="skill_turret_damage_3_description">炮台的生命值提高 200%</string>
+  <string name="skill_turret_ammo_1_name">炮台弹药带 [Level 1]</string>
+  <string name="skill_turret_ammo_1_description">炮台弹药携带量增加 50%</string>
+  <string name="skill_turret_ammo_2_name">炮台弹药带 [Level 2]</string>
+  <string name="skill_turret_ammo_2_description">炮台弹药携带量增加 100%</string>
+  <string name="skill_turret_ammo_3_name">炮台弹药带 [Level 3]</string>
+  <string name="skill_turret_ammo_3_description">炮台弹药携带量增加 200%</string>
+  <string name="skill_support_name">支援</string>
+  <string name="skill_support_description">援助其他玩家</string>
+  <string name="skill_small_arms_damage_1_name">轻型武器暴走 [Level 1]</string>
+  <string name="skill_small_arms_damage_1_description">轻型武器 (手枪，霰弹枪，微型冲锋枪) 造成伤害提高 10%</string>
+  <string name="skill_small_arms_damage_2_name">轻型武器暴走 [Level 2]</string>
+  <string name="skill_small_arms_damage_2_description">轻型武器 (手枪，霰弹枪，微型冲锋枪) 造成伤害提高 25%</string>
+  <string name="skill_small_arms_damage_3_name">轻型武器暴走 [Level 3]</string>
+  <string name="skill_small_arms_damage_3_description">轻型武器 (手枪，霰弹枪，微型冲锋枪) 造成伤害提高 50%</string>
+  <string name="skill_small_arms_ammo_1_name">轻型武器弹药带 [Level 1]</string>
+  <string name="skill_small_arms_ammo_1_description">轻型武器弹药携带量增加 25%</string>
+  <string name="skill_small_arms_ammo_2_name">轻型武器弹药带 [Level 2]</string>
+  <string name="skill_small_arms_ammo_2_description">轻型武器弹药携带量增加 50%</string>
+  <string name="skill_small_arms_ammo_3_name">轻型武器弹药带 [Level 3]</string>
+  <string name="skill_small_arms_ammo_3_description">轻型武器弹药携带量增加 100%</string>
+  <string name="skill_buff_grenade_radius_1_name">增益范围 [Level 1]</string>
+  <string name="skill_buff_grenade_radius_1_description">增益手雷的有效范围提高 25%</string>
+  <string name="skill_buff_grenade_radius_2_name">增益范围 [Level 2]</string>
+  <string name="skill_buff_grenade_radius_2_description">增益手雷的有效范围提高 50%</string>
+  <string name="skill_buff_grenade_radius_3_name">增益范围 [Level 3]</string>
+  <string name="skill_buff_grenade_radius_3_description">增益手雷的有效范围提高 100%</string>
+  <string name="skill_buff_grenade_ammo_1_name">增益弹药带 [Level 1]</string>
+  <string name="skill_buff_grenade_ammo_1_description">增益手雷携带量增加 50%</string>
+  <string name="skill_buff_grenade_ammo_2_name">增益弹药带 [Level 2]</string>
+  <string name="skill_buff_grenade_ammo_2_description">增益手雷携带量增加 100%</string>
+  <string name="skill_buff_grenade_ammo_3_name">增益弹药带 [Level 3]</string>
+  <string name="skill_buff_grenade_ammo_3_description">增益手雷携带量增加 150%</string>
+  <string name="skill_ghost_revive_time_1_name">重生 [Level 1]</string>
+  <string name="skill_ghost_revive_time_1_description">你复活其他玩家的速度提高 50%</string>
+  <string name="skill_ghost_revive_time_2_name">重生 [Level 2]</string>
+  <string name="skill_ghost_revive_time_2_description">你复活其他玩家的速度提高 100%</string>
+  <string name="skill_ghost_revive_time_3_name">重生 [Level 3]</string>
+  <string name="skill_ghost_revive_time_3_description">你复活其他玩家的速度提高 200%</string>
+  <string name="skill_healing_speed_1_name">快速愈合 [Level 1]</string>
+  <string name="skill_healing_speed_1_description">你使用治疗武器治愈玩家的效率提高 50%</string>
+  <string name="skill_healing_speed_2_name">快速愈合 [Level 2]</string>
+  <string name="skill_healing_speed_2_description">你使用治疗武器治愈玩家的效率提高 100%</string>
+  <string name="skill_healing_speed_3_name">快速愈合 [Level 3]</string>
+  <string name="skill_healing_speed_3_description">你使用治疗武器治愈玩家的效率提高 200%</string>
+
+  <string name="menu_credits_press_key">按下 [key=gui_select] 跳过</string>
+  <string name="menu_credits_title">.制作名单</string>
+  <string name="credits">"
+\n{TITLE}\n{CENTER}Version {GAME_VERSION}\n{CENTER}(C) TwinDrills 2009-2015\n\n\n\n\n{HEADER}[b][c=220,60,70]Programmers[/c][/b]\nTim \'Infini\' Leonard\n\n\n\n\n{HEADER}[b][c=34,177,76]Artists[/c][/b]\nJordan Chewning\nDiego Favela\n\n\n\n\n{HEADER}[b][c=77,109,243]Level Design[/c][/b]\nTim \'Infini\' Leonard\nJordan Chewning\n\n\n\n\n{HEADER}[b][c=255,220,0]Audio[/c][/b]\nSteven \"Surasshu\" Velema
+\nFreeSound.org (Listed Below!)\n\n\n\n\n{HEADER}[b][c=190,50,0]Testers[/c][/b]\nTomereyn\nTravis Adamczyk\nCharles Blanchard\nKen Murray\nLuc Shelton\nAziz Ur Rahman\nKim Parsonage\nJani Ihalainen\nKurtis Weir\nRicardo Ferreira
+\nKim Klages\nColby Terry\nAlan Sauer\nJack Klink\nBenjamin Gearig\n\n\n\n\n{HEADER}[b][c=220,60,70]Fluffers[/c][/b]\nJames Brookes\n\n\n\n\n{HEADER}[b][c=238,139,134]Special Thanks[/c][/b]\nHazel Brittain\nLoyal Haylett Jr.\nGionathan Pesaresi\nJames Attard\nBen Swinburn\nJustin O\'Leary
+\nGlenn Lewis\n\nZFGC.com
+\nIndieDB.com\nSteam / Valve\nBlitz Research Limited\nDesura Community\n\nKBFail.net Operators\n\n\n\n\n{HEADER}[b][c=130,235,30]Third Party Software[/c][/b]\nFamFamFam Icons, Mark James\n\nFMOD Sound System, copyright (C)\nFirelight Technologies Pty, Ltd.\n1994-2015.\n\nPortions of this software are copyright\n(C) 2015 The FreeType\nProject (www.freetype.org).\nAll rights reserved.\n\nThis product includes GeoLite data\ncreated by MaxMind, available from\nhttp://www.maxmind.com.\n\nLicenses for other third-party software\nare provided in the docs folder with\nthis software.\n\n\n\n{HEADER}[b][c=255,166,210]Freesound Authors[/c][/b]\nacclivity\nadcbicycle\nArctura\naust_paul\nbebeto\nBenboncan\nbennychico11\nBitbeast\nbroumbroum\ncmusounddesign\ndatasoundsample\ndestron\ndigifishmusic\nDJ Chronos\ndobroide\nDonalfonso\nDredile\nejfortin\nERH\nflatfly\nFlick3r\nfonogeno\nFr3yr\nFreqMan\nguitarguy1985\nHalleck\nhamlett\nHardPCM\nharri\n\n{HEADER}[b][c=255,166,210]More Freesound Authors[/c][/b]\nHerbertBoland\nhiramjustus\nivanbailey\nivatma07\nj1987\njames duckett\nJamius\njlozano\njnr hacksaw\nJovica\njunggle\njuskiddink\nJustinBW\nknarmahfox\nKurijn\nLS\nM-RED\nm1rk0\nm_O_m\nmad-monkey\nmansardian\nmartian\nMattJ99\nmeatball4u\nmedialint\nMichel88\nMicroscopia\nMiselaineous\nmonkslut\nmusounddesign\nnathanshadow\nNotofficial\nnthompson\nPhreaKsAccount\n\n{HEADER}[b][c=255,166,210]Even More Freesound Authors[/c][/b]\nPingel\npycckuu20032003\nqubodup\nredjim\nreinsamba\nRHumphries\nRobinhood76\nroscoetoon\nsagetyrtle\nsamplecat\nsandyrb\nSchulze\nscuzzpuck\nShangyne\nsimon rue\nSlanesh\nSmallQuadruped\nsmcameron\nSnoman\nSpartanX109\nSplashdust\nSyna-Max\nTHE_bizniss\nthecheeseman\nTicTacShutUp\nTimbre\ntshah21\numwelt\nVEXST\nVosvoy\nwildweasel\nWIM\nXythe\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{CENTER}[b][c=255,220,0]THANKS FOR PLAYING[/c][/b]"</string>
+
+  <string name="tip_0">TIP: 地面上有[c=50,160,235]蓝色的粘液[/c]？试着按下[key=altfire]！</string>
+  <string name="tip_1">TIP: 把宝石和道具合并来提升它们的属性！</string>
+  <string name="tip_2">TIP: 金币可以用来购买新的道具！</string>
+  <string name="tip_3">TIP: 僵尸对健康有危害</string>
+  <string name="tip_4">TIP: 为你的道具涂上涂料让你看起来更加个性！</string>
+  <string name="tip_5">TIP: 珍惜生命，远离爆炸</string>
+  <string name="tip_6">TIP: 使用技能树来增强自己！</string>
+  <string name="tip_7">TIP: Infinitus 和 Jordizzle 是本游戏的开发者！</string>
+  <string name="tip_8">TIP: 使用手柄进行游戏以获得最佳体验！</string>
+  <string name="tip_9">TIP: 每局游戏结束时会对拾取的金币进行结算</string>
+  <string name="tip_10">TIP: 胖僵尸面对火焰和电击属性的伤害时非常脆弱！</string>
+  <string name="tip_11">TIP: 使用主动技能会消耗宝石，但是效果十分强大！</string>
+ 
+  <string name="tagline_0">Reticulated Splines!</string>
+  <string name="tagline_1">It\'s just TOO cute!</string>
+  <string name="tagline_2">6 minute abs!</string>
+  <string name="tagline_3">We got five on it!</string>
+  <string name="tagline_4">Also available in decaf!</string>
+  <string name="tagline_5">No esta disponible en Espanol, todavia!</string>
+  <string name="tagline_6">Powered by butts.</string>
+  <string name="tagline_7">Butts are gross.</string>
+  <string name="tagline_8">Arcade edition</string>
+  <string name="tagline_9">Tournament edition</string>
+  <string name="tagline_10">Tastes great on a cracker!</string>
+  <string name="tagline_11">S\'cool, dude.</string>
+  <string name="tagline_12">As seen on IndieStatik!</string>
+  <string name="tagline_13">I still mourn my servers IndieStatik!</string>
+  <string name="tagline_14">Exactly like Minecraft, I guess?</string>
+  <string name="tagline_15">Reviewed by most of South America!</string>
+  <string name="tagline_16">...around the world, around the world!</string>
+  <string name="tagline_17">An anagram for Big Modernizer</string>
+  <string name="tagline_18">An anagram for Bird Germ Zone I</string>
+  <string name="tagline_19">Updated sporadically!</string>
+  <string name="tagline_20">Beats by surasshu.com</string>
+  <string name="tagline_21">Cuter than shit!</string>
+  <string name="tagline_22">Rated G for GOOD.</string>
+  <string name="tagline_23">Have a slice of humble pie.</string>
+  <string name="tagline_24">Do you smell that? ...Good!</string>
+  <string name="tagline_25">Working O.T. at the HATE FACTORY.</string>
+  <string name="tagline_26">All aboard the HATE TRAIN.</string>
+  <string name="tagline_27">They\'re sprites, not models!</string>
+  <string name="tagline_28">It\'s not 8-bit!</string>
+  <string name="tagline_29">Yes, there\'s boss fights!</string>
+  <string name="tagline_30">When did they have HP bars!?</string>
+  <string name="tagline_31">You can now feel your tongue.</string>
+  <string name="tagline_32">Slim!</string>
+  <string name="tagline_33">Also available in Slim!</string>
+  <string name="tagline_34">R.I.P. wave_tiny!</string>
+  <string name="tagline_35">Toot toot, sonic warrior!</string>
+  <string name="tagline_36">Tell a friend!</string>
+  <string name="tagline_37">Tell 2 friends!</string>
+  <string name="tagline_38">Tell 3 friends!</string>
+  <string name="tagline_39">Tell a friend to tell 2 friends to tell 3 friends!</string>
+  <string name="tagline_40">Tell 17 friends!</string>
+  <string name="tagline_41">Tell 20 friends!</string>
+  <string name="tagline_42">Share the love!</string>
+  <string name="tagline_43">Save the planet from disaster!</string>
+  <string name="tagline_44">Longest dev cycle EVER!</string>
+  <string name="tagline_45">I was psyched up... Until they said it was multiplayer.</string>
+  <string name="tagline_46">Multiplayer? FUCK THIS.</string>
+  <string name="tagline_47">but this looks like a browser flashgame level game</string>
+  <string name="tagline_48">are those TF2 weapons?</string>
+  <string name="tagline_49">However, no grinder weapon 0/10</string>
+  <string name="tagline_50">looks crappy like a flash game on miniclap</string>
+  <string name="tagline_51">Graal was here first and they coded guns first to.</string>
+  <string name="tagline_52">this luks like a flash game no a steam game Edition</string>
+  <string name="tagline_53">Not 6000!</string>
+  <string name="tagline_54">FLY AWAY NOW!</string>
+  <string name="tagline_55">Hey, sexy ladies!</string>
+  <string name="tagline_56">Grinder not included.</string>
+  <string name="tagline_57">KILL THE ZOMBIES, GET THE PRIZES!</string>
+  <string name="tagline_58">I hope this dosen\'t break anything</string>
+  <string name="tagline_59">Without context that looks like mayonaise.</string>
+  <string name="tagline_60">Awesome game, gave the guy next to me a Seizure!? Yeah!</string>
+  <string name="tagline_61">Chainsaw??</string>
+  <string name="tagline_62">Is this game for pc?</string>
+  <string name="tagline_63">Characters look too weeaboo</string>
+  <string name="tagline_64">Really over 8/16bit/retro</string>
+  <string name="tagline_65">Should be shot out from the pc-platform</string>
+  <string name="tagline_66">A leftover from 3 decades ago</string>
+  <string name="tagline_67">dont drown Steam with crap like this!</string>
+  <string name="tagline_68">How much did you pay this guy for advertising?</string>
+  <string name="tagline_69">I don\'t need another Zombie game. At least not this one.</string>
+  <string name="tagline_70">Did i just say a ascii game was better than this garbage?</string>
+  <string name="tagline_71">NO</string>
+  <string name="tagline_72">and yet another no thanks for me...</string>
+  <string name="tagline_73">Show, don\'t tell.</string>
+  <string name="tagline_74">why hats ...</string>
+  <string name="tagline_75">Nope</string>
+  <string name="tagline_76">From Bloccy with Liebe</string>
+  <string name="tagline_77">Exploder - Is that a rocket in your pocket? - Bloccy</string>
+  <string name="tagline_78">CHICKENS ARE FOR PET - SeoCypher</string>
+  
+  <string name="video_subtitle_c1_s1_1">[c=255,64,64,255]C1_S1 Placeholder[/c]\nThis is a placeholder for a future video.</string>
+  <string name="video_subtitle_c1_s2_1">[c=255,64,64,255]C1_S2 Placeholder[/c]\nThis is a placeholder for a future video.</string>
+  <string name="video_subtitle_c1_s3_1">[c=255,64,64,255]C1_S3 Placeholder[/c]\nThis is a placeholder for a future video.</string>
+  <string name="video_subtitle_c1_s3_end_1">[c=255,64,64,255]C1_S3_END Placeholder[/c]\nThis is a placeholder for a future video.</string>
+  <string name="video_subtitle_c2_s1_1">[c=255,64,64,255]C2_S1 Placeholder[/c]\nThis is a placeholder for a future video.</string>
+  <string name="video_subtitle_c2_s2_1">[c=255,64,64,255]C2_S2 Placeholder[/c]\nThis is a placeholder for a future video.</string>
+  <string name="video_subtitle_c2_s3_1">[c=255,64,64,255]C2_S3 Placeholder[/c]\nThis is a placeholder for a future video.</string>
+  <string name="video_subtitle_c2_s3_end_1">[c=255,64,64,255]C2_S3_END Placeholder[/c]\nThis is a placeholder for a future video.</string>
+  <string name="video_subtitle_c3_s1_1">[c=255,64,64,255]C3_S1 Placeholder[/c]\nThis is a placeholder for a future video.</string>
+  <string name="video_subtitle_c3_s2_1">[c=255,64,64,255]C3_S2 Placeholder[/c]\nThis is a placeholder for a future video.</string>
+  <string name="video_subtitle_c3_s3_1">[c=255,64,64,255]C3_S3 Placeholder[/c]\nThis is a placeholder for a future video.</string>
+  <string name="video_subtitle_c3_s3_end_1">[c=255,64,64,255]C3_S3_END Placeholder[/c]\nThis is a placeholder for a future video.</string>
+
+  <string name="Joystick_Button6_DS3">R1</string>
+  <string name="Keyboard_Escape">退出</string>
+  <string name="Keyboard_CapsLock">Caps Lock</string>
+  <string name="Keyboard_NumLock">Num Lock</string>
+  <string name="Keyboard_ScrollLock">Scroll Lock</string>
+  <string name="Keyboard_PrintScreen">Print Screen</string>
+  <string name="Keyboard_Pause">Pause</string>
+  <string name="Keyboard_Insert">Insert</string>
+  <string name="Keyboard_Home">Home</string>
+  <string name="Keyboard_Delete">Delete</string>
+  <string name="Keyboard_End">End</string>
+  <string name="Keyboard_PageUp">Page Up</string>
+  <string name="Keyboard_PageDown">Page Down</string>
+  <string name="Keyboard_Tab">Tab</string>
+  <string name="Keyboard_LeftShift">左 Shift</string>
+  <string name="Keyboard_RightShift">右 Shift</string>
+  <string name="Keyboard_LeftCtrl">左 Ctrl</string>
+  <string name="Keyboard_RightCtrl">右 Ctrl</string>
+  <string name="Keyboard_WinLeft">左 Win</string>
+  <string name="Keyboard_WinRight">右 Win</string>
+  <string name="Keyboard_LeftAlt">左 Alt</string>
+  <string name="Keyboard_RightAlt">右 Alt</string>
+  <string name="Keyboard_Space">Space</string>
+  <string name="Keyboard_Enter">Enter</string>
+  <string name="Keyboard_Backspace">Backspace</string>
+  <string name="Keyboard_Minus">-</string>
+  <string name="Keyboard_Plus">+</string>
+  <string name="Keyboard_Bar">|</string>
+  <string name="Keyboard_LeftBrace">{</string>
+  <string name="Keyboard_RightBrace">}</string>
+  <string name="Keyboard_At">\@</string>
+  <string name="Keyboard_Colon">:</string>
+  <string name="Keyboard_Tidle">~</string>
+  <string name="Keyboard_Comma">,</string>
+  <string name="Keyboard_Period">.</string>
+  <string name="Keyboard_ForwardSlash">/</string>
+  <string name="Keyboard_Backslash">\\</string>
+  <string name="Keyboard_Left">←</string>
+  <string name="Keyboard_Right">→</string>
+  <string name="Keyboard_Up">↑</string>
+  <string name="Keyboard_Down">↓</string>
+  <string name="Keyboard_Num0">0</string>
+  <string name="Keyboard_Num1">1</string>
+  <string name="Keyboard_Num2">2</string>
+  <string name="Keyboard_Num3">3</string>
+  <string name="Keyboard_Num4">4</string>
+  <string name="Keyboard_Num5">5</string>
+  <string name="Keyboard_Num6">6</string>
+  <string name="Keyboard_Num7">7</string>
+  <string name="Keyboard_Num8">8</string>
+  <string name="Keyboard_Num9">9</string>
+  </resources>

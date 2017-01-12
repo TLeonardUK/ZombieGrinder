@@ -1,0 +1,208 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>editor</name>
+	</settings>
+	<layout>
+	
+		<!-- Menu/Main Panel Container -->
+		<element name="main_container" type="SplitContainer" box="0,0,1,1" direction="horizontal" resizable="false" AspectScaling="False">
+
+			<!-- Menu -->		
+			<element name="menu_container_item" type="SplitContainerItem" size="30" fixed="true">
+
+				<element name="menu" type="MenuBar" box="0,0,1,1" itempadding="8,9,8,16">
+					
+					<element name="" type="MenuItem" value="#editor_file">
+						<element name="new_menu_item" type="MenuItem" value="#editor_new_map" icon="icon_new_file" />				
+						<element name="open_menu_item" type="MenuItem" value="#editor_open_map" icon="icon_folder" />			
+						<element name="" type="MenuItem" value="" />			
+						<element name="save_menu_item" type="MenuItem" value="#editor_save_map" icon="icon_save" />	
+						<element name="save_as_menu_item" type="MenuItem" value="#editor_save_map_as" icon="icon_saveas" />
+            <element name="" type="MenuItem" value="" />
+            <element name="publish_menu_item" type="MenuItem" value="#editor_publish_as_mod" icon="icon_folder_up" />
+						<element name="" type="MenuItem" value="" />
+						<element name="return_menu_item" type="MenuItem" value="#editor_return_to_game" icon="icon_play" />
+						<element name="" type="MenuItem" value="" />
+						<element name="exit_menu_item" type="MenuItem" value="#editor_exit_to_menu" icon="icon_subtract" />				
+					</element>
+					
+					<element name="" type="MenuItem" value="#editor_edit">		
+						<element name="undo_menu_item" type="MenuItem" value="#editor_undo" icon="icon_undo" />				
+						<element name="redo_menu_item" type="MenuItem" value="#editor_redo" icon="icon_redo" />				
+						<element name="" type="MenuItem" value="" />				
+						<element name="cut_menu_item" type="MenuItem" value="#editor_cut" icon="icon_cut" />				
+						<element name="copy_menu_item" type="MenuItem" value="#editor_copy" icon="icon_copy" />				
+						<element name="paste_menu_item" type="MenuItem" value="#editor_paste" icon="icon_paste" />				
+						<element name="" type="MenuItem" value="" />				
+						<element name="delete_menu_item" type="MenuItem" value="#editor_delete" icon="icon_subtract" />						
+					</element>
+					
+					<element name=""  type="MenuItem" value="#editor_view">				
+						<element name="reset_camera_menu_item" type="MenuItem" value="#editor_reset_camera" icon="icon_randomise" />						
+						<element name="" type="MenuItem" value="" />			
+						<element name="show_collision_menu_item" type="MenuItem" value="#editor_show_collision" icon="icon_collision" />
+            <element name="show_path_menu_item" type="MenuItem" value="#editor_show_paths" icon="icon_collision" />
+            <element name="show_randgen_menu_item" type="MenuItem" value="#editor_show_randgen" icon="icon_collision" />
+            <element name="show_grid_menu_item" type="MenuItem" value="#editor_show_grid" icon="icon_collision" />
+            <element name="show_lighting_menu_item" type="MenuItem" value="#editor_show_lighting" icon="icon_collision" />
+            <element name="" type="MenuItem" value="" />
+            <element name="" type="MenuItem" value="#editor_change_layer">
+							<element name="layer1_menu_item" type="MenuItem" value="#editor_layer1" icon="icon_layer" />												
+							<element name="layer2_menu_item" type="MenuItem" value="#editor_layer2" icon="icon_layer" />												
+							<element name="layer3_menu_item" type="MenuItem" value="#editor_layer3" icon="icon_layer" />												
+							<element name="layer4_menu_item" type="MenuItem" value="#editor_layer4" icon="icon_layer" />												
+							<element name="layer5_menu_item" type="MenuItem" value="#editor_layer5" icon="icon_layer" />												
+						</element>		
+
+						<element name="" type="MenuItem" value="#editor_change_tile_properties">
+							<element name="flip_h_menu_item" type="MenuItem" value="#editor_flip_h" icon="icon_flip_horizontal" />		
+							<element name="flip_v_menu_item" type="MenuItem" value="#editor_flip_v" icon="icon_flip_vertical" />		
+						</element>
+						<element name="" type="MenuItem" value="#editor_change_layer_visibility">
+							<element name="layer1_visible_menu_item" type="MenuItem" value="#editor_layer1" icon="icon_layer" />												
+							<element name="layer2_visible_menu_item" type="MenuItem" value="#editor_layer2" icon="icon_layer" />												
+							<element name="layer3_visible_menu_item" type="MenuItem" value="#editor_layer3" icon="icon_layer" />												
+							<element name="layer4_visible_menu_item" type="MenuItem" value="#editor_layer4" icon="icon_layer" />												
+							<element name="layer5_visible_menu_item" type="MenuItem" value="#editor_layer5" icon="icon_layer" />												
+						</element>										
+						<element name="" type="MenuItem" value="#editor_change_mode">
+							<element name="tilemap_menu_item" type="MenuItem" value="#editor_tiles" icon="icon_tilemap" />												
+							<element name="collision_menu_item" type="MenuItem" value="#editor_collision" icon="icon_collision" />												
+							<element name="object_menu_item" type="MenuItem" value="#editor_objects" icon="icon_object" />												
+						</element>										
+						<element name="" type="MenuItem" value="#editor_change_tool">
+							<element name="select_menu_item" type="MenuItem" value="#editor_select" icon="icon_select" />												
+							<element name="paint_menu_item" type="MenuItem" value="#editor_paint" icon="icon_paintbrush" />												
+							<element name="erase_menu_item" type="MenuItem" value="#editor_erase" icon="icon_erase" />												
+							<element name="fill_menu_item" type="MenuItem" value="#editor_flood" icon="icon_fill" />
+              <element name="circle_menu_item" type="MenuItem" value="#editor_circle" icon="icon_circle" />
+            </element>																			
+					</element>
+					
+					<element name=""  type="MenuItem" value="#editor_windows">
+						<element name="map_properties_menu_item" type="MenuItem" value="#editor_map_properties" icon="icon_map_properties" />						
+						<element name="" type="MenuItem" value="" />				
+						<element name="pfx_editor_menu_item" type="MenuItem" value="#editor_pfx_editor" icon="icon_pfx_editor" />						
+					</element>
+										
+				</element>	
+				
+			</element>
+		
+			<!-- Toolbar/Camera Panel -->
+			<element name="toolbarcamera_container_item" type="SplitContainerItem" fixed="false">
+			
+				<element name="toolbar_container" type="SplitContainer" box="0,0,1,1" direction="vertical" resizable="false">
+
+					<!-- Toolbar -->		
+					<element name="toolbar_container_item" type="SplitContainerItem" size="34" fixed="true">					
+						<element name="toolbar" type="Toolbar" box="0,0,1,1" backcolor="255,255,255,255">
+						
+							<element name="select_toolbar_item" type="ToolbarItem" icon="icon_select" />		
+							<element name="paint_toolbar_item" type="ToolbarItem" icon="icon_paintbrush" />			
+							<element name="erase_toolbar_item" type="ToolbarItem" icon="icon_erase" />			
+							<element name="fill_toolbar_item" type="ToolbarItem" icon="icon_fill" />
+              <element name="circle_toolbar_item" type="ToolbarItem" icon="icon_circle" />
+
+              <element name="" type="ToolbarItem" icon="" />			
+							
+							<element name="tilemap_toolbar_item" type="ToolbarItem" icon="icon_tilemap" />										
+							<element name="collision_toolbar_item" type="ToolbarItem" icon="icon_collision" />										
+							<element name="object_toolbar_item" type="ToolbarItem" icon="icon_object" />	
+							
+							<element name="" type="ToolbarItem" icon="" />		
+							
+							<element name="layer1_toolbar_item" type="ToolbarItem" icon="icon_layer" />						
+							<element name="layer2_toolbar_item" type="ToolbarItem" icon="icon_layer" />						
+							<element name="layer3_toolbar_item" type="ToolbarItem" icon="icon_layer" />						
+							<element name="layer4_toolbar_item" type="ToolbarItem" icon="icon_layer" />						
+							<element name="layer5_toolbar_item" type="ToolbarItem" icon="icon_layer" />		
+							
+							<element name="" type="ToolbarItem" icon="" />	
+							
+							<element name="map_properties_toolbar_item" type="ToolbarItem" icon="icon_map_properties" />		
+							<element name="" type="ToolbarItem" icon="" />				
+											
+							<element name="delete_toolbar_item" type="ToolbarItem" icon="icon_subtract" />
+              <element name="" type="ToolbarItem" icon="" />
+
+              <element name="increase_toolbar_item" type="ToolbarItem" icon="icon_up" />
+              <element name="value_toolbar_item" type="ToolbarItem" icon="" value="16" />
+              <element name="decrease_toolbar_item" type="ToolbarItem" icon="icon_down" />
+
+
+            </element>
+					</element>					
+						
+					<!-- Camera Panel -->		
+					<element name="camera_container_item" type="SplitContainerItem" fixed="false">		
+
+						<element name="properties_container" type="SplitContainer" box="0,0,1,1" direction="vertical" resizable="true" offset="350">
+						
+							<element name="camera_container_item" type="SplitContainerItem" fixed="false">
+								<element name="camera_panel" type="Panel" box="0,0,1,1" backcolor="0,0,0,0" /> 
+							</element>
+						
+							<element name="properties_container_item" type="SplitContainerItem" fixed="false">
+							
+								<element name="properties_toolbar_container" type="SplitContainer" box="0,0,1,1" direction="horizontal" resizable="false">
+									<element name="collision_property_container_item" type="SplitContainerItem" fixed="false">
+										
+										<element name="properties_collision_container" type="SplitContainer" box="0,0,1,1" direction="horizontal" resizable="false">
+											<element name="collision_container_item" type="SplitContainerItem" size="34" fixed="true">
+												<element name="collision_toolbar" type="Toolbar" box="0,0,1,1" backcolor="255,255,255,255">										
+													<element name="collision_box" type="ComboBox" box="0.0,0.0,1.0,1.0" boxpadding="2,2,2,3" GameStyle="False"  />			
+												</element>
+											</element>
+											<element name="properties_tileset_container_item" type="SplitContainerItem" fixed="false">												
+
+												<element name="properties_properties_container" type="SplitContainer" box="0,0,1,1" direction="horizontal" resizable="true">
+													<element name="properties_panel_container_item" type="SplitContainerItem" fixed="false" offset="350">
+														<element name="properties_grid" type="PropertyGrid" box="0,0,1,1" backcolor="255,0,0,255" /> 
+													</element>
+													<element name="tileset_panel_container_item" type="SplitContainerItem" fixed="false">												
+														<element name="tileset_panel" type="Panel" box="0,0,1,1" backcolor="233,233,233,255" /> 
+														<element name="object_list" type="TreeView" box="0,0,1,1" backcolor="0,255,0,255" /> 
+													</element>
+												</element>
+
+											</element> 
+										</element>
+											 		 
+									</element> 
+									<element name="properties_flip_toolbar_container_item" type="SplitContainerItem" size="34" fixed="true">
+										<element name="palette_toolbar" type="Toolbar" box="0,0,1,1" backcolor="255,255,255,255">
+										
+											<element name="flip_h_toolbar_item" type="ToolbarItem" icon="icon_flip_horizontal" />		
+											<element name="flip_v_toolbar_item" type="ToolbarItem" icon="icon_flip_vertical" />	
+											
+											<element name="" type="ToolbarItem" icon="" />	
+											
+											<element name="palette_color1_item" type="ToolbarItem" icon="icon_white" />		
+											<element name="palette_color2_item" type="ToolbarItem" icon="icon_white" />			
+											<element name="palette_color3_item" type="ToolbarItem" icon="icon_white" />			
+											<element name="palette_color4_item" type="ToolbarItem" icon="icon_white" />	
+											<element name="palette_color5_item" type="ToolbarItem" icon="icon_white" />	
+											<element name="palette_color6_item" type="ToolbarItem" icon="icon_white" />	
+
+										</element>
+									</element>
+								</element>
+									
+							</element>
+						
+						</element>
+						
+					</element>
+
+				</element>
+					
+			</element>
+
+		</element>
+		
+	</layout>
+</xml>

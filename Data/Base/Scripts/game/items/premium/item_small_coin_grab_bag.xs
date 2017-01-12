@@ -1,0 +1,50 @@
+// -----------------------------------------------------------------------------
+// 	Copyright (C) 2013-2014 TwinDrills, All Rights Reserved
+// -----------------------------------------------------------------------------
+using runtime.math;
+using runtime.log;
+using game.items.item_archetype;
+
+public class Item_Small_Coin_Grab_Bag : Item_Archetype
+{
+	Item_Small_Coin_Grab_Bag()
+	{
+		Name 					= "#item_small_coin_grab_bag_name";
+		Description 			= "#item_small_coin_grab_bag_description";
+		Category				= "#item_small_coin_grab_bag_category";
+		
+		Slot					= Item_Slot.All;
+		Cost					= 10000; 
+		
+		Is_Stackable			= true;
+		Is_Buyable				= false;
+		Is_Tintable				= false;
+		Is_Sellable				= true;
+		Is_Tradable				= true;
+		Is_Dropable				= false;
+		Is_PVP_Usable			= false;
+		Is_Inventory_Droppable	= true;
+		Is_Unpackable			= true;
+		Is_Premium_Only			= false;
+		Premium_Price			= "1;VLV100";
+		
+		Rarity					= Item_Rarity.Rare;
+		
+		Default_Tint			= Vec4(255, 255, 255, 255);
+		
+		Icon_Animation			= "item_small_coin_grab_bag";
+		Icon_Offset				= Vec2(8, 11);
+		
+		Is_Icon_Direction_Based	= false;
+		Is_Icon_Overlay			= false;
+		
+		Combine_Name			= "Small Coin Grab Bag";
+		Combine_Group			= "Premium";
+		Combinations 			= new Item_Combination[0];
+	}
+		
+	public override void On_Unpack(Profile profile, Item item)
+	{
+		profile.Add_Unpacked_Coins(Math.Rand(25000, 50000));
+	}
+}

@@ -1,0 +1,15 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>menu_background</name>
+	</settings>
+	<layout>
+		<element name="bg_image" 		type="Panel" box="0,0,1,1" BackImage="screen_main_bg_1" BGScaleMode="FullHeight" AspectScaling="False" />	
+		<element name="bg_image_fade" 	type="Panel" box="0,0,1,1" BackImage="screen_main_bg_1_fade" AspectScaling="False" />	
+		<element name="title_image" 	type="Panel" box="0.5,0.25,0.0,0.0" BGScaleMode="center" />	
+		<element name="title_tagline"   type="Label" box="0,0.43,1,0.1" HAlign="Center" VAlign="Center" ForeColor="144,204,219,255" Padding="0,0,0,0" value="" />	
+		<element name="copyright"    	type="Label" box="0,0.905,1,0.06" HAlign="Center" VAlign="Center" ForeColor="170,170,170,255" Padding="0,0,0,0" value="#menu_copyright" />	
+	</layout>
+</xml>

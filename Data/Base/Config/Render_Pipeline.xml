@@ -1,0 +1,234 @@
+<xml>
+  <editor>
+    <asset_type>Raw</asset_type>
+  </editor>
+	<defaults>
+
+		<!-- Default state which pass-states overwrite -->
+		<state>
+			<clear-color-value>0,0,0,0</clear-color-value>
+			<clear-depth-value>0</clear-depth-value>
+			<depth-function>greater_or_equal</depth-function>
+			<cull-face>back</cull-face>
+			<depth-test>false</depth-test>
+			<alpha-test>false</alpha-test>
+			<blend>false</blend>
+		</state>
+		
+	</defaults>
+	<textures>
+	
+		<!-- Render target textures -->
+		<texture name="diffuse" 			format="R8G8B8A8" 		  width="DISPLAY_WIDTH" height="DISPLAY_HEIGHT" flags="" />
+		<texture name="distortion" 			format="R8G8B8A8"			width="DISPLAY_WIDTH" height="DISPLAY_HEIGHT" flags="" />
+		<texture name="lighting"   			format="R8G8B8A8"			width="DISPLAY_WIDTH" height="DISPLAY_HEIGHT" flags="" />
+		<texture name="postprocess"			format="R8G8B8A8"			 	width="DISPLAY_WIDTH" height="DISPLAY_HEIGHT" flags="" />
+		<texture name="postprocess2"		format="R8G8B8A8"			 	width="DISPLAY_WIDTH" height="DISPLAY_HEIGHT" flags="" />
+		<texture name="objectmask"			format="R8G8B8A8"			 	width="DISPLAY_WIDTH" height="DISPLAY_HEIGHT" flags="" />
+		<texture name="depth"	  			format="DepthFormat" 	  width="DISPLAY_WIDTH" height="DISPLAY_HEIGHT" flags="" />
+
+		<texture name="hq2x_lut"	  		file="Data\Shaders\Resources\hq2x_lut.png" />
+		<texture name="deus_ex_filler"	  	file="Data\Shaders\Resources\deus_ex_filler.png" />
+		<texture name="green_scale_lut"	  	file="Data\Shaders\Resources\green_scale_lut.png" />
+
+	</textures>	
+	<targets>
+	
+		<!-- Gbuffer stores all the information neccessary for deferred shading (lol, we're rendering 2d in this game, not deferring anything >_>) -->
+		<target name="gbuffer">
+			<attached-texture name="diffuse" 		   	type="color" />
+			<attached-texture name="distortion" 	  	type="color" />
+			<attached-texture name="postprocess"  		type="color" />
+			<attached-texture name="postprocess2" 		type="color" />
+			<attached-texture name="lighting"    	  	type="color" />
+			<attached-texture name="objectmask"    	  	type="color" />
+			<attached-texture name="depth" 			    type="depth" />
+		</target>
+		
+	</targets>
+	<shaders>
+	
+		<!-- Shaders for each pass, some of these are used in the engine, so if they aren't referenced in this file, don't assume they are useless! -->
+		<shader name="diffuse" 		default="true" 	resource_name="diffuse" />
+		<shader name="distortion" 					      resource_name="distortion" />
+		<shader name="gbuffer_clear" 				      resource_name="gbuffer_clear" />
+		<shader name="combine" 						        resource_name="combine" />
+		<shader name="copy" 						          resource_name="copy" />
+		
+		<!-- Post process shaders, these shouldn't really need to be defined here, fix plz -->
+		<shader name="gameboy" 				    resource_name="gameboy" />
+		<shader name="deus_ex" 				    resource_name="deus_ex" />
+		<shader name="chromatic_arboration" 				    resource_name="chromatic_arboration" />
+		<shader name="health_warning" 				    resource_name="health_warning" />
+		<shader name="enter_the_light" 				    resource_name="enter_the_light" />
+		<shader name="hq2x" 				              resource_name="hq2x" />
+    <!--
+    <shader name="hq2x_resize" 				        resource_name="hq2x_resize" />
+	  -->
+  
+	</shaders>
+	<slots>
+	
+		<!-- Each of these represents a "slot" that a object to be rendered can be placed in. The slots specify how and with what shaders everything in the slot is rendered with. -->
+		<slot name="geometry">
+			<shader>diffuse</shader>
+			<sort>front_to_back</sort>
+			<passes>geometry</passes>
+		</slot>
+		
+		<slot name="distortion">
+			<shader>distortion</shader>
+			<sort>front_to_back</sort>
+			<passes>distortion</passes>
+		</slot>
+
+    <slot name="lighting">
+      <shader>distortion</shader>
+      <sort>front_to_back</sort>
+      <passes>lighting</passes>
+    </slot>
+
+    <slot name="postprocess">
+			<shader></shader>
+			<sort>front_to_back</sort>
+			<passes>postprocess</passes>
+		</slot>
+	
+	</slots>
+	<passes>
+		
+		<!-- Clear pass, resets gbuffer to start state -->
+		<pass name="clear" enabled="true">		
+			<type>fullscreen_quad</type>
+			
+			<target>gbuffer</target>
+			<shader>gbuffer_clear</shader>
+			
+			<state>
+				<clear-color>false</clear-color>
+				<clear-depth>true</clear-depth>
+				<depth-test>false</depth-test>
+				<viewport>full</viewport>
+			</state>
+			
+			<outputs>
+				<output>diffuse</output>
+				<output>distortion</output>
+				<output>lighting</output>
+				<output>objectmask</output>
+			</outputs>
+		</pass>	
+		
+		<!-- Geometry pass, builds the gbuffer -->
+		<pass name="geometry" enabled="true">			
+			<type>scene</type>
+			
+			<state>
+				<depth-test>false</depth-test>
+				<viewport>full</viewport>
+			</state>
+			
+			<target>gbuffer</target>
+			<shader>diffuse</shader>
+			
+			<outputs>
+				<output>diffuse</output>
+				<output>objectmask</output>
+			</outputs>
+		</pass>	
+
+		<!-- Distortion pass, builds the distortion buffer -->
+		<pass name="distortion" enabled="true">			
+			<type>scene</type>
+			
+			<state>
+				<depth-test>false</depth-test>
+				<viewport>full</viewport>
+			</state>
+			
+			<target>gbuffer</target>
+			<shader>distortion</shader>
+			
+			<outputs>
+				<output>distortion</output>
+			</outputs>
+		</pass>
+
+    <!-- Lighting pass, builds the lighting buffer -->
+    <pass name="lighting" enabled="true">
+      <type>scene</type>
+
+      <state>
+        <depth-test>false</depth-test>
+        <depth-write>false</depth-write>
+        <viewport>full</viewport>
+      </state>
+
+      <target>gbuffer</target>
+      <shader>distortion</shader>
+
+      <outputs>
+        <output>lighting</output>
+      </outputs>
+    </pass>
+
+    <!-- Combine the distortion+diffuse effects -->
+		<pass name="combine" enabled="true">	
+			<type>fullscreen_quad</type>
+			
+			<state>
+				<depth-test>false</depth-test>
+				<clear-depth>false</clear-depth>
+				<viewport>full</viewport>
+			</state>
+					
+			<target>gbuffer</target>
+			<shader>combine</shader>
+				
+			<outputs>
+				<output>postprocess</output>
+			</outputs>
+		</pass>	
+		
+		<!-- Perform postprocessing on the output. -->
+		<pass name="postprocess" enabled="true">	
+			<type>postprocess</type>
+			
+			<target>gbuffer</target>
+			<shader></shader>
+			
+			<state>
+				<depth-test>false</depth-test>
+				<clear-depth>false</clear-depth>
+				<viewport>full</viewport>
+				<blend>false</blend>
+			</state>
+						
+			<outputs>
+				<!-- Post process result will always end up in buffer 1 -->
+				<output>postprocess</output>
+				<output>postprocess2</output>
+			</outputs>
+		</pass>	
+		
+		<!-- Copy result to back buffer. -->
+		<pass name="copy_final" enabled="true">	
+			<type>fullscreen_quad</type>
+			
+			<target></target>
+			<shader>copy</shader>
+			
+			<state>
+				<depth-test>false</depth-test>
+				<clear-depth>false</clear-depth>
+				<viewport>output</viewport>
+				<blend>false</blend>
+			</state>
+						
+			<outputs>
+				<output>BACK_BUFFER</output> 
+			</outputs>
+		</pass>	
+		
+	</passes>
+</xml>

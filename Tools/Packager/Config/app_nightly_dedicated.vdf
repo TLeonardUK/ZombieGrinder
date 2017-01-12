@@ -1,0 +1,18 @@
+"appbuild"
+{
+	"appid"				"374980"
+	"desc" 				"Application Update" 
+	"buildoutput" 		"Output\" 			// build output folder for .log, .csm & .csd files, relative to location of this file
+	"contentroot" 		"Content\" 			// root content folder, relative to location of this file
+	"setlive"			"nightly" 			// branch to set live after successful build, non if empty
+	"preview" 			"0" 				// to enable preview builds
+	"local"				""					// set to flie path of local content server 
+	
+	"depots"
+	{
+		"374981" "depot_developer_dedicated_data.vdf"
+		"374982" "depot_developer_dedicated_win32.vdf"
+		"374983" "depot_developer_dedicated_linux32.vdf"
+		"374984" "depot_developer_dedicated_macos.vdf"
+	}
+}

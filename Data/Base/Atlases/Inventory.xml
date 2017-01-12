@@ -1,0 +1,2269 @@
+<xml>
+	<editor>
+    <asset_type>Atlas</asset_type>
+	</editor>
+	<settings>
+		<texture-size>2048</texture-size>
+		<max-textures>8</max-textures>
+		<name>Inventory</name>
+	</settings>
+	<images>
+		<image type="grid" name="item_premium_add_gem_slot_#" file="Data/Atlases/Inventory/Premium/Add_Gem_Slot.png"  width="20" height="21" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_premium_add_gem_slot" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_premium_add_gem_slot_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_premium_gem_grab_bag_#" file="Data/Atlases/Inventory/Premium/Gem_Grab_Bag.png"  width="19" height="21" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_premium_gem_grab_bag" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_premium_gem_grab_bag_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_premium_gem_removal_kit_#" file="Data/Atlases/Inventory/Premium/Gem_Removal_Kit.png"  width="25" height="25" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_premium_gem_removal_kit" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_premium_gem_removal_kit_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_premium_large_donator_#" file="Data/Atlases/Inventory/Premium/Large_Donator.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_premium_large_donator" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_premium_large_donator_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_premium_small_donator_#" file="Data/Atlases/Inventory/Premium/Small_Donator.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_premium_small_donator" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_premium_small_donator_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		
+		<image type="grid" name="item_small_xp_grab_bag_#" file="Data/Atlases/Inventory/Premium/Small_XP_Grab_Bag.png"  width="18" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_small_xp_grab_bag" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_small_xp_grab_bag_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_medium_xp_grab_bag_#" file="Data/Atlases/Inventory/Premium/Medium_XP_Grab_Bag.png"  width="18" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_medium_xp_grab_bag" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_medium_xp_grab_bag_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_large_xp_grab_bag_#" file="Data/Atlases/Inventory/Premium/Large_XP_Grab_Bag.png"  width="18" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_large_xp_grab_bag" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_large_xp_grab_bag_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image> 
+		 
+		<image type="grid" name="item_small_coin_grab_bag_#" file="Data/Atlases/Inventory/Premium/Small_Coin_Grab_Bag.png" width="18" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_small_coin_grab_bag" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_small_coin_grab_bag_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_medium_coin_grab_bag_#" file="Data/Atlases/Inventory/Premium/Medium_Coin_Grab_Bag.png"  width="18" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_medium_coin_grab_bag" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_medium_coin_grab_bag_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_large_coin_grab_bag_#" file="Data/Atlases/Inventory/Premium/Large_Coin_Grab_Bag.png"  width="18" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_large_coin_grab_bag" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_large_coin_grab_bag_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		
+		<image type="grid" name="item_small_gem_grab_bag_#" file="Data/Atlases/Inventory/Premium/Small_Gem_Grab_Bag.png"  width="18" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_small_gem_grab_bag" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_small_gem_grab_bag_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_medium_gem_grab_bag_#" file="Data/Atlases/Inventory/Premium/Medium_Gem_Grab_Bag.png"  width="18" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_medium_gem_grab_bag" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_medium_gem_grab_bag_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_large_gem_grab_bag_#" file="Data/Atlases/Inventory/Premium/Large_Gem_Grab_Bag.png"  width="18" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_large_gem_grab_bag" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_large_gem_grab_bag_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		
+		
+		
+		<image type="grid" name="item_weapon_acid_gun_#" file="Data/Atlases/Inventory/Weapon/acid_gun.png"  width="31" height="23" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_acid_gun" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_acid_gun_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_ak47_#" file="Data/Atlases/Inventory/Weapon/ak47.png"  width="31" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_ak47" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_ak47_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_ammo_dispenser_#" file="Data/Atlases/Inventory/Weapon/ammo_dispenser.png"  width="31" height="23" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_ammo_dispenser" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_ammo_dispenser_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_baseball_bat_#" file="Data/Atlases/Inventory/Weapon/baseball_bat.png"  width="31" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_baseball_bat" speed="30" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_baseball_bat_tint" speed="30" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_bolt_gun_#" file="Data/Atlases/Inventory/Weapon/bolt_gun.png"  width="31" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_bolt_gun" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_bolt_gun_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_buff_grenade_ammo_#" file="Data/Atlases/Inventory/Weapon/buff_grenade_ammo.png"  width="22" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_buff_grenade_ammo" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_buff_grenade_ammo_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_buff_grenade_damage_#" file="Data/Atlases/Inventory/Weapon/buff_grenade_damage.png"  width="22" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_buff_grenade_damage" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_buff_grenade_damage_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_buff_grenade_health_#" file="Data/Atlases/Inventory/Weapon/buff_grenade_health.png"  width="22" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_buff_grenade_health" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_buff_grenade_health_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_buff_grenade_price_#" file="Data/Atlases/Inventory/Weapon/buff_grenade_price.png"  width="22" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_buff_grenade_price" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_buff_grenade_price_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_buff_grenade_reload_#" file="Data/Atlases/Inventory/Weapon/buff_grenade_reload.png"  width="22" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_buff_grenade_reload" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_buff_grenade_reload_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_buff_grenade_rof_#" file="Data/Atlases/Inventory/Weapon/buff_grenade_rof.png"  width="22" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_buff_grenade_rof" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_buff_grenade_rof_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_buff_grenade_speed_#" file="Data/Atlases/Inventory/Weapon/buff_grenade_speed.png"  width="22" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_buff_grenade_speed" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_buff_grenade_speed_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_buff_grenade_xp_#" file="Data/Atlases/Inventory/Weapon/buff_grenade_xp.png"  width="22" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_buff_grenade_xp" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_buff_grenade_xp_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_confettiammo_#" file="Data/Atlases/Inventory/Weapon/confettiammo.png"  width="32" height="40" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_confettiammo" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_confettiammo_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_double_barrel_shotgun_#" file="Data/Atlases/Inventory/Weapon/double_barrel_shotgun.png"  width="32" height="32" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_double_barrel_shotgun" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_double_barrel_shotgun_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_explosiveammo_#" file="Data/Atlases/Inventory/Weapon/explosiveammo.png"  width="32" height="40" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_explosiveammo" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_explosiveammo_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+    <image type="grid" name="item_weapon_sword_#" file="Data/Atlases/Inventory/Weapon/sword.png"  width="31" height="20" hspace="1" vspace="1">
+      <animations>
+        <animation name="item_weapon_sword" speed="30" mode="once" from_frame="0" to_frame="0" />
+        <animation name="item_weapon_sword_tint" speed="30" mode="once" from_frame="1" to_frame="1" />
+      </animations>
+    </image>
+		<image type="grid" name="item_weapon_fight_saber_#" file="Data/Atlases/Inventory/Weapon/fight_saber.png"  width="31" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_fight_saber" speed="30" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_fight_saber_tint" speed="30" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_fire_turret_#" file="Data/Atlases/Inventory/Weapon/fire_turret.png"  width="31" height="23" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_fire_turret" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_fire_turret_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_flamethrower_#" file="Data/Atlases/Inventory/Weapon/flamethrower.png"  width="25" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_flamethrower" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_flamethrower_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_flare_gun_#" file="Data/Atlases/Inventory/Weapon/flare_gun.png"  width="31" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_flare_gun" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_flare_gun_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_freezeammo_#" file="Data/Atlases/Inventory/Weapon/freezeammo.png"  width="32" height="40" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_freezeammo" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_freezeammo_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_freeze_ray_#" file="Data/Atlases/Inventory/Weapon/freeze_ray.png"  width="25" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_freeze_ray" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_freeze_ray_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_grenade_launcher_#" file="Data/Atlases/Inventory/Weapon/grenade_launcher.png"  width="31" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_grenade_launcher" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_grenade_launcher_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+    <image type="grid" name="item_weapon_molotov_#" file="Data/Atlases/Inventory/Weapon/molotov.png"  width="31" height="20" hspace="1" vspace="1">
+      <animations>
+        <animation name="item_weapon_molotov" speed="120" mode="once" from_frame="0" to_frame="0" />
+        <animation name="item_weapon_molotov_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+      </animations>
+    </image>
+    <image type="grid" name="item_weapon_frag_#" file="Data/Atlases/Inventory/Weapon/frag.png"  width="31" height="20" hspace="1" vspace="1">
+      <animations>
+        <animation name="item_weapon_frag" speed="120" mode="once" from_frame="0" to_frame="0" />
+        <animation name="item_weapon_frag_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+      </animations>
+    </image>
+    <image type="grid" name="item_weapon_love_pylon_#" file="Data/Atlases/Inventory/Weapon/health_dispenser.png"  width="31" height="23" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_love_pylon" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_love_pylon_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_incendiaryammo_#" file="Data/Atlases/Inventory/Weapon/incendiaryammo.png"  width="32" height="40" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_incendiaryammo" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_incendiaryammo_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_laser_cannon_#" file="Data/Atlases/Inventory/Weapon/laser_cannon.png"  width="32" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_laser_cannon" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_laser_cannon_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_love_cannon_#" file="Data/Atlases/Inventory/Weapon/love_cannon.png"  width="31" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_love_cannon" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_love_cannon_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_love_thrower_#" file="Data/Atlases/Inventory/Weapon/love_thrower.png"  width="31" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_love_thrower" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_love_thrower_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_m16_#" file="Data/Atlases/Inventory/Weapon/m16.png"  width="31" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_m16" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_m16_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_magnum_#" file="Data/Atlases/Inventory/Weapon/magnum.png"  width="24" height="24" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_magnum" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_magnum_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_pistol_#" file="Data/Atlases/Inventory/Weapon/pistol.png"  width="31" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_pistol" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_pistol_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_rocket_turret_#" file="Data/Atlases/Inventory/Weapon/rocket_turret.png"  width="31" height="23" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_rocket_turret" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_rocket_turret_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_rocket_launcher_#" file="Data/Atlases/Inventory/Weapon/rocket_launcher.png"  width="31" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_rocket_launcher" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_rocket_launcher_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+    <image type="grid" name="item_weapon_rocket_launcher_2_#" file="Data/Atlases/Inventory/Weapon/rocket_launcher_2.png"  width="31" height="20" hspace="1" vspace="1">
+      <animations>
+        <animation name="item_weapon_rocket_launcher_2" speed="120" mode="once" from_frame="0" to_frame="0" />
+        <animation name="item_weapon_rocket_launcher_2_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+      </animations>
+    </image>
+    <image type="grid" name="item_weapon_rocket_launcher_3_#" file="Data/Atlases/Inventory/Weapon/rocket_launcher_3.png"  width="31" height="20" hspace="1" vspace="1">
+      <animations>
+        <animation name="item_weapon_rocket_launcher_3" speed="120" mode="once" from_frame="0" to_frame="0" />
+        <animation name="item_weapon_rocket_launcher_3_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+      </animations>
+    </image>
+		<image type="grid" name="item_weapon_rpc_#" file="Data/Atlases/Inventory/Weapon/rpc.png"  width="31" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_rpc" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_rpc_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_scatter_gun_#" file="Data/Atlases/Inventory/Weapon/scatter_gun.png"  width="24" height="24" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_scatter_gun" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_scatter_gun_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_shock_rifle_#" file="Data/Atlases/Inventory/Weapon/shock_rifle.png"  width="31" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_shock_rifle" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_shock_rifle_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_shotgun_#" file="Data/Atlases/Inventory/Weapon/shotgun.png"  width="20" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_shotgun" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_shotgun_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_spaz_#" file="Data/Atlases/Inventory/Weapon/spaz.png"  width="31" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_spaz" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_spaz_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_sticky_launcher_#" file="Data/Atlases/Inventory/Weapon/sticky_launcher.png"  width="31" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_sticky_launcher" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_sticky_launcher_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_tripmine_#" file="Data/Atlases/Inventory/Weapon/tripmine.png"  width="22" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_tripmine" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_tripmine_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_barricade_#" file="Data/Atlases/Inventory/Weapon/barricade.png"  width="32" height="40" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_barricade" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_barricade_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image> 
+		<image type="grid" name="item_weapon_turret_#" file="Data/Atlases/Inventory/Weapon/turret.png"  width="31" height="23" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_turret" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_turret_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_uzi_#" file="Data/Atlases/Inventory/Weapon/uzi.png"  width="20" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_uzi" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_uzi_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_weapon_winchester_rifle_#" file="Data/Atlases/Inventory/Weapon/winchester_rifle.png"  width="32" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_weapon_winchester_rifle" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_weapon_winchester_rifle_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_paint_bucket_#" file="Data/Atlases/Inventory/paint_bucket.png"  width="32" height="32" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_paint_bucket" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_paint_bucket_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_slots_#" file="Data/Atlases/Inventory/slots.png"  width="30" height="30" hspace="1" vspace="1" />
+		<image type="grid" name="item_gem_ammocapacity_1_#" file="Data/Atlases/Inventory/Gems/Ammo Capacity/1.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_ammocapacity_1" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_ammocapacity_1_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_ammocapacity_2_#" file="Data/Atlases/Inventory/Gems/Ammo Capacity/2.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_ammocapacity_2" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_ammocapacity_2_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_ammocapacity_3_#" file="Data/Atlases/Inventory/Gems/Ammo Capacity/3.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_ammocapacity_3" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_ammocapacity_3_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_ammocapacity_4_#" file="Data/Atlases/Inventory/Gems/Ammo Capacity/4.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_ammocapacity_4" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_ammocapacity_4_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_ammocapacity_5_#" file="Data/Atlases/Inventory/Gems/Ammo Capacity/5.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_ammocapacity_5" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_ammocapacity_5_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_damage_1_#" file="Data/Atlases/Inventory/Gems/Damage/1.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_damage_1" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_damage_1_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_damage_2_#" file="Data/Atlases/Inventory/Gems/Damage/2.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_damage_2" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_damage_2_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_damage_3_#" file="Data/Atlases/Inventory/Gems/Damage/3.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_damage_3" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_damage_3_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_damage_4_#" file="Data/Atlases/Inventory/Gems/Damage/4.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_damage_4" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_damage_4_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_damage_5_#" file="Data/Atlases/Inventory/Gems/Damage/5.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_damage_5" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_damage_5_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_health_1_#" file="Data/Atlases/Inventory/Gems/Health/1.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_health_1" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_health_1_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_health_2_#" file="Data/Atlases/Inventory/Gems/Health/2.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_health_2" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_health_2_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_health_3_#" file="Data/Atlases/Inventory/Gems/Health/3.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_health_3" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_health_3_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_health_4_#" file="Data/Atlases/Inventory/Gems/Health/4.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_health_4" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_health_4_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_health_5_#" file="Data/Atlases/Inventory/Gems/Health/5.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_health_5" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_health_5_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_price_1_#" file="Data/Atlases/Inventory/Gems/Price/1.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_price_1" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_price_1_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_price_2_#" file="Data/Atlases/Inventory/Gems/Price/2.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_price_2" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_price_2_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_price_3_#" file="Data/Atlases/Inventory/Gems/Price/3.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_price_3" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_price_3_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_price_4_#" file="Data/Atlases/Inventory/Gems/Price/4.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_price_4" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_price_4_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_price_5_#" file="Data/Atlases/Inventory/Gems/Price/5.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_price_5" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_price_5_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_rof_1_#" file="Data/Atlases/Inventory/Gems/Rate Of Fire/1.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_rof_1" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_rof_1_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_rof_2_#" file="Data/Atlases/Inventory/Gems/Rate Of Fire/2.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_rof_2" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_rof_2_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_rof_3_#" file="Data/Atlases/Inventory/Gems/Rate Of Fire/3.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_rof_3" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_rof_3_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_rof_4_#" file="Data/Atlases/Inventory/Gems/Rate Of Fire/4.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_rof_4" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_rof_4_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_rof_5_#" file="Data/Atlases/Inventory/Gems/Rate Of Fire/5.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_rof_5" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_rof_5_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_reload_1_#" file="Data/Atlases/Inventory/Gems/Reload Speed/1.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_reload_1" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_reload_1_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_reload_2_#" file="Data/Atlases/Inventory/Gems/Reload Speed/2.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_reload_2" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_reload_2_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_reload_3_#" file="Data/Atlases/Inventory/Gems/Reload Speed/3.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_reload_3" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_reload_3_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_reload_4_#" file="Data/Atlases/Inventory/Gems/Reload Speed/4.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_reload_4" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_reload_4_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_reload_5_#" file="Data/Atlases/Inventory/Gems/Reload Speed/5.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_reload_5" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_reload_5_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_speed_1_#" file="Data/Atlases/Inventory/Gems/Speed/1.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_speed_1" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_speed_1_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_speed_2_#" file="Data/Atlases/Inventory/Gems/Speed/2.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_speed_2" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_speed_2_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_speed_3_#" file="Data/Atlases/Inventory/Gems/Speed/3.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_speed_3" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_speed_3_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_speed_4_#" file="Data/Atlases/Inventory/Gems/Speed/4.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_speed_4" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_speed_4_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_speed_5_#" file="Data/Atlases/Inventory/Gems/Speed/5.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_speed_5" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_speed_5_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_xp_1_#" file="Data/Atlases/Inventory/Gems/XP/1.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_xp_1" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_xp_1_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_xp_2_#" file="Data/Atlases/Inventory/Gems/XP/2.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_xp_2" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_xp_2_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_xp_3_#" file="Data/Atlases/Inventory/Gems/XP/3.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_xp_3" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_xp_3_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image> 
+		<image type="grid" name="item_gem_xp_4_#" file="Data/Atlases/Inventory/Gems/XP/4.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_xp_4" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_xp_4_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_gem_xp_5_#" file="Data/Atlases/Inventory/Gems/XP/5.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_gem_xp_5" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_gem_xp_5_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image> 
+		
+		 
+		<image type="grid" name="item_hat_enemy_chaser_#" file="Data/Atlases/Inventory/Hats/Enemies/chaser.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations> 
+				<animation name="item_hat_enemy_chaser_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_enemy_chaser_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_enemy_chaser_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_enemy_chaser_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_enemy_chaser_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_enemy_chaser_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_enemy_chaser_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_enemy_chaser_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+			</animations> 
+		</image>		
+		<image type="grid" name="item_hat_enemy_bouncer_#" file="Data/Atlases/Inventory/Hats/Enemies/bouncer.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations> 
+				<animation name="item_hat_enemy_bouncer_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_enemy_bouncer_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_enemy_bouncer_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_enemy_bouncer_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_enemy_bouncer_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_enemy_bouncer_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_enemy_bouncer_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_enemy_bouncer_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_enemy_exploder_#" file="Data/Atlases/Inventory/Hats/Enemies/exploder.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations> 
+				<animation name="item_hat_enemy_exploder_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_enemy_exploder_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_enemy_exploder_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_enemy_exploder_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_enemy_exploder_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_enemy_exploder_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_enemy_exploder_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_enemy_exploder_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_enemy_floater_#" file="Data/Atlases/Inventory/Hats/Enemies/floater.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations> 
+				<animation name="item_hat_enemy_floater_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_enemy_floater_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_enemy_floater_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_enemy_floater_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_enemy_floater_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_enemy_floater_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_enemy_floater_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_enemy_floater_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_enemy_fodder_#" file="Data/Atlases/Inventory/Hats/Enemies/fodder.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations> 
+				<animation name="item_hat_enemy_fodder_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_enemy_fodder_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_enemy_fodder_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_enemy_fodder_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_enemy_fodder_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_enemy_fodder_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_enemy_fodder_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_enemy_fodder_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+			</animations>
+		</image>				
+		<image type="grid" name="item_hat_enemy_large_blobby_#" file="Data/Atlases/Inventory/Hats/Enemies/large_blobby.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations> 
+				<animation name="item_hat_enemy_large_blobby_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_enemy_large_blobby_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_enemy_large_blobby_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_enemy_large_blobby_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_enemy_large_blobby_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_enemy_large_blobby_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_enemy_large_blobby_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_enemy_large_blobby_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+			</animations>
+		</image>				
+		<image type="grid" name="item_hat_enemy_small_blobby_#" file="Data/Atlases/Inventory/Hats/Enemies/small_blobby.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations> 
+				<animation name="item_hat_enemy_small_blobby_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_enemy_small_blobby_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_enemy_small_blobby_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_enemy_small_blobby_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_enemy_small_blobby_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_enemy_small_blobby_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_enemy_small_blobby_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_enemy_small_blobby_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+			</animations>
+		</image>			
+		
+		<image type="grid" name="item_hat_ami_#" file="Data/Atlases/Inventory/Hats/ami.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations> 
+				<animation name="item_hat_ami_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_ami_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_ami_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_ami_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_ami_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_ami_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_ami_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_ami_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_ami_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_ami_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_ami_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_ami_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_ami_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_ami_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_ami_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_ami_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_ball_cap_#" file="Data/Atlases/Inventory/Hats/ball_cap.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_ball_cap_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_ball_cap_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_ball_cap_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_ball_cap_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_ball_cap_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_ball_cap_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_ball_cap_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_ball_cap_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_ball_cap_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_ball_cap_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_ball_cap_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_ball_cap_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_ball_cap_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_ball_cap_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_ball_cap_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_ball_cap_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_beanie_1_#" file="Data/Atlases/Inventory/Hats/beanie_1.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_beanie_1_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_beanie_1_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_beanie_1_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_beanie_1_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_beanie_1_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_beanie_1_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_beanie_1_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_beanie_1_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_beanie_1_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_beanie_1_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_beanie_1_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_beanie_1_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_beanie_1_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_beanie_1_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_beanie_1_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_beanie_1_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_beanie_2_#" file="Data/Atlases/Inventory/Hats/beanie_2.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_beanie_2_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_beanie_2_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_beanie_2_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_beanie_2_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_beanie_2_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_beanie_2_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_beanie_2_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_beanie_2_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_beanie_2_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_beanie_2_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_beanie_2_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_beanie_2_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_beanie_2_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_beanie_2_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_beanie_2_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_beanie_2_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_bison_cap_#" file="Data/Atlases/Inventory/Hats/bison_cap.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_bison_cap_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_bison_cap_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_bison_cap_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_bison_cap_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_bison_cap_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_bison_cap_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_bison_cap_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_bison_cap_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_bison_cap_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_bison_cap_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_bison_cap_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_bison_cap_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_bison_cap_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_bison_cap_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_bison_cap_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_bison_cap_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_bison_cap_2_#" file="Data/Atlases/Inventory/Hats/bison_cap_2.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_bison_cap_2_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_bison_cap_2_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_bison_cap_2_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_bison_cap_2_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_bison_cap_2_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_bison_cap_2_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_bison_cap_2_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_bison_cap_2_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_bison_cap_2_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_bison_cap_2_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_bison_cap_2_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_bison_cap_2_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_bison_cap_2_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_bison_cap_2_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_bison_cap_2_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_bison_cap_2_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_bison_cap_3_#" file="Data/Atlases/Inventory/Hats/bison_cap_3.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_bison_cap_3_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_bison_cap_3_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_bison_cap_3_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_bison_cap_3_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_bison_cap_3_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_bison_cap_3_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_bison_cap_3_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_bison_cap_3_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_bison_cap_3_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_bison_cap_3_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_bison_cap_3_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_bison_cap_3_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_bison_cap_3_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_bison_cap_3_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_bison_cap_3_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_bison_cap_3_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_box_bot_#" file="Data/Atlases/Inventory/Hats/box_bot.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_box_bot_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_box_bot_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_box_bot_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_box_bot_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_box_bot_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_box_bot_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_box_bot_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_box_bot_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_box_bot_tint_s" speed="150" mode="loop" from_frame="8" to_frame="9" />
+				<animation name="item_hat_box_bot_tint_se" speed="150" mode="loop" from_frame="10" to_frame="11" />
+				<animation name="item_hat_box_bot_tint_e" speed="150" mode="loop" from_frame="14" to_frame="14" />
+				<animation name="item_hat_box_bot_tint_ne" speed="150" mode="loop" from_frame="14" to_frame="14" />
+				<animation name="item_hat_box_bot_tint_n" speed="150" mode="loop" from_frame="14" to_frame="14" />
+				<animation name="item_hat_box_bot_tint_nw" speed="150" mode="loop" from_frame="14" to_frame="14" />
+				<animation name="item_hat_box_bot_tint_w" speed="150" mode="loop" from_frame="14" to_frame="14" />
+				<animation name="item_hat_box_bot_tint_sw" speed="150" mode="loop" from_frame="12" to_frame="13" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_bsod_#" file="Data/Atlases/Inventory/Hats/bsod.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_bsod_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_bsod_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_bsod_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_bsod_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_bsod_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_bsod_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_bsod_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_bsod_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_bsod_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_bsod_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_bsod_tint_e" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_bsod_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_bsod_tint_n" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_bsod_tint_nw" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_bsod_tint_w" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_bsod_tint_sw" speed="50" mode="once" from_frame="10" to_frame="10" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_cheer_bringer_#" file="Data/Atlases/Inventory/Hats/cheer_bringer.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_cheer_bringer_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_cheer_bringer_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_cheer_bringer_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_cheer_bringer_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_cheer_bringer_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_cheer_bringer_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_cheer_bringer_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_cheer_bringer_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_cheer_bringer_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_cheer_bringer_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_cheer_bringer_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_cheer_bringer_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_cheer_bringer_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_cheer_bringer_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_cheer_bringer_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_cheer_bringer_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_dantz_#" file="Data/Atlases/Inventory/Hats/dantz.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_dantz_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_dantz_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_dantz_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_dantz_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_dantz_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_dantz_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_dantz_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_dantz_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_dantz_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_dantz_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_dantz_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_dantz_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_dantz_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_dantz_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_dantz_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_dantz_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_desregardes_#" file="Data/Atlases/Inventory/Hats/desregardes.png" width="64" height="64" hspace="1" vspace="1">
+				<animations>
+				<animation name="item_hat_desregardes_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_desregardes_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_desregardes_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_desregardes_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_desregardes_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_desregardes_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_desregardes_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_desregardes_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_desregardes_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_desregardes_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_desregardes_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_desregardes_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_desregardes_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_desregardes_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_desregardes_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_desregardes_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>	
+		</image>
+		<image type="grid" name="item_hat_desura_#" file="Data/Atlases/Inventory/Hats/desura.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_desura_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_desura_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_desura_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_desura_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_desura_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_desura_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_desura_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_desura_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_desura_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_desura_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_desura_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_desura_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_desura_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_desura_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_desura_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_desura_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_doppleganger_#" file="Data/Atlases/Inventory/Hats/doppleganger.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_doppleganger_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_doppleganger_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_doppleganger_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_doppleganger_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_doppleganger_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_doppleganger_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_doppleganger_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_doppleganger_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_doppleganger_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_doppleganger_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_doppleganger_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_doppleganger_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_doppleganger_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_doppleganger_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_doppleganger_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_doppleganger_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_flat_top_#" file="Data/Atlases/Inventory/Hats/flat_top.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_flat_top_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_flat_top_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_flat_top_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_flat_top_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_flat_top_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_flat_top_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_flat_top_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_flat_top_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_flat_top_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_flat_top_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_flat_top_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_flat_top_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_flat_top_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_flat_top_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_flat_top_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_flat_top_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_fred_head_#" file="Data/Atlases/Inventory/Hats/fred_head.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_fred_head_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_fred_head_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_fred_head_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_fred_head_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_fred_head_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_fred_head_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_fred_head_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_fred_head_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_fred_head_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_fred_head_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_fred_head_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_fred_head_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_fred_head_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_fred_head_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_fred_head_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_fred_head_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_gatsby_#" file="Data/Atlases/Inventory/Hats/gatsby.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_gatsby_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_gatsby_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_gatsby_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_gatsby_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_gatsby_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_gatsby_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_gatsby_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_gatsby_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_gatsby_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_gatsby_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_gatsby_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_gatsby_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_gatsby_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_gatsby_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_gatsby_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_gatsby_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_gi_joe_#" file="Data/Atlases/Inventory/Hats/GI_Joe.png" width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_gi_joe_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_gi_joe_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_gi_joe_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_gi_joe_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_gi_joe_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_gi_joe_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_gi_joe_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_gi_joe_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_gi_joe_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_gi_joe_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_gi_joe_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_gi_joe_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_gi_joe_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_gi_joe_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_gi_joe_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_gi_joe_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>	
+		</image>
+		<image type="grid" name="item_hat_golfers_delight_#" file="Data/Atlases/Inventory/Hats/golfers_delight.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_golfers_delight_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_golfers_delight_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_golfers_delight_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_golfers_delight_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_golfers_delight_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_golfers_delight_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_golfers_delight_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_golfers_delight_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_golfers_delight_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_golfers_delight_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_golfers_delight_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_golfers_delight_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_golfers_delight_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_golfers_delight_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_golfers_delight_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_golfers_delight_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_halo_#" file="Data/Atlases/Inventory/Hats/halo.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_halo_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_halo_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_halo_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_halo_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_halo_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_halo_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_halo_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_halo_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_halo_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_halo_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_halo_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_halo_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_halo_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_halo_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_halo_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_halo_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_heroic_hood_#" file="Data/Atlases/Inventory/Hats/heroic_hood.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_heroic_hood_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_heroic_hood_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_heroic_hood_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_heroic_hood_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_heroic_hood_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_heroic_hood_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_heroic_hood_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_heroic_hood_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_heroic_hood_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_heroic_hood_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_heroic_hood_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_heroic_hood_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_heroic_hood_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_heroic_hood_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_heroic_hood_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_heroic_hood_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_little_sis_#" file="Data/Atlases/Inventory/Hats/little_sis.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_little_sis_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_little_sis_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_little_sis_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_little_sis_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_little_sis_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_little_sis_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_little_sis_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_little_sis_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_little_sis_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_little_sis_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_little_sis_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_little_sis_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_little_sis_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_little_sis_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_little_sis_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_little_sis_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_louisiana_jones_#" file="Data/Atlases/Inventory/Hats/louisiana_jones.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_louisiana_jones_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_louisiana_jones_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_louisiana_jones_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_louisiana_jones_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_louisiana_jones_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_louisiana_jones_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_louisiana_jones_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_louisiana_jones_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_louisiana_jones_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_louisiana_jones_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_louisiana_jones_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_louisiana_jones_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_louisiana_jones_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_louisiana_jones_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_louisiana_jones_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_louisiana_jones_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_mami_#" file="Data/Atlases/Inventory/Hats/mami.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_mami_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_mami_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_mami_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_mami_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_mami_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_mami_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_mami_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_mami_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_mami_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_mami_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_mami_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_mami_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_mami_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_mami_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_mami_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_mami_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_nekomimi_#" file="Data/Atlases/Inventory/Hats/nekomimi.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_nekomimi_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_nekomimi_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_nekomimi_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_nekomimi_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_nekomimi_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_nekomimi_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_nekomimi_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_nekomimi_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_nekomimi_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_nekomimi_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_nekomimi_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_nekomimi_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_nekomimi_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_nekomimi_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_nekomimi_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_nekomimi_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_p1_hair_#" file="Data/Atlases/Inventory/Hats/p1_hair.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_p1_hair_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_p1_hair_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_p1_hair_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_p1_hair_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_p1_hair_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_p1_hair_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_p1_hair_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_p1_hair_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_p1_hair_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_p1_hair_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_p1_hair_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_p1_hair_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_p1_hair_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_p1_hair_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_p1_hair_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_p1_hair_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_p2_hair_#" file="Data/Atlases/Inventory/Hats/p2_hair.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_p2_hair_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_p2_hair_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_p2_hair_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_p2_hair_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_p2_hair_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_p2_hair_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_p2_hair_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_p2_hair_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_p2_hair_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_p2_hair_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_p2_hair_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_p2_hair_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_p2_hair_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_p2_hair_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_p2_hair_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_p2_hair_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_p3_hair_#" file="Data/Atlases/Inventory/Hats/p3_hair.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_p3_hair_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_p3_hair_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_p3_hair_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_p3_hair_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_p3_hair_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_p3_hair_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_p3_hair_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_p3_hair_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_p3_hair_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_p3_hair_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_p3_hair_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_p3_hair_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_p3_hair_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_p3_hair_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_p3_hair_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_p3_hair_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_p4_hair_#" file="Data/Atlases/Inventory/Hats/p4_hair.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_p4_hair_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_p4_hair_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_p4_hair_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_p4_hair_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_p4_hair_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_p4_hair_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_p4_hair_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_p4_hair_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_p4_hair_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_p4_hair_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_p4_hair_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_p4_hair_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_p4_hair_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_p4_hair_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_p4_hair_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_p4_hair_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_pigtails_#" file="Data/Atlases/Inventory/Hats/pigtails.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_pigtails_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_pigtails_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_pigtails_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_pigtails_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_pigtails_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_pigtails_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_pigtails_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_pigtails_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_pigtails_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_pigtails_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_pigtails_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_pigtails_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_pigtails_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_pigtails_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_pigtails_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_pigtails_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_pillager_#" file="Data/Atlases/Inventory/Hats/pillager.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_pillager_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_pillager_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_pillager_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_pillager_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_pillager_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_pillager_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_pillager_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_pillager_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_pillager_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_pillager_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_pillager_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_pillager_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_pillager_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_pillager_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_pillager_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_pillager_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_pompador_#" file="Data/Atlases/Inventory/Hats/pompador.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_pompador_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_pompador_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_pompador_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_pompador_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_pompador_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_pompador_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_pompador_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_pompador_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_pompador_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_pompador_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_pompador_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_pompador_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_pompador_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_pompador_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_pompador_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_pompador_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_poofy_#" file="Data/Atlases/Inventory/Hats/poofy.png" width="64" height="64" hspace="1" vspace="1">
+				<animations>
+				<animation name="item_hat_poofy_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_poofy_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_poofy_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_poofy_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_poofy_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_poofy_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_poofy_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_poofy_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_poofy_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_poofy_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_poofy_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_poofy_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_poofy_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_poofy_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_poofy_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_poofy_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>	
+		</image>
+		<image type="grid" name="item_hat_presento_#" file="Data/Atlases/Inventory/Hats/presento.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_presento_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_presento_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_presento_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_presento_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_presento_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_presento_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_presento_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_presento_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_presento_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_presento_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_presento_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_presento_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_presento_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_presento_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_presento_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_presento_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_pumpkin_#" file="Data/Atlases/Inventory/Hats/pumpkin.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_pumpkin_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_pumpkin_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_pumpkin_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_pumpkin_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_pumpkin_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_pumpkin_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_pumpkin_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_pumpkin_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_pumpkin_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_pumpkin_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_pumpkin_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_pumpkin_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_pumpkin_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_pumpkin_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_pumpkin_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_pumpkin_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_sgt_masterson_#" file="Data/Atlases/Inventory/Hats/sgt_masterson.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_sgt_masterson_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_sgt_masterson_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_sgt_masterson_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_sgt_masterson_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_sgt_masterson_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_sgt_masterson_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_sgt_masterson_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_sgt_masterson_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_sgt_masterson_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_sgt_masterson_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_sgt_masterson_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_sgt_masterson_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_sgt_masterson_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_sgt_masterson_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_sgt_masterson_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_sgt_masterson_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_shizue_#" file="Data/Atlases/Inventory/Hats/shizue.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_shizue_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_shizue_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_shizue_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_shizue_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_shizue_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_shizue_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_shizue_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_shizue_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_shizue_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_shizue_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_shizue_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_shizue_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_shizue_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_shizue_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_shizue_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_shizue_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_sidekick_#" file="Data/Atlases/Inventory/Hats/sidekick.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_sidekick_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_sidekick_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_sidekick_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_sidekick_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_sidekick_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_sidekick_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_sidekick_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_sidekick_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_sidekick_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_sidekick_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_sidekick_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_sidekick_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_sidekick_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_sidekick_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_sidekick_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_sidekick_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_skull_#" file="Data/Atlases/Inventory/Hats/skull.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_skull_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_skull_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_skull_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_skull_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_skull_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_skull_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_skull_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_skull_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_skull_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_skull_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_skull_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_skull_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_skull_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_skull_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_skull_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_skull_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_steve_#" file="Data/Atlases/Inventory/Hats/steve.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_steve_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_steve_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_steve_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_steve_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_steve_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_steve_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_steve_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_steve_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_steve_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_steve_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_steve_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_steve_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_steve_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_steve_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_steve_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_steve_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_thug_pomp_#" file="Data/Atlases/Inventory/Hats/thug_pomp.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_thug_pomp_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_thug_pomp_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_thug_pomp_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_thug_pomp_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_thug_pomp_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_thug_pomp_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_thug_pomp_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_thug_pomp_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_thug_pomp_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_thug_pomp_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_thug_pomp_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_thug_pomp_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_thug_pomp_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_thug_pomp_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_thug_pomp_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_thug_pomp_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_top_hat_#" file="Data/Atlases/Inventory/Hats/top_hat.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_top_hat_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_top_hat_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_top_hat_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_top_hat_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_top_hat_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_top_hat_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_top_hat_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_top_hat_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_top_hat_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_top_hat_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_top_hat_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_top_hat_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_top_hat_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_top_hat_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_top_hat_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_top_hat_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_trucker_#" file="Data/Atlases/Inventory/Hats/trucker.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_trucker_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_trucker_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_trucker_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_trucker_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_trucker_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_trucker_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_trucker_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_trucker_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_trucker_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_trucker_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_trucker_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_trucker_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_trucker_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_trucker_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_trucker_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_trucker_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_turbo_boy_#" file="Data/Atlases/Inventory/Hats/turbo_boy.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_turbo_boy_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_turbo_boy_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_turbo_boy_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_turbo_boy_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_turbo_boy_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_turbo_boy_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_turbo_boy_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_turbo_boy_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_turbo_boy_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_turbo_boy_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_turbo_boy_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_turbo_boy_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_turbo_boy_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_turbo_boy_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_turbo_boy_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_turbo_boy_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_twindrills_#" file="Data/Atlases/Inventory/Hats/twindrills.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_twindrills_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_twindrills_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_twindrills_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_twindrills_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_twindrills_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_twindrills_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_twindrills_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_twindrills_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_twindrills_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_twindrills_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_twindrills_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_twindrills_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_twindrills_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_twindrills_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_twindrills_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_twindrills_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_twintails_#" file="Data/Atlases/Inventory/Hats/twintails.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_twintails_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_twintails_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_twintails_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_twintails_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_twintails_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_twintails_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_twintails_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_twintails_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_twintails_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_twintails_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_twintails_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_twintails_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_twintails_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_twintails_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_twintails_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_twintails_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_yayoi_#" file="Data/Atlases/Inventory/Hats/yayoi.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_yayoi_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_yayoi_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_yayoi_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_yayoi_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_yayoi_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_yayoi_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_yayoi_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_yayoi_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_yayoi_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_yayoi_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_yayoi_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_yayoi_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_yayoi_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_yayoi_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_yayoi_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_yayoi_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_afro_puff_#" file="Data/Atlases/Inventory/Hats/afro_puff.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_afro_puff_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_afro_puff_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_afro_puff_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_afro_puff_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_afro_puff_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_afro_puff_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_afro_puff_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_afro_puff_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_afro_puff_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_afro_puff_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_afro_puff_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_afro_puff_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_afro_puff_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_afro_puff_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_afro_puff_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_afro_puff_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_beret_#" file="Data/Atlases/Inventory/Hats/beret.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_beret_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_beret_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_beret_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_beret_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_beret_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_beret_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_beret_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_beret_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_beret_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_beret_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_beret_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_beret_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_beret_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_beret_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_beret_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_beret_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_big_sis_#" file="Data/Atlases/Inventory/Hats/big_sis.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_big_sis_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_big_sis_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_big_sis_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_big_sis_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_big_sis_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_big_sis_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_big_sis_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_big_sis_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_big_sis_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_big_sis_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_big_sis_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_big_sis_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_big_sis_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_big_sis_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_big_sis_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_big_sis_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_buckethead_#" file="Data/Atlases/Inventory/Hats/buckethead.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_buckethead_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_buckethead_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_buckethead_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_buckethead_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_buckethead_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_buckethead_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_buckethead_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_buckethead_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_buckethead_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_buckethead_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_buckethead_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_buckethead_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_buckethead_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_buckethead_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_buckethead_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_buckethead_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_colbydude_#" file="Data/Atlases/Inventory/Hats/Colbydude.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_colbydude_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_colbydude_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_colbydude_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_colbydude_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_colbydude_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_colbydude_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_colbydude_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_colbydude_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_colbydude_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_colbydude_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_colbydude_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_colbydude_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_colbydude_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_colbydude_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_colbydude_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_colbydude_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_cowlick_#" file="Data/Atlases/Inventory/Hats/cowlick.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_cowlick_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_cowlick_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_cowlick_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_cowlick_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_cowlick_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_cowlick_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_cowlick_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_cowlick_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_cowlick_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_cowlick_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_cowlick_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_cowlick_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_cowlick_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_cowlick_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_cowlick_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_cowlick_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_engineer_hat_#" file="Data/Atlases/Inventory/Hats/engineer_hat.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_engineer_hat_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_engineer_hat_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_engineer_hat_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_engineer_hat_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_engineer_hat_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_engineer_hat_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_engineer_hat_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_engineer_hat_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_engineer_hat_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_engineer_hat_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_engineer_hat_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_engineer_hat_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_engineer_hat_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_engineer_hat_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_engineer_hat_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_engineer_hat_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_foozball_#" file="Data/Atlases/Inventory/Hats/foozball.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_foozball_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_foozball_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_foozball_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_foozball_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_foozball_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_foozball_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_foozball_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_foozball_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_foozball_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_foozball_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_foozball_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_foozball_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_foozball_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_foozball_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_foozball_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_foozball_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_froghat_#" file="Data/Atlases/Inventory/Hats/froghat.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_froghat_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_froghat_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_froghat_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_froghat_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_froghat_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_froghat_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_froghat_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_froghat_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_froghat_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_froghat_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_froghat_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_froghat_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_froghat_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_froghat_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_froghat_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_froghat_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_jojo_#" file="Data/Atlases/Inventory/Hats/jojo.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_jojo_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_jojo_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_jojo_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_jojo_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_jojo_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_jojo_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_jojo_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_jojo_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_jojo_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_jojo_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_jojo_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_jojo_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_jojo_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_jojo_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_jojo_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_jojo_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_meguca_#" file="Data/Atlases/Inventory/Hats/meguca.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_meguca_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_meguca_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_meguca_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_meguca_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_meguca_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_meguca_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_meguca_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_meguca_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_meguca_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_meguca_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_meguca_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_meguca_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_meguca_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_meguca_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_meguca_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_meguca_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_messy_bun_#" file="Data/Atlases/Inventory/Hats/messy_bun.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_messy_bun_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_messy_bun_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_messy_bun_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_messy_bun_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_messy_bun_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_messy_bun_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_messy_bun_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_messy_bun_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_messy_bun_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_messy_bun_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_messy_bun_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_messy_bun_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_messy_bun_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_messy_bun_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_messy_bun_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_messy_bun_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_moe_mop_#" file="Data/Atlases/Inventory/Hats/moe_mop.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_moe_mop_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_moe_mop_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_moe_mop_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_moe_mop_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_moe_mop_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_moe_mop_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_moe_mop_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_moe_mop_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_moe_mop_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_moe_mop_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_moe_mop_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_moe_mop_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_moe_mop_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_moe_mop_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_moe_mop_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_moe_mop_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_ryuko_#" file="Data/Atlases/Inventory/Hats/ryuko.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_ryuko_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_ryuko_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_ryuko_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_ryuko_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_ryuko_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_ryuko_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_ryuko_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_ryuko_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_ryuko_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_ryuko_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_ryuko_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_ryuko_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_ryuko_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_ryuko_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_ryuko_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_ryuko_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_secret_snake_#" file="Data/Atlases/Inventory/Hats/secret_snake.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_secret_snake_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_secret_snake_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_secret_snake_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_secret_snake_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_secret_snake_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_secret_snake_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_secret_snake_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_secret_snake_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_secret_snake_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_secret_snake_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_secret_snake_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_secret_snake_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_secret_snake_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_secret_snake_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_secret_snake_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_secret_snake_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_slenderbag_#" file="Data/Atlases/Inventory/Hats/slenderbag.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_slenderbag_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_slenderbag_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_slenderbag_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_slenderbag_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_slenderbag_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_slenderbag_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_slenderbag_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_slenderbag_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_slenderbag_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_slenderbag_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_slenderbag_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_slenderbag_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_slenderbag_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_slenderbag_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_slenderbag_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_slenderbag_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_hat_twinbuns_#" file="Data/Atlases/Inventory/Hats/twinbuns.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_hat_twinbuns_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_hat_twinbuns_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_hat_twinbuns_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_hat_twinbuns_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_hat_twinbuns_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_hat_twinbuns_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_hat_twinbuns_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_hat_twinbuns_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_hat_twinbuns_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_hat_twinbuns_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_hat_twinbuns_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_hat_twinbuns_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_hat_twinbuns_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_hat_twinbuns_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_hat_twinbuns_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_hat_twinbuns_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		
+		
+		
+		<image type="grid" name="item_accessory_coins_drop_#" file="Data/Atlases/Inventory/Misc/coins_drop.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_accessory_coins_drop" speed="120" mode="once" from_frame="0" to_frame="0" />
+			</animations>
+		</image>
+		<image type="grid" name="item_accessory_xp_drop_#" file="Data/Atlases/Inventory/Misc/xp_drop.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_accessory_xp_drop" speed="120" mode="once" from_frame="0" to_frame="0" />
+			</animations>
+		</image>
+		<image type="grid" name="item_accessory_10000_coins_#" file="Data/Atlases/Inventory/Misc/10000_coins.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_accessory_10000_coins" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_accessory_10000_coins_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_accessory_1000_coins_#" file="Data/Atlases/Inventory/Misc/1000_coins.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_accessory_1000_coins" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_accessory_1000_coins_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_accessory_2500_coins_#" file="Data/Atlases/Inventory/Misc/2500_coins.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_accessory_2500_coins" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_accessory_2500_coins_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_accessory_antlers_#" file="Data/Atlases/Inventory/Misc/antlers.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_accessory_antlers_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_accessory_antlers_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_accessory_antlers_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_accessory_antlers_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_accessory_antlers_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_accessory_antlers_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_accessory_antlers_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_accessory_antlers_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_accessory_antlers_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_accessory_antlers_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_accessory_antlers_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_accessory_antlers_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_accessory_antlers_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_accessory_antlers_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_accessory_antlers_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_accessory_antlers_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_accessory_armour_#" file="Data/Atlases/Inventory/Misc/armour.png"  width="18" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_accessory_armour" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_accessory_armour_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="item_accessory_aviators_#" file="Data/Atlases/Inventory/Misc/aviators.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_accessory_aviators_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_accessory_aviators_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_accessory_aviators_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_accessory_aviators_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_accessory_aviators_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_accessory_aviators_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_accessory_aviators_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_accessory_aviators_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_accessory_aviators_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_accessory_aviators_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_accessory_aviators_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_accessory_aviators_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_accessory_aviators_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_accessory_aviators_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_accessory_aviators_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_accessory_aviators_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_accessory_bow_#" file="Data/Atlases/Inventory/Misc/bow.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_accessory_bow_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_accessory_bow_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_accessory_bow_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_accessory_bow_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_accessory_bow_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_accessory_bow_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_accessory_bow_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_accessory_bow_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_accessory_bow_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_accessory_bow_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_accessory_bow_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_accessory_bow_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_accessory_bow_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_accessory_bow_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_accessory_bow_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_accessory_bow_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_accessory_deus_ex_#" file="Data/Atlases/Inventory/Misc/deus ex.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_accessory_deus_ex_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_accessory_deus_ex_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_accessory_deus_ex_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_accessory_deus_ex_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_accessory_deus_ex_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_accessory_deus_ex_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_accessory_deus_ex_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_accessory_deus_ex_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_accessory_deus_ex_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_accessory_deus_ex_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_accessory_deus_ex_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_accessory_deus_ex_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_accessory_deus_ex_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_accessory_deus_ex_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_accessory_deus_ex_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_accessory_deus_ex_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_accessory_gameboy_#" file="Data/Atlases/Inventory/Misc/gameboy.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_accessory_gameboy_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_accessory_gameboy_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_accessory_gameboy_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_accessory_gameboy_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_accessory_gameboy_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_accessory_gameboy_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_accessory_gameboy_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_accessory_gameboy_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_accessory_gameboy_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_accessory_gameboy_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_accessory_gameboy_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_accessory_gameboy_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_accessory_gameboy_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_accessory_gameboy_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_accessory_gameboy_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_accessory_gameboy_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_accessory_ghetto_superstar_#" file="Data/Atlases/Inventory/Misc/ghetto_superstar.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_accessory_ghetto_superstar_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_accessory_ghetto_superstar_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_accessory_ghetto_superstar_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_accessory_ghetto_superstar_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_accessory_ghetto_superstar_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_accessory_ghetto_superstar_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_accessory_ghetto_superstar_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_accessory_ghetto_superstar_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_accessory_ghetto_superstar_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_accessory_ghetto_superstar_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_accessory_ghetto_superstar_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_accessory_ghetto_superstar_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_accessory_ghetto_superstar_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_accessory_ghetto_superstar_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_accessory_ghetto_superstar_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_accessory_ghetto_superstar_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_accessory_glasses_#" file="Data/Atlases/Inventory/Misc/glasses.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_accessory_glasses_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_accessory_glasses_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_accessory_glasses_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_accessory_glasses_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_accessory_glasses_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_accessory_glasses_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_accessory_glasses_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_accessory_glasses_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_accessory_glasses_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_accessory_glasses_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_accessory_glasses_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_accessory_glasses_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_accessory_glasses_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_accessory_glasses_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_accessory_glasses_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_accessory_glasses_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_accessory_headset_#" file="Data/Atlases/Inventory/Misc/headset.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_accessory_headset_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_accessory_headset_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_accessory_headset_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_accessory_headset_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_accessory_headset_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_accessory_headset_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_accessory_headset_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_accessory_headset_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_accessory_headset_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_accessory_headset_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_accessory_headset_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_accessory_headset_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_accessory_headset_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_accessory_headset_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_accessory_headset_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_accessory_headset_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_accessory_scouter_#" file="Data/Atlases/Inventory/Misc/scouter.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_accessory_scouter_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_accessory_scouter_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_accessory_scouter_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_accessory_scouter_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_accessory_scouter_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_accessory_scouter_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_accessory_scouter_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_accessory_scouter_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_accessory_scouter_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_accessory_scouter_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_accessory_scouter_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_accessory_scouter_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_accessory_scouter_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_accessory_scouter_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_accessory_scouter_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_accessory_scouter_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_accessory_shades_#" file="Data/Atlases/Inventory/Misc/shades.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_accessory_shades_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_accessory_shades_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_accessory_shades_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_accessory_shades_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_accessory_shades_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_accessory_shades_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_accessory_shades_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_accessory_shades_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_accessory_shades_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_accessory_shades_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_accessory_shades_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_accessory_shades_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_accessory_shades_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_accessory_shades_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_accessory_shades_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_accessory_shades_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="item_accessory_moe_eyes_#" file="Data/Atlases/Inventory/Misc/moe_eyes.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_accessory_moe_eyes_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_accessory_moe_eyes_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_accessory_moe_eyes_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_accessory_moe_eyes_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_accessory_moe_eyes_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_accessory_moe_eyes_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_accessory_moe_eyes_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_accessory_moe_eyes_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="item_accessory_moe_eyes_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_accessory_moe_eyes_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_accessory_moe_eyes_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_accessory_moe_eyes_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_accessory_moe_eyes_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_accessory_moe_eyes_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_accessory_moe_eyes_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_accessory_moe_eyes_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+	</images>
+	<animations>
+	</animations>
+</xml>

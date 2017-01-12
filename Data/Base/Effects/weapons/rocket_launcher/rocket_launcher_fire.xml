@@ -1,0 +1,401 @@
+<xml>
+	<settings>
+		<name>rocket_launcher_fire</name>
+	</settings>
+	<emitters>
+		<emitter>
+			<settings>
+				<name>Smoke</name>
+				<render_pass>geometry</render_pass>
+				<lock_rotation_to_direction>false</lock_rotation_to_direction>
+				<keep_effect_alive>true</keep_effect_alive>
+				<global_max_particles>0</global_max_particles>
+				<draw_method>Sprite</draw_method>
+				<blend_mode>Alpha</blend_mode>
+				<cycle_length>1</cycle_length>
+				<cycle_count>1</cycle_count>
+				<max_particles_per_cycle>30</max_particles_per_cycle>
+				<allow_bouncing>true</allow_bouncing>
+				<beam_use_seperate_tail_head>false</beam_use_seperate_tail_head>
+				<sprite>particle_smoke_small</sprite>
+				<affected_by_attractors>true</affected_by_attractors>
+				<move_based_on_direction>false</move_based_on_direction>
+				<enable_collision>false</enable_collision>
+				<collision_reponse>Bounce</collision_reponse>
+				<spawn_shape>Circle</spawn_shape>
+				<collision_scale_x>1</collision_scale_x>
+				<collision_scale_y>1</collision_scale_y>
+				<collision_offset_x>0</collision_offset_x>
+				<collision_offset_y>0</collision_offset_y>
+				<spawn_inner_radius>0</spawn_inner_radius>
+				<spawn_outer_radius>10</spawn_outer_radius>
+				<track_effect>false</track_effect>
+				<draw_shadow>false</draw_shadow>
+				<offset_by_height>false</offset_by_height>
+				<important>false</important>
+				<spawn_offset_x>0</spawn_offset_x>
+				<spawn_offset_y>0</spawn_offset_y>
+				<scale_proportional>false</scale_proportional>
+				<invert_scale_on_bounce>false</invert_scale_on_bounce>
+				<add_emitter_direction>true</add_emitter_direction>
+				<layer_offset>0</layer_offset>
+				<depth_bias>18</depth_bias>
+				<penetration_speed_scalar>1</penetration_speed_scalar>
+				<enable_damage>false</enable_damage>
+				<constant_damage>false</constant_damage>
+				<damage_offset_x>0</damage_offset_x>
+				<damage_offset_y>0</damage_offset_y>
+				<damage_radius>0</damage_radius>
+				<damage_type>NONE</damage_type>
+				<collection_enabled>false</collection_enabled>
+				<collection_value>0</collection_value>
+				<collection_type>Coin</collection_type>
+			</settings>
+			<curves>
+				<Sprite_Frame start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Sprite_Frame>
+				<Direction start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Direction>
+				<Spawn_Rate start_min="300" start_max="300" end_min="500" end_max="500">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Spawn_Rate>
+				<Velocity_X start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Velocity_X>
+				<Velocity_Y start_min="-0.4" start_max="-1.8" end_min="-0.3" end_max="-0.9">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Velocity_Y>
+				<Velocity_Height start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Velocity_Height>
+				<Velocity_Rotation start_min="-15" start_max="15" end_min="-15" end_max="15">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Velocity_Rotation>
+				<Velocity_Direction start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Velocity_Direction>
+				<Color_R start_min="0.7" start_max="0.7" end_min="0.3" end_max="0.3">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Color_R>
+				<Color_G start_min="0.75" start_max="0.75" end_min="0.3" end_max="0.3">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Color_G>
+				<Color_B start_min="0.8" start_max="0.8" end_min="0.35" end_max="0.35">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Color_B>
+				<Color_A start_min="0" start_max="0" end_min="1" end_max="1">
+					<point x="0" y="0"/>
+					<point x="0.0218103" y="0"/>
+					<point x="0.0577972" y="0.772727"/>
+					<point x="0.577754" y="0.711806"/>
+					<point x="1" y="0"/>
+				</Color_A>
+				<Scale_X start_min="0.8" start_max="0.8" end_min="0.2" end_max="0.3">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Scale_X>
+				<Scale_Y start_min="0.8" start_max="0.8" end_min="0.2" end_max="0.3">
+					<point x="0" y="0.00694444"/>
+					<point x="1" y="1"/>
+				</Scale_Y>
+				<Lifetime start_min="1" start_max="1" end_min="1" end_max="2">
+					<point x="0" y="1"/>
+					<point x="0.544469" y="0.971429"/>
+					<point x="1" y="1"/>
+				</Lifetime>
+				<Rotation start_min="-64" start_max="64" end_min="-64" end_max="64">
+					<point x="0" y="0"/>
+					<point x="1" y="1"/>
+				</Rotation>
+				<Height start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Height>
+				<Damage start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Damage>
+			</curves>
+			<events/>
+		</emitter>
+		<emitter>
+			<settings>
+				<name>Muzzle Flash</name>
+				<render_pass>geometry</render_pass>
+				<lock_rotation_to_direction>true</lock_rotation_to_direction>
+				<keep_effect_alive>true</keep_effect_alive>
+				<global_max_particles>0</global_max_particles>
+				<draw_method>Sprite</draw_method>
+				<blend_mode>Alpha</blend_mode>
+				<cycle_length>1</cycle_length>
+				<cycle_count>1</cycle_count>
+				<max_particles_per_cycle>1</max_particles_per_cycle>
+				<allow_bouncing>true</allow_bouncing>
+				<beam_use_seperate_tail_head>false</beam_use_seperate_tail_head>
+				<sprite>particle_medium_muzzle_flash_0</sprite>
+				<affected_by_attractors>false</affected_by_attractors>
+				<move_based_on_direction>false</move_based_on_direction>
+				<enable_collision>false</enable_collision>
+				<collision_reponse>Stop</collision_reponse>
+				<spawn_shape>Point</spawn_shape>
+				<collision_scale_x>1</collision_scale_x>
+				<collision_scale_y>1</collision_scale_y>
+				<collision_offset_x>0</collision_offset_x>
+				<collision_offset_y>0</collision_offset_y>
+				<spawn_inner_radius>0</spawn_inner_radius>
+				<spawn_outer_radius>0</spawn_outer_radius>
+				<track_effect>true</track_effect>
+				<draw_shadow>false</draw_shadow>
+				<offset_by_height>false</offset_by_height>
+				<important>true</important>
+				<spawn_offset_x>0</spawn_offset_x>
+				<spawn_offset_y>0</spawn_offset_y>
+				<scale_proportional>true</scale_proportional>
+				<invert_scale_on_bounce>false</invert_scale_on_bounce>
+				<add_emitter_direction>true</add_emitter_direction>
+				<layer_offset>0</layer_offset>
+				<depth_bias>16</depth_bias>
+				<penetration_speed_scalar>1</penetration_speed_scalar>
+				<enable_damage>false</enable_damage>
+				<constant_damage>false</constant_damage>
+				<damage_offset_x>0</damage_offset_x>
+				<damage_offset_y>0</damage_offset_y>
+				<damage_radius>0</damage_radius>
+				<damage_type>NONE</damage_type>
+				<collection_enabled>false</collection_enabled>
+				<collection_value>0</collection_value>
+				<collection_type>Coin</collection_type>
+			</settings>
+			<curves>
+				<Sprite_Frame start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Sprite_Frame>
+				<Direction start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Direction>
+				<Spawn_Rate start_min="100" start_max="100" end_min="1000" end_max="1000">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Spawn_Rate>
+				<Velocity_X start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Velocity_X>
+				<Velocity_Y start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Velocity_Y>
+				<Velocity_Height start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Velocity_Height>
+				<Velocity_Rotation start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Velocity_Rotation>
+				<Velocity_Direction start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Velocity_Direction>
+				<Color_R start_min="0" start_max="0" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Color_R>
+				<Color_G start_min="0" start_max="0" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Color_G>
+				<Color_B start_min="0" start_max="0" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Color_B>
+				<Color_A start_min="0" start_max="0" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Color_A>
+				<Scale_X start_min="0" start_max="0" end_min="2" end_max="3">
+					<point x="0" y="0.688811"/>
+					<point x="0.491821" y="1"/>
+					<point x="1" y="0.807692"/>
+				</Scale_X>
+				<Scale_Y start_min="0" start_max="0" end_min="2" end_max="3">
+					<point x="0" y="0.681818"/>
+					<point x="0.495093" y="1"/>
+					<point x="1" y="0.828671"/>
+				</Scale_Y>
+				<Lifetime start_min="0" start_max="0" end_min="0.2" end_max="0.3">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Lifetime>
+				<Rotation start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Rotation>
+				<Height start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Height>
+				<Damage start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Damage>
+			</curves>
+			<events>
+				<event x="0" probability="1" type="Spawn" trigger="Time" param="muzzle_flash_light_medium" modifier=""/>
+			</events>
+		</emitter>
+		<emitter>
+			<settings>
+				<name>Projectile</name>
+				<render_pass>geometry</render_pass>
+				<lock_rotation_to_direction>true</lock_rotation_to_direction>
+				<keep_effect_alive>false</keep_effect_alive>
+				<global_max_particles>0</global_max_particles>
+				<draw_method>Sprite</draw_method>
+				<blend_mode>Alpha</blend_mode>
+				<cycle_length>0.1</cycle_length>
+				<cycle_count>1</cycle_count>
+				<max_particles_per_cycle>1</max_particles_per_cycle>
+				<allow_bouncing>false</allow_bouncing>
+				<beam_use_seperate_tail_head>false</beam_use_seperate_tail_head>
+				<sprite>particle_rocket_projectile_main</sprite>
+				<affected_by_attractors>false</affected_by_attractors>
+				<move_based_on_direction>true</move_based_on_direction>
+				<enable_collision>true</enable_collision>
+				<collision_reponse>Stop</collision_reponse>
+				<spawn_shape>Point</spawn_shape>
+        <collision_scale_x>0.015</collision_scale_x>
+        <collision_scale_y>0.015</collision_scale_y>
+        <collision_offset_x>230</collision_offset_x>
+        <collision_offset_y>230</collision_offset_y>
+        <collision_dir_offset>1.5708</collision_dir_offset>
+				<spawn_inner_radius>0</spawn_inner_radius>
+				<spawn_outer_radius>0</spawn_outer_radius>
+				<track_effect>false</track_effect>
+				<draw_shadow>true</draw_shadow>
+				<offset_by_height>true</offset_by_height>
+				<important>true</important>
+				<spawn_offset_x>-5</spawn_offset_x>
+				<spawn_offset_y>0</spawn_offset_y>
+				<scale_proportional>false</scale_proportional>
+				<invert_scale_on_bounce>true</invert_scale_on_bounce>
+				<add_emitter_direction>true</add_emitter_direction>
+				<layer_offset>0</layer_offset>
+				<depth_bias>0</depth_bias>
+				<penetration_speed_scalar>1</penetration_speed_scalar>
+				<enable_damage>true</enable_damage>
+				<constant_damage>false</constant_damage>
+				<damage_offset_x>-20</damage_offset_x>
+				<damage_offset_y>-20</damage_offset_y>
+				<damage_radius>2</damage_radius>
+				<damage_type>Projectile</damage_type>
+				<collection_enabled>false</collection_enabled>
+				<collection_value>0</collection_value>
+				<collection_type>Coin</collection_type>
+				<is_projectile>true</is_projectile>
+			</settings>
+			<curves>
+				<Sprite_Frame start_min="24" start_max="24" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="0.53108" y="0.778196"/>
+					<point x="0.539804" y="0.706767"/>
+					<point x="0.665213" y="0.770677"/>
+					<point x="0.677208" y="0.842105"/>
+					<point x="1" y="0"/>
+				</Sprite_Frame>
+				<Direction start_min="0" start_max="0" end_min="-0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Direction>
+				<Spawn_Rate start_min="800" start_max="800" end_min="800" end_max="800">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Spawn_Rate>
+				<Velocity_X start_min="-100" start_max="-100" end_min="-100" end_max="-100">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Velocity_X>
+				<Velocity_Y start_min="-100" start_max="-100" end_min="-100" end_max="-100">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Velocity_Y>
+				<Velocity_Height start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Velocity_Height>
+				<Velocity_Rotation start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Velocity_Rotation>
+				<Velocity_Direction start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Velocity_Direction>
+				<Color_R start_min="1" start_max="1" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Color_R>
+				<Color_G start_min="1" start_max="1" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Color_G>
+				<Color_B start_min="1" start_max="1" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Color_B>
+				<Color_A start_min="1" start_max="1" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Color_A>
+				<Scale_X start_min="0" start_max="0" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Scale_X>
+				<Scale_Y start_min="0" start_max="0" end_min="1" end_max="1">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Scale_Y>
+				<Lifetime start_min="0" start_max="0" end_min="5" end_max="5">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Lifetime>
+				<Rotation start_min="0" start_max="0" end_min="0" end_max="0">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Rotation>
+				<Height start_min="8" start_max="8" end_min="8" end_max="8">
+					<point x="0" y="1"/>
+					<point x="1" y="0"/>
+				</Height>
+				<Damage start_min="5" start_max="5" end_min="5" end_max="5">
+					<point x="0" y="1"/>
+					<point x="1" y="1"/>
+				</Damage>
+			</curves>
+			<events>
+				<event x="0" probability="1" type="Spawn" trigger="Collision" param="rocket_launcher_explode" modifier=""/>
+				<event x="0" probability="1" type="Spawn" trigger="Penetration" param="rocket_launcher_explode" modifier=""/>
+				<event x="0" probability="1" type="Destroy" trigger="Collision" param="" modifier=""/>
+				<event x="0" probability="1" type="Destroy" trigger="Penetration" param="" modifier=""/>
+				<event x="0" probability="1" type="Spawn_Attached" trigger="Time" param="rocket_launcher_trail" modifier=""/>
+			</events>
+		</emitter>
+	</emitters>
+	<attractors/>
+</xml>
+

@@ -1,0 +1,332 @@
+<xml>
+  <editor>
+    <asset_type>AudioBank</asset_type>
+  </editor>
+	<settings>
+		<name>Sounds</name>
+	</settings>
+  <groups>
+
+    <group name="ambient"       volume="0.4" />
+    <group name="hud"           volume="1.0" />
+    <group name="hud_minor"     volume="0.1" />
+    <group name="player"        volume="1.0" />
+    <group name="player_minor"  volume="0.3" />
+    <group name="enemy"         volume="0.5" />
+    <group name="pickup"        volume="0.25" />
+    <group name="world"         volume="0.5" />
+    <group name="world_minor"   volume="0.1" />    
+    <group name="weapon"        volume="0.3" />
+
+  </groups>
+	<sounds>
+	
+		<!-- Ambient -->
+		<sound name="sfx_ambient_birds"                                       group="ambient" looping="True" streaming="False" file="Data/Audio/Sounds/Ambient/birds.wav" />
+		<sound name="sfx_ambient_bubbling"                                    group="ambient" looping="True" streaming="False" file="Data/Audio/Sounds/Ambient/bubbling.wav" />
+		<sound name="sfx_ambient_drone_loop"                                  group="ambient" looping="True" streaming="False" file="Data/Audio/Sounds/Ambient/drone_loop.wav" />
+		<sound name="sfx_ambient_weather_wind"                                group="ambient" looping="True" streaming="False" file="Data/Audio/Sounds/Ambient/Weather/wind.wav" />
+		<sound name="sfx_ambient_weather_wind2"                               group="ambient" looping="True" streaming="False" file="Data/Audio/Sounds/Ambient/Weather/wind2.wav" />
+		<sound name="sfx_ambient_weather_rain_rain"                           group="ambient" looping="True" streaming="False" file="Data/Audio/Sounds/Ambient/Weather/Rain/rain.wav" />
+		<sound name="sfx_ambient_weather_rain_thunder"                        group="ambient" looping="False" streaming="False" file="Data/Audio/Sounds/Ambient/Weather/Rain/thunder.wav" />
+
+		<!-- Game-Mode Specific -->
+		<sound name="sfx_game_modes_capture_the_bag_capture_lose"             group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/Game Modes/Capture The Bag/capture_lose.wav" />
+		<sound name="sfx_game_modes_capture_the_bag_capture_win"              group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/Game Modes/Capture The Bag/capture_win.wav" />
+		<sound name="sfx_game_modes_capture_the_bag_lose"                     group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/Game Modes/Capture The Bag/lose.wav" />
+		<sound name="sfx_game_modes_capture_the_bag_win"                      group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/Game Modes/Capture The Bag/win.wav" />
+ 
+		<!-- HUD -->
+		<sound name="sfx_hud_achievement"                                     group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/achievement.wav" />
+		<sound name="sfx_hud_checkpoint"                                      group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/checkpoint.wav" />
+		<sound name="sfx_hud_map_complete"                                    group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/map_complete.wav" />
+		<sound name="sfx_hud_objective_done"                                  group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/objective_done.wav" />
+		<sound name="sfx_hud_rankup"                                          group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/rankup.wav" />
+		<sound name="sfx_hud_round_end"                                       group="hud_minor" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/round_end.wav" />
+		<sound name="sfx_hud_round_start"                                     group="hud_minor" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/round_start.wav" />
+		<sound name="sfx_hud_tutorial"                                        group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/tutorial.wav" />
+		<sound name="sfx_hud_messagebox_char"                                 group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/MessageBox/char.wav" />
+		<sound name="sfx_hud_messagebox_close"                                group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/MessageBox/close.wav" />
+		<sound name="sfx_hud_messagebox_close_2"                              group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/MessageBox/close_2.wav" />
+		<sound name="sfx_hud_messagebox_next"                                 group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/MessageBox/next.wav" />
+		<sound name="sfx_hud_messagebox_open"                                 group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/MessageBox/open.wav" />
+		<sound name="sfx_hud_messagebox_open_2"                               group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/MessageBox/open_2.wav" />
+		<sound name="sfx_hud_ui_foodvendingmachine_error"                     group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/UI/FoodVendingMachine/error.wav" />
+		<sound name="sfx_hud_ui_foodvendingmachine_fall"                      group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/UI/FoodVendingMachine/fall.wav" />
+		<sound name="sfx_hud_ui_foodvendingmachine_hit"                       group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/UI/FoodVendingMachine/hit.wav" />
+		<sound name="sfx_hud_ui_foodvendingmachine_success"                   group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/UI/FoodVendingMachine/success.wav" />
+		<sound name="sfx_hud_ui_foodvendingmachine_vend"                      group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/UI/FoodVendingMachine/vend.wav" />
+		<sound name="sfx_hud_ui_sodavendingmachine_error"                     group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/UI/SodaVendingMachine/error.wav" />
+		<sound name="sfx_hud_ui_sodavendingmachine_success"                   group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/UI/SodaVendingMachine/success.wav" />
+		<sound name="sfx_hud_ui_sodavendingmachine_vend"                      group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/UI/SodaVendingMachine/vend.wav" />
+		
+		<!-- Avatar -->
+    <sound name="sfx_objects_avatars_sprint"                              group="player" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Avatars/sprint.wav" />
+    <sound name="sfx_objects_avatars_die"                                 group="player" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Avatars/die.wav" />
+		<sound name="sfx_objects_avatars_heal_1"                              group="player" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Avatars/heal_1.wav" />
+		<sound name="sfx_objects_avatars_heartbeat"                           group="hud_minor" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Avatars/heartbeat.wav" />
+		<sound name="sfx_objects_avatars_hurt_1"                              group="player_minor" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Avatars/hurt_1.wav" />
+		<sound name="sfx_objects_avatars_hurt_2"                              group="player_minor" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Avatars/hurt_2.wav" />
+		<sound name="sfx_objects_avatars_hurt_3"                              group="player_minor" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Avatars/hurt_3.wav" />
+    <sound name="sfx_objects_avatars_female_hurt_1"                       group="player_minor" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Avatars/female_hurt_1.wav" />
+    <sound name="sfx_objects_avatars_female_hurt_2"                       group="player_minor" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Avatars/female_hurt_2.wav" />
+    <sound name="sfx_objects_avatars_female_hurt_3"                       group="player_minor" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Avatars/female_hurt_3.wav" />
+    <sound name="sfx_objects_avatars_spawn"                               group="player" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Avatars/spawn.wav" />
+		
+		<!-- Barricades -->
+		<sound name="sfx_objects_barricades_human_buy"                        group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Barricades/Human/buy.wav" />
+		<sound name="sfx_objects_barricades_zombie_build"                     group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Barricades/Zombie/build.wav" />
+
+		<!-- Chests -->
+		<sound name="sfx_objects_chests_open"                                 group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Chests/open.wav" />
+		<sound name="sfx_objects_chests_open_2"                               group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Chests/open_2.wav" />
+
+		<!-- Destroyables -->
+		<sound name="sfx_objects_destroyable_explode"                         group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Destroyable/explode.wav" />
+    <sound name="sfx_objects_destroyable_move_end"                        group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Destroyable/move_end.wav" />
+		<sound name="sfx_objects_destroyable_move_start"                      group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Destroyable/move_start.wav" />
+		<sound name="sfx_objects_destroyable_poof"                            group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Destroyable/poof.wav" />
+
+		<!-- Doors -->
+		<sound name="sfx_objects_doors_countdown"                             group="world_minor" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Doors/countdown.wav" />
+		<sound name="sfx_objects_doors_explode"                               group="world_minor" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Doors/explode.wav" />
+		<sound name="sfx_objects_doors_open"                                  group="world_minor" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Doors/open.wav" />
+		<sound name="sfx_objects_doors_open_2"                                group="world_minor" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Doors/open_2.wav" />
+		<sound name="sfx_objects_doors_open_3"                                group="world_minor" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Doors/open_3.wav" />
+		<sound name="sfx_objects_doors_place"                                 group="world_minor" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Doors/place.wav" />
+		<sound name="sfx_objects_doors_seal"                                  group="world_minor" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Doors/seal.wav" />
+		<sound name="sfx_objects_doors_unlock"                                group="world_minor" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Doors/unlock.wav" />
+		<sound name="sfx_objects_doors_unseal"                                group="world_minor" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Doors/unseal.wav" />
+    <sound name="sfx_objects_doors_shing"                                 group="world_minor" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Doors/shing.wav" />
+	 
+		<!-- Enemies -->
+		<sound name="sfx_objects_enemies_fall"                                group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/fall.wav" />
+		<sound name="sfx_objects_enemies_hit_ground"                          group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/hit_ground.wav" />
+    <sound name="sfx_objects_enemies_spawn"                               group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/spawn.wav" />
+    <sound name="sfx_objects_enemies_bouncer_squash_1"                    group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/Bouncer/squash_1.wav" />
+		<sound name="sfx_objects_enemies_bouncer_squash_2"                    group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/Bouncer/squash_2.wav" />
+		<sound name="sfx_objects_enemies_bouncer_stunned"                     group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/Bouncer/stunned.wav" />
+		<sound name="sfx_objects_enemies_exploder_countdown"                  group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/Exploder/countdown.wav" />
+		<sound name="sfx_objects_enemies_exploder_explode"                    group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/Exploder/explode.wav" />
+		<sound name="sfx_objects_enemies_zombie_attack"                       group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/Zombie/attack.wav" />
+		<sound name="sfx_objects_enemies_zombie_die"                          group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/Zombie/die.wav" />
+		<sound name="sfx_objects_enemies_zombie_slash_1"                      group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/Zombie/slash_1.wav" />
+    <sound name="sfx_objects_enemies_zombie_slash_2"                      group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/Zombie/slash_2.wav" />
+    <sound name="sfx_objects_enemies_zombie_slash_3"                      group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/Zombie/slash_3.wav" />
+    <sound name="sfx_objects_enemies_zombie_slash_4"                      group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/Zombie/slash_4.wav" />
+		<sound name="sfx_objects_enemies_zombie_snarl"                        group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/Zombie/snarl.wav" />
+		<sound name="sfx_objects_enemies_floater_projectile_hit"              group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/Floater/hit.wav" />
+		
+		<!-- Bosses -->
+		<sound name="sfx_objects_enemies_bosses_whipper_hit_ground"           group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/Bosses/Whipper/hit_ground.wav" />	
+		<sound name="sfx_objects_enemies_bosses_whipper_raise"                group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/Bosses/Whipper/raise.wav" />		
+		<sound name="sfx_objects_enemies_bosses_whipper_slam"                 group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/Bosses/Whipper/slam.wav" />			
+		<sound name="sfx_objects_enemies_bosses_whipper_segment_destroy"      group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/Bosses/Whipper/segment_destroy.wav" />			
+		<sound name="sfx_objects_enemies_bosses_whipper_destroy"              group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/Bosses/Whipper/destroy.wav" />					
+		<sound name="sfx_objects_enemies_bosses_whipper_emerge"               group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/Bosses/Whipper/emerge.wav" />					
+		<sound name="sfx_objects_enemies_bosses_whipper_retreat"              group="enemy" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Enemies/Bosses/Whipper/retreat.wav" />			
+						
+		<!-- Locks -->
+		<sound name="sfx_objects_locks_use"                                   group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Locks/use.wav" />
+	
+		<!-- NPC's -->
+		<sound name="sfx_objects_npc_survivor_die"                            group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/NPC/Survivor/die.wav" />
+		<sound name="sfx_objects_npc_survivor_puff"                           group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/NPC/Survivor/puff.wav" />
+	  <sound name="sfx_objects_npc_cucco_pet"                               group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/NPC/Cucco/petted.wav" />
+		<sound name="sfx_objects_npc_cucco_idle_cluck"                        group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/NPC/Cucco/idle_cluck.wav" />
+    <sound name="sfx_objects_npc_cucco_rage"                              group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/NPC/Cucco/rage.wav" />
+
+    <!-- Pickups -->
+    <sound name="sfx_objects_pickups_item_drop"                           group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/item_drop.wav" />
+    <sound name="sfx_objects_pickups_acid_gun_pickup"                     group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/acid_gun_pickup.wav" />
+		<sound name="sfx_objects_pickups_ak47_pickup"                         group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/ak47_pickup.wav" />
+		<sound name="sfx_objects_pickups_ammobox_open"                        group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/ammobox_open.wav" />
+		<sound name="sfx_objects_pickups_bag_pickup"                          group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/bag_pickup.wav" />
+		<sound name="sfx_objects_pickups_bag_pickup0"                         group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/bag_pickup0.wav" />
+		<sound name="sfx_objects_pickups_boltgun_pickup"                      group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/boltgun_pickup.wav" />
+		<sound name="sfx_objects_pickups_buffgrenade_pickup"                  group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/buffgrenade_pickup.wav" />
+		<sound name="sfx_objects_pickups_coin_bounce"                         group="world_minor" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/coin_bounce.wav" />
+		<sound name="sfx_objects_pickups_doublebarrelshotgun_pickup"          group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/doublebarrelshotgun_pickup.wav" />
+		<sound name="sfx_objects_pickups_eat"                                 group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/eat.wav" />
+		<sound name="sfx_objects_pickups_explosiveammo_pickup"                group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/explosiveammo_pickup.wav" />
+		<sound name="sfx_objects_pickups_fightsaber_pickup"                   group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/fightsaber_pickup.wav" />
+		<sound name="sfx_objects_pickups_flamethrower_pickup"                 group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/flamethrower_pickup.wav" />
+		<sound name="sfx_objects_pickups_flaregun_pickup"                     group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/flaregun_pickup.wav" />
+		<sound name="sfx_objects_pickups_freezeammo_pickup"                   group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/freezeammo_pickup.wav" />
+		<sound name="sfx_objects_pickups_freezeray_pickup"                    group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/freezeray_pickup.wav" />
+		<sound name="sfx_objects_pickups_grenade_launcher_pickup"             group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/grenade_launcher_pickup.wav" />
+		<sound name="sfx_objects_pickups_incendiaryammo_pickup"               group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/incendiaryammo_pickup.wav" />
+		<sound name="sfx_objects_pickups_inventory_pickup"                    group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/inventory_pickup.wav" />
+		<sound name="sfx_objects_pickups_keycard_pickup"                      group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/keycard_pickup.wav" />
+		<sound name="sfx_objects_pickups_key_pickup"                          group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/key_pickup.wav" />
+		<sound name="sfx_objects_pickups_lasercannon_pickup"                  group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/lasercannon_pickup.wav" />
+    <sound name="sfx_objects_pickups_lovecannon_pickup"                   group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/lovecannon_pickup.wav" />
+		<sound name="sfx_objects_pickups_lovethrower_pickup"                  group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/lovethrower_pickup.wav" />
+		<sound name="sfx_objects_pickups_m16_pickup"                          group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/m16_pickup.wav" />
+		<sound name="sfx_objects_pickups_magnum_pickup"                       group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/magnum_pickup.wav" />
+		<sound name="sfx_objects_pickups_map_pickup"                          group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/map_pickup.wav" />
+		<sound name="sfx_objects_pickups_melee_pickup"                        group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/melee_pickup.wav" />
+		<sound name="sfx_objects_pickups_random_pickup"                       group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/random_pickup.wav" />
+		<sound name="sfx_objects_pickups_rocket_launcher_pickup"              group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/rocket_launcher_pickup.wav" />
+		<sound name="sfx_objects_pickups_rpc_pickup"                          group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/rpc_pickup.wav" />
+		<sound name="sfx_objects_pickups_scattergun_pickup"                   group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/scattergun_pickup.wav" />
+		<sound name="sfx_objects_pickups_shockrifle_pickup"                   group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/shockrifle_pickup.wav" />
+		<sound name="sfx_objects_pickups_shotgun_pickup"                      group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/shotgun_pickup.wav" />
+		<sound name="sfx_objects_pickups_spaz_pickup"                         group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/spaz_pickup.wav" />
+		<sound name="sfx_objects_pickups_sticky_launcher_pickup"              group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/sticky_launcher_pickup.wav" />
+		<sound name="sfx_objects_pickups_swallow"                             group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/swallow.wav" />
+		<sound name="sfx_objects_pickups_tripmine_pickup"                     group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/tripmine_pickup.wav" />
+		<sound name="sfx_objects_pickups_turret_pickup"                       group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/turret_pickup.wav" />
+		<sound name="sfx_objects_pickups_uzi_pickup"                          group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/uzi_pickup.wav" />
+		<sound name="sfx_objects_pickups_winchester_rifle_pickup"             group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/winchester_rifle_pickup.wav" />
+    <sound name="sfx_objects_pickups_pistol_pickup"                       group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/pistol_pickup.wav" />
+    <sound name="sfx_objects_pickups_barricade_pickup"                    group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/barricade_pickup.wav" />
+
+    <sound name="sfx_objects_pickups_molotov_pickup"                      group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/molotov_pickup.wav" />
+    <sound name="sfx_objects_pickups_frag_pickup"                         group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/frag_pickup.wav" />
+    <sound name="sfx_objects_pickups_rocket_launcher_2_pickup"            group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/rocket_launcher_2_pickup.wav" />
+    <sound name="sfx_objects_pickups_rocket_launcher_3_pickup"            group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/rocket_launcher_3_pickup.wav" />
+    <sound name="sfx_objects_pickups_sword_pickup"                        group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/sword_pickup.wav" />
+    <sound name="sfx_objects_pickups_candy_corn_pickup"                   group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/candy_corn_pickup.wav" />
+    <sound name="sfx_objects_coin_bag_pickup"                             group="pickup" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Pickups/coin_bag.wav" />    
+
+    <!-- Projectile spawner -->
+		<sound name="sfx_objects_projectile_spawner_use"                      group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Projectile Spawner/use.wav" />
+
+		<!-- Spawn Chamber -->
+		<sound name="sfx_objects_spawn_chamber_buy"                           group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Spawn Chamber/buy.wav" />
+
+		<!-- Switches -->
+		<sound name="sfx_objects_switchs_use"                                 group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Switchs/use.wav" />
+ 
+		<!-- Turrets -->
+		<sound name="sfx_objects_turrets_dispose"                             group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Turrets/dispose.wav" />
+    <sound name="sfx_objects_turrets_target_acquired"                     group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Turrets/target_acquired.wav" />
+		<sound name="sfx_objects_turrets_target_lost" 		                    group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Turrets/target_lost.wav" />
+
+		<!-- Vending machines -->
+		<sound name="sfx_objects_vending_machines_food_buy"                   group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Vending Machines/Food/buy.wav" />
+		<sound name="sfx_objects_vending_machines_soda_buy"                   group="world" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Vending Machines/Soda/buy.wav" />
+		
+		<!-- Weapons -->
+		<sound name="sfx_objects_weapons_acid_gun_fire"                       group="weapon" looping="True" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Acid Gun/fire.wav" />
+		<sound name="sfx_objects_weapons_acid_gun_reload"                     group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Acid Gun/reload.wav" />
+		<sound name="sfx_objects_weapons_ak47_casing_bounce"                  group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/AK47/casing_bounce.wav" />
+		<sound name="sfx_objects_weapons_ak47_fire"                           group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/AK47/fire.wav" />
+		<sound name="sfx_objects_weapons_ak47_reload"                         group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/AK47/reload.wav" />
+		<sound name="sfx_objects_weapons_bolt_gun_casing_bounce"              group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Bolt Gun/casing_bounce.wav" />
+		<sound name="sfx_objects_weapons_bolt_gun_fire"                       group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Bolt Gun/fire.wav" />
+		<sound name="sfx_objects_weapons_bolt_gun_reload"                     group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Bolt Gun/reload.wav" />
+		<sound name="sfx_objects_weapons_bolt_gun_shock"                      group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Bolt Gun/shock.wav" />		
+    <sound name="sfx_objects_weapons_buff_grenade_fire"                   group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Buff Grenade/fire.wav" />
+		<sound name="sfx_objects_weapons_buff_grenade_ping"                   group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Buff Grenade/ping.wav" />   
+    <sound name="sfx_objects_weapons_frag_fire"                           group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Frag/fire.wav" />
+    <sound name="sfx_objects_weapons_frag_ping"                           group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Frag/ping.wav" />
+    <sound name="sfx_objects_weapons_molotov_fire"                        group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Molotov/fire.wav" />
+    <sound name="sfx_objects_weapons_molotov_ping"                        group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Molotov/ping.wav" />
+    <sound name="sfx_objects_weapons_rocket_launcher_2_casing_bounce"     group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Rocket Launcher 2/casing_bounce.wav" />
+    <sound name="sfx_objects_weapons_rocket_launcher_2_countdown"         group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Rocket Launcher 2/countdown.wav" />
+    <sound name="sfx_objects_weapons_rocket_launcher_2_explode"           group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Rocket Launcher 2/explode.wav" />
+    <sound name="sfx_objects_weapons_rocket_launcher_2_fire"              group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Rocket Launcher 2/fire.wav" />
+    <sound name="sfx_objects_weapons_rocket_launcher_2_reload"            group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Rocket Launcher 2/reload.wav" />
+    <sound name="sfx_objects_weapons_rocket_launcher_3_casing_bounce"     group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Rocket Launcher 3/casing_bounce.wav" />
+    <sound name="sfx_objects_weapons_rocket_launcher_3_countdown"         group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Rocket Launcher 3/countdown.wav" />
+    <sound name="sfx_objects_weapons_rocket_launcher_3_explode"           group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Rocket Launcher 3/explode.wav" />
+    <sound name="sfx_objects_weapons_rocket_launcher_3_fire"              group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Rocket Launcher 3/fire.wav" />
+    <sound name="sfx_objects_weapons_rocket_launcher_3_reload"            group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Rocket Launcher 3/reload.wav" />
+    <sound name="sfx_objects_weapons_sword_hit_1"                         group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Sword/hit_1.wav" />
+    <sound name="sfx_objects_weapons_sword_no_hit"                        group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Sword/no_hit.wav" />
+    <sound name="sfx_objects_weapons_confetti_fire"                       group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Confetti/fire.wav" />
+		<sound name="sfx_objects_weapons_double_barrel_shotgun_casing_bounce" group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Double Barrel Shotgun/casing_bounce.wav" />
+		<sound name="sfx_objects_weapons_double_barrel_shotgun_fire"          group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Double Barrel Shotgun/fire.wav" />
+		<sound name="sfx_objects_weapons_double_barrel_shotgun_reload"        group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Double Barrel Shotgun/reload.wav" />
+		<sound name="sfx_objects_weapons_double_barrel_shotgun_reload_end"    group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Double Barrel Shotgun/reload_end.wav" />
+		<sound name="sfx_objects_weapons_fight_saber_hit_1"                   group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Fight Saber/hit_1.wav" />
+		<sound name="sfx_objects_weapons_fight_saber_no_hit"                  group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Fight Saber/no_hit.wav" />
+		<sound name="sfx_objects_weapons_flamethrower_fire_loop"              group="weapon" looping="True" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Flamethrower/fire_loop.wav" />
+		<sound name="sfx_objects_weapons_flamethrower_fire_start"             group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Flamethrower/fire_start.wav" />
+		<sound name="sfx_objects_weapons_flamethrower_reload"                 group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Flamethrower/reload.wav" />
+		<sound name="sfx_objects_weapons_flare_gun_casing_bounce"             group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Flare Gun/casing_bounce.wav" />
+		<sound name="sfx_objects_weapons_flare_gun_fire"                      group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Flare Gun/fire.wav" />
+		<sound name="sfx_objects_weapons_flare_gun_reload"                    group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Flare Gun/reload.wav" />
+		<sound name="sfx_objects_weapons_freeze_ray_crack"                    group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Freeze Ray/crack.wav" />
+		<sound name="sfx_objects_weapons_freeze_ray_fire_loop"                group="weapon" looping="True" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Freeze Ray/fire_loop.wav" />
+    <sound name="sfx_objects_weapons_freeze_ray_freeze"                   group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Freeze Ray/freeze.wav" />
+		<sound name="sfx_objects_weapons_freeze_ray_reload"                   group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Freeze Ray/reload.wav" />
+		<sound name="sfx_objects_weapons_grenade_launcher_casing_bounce"      group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Grenade Launcher/casing_bounce.wav" />
+		<sound name="sfx_objects_weapons_grenade_launcher_countdown"          group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Grenade Launcher/countdown.wav" />
+		<sound name="sfx_objects_weapons_grenade_launcher_explode"            group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Grenade Launcher/explode.wav" />
+		<sound name="sfx_objects_weapons_grenade_launcher_fire"               group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Grenade Launcher/fire.wav" />
+		<sound name="sfx_objects_weapons_grenade_launcher_reload"             group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Grenade Launcher/reload.wav" />
+		<sound name="sfx_objects_weapons_laser_cannon_casing_bounce"          group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Laser Cannon/casing_bounce.wav" />
+		<sound name="sfx_objects_weapons_laser_cannon_charge"                 group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Laser Cannon/charge.wav" />
+		<sound name="sfx_objects_weapons_laser_cannon_fire"                   group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Laser Cannon/fire.wav" />
+		<sound name="sfx_objects_weapons_laser_cannon_reload"                 group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Laser Cannon/reload.wav" />
+		<sound name="sfx_objects_weapons_love_cannon_casing_bounce"           group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Love Cannon/casing_bounce.wav" />
+		<sound name="sfx_objects_weapons_love_cannon_fire"                    group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Love Cannon/fire.wav" />
+		<sound name="sfx_objects_weapons_love_cannon_reload"                  group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Love Cannon/reload.wav" />
+		<sound name="sfx_objects_weapons_love_thrower_fire"                   group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Love Thrower/fire.wav" />
+		<sound name="sfx_objects_weapons_love_thrower_reload"                 group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Love Thrower/reload.wav" />
+		<sound name="sfx_objects_weapons_m16_casing_bounce"                   group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/M16/casing_bounce.wav" />
+		<sound name="sfx_objects_weapons_m16_fire"                            group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/M16/fire.wav" />
+		<sound name="sfx_objects_weapons_m16_reload"                          group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/M16/reload.wav" />
+		<sound name="sfx_objects_weapons_magnum_casing_bounce"                group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Magnum/casing_bounce.wav" />
+    <sound name="sfx_objects_weapons_magnum_fire"                         group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Magnum/fire.wav" />
+    <sound name="sfx_objects_weapons_magnum_reload_end"                   group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Magnum/reload_end.wav" />
+    <sound name="sfx_objects_weapons_magnum_reload"                       group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Magnum/reload.wav" />
+		<sound name="sfx_objects_weapons_melee_hit_1"                         group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Melee/hit_1.wav" />
+		<sound name="sfx_objects_weapons_melee_hit_2"                         group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Melee/hit_2.wav" />
+		<sound name="sfx_objects_weapons_melee_hit_3"                         group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Melee/hit_3.wav" />
+		<sound name="sfx_objects_weapons_melee_hit_4"                         group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Melee/hit_4.wav" />
+		<sound name="sfx_objects_weapons_melee_hit_5"                         group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Melee/hit_5.wav" />
+		<sound name="sfx_objects_weapons_melee_hit_6"                         group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Melee/hit_6.wav" />
+		<sound name="sfx_objects_weapons_melee_no_hit"                        group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Melee/no_hit.wav" />
+		<sound name="sfx_objects_weapons_pistol_casing_bounce"                group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Pistol/casing_bounce.wav" />
+		<sound name="sfx_objects_weapons_pistol_fire"                         group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Pistol/fire.wav" />
+		<sound name="sfx_objects_weapons_pistol_reload"                       group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Pistol/reload.wav" />
+		<sound name="sfx_objects_weapons_rocket_launcher_casing_bounce"       group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Rocket Launcher/casing_bounce.wav" />
+		<sound name="sfx_objects_weapons_rocket_launcher_countdown"           group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Rocket Launcher/countdown.wav" />
+		<sound name="sfx_objects_weapons_rocket_launcher_explode"             group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Rocket Launcher/explode.wav" />
+		<sound name="sfx_objects_weapons_rocket_launcher_fire"                group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Rocket Launcher/fire.wav" />
+		<sound name="sfx_objects_weapons_rocket_launcher_reload"              group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Rocket Launcher/reload.wav" />	
+    <sound name="sfx_objects_weapons_rpc_casing_bounce"                   group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/RPC/casing_bounce.wav" />
+		<sound name="sfx_objects_weapons_rpc_countdown"                       group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/RPC/countdown.wav" />
+		<sound name="sfx_objects_weapons_rpc_explode"                         group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/RPC/explode.wav" />
+		<sound name="sfx_objects_weapons_rpc_fire"                            group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/RPC/fire.wav" />
+		<sound name="sfx_objects_weapons_rpc_projectile_loop"                 group="weapon" looping="True" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/RPC/projectile_loop.wav" />
+		<sound name="sfx_objects_weapons_rpc_projectile_push_back"            group="weapon" looping="True" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/RPC/projectile_push_back.wav" />
+		<sound name="sfx_objects_weapons_rpc_reload"                          group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/RPC/reload.wav" />
+		<sound name="sfx_objects_weapons_scatter_gun_casing_bounce"           group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Scatter Gun/casing_bounce.wav" />
+		<sound name="sfx_objects_weapons_scatter_gun_fire"                    group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Scatter Gun/fire.wav" />
+		<sound name="sfx_objects_weapons_scatter_gun_reload"                  group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Scatter Gun/reload.wav" />
+    <sound name="sfx_objects_weapons_scatter_gun_reload_end"              group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Scatter Gun/reload_end.wav" />
+    <sound name="sfx_objects_weapons_shock_rifle_casing_bounce"           group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Shock Rifle/casing_bounce.wav" />
+		<sound name="sfx_objects_weapons_shock_rifle_fire"                    group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Shock Rifle/fire.wav" />
+		<sound name="sfx_objects_weapons_shock_rifle_reload"                  group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Shock Rifle/reload.wav" />
+		<sound name="sfx_objects_weapons_shock_rifle_shock"                   group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Shock Rifle/shock.wav" />
+		<sound name="sfx_objects_weapons_shotgun_casing_bounce"               group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Shotgun/casing_bounce.wav" />
+		<sound name="sfx_objects_weapons_shotgun_fire"                        group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Shotgun/fire.wav" />
+		<sound name="sfx_objects_weapons_shotgun_reload"                      group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Shotgun/reload.wav" />
+		<sound name="sfx_objects_weapons_shotgun_dry_fire"                    group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Shotgun/dry_fire.wav" />
+		<sound name="sfx_objects_weapons_spaz_casing_bounce"                  group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Spaz/casing_bounce.wav" />
+		<sound name="sfx_objects_weapons_spaz_fire"                           group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Spaz/fire.wav" />
+		<sound name="sfx_objects_weapons_spaz_reload"                         group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Spaz/reload.wav" />
+		<sound name="sfx_objects_weapons_sticky_launcher_explode"             group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Sticky Launcher/explode.wav" />
+		<sound name="sfx_objects_weapons_sticky_launcher_fire"                group="weapon" looping="True" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Sticky Launcher/fire.wav" />
+		<sound name="sfx_objects_weapons_sticky_launcher_reload"              group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Sticky Launcher/reload.wav" />
+		<sound name="sfx_objects_weapons_tripmine_casing_bounce"              group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Tripmine/casing_bounce.wav" />
+		<sound name="sfx_objects_weapons_tripmine_countdown"                  group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Tripmine/countdown.wav" />
+		<sound name="sfx_objects_weapons_tripmine_error"                      group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Tripmine/error.wav" />
+		<sound name="sfx_objects_weapons_tripmine_explode"                    group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Tripmine/explode.wav" />
+		<sound name="sfx_objects_weapons_tripmine_fire"                       group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Tripmine/fire.wav" />
+		<sound name="sfx_objects_weapons_turret_error"                        group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Turret/error.wav" />
+		<sound name="sfx_objects_weapons_turret_fire"                         group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Turret/fire.wav" />
+		<sound name="sfx_objects_weapons_uzi_casing_bounce"                   group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Uzi/casing_bounce.wav" />
+		<sound name="sfx_objects_weapons_uzi_fire"                            group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Uzi/fire.wav" />
+		<sound name="sfx_objects_weapons_uzi_reload"                          group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Uzi/reload.wav" />
+		<sound name="sfx_objects_weapons_winchester_rifle_casing_bounce"      group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Winchester Rifle/casing_bounce.wav" />
+		<sound name="sfx_objects_weapons_winchester_rifle_fire"               group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Winchester Rifle/fire.wav" />
+		<sound name="sfx_objects_weapons_winchester_rifle_reload"             group="weapon" looping="False" streaming="False" file="Data/Audio/Sounds/Objects/Weapons/Winchester Rifle/reload.wav" />
+
+	</sounds>
+</xml>

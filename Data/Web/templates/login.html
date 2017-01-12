@@ -1,0 +1,80 @@
+<html>
+<head>
+	<title>Zombie Grinder - Administration</title>
+	<link rel="stylesheet" type="text/css" href="res/main.css">
+	<script src="lib/chart.js"></script>	
+	<script src="lib/main.js"></script>	
+	<script type="text/javascript">
+	
+		function setup()
+		{
+			var data = {
+				labels: [ {{ACTIVE_PLAYERS_GRAPH_X_AXIS}} ],
+				datasets: [
+					{
+						label: "Active Players",
+						fillColor: "rgba(151,187,205,0.2)",
+						strokeColor: "rgba(151,187,205,1)",
+						pointColor: "rgba(151,187,205,1)",
+						pointStrokeColor: "#fff",
+						pointHighlightFill: "#fff",
+						pointHighlightStroke: "rgba(151,187,205,1)",
+						data: [ {{ACTIVE_PLAYERS_GRAPH_Y_AXIS}} ]
+					}
+				]
+			};
+			var options = {
+				scaleShowGridLines : true,
+				scaleGridLineColor : "rgba(0,0,0,.05)",
+				scaleGridLineWidth : 1,
+				scaleShowHorizontalLines: true,
+				scaleShowVerticalLines: true,
+				bezierCurve : true,
+				bezierCurveTension : 0.4,
+				pointDot : true,
+				pointDotRadius : 4,
+				pointDotStrokeWidth : 1,
+				pointHitDetectionRadius : 20,
+				datasetStroke : true,
+				datasetStrokeWidth : 2,
+				datasetFill : true,
+				legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].strokeColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>"
+			};
+			var ctx = document.getElementById("ActivePlayerChart").getContext("2d");
+			var chart = new Chart(ctx).Line(data, options);
+		}
+	
+	</script>
+</head>
+<body onload="setup()">
+	<div class="header">
+		<div class="header_overview">
+			<b>{{SERVER_NAME}}</b>
+		</div>	
+	</div>
+	<div class="main_body">	
+		<table class="login_content_table">
+			<tr>
+				<td class="content_box">
+					<h1>Login</h1>	
+					{{MESSAGE}}
+					<form name="setting_form" method="POST" action="login">
+						<b>Username:</b><br/>
+						<input type="text" name="username" style="width:250px;" value=""/>		
+						<br/><br/>
+							
+						<b>Password:</b><br/>
+						<input type="password" name="password" style="width:250px;" value=""/>		
+						<br/><br/>
+
+						<div class="button" style="float:left;" onclick="document.setting_form.submit();">Login</div>
+					</form>
+				</td>
+			</tr>
+		</table>
+	</div>	
+	<div class="footer">
+		Copyright (C) 2015 TwinDrills
+	</div>
+</body>
+</html>

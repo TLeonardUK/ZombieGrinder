@@ -1,0 +1,40 @@
+<xml>
+	<settings>
+		<texture-size>2048</texture-size>
+		<max-textures>8</max-textures>
+		<name>ExampleWeaponAtlas</name>
+	</settings> 
+	<images>
+		<image type="grid" name="game_hud_ammoicon_example_gun_#" file="Data/Atlases/hud_ammo_icon.png"  width="8" height="8" hspace="0" vspace="0" />
+		<image type="grid" name="game_hud_weaponicon_example_gun_#" file="Data/Atlases/hud_weapon_icon.png"  width="12" height="12" hspace="0" vspace="0" />
+		<image type="grid" name="avatar_body_example_gun_#" file="Data/Atlases/example_gun_body.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_example_gun_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_example_gun_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_example_gun_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_example_gun_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_example_gun_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_example_gun_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_example_gun_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_example_gun_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_example_gun_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_example_gun_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_example_gun_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_example_gun_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_example_gun_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_example_gun_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_example_gun_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_example_gun_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>	
+		<image type="grid" name="actor_pickups_example_weapon_#" file="Data/Atlases/example_gun_pickup.png"  width="25" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="item_example_weapon_#" file="Data/Atlases/example_gun_item.png"  width="31" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="item_example_weapon" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_example_weapon_tint" speed="50" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+	</images>
+	<animations>
+	</animations>
+</xml>

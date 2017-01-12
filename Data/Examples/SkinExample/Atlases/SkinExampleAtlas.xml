@@ -1,0 +1,12 @@
+<xml>
+	<settings>
+		<texture-size>2048</texture-size>
+		<max-textures>8</max-textures>
+		<name>skin_example_atlas</name>
+	</settings>
+	<images>
+		<image type="single" name="screen_main_title" file="Data/Atlases/new_title.png" origin="0.5,0.5" />
+	</images>
+	<animations>
+	</animations>
+</xml>

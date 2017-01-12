@@ -1,0 +1,62 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>controller_text_input_dialog</name>
+	</settings>
+	<layout>
+		<element name="background"			type="Panel" 		box="0,0.2,1.0,0.60" 	  BackColor="0,0,0,220" AspectScaling="0" />		
+		<element name="prompt_label"		type="Label"		box="0.1,0.22,0.8,0.07"     ForeColor="200,200,200,220" HAlign="Left" VAlign="Top"  Value="" UseMarkup="true" />
+    <element name="textbox"	      	type="TextBox"		box="0.1,0.29,0.79,0.07"     ForeColor="200,200,200,220" />
+
+    <element name="0_button" 	    	type="Button" 		box="0.1,0.37,0.07,0.07"  FrameColor="255,255,255,200" Value="0"    LeftElement="9_button" RightElement="1_button" UpElement="case_button" DownElement="a_button"      FastAnim="true"  />
+    <element name="1_button" 	    	type="Button" 		box="0.18,0.37,0.07,0.07"  FrameColor="255,255,255,200" Value="1"   LeftElement="0_button" RightElement="2_button" UpElement="backspace_button" DownElement="b_button" FastAnim="true" />
+    <element name="2_button" 	    	type="Button" 		box="0.26,0.37,0.07,0.07"  FrameColor="255,255,255,200" Value="2"   LeftElement="1_button" RightElement="3_button" UpElement="w_button" DownElement="c_button"         FastAnim="true" />
+    <element name="3_button" 	    	type="Button" 		box="0.34,0.37,0.07,0.07"  FrameColor="255,255,255,200" Value="3"   LeftElement="2_button" RightElement="4_button" UpElement="x_button" DownElement="d_button"         FastAnim="true" />
+    <element name="4_button" 	    	type="Button" 		box="0.42,0.37,0.07,0.07"  FrameColor="255,255,255,200" Value="4"   LeftElement="3_button" RightElement="5_button" UpElement="y_button" DownElement="e_button"        FastAnim="true" />
+    <element name="5_button" 	    	type="Button" 		box="0.5,0.37,0.07,0.07"  FrameColor="255,255,255,200" Value="5"    LeftElement="4_button" RightElement="6_button" UpElement="z_button" DownElement="f_button"        FastAnim="true" />
+    <element name="6_button" 	    	type="Button" 		box="0.58,0.37,0.07,0.07"  FrameColor="255,255,255,200" Value="6"   LeftElement="5_button" RightElement="7_button" UpElement="back_button" DownElement="g_button"     FastAnim="true" />
+    <element name="7_button" 	    	type="Button" 		box="0.66,0.37,0.07,0.07"  FrameColor="255,255,255,200" Value="7"   LeftElement="6_button" RightElement="8_button" UpElement="back_button" DownElement="h_button"     FastAnim="true" />
+    <element name="8_button" 	    	type="Button" 		box="0.74,0.37,0.07,0.07"  FrameColor="255,255,255,200" Value="8"   LeftElement="7_button" RightElement="9_button" UpElement="back_button" DownElement="i_button"     FastAnim="true" />
+    <element name="9_button" 	    	type="Button" 		box="0.82,0.37,0.07,0.07"  FrameColor="255,255,255,200" Value="9"   LeftElement="8_button" RightElement="0_button" UpElement="back_button" DownElement="j_button"     FastAnim="true" />
+
+    <element name="a_button" 	    	type="Button" 		box="0.1,0.45,0.07,0.07"  FrameColor="255,255,255,200" Value="A"    LeftElement="j_button" RightElement="b_button" UpElement="0_button" DownElement="k_button"      FastAnim="true" />
+    <element name="b_button" 	    	type="Button" 		box="0.18,0.45,0.07,0.07"  FrameColor="255,255,255,200" Value="B"   LeftElement="a_button" RightElement="c_button" UpElement="1_button" DownElement="l_button"    FastAnim="true" />
+    <element name="c_button" 	    	type="Button" 		box="0.26,0.45,0.07,0.07"  FrameColor="255,255,255,200" Value="C"   LeftElement="b_button" RightElement="d_button" UpElement="2_button" DownElement="m_button"    FastAnim="true" />
+    <element name="d_button" 	    	type="Button" 		box="0.34,0.45,0.07,0.07"  FrameColor="255,255,255,200" Value="D"   LeftElement="c_button" RightElement="e_button" UpElement="3_button" DownElement="n_button"    FastAnim="true" />
+    <element name="e_button" 	    	type="Button" 		box="0.42,0.45,0.07,0.07"  FrameColor="255,255,255,200" Value="E"   LeftElement="d_button" RightElement="f_button" UpElement="4_button" DownElement="o_button"    FastAnim="true" />
+    <element name="f_button" 	    	type="Button" 		box="0.5,0.45,0.07,0.07"  FrameColor="255,255,255,200" Value="F"    LeftElement="e_button" RightElement="g_button" UpElement="5_button" DownElement="p_button"    FastAnim="true" />
+    <element name="g_button" 	    	type="Button" 		box="0.58,0.45,0.07,0.07"  FrameColor="255,255,255,200" Value="G"   LeftElement="f_button" RightElement="h_button" UpElement="6_button" DownElement="q_button"    FastAnim="true" />
+    <element name="h_button" 	    	type="Button" 		box="0.66,0.45,0.07,0.07"  FrameColor="255,255,255,200" Value="H"   LeftElement="g_button" RightElement="i_button" UpElement="7_button" DownElement="r_button"    FastAnim="true" />
+    <element name="i_button" 	    	type="Button" 		box="0.74,0.45,0.07,0.07"  FrameColor="255,255,255,200" Value="I"   LeftElement="h_button" RightElement="j_button" UpElement="8_button" DownElement="s_button"    FastAnim="true" />
+    <element name="j_button" 	    	type="Button" 		box="0.82,0.45,0.07,0.07"  FrameColor="255,255,255,200" Value="J"   LeftElement="i_button" RightElement="a_button" UpElement="9_button" DownElement="t_button"    FastAnim="true" />
+
+    <element name="k_button" 	    	type="Button" 		box="0.1,0.53,0.07,0.07"  FrameColor="255,255,255,200" Value="K"    LeftElement="t_button" RightElement="l_button" UpElement="a_button" DownElement="u_button"    FastAnim="true" />
+    <element name="l_button" 	    	type="Button" 		box="0.18,0.53,0.07,0.07"  FrameColor="255,255,255,200" Value="L"   LeftElement="k_button" RightElement="m_button" UpElement="b_button" DownElement="v_button"    FastAnim="true" />
+    <element name="m_button" 	    	type="Button" 		box="0.26,0.53,0.07,0.07"  FrameColor="255,255,255,200" Value="M"   LeftElement="l_button" RightElement="n_button" UpElement="c_button" DownElement="w_button"    FastAnim="true" />
+    <element name="n_button" 	    	type="Button" 		box="0.34,0.53,0.07,0.07"  FrameColor="255,255,255,200" Value="N"   LeftElement="m_button" RightElement="o_button" UpElement="d_button" DownElement="x_button"    FastAnim="true" />
+    <element name="o_button" 	    	type="Button" 		box="0.42,0.53,0.07,0.07"  FrameColor="255,255,255,200" Value="O"   LeftElement="n_button" RightElement="p_button" UpElement="e_button" DownElement="y_button"    FastAnim="true" />
+    <element name="p_button" 	    	type="Button" 		box="0.5,0.53,0.07,0.07"  FrameColor="255,255,255,200" Value="P"    LeftElement="o_button" RightElement="q_button" UpElement="f_button" DownElement="z_button"    FastAnim="true" />
+    <element name="q_button" 	    	type="Button" 		box="0.58,0.53,0.07,0.07"  FrameColor="255,255,255,200" Value="Q"   LeftElement="p_button" RightElement="r_button" UpElement="g_button" DownElement="-_button"    FastAnim="true" />
+    <element name="r_button" 	    	type="Button" 		box="0.66,0.53,0.07,0.07"  FrameColor="255,255,255,200" Value="R"   LeftElement="q_button" RightElement="s_button" UpElement="h_button" DownElement="__button"    FastAnim="true" />
+    <element name="s_button" 	    	type="Button" 		box="0.74,0.53,0.07,0.07"  FrameColor="255,255,255,200" Value="S"   LeftElement="r_button" RightElement="t_button" UpElement="i_button" DownElement="._button"    FastAnim="true" />
+    <element name="t_button" 	    	type="Button" 		box="0.82,0.53,0.07,0.07"  FrameColor="255,255,255,200" Value="T"   LeftElement="s_button" RightElement="k_button" UpElement="j_button" DownElement="space_button" FastAnim="true"  />
+
+    <element name="u_button" 	    	type="Button" 		box="0.1,0.61,0.07,0.07"  FrameColor="255,255,255,200" Value="U"    LeftElement="space_button" RightElement="v_button" UpElement="k_button" DownElement="case_button" FastAnim="true" />
+    <element name="v_button" 	    	type="Button" 		box="0.18,0.61,0.07,0.07"  FrameColor="255,255,255,200" Value="V"   LeftElement="u_button" RightElement="w_button" UpElement="l_button" DownElement="case_button" FastAnim="true" />
+    <element name="w_button" 	    	type="Button" 		box="0.26,0.61,0.07,0.07"  FrameColor="255,255,255,200" Value="W"   LeftElement="v_button" RightElement="x_button" UpElement="m_button" DownElement="2_button" FastAnim="true" />
+    <element name="x_button" 	    	type="Button" 		box="0.34,0.61,0.07,0.07"  FrameColor="255,255,255,200" Value="X"   LeftElement="w_button" RightElement="y_button" UpElement="n_button" DownElement="3_button" FastAnim="true" />
+    <element name="y_button" 	    	type="Button" 		box="0.42,0.61,0.07,0.07"  FrameColor="255,255,255,200" Value="Y"   LeftElement="x_button" RightElement="z_button" UpElement="o_button" DownElement="4_button" FastAnim="true" />
+    <element name="z_button" 	    	type="Button" 		box="0.5,0.61,0.07,0.07"  FrameColor="255,255,255,200" Value="Z"    LeftElement="y_button" RightElement="-_button" UpElement="p_button" DownElement="5_button" FastAnim="true" />
+    <element name="-_button" 	    	type="Button" 		box="0.58,0.61,0.07,0.07"  FrameColor="255,255,255,200" Value="-"   LeftElement="z_button" RightElement="__button" UpElement="q_button" DownElement="back_button" FastAnim="true" />
+    <element name="__button" 	    	type="Button" 		box="0.66,0.61,0.07,0.07"  FrameColor="255,255,255,200" Value="_"   LeftElement="-_button" RightElement="._button" UpElement="r_button" DownElement="back_button" FastAnim="true" />
+    <element name="._button" 	    	type="Button" 		box="0.74,0.61,0.07,0.07"  FrameColor="255,255,255,200" Value="."   LeftElement="__button" RightElement="space_button" UpElement="s_button" DownElement="back_button" FastAnim="true" />
+    <element name="space_button" 	    	type="Button" 		box="0.82,0.61,0.07,0.07"  FrameColor="255,255,255,200" Value="[_]" LeftElement="._button" RightElement="u_button" UpElement="t_button" DownElement="back_button"  FastAnim="true" />
+    
+    <element name="case_button" 	    	type="Button" 		box="0.1,0.69,0.07,0.07"  FrameColor="255,255,255,200" Value="^"      LeftElement="back_button" RightElement="backspace_button" UpElement="u_button" DownElement="0_button"  FastAnim="true" />
+    <element name="backspace_button" 	    	type="Button" 		box="0.18,0.69,0.07,0.07"  FrameColor="255,255,255,200" Value="<"  Hotkey="GUI_Back" LeftElement="case_button" RightElement="back_button" UpElement="v_button" DownElement="1_button"  FastAnim="true" />
+
+      <element name="back_button" 		type="Button" 		box="0.58,0.69,0.31,0.070"  FrameColor="255,255,255,200" Value="#menu_confirm"  LeftElement="backspace_button" RightElement="case_button" UpElement="z_button" DownElement="9_button" />	
+	</layout>
+</xml>

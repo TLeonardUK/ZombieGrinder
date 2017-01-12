@@ -1,0 +1,15 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>vote_select_player</name>
+	</settings>
+	<layout>			
+		<element name="" 					type="Label"  	box="0.13,0.37,0.7,0.070" ForeColor="255,255,255,255" Value="#sub_menu_vote_player_title"  />	
+		<element name="player_box" 			type="ComboBox" box="0.13,0.44,0.7,0.067"  FrameColor="112,154,209,255" />	
+		
+		<element name="ok_button" 			type="Button" 		box="0.13,0.72,0.3,0.070" FrameColor="255,255,255,200" Value="#sub_menu_vote_start" />	
+		<element name="back_button" 		type="Button" 		box="0.13,0.80,0.3,0.070" FrameColor="255,255,255,200" Value="#menu_back" />	
+	</layout>
+</xml>

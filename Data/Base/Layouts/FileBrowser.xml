@@ -1,0 +1,19 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+  <settings>
+		<name>file_browser</name>
+	</settings>
+	<layout>	 
+		<element name="bg_fade"				type="Panel" box="0,0,1.0,1.0" 	  BackColor="0,0,0,190" AspectScaling="0" />		
+			
+		<element name="background"			type="Panel"  Frame="dialog_frame_#"		box="0,0.25,1.0,0.5" 	  BackColor="255,255,255,255" AspectScaling="0" />		
+			
+		<element name="label" 				type="Label"  		 box="0.10,0.27,0.8,0.070" ForeColor="0,0,0,255" Value="Save File As ..." GameStyle="false" Scale="2,2" />	
+		<element name="browser" 			type="FileBrowser"  box="0.10,0.32,0.8,0.31" />	
+		 
+		<element name="back_button" 		type="Button" 		box="0.8,0.670,0.1,0.050"  FrameColor="255,255,255,255" Hotkey="GUI_Back" Value="Cancel"  GameStyle="false" />	
+		<element name="ok_button" 			type="Button" 		box="0.68,0.670,0.1,0.050"  FrameColor="255,255,255,255" Value="Save" GameStyle="false"  />	
+	</layout>
+</xml>

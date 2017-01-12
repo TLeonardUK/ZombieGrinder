@@ -1,0 +1,51 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>game_setup_menu</name>
+	</settings>
+	<layout>
+		<element name="title_label"   			type="Label" box="0,0,1,0.1" HAlign="Center" VAlign="Center" ForeColor="102,102,102,255" Padding="0,0,0,0" value="#menu_game_setup_title" />	
+		
+		<element name="find_game_button" 		type="Button" 		box="0.15,0.12,0.3,0.070" FrameColor="255,255,255,200" Value="#menu_game_setup_find_game" RightElement="challenge_next_button" />	
+		<element name="host_game_button" 		type="Button" 		box="0.15,0.20,0.3,0.070" FrameColor="255,255,255,200" Value="#menu_game_setup_host_game" RightElement="challenge_next_button"  />	
+		<element name="server_browser_button" 	type="Button" 		box="0.15,0.28,0.3,0.070" FrameColor="255,255,255,200" Value="#menu_game_setup_browse_servers" RightElement="challenge_next_button"  />
+
+		<element name="inventory_button"  	type="Button" 		box="0.15,0.40,0.3,0.070" FrameColor="255,255,255,200" Value="#sub_menu_inventory_button_text" RightElement="challenge_next_button"  />	
+
+		<element name="global_chat_button" 		type="Button" 		box="0.15,0.52,0.3,0.070" FrameColor="255,255,255,200" Value="#sub_menu_global_chat_button_text" RightElement="challenge_next_button"  />	
+		<element name="ranking_button"		type="Button" 		box="0.15,0.61,0.3,0.070" FrameColor="255,255,255,200" Value="#menu_game_setup_ranks" RightElement="challenge_next_button"  />	
+
+		<element name="moderate_button"		type="Button" 		box="0.15,0.73,0.3,0.070" FrameColor="255,255,255,200" Value="#menu_game_setup_moderation" RightElement="challenge_next_button"  />	
+
+		
+<!--		
+		<element name="leaderboards_button"		type="Button" 		box="0.15,0.655,0.3,0.070" FrameColor="255,255,255,200" Value="#sub_menu_leaderboards_button_text" RightElement="challenge_next_button"  />	
+		<element name="statistics_button"		type="Button" 		box="0.15,0.735,0.3,0.070" FrameColor="255,255,255,200" Value="#sub_menu_statistics_button_text" RightElement="challenge_next_button"  />	
+-->
+		
+		<element name="back_button" 			type="Button" 		box="0.15,0.85,0.3,0.070" FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#menu_back"  RightElement="challenge_next_button"  />
+
+    <element name="challenge_bg" 		        type="Panel" 	box="0.50,0.12,0.45,0.55" ForeColor="156,157,158,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,200" Padding="10,10,10,10" Value="" />
+		<element name="challenge_title_label"   	    type="Label"  box="0.50,0.12,0.45,0.075" HAlign="Left" VAlign="Top" ForeColor="255,255,255,255" Padding="15,10,10,10" value="" Scale="1.0,1.0" />	
+		<element name="challenge_description_label"   type="Label"  box="0.50,0.195,0.45,0.2" HAlign="Left" VAlign="Top" ForeColor="175,175,175,255" Padding="15,0,15,0" value="" Scale="0.75,0.75" />	
+		<element name="challenge_progress_bar" type="ProgressBar"   box="0.51,0.295,0.43,0.055"  progress="0" ForeColor="255,194,14,255" />	
+    <element name="challenge_time_remaining_label" type="Label"  box="0.50,0.35,0.45,0.2" HAlign="Left" VAlign="Top" ForeColor="175,175,175,255" Padding="15,0,0,0" value="" Scale="0.75,0.75" />	     
+		<element name="challenge_reward_label"        type="Label"  box="0.50,0.405,0.45,0.2" HAlign="Left" VAlign="Top" ForeColor="255,255,255,255" Padding="15,0,0,0" value="#menu_game_setup_challenge_rewards" Scale="0.75,0.75" />	    
+    <element name="challenge_reward_1_bg"          type="Panel" 	box="0.53,0.46,0.0825,0.11" ForeColor="156,157,158,255" Frame="screen_main_box_inactive_#" FrameColor="255,255,255,200" Padding="10,10,10,10" Value="" />
+	  <element name="challenge_reward_2_bg"          type="Panel" 	box="0.63,0.46,0.0825,0.11" ForeColor="156,157,158,255" Frame="screen_main_box_inactive_#" FrameColor="255,255,255,200" Padding="10,10,10,10" Value="" />
+	  <element name="challenge_reward_3_bg"          type="Panel" 	box="0.73,0.46,0.0825,0.11" ForeColor="156,157,158,255" Frame="screen_main_box_inactive_#" FrameColor="255,255,255,200" Padding="10,10,10,10" Value="" />
+	  <element name="challenge_reward_4_bg"          type="Panel" 	box="0.83,0.46,0.0825,0.11" ForeColor="156,157,158,255" Frame="screen_main_box_inactive_#" FrameColor="255,255,255,200" Padding="10,10,10,10" Value="" />
+	
+    <element name="challenge_begin_button" 		type="Button" 		box="0.51,0.587,0.15,0.070" FrameColor="255,255,255,200" Value="Begin" LeftElement="leaderboards_button" DownElement="challenge_ranking_box"  />	
+    <element name="challenge_next_button" 		type="Button" 		box="0.79,0.587,0.15,0.070" FrameColor="255,255,255,200" Value="Next" DownElement="challenge_ranking_box" />	
+	
+		<element name="challenge_ranking_box" 				type="ListView" 	box="0.50,0.69,0.45,0.25" ForeColor="156,157,158,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,200" Padding="10,10,10,10" UpElement="challenge_next_button" />	
+
+		<element name="info_panel"					type="Panel" 		box="0,0.0,0.3,0.25" 	  FrameColor="255,255,255,0" Frame="screen_main_box_inactive_#" AspectScaling="False" >			
+			<element name="info_name_label"   		type="Label" 		box="0.05,0.05,0.9,0.125" HAlign="Left" VAlign="Center" ForeColor="255,255,255,0" Padding="0,0,0,0" value="" UseMarkup="True" WordWrap="False" />	
+			<element name="info_description_label"  type="Label" 		box="0.05,0.25,0.9,0.50" HAlign="Left" VAlign="Top" ForeColor="255,255,255,0" Padding="0,0,0,0" value=""  UseMarkup="True" WordWrap="True" Scale="0.65,0.65" />	
+		</element>			
+	</layout>
+</xml>

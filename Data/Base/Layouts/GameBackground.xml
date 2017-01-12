@@ -1,0 +1,14 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>game_background</name>
+	</settings>
+	<layout>
+		<element name="background" type="Panel" box="0,0,1,1" BackColor="128,128,128" AspectScaling="False" />	
+		
+		<element name="title_label"   	type="Label" box="0,0.5,1,0.1" HAlign="Center" VAlign="Center" ForeColor="102,102,102,255" Padding="0,0,0,0" value="Insert Game Here" />	
+		
+	</layout>
+</xml>

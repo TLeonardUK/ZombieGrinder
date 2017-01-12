@@ -1,0 +1,2203 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="name_long">Russian (GB)</string>
+  <string name="name_short">RU-GB</string>
+  <string name="glyphs"> !#$%&amp;'()*+,-./0123456789:&lt;&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[^_`abcdefghijklmnopqrstuvwxyz{|}~В¦Г‡ГјГ©ГўГ¤Г ГҐГ§ГЄГ«ГЁГЇГ®Г¬Г„Г…Г‰Г¦Г†ГґГ¶ГІГ»Г№ГїГ–ГњГёВЈГГ—Ж’ГЎГ­ГіГєГ±Г‘ВЄВєВїВ®В¬ВЅВјВЎВ«В»В¦В¦В¦В¦В¦ГЃГ‚ГЂВ©В¦В¦++ВўВҐ++--+-+ГЈГѓ++--В¦-+В¤Г°ГђГЉГ‹Г€iГЌГЋГЏ++В¦_В¦ГЊВЇГ“ГџГ”Г’ГµГ•ВµГѕГћГљГ›Г™ГЅГќВЇВґВ­В±=ВѕВ¶В§Г·ВёВ°ВЁВ·В№ВіВІВ¦</string>
+
+  <string name="title">Zombie Grinder</string>
+
+  <string name="menu_copyright">Версия {GAME_VERSION} - Copyright TwinDrills 2009-2016</string>
+  <string name="load_message">Загрузка игровых ресурсов ...</string>
+
+  <string name="global_chat_server">Сервер</string>
+  <string name="global_chat_global">Общий чат</string>
+  <string name="global_chat_not_access">У вас нету доступа к общему чату.</string>
+  <string name="global_chat_not_connected">Вы не присоединились к общему чату.</string>
+  <string name="global_chat_lost_connection">Вы потеряли соединение с общем чатом.</string>
+  <string name="global_chat_kicked">Вас выкинули с сервера общего чата.</string>
+
+  <string name="autosave_warning">Игра использует систему автоматического сохранения. Пожалуйста не выходите и не выключайте игру пока на экране горит индикатор.\n\n\n[img=autosave_icon,1.0,1.0]</string>
+  <string name="premium_warning">Если вам понравилась игра задумайтесь об покупке a\n[c=255,194,14,255]Золотого аккаунта[/c] для поддержание разработчика!\n\nIt this nag-screen!</string>
+
+  <string name="menu_premium_title">.Улучшить до золотого аккаунта</string>
+  <string name="menu_premium_purchase">Открыть магазин Steam для покупки</string>
+  <string name="menu_premium_text">Покупка [c=255,194,14,255]Золотого аккаунта[/c] для поддержание разработчика в улучшении игры. Улучшите до [c=255,194,14,255]Золотого аккаунта[/c] купив лишь раз вы получите возможности навсегда. [img=game_hud_weaponicon_none_0,1.0,1.0] Управление [c=14,255,14,255]Зомби[/c] вы мертвы / Наблюдение. [img=game_hud_weaponicon_none_0,1.0,1.0] Доступ к эксклюзивным [c=255,194,14,255]Золотым серверам[/c]. [img=game_hud_weaponicon_none_0,1.0,1.0] Доступ к различным эксклюзивным [c=255,194,14,255]Золотым вещам[/c] в магазине. [img=game_hud_weaponicon_none_0,1.0,1.0] Каждую[c=255,194,14,255]Золотую вещь[/c] можно добавить Steam Inventory. [img=game_hud_weaponicon_none_0,1.0,1.0] Уникальные [c=255,194,14,255]Эмблемы[/c] вашего никнейма в таблице результатов. [img=game_hud_weaponicon_none_0,1.0,1.0] Показывает имя пользователя[c=255,194,14,255]Золотой[/c]. [img=game_hud_weaponicon_none_0,1.0,1.0] Персонажи призраки[c=255,194,14,255]Золтой[/c]. [img=game_hud_weaponicon_none_0,1.0,1.0] Эксклюзивы [c=255,194,14,255]Золотые окраски[/c] и [c=255,194,14,255]выбора цвета[/c] для окраски ваших вещей! [img=game_hud_weaponicon_none_0,1.0,1.0] Двойной опыт, Камни и Монеты выпадают чаще. [img=game_hud_weaponicon_none_0,1.0,1.0] Дополнительные [c=255,194,14,255]Слоты для персонажей[/c]. [img=game_hud_weaponicon_none_0,1.0,1.0] Дополнительные[c=255,194,14,255]Слоты в вашем инвентаре[/c]. [img=game_hud_weaponicon_none_0,1.0,1.0] Новые персонажи появлляются с [c=255,194,14,255]Полным кошельком[/c]. [img=game_hud_weaponicon_none_0,1.0,1.0] Большего не надо [c=255,194,14,255]Nag-Screen[/c]. Это еще не весь список возможностей[c=255,194,14,255]Золотого аккаунта[/c] статус.</string>
+
+  <string name="restricted_mode_ingame_warning_title">[c=235,52,52]НЕОФИЦИАЛЬНАЯ КАРТА[/c]</string>
+  <string name="restricted_mode_ingame_warning">При игре на данной карте вы не получите - опыт, монеты и достижения.</string>
+
+  <string name="restricted_mode_warning_title">[c=235,52,52]Ограниченный мод[/c]</string>
+  <string name="restricted_mode_warning">В настоящий момент игра запущенна в ограниченном режиме! Это потому что у вас установлены моды которые меняет корневые файлы игры - по этому вам не доступны (достижения, рейтинг, статистика) и что-бы другие игроки смогли к вам присоединится у них должны быть установлены точно такие же моды. Если вы хотите что-бы данные моды добавили официально - то обратитесь к разработчику TwinDrills.</string>
+  <string name="mod_whitelisted">Утвержденно</string>
+  <string name="mod_not_whitelisted">Не Утвержденно</string>
+  <string name="mod_view_non_whitelisted">Мод на рассмотрении?</string>
+  <string name="mod_whitelisted_warning_title">[c=235,52,52]Внимание установленны моды![/c]</string>
+  <string name="mod_whitelisted_warning">В настоящий момент игра запущенна в ограниченном режиме! Это потому что у вас установленны моды которые меняет корневые файлы игры - по этому вам не доступны (достижения, рейтинг, статистика) и что-бы другие игроки смогли к вам присоеденится у них должны быть установлены точно такие же моды. Если вы хотите что-бы данные моды добавили оффициально - то обратитесь к разработчику TwinDrills.</string>
+
+  <string name="inventory_item_drop_title">Вы нашли...</string>
+  <string name="inventory_item_unpack_drop_title">Вы распаковали...</string>
+  <string name="inventory_item_challenge_drop_title">Награда за задание</string>
+
+  <string name="inventory_item_drop_coins_name">%Монеты</string>
+  <string name="inventory_item_drop_coins_description">Вы точно хотите потратить монеты на это?</string>
+  <string name="inventory_item_drop_xp_name">%i Опыт</string>
+  <string name="inventory_item_drop_xp_description">Вы повысили свои знания и навыки, так держать!</string>
+
+  <string name="no_user_assigned_to_input_device">У вас не подключен геймпад, пожалуйста используйте для этого мышь.</string>
+
+  <string name="inventory_item_broken_title">[c=255,64,64]Ваша вещь сломалась ...[/c]</string>
+  <string name="inventory_item_broken_sub">Что-бы этого не произошло снова, пожалуйста купите специальные предметы в игровом магазине или Steam Market!</string>
+ 
+  <string name="unlock_dialog_title">[c=255,194,14,255]Новы вещи ...[/c]</string>
+
+  <string name="unlock_dialog_title_item_broken">[c=255,64,64,255]Вы %s сломали...[/c]</string>
+  <string name="unlock_dialog_action_item_broken">[c=255,64,64,255]ВЕЩЬ СЛОМАНА[/c]</string>
+  <string name="unlock_dialog_description_item_broken">Вы можете купить новую в магазине или найти во время игры!</string>
+  
+  <string name="unlock_dialog_title_challenge">[c=255,194,14,255]Вы получили %s ...[/c]</string>
+  <string name="unlock_dialog_action_challenge">[c=255,194,14,255]НАГРАДА ЗА ЗАДАНИЕ[/c]</string>
+    
+  <string name="unlock_dialog_title_online">[c=255,194,14,255]Вы нашли %s ...[/c]</string>
+  <string name="unlock_dialog_action_online">[c=255,194,14,255]STEAM ВЕЩЬ[/c]</string>
+  
+  <string name="unlock_dialog_title_item_unlocked">[c=255,194,14,255]Вы разблокировали %s ...[/c]</string>
+  <string name="unlock_dialog_action_item_unlocked">[c=255,194,14,255]ВЕЩЬ РАЗБЛОКИРОВАНА[/c]</string>
+  <string name="unlock_dialog_description_item_unlocked">%s\nYou теперь вы можете приобрести в магазине!</string>
+  
+  <string name="unlock_dialog_title_skill_unlocked">[c=64,64,255,255]Вы разблокировали[c=255,194,14,255]%s[/c] ...[/c]</string>
+  <string name="unlock_dialog_action_skill_unlocked">[c=64,64,255,255]НАВЫК РАЗБЛОКИРОВАН[/c]</string>
+  <string name="unlock_dialog_description_skill_unlocked">%s\nYou теперь вы можете приобрести данные навыки!</string>
+  
+  <string name="unlock_dialog_title_unpack_xp">[c=64,64,255,255]Вы распаковали[c=255,194,14,255]%i[/c] Опыт ...[/c]</string>
+  <string name="unlock_dialog_action_unpack_xp">[c=64,64,255,255]ОПЫТ ПОЛУЧЕН[/c]</string>
+  <string name="unlock_dialog_description_unpack_xp">Настало время качатся!</string>
+  
+  <string name="unlock_dialog_title_unpack_coins">[c=64,64,255,255]Вы получили [c=255,194,14,255]%i[/c] монет ...[/c]</string>
+  <string name="unlock_dialog_action_unpack_coins">[c=64,64,255,255]МОНЕТЫ ПОЛУЧЕНЫ[/c]</string>
+  <string name="unlock_dialog_description_unpack_coins">Настало время закупится!</string>
+  
+  <string name="unlock_dialog_title_unpack_item">[c=64,64,255,255]Вы получили %s ...[/c]</string>
+  <string name="unlock_dialog_action_unpack_item">[c=64,64,255,255]ВЕЩЬ ПОЛУЧЕНА[/c]</string>
+  
+  <string name="menu_back">Вернутся</string>
+  <string name="menu_cancel">Отменить</string>
+  <string name="menu_confirm">Принять</string>
+  <string name="menu_refresh">Обновить</string>
+  <string name="menu_continue">Продолжить</string>
+  <string name="menu_combine">Комбинировать</string>
+  <string name="menu_apply_paint">Применять краску</string>
+  <string name="menu_cancel_combine">Отменить комбинирование</string>
+  <string name="menu_equip">Экиперовать</string>
+  <string name="menu_unpack">Распаковать</string>
+  <string name="menu_sell">Продать</string>
+  <string name="menu_yes">Да</string>
+  <string name="menu_no">Нет</string>
+  <string name="menu_close">Закрыть</string>
+  <string name="menu_apply_changes">Применить</string>
+  <string name="menu_back_description">Вернутся в начальное меню.</string>
+  <string name="menu_gamepad_enter_text">Отправить сообщение</string>
+  <string name="menu_open_workshop">Открыть Workshop</string>
+
+  <string name="menu_item_start">Начало игры</string>
+  <string name="menu_item_premium_account">Улучшить до премиума</string>
+  <string name="menu_item_options">Настройки</string>
+  <string name="menu_item_global_chat">Общий чат</string>
+  <string name="menu_item_credits">Авторы</string>
+  <string name="menu_item_quit">Выход</string>
+
+  <string name="tutorial_title">[c=34,177,76]ОБУЧЕНИЕ[/c]</string>
+  <string name="tutorial_movement">Вы можете перемещатся на [key=left][key=up][key=down][key=right] кнопки.</string>
+  <string name="tutorial_shoot">Вы можете стрелять на [key=fire].</string>
+  <string name="tutorial_reload">Вы можете перезарядится [key=reload].</string>
+  <string name="tutorial_strafe">Нажмите [key=strafe] что-бы спасти свою шкуру!</string>
+  <string name="tutorial_cycle_weapons">Нажмите [key=WeaponCycleBackward][key=WeaponCycleForward] что-бы сменить оружие.</string>
+  <string name="tutorial_fodder_zombies">Синие зомби не опасны - если вы не в их зоне видимости.</string>
+  <string name="tutorial_chaser_zombies">Зеленые зомби опасны группами, в большинстве они будут атаковать вас толпой.</string>
+  <string name="tutorial_explosive_zombies">Взрывные зомби опасны на близком расстоянии, они взрываются как только подходят к вам.</string>
+  <string name="tutorial_large_blobby_zombies">" Большие пузырчатые зомби обладают ядом, опасайтесь - наносят огромный урон!"</string>&gt;
+  <string name="tutorial_small_blobby_zombies">" Маленькие пузырчатые зомби медлительны, но тоже обладают ядом."</string>
+  <string name="tutorial_bouncer_zombies">Прыгающие зомби могут нанести огромный урон когда прыгнут на вас.</string>
+  <string name="tutorial_floater_zombies">Плевальщики - плюются кровью, наносят огромный урон!</string>
+  <string name="tutorial_alt_fire">У некоторых оружий имеется альтернативный режим стрельбы [key=altfire].</string>
+  <string name="tutorial_gems">Камни дают энергии для использования навыков [key=SkillSlot1][key=SkillSlot2][key=SkillSlot3]. Проверьте меню навыков.</string>
+  <string name="tutorial_coins">Монеты можно потратить на покупку вещей или навыков, не экономьте!</string>
+  <string name="tutorial_interact">Вы можете взаимодействовать с объектами [key=interact]. Обратите внимание на золотые стрелки!</string>
+  <string name="tutorial_sprint">Если у вас достаточно выносливости вы можете использовать [key=sprint] в опасных ситуациях.</string>
+
+  <string name="minimap_title">Карта: Подземелье - Уровень %i</string>
+  <string name="minimap_controls">Выбрать [key=left][key=up][key=down][key=right] Далее</string>
+
+  <string name="message_pickup_gem_title">[c=34,177,76]КОЛЛЕКЦИОННЫЙ ПРЕДМЕТ[/c]</string>
+  <string name="message_pickup_gem">Вы подобрали [c=34,177,76]%s[/c]. Теперь он в вашем инвентаре.</string>
+
+  <string name="message_pickup_gem_sold_title">[c=235,152,152]ИНВЕНТАРЬ ПОЛОН[/c]</string>
+  <string name="message_pickup_gem_sold">" [c=34,177,76]%s[/c] продайте не нужные предметы или комбинируйте камни [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]"</string>
+
+  <string name="message_inventory_full_title">[c=235,152,152]ИНВЕНТАРЬ ПОЛОН[/c]</string>
+  <string name="message_inventory_full">Ваш инвентарь полон! Некоторые коллекционные предметы будут автоматически проданы.</string>
+
+  <string name="message_wallet_full_title">[c=235,152,152]КОШЕЛЕК ПОЛОН[/c]</string>
+  <string name="message_wallet_full">Ваш кошелек полон! Пора бы их потратить.</string>
+
+
+  <string name="scoreboard_column_coins">Монет</string>
+  <string name="scoreboard_column_kills">Убийств</string>
+  <string name="scoreboard_column_captures">Захватов</string>
+  <string name="scoreboard_column_deaths">Смертей</string>
+  <string name="scoreboard_column_revives">Воскрешений</string>
+  <string name="scoreboard_title_eliminate_threat">Устранено угроз!</string>
+  <string name="scoreboard_title_survive">Постарайтесь выжить!</string>
+  <string name="scoreboard_title_follow_objectives">Следуйте цели!</string>
+  <string name="scoreboard_title_kill_everything">Убивайте все что шевелится!</string>
+  <string name="scoreboard_title_first_to_n">Первых %i Убийств!</string>
+  <string name="scoreboard_title_capture_the_bag">Захвачено сумок!</string>
+  <string name="scoreboard_title_find_the_exit">Найдите выхож!</string>
+
+  <string name="scoreboard_team_humans">Люди</string>
+  <string name="scoreboard_team_red">Красная команда</string>
+  <string name="scoreboard_team_blue">Синяя команда</string>
+  <string name="scoreboard_team_green">Зеленая команда</string>
+  <string name="scoreboard_team_yellow">Желтая команда</string>
+
+  <string name="hud_boss_whipper_intro_text">[c=255,194,14,255]Вы скоро появитесь![/c]</string>
+  <string name="hud_boss">[c=255,14,14]БОСС[/c]</string>
+  <string name="hud_free_camera">Свободная камера</string>
+  <string name="hud_spectating">Наблюдение - [c=0,200,200,255]%s[/c]</string>
+  <string name="hud_cycle_cameras">Нажмите [key=fire] что-бы выбрать камеру</string>
+  <string name="hud_being_revived">Возродится - [c=0,200,200,255]%s[/c]</string>
+  <string name="hud_press_to_control_zombie">Нажмите [key=interact] что-бы управлять зомби</string>
+  <string name="hud_press_to_control_zombie_waiting">Ожидайте появления зомби ...</string>
+
+  <string name="game_over_coins_earnt">[c=255,194,14,255]Монет получено[/c]</string>
+  <string name="game_over_coins_earnt_value_format">[img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]</string>
+  <string name="game_over_skill_points_earnt">[c=0,200,200,255]Очков навыков получено[/c]</string>
+  <string name="game_over_skill_points_earnt_value_format">[img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c]</string>
+
+  <string name="leaderboad_auto_map">Лучший счет - %s</string>
+
+  <string name="profile_stat_name_wallet_interest">Ваш кошелек</string>
+  <string name="profile_stat_name_max_health">Максимум здоровья</string>
+  <string name="profile_stat_name_health_regen">Регенерация здоровья</string>
+  <string name="profile_stat_name_speed">Скорость передвижения</string>
+  <string name="profile_stat_name_ammo_capacity">Патроны</string>
+  <string name="profile_stat_name_ammo_regen">Регенерация патронов</string>
+  <string name="profile_stat_name_gold_drop">Шанс выпадения монет</string>
+  <string name="profile_stat_name_gold_magnet">Радиус подбора монет</string>
+  <string name="profile_stat_name_buy_price">Приобрести вещь</string>
+  <string name="profile_stat_name_sell_price">Продать вещь</string>
+  <string name="profile_stat_name_gem_drop">Шанс выпадения камня</string>
+  <string name="profile_stat_name_gem_magnet">Радиус подбора камня</string>
+  <string name="profile_stat_name_xp">Накопленный опыт</string>
+  <string name="profile_stat_name_melee_damage">Урон в ближнем бою</string>
+  <string name="profile_stat_name_melee_stamina">Выносливость</string>
+  <string name="profile_stat_name_rifle_damage">Урон из винотовки</string>
+  <string name="profile_stat_name_rifle_ammo">Колличество патронов в винтовке</string>
+  <string name="profile_stat_name_heavy_weapon_damage">Урон тяжелого оружия</string>
+  <string name="profile_stat_name_heavy_weapon_ammo">Колличество патронов в тяжелом оружии</string>
+  <string name="profile_stat_name_explosion_radius">Радиус взрыва</string>
+  <string name="profile_stat_name_enemy_status_duration">Агрессия врагов</string>
+  <string name="profile_stat_name_turret_damage">Урон турели</string>
+  <string name="profile_stat_name_turret_ammo">Колличество патронов турели</string>
+  <string name="profile_stat_name_small_arms_damage">Урон ПП</string>
+  <string name="profile_stat_name_small_arms_ammo">Колличество патронов в ПП</string>
+  <string name="profile_stat_name_buff_grenade_radius">Радиус взрыва гранаты</string>
+  <string name="profile_stat_name_buff_grenade_ammo">Колличество гранат</string>
+  <string name="profile_stat_name_ghost_life_time">Время жизни призрака</string>
+  <string name="profile_stat_name_ghost_revive_time">Осталось до воскрешения</string>
+  <string name="profile_stat_name_healing_speed">Скорость лечения</string>
+  <string name="profile_stat_name_damage">Урон</string>
+  <string name="profile_stat_name_damage_taken">Сопротивление урону</string>
+  <string name="profile_stat_name_rate_of_fire">Скорость стрельбы</string>
+  <string name="profile_stat_name_reload_speed">Скорость перезарядки</string>
+  <string name="profile_stat_name_ammo_usage">Использовать патроны</string>
+  <string name="profile_stat_name_targetable">Цель</string>
+
+  <string name="item_stat_negative">[c=220,60,70]%s%% %s[/c]</string>
+  <string name="item_stat_positive">[c=60,220,70]%s%% %s[/c]</string>
+
+  <string name="game_over_level_complete_title">УРОВЕНЬ ПРОЙДЕН</string>
+  <string name="game_over_title">КОНЕЦ ИГРЫ</string>
+  <string name="game_over_restart_text">Перезапуск через %i ...</string>
+  <string name="game_over_continue_text">Продолжение через %i ...</string>
+  <string name="game_over_bonus_base">Командный счет</string>
+  <string name="game_over_bonus_round">Бонус за раунд</string>
+  <string name="game_over_bonus_time">Время бонуса</string>
+  <string name="game_over_bonus_multiplier">Мультиплеерный бонус</string>
+  <string name="game_over_bonus_pity">Бонус из жалости</string>
+  <string name="game_over_bonus_kills">Бонус за убийства</string>
+  <string name="game_over_bonus_revives">Бонус за воскрешение</string>
+  <string name="game_over_bonus_dungeon_level">Бонус за прохождение уровня подземелья</string>
+
+  <string name="prompt_price_postfix">" For [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%i[/c]"</string>
+  <string name="ghost_revive_prompt">[key=interact] Воскрешение</string>
+  <string name="press_button_prompt">[key=interact] Нажмите</string>
+  <string name="fill_ammo_prompt">[key=interact] Купить патроны</string>
+  <string name="move_prompt">[key=interact] Двигайтесь</string>
+  <string name="place_prompt">[key=interact] Бросить</string>
+  <string name="pickup_prompt">[key=interact] Подобрать</string>
+  <string name="rebuild_prompt">[key=interact] Восстановить</string>
+  <string name="buy_generic_prompt">[key=interact] Купить %s</string>
+  <string name="buy_open_prompt">[key=interact] Открыть</string>
+  <string name="interact_prompt">[key=interact] Взаимодействовать</string>
+  <string name="interact_map_prompt">[key=interact] Открыть карту</string>
+  <string name="buy_close_prompt">[key=interact] Закрыть</string>
+  <string name="buy_health_prompt">[key=interact] Купить %s (+ %i HP)</string>
+  <string name="buy_armour_prompt">[key=interact] Купить %s (+ %i БРОНЮ)</string>
+  <string name="save_survivor_prompt">[key=interact] Спасти</string>
+  <string name="pet_cucco_prompt">[key=interact] Петомец</string>
+  <string name="descend_prompt">[key=interact] Спустится</string>
+  <string name="item_soda_name">Сода</string>
+  <string name="item_food_name">Еда</string>
+
+  <string name="not_enough_coins_prompt">Вам нужно [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%i[/c] больше</string>
+
+  <string name="objective_push_the_button">Нажмите кнопку!</string>
+  <string name="objective_get_to_the_mall">Добратся Mall!</string>
+  <string name="objective_mall_closed_find_another_path">Malls закрыт, Найдите другой путь!</string>
+  <string name="objective_mall_find_entrance">Найти вход в Mall!</string>
+  <string name="objective_hold_out">Продержатся %s!</string>
+
+  <string name="objective_load_up_at_gun_shop">Загрузить магазин оружий!</string>
+  <string name="objective_get_to_mall_back">Пойти в обход Mall!</string>
+  <string name="objective_find_game_shop">Найти видео игры!</string>
+  <string name="objective_escape_mall">Пора бежать из Mall!</string>
+  <string name="objective_find_a_key">Дверь закрыта, Найди клч!</string>
+
+  <string name="objective_find_transport">Найди транспорт что-бы вернутся домой!</string>
+
+  <string name="menu_mod_options_title">.Steam Workshop</string>
+  <string name="menu_mod_options_apply">Перезапустите игру для применения модов.</string>
+  <string name="menu_view_workshop">Браузер Steam</string>
+  <string name="menu_mod_preview">Превью</string>
+  <string name="menu_mod_name">Имя</string>
+  <string name="menu_mod_author">Автор</string>
+  <string name="menu_mod_not_subscribed">Вы не подписаны на данный мод.</string>
+
+  <string name="menu_mod_restart_dialog">При следующем запуске игры данный мод будет включен.</string>
+
+  <string name="menu_mod_subscribe">Подпишись</string>
+  <string name="menu_mod_unsubscribe">Отпишись</string>
+  <string name="menu_mod_favorite">Избранное</string>
+  <string name="menu_mod_unfavorite">Не избранное</string>
+  <string name="menu_mod_view_on_steam">Посмотреть в Steam</string>
+  <string name="menu_mod_vote_up">Проголосовать за</string>
+  <string name="menu_mod_vote_down">Проголосовать против</string>
+  <string name="menu_mod_vote_text">[c=80,255,80]%i[/c] / [c=255,80,80]%i[/c]</string>
+
+  <string name="menu_server_browser_title">.Список серверов</string>
+  <string name="menu_server_browser_dedicated_label">[c=0,200,255,255]This Color[/c] = Выделенные сервера</string>
+  <string name="menu_server_browser_user_label">[c=255,255,255,255]This Color[/c] = Пользовательские игры</string>
+  <string name="menu_server_browser_name_column">Имя</string>
+  <string name="menu_server_browser_map_column">Карта</string>
+  <string name="menu_server_browser_players_column">Игроков</string>
+  <string name="menu_server_browser_ping_column">Пинг</string>
+  <string name="menu_server_browser_source_internet">Интернет сервера</string>
+  <string name="menu_server_browser_source_lan">LAN Сервера</string>
+  <string name="menu_server_browser_source_friends">Сервера друзей</string>
+  <string name="menu_server_browser_source_favorites">Избранные сервера</string>
+  <string name="menu_server_browser_source_history">История серверов</string>
+
+  <string name="menu_connecting_to_server">Подключение к серверу ...</string>
+
+  <string name="connect_overlay_error">Подключение прервано (%.1f s) ...</string>
+
+  <string name="menu_starting_local_server">Запуск локального сервера ...</string>
+
+  <string name="menu_game_setup_title">.Игровые настройки</string>
+  <string name="menu_game_setup_find_game">Найти сервер</string>
+  <string name="menu_game_setup_quick_game">Присоеденится к игре</string>
+  <string name="menu_game_setup_host_game">Создать матч</string>
+  <string name="menu_game_setup_browse_servers">Список серверов</string>
+  <string name="menu_game_setup_find_game_description">Автоматически присоеденится к созданной игре, по вашему вкусу.</string>
+  <string name="menu_game_setup_quick_game_description">Быстро присоеденится к любой доступной игре.</string>
+  <string name="menu_game_setup_host_game_description">Создать новую игру и пригласить в нее своих друзей.</string>
+  <string name="menu_game_setup_browse_servers_description">Посмореть все доступные игры и присоеденится к понравившейся.</string>
+  <string name="menu_game_setup_inventory_description">Одевайте новые предметы, улучшайте свое древо навыков, что-бы хоть какой-та толк был от вас в игре!</string>
+  <string name="menu_game_setup_global_chat_description">Общайтесь с игроками со всего мира в общем чате.</string>
+  <string name="menu_game_setup_achievements_description">Список достижений полученных за все время игры.</string>
+  <string name="menu_game_setup_leaderboards_description">Сравните свой рейтинг на той или иной карте с игроками со всего мира.</string>
+  <string name="menu_game_setup_back_description">Вернутся в меню выбора персонажей.</string>
+
+  <string name="menu_game_setup_challenge_daily">ЗАДАНИЕ ДНЯ</string>
+  <string name="menu_game_setup_challenge_weekly">ЗАДАНИЕ НЕДЕЛИ</string>
+  <string name="menu_game_setup_challenge_monthly">ЗАДАНИЕ МЕСЯЦА</string>
+  <string name="menu_game_setup_challenge_completed">ВЫПОЛНЕНО</string>
+  <string name="menu_game_setup_challenge_time_remaining">Осталось времени: %02iд %02iч %02iм %02iс</string>
+  <string name="menu_game_setup_challenge_rewards">Награда</string>
+  <string name="daily_challenge_completed_description">Вы полнили задание дня. Поздравляю, вы можете забрать свою награду!</string>
+  <string name="weekly_challenge_completed_description">Вы полнили задание недели. Поздравляю, вы можете забрать свою награду!</string>
+  <string name="monthly_challenge_completed_description">Вы полнили задание месяца. Поздравляю, вы можете забрать свою награду!</string>
+  <string name="daily_challenge_completed_name">[c=152,152,235]ЗАДАНИЕ ДНЯ ВЫПОЛНЕНО[/c]</string>
+  <string name="weekly_challenge_completed_name">[c=152,152,235]ЗАДАНИЕ НЕДЕЛИ ВЫПОЛНЕНО[/c]</string>
+  <string name="monthly_challenge_completed_name">[c=152,152,235]ЗАДАНИЕ МЕСЯЦА ВЫПОЛНЕНО[/c]</string>
+
+  <string name="challenge_1hp_survival_description">1 hp, нет навыков и пистолета. Может вы получите счет %i о %s?</string>
+  <string name="challenge_hp_bullets_description">Ваши пули - ваше здоровье. Получите очки %i о %s?</string>
+  <string name="challenge_hp_movement_description">Movement hurts, stillness heals. Can you get a score of %i on %s?</string>
+  <string name="challenge_max_multiplier_description">Can you get a multiplier of %i on %s?</string>
+  <string name="challenge_max_score_description">"Вы заработали очков of %i  %s?"</string>
+  <string name="challenge_max_waves_description">"Вы пережили волн %i  %s?"</string>
+  <string name="challenge_bullets_fired_description">Вы выпустили %i пули?</string>
+  <string name="challenge_zombie_kills_description">Вы убили %i врагов?</string>
+  <string name="challenge_pvp_kills_description">Вы убили %i игроков?</string>
+  <string name="challenge_revive_players_description">Вы воскресили %i игроков?</string>
+  <string name="challenge_heal_players_description">Вы вылечили %i HP?</string>
+  <string name="challenge_weapon_switch_description">"Оружие меняется каждые 10 секунд? Вы добрались до волны %i  %s?"</string>
+  <string name="challenge_reversed_controls_description">Your controls are reversed. Can you get to wave %i on %s?</string>
+  <string name="challenge_boxes_destroyed_description">Do you hate boxes enough to destroy %i of them?</string>
+  <string name="challenge_modded_map_description">Сыграйте с другом в пользовательскую карту!</string>
+  <string name="challenge_pvp_top_place_description">Вы выполнили %i занять в pvp 1 место?</string>
+  <string name="challenge_halloween_description">Соберите 1000 конфет что-бы завершить задание жудкого призрака!</string>
+
+  <string name="challenge_halloween_announce_name">Вы главная проблема жудкого призрака!</string>
+  <string name="challenge_halloween_announce_description">The spooky ghost has challenged you to a halloween treasure hunt! Find 1,000 of his candy corns and he will reward you with a spooky suprise!</string>
+    
+  <string name="challenge_weapon_kills_description">Can you do %i damage with %s weapons?</string>
+  <string name="challenge_weapon_sub_type_melee">Ближний бой</string>
+  <string name="challenge_weapon_sub_type_heavy">Тяжелое оружие</string>
+  <string name="challenge_weapon_sub_type_turret">Турель</string>
+  <string name="challenge_weapon_sub_type_small_arms">Малое вооружение</string>
+  <string name="challenge_weapon_sub_type_rifle">Винтовка</string>
+  <string name="challenge_weapon_sub_type_grenade">Граната</string>
+
+  <string name="challenge_to_many_local_users">Данная карта доступна только для одного игрока. Пожалуйста исключите других игроков что-бы начать.</string>
+
+  <string name="menu_options_title">.Options</string>
+  <string name="menu_options_input">Связка ключей</string>
+  <string name="menu_options_audio">Audio</string>
+  <string name="menu_options_graphics">Graphics</string>
+  <string name="menu_options_gameplay">Геймплей</string>
+  <string name="menu_options_misc">Разное</string>
+  <string name="menu_options_mod">Steam Workshop</string>
+  <string name="menu_options_resolution_change_confirm">Пожалуйста подтвердите установленное разрешение. Вернитесь и примените разрешение %i ...</string>
+  <string name="menu_options_input_press_bind_key">Пожалуйста нажмите на клавиатуре или геймпаде кнопку что-бы подписаться.</string>
+  <string name="menu_options_input_description">Вы можете полностью настроить управление под себя. Мы обеспечиваем полную поддержку - мышки, клавиатуры, геймпада!</string>
+  <string name="menu_options_audio_description">Вы можете изменить различные аудио настройки - музыку и звуковые эффекты.</string>
+  <string name="menu_options_graphics_description">Вы можете изменить видео настройки, разрешение и качество графики.</string>
+  <string name="menu_options_gameplay_description">Change different settings about how the gameplay behaves. Settings include things such as screen-shake and interaction arrows.</string>
+  <string name="menu_options_misc_description">Change different settings that do not fit into other categories. Settings includes things such as languages and steam settings.</string>
+  <string name="menu_options_mod_description">Discover, install and uninstall user created content. Powered by Steam Workshop.</string>
+  <string name="menu_options_credits_description">Check out the names of the guys who made this game!</string>
+  <string name="menu_options_back_description">Go back without applying changes.</string>
+  <string name="menu_options_apply_description">Apply all changes made.</string>
+
+  <string name="menu_options_gameplay_title">.Gameplay Options</string>
+  <string name="menu_options_gameplay_screen_shake">Enable screen shake?</string>
+  <string name="menu_options_gameplay_interaction_arrows">Show interaction arrows?</string>
+  <string name="menu_options_gameplay_interaction_messages">Show interaction messages?</string>
+  <string name="menu_options_gameplay_occluding_objects">Object occlusion transparency?</string>
+  <string name="menu_options_gameplay_input_to_pickup">Require input to pickup items?</string>
+  <string name="menu_options_gameplay_fire_when_aiming">Auto-Fire when aiming?</string>
+  
+  <string name="menu_options_gameplay_screen_shake_description">Toggles shaking of the screen when near explosions or when firing certain weapons.</string>
+  <string name="menu_options_gameplay_interaction_arrows_description">Shows bobing arrows about interactable objects.</string>
+  <string name="menu_options_gameplay_interaction_messages_description">Shows messages on the HUD when near interactable objects.</string>
+  <string name="menu_options_gameplay_occluding_objects_description">Fades out any objects that occlude (are in front of) the player.</string>
+  <string name="menu_options_gameplay_input_to_pickup_description">Requires the user to press the interact button to pickup items rather than just walking over them.</string>
+  <string name="menu_options_gameplay_fire_when_aiming_description">Using the aim/look keys will also fire your weapon. This is similar to the typical twin-stick shooter setup.</string>
+
+  <string name="menu_options_misc_title">.Misc Options</string>
+  <string name="menu_options_misc_language_text">Language</string>
+  <string name="menu_options_misc_notification_text">Steam Notification Corner</string>
+
+  <string name="menu_options_audio_title">.Audio Options</string>
+  <string name="menu_options_audio_bgm_text">Background Music Volume</string>
+  <string name="menu_options_audio_sfx_text">Sound Effect Volume</string>
+  <string name="menu_options_audio_voice_recv_text">Voice Chat Recieve Volume</string>
+  <string name="menu_options_audio_voice_send_text">Voice Chat Microphone Volume</string>
+  <string name="menu_options_audio_voice_enabled_text">Voice Chat Enabled?</string>
+  <string name="menu_options_audio_voice_push_to_talk_enabled_text">Push To Talk?</string>
+
+  <string name="menu_options_input_title">.Input Options</string>
+  <string name="menu_options_input_gamepad_dead_zone">Gamepad Dead Zone</string>
+  <string name="menu_options_input_column_1">Action</string>
+  <string name="menu_options_input_column_2">Keyboard</string>
+  <string name="menu_options_input_column_3">Gamepad</string>
+
+  <string name="menu_options_graphics_title">.Graphics Options</string>
+  <string name="menu_options_graphics_resolution">Resolution:</string>
+  <string name="menu_options_graphics_mode">Graphics Mode:</string>
+  <string name="menu_options_graphics_quality">Effect Density:</string>
+  <string name="menu_options_graphics_advanced_settings">Advanced Settings</string>
+  <string name="menu_graphics_resolution_description">Resolution decides the size of the window the game is rendered to.</string>
+  <string name="menu_graphics_mode_description">Graphics mode decides which way the window is displayed.</string>
+  <string name="menu_graphics_quality_description">This option globally adjusts the quanity of gibs, particles and similar optional effects on screen. Lowering it can help increase FPS.</string>
+  <string name="menu_graphics_advanced_description">Provides more detailed adjustments to rendering that can drastically change how the game looks.</string>
+
+  <string name="menu_options_advanced_graphics_title">.Graphics Options</string>
+  <string name="menu_options_advanced_graphics_vsync">Vertical Sync Enabled?</string>
+  <string name="menu_options_advanced_graphics_hq2x">Smoothing Filter Enabled?</string>
+  <string name="menu_options_advanced_graphics_shaders">Post Processing Enabled?</string>
+  <string name="menu_options_advanced_graphics_distortion">Distortion Effects Enabled?</string>
+  <string name="menu_options_advanced_graphics_legacy">Use Legacy Renderer?</string>
+  <string name="menu_options_advanced_graphics_perf_overlay">Show Performance Stats?</string>
+  <string name="menu_options_advanced_graphics_extended_perf_overlay">Show Extended Performance Stats?</string>
+  <string name="menu_options_advanced_graphics_vsync_description">Vertical sync locks the games frame rate to your monitors refresh rate. This helps to prevent screen-tearing and other graphical artifacts.</string>
+  <string name="menu_options_advanced_graphics_hq2x_description">" The smoothing filter is used to smooth out pixel art when it\'s upscaled to higher resolutions. Still very rough, being worked on! "</string>
+  <string name="menu_options_advanced_graphics_shaders_description">Post processing effects are used to provide a number of fullscreen-effects, such as grey-scale when close to death.</string>
+  <string name="menu_options_advanced_graphics_distortion_description">Distortion effects are used to make the screen ripple around fire and explosions. It can be taxing for low-end graphics hardware.</string>
+  <string name="menu_options_advanced_graphics_perf_overlay_description">Show an overlay in-game that displays internal frame-timing information related to performance. Rarely useful for non-developers.</string>
+  <string name="menu_options_advanced_graphics_extended_perf_overlay_description">Even more detailed version of the perf overlay, included extended timing information. Has high performance overhead! Rarely useful for non-developers.</string>
+  <string name="menu_options_advanced_graphics_legacy_description">Uses a fixed-function pipeline renderer. The game should be functional, but most graphical effects will be unavailable. Should only be used on very under-powered or unsupported GPUs.</string>
+  <string name="menu_options_advanced_graphics_legacy_description_forced">Uses a fixed-function pipeline renderer. The game should be functional, but most graphical effects will be unavailable. Should only be used on very under-powered or unsupported GPUs. [c=255,64,64,255]Warning: Your GPU is unsupported.[/c]</string>
+
+  <string name="legacy_rendering_notice">[c=255,64,64,255]Warning: Your GPU is unsupported.[/c] Your graphics card appears to not support some of the functionality the game uses. To allow the game to run we have fallen back to a legacy-rendering mode. Everything but basic rendering is disabled - no post-processing, distortion, etc. Some functionality may not render at all. If you card is not integrated and made within the last ~5 years, please notify us (twindrills.com) as this is likely a mistake on our part!</string>
+
+
+  <string name="menu_player_login_title">.Controller Assignment</string>
+  <string name="menu_player_login_guest_name">Guest</string>
+  <string name="menu_player_login_press_to_join">[key=gui_input_select,joystick]</string>
+  <string name="menu_player_login_press_to_join_first_player">[key=gui_input_select,keyboard] or [key=gui_input_select,joystick]</string>
+  <string name="menu_player_login_keyboard">[c=255,255,255]Keyboard[/c]</string>
+  <string name="menu_player_login_joystick">[c=255,255,255]Controller %i[/c]</string>
+
+  <string name="menu_select_character_title">.Select Character</string>
+  <string name="menu_select_character_new_character">&lt; Create New Character &gt;</string>
+  <string name="menu_select_character_level">Level %i</string>
+  <string name="menu_select_character_select">Select Character</string>
+  <string name="menu_select_character_delete">Delete Character</string>
+  <string name="menu_select_character_create">Create Character</string>
+  <string name="menu_select_character_confirm_delete">Are you sure you wish to delete this character?</string>
+  <string name="menu_select_character_untitled_name">Untitled Character</string>
+  <string name="menu_select_character_confirm_untitled">Are you sure you wish to leave your character\'s name as the default?</string>
+
+  <string name="matching_error_internal_error">Internal error prevented matching operation.</string>
+  <string name="matching_error_invalid_state">Matching system entered an invalid state and was unable to complete the operation.</string>
+  <string name="matching_error_offline">No connection to matching servers.</string>
+  <string name="matching_error_timeout">Timeout occured during matching operation.</string>
+  <string name="matching_error_access_denied">Matching system had it\'s access rejected and was unable to complete the operation.</string>
+  <string name="matching_error_limit_exceeded">Matching system encountered rate limit and was unable to complete the operation.</string>
+  <string name="matching_error_kicked">You were kicked from the game.</string>
+  <string name="matching_error_map_not_found">You do not have the map installed that this lobby is using.</string>
+  <string name="matching_error_no_lobby_matches">No games or lobbies could be found that match your criteria.</string>
+
+  <string name="matching_error_dosent_exist">Game no longer exists.</string>
+  <string name="matching_error_no_permission">You do not have permission to join this game.</string>
+  <string name="matching_error_full">Game is full.</string>
+  <string name="matching_error_banned">You are banned from this game.</string>
+  <string name="matching_error_clan_disabled">Your clan is disabled.</string>
+  <string name="matching_error_community_lock">Your account is community locked.</string>
+  <string name="matching_error_blocked_by_member">A member in this game has blocked you.</string>
+  <string name="matching_error_contains_blocked_member">This game contains a member you have blocked.</string>
+
+  <string name="net_error_internal_error">Internal error prevented connection.</string>
+  <string name="net_error_unavailable">Unable to connect, remote peer is unavailable.</string>
+  <string name="net_error_timeout">Connection timed out.</string>
+  <string name="net_error_wrong_version">Server is running a different version of the game.</string>
+  <string name="net_error_server_full">Server is full.</string>
+  <string name="net_error_server_premium">Server is for premium users only.</string>
+  <string name="net_error_banned">You are banned from this server.</string>
+  <string name="net_error_kicked">You were kicked from the server.</string>
+  <string name="net_error_lost_connection">You lost connection to the server.</string>
+  <string name="net_error_duplicate_connection">Server rejected connection. You are already connected to the server.</string>
+  <string name="net_error_tranmission_error">Closed connection. Malformed data sent or recieved.</string>
+  <string name="net_error_server_reserved">Server is reserved for a lobby.</string>
+  <string name="net_error_invalid_ticket">Server rejected connection. Invalid authentication ticket.</string>
+  <string name="net_error_client_mod_missmatch">You are missing some mods that the server is currently running (or your versions differ). Specifically: %s</string>
+  <string name="net_error_server_mod_missmatch">The server is missing some of the mods you are running (or your versions differ). Specifically: %s</string>
+
+  <string name="online_platform_error_offline">No connection to online platform.</string>
+  <string name="online_platform_feature_not_available_offline">You do not have a connection to steam or the internet. This feature is unavailable offline.</string>
+  <string name="online_platform_feature_offline_lobby">This lobby was created whilst offline. To use this feature please go online and recreate this lobby.</string>
+
+  <string name="game_mode_prefix_name_ctb">Capture The Bag</string>
+  <string name="game_mode_prefix_name_arena">Arena</string>
+  <string name="game_mode_prefix_name_wave">Wave</string>
+  <string name="game_mode_prefix_name_ru">Rack \'Em Up</string>
+  <string name="game_mode_prefix_name_tdm">Team Deathmatch</string>
+  <string name="game_mode_prefix_name_dm">Deathmatch</string>
+  <string name="game_mode_prefix_name_dc">Random Dungeon</string>
+  <string name="game_mode_prefix_name_gg">Gun Game</string>
+  <string name="game_mode_prefix_name_ggwave">Gun Game - Wave</string>
+  <string name="game_mode_prefix_name_c1">Campaign - New Game</string>
+  <string name="game_mode_prefix_name_misc">Misc</string>
+
+  <string name="host_game_game_mode_name_label">Game Mode:</string>
+  <string name="host_game_map_name_label">Map:</string>
+  <string name="host_game_map_player_count_label">Player Count:</string>
+  <string name="host_game_map_private_game">Private Game?</string>
+  <string name="host_game_map_secure_game">VAC Secure?</string>
+  <string name="host_game_map_host_game">Host Game</string>
+  <string name="host_game_setting_up_server">Setting Up Game ...</string>
+
+  <string name="find_game_game_mode_name_label">Game Mode:</string>
+  <string name="find_game_map_name_label">Map:</string>
+  <string name="find_game_map_join_games_in_progress">Join Games In Progress?</string>
+  <string name="find_game_map_join_lobbies">Join Lobbies?</string>
+  <string name="find_game_map_find_game">Find Game</string>
+  <string name="find_game_finding_game">Finding Game ...</string>
+
+  <string name="lobby_change_settings">Settings</string>
+  <string name="lobby_start_game">Start</string>
+  <string name="lobby_cancel_start">Cancel</string>
+  <string name="lobby_invite">Invite</string>
+  <string name="lobby_leave_game">Leave</string>
+  <string name="lobby_title">.Lobby</string>
+  <string name="lobby_number_of_players">%i Player Game</string>
+  <string name="lobby_vac_secure">VAC Secured</string>
+  <string name="lobby_vac_insecure">Not VAC Secured</string>
+  <string name="lobby_private_game">Private Game</string>
+  <string name="lobby_public_game">Public Game</string>
+  <string name="lobby_member_joined_lobby">[c=152,193,235,255]%s joined the lobby.[/c]</string>
+  <string name="lobby_member_left_lobby">[c=152,193,235,255]%s left the lobby.[/c]</string>
+  <string name="lobby_member_searching_server">[c=152,193,235,255]Searching for game server.[/c]</string>
+  <string name="lobby_member_search_server_cancel">[c=152,193,235,255]Search cancelled.[/c]</string>
+  <string name="lobby_member_search_server_found">[c=152,193,235,255]Server found, game starting.[/c]</string>
+  <string name="lobby_member_search_no_server_found">[c=152,193,235,255]No available server, using localhost, game starting.[/c]</string>
+  <string name="lobby_member_search_no_local_server">[c=152,193,235,255]Unable to host local server.[/c]</string>
+  <string name="lobby_member_open_slot">[c=128,128,128,128]Open Slot[/c]</string>
+  <string name="lobby_member_owner_postfix">[c=255,64,64,128](Leader)[/c]</string>
+  <string name="lobby_kick_player">Kick Player</string>
+  <string name="lobby_view_profile">View Profile</string>
+  <string name="lobby_custom_map">Custom Map</string>
+
+  <string name="map_load_waiting_for_server">Waiting for server commands</string>
+  <string name="map_load_loading_map">Loading map</string>menu_game_setup_inventory_description
+  <string name="map_load_sending_client_info">Sending client information</string>
+  <string name="map_load_sync_with_server">Syncronising with server</string>
+  <string name="map_load_error_unknown_map">You do not have the map installed that this server is using.</string>
+  <string name="map_load_error_failed_load">Map was found, but could not be loaded for an internal reason.</string>
+  <string name="map_load_error_unknown_map_workshop">The server is using a user-created map, to join servers using it, please subscribed to it in the steam workshop.</string>
+
+  <string name="sub_menu_copyright">Версия {GAME_VERSION} - Copyright TwinDrills 2009-2015</string>
+  <string name="sub_menu_server_name">[c=0,200,200,255]%s[/c] - Hosted By %s</string>
+  <string name="sub_menu_global_chat_button_text">Global Chat</string>
+  <string name="sub_menu_inventory_button_text">Modify Character</string>
+  <string name="sub_menu_vote_button_text">Голосование / Отчёт</string>
+  <string name="sub_menu_team_button_text">Change Team</string>
+  <string name="sub_menu_achievements_button_text">Achievements</string>
+  <string name="sub_menu_leaderboards_button_text">Leaderboards</string>
+  <string name="sub_menu_statistics_button_text">Statistics</string>
+  <string name="sub_menu_exit_button_text">Exit To Menu</string>
+
+  <string name="menu_global_chat_pipe_checkbox">Pipe global chat into in-game chat?</string>
+  <string name="menu_global_chat_online_label">There are %i people in global chat.</string>
+  <string name="menu_global_chat_title">.Global Chat</string>
+
+  <string name="menu_inventory_not_available_in_pvp">[c=200,32,32]Not available in PVP.[/c]</string>
+  <string name="menu_inventory_title">.Modify Character</string>
+  <string name="menu_inventory_max_level">Max Level</string>
+  <string name="menu_inventory_create_title">.Create Character</string>
+  <string name="menu_inventory_equipment">Equipment</string>
+  <string name="menu_inventory_skill_tree">Skill Tree</string>
+  <string name="menu_inventory_item_shop">Item Shop</string>
+  <string name="menu_inventory_skill_tree_avail">Skill Tree ([img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c])</string>
+  <string name="menu_inventory_item_shop_avail">Item Shop ([img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c])</string>
+  <string name="menu_inventory_skill_points">[img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c]</string>
+  <string name="menu_inventory_gold">[img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]</string>
+  <string name="menu_inventory_locked">[c=255,64,64]LOCKED[/c]</string>
+  <string name="menu_inventory_gold_full">[img=screen_main_gold_icon,1.0,1.0][c=255,14,14,255]%s[/c]</string>
+  <string name="menu_inventory_durability">Durability</string>
+  <string name="menu_inventory_level">Level %i</string>
+  <string name="menu_inventory_xp">%s / %s XP</string>
+  <string name="menu_inventory_confirm_unspent">You still have [img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c] / [img=screen_main_gold_icon,2.0,2.0][c=255,194,14,255]%s[/c] to spend.\n\nAre you sure you wish to create your character now? Don\'t worry you can always spend them later.</string>
+
+  <string name="menu_equipment_title">.Modify Equipment</string>
+  <string name="menu_equipment_sell_confirm">Are you sure you wish to sell %s for [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]?</string>
+  <string name="menu_equipment_sell_confirm_inventory">Are you sure you wish to sell %s for [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]? This is a steam inventory item, you can also trade or sell it through the steam marketplace.</string>
+  <string name="menu_equipment_sell_must_have_head">You must always have at least one none-marketplace head! You cannot sell this item, you would be headless!</string>
+  <string name="menu_equipment_need_inventory_connection">You can only perform this action when online. Marketplace inventory items need a connection to steam.</string>
+
+  <string name="menu_skills_title">.Skill Tree</string>
+  <string name="menu_skills_reroll">Reroll Skills</string>
+  <string name="menu_skills_name">[c=175,96,225]%s[/c]</string>
+  <string name="menu_skills_energy_source">Costs one %s or better.</string>
+  <string name="menu_skills_reroll_cannot_multi_purchase">This skill cannot be purchased multiple times, even after a reroll.</string>
+  <string name="menu_skills_reroll_not_enough">It will cost [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c] to re-roll your skill points.\n\nYou need a further [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c].</string>
+  <string name="menu_skills_reroll_confirm">It will cost [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c] to re-roll your skill points.\n\nAre you sure you wish to reroll your skill points?</string>
+  <string name="menu_skills_purchase_confirm">Are you sure you wish to buy %s for [img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c]?</string>
+  <string name="menu_skills_purchase_not_enough">You need another [img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c] to purchase this.</string>
+  <string name="menu_skills_purchase_sibling_unlocked_mutex">You can no longer purchase this skill, it is mutually exclusive with \'%s\'.</string>
+  <string name="menu_skills_purchase_parent_not_unlocked">You need to purchase \'%s\' before you can purchase \'%s\'.</string>
+  <string name="menu_skills_purchase_confirm_mutex">This skill is a mutually exclusive choice, if you purchase it you will be unable to purchase its siblings (indicated by red lines).\n\nAre you sure you wish to buy %s for [img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c]?</string>
+  <string name="menu_skills_equip_slots">Equipped Active Skills</string>
+  <string name="menu_skills_purchase_skill_locked">This skill is [c=255,64,64]Locked[/c]. You need to meet its unlock criteria to purchase it.</string>  
+
+  <string name="menu_buy_item_title">Buy a \'[c=128,128,255,255]%s[/c]\' ...</string>
+  <string name="menu_buy_item_fragile_item">Fragile items will eventually break. They are not tradeable or marketable through steam.</string>
+  <string name="menu_buy_item_fragile_item_button">Buy fragile item for [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]</string>
+  <string name="menu_buy_item_fragile_item_button_not_available">Fragile version of item is not available.</string>
+  <string name="menu_buy_item_fragile_item_button_inventory_full">Your inventory is full.</string>
+  <string name="menu_buy_item_fragile_item_button_not_enoungh_coins">You need [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c] more.</string>
+  <string name="menu_buy_item_indestructable_item">Indestructable items are fully marketable and tradable. They can be acquired through real-money purchase, random in-game drops, trading, or the Steam Market.</string>
+  <string name="menu_buy_item_indestructable_item_button">Buy indestructable steam inventory item.</string>
+
+  <string name="menu_shop_title">.Item Shop</string>  
+  <string name="menu_shop_purchase_item_locked">This item is [c=255,64,64]Locked[/c]. You need to meet its unlock criteria to purchase it.</string>  
+  <string name="menu_shop_purchase_item_confirm">Are you sure you wish to buy a \'%s\' for [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]?</string>
+  <string name="menu_shop_purchase_not_enough_coins">You need another [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c] to buy a \'%s\'.</string>
+  <string name="menu_shop_purchase_full_inventory">Your inventory is full, you will not be able to purchase new items until you make space.</string>
+  <string name="menu_shop_purchase_premium_only">This item is exclusive to [c=255,194,14,255]Gold Account[/c] holders. You can upgrade your account on the main menu.</string>
+
+  <string name="menu_shop_unlock_criteria">[c=255,64,64,255]UNLOCK CRITERIA[/c]</string>
+  <string name="menu_shop_unlock_required_rank">[img=game_hud_weaponicon_none_0,1.0,1.0][c=255,64,64,255]Level Up to Rank %i[/c]</string>
+  <string name="menu_shop_unlock_ailments_from_weapon">[img=game_hud_weaponicon_none_0,1.0,1.0][c=255,64,64,255]Shock %i/%i enemies with %s.[/c]</string>
+  <string name="menu_shop_unlock_damage_from_weapon">[img=game_hud_weaponicon_none_0,1.0,1.0][c=255,64,64,255]Do %i/%i damage with %s.[/c]</string>
+  <string name="menu_shop_unlock_heal_from_weapon">[img=game_hud_weaponicon_none_0,1.0,1.0][c=255,64,64,255]Heal %i/%i HP with %s.[/c]</string>
+  <string name="menu_shop_unlock_kills_from_weapon">[img=game_hud_weaponicon_none_0,1.0,1.0][c=255,64,64,255]Kill %i/%i enemies with %s.[/c]</string>
+  <string name="menu_statistics_title">.Статистика</string>
+  <string name="menu_statistics_name_column">Имя</string>
+  <string name="menu_statistics_value_column">Value</string>
+  <string name="menu_statistics_local">Статистика Локальной Игры</string>
+  <string name="menu_statistics_global">Global Totals</string>
+
+  <string name="scoreboard_header_level">lvl</string>
+  <string name="scoreboard_header_name">Name</string>
+  <string name="scoreboard_header_score">Score</string>
+  <string name="scoreboard_header_deaths">Deaths</string>
+  <string name="scoreboard_header_kills">Kills</string>
+  <string name="scoreboard_header_ping">Ping</string>
+
+  <string name="menu_achievements_title">.Achievements</string>
+
+  <string name="achievement_gold_name">Gleaming Gold</string>
+  <string name="achievement_gold_description">Get a score of over 1,000,000,000.</string>
+
+  <string name="achievement_silver_name">Silver</string>
+  <string name="achievement_silver_description">Get a score over 10,000,000.</string>
+
+  <string name="achievement_bronze_name">Bronzish</string>
+  <string name="achievement_bronze_description">Get a score over 1,000,000.</string>
+
+  <string name="achievement_horder_name">Anti-Oniomania</string>
+  <string name="achievement_horder_description">Fill your wallet with 500,000 gold!</string>
+
+  <string name="achievement_canttouchthis_name">Can\'t Touch This</string>
+  <string name="achievement_canttouchthis_description">Survive a wave game until wave 50.</string>
+
+  <string name="achievement_cheater_name">Cheater</string>
+  <string name="achievement_cheater_description">Level 99? Dirty cheater ...</string>
+
+  <string name="achievement_cremationship_name">Long Distance Cremationship</string>
+  <string name="achievement_cremationship_description">Ignite 100 zombies from 128 pixels away!</string>
+
+  <string name="achievement_developerdeath_name">F**king Developers</string>
+  <string name="achievement_developerdeath_description">Kill one of the developers.</string>
+
+  <string name="achievement_dick_name">Dick</string>
+  <string name="achievement_dick_description">Why would you do that!?</string>
+
+  <string name="achievement_eagleeye_name">Eagle Eye</string>
+  <string name="achievement_eagleeye_description">50 shots and no hits? Great shooting man.</string>
+
+  <string name="achievement_failure_name">Deathmaster</string>
+  <string name="achievement_failure_description">You died like 501 times?</string>
+
+  <string name="achievement_frigid_name">Frigid</string>
+  <string name="achievement_frigid_description">Freeze 100 zombies!</string>
+
+  <string name="achievement_itshotinhere_name">It\'s Hot In Here!</string>
+  <string name="achievement_itshotinhere_description">Ignite 100 zombies!</string>
+
+  <string name="achievement_headshothoncho_name">Headshot Honcho</string>
+  <string name="achievement_headshothoncho_description">Explode 100 heads!</string>
+
+  <string name="achievement_healinglevel1_name">The Law of Love</string>
+  <string name="achievement_healinglevel1_description">Heal 10,000 hit points!</string>
+
+  <string name="achievement_healinglevel2_name">The Gift of Love</string>
+  <string name="achievement_healinglevel2_description">Heal 50,000 hit points!</string>
+
+  <string name="achievement_healinglevel3_name">The Power of Love</string>
+  <string name="achievement_healinglevel3_description">Heal 100,000 hit points!</string>
+
+  <string name="achievement_healinglevel4_name">&lt;3 &lt;3 &lt;3 &lt;3 </string>
+  <string name="achievement_healinglevel4_description">Heal 1,000,000 hit points!</string>
+
+  <string name="achievement_iceandfire_name">Ice And Fire</string>
+  <string name="achievement_iceandfire_description">Ignite 5 frozen enemies.</string>
+
+  <string name="achievement_ihateboxes_name">I Hate Boxes</string>
+  <string name="achievement_ihateboxes_description">You sure do like destroying stuff don\'t you?</string>
+
+  <string name="achievement_mammy_name">Mammy</string>
+  <string name="achievement_mammy_description">Crash the game because you suck!</string>
+
+  <string name="achievement_marathonman_name">Pixel Pusher</string>
+  <string name="achievement_marathonman_description">Travel 1,000,000 pixels!</string>
+
+  <string name="achievement_n00b_name">n00b</string>
+  <string name="achievement_n00b_description">Kill 1 zombie!</string>
+
+  <string name="achievement_owned_name">Owned!</string>
+  <string name="achievement_owned_description">Kill 10 human players.</string>
+
+  <string name="achievement_penetrator_name">The Penetrator</string>
+  <string name="achievement_penetrator_description">Penetrate 5 or more enemies with a bullet!</string>
+
+  <string name="achievement_winner_name">Winner!</string>
+  <string name="achievement_winner_description">Get into the top 10 for any map.</string>
+
+  <string name="achievement_redmist_name">Red Mist</string>
+  <string name="achievement_redmist_description">One explosion 3 kills.</string>
+
+  <string name="achievement_saviour_name">Saviour</string>
+  <string name="achievement_saviour_description">Bring a homie back from the afterlife!</string>
+
+  <string name="achievement_theghostisclear_name">The Ghost Is Clear!</string>
+  <string name="achievement_theghostisclear_description">Free 20 players from their spirit forms!</string>
+
+  <string name="achievement_trickshot_name">Trick Shot</string>
+  <string name="achievement_trickshot_description">100 rebound kills? Sweeeeet.</string>
+
+  <string name="achievement_youdidntcrash_name">YOU\'RE MY HERO!</string>
+  <string name="achievement_youdidntcrash_description">You played the game for 60 minutes without crashing?</string>
+
+  <string name="achievement_zombiekiller_name">Zombie Killer</string>
+  <string name="achievement_zombiekiller_description">Survive till wave 10!</string>
+
+  <string name="achievement_zombiemaster_name">Zombie Master</string>
+  <string name="achievement_zombiemaster_description">Survive till wave 20!</string>
+
+  <string name="achievement_zombiegrinder_name">Zombie Grinder</string>
+  <string name="achievement_zombiegrinder_description">Survive till wave 30!</string>
+
+  <string name="achievement_zombinator_name">Zombinator</string>
+  <string name="achievement_zombinator_description">Kill 53,598 Zombie!</string>
+
+  <string name="achievement_multiplier5_name">Get It Up!</string>
+  <string name="achievement_multiplier5_description">Get a multiplier of 5x.</string>
+
+  <string name="achievement_multiplier10_name">Going Higher!</string>
+  <string name="achievement_multiplier10_description">Get a multiplier of 10x.</string>
+
+  <string name="achievement_multiplier15_name">Such Multipler, Much Wow</string>
+  <string name="achievement_multiplier15_description">Get a multiplier of 15x.</string>
+
+  <string name="achievement_dungeonlevel1_name">Dungeon Crawler</string>
+  <string name="achievement_dungeonlevel1_description">Get through 1 level of a random dungeon!</string>
+
+  <string name="achievement_dungeonlevel2_name">Dungeon Master</string>
+  <string name="achievement_dungeonlevel2_description">Get through 5 levels of a random dungeon!</string>
+
+  <string name="achievement_dungeonlevel3_name">Dungeon Boss</string>
+  <string name="achievement_dungeonlevel3_description">Get through 10 levels of a random dungeon!</string>
+
+  <string name="achievement_workshop_name">I Made A Thing!</string>
+  <string name="achievement_workshop_description">Submit an item to the workshop!</string>
+
+  <string name="statistic_group_general">General</string>
+  <string name="statistic_group_players">Players</string>
+  <string name="statistic_group_enemies">Enemies</string>
+
+  <string name="statistic_aggregated_boxes_destroyed_name">Global Boxes Destroyed</string>
+  <string name="statistic_aggregated_boxes_destroyed_description">[Unused]</string>
+
+  <string name="statistic_aggregated_characters_created_name">Characters Created</string>
+  <string name="statistic_aggregated_characters_created_description">[Unused]</string>
+
+  <string name="statistic_aggregated_gold_gathered_name">Gold Gathered</string>
+  <string name="statistic_aggregated_gold_gathered_description">[Unused]</string>
+
+  <string name="statistic_aggregated_human_deaths_name">Human Deaths</string>
+  <string name="statistic_aggregated_human_deaths_description">[Unused]</string>
+
+  <string name="statistic_aggregated_human_revives_name">Human Revives</string>
+  <string name="statistic_aggregated_human_revives_description">[Unused]</string>
+
+  <string name="statistic_aggregated_level_ups_name">Level Ups</string>
+  <string name="statistic_aggregated_level_ups_description">[Unused]</string>
+
+  <string name="statistic_aggregated_maps_played_name">Maps Played</string>
+  <string name="statistic_aggregated_maps_played_description">[Unused]</string>
+
+  <string name="statistic_aggregated_pixels_moved_name">Pixels Moved</string>
+  <string name="statistic_aggregated_pixels_moved_description">[Unused]</string>
+
+  <string name="statistic_aggregated_pvp_kills_name">PVP Kills</string>
+  <string name="statistic_aggregated_pvp_kills_description">[Unused]</string>
+
+  <string name="statistic_aggregated_zombies_frozen_name">Enemies Frozen</string>
+  <string name="statistic_aggregated_zombies_frozen_description">[Unused]</string>
+
+  <string name="statistic_aggregated_zombies_ignited_name">Enemies Ignited</string>
+  <string name="statistic_aggregated_zombies_ignited_description">[Unused]</string>
+
+  <string name="statistic_aggregated_zombies_killed_name">Enemies Killed</string>
+  <string name="statistic_aggregated_zombies_killed_description">[Unused]</string>
+
+  <string name="statistic_aggregated_zombies_shocked_name">Enemies Shocked</string>
+  <string name="statistic_aggregated_zombies_shocked_description">[Unused]</string>
+
+  <string name="statistic_aggregated_play_time_name">Play Time (Hours)</string>
+  <string name="statistic_aggregated_play_time_description">[Unused]</string>
+
+  <string name="statistic_boxes_destroyed_name">Boxes Destroyed</string>
+  <string name="statistic_boxes_destroyed_description">[Unused]</string>
+
+  <string name="statistic_gold_gathered_name">Gold Gathered</string>
+  <string name="statistic_gold_gathered_description">[Unused]</string>
+
+  <string name="statistic_human_deaths_name">Human Deaths</string>
+  <string name="statistic_human_deaths_description">[Unused]</string>
+
+  <string name="statistic_human_revives_name">Human Revives</string>
+  <string name="statistic_human_revives_description">[Unused]</string>
+
+  <string name="statistic_maps_played_name">Maps Played</string>
+  <string name="statistic_maps_played_description">[Unused]</string>
+
+  <string name="statistic_pixels_moved_name">Pixels Moved</string>
+  <string name="statistic_pixels_moved_description">[Unused]</string>
+
+  <string name="statistic_pvp_kills_name">PVP Kills</string>
+  <string name="statistic_pvp_kills_description">[Unused]</string>
+
+  <string name="statistic_zombies_frozen_name">Enemies Frozen</string>
+  <string name="statistic_zombies_frozen_description">[Unused]</string>
+
+  <string name="statistic_zombies_ignited_name">Enemies Ignited</string>
+  <string name="statistic_zombies_ignited_description">[Unused]</string>
+
+  <string name="statistic_zombies_killed_name">Enemies Killed</string>
+  <string name="statistic_zombies_killed_description">[Unused]</string>
+
+  <string name="statistic_zombies_shocked_name">Enemies Shocked</string>
+  <string name="statistic_zombies_shocked_description">[Unused]</string>
+
+  <string name="statistic_zombies_long_distance_ignited_name">Long Distance Enemies Ignited</string>
+  <string name="statistic_zombies_long_distance_ignited_description">[Unused]</string>
+
+  <string name="statistic_damage_dealt_name">Damage Dealt</string>
+  <string name="statistic_damage_dealt_description">[Unused]</string>
+
+  <string name="statistic_healing_dealt_name">Healing Dealt</string>
+  <string name="statistic_healing_dealt_description">[Unused]</string>
+
+  <string name="statistic_zombies_frozen_ignited_name">Frozen Enemies Ignited</string>
+  <string name="statistic_zombies_frozen_Ignited_description">[Unused]</string>
+
+  <string name="statistic_highest_rank_name">Highest Rank</string>
+  <string name="statistic_highest_rank_description">[Unused]</string>
+
+  <string name="statistic_highest_score_name">Highest Score</string>
+  <string name="statistic_highest_score_description">[Unused]</string>
+
+  <string name="statistic_highest_multiplier_name">Highest Multiplier</string>
+  <string name="statistic_highest_multiplier_description">[Unused]</string>
+
+  <string name="statistic_highest_wave_name">Highest Wave</string>
+  <string name="statistic_highest_wave_description">[Unused]</string>
+
+  <string name="statistic_rebound_shots_name">Rebound Kills</string>
+  <string name="statistic_rebound_shots_description">[Unused]</string>
+
+  <string name="statistic_play_time_name">Play Time (Hours)</string>
+  <string name="statistic_play_time_description">[Unused]</string>
+
+  <string name="statistic_zombies_headshots_name">Zombie Headshots</string>
+  <string name="statistic_zombies_headhosts_description">[Unused]</string>
+
+  <string name="statistic_dungeon_level_name">Highest Dungeon Level</string>
+  <string name="statistic_dungeon_level_description">[Unused]</string>
+
+  <string name="menu_leaderboards_title">.Leaderboards</string>
+  <string name="menu_leaderboards_friends_only">Show Friends Only?</string>
+  <string name="menu_leaderboards_rank_column">Rank</string>
+  <string name="menu_leaderboards_rank_short_column">#</string>
+  <string name="menu_leaderboards_name_column">Name</string>
+  <string name="menu_leaderboards_score_column">Score</string>
+  <string name="menu_leaderboards_loading_text">Loading ...</string>
+  <string name="menu_leaderboards_no_entries_text">No Entries In Leaderboard.</string>
+  <string name="menu_leaderboards_no_entries_short_text">No Entries.</string>
+
+  <string name="chat_message_player_join">%s has joined the game.</string>
+  <string name="chat_message_player_leave">%s has left the game.</string>
+  <string name="chat_message_player_rename">%s has changed his name to %s.</string>
+  <string name="chat_message_player_team_change">%s has changed to team [c=%i,%i,%i,255]%s[/c].</string>
+  <string name="chat_message_invalid_command">Invalid or malformed command.</string>
+  <string name="chat_message_invalid_destination">Unknown username.</string>
+  <string name="chat_message_private">(PM %s) %s: %s</string>
+  <string name="chat_message_global">%s: %s</string>
+  <string name="chat_message_game_global">[c=100,255,100](Global) [c=80,200,80]%s[/c]: %s[/c]</string>
+  <string name="chat_message_action">[c=234,211,109,255]* %s %s[/c]</string>
+  <string name="chat_message_server">[c=152,193,235,255]%s[/c]</string>
+  <string name="chat_message_called_vote">%s called a %s vote.</string>
+  <string name="chat_message_vote_passed">Vote Passed!</string>
+  <string name="chat_message_vote_failed">Vote Failed!</string>
+  <string name=" chat_message_vote_cannot_kick_dev">Developers are immune to kick votes.</string>
+  <string name="chat_message_vote_cannot_kick_host">The host is immune to kick votes.</string>
+  <string name="chat_message_player_killed">[c=220,60,70]%s[/c] was killed by [c=220,60,70]%s[/c].</string>
+  <string name="chat_message_player_killed_imposter">[c=220,60,70]%s[/c] was killed by [c=220,60,70]%s[/c]\'s [c=220,60,70]%s[/c].</string>
+  <string name="chat_message_player_killed_enemy">[c=220,60,70]%s[/c] was killed.</string>
+  <string name="chat_message_player_captured_bag">[c=%i,%i,%i,255]%s[/c] captured the bag.</string>
+  <string name="chat_message_called_invalid_map_vote">%s attempted to call a vote for a map thats available on this server.</string>
+
+  <string name="sub_menu_vote_kick_player">Kick Player</string>
+  <string name="sub_menu_vote_restart_map">Restart Map</string>
+  <string name="sub_menu_vote_enter_edit_mode">Enter Editor Mode</string>
+  <string name="sub_menu_vote_exit_edit_mode">Exit Editor Mode</string>
+  <string name="sub_menu_vote_change_map">Change Map</string>
+  <string name="sub_menu_vote_start">Start Vote</string>
+  <string name="sub_menu_vote_player_title">Select Player:</string>
+  <string name="sub_menu_vote_map_title">Select Map:</string>
+  <string name="sub_menu_edit_mode_vote_name">change edit mode</string>
+  <string name="sub_menu_edit_mode_vote_enter_description">Enter edit mode?</string>
+  <string name="sub_menu_edit_mode_vote_exit_description">Exit edit mode?</string>
+  <string name="sub_menu_kick_vote_name">kick player</string>
+  <string name="sub_menu_kick_vote_description">Kick \'%s\'?</string>
+  <string name="sub_menu_kick_vote_unknown_user">Unknown User</string>
+  <string name="sub_menu_restart_vote_name">restart map</string>
+  <string name="sub_menu_restart_vote_description">Restart map?</string>
+  <string name="sub_menu_change_map_vote_name">change map</string>
+  <string name="sub_menu_change_map_vote_description">Change map to \'%s\'?</string>
+  <string name="sub_menu_kick_vote_unknown_map">Unknown Map</string>
+  <string name="vote_overlay_vote_yes">Press [key=voteyes] To Vote Yes</string>
+  <string name="vote_overlay_vote_no">Press [key=voteno] To Vote No</string>
+
+  <string name="editor_pfx_editor">Particle FX Editor</string>
+  <string name="editor_show_collision">Show Optimized Collision</string>
+  <string name="editor_show_lighting">Show Lighting</string>
+  <string name="editor_show_paths">Show Paths</string>
+  <string name="editor_show_randgen">Show Random Generation Template</string>
+  <string name="editor_new_map">New Map</string>
+  <string name="editor_open_map">Open Map</string>
+  <string name="editor_save_map">Save Map</string>
+  <string name="editor_save_map_as">Save Map As</string>
+  <string name="editor_return_to_game">Return To Game</string>
+  <string name="editor_exit_to_menu">Exit To Menu</string>
+  <string name="editor_exit_to_editor">Return To Editor</string>
+  <string name="editor_new_pfx">New PFX</string>
+  <string name="editor_open_pfx">Open PFX</string>
+  <string name="editor_save_pfx">Save PFX</string>
+  <string name="editor_save_pfx_as">Save PFX As</string>
+  <string name="editor_undo">Undo</string>
+  <string name="editor_redo">Redo</string>
+  <string name="editor_cut">Cut</string>
+  <string name="editor_copy">Copy</string>
+  <string name="editor_paste">Paste</string>
+  <string name="editor_delete">Delete</string>
+  <string name="editor_reset_camera">Reset Camera</string>
+  <string name="editor_layer1">Layer 1</string>
+  <string name="editor_layer2">Layer 2</string>
+  <string name="editor_layer3">Layer 3</string>
+  <string name="editor_layer4">Layer 4</string>
+  <string name="editor_layer5">Layer 5</string>
+  <string name="editor_tiles">Tiles</string>
+  <string name="editor_collision">Collision</string>
+  <string name="editor_objects">Objects</string>
+  <string name="editor_select">Select</string>
+  <string name="editor_paint">Paint</string>
+  <string name="editor_flood">Flood</string>
+  <string name="editor_erase">Erase</string>
+  <string name="editor_map_properties">Map Properties</string>
+  <string name="editor_object_properties">Object Properties</string>
+  <string name="editor_windows">Windows</string>
+  <string name="editor_change_tool">Change Tool</string>
+  <string name="editor_change_mode">Change Mode</string>
+  <string name="editor_change_layer">Change Layer</string>
+  <string name="editor_change_layer_visibility">Change Layer Visibility</string>
+  <string name="editor_change_tile_properties">Change Tile Properties</string>
+  <string name="editor_view">View</string>
+  <string name="editor_edit">Edit</string>
+  <string name="editor_file">File</string>
+  <string name="editor_flip_h">Flip Horizontal</string>
+  <string name="editor_flip_v">Flip Vertical</string>
+  <string name="editor_publish_as_mod">Publish To Workshop</string>
+
+  <string name="editor_publish_text">Your map will be submitted and will be linked to the uploaded workshop item, future publishing will update the existing file rather than creating a new one.\n\nBy submitting this map, you agree to the Steam Workshop terms of service.</string>
+  <string name="editor_view_agreement">View Agreement</string>
+  <string name="editor_cancel">Cancel</string>
+  <string name="editor_publish">Publish</string>
+  <string name="editor_publish_name_text">Name: %s</string>
+  <string name="editor_publish_description_text">Description: %s</string>
+  <string name="editor_publish_mod_name_text">%s</string>
+  <string name="editor_publish_mod_description_text">%s Game Mode: %s Max Players: %i</string>
+  <string name="editor_publish_progress_text">Uploading To Steam Workshop ( %.2f%% ) ... Please Wait ...</string>
+  <string name="editor_error_game_mode_enabled">Map must contain at least one enabled game mode for the map to be usable.</string>
+  <string name="editor_error_game_mode_main">Map must contain at least one game mode with Is_Main set to true for the map to be usable.</string>
+  <string name="editor_error_preview_center">Map must contain one preview-center marker for the map to be usable.</string>
+  <string name="editor_error_player_start">Map must contain at least one player start for the map to be usable.</string>
+  <string name="editor_error_path_marker">Map must contain at least one path pylon for the map to be usable.</string>
+  <string name="editor_error_preview_save">Your map needs saving before continuing with publishing.</string>
+  <string name="editor_error_internal_error">Internal error occured while publishing.</string>
+
+  <string name="wave_game_mode_refactory_countdown">Starting In %i</string>
+  <string name="wave_game_mode_active_countdown">Wave %i - %i Remaining</string>
+  <string name="wave_gun_game_mode_active_countdown">Wave %i - %s - %i Remaining</string>
+
+  <string name="dungeon_game_mode_level">Dungeon Level %i</string>
+
+  <string name="dm_game_mode_winning_status">[c=0,200,200,255]%s[/c] Winning With [c=255,194,14,255]%i[/c] Kills</string>
+  <string name="dm_game_mode_kills_left_status">[c=255,194,14,255]%i[/c] Kills Remaining</string>
+  <string name="dm_game_mode_final_kill_status">[c=220,60,70]FINAL KILL![/c]</string>
+  <string name="dm_game_mode_tie_status">Waiting For First Kill</string>
+
+  <string name="tdm_game_mode_winning_status">[c=%i,%i,%i,255]%s[/c] Winning With [c=255,194,14,255]%i[/c] Kills</string>
+  <string name="tdm_game_mode_kills_left_status">[c=255,194,14,255]%i[/c] Kills Remaining</string>
+  <string name="tdm_game_mode_final_kill_status">[c=220,60,70]FINAL KILL![/c]</string>
+  <string name="tdm_game_mode_tie_status">Waiting For First Kill</string>
+
+  <string name="ctb_game_mode_winning_status">[c=%i,%i,%i,255]%s[/c] Winning With [c=255,194,14,255]%i[/c] Kills</string>
+  <string name="ctb_game_mode_final_kill_status">[c=220,60,70]FINAL BAG![/c]</string>
+  <string name="ctb_game_mode_tie_status">Teams Tied</string>
+
+  <string name="gg_game_mode_winning_status">[c=0,200,200,255]%s[/c] Winning On Tier [c=255,194,14,255]%i / %i[/c]</string>
+  <string name="gg_game_mode_tie_status">Waiting For First Kill</string>
+
+  <string name="reu_game_mode_winning_status">[c=0,200,200,255]%s[/c] Winning With [c=255,194,14,255]%i[/c] Kills</string>
+  <string name="reu_game_mode_tie_status">Waiting For First Kill</string>
+  <string name="reu_game_mode_weapon_change">[c=255,194,14,255]WEAPON CHANGE![/c]</string>
+
+  <string name="ctb_game_mode_capture_status">[c=%i,%i,%i,255]%s[/c] CAPTURED THE BAG!</string>
+  <string name="ctb_game_mode_countdown_status">Match Starting In [c=255,194,14,255]%i[/c] ...</string>
+  <string name="ctb_game_mode_bag_respawn_timer">Bag Spawning In [c=255,194,14,255]%i[/c] ...</string>
+  <string name="ctb_game_mode_bag_retrieve_status">[c=%i,%i,%i,255]%s[/c] Has The Bag!</string>
+  <string name="ctb_game_mode_bag_carry_status">Kill The Bag Carrier!</string>
+  <string name="ctb_game_mode_bag_carry_team_status">Protect The Bag Carrier!</string>
+  <string name="ctb_game_mode_bag_capture_status">Capture The Bag!</string>
+
+  <string name="pvp_game_mode_waiting_for_players">Waiting For Players ...</string>
+
+  <string name="item_rarity_common">[c=79,198,120]%s[/c]</string>
+  <string name="item_rarity_uncommon">[c=136,136,255]%s[/c]</string>
+  <string name="item_rarity_rare">[c=174,28,28]%s[/c]</string>
+  <string name="item_rarity_ultra_rare">[c=255,255,23]%s[/c]</string>
+  <string name="item_rarity_legendary">[c=175,96,225]%s[/c]</string>
+
+  <string name="item_unlimited_prefix">Unlimited %s</string>
+  <string name="item_indestructable_prefix">Indestructable %s</string>
+  <string name="item_fragile_prefix">Fragile %s</string>
+
+  <string name="item_single_use_postfix">%s Single use only.</string>
+  <string name="item_unlimited_use_postfix">%s Unlimited uses.</string>
+  
+  <string name="item_drink_name">Drink</string>
+  <string name="item_armor_name">Armor</string>
+  <string name="item_medipack_name">Medipack</string>
+  <string name="item_nachos_name">Nachos</string>
+  <string name="item_pill_name">Pill</string>
+  <string name="item_pill_container_name">Pill Container</string>
+  <string name="item_ammo_name">Ammo</string>
+
+
+
+
+  <string name="item_rocket_launcher_2_name">Turbo Launcher</string>
+  <string name="item_rocket_launcher_2_description">Spam your enemy with puny rockets.</string>
+  <string name="item_rocket_launcher_2_category">Items</string>
+
+  <string name="item_rocket_launcher_3_name">Annihilation Launcher</string>
+  <string name="item_rocket_launcher_3_description">Ultra powerful, but ultra slow! Annihilates all.</string>
+  <string name="item_rocket_launcher_3_category">Items</string>
+
+  <string name="item_sword_name">Expert Sword</string>
+  <string name="item_sword_description">Expertly wielded sword. You could almost say you\'re a master of it.</string>
+  <string name="item_sword_category">Items</string>
+
+  <string name="item_frag_name">Frag Grenade</string>
+  <string name="item_frag_description">After pulling pin, remember to throw.</string>
+  <string name="item_frag_category">Items</string>
+
+  <string name="item_molotov_name">Molotov</string>
+  <string name="item_molotov_description">Try to avoid self-immolation.</string>
+  <string name="item_molotov_category">Items</string>
+
+
+
+
+  <string name="item_bison_cap_name">Bison Gold</string>
+  <string name="item_bison_cap_description">Gold? YESSSS! YESSSS!</string>
+  <string name="item_bison_cap_category">Hats</string>
+  <string name="item_top_hat_name">Top Hat</string>
+  <string name="item_top_hat_description">Open a can of high class!</string>
+  <string name="item_top_hat_category">Hats</string>
+  <string name="item_headset_name">Headset</string>
+  <string name="item_headset_description">Bumpin\' choons!</string>
+  <string name="item_headset_category">Accessories</string>
+  <string name="item_halo_name">Developer Halo</string>
+  <string name="item_halo_description">Rule with an iron fist!</string>
+  <string name="item_halo_category">Accessories</string>
+  <string name="item_pompador_name">Modest puff</string>
+  <string name="item_pompador_description">Some call it the half-fro!</string>
+  <string name="item_pompador_category">Hats</string>
+  <string name="item_player1hair_name">Jordan\'s Head</string>
+  <string name="item_player1hair_description">Always play as Jordan!</string>
+  <string name="item_player1hair_category">Hats</string>
+  <string name="item_player2hair_name">Delko\'s Head</string>
+  <string name="item_player2hair_description">Always play as Delko!</string>
+  <string name="item_player2hair_category">Hats</string>
+  <string name="item_player3hair_name">Travis\'s Head</string>
+  <string name="item_player3hair_description">Always play as Travis!</string>
+  <string name="item_player3hair_category">Hats</string>
+  <string name="item_player4hair_name">Tim\'s Head</string>
+  <string name="item_player4hair_description">Always play as Tim!</string>
+  <string name="item_player4hair_category">Hats</string>
+  <string name="item_gatsby_name">Gatsby</string>
+  <string name="item_gatsby_description">Undeniably stylish!</string>
+  <string name="item_gatsby_category">Hats</string>
+  <string name="item_turbo_boy_name">Turbo Boy</string>
+  <string name="item_turbo_boy_description">Arm cannon not included.</string>
+  <string name="item_turbo_boy_category">Hats</string>
+  <string name="item_cheer_bringer_name">Cheer Bringer</string>
+  <string name="item_cheer_bringer_description">Make a list; Check it twice.</string>
+  <string name="item_cheer_bringer_category">Hats</string>
+  <string name="item_louisiana_jones_name">Louisiana Jones</string>
+  <string name="item_louisiana_jones_description">Here comes Launchman!</string>
+  <string name="item_louisiana_jones_category">Hats</string>
+  <string name="item_antlers_name">Antlers</string>
+  <string name="item_antlers_description">Ho ho HO, these are tacky!</string>
+  <string name="item_antlers_category">Accessories</string>
+  <string name="item_ghetto_superstar_name">Ghetto Superstar</string>
+  <string name="item_ghetto_superstar_description">You\'re definitely in your zone.</string>
+  <string name="item_ghetto_superstar_category">Accessories</string>
+  <string name="item_bow_name">Bow</string>
+  <string name="item_bow_description">Never too cute to kill zombies!</string>
+  <string name="item_bow_category">Accessories</string>
+  <string name="item_glasses_name">Glasses</string>
+  <string name="item_glasses_description">Improves accuracy, probably...</string>
+  <string name="item_glasses_category">Accessories</string>
+  <string name="item_beanie_1_name">Beanie Type 1</string>
+  <string name="item_beanie_1_description">Hip beanie!</string>
+  <string name="item_beanie_1_category">Hats</string>
+  <string name="item_beanie_2_name">Beanie Type 2</string>
+  <string name="item_beanie_2_description">Cute beanie!</string>
+  <string name="item_beanie_2_category">Hats</string>
+  <string name="item_little_sis_name">Little Sis</string>
+  <string name="item_little_sis_description">I don\'t have anything funny to say...</string>
+  <string name="item_little_sis_category">Hats</string>
+  <string name="item_scruffy_sidekick_name">Scruffy Sidekick</string>
+  <string name="item_scruffy_sidekick_description">One day you\'ll be in the limelight!</string>
+  <string name="item_scruffy_sidekick_category">Hats</string>
+  <string name="item_pillager_name">Pillager</string>
+  <string name="item_pillager_description">One of a kind! (I think...)</string>
+  <string name="item_pillager_category">Hats</string>
+  <string name="item_desgardes_name">Des Kap</string>
+  <string name="item_desgardes_description">A David Kaplan original!</string>
+  <string name="item_desgardes_category">Hats</string>
+  <string name="item_golfers_delight_name">Golfer\'s Delight</string>
+  <string name="item_golfers_delight_description">Worth it\'s weight in bells!</string>
+  <string name="item_golfers_delight_category">Hats</string>
+  <string name="item_scouter_name">Scouter</string>
+  <string name="item_scouter_description">No longer able to read power levels...</string>
+  <string name="item_scouter_category">Accessories</string>
+  <string name="item_gi_joe_name">G.I. Shmoe</string>
+  <string name="item_gi_joe_description">Zombies won\'t be getting YOUR brains!</string>
+  <string name="item_gi_joe_category">Hats</string>
+  <string name="item_bsod_name">Bug Smash Of Doom</string>
+  <string name="item_bsod_description">Error occured in hat.exe.</string>
+  <string name="item_bsod_category">Hats</string>
+  <string name="item_boxbot_name">Robox</string>
+  <string name="item_boxbot_description">Smells kind of funny...</string>
+  <string name="item_boxbot_category">Hats</string>
+  <string name="item_pigtails_name">Pigtails</string>
+  <string name="item_pigtails_description">The shorter, the better!</string>
+  <string name="item_pigtails_category">Hats</string>
+  <string name="item_poniteru_name">Poofy Ponytail</string>
+  <string name="item_poniteru_description">Don\'t forget to condition!</string>
+  <string name="item_poniteru_category">Hats</string>
+  <string name="item_twintails_name">Twintails</string>
+  <string name="item_twintails_description">Two tails are more than one!</string>
+  <string name="item_twintails_category">Hats</string>
+  <string name="item_twindrills_name">Twin Drills</string>
+  <string name="item_twindrills_description">Pierce the heavens!!</string>
+  <string name="item_twindrills_category">Hats</string>
+  <string name="item_bison_cap_2_name">Bison Silver</string>
+  <string name="item_bison_cap_2_description">Silver? Meh.</string>
+  <string name="item_bison_cap_2_category">Hats</string>
+  <string name="item_bison_cap_3_name">Bison Bronze</string>
+  <string name="item_bison_cap_3_description">Bronze? NOOOO! NOOOO!</string>
+  <string name="item_bison_cap_3_category">Hats</string>
+  <string name="item_ami_name">Idol 1</string>
+  <string name="item_ami_description">Dress to the left?</string>
+  <string name="item_ami_category">Hats</string>
+  <string name="item_mami_name">Idol 2</string>
+  <string name="item_mami_description">Dress to the right?</string>
+  <string name="item_mami_category">Hats</string>
+  <string name="item_nekomimi_name">Cat Ears</string>
+  <string name="item_nekomimi_description">Raise a fist to your cheek and say MEOW</string>
+  <string name="item_nekomimi_category">Accessories</string>
+  <string name="item_aviators_name">Aviators</string>
+  <string name="item_aviators_description">Demand respect, with ATTITUDE!</string>
+  <string name="item_aviators_category">Accessories</string>
+  <string name="item_shades_name">Shades</string>
+  <string name="item_shades_description">Deal with it...</string>
+  <string name="item_shades_category">Accessories</string>
+  <string name="item_ball_cap_name">Ball Cap</string>
+  <string name="item_ball_cap_description">The team sucks, but it\'s autographed!</string>
+  <string name="item_ball_cap_category">Hats</string>
+  <string name="item_dantz_name">Dantz</string>
+  <string name="item_dantz_description">The original player #4!</string>
+  <string name="item_dantz_category">Hats</string>
+  <string name="item_flat_top_name">Flat Top</string>
+  <string name="item_flat_top_description">You could balance a drink on that dome!</string>
+  <string name="item_flat_top_category">Hats</string>
+  <string name="item_fred_head_name">Fred Head</string>
+  <string name="item_fred_head_description">10% Freddier than Bed Head!</string>
+  <string name="item_fred_head_category">Hats</string>
+  <string name="item_trucker_name">Trucker</string>
+  <string name="item_trucker_description">Hide that ridiculous hair in style!</string>
+  <string name="item_trucker_category">Hats</string>
+  <string name="item_heroic_hood_name">Heroic Hood</string>
+  <string name="item_heroic_hood_description">Hero of Time - Zombie Slaying Time!</string>
+  <string name="item_heroic_hood_category">Hats</string>
+  <string name="item_desura_name">Dapper Chapeau</string>
+  <string name="item_desura_description">Thanks for your support during our Desura campaign!</string>
+  <string name="item_desura_category">Hats</string>
+  <string name="item_masterson_name">Sgt. Masterson</string>
+  <string name="item_masterson_description">Less QQ. More pew pew.</string>
+  <string name="item_masterson_category">Hats</string>
+  <string name="item_shizue_name">Perky Ponytail</string>
+  <string name="item_shizue_description">Dress it up!</string>
+  <string name="item_shizue_category">Hats</string>
+  <string name="item_thugpomp_name">Thuggish Pompador</string>
+  <string name="item_thugpomp_description">Gimme your lunch money, nerd!</string>
+  <string name="item_thugpomp_category">Hats</string>
+  <string name="item_pumpkin_name">Pumpkin!</string>
+  <string name="item_pumpkin_description">Obscures your vision...</string>
+  <string name="item_pumpkin_category">Hats</string>
+  <string name="item_skull_name">Skull!</string>
+  <string name="item_skull_description">Scare your pals! BOO!!</string>
+  <string name="item_skull_category">Hats</string>
+  <string name="item_doppleganger_name">Zombie mask</string>
+  <string name="item_doppleganger_description">Gets sweaty inside after a while... gross...</string>
+  <string name="item_doppleganger_category">Hats</string>
+  <string name="item_yayoi_name">Idol #3</string>
+  <string name="item_yayoi_description">Kicked out of the group after their debut.</string>
+  <string name="item_yayoi_category">Hats</string>
+  <string name="item_presento_name">Present!</string>
+  <string name="item_presento_description">Surprise! *confetti*</string>
+  <string name="item_presento_category">Hats</string>
+  <string name="item_steve_name">Bob</string>
+  <string name="item_steve_description">Look what we dug up!</string>
+  <string name="item_steve_category">Hats</string>
+  <string name="item_gameboy_name">Retrospecs</string>
+  <string name="item_gameboy_description">4 AA batteries not included. Has unique post-processing effect.</string>
+  <string name="item_gameboy_category">Accessories</string>
+  <string name="item_deus_ex_name">Augmented Shades</string>
+  <string name="item_deus_ex_description">Unatco Standard Issue. Has unique post-processing effect.</string>
+  <string name="item_deus_ex_category">Accessories</string>
+  <string name="item_scattergun_name">Scatter Gun</string>
+  <string name="item_scattergun_description">Nerf plz.</string>
+  <string name="item_scattergun_category">Items</string>
+  <string name="item_uzi_name">Uzi</string>
+  <string name="item_uzi_description">+45 ratta-tat-tats!</string>
+  <string name="item_uzi_category">Items</string>
+
+  <string name="item_barricade_name">Barricade</string>
+  <string name="item_barricade_description">Helpful barricade to cower behind!</string>
+  <string name="item_barricade_category">Items</string>
+
+  <string name="item_turret_name">Turret</string>
+  <string name="item_turret_description">Bullets come out the slim end!</string>
+  <string name="item_turret_category">Items</string>
+  <string name="item_tripmine_name">Tripmine</string>
+  <string name="item_tripmine_description">Won\'t literally trip enemies.</string>
+  <string name="item_tripmine_category">Items</string>
+  <string name="item_shotgun_name">Shotgun</string>
+  <string name="item_shotgun_description">Standard issue!</string>
+  <string name="item_shotgun_category">Items</string>
+  <string name="item_rpc_name">Rocket Propelled Chainsaw</string>
+  <string name="item_rpc_description">Where does it keep all those chainsaws?</string>
+  <string name="item_rpc_category">Items</string>
+  <string name="item_rocket_launcher_name">Rocket Launcher</string>
+  <string name="item_rocket_launcher_description">Failed attempt at a rocket lawnchair...</string>
+  <string name="item_rocket_launcher_category">Items</string>
+  <string name="item_magnum_name">Magnum</string>
+  <string name="item_magnum_description">Signed by Clint Westwood!</string>
+  <string name="item_magnum_category">Items</string>
+  <string name="item_grenade_launcher_name">Grenade Launcher</string>
+  <string name="item_grenade_launcher_description">Could also be used to launch t-shirts!</string>
+  <string name="item_grenade_launcher_category">Items</string>
+  <string name="item_freeze_ray_name">Freeze Ray</string>
+  <string name="item_freeze_ray_description">Straight out of the worst FPS ever!</string>
+  <string name="item_freeze_ray_category">Items</string>
+  <string name="item_flamethrower_name">Flamethrower</string>
+  <string name="item_flamethrower_description">Built from everyday household items!</string>
+  <string name="item_flamethrower_category">Items</string>
+  <string name="item_double_barrel_shotgun_name">Double Barrel Shotgun</string>
+  <string name="item_double_barrel_shotgun_description">S-Mart\'s top of the line!</string>
+  <string name="item_double_barrel_shotgun_category">Items</string>
+  <string name="item_sticky_launcher_name">Sticky Launcher</string>
+  <string name="item_sticky_launcher_description">Do not point directly at face.</string>
+  <string name="item_sticky_launcher_category">Items</string>
+  <string name="item_baseball_bat_name">Baseball Bat</string>
+  <string name="item_baseball_bat_description">Starting Weapon</string>
+  <string name="item_baseball_bat_category">Items</string>
+  <string name="item_love_cannon_name">Love Cannon</string>
+  <string name="item_love_cannon_description">Save the world with LOVE!</string>
+  <string name="item_love_cannon_category">Items</string>
+  <string name="item_laser_cannon_name">Laser Cannon</string>
+  <string name="item_laser_cannon_description">Charge up and blast on a wanna-be!</string>
+  <string name="item_laser_cannon_category">Items</string>
+  <string name="item_flare_gun_name">Flare Gun</string>
+  <string name="item_flare_gun_description">Good for signaling help, or burning things!</string>
+  <string name="item_flare_gun_category">Items</string>
+  <string name="item_spaz_name">Spaz</string>
+  <string name="item_spaz_description">The most requested gun EVER.</string>
+  <string name="item_spaz_category">Items</string>
+  <string name="item_fire_turret_name">Fire Turret</string>
+  <string name="item_fire_turret_description">Let\'s get DANGEROUS!</string>
+  <string name="item_fire_turret_category">Items</string>
+  <string name="item_freeze_turret_name">Freeze Turret</string>
+  <string name="item_freeze_turret_description">Let\'s get DANGEROUS!</string>
+  <string name="item_freeze_turret_category">Items</string>
+  <string name="item_rocket_turret_name">Rocket Turret</string>
+  <string name="item_rocket_turret_description">Runs on hopes, and dreams!</string>
+  <string name="item_rocket_turret_category">Items</string>
+  <string name="item_love_thrower_name">Love Thrower</string>
+  <string name="item_love_thrower_description">Ignite friends with the power of love!</string>
+  <string name="item_love_thrower_category">Items</string>
+  <string name="item_winchester_rifle_name">Winchester Rifle</string>
+  <string name="item_winchester_rifle_description">Winchester for the win!</string>
+  <string name="item_winchester_rifle_category">Items</string>
+  <string name="item_acid_gun_name">Acid Gun</string>
+  <string name="item_acid_gun_description">It\'s about damn time!</string>
+  <string name="item_acid_gun_category">Items</string>
+  <string name="item_buff_grenade_health_name">Buff Grenade - Health</string>
+  <string name="item_buff_grenade_health_description">Give all players within an area a health buff.</string>
+  <string name="item_buff_grenade_health_category">Items</string>
+  <string name="item_buff_grenade_ammo_name">Buff Grenade - Ammo</string>
+  <string name="item_buff_grenade_ammo_description">Give all players within an area an ammo buff.</string>
+  <string name="item_buff_grenade_ammo_category">Items</string>
+  <string name="item_buff_grenade_damage_name">Buff Grenade - Damage</string>
+  <string name="item_buff_grenade_damage_description">Give all players within an area a damage buff.</string>
+  <string name="item_buff_grenade_damage_category">Items</string>
+  <string name="item_buff_grenade_price_name">Buff Grenade - Price</string>
+  <string name="item_buff_grenade_price_description">Give all players within an area a price buff.</string>
+  <string name="item_buff_grenade_price_category">Items</string>
+  <string name="item_buff_grenade_reload_name">Buff Grenade - Reload Speed</string>
+  <string name="item_buff_grenade_reload_description">Give all players within an area a reload speed buff.</string>
+  <string name="item_buff_grenade_reload_category">Items</string>
+  <string name="item_buff_grenade_rof_name">Buff Grenade - Rate of Fire</string>
+  <string name="item_buff_grenade_rof_description">Give all players within an area a rate of fire buff.</string>
+  <string name="item_buff_grenade_rof_category">Items</string>
+  <string name="item_buff_grenade_speed_name">Buff Grenade - Speed</string>
+  <string name="item_buff_grenade_speed_description">Give all players within an area a speed buff.</string>
+  <string name="item_buff_grenade_speed_category">Items</string>
+  <string name="item_buff_grenade_xp_name">Buff Grenade - XP</string>
+  <string name="item_buff_grenade_xp_description">Give all players within an area an xp buff.</string>
+  <string name="item_buff_grenade_xp_category">Items</string>
+  <string name="item_developer_pistol_name">Developer Pistol</string>
+  <string name="item_developer_pistol_description">Well this is just cheating ...</string>
+  <string name="item_developer_pistol_category">Items</string>
+  <string name="item_fight_saber_name">Fight Saber</string>
+  <string name="item_fight_saber_description">Not suitable for children under 3.</string>
+  <string name="item_fight_saber_category">Items</string>
+  <string name="item_bolt_gun_name">Bolt Gun</string>
+  <string name="item_bolt_gun_description">Tazer on steroids. What more could you want?</string>
+  <string name="item_bolt_gun_category">Items</string>
+  <string name="item_shock_rifle_name">Shock Rifle</string>
+  <string name="item_shock_rifle_description">Gotta zap em all!</string>
+  <string name="item_shock_rifle_category">Items</string>
+  <string name="item_ak47_name">AK47</string>
+  <string name="item_ak47_description">Signed by NateToaster!</string>
+  <string name="item_ak47_category">Items</string>
+  <string name="item_assault_rifle_name">Assault Rifle</string>
+  <string name="item_assault_rifle_description">*Insert amusing anecdote here*</string>
+  <string name="item_assault_rifle_category">Items</string>
+  <string name="item_pistol_name">Pistol</string>
+  <string name="item_pistol_description">Standard sidearm!</string>
+  <string name="item_pistol_category">Items</string>
+  <string name="item_explosive_ammo_name">Explosive Ammo</string>
+  <string name="item_explosive_ammo_description">Turns ordinary bullets into pure explosive pain.</string>
+  <string name="item_explosive_ammo_category">Items</string>
+  <string name="item_incendiary_ammo_name">Incendiary Ammo</string>
+  <string name="item_incendiary_ammo_description">Who dosen\'t want bullets that burn!?</string>
+  <string name="item_incendiary_ammo_category">Items</string>
+  <string name="item_freeze_ammo_name">Freeze Ammo</string>
+  <string name="item_freeze_ammo_description">Bullets that freeze zombies? How does that work!?</string>
+  <string name="item_freeze_ammo_category">Items</string>
+  <string name="item_armour_name">Armour</string>
+  <string name="item_armour_description">Next best thing to a Bear for protection.</string>
+  <string name="item_armour_category">Accessories</string>
+  <string name="item_1000_coins_name">Starting Coins x 1000</string>
+  <string name="item_1000_coins_description">Allows you to bring 1000 of your coins (from you wallet) into a game at the start of a match.</string>
+  <string name="item_1000_coins_category">Accessories</string>
+  <string name="item_10000_coins_name">Starting Coins x 10000</string>
+  <string name="item_10000_coins_description">Allows you to bring 10000 of your coins (from you wallet) into a game at the start of a match.</string>
+  <string name="item_10000_coins_category">Accessories</string>
+  <string name="item_2500_coins_name">Starting Coins x 2500</string>
+  <string name="item_2500_coins_description">Allows you to bring 2500 of your (from you wallet) coins into a game at the start of a match.</string>
+  <string name="item_2500_coins_category">Accessories</string>
+  <string name="item_confetti_ammo_name">Confetti Ammo</string>
+  <string name="item_confetti_ammo_description">Faaaaaaabulous</string>
+  <string name="item_confetti_ammo_category">Items</string>
+
+  <string name="item_custom_paint_name">Custom Paint</string> 
+  <string name="item_custom_paint_description">Changes the colour of an item to a user-defined color!</string>
+  <string name="item_custom_paint_category">Paints</string>
+  <string name="item_goldish_yellow_name">Goldish Yellow</string>
+  <string name="item_goldish_yellow_description">Changes the colour of an item!</string>
+  <string name="item_goldish_yellow_category">Paints</string>
+
+  <string name="item_reddish_rum_paint_name">Reddish Rum</string>
+  <string name="item_reddish_rum_paint_description">Changes the colour of an item!</string>
+  <string name="item_reddish_rum_paint_category">Paints</string>
+  <string name="item_truish_blue_paint_name">Truish Blue</string>
+  <string name="item_truish_blue_paint_description">Changes the colour of an item!</string>
+  <string name="item_truish_blue_paint_category">Paints</string>
+  <string name="item_greenish_green_paint_name">Greenish Green</string>
+  <string name="item_greenish_green_paint_description">Changes the colour of an item!</string>
+  <string name="item_greenish_green_paint_category">Paints</string>
+  <string name="item_cutesy_pink_name">Cutesy Pink</string>
+  <string name="item_cutesy_pink_description">Changes the colour of an item!</string>
+  <string name="item_cutesy_pink_category">Paints</string>
+  <string name="item_lavenderp_name">Lavenderp</string>
+  <string name="item_lavenderp_description">Changes the colour of an item!</string>
+  <string name="item_lavenderp_category">Paints</string>
+  <string name="item_ultra_violet_name">Ultra Violet</string>
+  <string name="item_ultra_violet_description">Changes the colour of an item!</string>
+  <string name="item_ultra_violet_category">Paints</string>
+  <string name="item_off_black_name">Off-Black</string>
+  <string name="item_off_black_description">Changes the colour of an item!</string>
+  <string name="item_off_black_category">Paints</string>
+  <string name="item_yellowish_red_name">Yellowish Red</string>
+  <string name="item_yellowish_red_description">Changes the colour of an item!</string>
+  <string name="item_yellowish_red_category">Paints</string>
+  <string name="item_burnt_orange_name">Burnt Orange</string>
+  <string name="item_burnt_orange_description">Changes the colour of an item!</string>
+  <string name="item_burnt_orange_category">Paints</string>
+  <string name="item_cbin_brown_name">CBIN Brown</string>
+  <string name="item_cbin_brown_description">Changes the colour of an item!</string>
+  <string name="item_cbin_brown_category">Paints</string>
+  <string name="item_salmon_suplex_name">Salmon Suplex</string>
+  <string name="item_salmon_suplex_description">Changes the colour of an item!</string>
+  <string name="item_salmon_suplex_category">Paints</string>
+  <string name="item_too_lime_name">Too Lime</string>
+  <string name="item_too_lime_description">Changes the colour of an item!</string>
+  <string name="item_too_lime_category">Paints</string>
+  <string name="item_super_light_grey_name">Super Light Grey</string>
+  <string name="item_super_light_grey_description">Changes the colour of an item!</string>
+  <string name="item_super_light_grey_category">Paints</string>
+  <string name="item_grey_name">Grey</string>
+  <string name="item_grey_description">Changes the colour of an item!</string>
+  <string name="item_grey_category">Paints</string>
+  <string name="item_dark_grey_name">Dark Grey</string>
+  <string name="item_dark_grey_description">Changes the colour of an item!</string>
+  <string name="item_dark_grey_category">Paints</string>
+  <string name="item_turbo_grey_name">Turbo Grey</string>
+  <string name="item_turbo_grey_description">Changes the colour of an item!</string>
+  <string name="item_turbo_grey_category">Paints</string>
+  <string name="item_cream_gravy_name">Cream Gravy</string>
+  <string name="item_cream_gravy_description">Changes the colour of an item!</string>
+  <string name="item_cream_gravy_category">Paints</string>
+  <string name="item_lukewarm_pink_name">Lukewarm Pink</string>
+  <string name="item_lukewarm_pink_description">Changes the colour of an item!</string>
+  <string name="item_lukewarm_pink_category">Paints</string>
+  <string name="item_demin_dan_name">Denim Dan</string>
+  <string name="item_demin_dan_description">Changes the colour of an item!</string>
+  <string name="item_demin_dan_category">Paints</string>
+  <string name="item_chocolate_name">Choco Choco!</string>
+  <string name="item_chocolate_description">Changes the colour of an item!</string>
+  <string name="item_chocolate_category">Paints</string>
+  <string name="item_highway_to_pastel_name">Highway To Pastel</string>
+  <string name="item_highway_to_pastel_description">Changes the colour of an item!</string>
+  <string name="item_highway_to_pastel_category">Paints</string>
+  <string name="item_team_player_name">Team Player</string>
+  <string name="item_team_player_description">Changes the colour of an item!</string>
+  <string name="item_team_player_category">Paints</string>
+  <string name="item_garrison_glum_name">Garrison Glum</string>
+  <string name="item_garrison_glum_description">Changes the colour of an item!</string>
+  <string name="item_garrison_glum_category">Paints</string>
+  <string name="item_fps_brown_name">FPS Brown</string>
+  <string name="item_fps_brown_description">Changes the colour of an item!</string>
+  <string name="item_fps_brown_category">Paints</string>
+  <string name="item_tealicious_name">Tealicious!</string>
+  <string name="item_tealicious_description">Changes the colour of an item!</string>
+  <string name="item_tealicious_category">Paints</string>
+  <string name="item_sea_of_green_name">Sea of Green</string>
+  <string name="item_sea_of_green_description">Changes the colour of an item!</string>
+  <string name="item_sea_of_green_category">Paints</string>
+  <string name="item_eggplant_name">Eggplant</string>
+  <string name="item_eggplant_description">Changes the colour of an item!</string>
+  <string name="item_eggplant_category">Paints</string>
+  <string name="item_simply_black_name">Simply Black</string>
+  <string name="item_simply_black_description">Changes the colour of an item!</string>
+  <string name="item_simply_black_category">Paints</string>
+  <string name="item_spray_tan_name">Spray Tan</string>
+  <string name="item_spray_tan_description">Changes the colour of an item!</string>
+  <string name="item_spray_tan_category">Paints</string>
+  <string name="item_pine_name">Pine</string>
+  <string name="item_pine_description">Changes the colour of an item!</string>
+  <string name="item_pine_category">Paints</string>
+  <string name="item_mint_name">"Mint &amp; Chit "</string>
+  <string name="item_mint_description">Changes the colour of an item!</string>
+  <string name="item_mint_category">Paints</string>
+  <string name="item_plum_name">Forgotten Plum</string>
+  <string name="item_plum_description">Changes the colour of an item!</string>
+  <string name="item_plum_category">Paints</string>
+  <string name="item_smooth_criminal_name">Smooth Criminal</string>
+  <string name="item_smooth_criminal_description">Changes the colour of an item!</string>
+  <string name="item_smooth_criminal_category">Paints</string>
+  <string name="item_sawdust_name">Sawdust</string>
+  <string name="item_sawdust_description">Changes the colour of an item!</string>
+  <string name="item_sawdust_category">Paints</string>
+  <string name="item_just_gray_name">Just Gray...</string>
+  <string name="item_just_gray_description">Changes the colour of an item!</string>
+  <string name="item_just_gray_category">Paints</string>
+  <string name="item_bubblegum_name">Bubble Gum Pink</string>
+  <string name="item_bubblegum_description">Changes the colour of an item!</string>
+  <string name="item_bubblegum_category">Paints</string>
+  <string name="item_so_white_name">SO WHITE!</string>
+  <string name="item_so_white_description">Changes the colour of an item!</string>
+  <string name="item_so_white_category">Paints</string>
+  <string name="item_chocolate2_name">Hot Cocoa</string>
+  <string name="item_chocolate2_description">Changes the colour of an item!</string>
+  <string name="item_chocolate2_category">Paints</string>
+  <string name="item_lemony_name">Lemony Yellow</string>
+  <string name="item_lemony_description">Changes the colour of an item!</string>
+  <string name="item_lemony_category">Paints</string>
+  <string name="item_limey_name">Ecto Cooler</string>
+  <string name="item_limey_description">Changes the colour of an item!</string>
+  <string name="item_limey_category">Paints</string>
+  <string name="item_mauvelous_name">Mauvelous!</string>
+  <string name="item_mauvelous_description">Changes the colour of an item!</string>
+  <string name="item_mauvelous_category">Paints</string>
+  <string name="item_porridge_name">Cake Batter</string>
+  <string name="item_porridge_description">Changes the colour of an item!</string>
+  <string name="item_porridge_category">Paints</string>
+  <string name="item_salmon_name">Tear of Salmon</string>
+  <string name="item_salmon_description">Changes the colour of an item!</string>
+  <string name="item_salmon_category">Paints</string>
+  <string name="item_beardy_name">Captain Brownbeard</string>
+  <string name="item_beardy_description">Changes the colour of an item!</string>
+  <string name="item_beardy_category">Paints</string>
+  <string name="item_tappenade_name">Olive Tapenade</string>
+  <string name="item_tappenade_description">Changes the colour of an item!</string>
+  <string name="item_tappenade_category">Paints</string>
+  <string name="item_dosh_name">DOSH</string>
+  <string name="item_dosh_description">Changes the colour of an item!</string>
+  <string name="item_dosh_category">Paints</string>
+  <string name="item_green_gem_1_name">Crappy Emerald</string>
+  <string name="item_green_gem_1_description">Allows the use of certain active skills.\n\nCombining with another Crappy Emerald increases its potency!</string>
+  <string name="item_green_gem_1_category">Gems</string>
+  <string name="item_green_gem_2_name">Decent Emerald</string>
+  <string name="item_green_gem_2_description">Allows the use of certain active skills.\n\nCombining with another Decent Emerald increases its potency!</string>
+  <string name="item_green_gem_2_category">Gems</string>
+  <string name="item_green_gem_3_name">Neat Emerald</string>
+  <string name="item_green_gem_3_description">Allows the use of certain active skills.\n\nCombining with another Neat Emerald increases its potency!</string>
+  <string name="item_green_gem_3_category">Gems</string>
+  <string name="item_green_gem_4_name">Sweet Emerald</string>
+  <string name="item_green_gem_4_description">Allows the use of certain active skills.\n\nCombining with another Sweet Emerald increases its potency!</string>
+  <string name="item_green_gem_4_category">Gems</string>
+  <string name="item_green_gem_5_name">Legit Emerald</string>
+  <string name="item_green_gem_5_description">Allows the use of certain active skills.</string>
+  <string name="item_green_gem_5_category">Gems</string>
+  <string name="item_purple_gem_1_name">Crappy Amethyst</string>
+  <string name="item_purple_gem_1_description">Allows the use of certain active skills.\n\nCombining with another Crappy Amethyst increases its potency!</string>
+  <string name="item_purple_gem_1_category">Gems</string>
+  <string name="item_purple_gem_2_name">Decent Amethyst</string>
+  <string name="item_purple_gem_2_description">Allows the use of certain active skills.\n\nCombining with another Decent Amethyst increases its potency!</string>
+  <string name="item_purple_gem_2_category">Gems</string>
+  <string name="item_purple_gem_3_name">Neat Amethyst</string>
+  <string name="item_purple_gem_3_description">Allows the use of certain active skills.\n\nCombining with another Neat Amethyst increases its potency!</string>
+  <string name="item_purple_gem_3_category">Gems</string>
+  <string name="item_purple_gem_4_name">Sweet Amethyst</string>
+  <string name="item_purple_gem_4_description">Allows the use of certain active skills.\n\nCombining with another Sweet Amethyst increases its potency!</string>
+  <string name="item_purple_gem_4_category">Gems</string>
+  <string name="item_purple_gem_5_name">Legit Amethyst</string>
+  <string name="item_purple_gem_5_description">Allows the use of certain active skills.</string>
+  <string name="item_purple_gem_5_category">Gems</string>
+  <string name="item_red_gem_1_name">Crappy Ruby</string>
+  <string name="item_red_gem_1_description">Allows the use of certain active skills.\n\nCombining with another Crappy Ruby increases its potency!</string>
+  <string name="item_red_gem_1_category">Gems</string>
+  <string name="item_red_gem_2_name">Decent Ruby</string>
+  <string name="item_red_gem_2_description">Allows the use of certain active skills.\n\nCombining with another Decent Ruby increases its potency!</string>
+  <string name="item_red_gem_2_category">Gems</string>
+  <string name="item_red_gem_3_name">Neat Ruby</string>
+  <string name="item_red_gem_3_description">Allows the use of certain active skills.\n\nCombining with another Neat Ruby increases its potency!</string>
+  <string name="item_red_gem_3_category">Gems</string>
+  <string name="item_red_gem_4_name">Sweet Ruby</string>
+  <string name="item_red_gem_4_description">Allows the use of certain active skills.\n\nCombining with another Sweet Ruby increases its potency!</string>
+  <string name="item_red_gem_4_category">Gems</string>
+  <string name="item_red_gem_5_name">Legit Ruby</string>
+  <string name="item_red_gem_5_description">Allows the use of certain active skills.</string>
+  <string name="item_red_gem_5_category">Gems</string>
+  <string name="item_pink_gem_1_name">Crappy Opal</string>
+  <string name="item_pink_gem_1_description">Allows the use of certain active skills.\n\nCombining with another Crappy Opal increases its potency!</string>
+  <string name="item_pink_gem_1_category">Gems</string>
+  <string name="item_pink_gem_2_name">Decent Opal</string>
+  <string name="item_pink_gem_2_description">Allows the use of certain active skills.\n\nCombining with another Decent Opal increases its potency!</string>
+  <string name="item_pink_gem_2_category">Gems</string>
+  <string name="item_pink_gem_3_name">Neat Opal</string>
+  <string name="item_pink_gem_3_description">Allows the use of certain active skills.\n\nCombining with another Neat Opal increases its potency!</string>
+  <string name="item_pink_gem_3_category">Gems</string>
+  <string name="item_pink_gem_4_name">Sweet Opal</string>
+  <string name="item_pink_gem_4_description">Allows the use of certain active skills.\n\nCombining with another Sweet Opal increases its potency!</string>
+  <string name="item_pink_gem_4_category">Gems</string>
+  <string name="item_pink_gem_5_name">Legit Opal</string>
+  <string name="item_pink_gem_5_description">Allows the use of certain active skills.</string>
+  <string name="item_pink_gem_5_category">Gems</string>
+  <string name="item_yellow_gem_1_name">Crappy Topaz</string>
+  <string name="item_yellow_gem_1_description">Allows the use of certain active skills.\n\nCombining with another Crappy Topaz increases its potency!</string>
+  <string name="item_yellow_gem_1_category">Gems</string>
+  <string name="item_yellow_gem_2_name">Decent Topaz</string>
+  <string name="item_yellow_gem_2_description">Allows the use of certain active skills.\n\nCombining with another Decent Topaz increases its potency!</string>
+  <string name="item_yellow_gem_2_category">Gems</string>
+  <string name="item_yellow_gem_3_name">Neat Topaz</string>
+  <string name="item_yellow_gem_3_description">Allows the use of certain active skills.\n\nCombining with another Neat Topaz increases its potency!</string>
+  <string name="item_yellow_gem_3_category">Gems</string>
+  <string name="item_yellow_gem_4_name">Sweet Topaz</string>
+  <string name="item_yellow_gem_4_description">Allows the use of certain active skills.\n\nCombining with another Sweet Topaz increases its potency!</string>
+  <string name="item_yellow_gem_4_category">Gems</string>
+  <string name="item_yellow_gem_5_name">Legit Topaz</string>
+  <string name="item_yellow_gem_5_description">Allows the use of certain active skills.</string>
+  <string name="item_yellow_gem_5_category">Gems</string>
+  <string name="item_orange_gem_1_name">Crappy Garnet</string>
+  <string name="item_orange_gem_1_description">Allows the use of certain active skills.\n\nCombining with another Crappy Garnet increases its potency!</string>
+  <string name="item_orange_gem_1_category">Gems</string>
+  <string name="item_orange_gem_2_name">Decent Garnet</string>
+  <string name="item_orange_gem_2_description">Allows the use of certain active skills.\n\nCombining with another Decent Garnet increases its potency!</string>
+  <string name="item_orange_gem_2_category">Gems</string>
+  <string name="item_orange_gem_3_name">Neat Garnet</string>
+  <string name="item_orange_gem_3_description">Allows the use of certain active skills.\n\nCombining with another Neat Garnet increases its potency!</string>
+  <string name="item_orange_gem_3_category">Gems</string>
+  <string name="item_orange_gem_4_name">Sweet Garnet</string>
+  <string name="item_orange_gem_4_description">Allows the use of certain active skills.\n\nCombining with another Sweet Garnet increases its potency!</string>
+  <string name="item_orange_gem_4_category">Gems</string>
+  <string name="item_orange_gem_5_name">Legit Garnet</string>
+  <string name="item_orange_gem_5_description">Allows the use of certain active skills.</string>
+  <string name="item_orange_gem_5_category">Gems</string>
+  <string name="item_blue_gem_1_name">Crappy Sapphire</string>
+  <string name="item_blue_gem_1_description">Allows the use of certain active skills.\n\nCombining with another Crappy Sapphire increases its potency!</string>
+  <string name="item_blue_gem_1_category">Gems</string>
+  <string name="item_blue_gem_2_name">Decent Sapphire</string>
+  <string name="item_blue_gem_2_description">Allows the use of certain active skills.\n\nCombining with another Decent Sapphire increases its potency!</string>
+  <string name="item_blue_gem_2_category">Gems</string>
+  <string name="item_blue_gem_3_name">Neat Sapphire</string>
+  <string name="item_blue_gem_3_description">Allows the use of certain active skills.\n\nCombining with another Neat Sapphire increases its potency!</string>
+  <string name="item_blue_gem_3_category">Gems</string>
+  <string name="item_blue_gem_4_name">Sweet Sapphire</string>
+  <string name="item_blue_gem_4_description">Allows the use of certain active skills.\n\nCombining with another Sweet Sapphire increases its potency!</string>
+  <string name="item_blue_gem_4_category">Gems</string>
+  <string name="item_blue_gem_5_name">Legit Sapphire</string>
+  <string name="item_blue_gem_5_description">Allows the use of certain active skills.</string>
+  <string name="item_blue_gem_5_category">Gems</string>
+  <string name="item_aqua_gem_1_name">Crappy Aquamarine</string>
+  <string name="item_aqua_gem_1_description">Allows the use of certain active skills.\n\nCombining with another Crappy Aquamarine increases its potency!</string>
+  <string name="item_aqua_gem_1_category">Gems</string>
+  <string name="item_aqua_gem_2_name">Decent Aquamarine</string>
+  <string name="item_aqua_gem_2_description">Allows the use of certain active skills.\n\nCombining with another Decent Aquamarine increases its potency!</string>
+  <string name="item_aqua_gem_2_category">Gems</string>
+  <string name="item_aqua_gem_3_name">Neat Aquamarine</string>
+  <string name="item_aqua_gem_3_description">Allows the use of certain active skills.\n\nCombining with another Neat Aquamarine increases its potency!</string>
+  <string name="item_aqua_gem_3_category">Gems</string>
+  <string name="item_aqua_gem_4_name">Sweet Aquamarine</string>
+  <string name="item_aqua_gem_4_description">Allows the use of certain active skills.\n\nCombining with another Sweet Aquamarine increases its potency!</string>
+  <string name="item_aqua_gem_4_category">Gems</string>
+  <string name="item_aqua_gem_5_name">Legit Aquamarine</string>
+  <string name="item_aqua_gem_5_description">Allows the use of certain active skills.</string>
+  <string name="item_aqua_gem_5_category">Gems</string>
+  <string name="item_large_donator_name">Large Donator Version</string>
+  <string name="item_large_donator_description">No Splash Screen~nAccess To Premium Servers~nGold Emblem in Scoreboard~nExtra 200,000 in Gold.~nUnique M. Bison Bronze Hat.~nExclusive Laser Canon~nExclusive Flare Gun~nOne of Each Legit-level Gem!</string>
+  <string name="item_large_donator_category">Premium / Donator</string>
+  <string name="item_small_donator_name">Small Donator Version</string>
+  <string name="item_small_donator_description">No Splash Screen~nAccess To Premium Servers~nSilver Emblem in Scoreboard~nExtra 100,000 in Gold.~nUnique M. Bison Bronze Hat.~nExclusive Laser Canon~nExclusive Flare Gun~nOne of Each Sweet-level Gem!</string>
+  <string name="item_small_donator_category">Premium / Donator</string>
+
+  <string name="item_small_coin_grab_bag_name">Small Coin Grab Bag</string>
+  <string name="item_small_coin_grab_bag_description">Get a random amount of coins, between 25000 and 50000.</string>
+  <string name="item_small_coin_grab_bag_category">Extras</string>
+  <string name="item_medium_coin_grab_bag_name">Medium Coin Grab Bag</string>
+  <string name="item_medium_coin_grab_bag_description">Get a random amount of coins, between 50000 and 100000.</string>
+  <string name="item_medium_coin_grab_bag_category">Extras</string>
+  <string name="item_large_coin_grab_bag_name">Large Coin Grab Bag</string>
+  <string name="item_large_coin_grab_bag_description">Get a random amount of coins, between 100000 and 250000.</string>
+  <string name="item_large_coin_grab_bag_category">Extras</string>
+
+  <string name="item_small_gem_grab_bag_name">Small Gem Grab Bag</string>
+  <string name="item_small_gem_grab_bag_description">Get a 3 random gems. Low chance of rare gems.</string>
+  <string name="item_small_gem_grab_bag_category">Extras</string>
+  <string name="item_medium_gem_grab_bag_name">Medium Gem Grab Bag</string>
+  <string name="item_medium_gem_grab_bag_description">Get a 5 random gems. Medium chance of rare gems.</string>
+  <string name="item_medium_gem_grab_bag_category">Extras</string>
+  <string name="item_large_gem_grab_bag_name">Large Gem Grab Bag</string>
+  <string name="item_large_gem_grab_bag_description">Get a 10 random gems. High chance of rare gems.</string>
+  <string name="item_large_gem_grab_bag_category">Extras</string>
+
+  <string name="item_small_xp_grab_bag_name">Small XP Grab Bag</string>
+  <string name="item_small_xp_grab_bag_description">Get a small XP boost equivalent to 50% of a level!</string>
+  <string name="item_small_xp_grab_bag_category">Extras</string>
+  <string name="item_medium_xp_grab_bag_name">Medium XP Grab Bag</string>
+  <string name="item_medium_xp_grab_bag_description">Get a medium XP boost equivalent to 100% of a level!</string>
+  <string name="item_medium_xp_grab_bag_category">Extras</string>
+  <string name="item_large_xp_grab_bag_name">Large XP Grab Bag</string>
+  <string name="item_large_xp_grab_bag_description">Get a large XP boost equivalent to 150% of a level!</string>
+  <string name="item_large_xp_grab_bag_category">Extras</string>
+
+  <string name="skill_root_name">Skill Tree</string>
+  <string name="skill_root_description">Time to lock and load! Get upgrading!</string>
+  <string name="skill_active_skills_name">Active Skills</string>
+  <string name="skill_active_skills_description">Active skills can be equipped by your character and can be activated during games. They use different types of dropped gems as a power source.</string>
+  <string name="skill_infinite_ammo_1_name">Boundless Bullets [Level 1]</string>
+  <string name="skill_infinite_ammo_1_description">You gain infinite ammo for 10 seconds.</string>
+  <string name="skill_infinite_ammo_2_name">Boundless Bullets [Level 2]</string>
+  <string name="skill_infinite_ammo_2_description">You gain infinite ammo for 20 seconds.</string>
+  <string name="skill_group_infinite_ammo_1_name">Group Boundless Bullets [Level 1]</string>
+  <string name="skill_group_infinite_ammo_1_description">Your whole team gains infinite ammo for 10 seconds.</string>
+  <string name="skill_group_infinite_ammo_2_name">Group Boundless Bullets [Level 2]</string>
+  <string name="skill_group_infinite_ammo_2_description">Your whole team gains infinite ammo for 20 seconds.</string>
+  <string name="skill_group_infinite_ammo_3_name">Group Boundless Bullets [Level 3]</string>
+  <string name="skill_group_infinite_ammo_3_description">Your whole team gains infinite ammo for 30 seconds.</string>
+  <string name="skill_infinite_ammo_3_name">Boundless Bullets [Level 3]</string>
+  <string name="skill_infinite_ammo_3_description">You gain infinite ammo for 30 seconds.</string>
+  <string name="skill_infinite_ammo_4_name">Boundless Bullets [Level 4]</string>
+  <string name="skill_infinite_ammo_4_description">You gain infinite ammo for 60 seconds.</string>
+  <string name="skill_god_mode_1_name">Ethereal [Level 1]</string>
+  <string name="skill_god_mode_1_description">You gain god mode for 5 seconds.</string>
+  <string name="skill_god_mode_2_name">Ethereal [Level 2]</string>
+  <string name="skill_god_mode_2_description">You gain god mode for 10 seconds.</string>
+  <string name="skill_group_god_mode_1_name">Group Ethereal [Level 1]</string>
+  <string name="skill_group_god_mode_1_description">Your whole team gains god mode for 5 seconds.</string>
+  <string name="skill_group_god_mode_2_name">Group Ethereal [Level 2]</string>
+  <string name="skill_group_god_mode_2_description">Your whole team gains god mode for 10 seconds.</string>
+  <string name="skill_group_god_mode_3_name">Group Ethereal [Level 3]</string>
+  <string name="skill_group_god_mode_3_description">Your whole team gains god mode for 15 seconds.</string>
+  <string name="skill_infinite_god_mode_3_name">Ethereal [Level 3]</string>
+  <string name="skill_infinite_god_mode_3_description">You gain god mode for 15 seconds.</string>
+  <string name="skill_infinite_god_mode_4_name">Ethereal [Level 4]</string>
+  <string name="skill_infinite_god_mode_4_description">You gain god mode for 30 seconds.</string>
+  <string name="skill_xp_boost_1_name">Timely Training [Level 1]</string>
+  <string name="skill_xp_boost_1_description">You gain 50% increased xp for 30 seconds.</string>
+  <string name="skill_xp_boost_2_name">Timely Training [Level 2]</string>
+  <string name="skill_xp_boost_2_description">You gain 100% increased xp for 60 seconds.</string>
+  <string name="skill_group_xp_boost_1_name">Group Timely Training [Level 1]</string>
+  <string name="skill_group_xp_boost_1_description">Your whole team gains 50% increased xp for 30 seconds.</string>
+  <string name="skill_group_xp_boost_2_name">Group Timely Training [Level 2]</string>
+  <string name="skill_group_xp_boost_2_description">Your whole team gains 150% increased xp for 90 seconds.</string>
+  <string name="skill_group_xp_boost_3_name">Group Timely Training [Level 3]</string>
+  <string name="skill_group_xp_boost_3_description">Your whole team gains 200% increased xp for 120 seconds.</string>
+  <string name="skill_xp_boost_3_name">Timely Training [Level 3]</string>
+  <string name="skill_xp_boost_3_description">You gain 150% increased xp for 90 seconds.</string>
+  <string name="skill_xp_boost_4_name">Timely Training [Level 4]</string>
+  <string name="skill_xp_boost_4_description">You gain 200% increased xp for 120 seconds.</string>
+  <string name="skill_heal_1_name">Rejuvenate [Level 1]</string>
+  <string name="skill_heal_1_description">You fully heal in 8 seconds.</string>
+  <string name="skill_heal_2_name">Rejuvenate [Level 2]</string>
+  <string name="skill_heal_2_description">You fully heal in 5 seconds.</string>
+  <string name="skill_group_heal_1_name">Group Rejuvenate [Level 1]</string>
+  <string name="skill_group_heal_1_description">Your whole team heals in 8 seconds.</string>
+  <string name="skill_group_heal_2_name">Group Rejuvenate [Level 2]</string>
+  <string name="skill_group_heal_2_description">Your whole team heals in 5 seconds.</string>
+  <string name="skill_group_heal_3_name">Group Rejuvenate [Level 3]</string>
+  <string name="skill_group_heal_3_description">Your whole team heals instantly.</string>
+  <string name="skill_heal_3_name">Rejuvenate [Level 3]</string>
+  <string name="skill_heal_3_description">You fully heal in 3 seconds.</string>
+  <string name="skill_heal_4_name">Rejuvenate [Level 4]</string>
+  <string name="skill_heal_4_description">You fully heal instantly.</string>
+  <string name="skill_full_ammo_1_name">Adequate Ammo [Level 1]</string>
+  <string name="skill_full_ammo_1_description">Your ammo refills in 8 seconds.</string>
+  <string name="skill_full_ammo_2_name">Adequate Ammo [Level 2]</string>
+  <string name="skill_full_ammo_2_description">Your ammo refills in 5 seconds.</string>
+  <string name="skill_group_full_ammo_1_name">Group Adequate Ammo [Level 1]</string>
+  <string name="skill_group_full_ammo_1_description">Your whole teams ammo refills in 8 seconds.</string>
+  <string name="skill_group_full_ammo_2_name">Group Adequate Ammo [Level 2]</string>
+  <string name="skill_group_full_ammo_2_description">Your whole teams ammo refills in 5 seconds.</string>
+  <string name="skill_group_full_ammo_3_name">Group Adequate Ammo [Level 3]</string>
+  <string name="skill_group_full_ammo_3_description">Your whole teams ammo refills instantly.</string>
+  <string name="skill_full_ammo_3_name">Adequate Ammo [Level 3]</string>
+  <string name="skill_full_ammo_3_description">Your ammo refills in 3 seconds.</string>
+  <string name="skill_full_ammo_4_name">Adequate Ammo [Level 4]</string>
+  <string name="skill_full_ammo_4_description">Your ammo refills instantly.</string>
+  <string name="skill_bomb_1_name">Annihilation [Level 1]</string>
+  <string name="skill_bomb_1_description">Large explosions are set off in close range.</string>
+  <string name="skill_bomb_2_name">Annihilation [Level 2]</string>
+  <string name="skill_bomb_2_description">Range of enemies killed by bomb is increased by 200%.</string>
+  <string name="skill_incendiary_bomb_1_name">Fiery Annihilation [Level 1]</string>
+  <string name="skill_incendiary_bomb_1_description">All enemies that are not killed are set on fire instantly.</string>
+  <string name="skill_incendiary_bomb_2_name">Fiery Annihilation [Level 2]</string>
+  <string name="skill_incendiary_bomb_2_description">Damage and radius of explosions is increased further to 400%.</string>
+  <string name="skill_freeze_bomb_1_name">Frozen Annihilation [Level 1]</string>
+  <string name="skill_freeze_bomb_1_description">All enemies on screen that are not killed are frozen instantly.</string>
+  <string name="skill_freeze_bomb_2_name">Frozen Annihilation [Level 2]</string>
+  <string name="skill_freeze_bomb_2_description">Damage and radius of explosions is increased further to 400%.</string>
+  <string name="skill_bomb_3_name">Annihilation [Level 3]</string>
+  <string name="skill_bomb_3_description">Damage done by explsions is increased by 200%.</string>
+  <string name="skill_bomb_4_name">Annihilation [Level 4]</string>
+  <string name="skill_bomb_4_description">Damage and radius of explosions is increased further to 400%.</string>
+  <string name="skill_blind_zombies_1_name">Lurker [Level 1]</string>
+  <string name="skill_blind_zombies_1_description">Invisible for 5 seconds, enemies will not attack you.</string>
+  <string name="skill_blind_zombies_2_name">Lurker [Level 2]</string>
+  <string name="skill_blind_zombies_2_description">Invisible for 10 seconds, enemies will not attack you.</string>
+  <string name="skill_group_blind_zombies_1_name">Group Lurker [Level 1]</string>
+  <string name="skill_group_blind_zombies_1_description">Your team is Invisible for 10 seconds, enemies will not attack you or them.</string>
+  <string name="skill_group_blind_zombies_2_name">Group Lurker [Level 2]</string>
+  <string name="skill_group_blind_zombies_2_description">Your team is Invisible for 20 seconds, enemies will not attack you or them.</string>
+  <string name="skill_group_blind_zombies_3_name">Group Lurker [Level 3]</string>
+  <string name="skill_group_blind_zombies_3_description">Your team is Invisible for 30 seconds, enemies will not attack you or them.</string>
+  <string name="skill_blind_zombies_3_name">Lurker [Level 3]</string>
+  <string name="skill_blind_zombies_3_description">Invisible for 20 seconds, enemies will not attack you.</string>
+  <string name="skill_blind_zombies_4_name">Lurker [Level 4]</string>
+  <string name="skill_blind_zombies_4_description">Invisible for 30 seconds, enemies will not attack you.</string>
+  <string name="skill_speed_gunner_1_name">Rapid Restock [Level 1]</string>
+  <string name="skill_speed_gunner_1_description">Your weapons rate of fire and reload speed increases by 20% for 30 seconds.</string>
+  <string name="skill_speed_gunner_2_name">Rapid Restock [Level 2]</string>
+  <string name="skill_speed_gunner_2_description">Your weapons rate of fire and reload speed increases by 50% for 30 seconds.</string>
+  <string name="skill_speed_gunner_3_name">Rapid Restock [Level 3]</string>
+  <string name="skill_speed_gunner_3_description">Your weapons rate of fire and reload speed increases by 70% for 30 seconds.</string>
+  <string name="skill_speed_gunner_4_name">Rapid Restock [Level 4]</string>
+  <string name="skill_speed_gunner_4_description">Your weapons rate of fire and reload speed increases by 100% for 30 seconds.</string>
+  <string name="skill_random_weapon_1_name">Mystery Weapon</string>
+  <string name="skill_random_weapon_1_description">You recieve a random weapon.</string>
+  <string name="skill_random_small_arms_1_name">Mystery Weapon [Small Arms]</string>
+  <string name="skill_random_small_arms_1_description">You recieve a random small arms weapon.</string>
+  <string name="skill_random_rifle_1_name">Mystery Weapon [Shotgun]</string>
+  <string name="skill_random_rifle_1_description">You recieve a random shotgun weapon.</string>
+  <string name="skill_random_heavy_1_name">Mystery Weapon [Heavy]</string>
+  <string name="skill_random_heavy_1_description">You recieve a random heavy weapon.</string>
+  <string name="skill_random_support_1_name">Mystery Weapon [Support]</string>
+  <string name="skill_random_support_1_description">You recieve a random support weapon.</string>
+  <string name="skill_insta_kill_1_name">Prompt Passing [Level 1]</string>
+  <string name="skill_insta_kill_1_description">Your weapons insta-kill enemies for 10 seconds.</string>
+  <string name="skill_insta_kill_2_name">Prompt Passing [Level 2]</string>
+  <string name="skill_insta_kill_2_description">Your weapons insta-kill enemies for 15 seconds.</string>
+  <string name="skill_group_insta_kill_1_name">Group Prompt Passing [Level 1]</string>
+  <string name="skill_group_insta_kill_1_description">Your whole teams weapons insta-kill enemies for 10 seconds.</string>
+  <string name="skill_group_insta_kill_2_name">Group Prompt Passing [Level 2]</string>
+  <string name="skill_group_insta_kill_2_description">Your whole teams weapons insta-kill enemies for 15 seconds.</string>
+  <string name="skill_group_insta_kill_3_name">Group Prompt Passing [Level 3]</string>
+  <string name="skill_group_insta_kill_3_description">Your whole teams weapons insta-kill enemies for 30 seconds.</string>
+  <string name="skill_insta_kill_3_name">Prompt Passing [Level 3]</string>
+  <string name="skill_insta_kill_3_description">Your weapons insta-kill enemies for 20 seconds.</string>
+  <string name="skill_insta_kill_4_name">Prompt Passing [Level 4]</string>
+  <string name="skill_insta_kill_4_description">Your weapons insta-kill enemies for 30 seconds.</string>
+  <string name="skill_passive_skills_name">Passive Skills</string>
+  <string name="skill_passive_skills_description">Passive skills are permanent buffs that shape the abilities of your character.</string>
+  <string name="skill_increase_hp_1_name">Hardiness [Level 1]</string>
+  <string name="skill_increase_hp_1_description">Your maximum HP is boosted by 10%!</string>
+  <string name="skill_increase_hp_2_name">Hardiness [Level 2]</string>
+  <string name="skill_increase_hp_2_description">Your maximum HP is boosted by 25%!</string>
+  <string name="skill_increase_hp_3_name">Hardiness [Level 3]</string>
+  <string name="skill_increase_hp_3_description">Your maximum HP is boosted by 50%!</string>
+  <string name="skill_instant_skill_1_name">"Such Skill, Much Wow "</string>
+  <string name="skill_instant_skill_1_description">Instantly gain 5 skill points!</string>
+  <string name="skill_health_regen_1_name">We Can Rebuild Him [Level 1]</string>
+  <string name="skill_health_regen_1_description">Your health begins to regenerate at 0.3% per second, after taking no damage for 15 seconds.</string>
+  <string name="skill_health_regen_2_name">We Can Rebuild Him [Level 2]</string>
+  <string name="skill_health_regen_2_description">Your health begins to regenerate at 0.5% per second, after taking no damage for 15 seconds.</string>
+  <string name="skill_health_regen_3_name">We Can Rebuild Him [Level 3]</string>
+  <string name="skill_health_regen_3_description">Your health begins to regenerate at 1.0% per second, after taking no damage for 15 seconds.</string>
+  <string name="skill_increase_speed_1_name">Momentum [Level 1]</string>
+  <string name="skill_increase_speed_1_description">Your maximum speed is boosted by 10%!</string>
+  <string name="skill_increase_speed_2_name">Momentum [Level 2]</string>
+  <string name="skill_increase_speed_2_description">Your maximum speed is boosted by 20%!</string>
+  <string name="skill_increase_speed_3_name">Momentum [Level 3]</string>
+  <string name="skill_increase_speed_3_description">Your maximum speed is boosted by 30%!</string>
+  <string name="skill_instant_skill_2_name">Such Skill, Much Wow</string>
+  <string name="skill_instant_skill_2_description">Instantly gain 5 skill points!</string>
+  <string name="skill_increase_ammo_capacity_1_name">Stockpile [Level 1]</string>
+  <string name="skill_increase_ammo_capacity_1_description">Your maximum ammo capacity is boosted by 10%!</string>
+  <string name="skill_increase_ammo_capacity_2_name">Stockpile [Level 2]</string>
+  <string name="skill_increase_ammo_capacity_2_description">Your maximum ammo capacity is boosted by 25%!</string>
+  <string name="skill_increase_ammo_capacity_3_name">Stockpile [Level 3]</string>
+  <string name="skill_increase_ammo_capacity_3_description">Your maximum ammo capacity is boosted by 100%!</string>
+  <string name="skill_instant_level_up_name">Needs Moar Levels</string>
+  <string name="skill_instant_level_up_description">Instantly level up!</string>
+  <string name="skill_ammo_regen_1_name">Unending Stockpile [Level 1]</string>
+  <string name="skill_ammo_regen_1_description">Your ammo begins to regenerate at 0.3% per second, after not firing for 15 seconds.</string>
+  <string name="skill_ammo_regen_2_name">Unending Stockpile [Level 2]</string>
+  <string name="skill_ammo_regen_2_description">Your ammo begins to regenerate at 0.5% per second, after not firing for 15 seconds.</string>
+  <string name="skill_ammo_regen_3_name">Unending Stockpile [Level 3]</string>
+  <string name="skill_ammo_regen_3_description">Your ammo begins to regenerate at 1.0% per second, after not firing for 15 seconds.</string>
+  <string name="skill_gold_drop_1_name">Goldfinger [Level 1]</string>
+  <string name="skill_gold_drop_1_description">Gold drops increase by 10%!</string>
+  <string name="skill_gold_drop_2_name">Goldfinger [Level 2]</string>
+  <string name="skill_gold_drop_2_description">Gold drops increase by 25%!</string>
+  <string name="skill_gold_drop_3_name">Goldfinger [Level 3]</string>
+  <string name="skill_gold_drop_3_description">Gold drops increase by 50%!</string>
+  <string name="skill_instant_gold_1_name">So Broke ...</string>
+  <string name="skill_instant_gold_1_description">Instantly gain 100,000 gold!</string>
+  <string name="skill_gold_magnet_1_name">Goldeneye [Level 1]</string>
+  <string name="skill_gold_magnet_1_description">Increase gold pickup range by 10%!</string>
+  <string name="skill_gold_magnet_2_name">Goldeneye [Level 2]</string>
+  <string name="skill_gold_magnet_2_description">Increase gold pickup range by 25%!</string>
+  <string name="skill_gold_magnet_3_name">Goldeneye [Level 3]</string>
+  <string name="skill_gold_magnet_3_description">Increase gold pickup range by 50%!</string>
+  <string name="skill_price_decrease_1_name">Cheapskate [Level 1]</string>
+  <string name="skill_price_decrease_1_description">Reduce prices paid for items by 10%</string>
+  <string name="skill_price_decrease_2_name">Cheapskate [Level 2]</string>
+  <string name="skill_price_decrease_2_description">Reduce prices paid for items by 20%</string>
+  <string name="skill_price_decrease_3_name">Cheapskate [Level 3]</string>
+  <string name="skill_price_decrease_3_description">Reduce prices paid for items by 50%</string>
+  <string name="skill_sell_price_1_name">Hagler [Level 1]</string>
+  <string name="skill_sell_price_1_description">Increase sell price for items by 10%</string>
+  <string name="skill_sell_price_2_name">Hagler [Level 2]</string>
+  <string name="skill_sell_price_2_description">Increase sell price for items by 20%</string>
+  <string name="skill_sell_price_3_name">Hagler [Level 3]</string>
+  <string name="skill_sell_price_3_description">Increase sell price for items by 50%</string>
+  <string name="skill_gem_drop_1_name">Gleaming Gems [Level 1]</string>
+  <string name="skill_gem_drop_1_description">Gem drops increase by 10%!</string>
+  <string name="skill_gem_drop_2_name">Gleaming Gems [Level 2]</string>
+  <string name="skill_gem_drop_2_description">Gem drops increase by 25%!</string>
+  <string name="skill_gem_drop_3_name">Gleaming Gems [Level 3]</string>
+  <string name="skill_gem_drop_3_description">Gem drops increase by 50%!</string>
+  <string name="skill_instant_gem_1_name">So Sparkly</string>
+  <string name="skill_instant_gem_1_description">Instantly gain 1 of each legit gem.</string>
+  <string name="skill_gem_magnet_1_name">De Bears [Level 1]</string>
+  <string name="skill_gem_magnet_1_description">Increase gem pickup range by 10%!</string>
+  <string name="skill_gem_magnet_2_name">De Bears [Level 2]</string>
+  <string name="skill_gem_magnet_2_description">Increase gem pickup range by 25%!</string>
+  <string name="skill_gem_magnet_3_name">De Bears [Level 3]</string>
+  <string name="skill_gem_magnet_3_description">Increase gem pickup range by 50%!</string>
+  <string name="skill_increase_xp_1_name">Expedient Experiance [Level 1]</string>
+  <string name="skill_increase_xp_1_description">XP gained is increased by 10%!</string>
+  <string name="skill_increase_xp_2_name">Expedient Experiance [Level 2]</string>
+  <string name="skill_increase_xp_2_description">XP gained is increased by 25%!</string>
+  <string name="skill_increase_xp_3_name">Expedient Experiance [Level 3]</string>
+  <string name="skill_increase_xp_3_description">XP gained is increased by 50%!</string>
+  <string name="skill_instant_item_1_name">Yeeeees! Yeeeees!</string>
+  <string name="skill_instant_item_1_description">Instantly recieve a Bison Cap!</string>
+  <string name="skill_wallet_increase_1_name">Moneybags [Level 1]</string>
+  <string name="skill_wallet_increase_1_description">Increases gold carrying capacity by 50%</string>
+  <string name="skill_wallet_increase_2_name">Moneybags [Level 2]</string>
+  <string name="skill_wallet_increase_2_description">Increases gold carrying capacity by 75%</string>
+  <string name="skill_wallet_increase_3_name">Moneybags [Level 3]</string>
+  <string name="skill_wallet_increase_3_description">Increases gold carrying capacity by 100%</string>
+  <string name="skill_wallet_interest_1_name">Moneybags [Level 4]</string>
+  <string name="skill_wallet_interest_1_description">User gains 1% interest on gold each hour.</string>
+  <string name="skill_inventory_increase_1_name">Hoarder [Level 1]</string>
+  <string name="skill_inventory_increase_1_description">Increases inventory size by 50%</string>
+  <string name="skill_inventory_increase_2_name">Hoarder [Level 2]</string>
+  <string name="skill_inventory_increase_2_description">Increases inventory size by 100%</string>
+  <string name="skill_inventory_increase_3_name">Hoarder [Level 3]</string>
+  <string name="skill_inventory_increase_3_description">Increases inventory size by 200%</string>
+  <string name="skill_play_styles_name">Play Styles</string>
+  <string name="skill_play_styles_description">Start leveling up different skills that suit different play styles.</string>
+  <string name="skill_combat_name">Combative</string>
+  <string name="skill_combat_description">Level up for agile close-range combat.</string>
+  <string name="skill_melee_damage_1_name">Mega Melee [Level 1]</string>
+  <string name="skill_melee_damage_1_description">Melee weapons do 10% more damage.</string>
+  <string name="skill_melee_damage_2_name">Mega Melee [Level 2]</string>
+  <string name="skill_melee_damage_2_description">Melee weapons do 20% more damage.</string>
+  <string name="skill_melee_damage_3_name">Mega Melee [Level 3]</string>
+  <string name="skill_melee_damage_3_description">Melee weapons do 50% more damage.</string>
+
+  <string name="skill_melee_stamina_1_name">Endurance [Level 1]</string>
+  <string name="skill_melee_stamina_1_description">Stamina recharges 25% faster.</string>
+  <string name="skill_melee_stamina_2_name">Endurance [Level 2]</string>
+  <string name="skill_melee_stamina_2_description">Stamina recharges 50% faster.</string>
+  <string name="skill_melee_stamina_3_name">Endurance [Level 3]</string>
+  <string name="skill_melee_stamina_3_description">Stamina recharges 100% faster.</string>
+
+  <string name="skill_rifle_damage_1_name">Rifle Rampage [Level 1]</string>
+  <string name="skill_rifle_damage_1_description">Rifles do 10% more damage.</string>
+  <string name="skill_rifle_damage_2_name">Rifle Rampage [Level 2]</string>
+  <string name="skill_rifle_damage_2_description">Rifles do 20% more damage.</string>
+  <string name="skill_rifle_damage_3_name">Rifle Rampage [Level 3]</string>
+  <string name="skill_rifle_damage_3_description">Rifles do 50% more damage.</string>
+  <string name="skill_rifle_ammo_1_name">Rifle Bandolier [Level 1]</string>
+  <string name="skill_rifle_ammo_1_description">Rifles have 25% more ammo capacity.</string>
+  <string name="skill_rifle_ammo_2_name">Rifle Bandolier [Level 2]</string>
+  <string name="skill_rifle_ammo_2_description">Rifles have 50% more ammo capacity.</string>
+  <string name="skill_rifle_ammo_3_name">Rifle Bandolier [Level 3]</string>
+  <string name="skill_rifle_ammo_3_description">Rifles have 100% more ammo capacity.</string>
+  <string name="skill_ghost_life_time_1_name">Phantom Pain [Level 1]</string>
+  <string name="skill_ghost_life_time_1_description">You stay as a ghost for 50% longer, giving other players a longer chance to revive you.</string>
+  <string name="skill_ghost_life_time_2_name">Phantom Pain [Level 2]</string>
+  <string name="skill_ghost_life_time_2_description">You stay as a ghost for 100% longer, giving other players a longer chance to revive you.</string>
+  <string name="skill_ghost_life_time_3_name">Phantom Pain [Level 3]</string>
+  <string name="skill_ghost_life_time_3_description">You stay as a ghost infinitely until revived.</string>
+  <string name="skill_heavy_name">Deadly</string>
+  <string name="skill_heavy_description">Level up for to deal heavy-damage.</string>
+  <string name="skill_heavy_weapon_damage_1_name">Heavy Rampage [Level 1]</string>
+  <string name="skill_heavy_weapon_damage_1_description">Heavy weapons do 10% more damage.</string>
+  <string name="skill_heavy_weapon_damage_2_name">Heavy Rampage [Level 2]</string>
+  <string name="skill_heavy_weapon_damage_2_description">Heavy weapons do 20% more damage.</string>
+  <string name="skill_heavy_weapon_damage_3_name">Heavy Rampage [Level 3]</string>
+  <string name="skill_heavy_weapon_damage_3_description">Heavy weapons do 50% more damage.</string>
+  <string name="skill_heavy_weapon_ammo_1_name">Heavy Bandolier [Level 1]</string>
+  <string name="skill_heavy_weapon_ammo_1_description">Heavy weapons have 25% more ammo capacity.</string>
+  <string name="skill_heavy_weapon_ammo_2_name">Heavy Bandolier [Level 2]</string>
+  <string name="skill_heavy_weapon_ammo_2_description">Heavy weapons have 50% more ammo capacity.</string>
+  <string name="skill_heavy_weapon_ammo_3_name">Heavy Bandolier [Level 3]</string>
+  <string name="skill_heavy_weapon_ammo_3_description">Heavy weapons have 100% more ammo capacity.</string>
+  <string name="skill_explosion_radius_1_name">Explosive Expanse [Level 1]</string>
+  <string name="skill_explosion_radius_1_description">Explosion produced by weapons have 25% larger radius.</string>
+  <string name="skill_explosion_radius_2_name">Explosive Expanse [Level 2]</string>
+  <string name="skill_explosion_radius_2_description">Explosion produced by weapons have 50% larger radius.</string>
+  <string name="skill_explosion_radius_3_name">Explosive Expanse [Level 3]</string>
+  <string name="skill_explosion_radius_3_description">Explosion produced by weapons have 75% larger radius.</string>
+  <string name="skill_status_duration_1_name">Ailing Ailment [Level 1]</string>
+  <string name="skill_status_duration_1_description">Status ailments produced by weapons last 25% longer.</string>
+  <string name="skill_status_duration_2_name">Ailing Ailment [Level 2]</string>
+  <string name="skill_status_duration_2_description">Status ailments produced by weapons last 50% longer.</string>
+  <string name="skill_status_duration_3_name">Ailing Ailment [Level 3]</string>
+  <string name="skill_status_duration_3_description">Status ailments produced by weapons last 75% longer.</string>
+  <string name="skill_turret_damage_1_name">Turret Training [Level 1]</string>
+  <string name="skill_turret_damage_1_description">Turrets spawn with 50% more health.</string>
+  <string name="skill_turret_damage__2_name">Turret Training [Level 2]</string>
+  <string name="skill_turret_damage__2_description">Turrets cause 100% more health.</string>
+  <string name="skill_turret_damage_3_name">Turret Training [Level 3]</string>
+  <string name="skill_turret_damage_3_description">Turrets cause 200% more health.</string>
+  <string name="skill_turret_ammo_1_name">Turret Bandolier [Level 1]</string>
+  <string name="skill_turret_ammo_1_description">Turrets spawn with 50% more ammo.</string>
+  <string name="skill_turret_ammo_2_name">Turret Bandolier [Level 2]</string>
+  <string name="skill_turret_ammo_2_description">Turrets spawn with 100% more ammo.</string>
+  <string name="skill_turret_ammo_3_name">Turret Bandolier [Level 3]</string>
+  <string name="skill_turret_ammo_3_description">Turrets spawn with 200% more ammo.</string>
+  <string name="skill_support_name">Supportive</string>
+  <string name="skill_support_description">Level up skills to help support other players.</string>
+  <string name="skill_small_arms_damage_1_name">Small Arms Rampage [Level 1]</string>
+  <string name="skill_small_arms_damage_1_description">Small arm weapons (pistols, shotguns, smgs) do 10% more damage.</string>
+  <string name="skill_small_arms_damage_2_name">Small Arms Rampage [Level 2]</string>
+  <string name="skill_small_arms_damage_2_description">Small arm weapons (pistols, shotguns, smgs) do 25% more damage.</string>
+  <string name="skill_small_arms_damage_3_name">Small Arms Rampage [Level 3]</string>
+  <string name="skill_small_arms_damage_3_description">Small arm weapons (pistols, shotguns, smgs) do 50% more damage.</string>
+  <string name="skill_small_arms_ammo_1_name">Small Arms Bandolier [Level 1]</string>
+  <string name="skill_small_arms_ammo_1_description">Small arm weapons (pistols, shotguns, smgs) have 25% more ammo capacity.</string>
+  <string name="skill_small_arms_ammo_2_name">Small Arms Bandolier [Level 2]</string>
+  <string name="skill_small_arms_ammo_2_description">Small arm weapons (pistols, shotguns, smgs) have 50% more ammo capacity.</string>
+  <string name="skill_small_arms_ammo_3_name">Small Arms Bandolier [Level 3]</string>
+  <string name="skill_small_arms_ammo_3_description">Small arm weapons (pistols, shotguns, smgs) have 100% more ammo capacity.</string>
+  <string name="skill_buff_grenade_radius_1_name">Buff Boundry [Level 1]</string>
+  <string name="skill_buff_grenade_radius_1_description">Buff grenades have a 25% larger area of effect.</string>
+  <string name="skill_buff_grenade_radius_2_name">Buff Boundry [Level 2]</string>
+  <string name="skill_buff_grenade_radius_2_description">Buff grenades have a 50% larger area of effect.</string>
+  <string name="skill_buff_grenade_radius_3_name">Buff Boundry [Level 3]</string>
+  <string name="skill_buff_grenade_radius_3_description">Buff grenades have a 100% larger area of effect.</string>
+  <string name="skill_buff_grenade_ammo_1_name">Buff Bandolier [Level 1]</string>
+  <string name="skill_buff_grenade_ammo_1_description">You can carry 50% more buff grenades.</string>
+  <string name="skill_buff_grenade_ammo_2_name">Buff Bandolier [Level 2]</string>
+  <string name="skill_buff_grenade_ammo_2_description">You can carry 100% more buff grenades.</string>
+  <string name="skill_buff_grenade_ammo_3_name">Buff Bandolier [Level 3]</string>
+  <string name="skill_buff_grenade_ammo_3_description">You can carry 150% more buff grenades.</string>
+  <string name="skill_ghost_revive_time_1_name">Rebirth [Level 1]</string>
+  <string name="skill_ghost_revive_time_1_description">You can revive other playes 50% faster.</string>
+  <string name="skill_ghost_revive_time_2_name">Rebirth [Level 2]</string>
+  <string name="skill_ghost_revive_time_2_description">You can revive other players 100% faster.</string>
+  <string name="skill_ghost_revive_time_3_name">Rebirth [Level 3]</string>
+  <string name="skill_ghost_revive_time_3_description">You can revive other players 200% faster.</string>
+  <string name="skill_healing_speed_1_name">Accelerated Alleviation [Level 1]</string>
+  <string name="skill_healing_speed_1_description">You can heal players 50% more efficiently with healing weapons.</string>
+  <string name="skill_healing_speed_2_name">Accelerated Alleviation [Level 2]</string>
+  <string name="skill_healing_speed_2_description">You can heal players 100% more efficiently with healing weapons.</string>
+  <string name="skill_healing_speed_3_name">Accelerated Alleviation [Level 3]</string>
+  <string name="skill_healing_speed_3_description">You can heal players 200% more efficiently with healing weapons.</string>
+
+  <string name="menu_credits_press_key">Press [key=gui_select] To Skip</string>
+  <string name="menu_credits_title">.Credits</string>
+  <string name="credits">"
+\n{TITLE}\n{CENTER}Version {GAME_VERSION}\n{CENTER}(C) TwinDrills 2009-2015\n\n\n\n\n{HEADER}[b][c=220,60,70]Programmers[/c][/b]\nTim \'Infini\' Leonard\n\n\n\n\n{HEADER}[b][c=34,177,76]Artists[/c][/b]\nJordan Chewning\nDiego Favela\n\n\n\n\n{HEADER}[b][c=77,109,243]Level Design[/c][/b]\nTim \'Infini\' Leonard\nJordan Chewning\n\n\n\n\n{HEADER}[b][c=255,220,0]Audio[/c][/b]\nSteven \"Surasshu\" Velema
+\nFreeSound.org (Listed Below!)\n\n\n\n\n{HEADER}[b][c=190,50,0]Testers[/c][/b]\nTomereyn\nTravis Adamczyk\nCharles Blanchard\nKen Murray\nLuc Shelton\nAziz Ur Rahman\nKim Parsonage\nJani Ihalainen\nKurtis Weir\nRicardo Ferreira
+\nKim Klages\nColby Terry\nAlan Sauer\nJack Klink\nBenjamin Gearig\n\n\n\n\n{HEADER}[b][c=220,60,70]Fluffers[/c][/b]\nJames Brookes\n\n\n\n\n{HEADER}[b][c=238,139,134]Special Thanks[/c][/b]\nHazel Brittain\nLoyal Haylett Jr.\nGionathan Pesaresi\nJames Attard\nBen Swinburn\nJustin O\'Leary
+\nGlenn Lewis\n\nZFGC.com
+\nIndieDB.com\nSteam / Valve\nBlitz Research Limited\nDesura Community\n\nKBFail.net Operators\n\n\n\n\n{HEADER}[b][c=130,235,30]Third Party Software[/c][/b]\nFamFamFam Icons, Mark James\n\nFMOD Sound System, copyright (C)\nFirelight Technologies Pty, Ltd.\n1994-2015.\n\nPortions of this software are copyright\n(C) 2015 The FreeType\nProject (www.freetype.org).\nAll rights reserved.\n\nThis product includes GeoLite data\ncreated by MaxMind, available from\nhttp://www.maxmind.com.\n\nLicenses for other third-party software\nare provided in the docs folder with\nthis software.\n\n\n\n{HEADER}[b][c=255,166,210]Freesound Authors[/c][/b]\nacclivity\nadcbicycle\nArctura\naust_paul\nbebeto\nBenboncan\nbennychico11\nBitbeast\nbroumbroum\ncmusounddesign\ndatasoundsample\ndestron\ndigifishmusic\nDJ Chronos\ndobroide\nDonalfonso\nDredile\nejfortin\nERH\nflatfly\nFlick3r\nfonogeno\nFr3yr\nFreqMan\nguitarguy1985\nHalleck\nhamlett\nHardPCM\nharri\n\n{HEADER}[b][c=255,166,210]More Freesound Authors[/c][/b]\nHerbertBoland\nhiramjustus\nivanbailey\nivatma07\nj1987\njames duckett\nJamius\njlozano\njnr hacksaw\nJovica\njunggle\njuskiddink\nJustinBW\nknarmahfox\nKurijn\nLS\nM-RED\nm1rk0\nm_O_m\nmad-monkey\nmansardian\nmartian\nMattJ99\nmeatball4u\nmedialint\nMichel88\nMicroscopia\nMiselaineous\nmonkslut\nmusounddesign\nnathanshadow\nNotofficial\nnthompson\nPhreaKsAccount\n\n{HEADER}[b][c=255,166,210]Even More Freesound Authors[/c][/b]\nPingel\npycckuu20032003\nqubodup\nredjim\nreinsamba\nRHumphries\nRobinhood76\nroscoetoon\nsagetyrtle\nsamplecat\nsandyrb\nSchulze\nscuzzpuck\nShangyne\nsimon rue\nSlanesh\nSmallQuadruped\nsmcameron\nSnoman\nSpartanX109\nSplashdust\nSyna-Max\nTHE_bizniss\nthecheeseman\nTicTacShutUp\nTimbre\ntshah21\numwelt\nVEXST\nVosvoy\nwildweasel\nWIM\nXythe\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{CENTER}[b][c=255,220,0]THANKS FOR PLAYING[/c][/b]"</string>
+
+  <string name="tip_0">TIP: [c=50,160,235]Blue goo[/c] on the floor? Try pressing [key=altfire]!</string>
+  <string name="tip_1">TIP: Combine gems with items to increase their stats!</string>
+  <string name="tip_2">TIP: Coins can be used to purchase new items!</string>
+  <string name="tip_3">TIP: Zombies are bad for your health.</string>
+  <string name="tip_4">TIP: Paint your items to make yourself unique!</string>
+  <string name="tip_5">TIP: Be careful with explosives, they hurt!</string>
+  <string name="tip_6">TIP: Use the skill tree to buff your player!</string>
+  <string name="tip_7">TIP: Infinitus and Jordizzle are the developers!</string>
+  <string name="tip_8">TIP: This game is best played with a gamepad!</string>
+  <string name="tip_9">TIP: Coins picked up are only recieved at the end of each game!</string>
+  <string name="tip_10">TIP: Fat zombies are especially vulnerable to fire and electric damage!</string>
+  <string name="tip_11">TIP: Active skills require the use of gems, but have powerful effects!</string>
+
+  <string name="tagline_0">Reticulated Splines!</string>
+  <string name="tagline_1">It\'s just TOO cute!</string>
+  <string name="tagline_2">6 minute abs!</string>
+  <string name="tagline_3">We got five on it!</string>
+  <string name="tagline_4">Also available in decaf!</string>
+  <string name="tagline_5">No esta disponible en Espanol, todavia!</string>
+  <string name="tagline_6">Powered by butts.</string>
+  <string name="tagline_7">Butts are gross.</string>
+  <string name="tagline_8">Arcade edition</string>
+  <string name="tagline_9">Tournament edition</string>
+  <string name="tagline_10">Tastes great on a cracker!</string>
+  <string name="tagline_11">S\'cool, dude.</string>
+  <string name="tagline_12">As seen on IndieStatik!</string>
+  <string name="tagline_13">I still mourn my servers IndieStatik!</string>
+  <string name="tagline_14">Exactly like Minecraft, I guess?</string>
+  <string name="tagline_15">Reviewed by most of South America!</string>
+  <string name="tagline_16">...around the world, around the world!</string>
+  <string name="tagline_17">An anagram for Big Modernizer</string>
+  <string name="tagline_18">An anagram for Bird Germ Zone I</string>
+  <string name="tagline_19">Updated sporadically!</string>
+  <string name="tagline_20">Beats by surasshu.com</string>
+  <string name="tagline_21">Cuter than shit!</string>
+  <string name="tagline_22">Rated G for GOOD.</string>
+  <string name="tagline_23">Have a slice of humble pie.</string>
+  <string name="tagline_24">Do you smell that? ...Good!</string>
+  <string name="tagline_25">Working O.T. at the HATE FACTORY.</string>
+  <string name="tagline_26">All aboard the HATE TRAIN.</string>
+  <string name="tagline_27">They\'re sprites, not models!</string>
+  <string name="tagline_28">It\'s not 8-bit!</string>
+  <string name="tagline_29">Yes, there\'s boss fights!</string>
+  <string name="tagline_30">When did they have HP bars!?</string>
+  <string name="tagline_31">You can now feel your tongue.</string>
+  <string name="tagline_32">Slim!</string>
+  <string name="tagline_33">Also available in Slim!</string>
+  <string name="tagline_34">R.I.P. wave_tiny!</string>
+  <string name="tagline_35">Toot toot, sonic warrior!</string>
+  <string name="tagline_36">Tell a friend!</string>
+  <string name="tagline_37">Tell 2 friends!</string>
+  <string name="tagline_38">Tell 3 friends!</string>
+  <string name="tagline_39">Tell a friend to tell 2 friends to tell 3 friends!</string>
+  <string name="tagline_40">Tell 17 friends!</string>
+  <string name="tagline_41">Tell 20 friends!</string>
+  <string name="tagline_42">Share the love!</string>
+  <string name="tagline_43">Save the planet from disaster!</string>
+  <string name="tagline_44">Longest dev cycle EVER!</string>
+  <string name="tagline_45">I was psyched up... Until they said it was multiplayer.</string>
+  <string name="tagline_46">Multiplayer? FUCK THIS.</string>
+  <string name="tagline_47">but this looks like a browser flashgame level game</string>
+  <string name="tagline_48">are those TF2 weapons?</string>
+  <string name="tagline_49">However, no grinder weapon 0/10</string>
+  <string name="tagline_50">looks crappy like a flash game on miniclap</string>
+  <string name="tagline_51">Graal was here first and they coded guns first to.</string>
+  <string name="tagline_52">this luks like a flash game no a steam game Edition</string>
+  <string name="tagline_53">Not 6000!</string>
+  <string name="tagline_54">FLY AWAY NOW!</string>
+  <string name="tagline_55">Hey, sexy ladies!</string>
+  <string name="tagline_56">Grinder not included.</string>
+  <string name="tagline_57">KILL THE ZOMBIES, GET THE PRIZES!</string>
+  <string name="tagline_58">I hope this dosen\'t break anything</string>
+  <string name="tagline_59">Without context that looks like mayonaise.</string>
+  <string name="tagline_60">Awesome game, gave the guy next to me a Seizure!? Yeah!</string>
+  <string name="tagline_61">Chainsaw??</string>
+  <string name="tagline_62">Is this game for pc?</string>
+  <string name="tagline_63">Characters look too weeaboo</string>
+  <string name="tagline_64">Really over 8/16bit/retro</string>
+  <string name="tagline_65">Should be shot out from the pc-platform</string>
+  <string name="tagline_66">A leftover from 3 decades ago</string>
+  <string name="tagline_67">dont drown Steam with crap like this!</string>
+  <string name="tagline_68">How much did you pay this guy for advertising?</string>
+  <string name="tagline_69">I don\'t need another Zombie game. At least not this one.</string>
+  <string name="tagline_70">Did i just say a ascii game was better than this garbage?</string>
+  <string name="tagline_71">NO</string>
+  <string name="tagline_72">and yet another no thanks for me...</string>
+  <string name="tagline_73">Show, don\'t tell.</string>
+  <string name="tagline_74">why hats ...</string>
+  <string name="tagline_75">Nope</string>
+  <string name="tagline_76">From Bloccy with Liebe</string>
+  <string name="tagline_77">Exploder - Is that a rocket in your pocket? - Bloccy</string>
+  <string name="tagline_78">Курицы - это петомцы - SeoCypher</string>
+  
+<string name="ban_notice_title">Бан</string>
+  <string name="ban_notice_message">Вы были забанены на защищенных серверах VAC до \'% S\'. Это было связано с нарушением правил, что было сообщено на \'% S\' и который был определен несколькими свидетелями, после просмотра повтора, чтобы составить следующее:% S.</string>
+  <string name="ban_notice_message_indefinite">Вы были забанены на защищенных серверах VAC на неопределенный срок. Это было связано с нарушением правил, что было сообщено на \'% S\' и который был определен несколькими свидетелями, после просмотра повтора, чтобы составить следующее:% S.</string>
+
+  <string name="ban_notice_abuse">оскорбительное поведение</string>
+  <string name="moderation_title">Модерация</string>	
+	<string name="Joystick_Hat1_Up_DS3">D-Pad Вверх</string>
+  <string name="Joystick_Button1_DS3">Перекрестье</string>
+  <string name="Joystick_Hat1_Right_DS3">D-Pad Вправо</string>
+  <string name="Joystick_Hat1_Left_DS3">D-Pad Влево</string>
+  <string name="Joystick_Hat1_Down_DS3">D-Pad Вниз</string>
+  <string name="Joystick_Button5_DS3">L1</string>
+  <string name="Joystick_Button6_DS3">R1</string>
+  <string name="Joystick_Button7_DS3">Select</string>
+  <string name="Joystick_Button8_DS3">Start</string>
+  <string name="Joystick_Button9_DS3">L3</string>
+  <string name="Joystick_Button10_DS3">R3</string>
+  <string name="Joystick_Axis6_Neg_DS3">-Axis 6</string>
+  <string name="Joystick_Axis5_Neg_DS3">-Axis 5</string>
+  <string name="Joystick_Axis4_Neg_DS3">R Влево</string>
+  <string name="Joystick_Axis5_Pos_DS3">L2</string>
+  <string name="Joystick_Axis4_Pos_DS3">R Вправо</string>
+  <string name="Joystick_Axis3_Neg_DS3">R Вверх</string>
+  <string name="Joystick_Axis3_Pos_DS3">R Влево</string>
+  <string name="Joystick_Axis2_Neg_DS3">L Влево</string>
+  <string name="Joystick_Axis2_Pos_DS3">L Вправо</string>
+  <string name="Joystick_Axis1_Neg_DS3">L Вверх</string>
+  <string name="Joystick_Axis1_Pos_DS3">L Вниз</string>
+  <string name="Joystick_Button10_DS4">R3</string>
+  <string name="Joystick_Button9_DS4">L3</string>
+  <string name="moderation_notice_title">[c=235,52,52]Модерация[/c]</string>
+  <string name="moderation_notice">Поздравляем, вы были случайным образом выбраны, чтобы помочь следить за сообществом! Будет включена кнопка модерации, и вы будете иметь возможность просматривать повторы игр, в которых игроки сообщили о нарушениях . Вы сможете судить о таких повторов. Если ваши суждения окажутся верными, и в соответствии с суждениями других модератеров, вы будете продолжать получать возможность судить.</string>
+ 
+
+	</resources>

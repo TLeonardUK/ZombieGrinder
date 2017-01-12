@@ -1,0 +1,29 @@
+<xml>
+	<package>
+		<name>MapExample</name>
+		<root>Data/</root>
+		<compile_directory>../../Output/Data/MapExample/.compiled/</compile_directory>
+		<script_directory>../../Data/MapExample/Scripts/</script_directory>
+		<pak_file>../../Data/MapExample/MapExample.dat</pak_file>
+		<private_key></private_key>
+		<pak_keep_source>True</pak_keep_source>
+		<pak_use_compression>True</pak_use_compression>
+		<workshop>
+			<id></id>
+			<title></title>
+			<preview_file></preview_file>
+			<description></description>
+			<tags></tags>
+		</workshop>
+	</package>
+	<languages />
+	<atlases />
+	<audio_banks />
+	<fonts />
+	<particlefx />
+	<scripts />
+	<shaders />
+	<raw />
+	<layouts />
+	<maps />
+</xml>

@@ -1,0 +1,20 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>VoteOverlay</name>
+	</settings>
+	<layout>
+						
+		<element name="bg" type="Panel" box="0.05,0.1,0.26,0.23" Padding="0,0,0,0" Scale="0.75,0.75" AspectScaling="False" Frame="screen_main_box_active_#" FrameColor="255,255,255,200" />			
+
+		<element name="vote_description" type="Label" box="0.06,0.12,0.24,0.03" AspectScaling="False"  HAlign="Left" VAlign="Bottom" ForeColor="200,200,200,255" value=""  Scale="0.75,0.75" />	
+	
+		<element name="vote_progress" type="ProgressBar" box="0.06,0.17,0.24,0.035" AspectScaling="False" Padding="0,0,0,0" progress="0" ForeColor="152,235,193,255" BackColor="235,120,152,255" ShowProgress="False" />	
+		
+		<element name="vote_for" type="Label" box="0.075,0.225,0.28,0.03" AspectScaling="False"  HAlign="Left" VAlign="Bottom" ForeColor="152,235,193,255" value="#vote_overlay_vote_yes" Scale="0.75,0.75" UseMarkup="True" />	
+		<element name="vote_against" type="Label" box="0.075,0.275,0.28,0.03" AspectScaling="False"  HAlign="Left" VAlign="Bottom" ForeColor="235,120,152,255" value="#vote_overlay_vote_no"  Scale="0.75,0.75" UseMarkup="True" />	
+	
+	</layout>
+</xml>

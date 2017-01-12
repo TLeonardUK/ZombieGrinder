@@ -1,0 +1,352 @@
+<xml>
+  <editor>
+    <asset_type>Atlas</asset_type>
+  </editor>
+	<settings>
+		<texture-size>2048</texture-size>
+		<max-textures>8</max-textures>
+		<name>Particles</name>
+	</settings>
+	<images> 
+	
+		<!-- Skills -->
+		<image type="single" name="particle_skill_skull" 				file="Data/Atlases/Particles/Skills/skull.png"  				origin="0.5,0.5" />
+		<image type="single" name="particle_skill_shield" 				file="Data/Atlases/Particles/Skills/shield.png"  				origin="0.5,0.5" />
+		<image type="single" name="particle_skill_xp" 				file="Data/Atlases/Particles/Skills/xp.png"  				origin="0.5,0.5" />
+		<image type="single" name="particle_skill_speed_gunner" 				file="Data/Atlases/Particles/Skills/speed_gunner.png"  				origin="0.5,0.5" />
+		<image type="single" name="particle_skill_ammo" 				file="Data/Atlases/Particles/Skills/ammo.png"  				origin="0.5,0.5" />
+		<image type="single" name="particle_skill_infinite" 				file="Data/Atlases/Particles/Skills/infinite.png"  				origin="0.5,0.5" />
+						
+		<!-- Distortion -->
+		<image type="single" name="particle_distort_heat_shimmer" 				file="Data/Atlases/Particles/Distortion/heat_shimmer.png"  				origin="0.5,0.5" />
+		<image type="single" name="particle_distort_shockwave" 					file="Data/Atlases/Particles/Distortion/shockwave.png"  				origin="0.5,0.5" />
+		<image type="single" name="particle_distort_small_projectile" 			file="Data/Atlases/Particles/Distortion/small_projectile.png"  			origin="0.5,1.0" />
+		<image type="single" name="particle_distort_small_projectile_streak" 	file="Data/Atlases/Particles/Distortion/small_projectile_streak.png"  	origin="0.5,1.0" />
+		
+		<!-- Text -->
+    <image type="single" name="particle_text_buff_ammo" 			file="Data/Atlases/Particles/Text/buff_ammo.png"  				origin="0.5,0.5" />
+    <image type="single" name="particle_text_buff_damage" 			file="Data/Atlases/Particles/Text/buff_damage.png"  				origin="0.5,0.5" />
+    <image type="single" name="particle_text_buff_hp" 			file="Data/Atlases/Particles/Text/buff_hp.png"  				origin="0.5,0.5" />
+    <image type="single" name="particle_text_buff_price" 			file="Data/Atlases/Particles/Text/buff_price.png"  				origin="0.5,0.5" />
+    <image type="single" name="particle_text_buff_reload" 			file="Data/Atlases/Particles/Text/buff_reload.png"  				origin="0.5,0.5" />
+    <image type="single" name="particle_text_buff_rof" 			file="Data/Atlases/Particles/Text/buff_rof.png"  				origin="0.5,0.5" />
+    <image type="single" name="particle_text_buff_speed" 			file="Data/Atlases/Particles/Text/buff_speed.png"  				origin="0.5,0.5" />
+    <image type="single" name="particle_text_buff_xp" 			file="Data/Atlases/Particles/Text/buff_xp.png"  				origin="0.5,0.5" />
+    <image type="single" name="particle_text_level_up" 				file="Data/Atlases/Particles/Text/level_up.png"  				origin="0.5,0.5" />
+		<image type="grid" name="particle_text_numbers_#" file="Data/Atlases/Particles/Text/numbers.png" width="8" height="16" hspace="1" vspace="1" origin="0.0,0.0">
+			<animations>
+				<animation name="particle_text_numbers_main" speed="60" mode="once" from_frame="0" to_frame="9" />
+			</animations>
+		</image>
+		
+		<!-- Explosion -->
+		<image type="grid" name="particle_explosion_small_#" file="Data/Atlases/Particles/Explosion/explosion.png" width="96" height="96" hspace="0" vspace="0" origin="0.5,0.5">
+			<animations>
+				<animation name="particle_explosion_small_main" speed="60" mode="once" from_frame="0" to_frame="8" />
+			</animations>
+		</image>
+		<image type="grid" name="particle_explosion_large_#" file="Data/Atlases/Particles/Explosion/explosion_large.png" width="64" height="64" hspace="1" vspace="1" origin="0.5,0.5">
+			<animations>
+				<animation name="particle_explosion_large_main" speed="60" mode="once" from_frame="0" to_frame="7" />
+			</animations> 
+		</image> 
+		<image type="single" name="particle_explosion_remains" 	file="Data/Atlases/Particles/Explosion/explosion_remains.png"  	origin="0.5,1.0" />
+				
+		<!-- Fire -->
+		<image type="grid" name="particle_fire_#" file="Data/Atlases/Particles/Fire/fire.png" width="16" height="24" hspace="1" vspace="1" origin="0.5,0.85">
+			<animations>
+				<animation name="particle_fire_main" speed="25" mode="once" from_frame="0" to_frame="20" />
+			</animations>
+		</image> 
+		<image type="grid" name="particle_love_#" file="Data/Atlases/Particles/Fire/love.png" width="24" height="24" hspace="0" vspace="0" origin="0.5,0.5">
+			<animations>
+				<animation name="particle_love_main" speed="35" mode="once" from_frame="0" to_frame="15" />
+			</animations>
+		</image>  
+		<image type="single" name="particle_smoke_small" file="Data/Atlases/Particles/Fire/smoke_small.png"  	origin="0.5,0.5" />
+		<image type="single" name="particle_smoke_large" file="Data/Atlases/Particles/Fire/smoke_large.png"  	origin="0.5,0.5" />
+		
+		<!-- Generic -->
+		<image type="single" name="particle_beacon" 		file="Data/Atlases/Particles/Generic/beacon.png"  	origin="0.5,0.5" />
+		<image type="single" name="particle_large_point" 	file="Data/Atlases/Particles/Generic/large_point.png"  	origin="0.5,0.5" />
+    <image type="single" name="particle_flashlight" 	file="Data/Atlases/Particles/Generic/flashlight.png"  	origin="0.5,0.75" />
+		<image type="single" name="particle_small_point" 	file="Data/Atlases/Particles/Generic/point.png"  	origin="0.5,0.5" />
+				
+    <!-- Ambient -->
+    <image type="grid" name="particle_butterfly_#" file="Data/Atlases/Particles/Ambient/butterfly.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5">
+      <animations>
+        <animation name="particle_butterfly_main" speed="120" mode="loop" from_frame="0" to_frame="1" />
+      </animations>
+    </image>
+
+    <!-- Gibs -->
+    <image type="grid" name="particle_grave_#" file="Data/Atlases/Actors/Avatars/grave.png"  width="48" height="42" hspace="0" vspace="0" origin="0.5,0.8" depthbias="32" />
+		<image type="grid" name="particle_ground_close_#" file="Data/Atlases/Particles/Gibs/ground_close.png"  width="32" height="32" hspace="1" vspace="1" origin="0.5,0.5">
+			<animations>
+				<animation name="particle_ground_close_main" speed="120" mode="loop" from_frame="0" to_frame="2" />
+			</animations>
+		</image>
+		<image type="grid" name="particle_avatar_gibs_#" file="Data/Atlases/Particles/Gibs/avatar_gibs.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5">
+			<animations>
+				<animation name="particle_avatar_gibs_main" speed="120" mode="loop" from_frame="0" to_frame="23" />
+				<animation name="particle_avatar_gibs_meat" speed="120" mode="loop" from_frame="0" to_frame="15" />
+				<animation name="particle_avatar_gibs_head" speed="120" mode="loop" from_frame="16" to_frame="19" />
+				<animation name="particle_avatar_gibs_limbs" speed="120" mode="loop" from_frame="20" to_frame="23" />
+			</animations>
+		</image>
+		<image type="grid" name="particle_fodder_gibs_#" file="Data/Atlases/Particles/Gibs/fodder_gibs.png"  width="16" height="16" hspace="1" vspace="1"  origin="0.5,0.5">
+			<animations>
+				<animation name="particle_fodder_gibs_main" speed="120" mode="loop" from_frame="0" to_frame="23" />
+				<animation name="particle_fodder_gibs_meat" speed="120" mode="loop" from_frame="0" to_frame="15" />
+				<animation name="particle_fodder_gibs_head" speed="120" mode="loop" from_frame="16" to_frame="19" />
+				<animation name="particle_fodder_gibs_limbs" speed="120" mode="loop" from_frame="20" to_frame="23" />
+			</animations>
+		</image>
+		<image type="grid" name="particle_zombie_gibs_#" file="Data/Atlases/Particles/Gibs/zombie_gibs.png"  width="16" height="16" hspace="1" vspace="1"  origin="0.5,0.5">
+			<animations>
+				<animation name="particle_zombie_gibs_main" speed="120" mode="loop" from_frame="0" to_frame="23" />
+				<animation name="particle_zombie_gibs_meat" speed="120" mode="loop" from_frame="0" to_frame="15" />
+				<animation name="particle_zombie_gibs_head" speed="120" mode="loop" from_frame="16" to_frame="19" />
+				<animation name="particle_zombie_gibs_limbs" speed="120" mode="loop" from_frame="20" to_frame="23" />
+			</animations>
+		</image>
+		<image type="grid" name="particle_fodder_corpse_#" file="Data/Atlases/Particles/Gibs/fodder_corpse.png"  width="32" height="32" hspace="1" vspace="1"  origin="0.5,0.5">
+			<animations>
+				<animation name="particle_fodder_corpse_main" 			speed="120" mode="loop" from_frame="0" to_frame="7" />
+				<animation name="particle_fodder_corpse_decapitated" 	speed="120" mode="loop" from_frame="8" to_frame="15" />
+				<animation name="particle_fodder_corpse_burnt" 			speed="120" mode="loop" from_frame="16" to_frame="23" />
+			</animations>
+		</image>
+		<image type="grid" name="particle_zombie_corpse_#" file="Data/Atlases/Particles/Gibs/zombie_corpse.png"  width="32" height="32" hspace="1" vspace="1"  origin="0.5,0.5">
+			<animations>
+				<animation name="particle_zombie_corpse_main" 			speed="120" mode="loop" from_frame="0" to_frame="7" />
+				<animation name="particle_zombie_corpse_decapitated" 	speed="120" mode="loop" from_frame="8" to_frame="15" />
+				<animation name="particle_zombie_corpse_burnt" 			speed="120" mode="loop" from_frame="16" to_frame="23" />
+			</animations>
+		</image>
+		<image type="grid" name="particle_blood_#" file="Data/Atlases/Particles/Gibs/blood.png"  width="32" height="32" hspace="1" vspace="1" origin="0.5,0.5">
+			<animations>
+				<animation name="particle_blood_main" speed="120" mode="loop" from_frame="0" to_frame="4" />
+			</animations>
+		</image>
+		<image type="grid" name="particle_metal_gibs_#" file="Data/Atlases/Particles/Gibs/metal_gibs.png"  width="32" height="32" hspace="1" vspace="1" origin="0.5,0.5">
+			<animations>
+				<animation name="particle_metal_gibs_main" speed="120" mode="loop" from_frame="0" to_frame="5" />
+			</animations>
+		</image>
+		<image type="grid" name="particle_wood_gibs_#" file="Data/Atlases/Particles/Gibs/wood_gibs.png"  width="32" height="32" hspace="1" vspace="1" origin="0.5,0.5">
+			<animations>
+				<animation name="particle_wood_gibs_main" speed="120" mode="loop" from_frame="0" to_frame="5" />
+			</animations>
+		</image>
+		<image type="grid" name="particle_blood_puff_#" file="Data/Atlases/Particles/Gibs/blood_puff.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5">
+			<animations>
+				<animation name="particle_blood_puff_main" speed="120" mode="loop" from_frame="0" to_frame="5" />
+			</animations>
+		</image>
+		<image type="grid" name="particle_barrel_gibs_#" file="Data/Atlases/Particles/Gibs/barrel_gibs.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5">
+			<animations>
+				<animation name="particle_barrel_gibs_main" speed="120" mode="loop" from_frame="0" to_frame="4" />
+			</animations>
+		</image>
+		<image type="grid" name="particle_incendiary_barrel_gibs_#" file="Data/Atlases/Particles/Gibs/incendiary_barrel_gibs.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5">
+			<animations>
+				<animation name="particle_incendiary_barrel_gibs_main" speed="120" mode="loop" from_frame="0" to_frame="4" />
+			</animations>
+		</image>
+		<image type="grid" name="particle_explosive_barrel_gibs_#" file="Data/Atlases/Particles/Gibs/explosive_barrel_gibs.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5">
+			<animations>
+				<animation name="particle_explosive_barrel_gibs_main" speed="120" mode="loop" from_frame="0" to_frame="4" />
+			</animations>
+		</image>
+		<image type="grid" name="particle_cardboard_gibs_#" file="Data/Atlases/Particles/Gibs/cardboard_gibs.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5">
+			<animations>
+				<animation name="particle_cardboard_gibs_main" speed="120" mode="loop" from_frame="0" to_frame="3" />
+			</animations>
+		</image>
+		
+		<!-- Special -->
+		<image type="grid" name="particle_confetti_#" file="Data/Atlases/Particles/Special/confetti.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5">
+			<animations>
+				<animation name="particle_confetti_main" speed="120" mode="loop" from_frame="0" to_frame="12" />
+			</animations>
+		</image>
+    <image type="grid" name="particle_glass_#" file="Data/Atlases/Particles/Special/glass.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5">
+      <animations>
+        <animation name="particle_glass_main" speed="120" mode="loop" from_frame="0" to_frame="3" />
+      </animations>
+    </image>
+		<image type="grid" name="particle_smoke_puff_#" file="Data/Atlases/Particles/Special/puff.png"  width="48" height="48" hspace="1" vspace="1" origin="0.5,0.5">
+			<animations>
+				<animation name="particle_smoke_puff_main" speed="120" mode="loop" from_frame="0" to_frame="7" />
+			</animations>
+		</image>
+		<image type="grid" name="particle_spawn_bottom_#" file="Data/Atlases/Particles/Special/spawn_bottom.png"  width="64" height="64" hspace="0" vspace="0">
+			<animations>
+				<animation name="particle_spawn_bottom_begin" speed="100" mode="once" from_frame="0" to_frame="10" />
+			</animations>
+		</image>
+		<image type="grid" name="particle_spawn_top_#" file="Data/Atlases/Particles/Special/spawn_top.png"  width="64" height="64" hspace="0" vspace="0">
+			<animations>
+				<animation name="particle_spawn_top_begin" speed="100" mode="once" from_frame="0" to_frame="10" />
+			</animations>
+		</image>
+		
+		<!-- Weather -->
+		<image type="single" name="particle_weather_dark" file="Data/Atlases/Particles/Weather/dark.png"  	origin="0.5,0.5" />
+		<image type="single" name="particle_weather_fog_1" file="Data/Atlases/Particles/Weather/fog_1.png"  	origin="0.5,0.5" />
+		<image type="single" name="particle_weather_fog_2" file="Data/Atlases/Particles/Weather/fog_2.png"  	origin="0.5,0.5" />
+		<image type="grid" name="particle_weather_rain_#" file="Data/Atlases/Particles/Weather/rain.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="particle_weather_rain_idle" 	speed="100" mode="once" from_frame="0" to_frame="0" />
+				<animation name="particle_weather_rain_splash" speed="100" mode="once" from_frame="1" to_frame="3" />
+			</animations>
+		</image>	
+		 
+		<!-- Weapons -->
+		<image type="grid" name="particle_bolt_casing_#" file="Data/Atlases/Particles/Weapons/Casings/bolt_casing.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5" />
+		<image type="grid" name="particle_bullet_casing_#" file="Data/Atlases/Particles/Weapons/Casings/bullet_casing.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5" />
+		<image type="grid" name="particle_flare_casing_#" file="Data/Atlases/Particles/Weapons/Casings/flare_casing.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5" />
+		<image type="grid" name="particle_magnum_casing_#" file="Data/Atlases/Particles/Weapons/Casings/magnum_casing.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5" />
+		<image type="grid" name="particle_rifle_casing_#" file="Data/Atlases/Particles/Weapons/Casings/rifle_casing.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5" />
+		<image type="grid" name="particle_shock_casing_#" file="Data/Atlases/Particles/Weapons/Casings/shock_casing.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5" />
+		<image type="grid" name="particle_shotgun_casing_#" file="Data/Atlases/Particles/Weapons/Casings/shotgun_casing.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5" />
+		<image type="grid" name="particle_medium_muzzle_flash_#" file="Data/Atlases/Particles/Weapons/Muzzle_Flashes/medium_muzzle_flash.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.0" />
+		<image type="grid" name="particle_quad_muzzle_flash_#" file="Data/Atlases/Particles/Weapons/Muzzle_Flashes/quad_muzzle_flash.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.0" />
+		<image type="grid" name="particle_small_muzzle_flash_#" file="Data/Atlases/Particles/Weapons/Muzzle_Flashes/small_muzzle_flash.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.0" />
+		<image type="grid" name="particle_thin_muzzle_flash_#" file="Data/Atlases/Particles/Weapons/Muzzle_Flashes/thin_muzzle_flash.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.0" />
+		<image type="grid" name="particle_tiny_muzzle_flash_#" file="Data/Atlases/Particles/Weapons/Muzzle_Flashes/tiny_muzzle_flash.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.0" />
+		<image type="grid" name="particle_tri_muzzle_flash_#" file="Data/Atlases/Particles/Weapons/Muzzle_Flashes/tri_muzzle_flash.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.0" />
+		<image type="single" name="particle_freeze_overlay" file="Data/Atlases/Particles/Weapons/Overlays/freeze_overlay.png"  	origin="0.5,0.9" />
+		<image type="grid" name="particle_acid_#" file="Data/Atlases/Particles/Weapons/Projectiles/acid.png"  width="26" height="20" hspace="1" vspace="1" origin="0.5,0.5"> 
+			<animations>
+				<animation name="particle_acid_main" speed="120" mode="once" from_frame="0" to_frame="11" />
+			</animations>
+			<multi_layer_frames>
+				<multi_layer_frame layer_index="-1" frame_offset="6" />
+				<multi_layer_frame layer_index="0" frame_offset="0" />
+			</multi_layer_frames>
+		</image>  
+		<image type="grid" name="particle_bolt_projectile_#" file="Data/Atlases/Particles/Weapons/Projectiles/bolt_projectile.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5" />
+		<image type="grid" name="particle_buff_grenade_ammo_projectile_#" file="Data/Atlases/Particles/Weapons/Projectiles/buff_grenade_ammo.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5" />
+		<image type="grid" name="particle_buff_grenade_damage_projectile_#" file="Data/Atlases/Particles/Weapons/Projectiles/buff_grenade_damage.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5" />
+		<image type="grid" name="particle_buff_grenade_health_projectile_#" file="Data/Atlases/Particles/Weapons/Projectiles/buff_grenade_health.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5" />
+		<image type="grid" name="particle_buff_grenade_price_projectile_#" file="Data/Atlases/Particles/Weapons/Projectiles/buff_grenade_price.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5" />
+		<image type="grid" name="particle_buff_grenade_reload_projectile_#" file="Data/Atlases/Particles/Weapons/Projectiles/buff_grenade_reload.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5" />
+		<image type="grid" name="particle_buff_grenade_rof_projectile_#" file="Data/Atlases/Particles/Weapons/Projectiles/buff_grenade_rof.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5" />
+		<image type="grid" name="particle_buff_grenade_speed_projectile_#" file="Data/Atlases/Particles/Weapons/Projectiles/buff_grenade_speed.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5" />
+		<image type="grid" name="particle_buff_grenade_xp_projectile_#" file="Data/Atlases/Particles/Weapons/Projectiles/buff_grenade_xp.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5" />
+
+    <image type="grid" name="particle_frag_projectile_#" file="Data/Atlases/Particles/Weapons/Projectiles/frag.png"  width="19" height="19" hspace="1" vspace="1" origin="0.5,0.5" />
+    <image type="grid" name="particle_molotov_projectile_#" file="Data/Atlases/Particles/Weapons/Projectiles/molotov.png"  width="20" height="20" hspace="1" vspace="1" origin="0.5,0.5" />
+    
+		<image type="grid" name="particle_bullet_hit_#" file="Data/Atlases/Particles/Weapons/Projectiles/bullet_hit.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,1.0" />
+		<image type="grid" name="particle_bullet_projectile_#" file="Data/Atlases/Particles/Weapons/Projectiles/bullet_projectile.png"  width="16" height="16" hspace="1" vspace="1" origin="0.5,0.5" />
+		<image type="grid" name="particle_flare_projectile_#" file="Data/Atlases/Particles/Weapons/Projectiles/flare_projectile.png"  width="16" height="16" hspace="0" vspace="0"  origin="0.5,0.5">
+			<animations>
+				<animation name="particle_flare_projectile_main" speed="100" mode="once" from_frame="0" to_frame="3" />
+			</animations>
+		</image>	
+		<image type="single" name="particle_ice_projectile" file="Data/Atlases/Particles/Weapons/Projectiles/ice_projectile.png"  	origin="0.5,0.5" />
+		<image type="grid" name="particle_laser_cannon_beam_#" file="Data/Atlases/Particles/Weapons/Projectiles/laser_beam.png"  width="17" height="13" hspace="1" vspace="1" origin="0.5,0.0">
+			<animations>
+				<animation name="particle_laser_cannon_beam_main" speed="120" mode="once" from_frame="0" to_frame="11" />
+				<!--
+				<animation name="particle_laser_cannon_beam_player_1_begin" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="particle_laser_cannon_beam_player_1_middle" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="particle_laser_cannon_beam_player_1_end" speed="120" mode="once" from_frame="8" to_frame="8" />
+				<animation name="particle_laser_cannon_beam_player_2_begin" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="particle_laser_cannon_beam_player_2_middle" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="particle_laser_cannon_beam_player_2_end" speed="120" mode="once" from_frame="9" to_frame="9" />
+				<animation name="particle_laser_cannon_beam_player_3_begin" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="particle_laser_cannon_beam_player_3_middle" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="particle_laser_cannon_beam_player_3_end" speed="120" mode="once" from_frame="10" to_frame="10" />
+				<animation name="particle_laser_cannon_beam_player_4_begin" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="particle_laser_cannon_beam_player_4_middle" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="particle_laser_cannon_beam_player_4_end" speed="120" mode="once" from_frame="11" to_frame="11" />
+				-->
+			</animations>
+		</image>				
+		<image type="grid" name="particle_love_projectile_#" file="Data/Atlases/Particles/Weapons/Projectiles/love_projectile.png"  width="16" height="16" hspace="0" vspace="0"  origin="0.5,0.5">
+			<animations>
+				<animation name="particle_love_projectile_main" speed="100" mode="once" from_frame="0" to_frame="3" />
+			</animations>
+		</image>			
+		<image type="grid" name="particle_rocket_projectile_#" file="Data/Atlases/Particles/Weapons/Projectiles/rocket_projectile.png"  width="17" height="17" hspace="1" vspace="1"  origin="0.5,0.5">
+			<animations>
+				<animation name="particle_rocket_projectile_main" speed="100" mode="once" from_frame="0" to_frame="3" />
+			</animations>
+		</image>
+    <image type="grid" name="particle_rocket_projectile_2_#" file="Data/Atlases/Particles/Weapons/Projectiles/rocket_projectile_2.png"  width="12" height="23" hspace="0" vspace="0"  origin="0.5,0.5">
+      <animations>
+        <animation name="particle_rocket_projectile_2_main" speed="100" mode="once" from_frame="0" to_frame="0" />
+      </animations>
+    </image>
+    <image type="grid" name="particle_rocket_projectile_3_#" file="Data/Atlases/Particles/Weapons/Projectiles/rocket_projectile_3.png"  width="8" height="24" hspace="0" vspace="0"  origin="0.5,0.5">
+      <animations>
+        <animation name="particle_rocket_projectile_3_main" speed="100" mode="once" from_frame="0" to_frame="0" />
+      </animations>
+    </image>
+    <image type="grid" name="particle_rpc_projectile_#" file="Data/Atlases/Particles/Weapons/Projectiles/rpc_projectile.png"  width="32" height="32" hspace="1" vspace="1" origin="0.5,0.5">
+			<animations>
+				<animation name="particle_rpc_projectile_idle_s" speed="80" mode="loop" from_frame="0" to_frame="1" />
+				<animation name="particle_rpc_projectile_idle_se" speed="80" mode="loop" from_frame="2" to_frame="3" />
+				<animation name="particle_rpc_projectile_idle_e" speed="80" mode="loop" from_frame="4" to_frame="5" />
+				<animation name="particle_rpc_projectile_idle_ne" speed="80" mode="loop" from_frame="6" to_frame="7" />
+				<animation name="particle_rpc_projectile_idle_n" speed="80" mode="loop" from_frame="8" to_frame="9" />
+				<animation name="particle_rpc_projectile_idle_nw" speed="80" mode="loop" from_frame="10" to_frame="11" />
+				<animation name="particle_rpc_projectile_idle_w" speed="80" mode="loop" from_frame="12" to_frame="13" />
+				<animation name="particle_rpc_projectile_idle_sw" speed="80" mode="loop" from_frame="14" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="particle_lightning_projectile_#" file="Data/Atlases/Particles/Weapons/Projectiles/shock_beam.png"  width="20" height="30" hspace="1" vspace="1"  origin="0.5,0.0">
+			<animations>
+				<!--<animation name="particle_lightning_projectile_begin" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="particle_lightning_projectile_idle" speed="120" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="particle_lightning_projectile_finish" speed="120" mode="once" from_frame="1" to_frame="1" /> -->
+				<animation name="particle_lightning_projectile_main" speed="120" mode="once" from_frame="0" to_frame="3" />
+			</animations>
+		</image> 
+		<image type="grid" name="particle_sticky_projectile_#" file="Data/Atlases/Particles/Weapons/Projectiles/sticky_projectile.png"  width="26" height="14" hspace="1" vspace="1"  origin="0.5,0.5"> 
+			<animations>
+				<animation name="particle_sticky_projectile_main" speed="120" mode="loop" from_frame="0" to_frame="9" />
+			</animations>
+			<multi_layer_frames>
+				<multi_layer_frame layer_index="-1" frame_offset="5" />
+				<multi_layer_frame layer_index="0" frame_offset="0" />
+			</multi_layer_frames>
+		</image>
+		<image type="grid" name="particle_tripmine_projectile_#" file="Data/Atlases/Particles/Weapons/Projectiles/tripmine.png"  width="20" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="particle_tripmine_projectile_s" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="particle_tripmine_projectile_n" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="particle_tripmine_projectile_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="particle_tripmine_projectile_w" speed="120" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="particle_tripemine_beam_#" file="Data/Atlases/Particles/Weapons/Projectiles/tripmine_beam.png"  width="15" height="15" hspace="1" vspace="1"  origin="0.5,0.0">
+			<animations>
+				<animation name="particle_tripemine_beam_main" speed="120" mode="once" from_frame="0" to_frame="2" />
+			</animations>
+		</image> 
+			
+		<!-- Generic -->
+		<image type="grid" name="particle_shape_rect_#" file="Data/Atlases/Actors/Shapes/rect.png"  width="64" height="64" hspace="1" vspace="1" origin="0.5,0.5" />
+		<image type="grid" name="particle_shape_oval_#" file="Data/Atlases/Actors/Shapes/oval.png"  width="64" height="64" hspace="1" vspace="1" origin="0.5,0.5" />
+		
+		<!-- Collectibles -->
+		<image type="grid" name="particle_collectible_coin_#" file="Data/Atlases/Actors/Pickups/coin.png"  width="8" height="8" hspace="1" vspace="1">
+			<animations>
+				<animation name="particle_collectible_coin_bronze" speed="100" mode="loop" from_frame="0" to_frame="3" />
+				<animation name="particle_collectible_coin_silver" speed="100" mode="loop" from_frame="4" to_frame="7" />
+				<animation name="particle_collectible_coin_gold" speed="100" mode="loop" from_frame="8" to_frame="11" />
+			</animations>
+		</image>	
+		
+		<!-- Actors -->
+		<image type="grid" name="particle_turrets_base_#" file="Data/Atlases/Actors/Turrets/base.png"  width="48" height="48" hspace="0" vspace="0" origin="0.5,0.6" />
+		
+	</images>
+	<animations>
+	</animations>
+</xml>

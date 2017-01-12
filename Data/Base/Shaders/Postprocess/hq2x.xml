@@ -1,0 +1,14 @@
+<xml>
+	<settings>
+		<name>hq2x</name>
+	</settings>
+	<uniforms>
+		<uniform name="g_texture" 						type="texture" 	value="POST_PROCESS_INPUT_TEXTURE" />
+		<uniform name="g_lut" 							type="texture" 	value="hq2x_lut" />
+		<uniform name="g_res" 							type="vector3" 	value="RESOLUTION" />
+		<uniform name="g_screen_size" 					type="vector3" 	value="SCREEN_RESOLUTION" />
+		<uniform name="g_world_view_projection_matrix" 	type="matrix4" 	value="WORLD_VIEW_PROJECTION_MATRIX" />
+	</uniforms>
+	<fragment>Data/Shaders/PostProcess/hq2x.frag</fragment>
+	<vertex>Data/Shaders/PostProcess/hq2x.vert</vertex>
+</xml>

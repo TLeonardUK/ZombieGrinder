@@ -1,0 +1,60 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>profiler</name>
+	</settings>
+	<layout>
+ 
+<!--
+		<element name="toolbar_container" type="SplitContainer" box="0,0,1,1" direction="horizontal" offset="150" resizable="true" AspectScaling="False">
+
+			<element name="camera_container_item" type="SplitContainerItem" fixed="false">		
+				<element name="camera_panel" type="Panel" box="0,0,1,1" backcolor="0,0,0,0" /> 						
+			</element>
+				
+			<element name="toolbar_container_item" type="SplitContainerItem" size="100" fixed="false"> 
+			
+				<element name="toolbar_container" type="SplitContainer" box="0,0,1,1" direction="horizontal" resizable="false">
+
+					<element name="camera_container_item" type="SplitContainerItem" size="34" fixed="true">		
+									
+						<element name="toolbar" type="Toolbar" box="0,0,1,1" backcolor="255,255,255,255">
+						
+							<element name="memory_toolbar_item" type="ToolbarItem" icon="icon_memory" />		
+							<element name="cpu_toolbar_item" type="ToolbarItem" icon="icon_cpu" />		
+							<element name="network_toolbar_item" type="ToolbarItem" icon="icon_network" />		
+
+						</element>
+									 
+					</element> 
+					
+					<element name="toolbar_container_item" type="SplitContainerItem" size="200" fixed="false">
+	
+						<element name="" type="SplitContainer" box="0,0,1,1" direction="vertical" offset="-300" resizable="true"> 
+
+							<element name="" type="SplitContainerItem" size="200" fixed="false">		
+											 
+								<element name="properties_panel" type="PropertyGrid" box="0,0,1,1" backcolor="0,255,0,255" /> 
+								
+							</element> 
+							 
+							<element name="" type="SplitContainerItem" size="0" fixed="false">
+			
+								<element name="curve_panel" type="CurveEditor" box="0,0,1,1" backcolor="255,0,0,255" /> 	
+								
+							</element>
+			
+						</element>		
+
+					</element>
+	
+				</element>
+				
+			</element>					
+				
+		</element>
+-->
+	</layout>
+</xml>

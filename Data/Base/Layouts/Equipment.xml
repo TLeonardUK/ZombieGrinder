@@ -1,0 +1,44 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings> 
+		<name>equipment</name>
+	</settings>
+	<layout> 
+		<element name="title_label"   			type="Label" box="0,0,1,0.1" HAlign="Center" VAlign="Center" ForeColor="102,102,102,255" Padding="0,0,0,0" value="#menu_equipment_title" />	
+	
+		<element name="name_box" 				type="Label" 		box="0.65,0.12,0.30,0.070" BackColor="255,255,255,255" ForeColor="255,255,255,255" Value=""  />	
+		<element name="gold_label"   			type="Label"		 box="0.65,0.17,0.30,0.070" HAlign="Left" VAlign="Center" ForeColor="255,255,255,255" Padding="0,0,0,0" value="" UseMarkup="True" />	
+		<element name="skill_label"   			type="Label"		 box="0.65,0.17,0.30,0.070" HAlign="Right" VAlign="Center" ForeColor="255,255,255,255" Padding="0,0,0,0" value="" UseMarkup="True" />	
+		<element name="description_label" 		type="Panel" 		box="0.65,0.25,0.30,0.45" ForeColor="156,157,158,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,200" Padding="10,10,10,10" Value="" />	
+		
+		<element name="equip_slot_1" 			type="Panel" 		box="0.65,0.71,0.0825,0.11" ForeColor="156,157,158,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,200" Padding="10,10,10,10" Value="" />	
+		<element name="equip_slot_2" 			type="Panel" 		box="0.75875,0.71,0.0825,0.11" ForeColor="156,157,158,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,200" Padding="10,10,10,10" Value="" />	
+		<element name="equip_slot_3" 			type="Panel" 		box="0.8675,0.71,0.0825,0.11" ForeColor="156,157,158,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,200" Padding="10,10,10,10" Value="" />	
+				
+		<element name="level_label" 			type="Label" 		box="0.65,0.83,0.30,0.045" ForeColor="156,157,158,255"  FrameColor="255,255,255,200" Value="#menu_inventory_level" />	
+		<element name="level_progress" 			type="ProgressBar" 	box="0.65,0.88,0.30,0.040" Padding="0,0,0,0" progress="0" ForeColor="255,194,14,255" />	
+			  	
+		<element name="grid_view"				type="Grid"			box="0.15,0.12,0.40,0.71" Dimensions="4,5" GridSpacing="5,5" />
+			
+		<element name="back_button" 			type="Button" 		box="0.15,0.85,0.3,0.070" FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#menu_back"  />	
+  
+		<element name="info_panel"					type="Panel" 		box="0,0.0,0.35,0.25" 	  FrameColor="255,255,255,0" Frame="screen_main_box_inactive_#" AspectScaling="False" >			
+			<element name="info_name_label"   		type="Label" 		box="0.05,0.05,0.9,0.125" HAlign="Left" VAlign="Center" ForeColor="255,255,255,0" Padding="0,0,0,0" value="" UseMarkup="True" WordWrap="False" />	
+			<element name="info_price_label"  	 	type="Label" 		box="0.05,0.05,0.9,0.125" HAlign="Right" VAlign="Center" ForeColor="255,255,255,0" Padding="0,0,0,0" value="" UseMarkup="True" WordWrap="False" />	
+			<element name="info_description_label"  type="Label" 		box="0.05,0.25,0.9,0.50" HAlign="Left" VAlign="Top" ForeColor="255,255,255,0" Padding="0,0,0,0" value=""  UseMarkup="True" WordWrap="True" Scale="0.65,0.65" />
+
+      <element name="info_durability_label"   type="Label"  box="0.05,0.795,0.4,0.15" HAlign="Left" VAlign="Top" ForeColor="175,175,175,255" Padding="0,0,15,0" Value="#menu_inventory_durability" Scale="0.75,0.75" />
+      <element name="info_durability_bar" type="ProgressBar"   box="0.35,0.795,0.6,0.15"  progress="0" ForeColor="255,194,14,255" />
+    </element>			
+ 
+		<element name="item_option_menu"	type="DropDownMenu" box="0.50,0.16,0.20,0.18" FrameColor="255,255,255,230">
+			<element name="equip_button"	type="Button" 	box="0.1,0.0,0.7,0.20" FrameColor="255,255,255,230" Value="#menu_equip" 	HAlign="Left" VAlign="Center" NoFrame="1" />					
+			<element name="upgrade_button" 	type="Button" 	box="0.1,0.2,0.7,0.20" FrameColor="255,255,255,230" Value="#menu_upgrade" 	HAlign="Left" VAlign="Center" NoFrame="1" />			
+			<element name="combine_button" 	type="Button" 	box="0.1,0.4,0.7,0.20" FrameColor="255,255,255,230" Value="#menu_combine" 	HAlign="Left" VAlign="Center" NoFrame="1" />					
+			<element name="sell_button" 	type="Button" 	box="0.1,0.6,0.7,0.20" FrameColor="255,255,255,230" Value="#menu_sell" 		HAlign="Left" VAlign="Center" NoFrame="1" />			
+			<element name="close_button" 	type="Button" 	box="0.1,0.8,0.7,0.20" FrameColor="255,255,255,230" Value="#menu_close" 	HAlign="Left" VAlign="Center" NoFrame="1" />					
+		</element> 		     
+	</layout>   
+</xml>  

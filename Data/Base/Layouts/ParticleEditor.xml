@@ -1,0 +1,108 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>particle_editor</name>
+	</settings>
+	<layout>
+	
+		<!-- Menu/Main Panel Container -->
+		<element name="main_container" type="SplitContainer" box="0,0,1,1" direction="horizontal" resizable="false" AspectScaling="False">
+
+			<!-- Menu -->		
+			<element name="menu_container_item" type="SplitContainerItem" size="26" fixed="true">
+
+				<element name="menu" type="MenuBar" box="0,0,1,1" itempadding="8,7,8,14">
+					
+					<element name="" type="MenuItem" value="#editor_file">
+						<element name="new_menu_item" type="MenuItem" value="#editor_new_pfx" icon="icon_new_file" />				
+						<element name="open_menu_item" type="MenuItem" value="#editor_open_pfx" icon="icon_folder" />			
+						<element name="" type="MenuItem" value="" />			
+						<element name="save_menu_item" type="MenuItem" value="#editor_save_pfx" icon="icon_save" />	
+						<element name="save_as_menu_item" type="MenuItem" value="#editor_save_pfx_as" icon="icon_saveas" />			
+						<element name="" type="MenuItem" value="" />
+						<element name="exit_menu_item" type="MenuItem" value="#editor_exit_to_editor" icon="icon_subtract" />				
+					</element>
+					
+					<!--
+					<element name="" type="MenuItem" value="#editor_edit">		
+						<element name="undo_menu_item" type="MenuItem" value="#editor_undo" icon="icon_undo" />				
+						<element name="redo_menu_item" type="MenuItem" value="#editor_redo" icon="icon_redo" />							
+					</element>
+					--> 
+					
+					<element name=""  type="MenuItem" value="#editor_view">				
+						<element name="show_collision_menu_item" type="MenuItem" value="#editor_show_collision" icon="icon_collision" />		
+						<element name="" type="MenuItem" value="" />	
+						<element name="reset_camera_menu_item" type="MenuItem" value="#editor_reset_camera" icon="icon_randomise" />
+            <element name="" type="MenuItem" value="" />
+            <element name="show_lighting_menu_item" type="MenuItem" value="#editor_show_lighting" icon="icon_collision" />				
+					</element>
+					
+				</element>	
+				
+			</element>
+		
+			<!-- Curves/Camera Panel -->
+			<element name="toolbarcamera_container_item" type="SplitContainerItem" fixed="false">
+			
+				<element name="toolbar_container" type="SplitContainer" box="0,0,1,1" direction="horizontal" offset="150" resizable="true">
+
+					<!-- Camera Panel -->		  
+					<element name="camera_container_item" type="SplitContainerItem" fixed="false">		
+						<element name="camera_panel" type="Panel" box="0,0,1,1" backcolor="0,0,0,0" /> 						
+					</element>
+					
+					<!-- Curves -->		
+					<element name="toolbar_container_item" type="SplitContainerItem" size="100" fixed="false"> 
+					
+						<element name="toolbar_container" type="SplitContainer" box="0,0,1,1" direction="horizontal" resizable="false">
+
+							<!-- Curve Toolbar -->		
+							<element name="camera_container_item" type="SplitContainerItem" size="34" fixed="true">		
+											
+								<element name="toolbar" type="Toolbar" box="0,0,1,1" backcolor="255,255,255,255">
+								
+									<element name="add_effect_toolbar_item" type="ToolbarItem" icon="icon_add_emitter" />		
+									<element name="add_attractor_toolbar_item" type="ToolbarItem" icon="icon_add_attractor" />		
+
+								</element>
+											 
+							</element> 
+							
+							<!-- Curves Panels -->		
+							<element name="toolbar_container_item" type="SplitContainerItem" size="200" fixed="false">
+			
+								<element name="" type="SplitContainer" box="0,0,1,1" direction="vertical" offset="-300" resizable="true"> 
+
+									<!-- Curve Properties -->		
+									<element name="" type="SplitContainerItem" size="200" fixed="false">		
+													 
+										<element name="properties_panel" type="PropertyGrid" box="0,0,1,1" backcolor="0,255,0,255" /> 
+										
+									</element> 
+									 
+									<!-- Curves Panesl -->		
+									<element name="" type="SplitContainerItem" size="0" fixed="false">
+					
+										<element name="curve_panel" type="CurveEditor" box="0,0,1,1" backcolor="255,0,0,255" /> 	
+										
+									</element>
+					
+								</element>		
+
+							</element>
+			
+						</element>
+						
+					</element>					
+						
+				</element>
+					
+			</element>
+
+		</element>
+		
+	</layout>
+</xml>

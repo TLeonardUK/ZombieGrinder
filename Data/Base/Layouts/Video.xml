@@ -1,0 +1,13 @@
+<xml>
+	<settings>
+		<name>video</name>
+	</settings>
+	<layout>
+		<element name="bg" type="Panel" box="0,0,1,1" BackColor="0,0,0,255" AspectScaling="False" />	  
+		<element name="video" type="Panel" box="0,0,1,1" BGScaleMode="Zoom" BackColor="0,0,0,255" AspectScaling="False" />	  
+		<element name="subtitle" type="Label" box="0.2,0.85,0.6,0.1" HAlign="Center" VAlign="Center" UseMarkup="True" ForeColor="255,255,255,255" value="" AspectScaling="False" />
+		
+		<element name="skip_progress_bar" type="ProgressBar" box="0.025,0.9,0.15,0.05" Padding="0,0,0,0" progress="0" ForeColor="200,14,14,255" ShowProgress="0" />	
+		<element name="skip_progress_text" type="Label" box="0.025,0.9,0.15,0.05" HAlign="Center" VAlign="Bottom" ForeColor="170,170,170,255" value="#video_skip" />	
+	</layout>
+</xml>

@@ -1,0 +1,19 @@
+<xml>
+	<settings>
+		<name>moderation</name>
+	</settings>
+	<layout>
+		<element name="title_label"   					type="Label" 		box="0,0,1,0.1" HAlign="Center" VAlign="Center" ForeColor="102,102,102,255" Padding="0,0,0,0" value="#moderation_title" />	
+		<element name="case_id"	   						type="Label" 		box="0.1,0.1,1,0.1" HAlign="Left" VAlign="Center" ForeColor="255,255,255,255" Padding="0,0,0,0"  UseMarkup="True" value="#moderation_case_timeframe" />	
+		<element name="case_length"   					type="Label" 		box="0.1,0.15,1,0.1" HAlign="Left" VAlign="Center" ForeColor="255,255,255,255" Padding="0,0,0,0"  UseMarkup="True" value="#moderation_case_timeframe" />	
+		<element name="reported_user"  					type="Label" 		box="0.1,0.20,1,0.1" HAlign="Left" VAlign="Center" ForeColor="255,255,255,255" Padding="0,0,0,0" UseMarkup="True" value="#moderation_reported_user" />	
+		<element name="reported_reasons"  				type="Label" 		box="0.1,0.25,1,0.1" HAlign="Left" VAlign="Center" ForeColor="255,255,255,255" Padding="0,0,0,0" UseMarkup="True" value="#moderation_reported_for" />			
+		
+		<element name="description_label"  				type="Label" 		box="0.1,0.375,0.8,0.5" HAlign="Left" VAlign="Top" ForeColor="200,200,200,255" Padding="0,0,0,0" value="#moderation_description" />	
+
+		<element name="download_progress"  				type="Label" 		box="0.1,0.70,1,0.1" HAlign="Left" VAlign="Center" ForeColor="255,255,255,255" Padding="0,0,0,0" value="#moderation_downloading" />	
+		
+		<element name="begin_button" 					type="Button" 		box="0.1,0.85,0.2,0.070" FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#menu_begin" Enabled="False" />	
+		<element name="back_button" 					type="Button" 		box="0.35,0.85,0.2,0.070" FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#menu_back"  />	
+	</layout>
+</xml>

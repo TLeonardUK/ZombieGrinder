@@ -1,0 +1,89 @@
+<xml>
+  <editor>
+    <asset_type>Atlas</asset_type>
+  </editor>
+	<settings>
+		<texture-size>1024</texture-size>
+		<max-textures>1</max-textures>
+		<name>Main</name>
+	</settings>
+	<images>
+		<image type="grid" name="main_tile_#" file="Data/Atlases/Tilesets/Main/Main.png" width="16" height="16" hspace="1" vspace="1" />	
+	</images> 
+	<animations>
+		<!-- Main -->
+		<animation name="stairs_top" mode="loop" speed="100">
+			<frame type="multiple_indexed" from="29" to="32" />
+		</animation>
+		<animation name="stairs_middle" mode="loop" speed="100">
+			<frame type="multiple_indexed" from="43" to="46" />
+		</animation>
+		<animation name="stairs_bottom" mode="loop" speed="100">
+			<frame type="multiple_indexed" from="57" to="60" />
+		</animation>
+		
+		<!-- Heist -->
+		<animation name="main_escalate_v" mode="loop" speed="50">
+			<frame type="multiple_indexed" from="854" to="861" />			<!-- 0, 61	= (61*14) + 0	-->
+		</animation>
+		<animation name="main_escalate_h" mode="loop" speed="50">
+			<frame type="multiple_indexed" from="868" to="875" />			<!-- 0, 62	= (62*14) + 0	-->
+		</animation>
+		
+		<!-- Random -->
+		<animation name="main_torch_north" mode="loop" speed="100">
+			<frame type="multiple_indexed" from="1401" to="1406" />		<!-- 1, 100	= (100*14) + 1	-->
+		</animation>
+		<animation name="main_torch_west" mode="loop" speed="100">
+			<frame type="multiple_indexed" from="1429" to="1434" />		<!-- 1, 102	= (102*14) + 1	-->
+		</animation>
+		<animation name="main_torch_east" mode="loop" speed="100">
+			<frame type="multiple_indexed" from="1457" to="1462" />		<!-- 1, 104	= (104*14) + 1	-->
+		</animation>
+		<animation name="main_torch_south" mode="loop" speed="100">
+			<frame type="multiple_indexed" from="1485" to="1490" />		<!-- 1, 106	= (106*14) + 1	-->
+		</animation>
+		
+		<!-- Sewer -->
+		<animation name="main_water_pour" mode="loop" speed="100">			<!-- 5,48	= (48*14) + 5	-->
+			<frame type="multiple_indexed" from="677" to="678" />
+		</animation>
+		<animation name="main_angle_water" mode="loop" speed="100">
+			<frame type="multiple_indexed" from="688" to="690" />		<!-- 2, 49	= (49*14) + 2	-->
+		</animation>
+		<animation name="main_straight_water" mode="loop" speed="100">		<!-- 2, 50	= (50*14) + 2	-->
+			<frame type="multiple_indexed" from="702" to="704" />
+		</animation>
+		
+		<!-- Flowers -->
+		<animation name="main_flower_1" mode="loop" speed="300">
+			<frame type="multiple_indexed" from="1638" to="1639" />
+		</animation>
+		<animation name="main_flower_2" mode="loop" speed="300">
+			<frame type="multiple_indexed" from="1641" to="1642" />
+		</animation>
+		<animation name="main_flower_3" mode="loop" speed="300">
+			<frame type="multiple_indexed" from="1644" to="1645" />
+		</animation>
+		<animation name="main_flower_4" mode="loop" speed="300">
+			<frame type="multiple_indexed" from="1647" to="1648" />
+		</animation>
+		<animation name="main_flower_5" mode="loop" speed="300">
+			<frame type="multiple_indexed" from="1650" to="1651" />
+		</animation>
+		
+		<animation name="main_flower_6" mode="loop" speed="300">
+			<frame type="multiple_indexed" from="1652" to="1653" />
+		</animation>		
+		<animation name="main_flower_7" mode="loop" speed="300">
+			<frame type="multiple_indexed" from="1655" to="1656" />
+		</animation>
+		<animation name="main_flower_8" mode="loop" speed="300">
+			<frame type="multiple_indexed" from="1658" to="1659" />
+		</animation>
+		<animation name="main_flower_9" mode="loop" speed="300">
+			<frame type="multiple_indexed" from="1661" to="1662" />
+		</animation>
+		
+	</animations>
+</xml>   

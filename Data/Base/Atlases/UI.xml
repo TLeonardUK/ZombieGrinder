@@ -1,0 +1,1066 @@
+<xml>
+	<editor>
+    <asset_type>Atlas</asset_type>
+  </editor>
+	<settings>
+		<texture-size>2048</texture-size>
+		<max-textures>8</max-textures>
+		<name>UI</name>
+	</settings>
+	<images>
+	 
+		<!-- Game Stuff -->
+		<image type="grid" 		name="screen_main_arrows_#" 			file="Data/Atlases/UI/Game/arrows.png" 					width="12" height="13" hspace="1" vspace="1" />
+		<image type="grid" 		name="screen_main_arrows_light_#" 		file="Data/Atlases/UI/Game/arrows_light.png" 			width="12" height="13" hspace="1" vspace="1" />
+		<image type="grid" 		name="screen_main_box_active_#" 		file="Data/Atlases/UI/Game/box_active.png" 				width="8" height="8" hspace="1" vspace="1" />
+		<image type="grid" 		name="screen_main_box_inactive_#" 		file="Data/Atlases/UI/Game/box_inactive.png" 			width="8" height="8" hspace="1" vspace="1" />
+    <image type="grid" 		name="screen_main_box_equipped_#" 		file="Data/Atlases/UI/Game/box_equipped.png" 			width="8" height="8" hspace="1" vspace="1" />
+    <image type="grid" 		name="screen_main_box_tintable_#" 		file="Data/Atlases/UI/Game/box_tintable.png" 			width="8" height="8" hspace="1" vspace="1" />
+		<image type="grid" 		name="screen_main_button_#" 			file="Data/Atlases/UI/Game/button.png" 					width="2" height="2" hspace="1" vspace="1" />
+		<image type="grid" 		name="screen_main_button_active_#" 		file="Data/Atlases/UI/Game/button_active.png" 			width="2" height="2" hspace="1" vspace="1" />
+		<image type="grid" 		name="screen_main_button_press_#" 		file="Data/Atlases/UI/Game/button_press.png" 			width="2" height="2" hspace="1" vspace="1" />
+		<image type="grid" 		name="screen_main_combo_box_#" 			file="Data/Atlases/UI/Game/combo_box.png" 				width="13" height="12" hspace="1" vspace="1" />
+		<image type="single" 	name="screen_main_cursor" 				file="Data/Atlases/UI/Game/cursor.png" 					origin="1.0,0.35" />
+		<image type="grid" 		name="screen_main_input_active_#" 		file="Data/Atlases/UI/Game/input_active.png" 			width="2" height="2" hspace="1" vspace="1" />
+		<image type="grid" 		name="screen_main_input_inactive_#" 	file="Data/Atlases/UI/Game/input_inactive.png" 		 	width="2" height="2" hspace="1" vspace="1" />
+		<image type="grid" 		name="screen_main_plus_button_#" 		file="Data/Atlases/UI/Game/plus_button.png" 			width="11" height="11" hspace="1" vspace="1" />
+		<image type="grid" 		name="screen_main_progress_border_#"	file="Data/Atlases/UI/Game/progress_border.png" 		width="2" height="2" hspace="1" vspace="1" />
+		<image type="grid" 		name="screen_main_radio_button_#" 		file="Data/Atlases/UI/Game/radio_button.png" 			width="12" height="12" hspace="1" vspace="1" />
+		<image type="grid" 		name="screen_main_slider_#"				file="Data/Atlases/UI/Game/slider.png" 					width="2" height="2" hspace="1" vspace="1" />
+		<image type="grid" 		name="screen_main_slider_hover_#"		file="Data/Atlases/UI/Game/slider_hover.png" 			width="2" height="2" hspace="1" vspace="1" />
+		<image type="grid" 		name="screen_main_tickbox_#" 			file="Data/Atlases/UI/Game/tickbox.png" 				width="20" height="20" hspace="1" vspace="1" />
+		<image type="grid" 		name="voice_chat_indicator_#" 			file="Data/Atlases/UI/Game/voice_chat_indicator.png" 	width="20" height="20" hspace="1" vspace="1" />
+		<image type="grid" 		name="screen_main_item_border_active_#" file="Data/Atlases/UI/Game/item_border_active.png" 		width="2" height="2" hspace="1" vspace="1" />
+		<image type="grid" 		name="screen_main_item_border_inactive_#" file="Data/Atlases/UI/Game/item_border_inactive.png" 		width="2" height="2" hspace="1" vspace="1" />
+		<image type="single" 	name="screen_main_gold_icon" 			file="Data/Atlases/UI/Game/gold_icon.png" 					origin="0.0,0.0" />
+		<image type="single" 	name="screen_main_skill_icon" 			file="Data/Atlases/UI/Game/skill_icon.png" 					origin="0.0,0.0" />
+		<image type="single" 	name="screen_main_page_arrow" 			file="Data/Atlases/UI/Game/page_arrow.png" 					origin="0.5,0.5" />
+    <image type="single" 	name="screen_main_root_item_upgrade_socket" 			file="Data/Atlases/Screens/Game/Upgrades/root.png" 					origin="0.0,0.0" />
+    <image type="single" 	name="screen_main_item_upgrade_socket" 			file="Data/Atlases/Screens/Game/Upgrades/socket.png" 					origin="0.0,0.0" />
+    <image type="single" 	name="screen_main_item_upgrade_socket_selected" 			file="Data/Atlases/Screens/Game/Upgrades/selected.png" 					origin="0.0,0.0" />
+    <image type="single" 	name="screen_main_item_upgrade_socket_selected_oval" 			file="Data/Atlases/Screens/Game/Upgrades/selected_oval.png" 					origin="0.0,0.0" />
+		 
+		<!-- Editor -->		
+		<image type="single" 	name="editor_background" 		 		file="Data/Atlases/UI/Backgrounds/background.png" />
+		
+		<!-- Menu/Toolbar Icons -->
+		<image type="single" 	name="icon_new_file" 		 			file="Data/Atlases/UI/Icons/new_file.png" />
+		<image type="single" 	name="icon_mouse"	 		 			file="Data/Atlases/UI/Icons/mouse.png" />
+		<image type="single" 	name="icon_pencil"	 		 			file="Data/Atlases/UI/Icons/pencil.png" />
+		<image type="single" 	name="icon_rect"		 	 			file="Data/Atlases/UI/Icons/rect.png" />
+		<image type="single" 	name="icon_circle"		 	 			file="Data/Atlases/UI/Icons/circle.png" />
+		<image type="single" 	name="icon_add"	 	 					file="Data/Atlases/UI/Icons/add.png" />
+		<image type="single" 	name="icon_subtract"	 	 			file="Data/Atlases/UI/Icons/subtract.png" />
+		<image type="single" 	name="icon_cut"		 		 			file="Data/Atlases/UI/Icons/cut.png" />
+		<image type="single" 	name="icon_copy"	 		 			file="Data/Atlases/UI/Icons/copy.png" />
+		<image type="single" 	name="icon_paste"	 		 			file="Data/Atlases/UI/Icons/paste.png" />
+		<image type="single" 	name="icon_fill"	 		 			file="Data/Atlases/UI/Icons/fill.png" />
+		<image type="single" 	name="icon_about"	 		 			file="Data/Atlases/UI/Icons/about.png" />				
+		<image type="single" 	name="icon_build"	 		 			file="Data/Atlases/UI/Icons/build.png" />				
+		<image type="single" 	name="icon_collision"		 			file="Data/Atlases/UI/Icons/collision.png" />				
+		<image type="single" 	name="icon_file"	 		 			file="Data/Atlases/UI/Icons/file.png" />				
+		<image type="single" 	name="icon_folder"	 		 			file="Data/Atlases/UI/Icons/folder.png" />				
+		<image type="single" 	name="icon_folder_up"	 	 			file="Data/Atlases/UI/Icons/folder_up.png" />				 
+		<image type="single" 	name="icon_layer"	 		 			file="Data/Atlases/UI/Icons/layer.png" />				
+		<image type="single" 	name="icon_light"	 		 			file="Data/Atlases/UI/Icons/light.png" />				
+		<image type="single" 	name="icon_map_properties"	 			file="Data/Atlases/UI/Icons/map_properties.png" />			
+		<image type="single" 	name="icon_new"	 			 			file="Data/Atlases/UI/Icons/new.png" />				
+		<image type="single" 	name="icon_object_delete"	  			file="Data/Atlases/UI/Icons/object_delete.png" />				
+		<image type="single" 	name="icon_object_properties" 			file="Data/Atlases/UI/Icons/object_properties.png" />					
+		<image type="single" 	name="icon_object" 						file="Data/Atlases/UI/Icons/object.png" />				
+		<image type="single" 	name="icon_open"	 		 			file="Data/Atlases/UI/Icons/open.png" />				
+		<image type="single" 	name="icon_paintbrush"		 			file="Data/Atlases/UI/Icons/paintbrush.png" />				
+		<image type="single" 	name="icon_play"	 		 			file="Data/Atlases/UI/Icons/play.png" />			
+		<image type="single" 	name="icon_randomise" 		 			file="Data/Atlases/UI/Icons/randomise.png" />		
+		<image type="single" 	name="icon_save"	 		 			file="Data/Atlases/UI/Icons/save.png" />		
+		<image type="single" 	name="icon_saveas"	 		 			file="Data/Atlases/UI/Icons/saveas.png" />	
+		<image type="single" 	name="icon_select"	 		 			file="Data/Atlases/UI/Icons/select.png" />	
+		<image type="single" 	name="icon_tilemap"	 		 			file="Data/Atlases/UI/Icons/tilemap.png" />						
+		<image type="single" 	name="icon_zone"	 		 			file="Data/Atlases/UI/Icons/zone.png" />	
+		<image type="single" 	name="icon_undo"	 		 			file="Data/Atlases/UI/Icons/undo.png" />	
+		<image type="single" 	name="icon_redo"	 		 			file="Data/Atlases/UI/Icons/redo.png" />	
+		<image type="single" 	name="icon_erase"	 		 			file="Data/Atlases/UI/Icons/erase.png" />	
+		<image type="single" 	name="icon_flip_horizontal"	  			file="Data/Atlases/UI/Icons/flip_horizontal.png" />	
+		<image type="single" 	name="icon_flip_vertical"	  			file="Data/Atlases/UI/Icons/flip_vertical.png" />	
+		<image type="single" 	name="icon_white"			  			file="Data/Atlases/UI/Icons/white.png" />	
+		<image type="single" 	name="icon_pfx_editor"			  		file="Data/Atlases/UI/Icons/pfx.png" />	
+		<image type="single" 	name="icon_add_emitter"			  		file="Data/Atlases/UI/Icons/add_emitter.png" />	
+		<image type="single" 	name="icon_add_attractor"		  		file="Data/Atlases/UI/Icons/add_attractor.png" />	
+		<image type="single" 	name="icon_memory"			  			file="Data/Atlases/UI/Icons/memory.png" />	
+		<image type="single" 	name="icon_cpu"				  			file="Data/Atlases/UI/Icons/cpu.png" />	
+		<image type="single" 	name="icon_network"			  			file="Data/Atlases/UI/Icons/network.png" />
+    <image type="single" 	name="icon_up"	 		 			file="Data/Atlases/UI/Icons/arrow_up.png" />
+    <image type="single" 	name="icon_down"	 		 			file="Data/Atlases/UI/Icons/arrow_down.png" />
+
+    <!-- Cursor -->
+		<image type="single" 	name="cursor_pointer" 		 			file="Data/Atlases/UI/Cursor/pointer.png" />
+		<image type="single" 	name="cursor_split_horizontal" 	 		file="Data/Atlases/UI/Cursor/split_horizontal.png" 		origin="0.5,0.5" />
+		<image type="single" 	name="cursor_split_vertical" 	 		file="Data/Atlases/UI/Cursor/split_vertical.png" 		origin="0.5,0.5" />
+	
+		<!-- Button -->
+		<image type="grid" 		name="button_#" 						file="Data/Atlases/UI/Button/background.png" 					width="1" height="1" hspace="0" vspace="0" />
+		<image type="grid" 		name="button_active_#" 					file="Data/Atlases/UI/Button/background_hover.png" 				width="1" height="1" hspace="0" vspace="0" />
+		<image type="grid" 		name="button_press_#" 					file="Data/Atlases/UI/Button/background_pressed.png" 			width="1" height="1" hspace="0" vspace="0" />
+		 	
+		<!-- MenuBar -->
+		<image type="grid"		name="menubar_background_#"				file="Data/Atlases/UI/MenuBar/background_middle.png"   	width="3" height="3" hspace="0" vspace="0" />	
+		
+		<!-- FileBrowser -->
+		<image type="grid"		name="filebrowser_background_#"			file="Data/Atlases/UI/FileBrowser/background.png"   	width="1" height="1" hspace="0" vspace="0" />	
+		<image type="grid"		name="filebrowser_border_#"			file="Data/Atlases/UI/FileBrowser/border.png"   	width="1" height="1" hspace="0" vspace="0" />	
+		
+		<!-- MenuItem -->
+		<image type="grid"		name="menuitem_background_hover_#"		file="Data/Atlases/UI/MenuItem/background_hover.png"   		width="1" height="1" hspace="0" vspace="0" />	
+		<image type="grid"		name="menuitem_background_pressed_#"	file="Data/Atlases/UI/MenuItem/background_pressed.png" 		width="1" height="1" hspace="0" vspace="0" />	
+		<image type="grid"		name="menuitem_background_seperator_#"	file="Data/Atlases/UI/MenuItem/background_seperator.png" 	width="1" height="1" hspace="0" vspace="0" />	
+		<image type="grid"		name="menuitem_context_background_#"	file="Data/Atlases/UI/MenuItem/context_background.png" 		width="1" height="1" hspace="0" vspace="0" />	
+		<image type="single" 	name="menuitem_submenu_arrow_icon" 		file="Data/Atlases/UI/MenuItem/submenu_arrow_icon.png" />
+
+		<!-- SplitContainer -->
+		<image type="grid"		name="splitcontainer_background_#"		file="Data/Atlases/UI/SplitContainer/background_seperator.png" width="1" height="1" hspace="0" vspace="0" />	
+			
+		<!-- Toolbar -->
+		<image type="grid"		name="toolbar_background_#"				file="Data/Atlases/UI/Toolbar/background_middle.png"   	width="3" height="3" hspace="0" vspace="0" />	
+		
+		<!-- Toolbar Item -->
+		<image type="grid"		name="toolbaritem_background_hover_#"		file="Data/Atlases/UI/ToolbarItem/background_hover.png"   		width="1" height="1" hspace="0" vspace="0" />	
+		<image type="grid"		name="toolbaritem_background_pressed_#"		file="Data/Atlases/UI/ToolbarItem/background_pressed.png" 		width="1" height="1" hspace="0" vspace="0" />	
+		<image type="grid"		name="toolbaritem_background_seperator_#"	file="Data/Atlases/UI/ToolbarItem/background_seperator.png" 	width="1" height="1" hspace="0" vspace="0" />		
+		<image type="grid"		name="toolbaritem_background_#"				file="Data/Atlases/UI/ToolbarItem/background.png" 	width="1" height="1" hspace="0" vspace="0" />	
+			
+		<!-- Property Grid -->
+		<image type="grid"		name="property_grid_expand_#"		file="Data/Atlases/UI/PropertyGrid/expand_button.png"   		width="9" height="9" hspace="1" vspace="1" />	
+		<image type="grid"		name="property_grid_check_#"		file="Data/Atlases/UI/PropertyGrid/check_box.png"   		width="13" height="13" hspace="1" vspace="1" />	
+			
+		<!-- Dialogs -->
+		<image type="grid"		name="dialog_frame_#"				file="Data/Atlases/UI/Dialog/background.png"   		width="1" height="1" hspace="0" vspace="0" />	 
+		
+			
+		<!-- Keyboard Keys -->
+		<image type="single" 	name="keyboard_0" 		 			file="Data/Atlases/UI/Keys/Keyboard/0.png" />
+		<image type="single" 	name="keyboard_1" 		 			file="Data/Atlases/UI/Keys/Keyboard/1.png" />
+		<image type="single" 	name="keyboard_2" 		 			file="Data/Atlases/UI/Keys/Keyboard/2.png" />
+		<image type="single" 	name="keyboard_3" 		 			file="Data/Atlases/UI/Keys/Keyboard/3.png" />
+		<image type="single" 	name="keyboard_4" 		 			file="Data/Atlases/UI/Keys/Keyboard/4.png" />
+		<image type="single" 	name="keyboard_5" 		 			file="Data/Atlases/UI/Keys/Keyboard/5.png" />
+		<image type="single" 	name="keyboard_6" 		 			file="Data/Atlases/UI/Keys/Keyboard/6.png" />
+		<image type="single" 	name="keyboard_7" 		 			file="Data/Atlases/UI/Keys/Keyboard/7.png" />
+		<image type="single" 	name="keyboard_8" 		 			file="Data/Atlases/UI/Keys/Keyboard/8.png" />
+		<image type="single" 	name="keyboard_9" 		 			file="Data/Atlases/UI/Keys/Keyboard/9.png" />
+		<image type="single" 	name="keyboard_f1" 		 			file="Data/Atlases/UI/Keys/Keyboard/f1.png" />
+		<image type="single" 	name="keyboard_f2" 		 			file="Data/Atlases/UI/Keys/Keyboard/f2.png" />
+		<image type="single" 	name="keyboard_f3" 		 			file="Data/Atlases/UI/Keys/Keyboard/f3.png" />
+		<image type="single" 	name="keyboard_f4" 		 			file="Data/Atlases/UI/Keys/Keyboard/f4.png" />
+		<image type="single" 	name="keyboard_f5" 		 			file="Data/Atlases/UI/Keys/Keyboard/f5.png" />
+		<image type="single" 	name="keyboard_f6" 		 			file="Data/Atlases/UI/Keys/Keyboard/f6.png" />
+		<image type="single" 	name="keyboard_f7" 		 			file="Data/Atlases/UI/Keys/Keyboard/f7.png" />
+		<image type="single" 	name="keyboard_f8" 		 			file="Data/Atlases/UI/Keys/Keyboard/f8.png" />
+		<image type="single" 	name="keyboard_f9" 		 			file="Data/Atlases/UI/Keys/Keyboard/f9.png" />
+		<image type="single" 	name="keyboard_f10" 	 			file="Data/Atlases/UI/Keys/Keyboard/f10.png" />
+		<image type="single" 	name="keyboard_f11" 	 			file="Data/Atlases/UI/Keys/Keyboard/f11.png" />
+		<image type="single" 	name="keyboard_f12" 	 			file="Data/Atlases/UI/Keys/Keyboard/f12.png" />
+		<image type="single" 	name="keyboard_a" 		 			file="Data/Atlases/UI/Keys/Keyboard/a.png" />
+		<image type="single" 	name="keyboard_alt" 		 		file="Data/Atlases/UI/Keys/Keyboard/alt.png" />
+		<image type="single" 	name="keyboard_asterisk" 		 	file="Data/Atlases/UI/Keys/Keyboard/asterisk.png" />
+		<image type="single" 	name="keyboard_b" 		 			file="Data/Atlases/UI/Keys/Keyboard/b.png" />
+		<image type="single" 	name="keyboard_back_slash" 		 	file="Data/Atlases/UI/Keys/Keyboard/back_slash.png" />
+		<image type="single" 	name="keyboard_backspace" 		 	file="Data/Atlases/UI/Keys/Keyboard/backspace.png" />
+		<image type="single" 	name="keyboard_bracket_left" 		file="Data/Atlases/UI/Keys/Keyboard/bracket_left.png" />
+		<image type="single" 	name="keyboard_bracket_right" 		file="Data/Atlases/UI/Keys/Keyboard/bracket_right.png" />
+		<image type="single" 	name="keyboard_c" 		 			file="Data/Atlases/UI/Keys/Keyboard/c.png" />
+		<image type="single" 	name="keyboard_caps_lock" 		 	file="Data/Atlases/UI/Keys/Keyboard/caps_lock.png" />
+		<image type="single" 	name="keyboard_ctrl" 		 		file="Data/Atlases/UI/Keys/Keyboard/ctrl.png" />
+		<image type="single" 	name="keyboard_d" 		 			file="Data/Atlases/UI/Keys/Keyboard/d.png" />
+		<image type="single" 	name="keyboard_delete" 		 		file="Data/Atlases/UI/Keys/Keyboard/delete.png" />
+		<image type="single" 	name="keyboard_down" 		 		file="Data/Atlases/UI/Keys/Keyboard/down.png" />
+		<image type="single" 	name="keyboard_e" 		 			file="Data/Atlases/UI/Keys/Keyboard/e.png" />
+		<image type="single" 	name="keyboard_end" 		 		file="Data/Atlases/UI/Keys/Keyboard/end.png" />
+		<image type="single" 	name="keyboard_enter" 		 		file="Data/Atlases/UI/Keys/Keyboard/enter.png" />
+		<image type="single" 	name="keyboard_escape" 		 		file="Data/Atlases/UI/Keys/Keyboard/escape.png" />
+		<image type="single" 	name="keyboard_f" 		 			file="Data/Atlases/UI/Keys/Keyboard/f.png" />
+		<image type="single" 	name="keyboard_forward_slash" 		file="Data/Atlases/UI/Keys/Keyboard/forward_slash.png" />
+		<image type="single" 	name="keyboard_g" 		 			file="Data/Atlases/UI/Keys/Keyboard/g.png" />
+		<image type="single" 	name="keyboard_h" 		 			file="Data/Atlases/UI/Keys/Keyboard/h.png" />
+		<image type="single" 	name="keyboard_home" 		 		file="Data/Atlases/UI/Keys/Keyboard/home.png" />
+		<image type="single" 	name="keyboard_i" 		 			file="Data/Atlases/UI/Keys/Keyboard/i.png" />
+		<image type="single" 	name="keyboard_insert" 		 		file="Data/Atlases/UI/Keys/Keyboard/insert.png" />
+		<image type="single" 	name="keyboard_j" 		 			file="Data/Atlases/UI/Keys/Keyboard/j.png" />
+		<image type="single" 	name="keyboard_k" 		 			file="Data/Atlases/UI/Keys/Keyboard/k.png" />
+		<image type="single" 	name="keyboard_l" 		 			file="Data/Atlases/UI/Keys/Keyboard/l.png" />
+		<image type="single" 	name="keyboard_left" 		 		file="Data/Atlases/UI/Keys/Keyboard/left.png" />
+		<image type="single" 	name="keyboard_m" 		 			file="Data/Atlases/UI/Keys/Keyboard/m.png" />
+		<image type="single" 	name="keyboard_mark_left" 		 	file="Data/Atlases/UI/Keys/Keyboard/mark_left.png" />
+		<image type="single" 	name="keyboard_mark_right" 		 	file="Data/Atlases/UI/Keys/Keyboard/mark_right.png" />
+		<image type="single" 	name="keyboard_minus" 		 		file="Data/Atlases/UI/Keys/Keyboard/minus.png" />
+		<image type="single" 	name="keyboard_n" 		 			file="Data/Atlases/UI/Keys/Keyboard/n.png" />
+		<image type="single" 	name="keyboard_num_lock" 		 	file="Data/Atlases/UI/Keys/Keyboard/num_lock.png" />
+		<image type="single" 	name="keyboard_o" 		 			file="Data/Atlases/UI/Keys/Keyboard/o.png" />
+		<image type="single" 	name="keyboard_p" 		 			file="Data/Atlases/UI/Keys/Keyboard/p.png" />
+		<image type="single" 	name="keyboard_page_down" 		 	file="Data/Atlases/UI/Keys/Keyboard/page_down.png" />
+		<image type="single" 	name="keyboard_page_up" 		 	file="Data/Atlases/UI/Keys/Keyboard/page_up.png" />
+		<image type="single" 	name="keyboard_plus" 		 		file="Data/Atlases/UI/Keys/Keyboard/plus.png" />
+		<image type="single" 	name="keyboard_print_screen" 		file="Data/Atlases/UI/Keys/Keyboard/print_screen.png" />
+		<image type="single" 	name="keyboard_q" 		 			file="Data/Atlases/UI/Keys/Keyboard/q.png" />
+		<image type="single" 	name="keyboard_question" 		 	file="Data/Atlases/UI/Keys/Keyboard/question.png" />
+		<image type="single" 	name="keyboard_quote" 		 		file="Data/Atlases/UI/Keys/Keyboard/quote.png" />
+		<image type="single" 	name="keyboard_r" 		 			file="Data/Atlases/UI/Keys/Keyboard/r.png" />
+		<image type="single" 	name="keyboard_right" 		 		file="Data/Atlases/UI/Keys/Keyboard/right.png" />
+		<image type="single" 	name="keyboard_s" 		 			file="Data/Atlases/UI/Keys/Keyboard/s.png" />
+		<image type="single" 	name="keyboard_semicolon" 		 	file="Data/Atlases/UI/Keys/Keyboard/semicolon.png" />
+		<image type="single" 	name="keyboard_shift" 		 		file="Data/Atlases/UI/Keys/Keyboard/shift.png" />
+		<image type="single" 	name="keyboard_space" 		 		file="Data/Atlases/UI/Keys/Keyboard/space.png" />
+		<image type="single" 	name="keyboard_t" 		 			file="Data/Atlases/UI/Keys/Keyboard/t.png" />
+		<image type="single" 	name="keyboard_tab" 		 		file="Data/Atlases/UI/Keys/Keyboard/tab.png" />
+		<image type="single" 	name="keyboard_tilda" 		 		file="Data/Atlases/UI/Keys/Keyboard/tilda.png" />
+		<image type="single" 	name="keyboard_u" 		 			file="Data/Atlases/UI/Keys/Keyboard/u.png" />
+		<image type="single" 	name="keyboard_up" 		 			file="Data/Atlases/UI/Keys/Keyboard/up.png" />
+		<image type="single" 	name="keyboard_v" 		 			file="Data/Atlases/UI/Keys/Keyboard/v.png" />
+		<image type="single" 	name="keyboard_w" 		 			file="Data/Atlases/UI/Keys/Keyboard/w.png" />
+		<image type="single" 	name="keyboard_win" 		 		file="Data/Atlases/UI/Keys/Keyboard/win.png" />
+		<image type="single" 	name="keyboard_x" 		 			file="Data/Atlases/UI/Keys/Keyboard/x.png" />
+		<image type="single" 	name="keyboard_y" 		 			file="Data/Atlases/UI/Keys/Keyboard/y.png" />
+		<image type="single" 	name="keyboard_z" 		 			file="Data/Atlases/UI/Keys/Keyboard/z.png" />
+		<image type="single" 	name="keyboard_bar" 		 		file="Data/Atlases/UI/Keys/Keyboard/bar.png" />
+		<image type="single" 	name="keyboard_at" 		 			file="Data/Atlases/UI/Keys/Keyboard/at.png" />
+		<image type="single" 	name="keyboard_pause" 				file="Data/Atlases/UI/Keys/Keyboard/pause.png" />
+		<image type="single" 	name="keyboard_scroll_lock" 		file="Data/Atlases/UI/Keys/Keyboard/scroll_lock.png" />
+		<image type="single" 	name="keyboard_unknown" 		 	file="Data/Atlases/UI/Keys/Keyboard/unknown.png" />
+				
+		<!-- Mouse Keys -->
+		<image type="single" 	name="mouse_left" 		 			file="Data/Atlases/UI/Keys/Mouse/left.png" />
+		<image type="single" 	name="mouse_right" 		 			file="Data/Atlases/UI/Keys/Mouse/right.png" />
+		<image type="single" 	name="mouse_middle" 				file="Data/Atlases/UI/Keys/Mouse/middle.png" />
+		<image type="single" 	name="mouse_unknown" 				file="Data/Atlases/UI/Keys/Mouse/unknown.png" />
+				
+		<!-- Joystick Keys -->
+		<image type="single" 	name="joystick_a_Xbox360" 		 			    file="Data/Atlases/UI/Keys/Joystick/xbox360/a.png" />
+		<image type="single" 	name="joystick_b_Xbox360" 		 			    file="Data/Atlases/UI/Keys/Joystick/xbox360/b.png" />
+		<image type="single" 	name="joystick_back_Xbox360" 		 		    file="Data/Atlases/UI/Keys/Joystick/xbox360/back.png" />
+		<image type="single" 	name="joystick_dpad_down_Xbox360" 		 	file="Data/Atlases/UI/Keys/Joystick/xbox360/dpad_down.png" />
+		<image type="single" 	name="joystick_dpad_left_Xbox360" 		 	file="Data/Atlases/UI/Keys/Joystick/xbox360/dpad_left.png" />
+		<image type="single" 	name="joystick_dpad_right_Xbox360" 		 	file="Data/Atlases/UI/Keys/Joystick/xbox360/dpad_right.png" />
+		<image type="single" 	name="joystick_dpad_up_Xbox360" 		 	  file="Data/Atlases/UI/Keys/Joystick/xbox360/dpad_up.png" />
+		<image type="single" 	name="joystick_lb_Xbox360" 		 			    file="Data/Atlases/UI/Keys/Joystick/xbox360/lb.png" />
+		<image type="single" 	name="joystick_left_stick_Xbox360" 		 	file="Data/Atlases/UI/Keys/Joystick/xbox360/left_stick.png" />
+		<image type="single" 	name="joystick_lt_Xbox360" 		 			    file="Data/Atlases/UI/Keys/Joystick/xbox360/lt.png" />
+		<image type="single" 	name="joystick_rb_Xbox360" 		 			    file="Data/Atlases/UI/Keys/Joystick/xbox360/rb.png" />
+		<image type="single" 	name="joystick_right_stick_Xbox360" 		file="Data/Atlases/UI/Keys/Joystick/xbox360/right_stick.png" />
+		<image type="single" 	name="joystick_rt_Xbox360" 		 			    file="Data/Atlases/UI/Keys/Joystick/xbox360/rt.png" />
+		<image type="single" 	name="joystick_start_Xbox360" 		 		  file="Data/Atlases/UI/Keys/Joystick/xbox360/start.png" />
+		<image type="single" 	name="joystick_x_Xbox360" 		 			    file="Data/Atlases/UI/Keys/Joystick/xbox360/x.png" />
+		<image type="single" 	name="joystick_y_Xbox360" 		 			    file="Data/Atlases/UI/Keys/Joystick/xbox360/y.png" />
+		<image type="single" 	name="joystick_unknown_Xbox360" 			  file="Data/Atlases/UI/Keys/Joystick/xbox360/unknown.png" />
+		<image type="single" 	name="joystick_unknown_button_Xbox360" 	file="Data/Atlases/UI/Keys/Joystick/xbox360/unknown_button.png" />
+
+    <image type="single" 	name="joystick_a_XboxOne" 		 			    file="Data/Atlases/UI/Keys/Joystick/xboxone/a.png" />
+    <image type="single" 	name="joystick_b_XboxOne" 		 			    file="Data/Atlases/UI/Keys/Joystick/xboxone/b.png" />
+    <image type="single" 	name="joystick_back_XboxOne" 		 		    file="Data/Atlases/UI/Keys/Joystick/xboxone/back.png" />
+    <image type="single" 	name="joystick_dpad_down_XboxOne" 		 	file="Data/Atlases/UI/Keys/Joystick/xboxone/dpad_down.png" />
+    <image type="single" 	name="joystick_dpad_left_XboxOne" 		 	file="Data/Atlases/UI/Keys/Joystick/xboxone/dpad_left.png" />
+    <image type="single" 	name="joystick_dpad_right_XboxOne" 		 	file="Data/Atlases/UI/Keys/Joystick/xboxone/dpad_right.png" />
+    <image type="single" 	name="joystick_dpad_up_XboxOne" 		 	  file="Data/Atlases/UI/Keys/Joystick/xboxone/dpad_up.png" />
+    <image type="single" 	name="joystick_lb_XboxOne" 		 			    file="Data/Atlases/UI/Keys/Joystick/xboxone/lb.png" />
+    <image type="single" 	name="joystick_left_stick_XboxOne" 		 	file="Data/Atlases/UI/Keys/Joystick/xboxone/left_stick.png" />
+    <image type="single" 	name="joystick_l_XboxOnet" 		 			    file="Data/Atlases/UI/Keys/Joystick/xboxone/lt.png" />
+    <image type="single" 	name="joystick_rb_XboxOne" 		 			    file="Data/Atlases/UI/Keys/Joystick/xboxone/rb.png" />
+    <image type="single" 	name="joystick_right_stick_XboxOne"  		file="Data/Atlases/UI/Keys/Joystick/xboxone/right_stick.png" />
+    <image type="single" 	name="joystick_rt_XboxOne" 		 			    file="Data/Atlases/UI/Keys/Joystick/xboxone/rt.png" />
+    <image type="single" 	name="joystick_start_XboxOne" 		 		  file="Data/Atlases/UI/Keys/Joystick/xboxone/start.png" />
+    <image type="single" 	name="joystick_x_XboxOne" 		 			    file="Data/Atlases/UI/Keys/Joystick/xboxone/x.png" />
+    <image type="single" 	name="joystick_y_XboxOne" 		 			    file="Data/Atlases/UI/Keys/Joystick/xboxone/y.png" />
+    <image type="single" 	name="joystick_unknown_XboxOne" 			  file="Data/Atlases/UI/Keys/Joystick/xboxone/unknown.png" />
+    <image type="single" 	name="joystick_unknown_button_XboxOne" 	file="Data/Atlases/UI/Keys/Joystick/xboxone/unknown_button.png" />
+
+    <image type="single" 	name="joystick_a_DS3" 		 			    file="Data/Atlases/UI/Keys/Joystick/ds3/a.png" />
+    <image type="single" 	name="joystick_b_DS3" 		 			    file="Data/Atlases/UI/Keys/Joystick/ds3/b.png" />
+    <image type="single" 	name="joystick_back_DS3" 		 		    file="Data/Atlases/UI/Keys/Joystick/ds3/back.png" />
+    <image type="single" 	name="joystick_dpad_down_DS3" 		 	file="Data/Atlases/UI/Keys/Joystick/ds3/dpad_down.png" />
+    <image type="single" 	name="joystick_dpad_left_DS3" 		 	file="Data/Atlases/UI/Keys/Joystick/ds3/dpad_left.png" />
+    <image type="single" 	name="joystick_dpad_right_DS3" 		 	file="Data/Atlases/UI/Keys/Joystick/ds3/dpad_right.png" />
+    <image type="single" 	name="joystick_dpad_up_DS3" 		 	  file="Data/Atlases/UI/Keys/Joystick/ds3/dpad_up.png" />
+    <image type="single" 	name="joystick_lb_DS3" 		 			    file="Data/Atlases/UI/Keys/Joystick/ds3/lb.png" />
+    <image type="single" 	name="joystick_left_stick_DS3" 		 	file="Data/Atlases/UI/Keys/Joystick/ds3/left_stick.png" />
+    <image type="single" 	name="joystick_lt_DS3" 		 			    file="Data/Atlases/UI/Keys/Joystick/ds3/lt.png" />
+    <image type="single" 	name="joystick_rb_DS3" 		 			    file="Data/Atlases/UI/Keys/Joystick/ds3/rb.png" />
+    <image type="single" 	name="joystick_right_stick_DS3" 		file="Data/Atlases/UI/Keys/Joystick/ds3/right_stick.png" />
+    <image type="single" 	name="joystick_rt_DS3" 		 			    file="Data/Atlases/UI/Keys/Joystick/ds3/rt.png" />
+    <image type="single" 	name="joystick_start_DS3" 		 		  file="Data/Atlases/UI/Keys/Joystick/ds3/start.png" />
+    <image type="single" 	name="joystick_x_DS3" 		 			    file="Data/Atlases/UI/Keys/Joystick/ds3/x.png" />
+    <image type="single" 	name="joystick_y_DS3" 		 			    file="Data/Atlases/UI/Keys/Joystick/ds3/y.png" />
+    <image type="single" 	name="joystick_unknown_DS3" 			  file="Data/Atlases/UI/Keys/Joystick/ds3/unknown.png" />
+    <image type="single" 	name="joystick_unknown_button_DS3" 	file="Data/Atlases/UI/Keys/Joystick/ds3/unknown_button.png" />
+
+    <image type="single" 	name="joystick_a_DS4" 		 			    file="Data/Atlases/UI/Keys/Joystick/ds4/a.png" />
+    <image type="single" 	name="joystick_b_DS4" 		 			    file="Data/Atlases/UI/Keys/Joystick/ds4/b.png" />
+    <image type="single" 	name="joystick_back_DS4" 		 		    file="Data/Atlases/UI/Keys/Joystick/ds4/back.png" />
+    <image type="single" 	name="joystick_dpad_down_DS4" 		 	file="Data/Atlases/UI/Keys/Joystick/ds4/dpad_down.png" />
+    <image type="single" 	name="joystick_dpad_left_DS4" 		 	file="Data/Atlases/UI/Keys/Joystick/ds4/dpad_left.png" />
+    <image type="single" 	name="joystick_dpad_right_DS4" 		 	file="Data/Atlases/UI/Keys/Joystick/ds4/dpad_right.png" />
+    <image type="single" 	name="joystick_dpad_up_DS4" 		 	  file="Data/Atlases/UI/Keys/Joystick/ds4/dpad_up.png" />
+    <image type="single" 	name="joystick_lb_DS4" 		 			    file="Data/Atlases/UI/Keys/Joystick/ds4/lb.png" />
+    <image type="single" 	name="joystick_left_stick_DS4" 		 	file="Data/Atlases/UI/Keys/Joystick/ds4/left_stick.png" />
+    <image type="single" 	name="joystick_lt_DS4" 		 			    file="Data/Atlases/UI/Keys/Joystick/ds4/lt.png" />
+    <image type="single" 	name="joystick_rb_DS4" 		 			    file="Data/Atlases/UI/Keys/Joystick/ds4/rb.png" />
+    <image type="single" 	name="joystick_right_stick_DS4" 		file="Data/Atlases/UI/Keys/Joystick/ds4/right_stick.png" />
+    <image type="single" 	name="joystick_rt_DS4" 		 			    file="Data/Atlases/UI/Keys/Joystick/ds4/rt.png" />
+    <image type="single" 	name="joystick_start_DS4" 		 		  file="Data/Atlases/UI/Keys/Joystick/ds4/start.png" />
+    <image type="single" 	name="joystick_x_DS4" 		 			    file="Data/Atlases/UI/Keys/Joystick/ds4/x.png" />
+    <image type="single" 	name="joystick_y_DS4" 		 			    file="Data/Atlases/UI/Keys/Joystick/ds4/y.png" />
+    <image type="single" 	name="joystick_unknown_DS4" 			  file="Data/Atlases/UI/Keys/Joystick/ds4/unknown.png" />
+    <image type="single" 	name="joystick_unknown_button_DS4" 	file="Data/Atlases/UI/Keys/Joystick/ds4/unknown_button.png" />
+
+
+    <image type="single" 	name="joystick_a_Steam" 		 			    file="Data/Atlases/UI/Keys/Joystick/steam/a.png" />
+    <image type="single" 	name="joystick_b_Steam" 		 			    file="Data/Atlases/UI/Keys/Joystick/steam/b.png" />
+    <image type="single" 	name="joystick_back_Steam" 		 		    file="Data/Atlases/UI/Keys/Joystick/steam/back.png" />
+    <image type="single" 	name="joystick_dpad_down_Steam" 		 	file="Data/Atlases/UI/Keys/Joystick/steam/dpad_down.png" />
+    <image type="single" 	name="joystick_dpad_left_Steam" 		 	file="Data/Atlases/UI/Keys/Joystick/steam/dpad_left.png" />
+    <image type="single" 	name="joystick_dpad_right_Steam" 		 	file="Data/Atlases/UI/Keys/Joystick/steam/dpad_right.png" />
+    <image type="single" 	name="joystick_dpad_up_Steam" 		 	  file="Data/Atlases/UI/Keys/Joystick/steam/dpad_up.png" />
+    <image type="single" 	name="joystick_lb_Steam" 		 			    file="Data/Atlases/UI/Keys/Joystick/steam/lb.png" />
+    <image type="single" 	name="joystick_left_stick_Steam" 		 	file="Data/Atlases/UI/Keys/Joystick/steam/left_stick.png" />
+    <image type="single" 	name="joystick_lt_Steam" 		 			    file="Data/Atlases/UI/Keys/Joystick/steam/lt.png" />
+    <image type="single" 	name="joystick_rb_Steam" 		 			    file="Data/Atlases/UI/Keys/Joystick/steam/rb.png" />
+    <image type="single" 	name="joystick_right_stick_Steam" 		file="Data/Atlases/UI/Keys/Joystick/steam/right_stick.png" />
+    <image type="single" 	name="joystick_rt_Steam" 		 			    file="Data/Atlases/UI/Keys/Joystick/steam/rt.png" />
+    <image type="single" 	name="joystick_start_Steam" 		 		  file="Data/Atlases/UI/Keys/Joystick/steam/start.png" />
+    <image type="single" 	name="joystick_x_Steam" 		 			    file="Data/Atlases/UI/Keys/Joystick/steam/x.png" />
+    <image type="single" 	name="joystick_y_Steam" 		 			    file="Data/Atlases/UI/Keys/Joystick/steam/y.png" />
+    <image type="single" 	name="joystick_unknown_Steam" 			  file="Data/Atlases/UI/Keys/Joystick/steam/unknown.png" />
+    <image type="single" 	name="joystick_unknown_button_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/unknown_button.png" />  
+    <image type="single" 	name="joystick_lg_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/lg.png" />
+    <image type="single" 	name="joystick_rg_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/rg.png" />
+    <image type="single" 	name="joystick_leftpad_touch_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/leftpad_touch.png" />
+    <image type="single" 	name="joystick_leftpad_swipe_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/leftpad_swipe.png" />
+    <image type="single" 	name="joystick_leftpad_click_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/leftpad_click.png" />
+    <image type="single" 	name="joystick_leftpad_swipe_dpadnorth_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/leftpad_swipe_dpadnorth.png" />
+    <image type="single" 	name="joystick_leftpad_swipe_dpadsouth_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/leftpad_swipe_dpadsouth.png" />
+    <image type="single" 	name="joystick_leftpad_swipe_dpadwest_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/leftpad_swipe_dpadwest.png" />
+    <image type="single" 	name="joystick_leftpad_swipe_dpadeast_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/leftpad_swipe_dpadeast.png" />
+    <image type="single" 	name="joystick_rightpad_touch_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/rightpad_touch.png" />
+    <image type="single" 	name="joystick_rightpad_swipe_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/rightpad_swipe.png" />
+    <image type="single" 	name="joystick_rightpad_click_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/rightpad_click.png" />
+    <image type="single" 	name="joystick_rightpad_swipe_dpadnorth_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/rightpad_swipe_dpadnorth.png" />
+    <image type="single" 	name="joystick_rightpad_swipe_dpadsouth_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/rightpad_swipe_dpadsouth.png" />
+    <image type="single" 	name="joystick_rightpad_swipe_dpadwest_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/rightpad_swipe_dpadwest.png" />
+    <image type="single" 	name="joystick_rightpad_swipe_dpadeast_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/rightpad_swipe_dpadeast.png" />
+    <image type="single" 	name="joystick_lefttrigger_pull_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/lefttrigger_pull.png" />
+    <image type="single" 	name="joystick_lefttrigger_click_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/lefttrigger_click.png" />
+    <image type="single" 	name="joystick_righttrigger_pull_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/righttrigger_pull.png" />
+    <image type="single" 	name="joystick_righttrigger_click_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/righttrigger_click.png" />
+    <image type="single" 	name="joystick_leftstick_move_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/leftstick_move.png" />
+    <image type="single" 	name="joystick_leftstick_click_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/lefstick_click.png" />
+    <image type="single" 	name="joystick_leftstick_dpadnorth_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/leftstick_dpadnorth.png" />
+    <image type="single" 	name="joystick_leftstick_dpadsouth_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/leftstick_dpadsouth.png" />
+    <image type="single" 	name="joystick_leftstick_dpadwest_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/leftstick_dpadwest.png" />
+    <image type="single" 	name="joystick_leftstick_dpadeast_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/leftstick_dpadeast.png" />   
+    <image type="single" 	name="joystick_gyro_move_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/gyro.png" />
+    <image type="single" 	name="joystick_gyro_pitch_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/gyro.png" />
+    <image type="single" 	name="joystick_gyro_yaw_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/gyro.png" />
+    <image type="single" 	name="joystick_gyro_roll_Steam" 	file="Data/Atlases/UI/Keys/Joystick/steam/gyro.png" />
+
+    <!-- System Icons-->
+
+        <image type="single" name="achievement_001_zombinator" file="Data/Atlases/System/Achievements/001_Zombinator.png" />
+        <image type="single" name="achievement_002_failure" file="Data/Atlases/System/Achievements/002_Failure.png" />
+        <image type="single" name="achievement_003_saviour" file="Data/Atlases/System/Achievements/003_Saviour.png" />
+        <image type="single" name="achievement_004_fbichecklist" file="Data/Atlases/System/Achievements/004_FBIChecklist.png" />
+        <image type="single" name="achievement_005_headshothoncho" file="Data/Atlases/System/Achievements/005_HeadshotHoncho.png" />
+        <image type="single" name="achievement_006_mammy" file="Data/Atlases/System/Achievements/006_Mammy.png" />
+        <image type="single" name="achievement_007_penetrator" file="Data/Atlases/System/Achievements/007_Penetrator.png" />
+        <image type="single" name="achievement_008_n00b" file="Data/Atlases/System/Achievements/008_n00b.png" />
+        <image type="single" name="achievement_009_dick" file="Data/Atlases/System/Achievements/009_Dick.png" />
+        <image type="single" name="achievement_010_marathonman" file="Data/Atlases/System/Achievements/010_MarathonMan.png" />
+        <image type="single" name="achievement_011_cremationship" file="Data/Atlases/System/Achievements/011_Cremationship.png" />
+        <image type="single" name="achievement_012_frigid" file="Data/Atlases/System/Achievements/012_Frigid.png" />
+        <image type="single" name="achievement_013_redmist" file="Data/Atlases/System/Achievements/013_RedMist.png" />
+        <image type="single" name="achievement_014_daisychain" file="Data/Atlases/System/Achievements/014_DaisyChain.png" />
+        <image type="single" name="achievement_015_bronze" file="Data/Atlases/System/Achievements/015_bronze.png" />
+        <image type="single" name="achievement_016_silver" file="Data/Atlases/System/Achievements/016_silver.png" />
+        <image type="single" name="achievement_017_gold" file="Data/Atlases/System/Achievements/017_gold.png" />
+        <image type="single" name="achievement_018_iceandfire" file="Data/Atlases/System/Achievements/018_IceAndFire.png" />
+        <image type="single" name="achievement_019_zombiekiller" file="Data/Atlases/System/Achievements/019_ZombieKiller.png" />
+        <image type="single" name="achievement_020_zombiemaster" file="Data/Atlases/System/Achievements/020_ZombieMaster.png" />
+        <image type="single" name="achievement_021_zombiegrinder" file="Data/Atlases/System/Achievements/021_ZombieGrinder.png" />
+        <image type="single" name="achievement_022_eagleeye" file="Data/Atlases/System/Achievements/022_EagleEye.png" />
+        <image type="single" name="achievement_023_oniomania" file="Data/Atlases/System/Achievements/023_Oniomania.png" />
+        <image type="single" name="achievement_024_ihateboxes" file="Data/Atlases/System/Achievements/024_IHateBoxes.png" />
+        <image type="single" name="achievement_025_trickshot" file="Data/Atlases/System/Achievements/025_TrickShot.png" />
+        <image type="single" name="achievement_026_youdidntcrash" file="Data/Atlases/System/Achievements/026_YouDidntCrash.png" />
+        <image type="single" name="achievement_027_rapist" file="Data/Atlases/System/Achievements/027_Rapist.png" />
+        <image type="single" name="achievement_028_cheater" file="Data/Atlases/System/Achievements/028_Cheater.png" />
+        <image type="single" name="achievement_029_canttouchthis" file="Data/Atlases/System/Achievements/029_CantTouchThis.png" />
+        <image type="single" name="achievement_030_maxhp" file="Data/Atlases/System/Achievements/030_maxHP.png" />
+        <image type="single" name="achievement_031_maxreload" file="Data/Atlases/System/Achievements/031_maxReload.png" />
+        <image type="single" name="achievement_032_maxrateoffire" file="Data/Atlases/System/Achievements/032_maxRateofFire.png" />
+        <image type="single" name="achievement_033_maxdamage" file="Data/Atlases/System/Achievements/033_maxDamage.png" />
+        <image type="single" name="achievement_034_maxspeed" file="Data/Atlases/System/Achievements/034_maxSpeed.png" />
+        <image type="single" name="achievement_035_maxammo" file="Data/Atlases/System/Achievements/035_maxAmmo.png" />
+        <image type="single" name="achievement_036_maxdiscount" file="Data/Atlases/System/Achievements/036_maxDiscount.png" />
+        <image type="single" name="achievement_037_maxexperience" file="Data/Atlases/System/Achievements/037_maxExperience.png" />
+        <image type="single" name="achievement_038_dungeoncrawler" file="Data/Atlases/System/Achievements/038_DungeonCrawler.png" />
+        <image type="single" name="achievement_039_dungeonmaster" file="Data/Atlases/System/Achievements/039_DungeonMaster.png" />
+        <image type="single" name="achievement_040_dungeonboss" file="Data/Atlases/System/Achievements/040_DungeonBoss.png" />
+        <image type="single" name="achievement_041_theghostisclear" file="Data/Atlases/System/Achievements/041_TheGhostIsClear.png" />
+        <image type="single" name="achievement_042_developerdeath" file="Data/Atlases/System/Achievements/042_DeveloperDeath.png" />
+        <image type="single" name="achievement_043_puddipuddipuddi" file="Data/Atlases/System/Achievements/043_PuddiPuddiPuddi.png" />
+        <image type="single" name="achievement_044_healinglevel1" file="Data/Atlases/System/Achievements/044_HealingLevel1.png" />
+        <image type="single" name="achievement_045_healinglevel2" file="Data/Atlases/System/Achievements/045_HealingLevel2.png" />
+        <image type="single" name="achievement_046_healinglevel3" file="Data/Atlases/System/Achievements/046_HealingLevel3.png" />
+        <image type="single" name="achievement_047_healinglevel4" file="Data/Atlases/System/Achievements/047_HealingLevel4.png" />
+        <image type="single" name="achievement_048_winner" file="Data/Atlases/System/Achievements/048_Winner.png" />
+        <image type="single" name="achievement_049_multiplier5" file="Data/Atlases/System/Achievements/049_multiplier5.png" />
+        <image type="single" name="achievement_050_multiplier10" file="Data/Atlases/System/Achievements/050_multiplier10.png" />
+        <image type="single" name="achievement_051_multiplier15" file="Data/Atlases/System/Achievements/051_multiplier15.png" />
+        <image type="single" name="achievement_052_itshotinhere" file="Data/Atlases/System/Achievements/052_itshotinhere.png" />
+        <image type="single" name="achievement_053_workshop" file="Data/Atlases/System/Achievements/053_workshop.png" />
+        <image type="single" name="achievement_blank" file="Data/Atlases/System/Achievements/blank.png" />
+        <image type="single" name="achievement_locked" file="Data/Atlases/System/Achievements/locked.png" />
+        <image type="single" name="achievement_locked_clear" file="Data/Atlases/System/Achievements/locked_clear.png" />
+        <image type="single" name="achievement_unlocked" file="Data/Atlases/System/Achievements/unlocked.png" />
+        <image type="single" name="achievement_unlocked_clear" file="Data/Atlases/System/Achievements/unlocked_clear.png" />
+        <image type="single" name="flag_ad" file="Data/Atlases/System/Flags/ad.png" />
+        <image type="single" name="flag_ae" file="Data/Atlases/System/Flags/ae.png" />
+        <image type="single" name="flag_af" file="Data/Atlases/System/Flags/af.png" />
+        <image type="single" name="flag_ag" file="Data/Atlases/System/Flags/ag.png" />
+        <image type="single" name="flag_ai" file="Data/Atlases/System/Flags/ai.png" />
+        <image type="single" name="flag_al" file="Data/Atlases/System/Flags/al.png" />
+        <image type="single" name="flag_am" file="Data/Atlases/System/Flags/am.png" />
+        <image type="single" name="flag_an" file="Data/Atlases/System/Flags/an.png" />
+        <image type="single" name="flag_ao" file="Data/Atlases/System/Flags/ao.png" />
+        <image type="single" name="flag_ar" file="Data/Atlases/System/Flags/ar.png" />
+        <image type="single" name="flag_as" file="Data/Atlases/System/Flags/as.png" />
+        <image type="single" name="flag_at" file="Data/Atlases/System/Flags/at.png" />
+        <image type="single" name="flag_au" file="Data/Atlases/System/Flags/au.png" />
+        <image type="single" name="flag_aw" file="Data/Atlases/System/Flags/aw.png" />
+        <image type="single" name="flag_ax" file="Data/Atlases/System/Flags/ax.png" />
+        <image type="single" name="flag_az" file="Data/Atlases/System/Flags/az.png" />
+        <image type="single" name="flag_ba" file="Data/Atlases/System/Flags/ba.png" />
+        <image type="single" name="flag_bb" file="Data/Atlases/System/Flags/bb.png" />
+        <image type="single" name="flag_bd" file="Data/Atlases/System/Flags/bd.png" />
+        <image type="single" name="flag_be" file="Data/Atlases/System/Flags/be.png" />
+        <image type="single" name="flag_bf" file="Data/Atlases/System/Flags/bf.png" />
+        <image type="single" name="flag_bg" file="Data/Atlases/System/Flags/bg.png" />
+        <image type="single" name="flag_bh" file="Data/Atlases/System/Flags/bh.png" />
+        <image type="single" name="flag_bi" file="Data/Atlases/System/Flags/bi.png" />
+        <image type="single" name="flag_bj" file="Data/Atlases/System/Flags/bj.png" />
+        <image type="single" name="flag_bm" file="Data/Atlases/System/Flags/bm.png" />
+        <image type="single" name="flag_bn" file="Data/Atlases/System/Flags/bn.png" />
+        <image type="single" name="flag_bo" file="Data/Atlases/System/Flags/bo.png" />
+        <image type="single" name="flag_br" file="Data/Atlases/System/Flags/br.png" />
+        <image type="single" name="flag_bs" file="Data/Atlases/System/Flags/bs.png" />
+        <image type="single" name="flag_bt" file="Data/Atlases/System/Flags/bt.png" />
+        <image type="single" name="flag_bv" file="Data/Atlases/System/Flags/bv.png" />
+        <image type="single" name="flag_bw" file="Data/Atlases/System/Flags/bw.png" />
+        <image type="single" name="flag_by" file="Data/Atlases/System/Flags/by.png" />
+        <image type="single" name="flag_bz" file="Data/Atlases/System/Flags/bz.png" />
+        <image type="single" name="flag_ca" file="Data/Atlases/System/Flags/ca.png" />
+        <image type="single" name="flag_catalonia" file="Data/Atlases/System/Flags/catalonia.png" />
+        <image type="single" name="flag_cc" file="Data/Atlases/System/Flags/cc.png" />
+        <image type="single" name="flag_cd" file="Data/Atlases/System/Flags/cd.png" />
+        <image type="single" name="flag_cf" file="Data/Atlases/System/Flags/cf.png" />
+        <image type="single" name="flag_cg" file="Data/Atlases/System/Flags/cg.png" />
+        <image type="single" name="flag_ch" file="Data/Atlases/System/Flags/ch.png" />
+        <image type="single" name="flag_ci" file="Data/Atlases/System/Flags/ci.png" />
+        <image type="single" name="flag_ck" file="Data/Atlases/System/Flags/ck.png" />
+        <image type="single" name="flag_cl" file="Data/Atlases/System/Flags/cl.png" />
+        <image type="single" name="flag_cm" file="Data/Atlases/System/Flags/cm.png" />
+        <image type="single" name="flag_cn" file="Data/Atlases/System/Flags/cn.png" />
+        <image type="single" name="flag_co" file="Data/Atlases/System/Flags/co.png" />
+        <image type="single" name="flag_cr" file="Data/Atlases/System/Flags/cr.png" />
+        <image type="single" name="flag_cs" file="Data/Atlases/System/Flags/cs.png" />
+        <image type="single" name="flag_cu" file="Data/Atlases/System/Flags/cu.png" />
+        <image type="single" name="flag_cv" file="Data/Atlases/System/Flags/cv.png" />
+        <image type="single" name="flag_cx" file="Data/Atlases/System/Flags/cx.png" />
+        <image type="single" name="flag_cy" file="Data/Atlases/System/Flags/cy.png" />
+        <image type="single" name="flag_cz" file="Data/Atlases/System/Flags/cz.png" />
+        <image type="single" name="flag_de" file="Data/Atlases/System/Flags/de.png" />
+        <image type="single" name="flag_dj" file="Data/Atlases/System/Flags/dj.png" />
+        <image type="single" name="flag_dk" file="Data/Atlases/System/Flags/dk.png" />
+        <image type="single" name="flag_dm" file="Data/Atlases/System/Flags/dm.png" />
+        <image type="single" name="flag_do" file="Data/Atlases/System/Flags/do.png" />
+        <image type="single" name="flag_dz" file="Data/Atlases/System/Flags/dz.png" />
+        <image type="single" name="flag_ec" file="Data/Atlases/System/Flags/ec.png" />
+        <image type="single" name="flag_ee" file="Data/Atlases/System/Flags/ee.png" />
+        <image type="single" name="flag_eg" file="Data/Atlases/System/Flags/eg.png" />
+        <image type="single" name="flag_eh" file="Data/Atlases/System/Flags/eh.png" />
+        <image type="single" name="flag_en" file="Data/Atlases/System/Flags/en.png" />
+        <image type="single" name="flag_er" file="Data/Atlases/System/Flags/er.png" />
+        <image type="single" name="flag_es" file="Data/Atlases/System/Flags/es.png" />
+        <image type="single" name="flag_et" file="Data/Atlases/System/Flags/et.png" />
+        <image type="single" name="flag_eu" file="Data/Atlases/System/Flags/eu.png" />
+        <image type="single" name="flag_fam" file="Data/Atlases/System/Flags/fam.png" />
+        <image type="single" name="flag_fi" file="Data/Atlases/System/Flags/fi.png" />
+        <image type="single" name="flag_fj" file="Data/Atlases/System/Flags/fj.png" />
+        <image type="single" name="flag_fk" file="Data/Atlases/System/Flags/fk.png" />
+        <image type="single" name="flag_fm" file="Data/Atlases/System/Flags/fm.png" />
+        <image type="single" name="flag_fo" file="Data/Atlases/System/Flags/fo.png" />
+        <image type="single" name="flag_fr" file="Data/Atlases/System/Flags/fr.png" />
+        <image type="single" name="flag_ga" file="Data/Atlases/System/Flags/ga.png" />
+        <image type="single" name="flag_gb" file="Data/Atlases/System/Flags/gb.png" />
+        <image type="single" name="flag_gd" file="Data/Atlases/System/Flags/gd.png" />
+        <image type="single" name="flag_ge" file="Data/Atlases/System/Flags/ge.png" />
+        <image type="single" name="flag_gf" file="Data/Atlases/System/Flags/gf.png" />
+        <image type="single" name="flag_gh" file="Data/Atlases/System/Flags/gh.png" />
+        <image type="single" name="flag_gi" file="Data/Atlases/System/Flags/gi.png" />
+        <image type="single" name="flag_gl" file="Data/Atlases/System/Flags/gl.png" />
+        <image type="single" name="flag_gm" file="Data/Atlases/System/Flags/gm.png" />
+        <image type="single" name="flag_gn" file="Data/Atlases/System/Flags/gn.png" />
+        <image type="single" name="flag_gp" file="Data/Atlases/System/Flags/gp.png" />
+        <image type="single" name="flag_gq" file="Data/Atlases/System/Flags/gq.png" />
+        <image type="single" name="flag_gr" file="Data/Atlases/System/Flags/gr.png" />
+        <image type="single" name="flag_gs" file="Data/Atlases/System/Flags/gs.png" />
+        <image type="single" name="flag_gt" file="Data/Atlases/System/Flags/gt.png" />
+        <image type="single" name="flag_gu" file="Data/Atlases/System/Flags/gu.png" />
+        <image type="single" name="flag_gw" file="Data/Atlases/System/Flags/gw.png" />
+        <image type="single" name="flag_gy" file="Data/Atlases/System/Flags/gy.png" />
+        <image type="single" name="flag_hk" file="Data/Atlases/System/Flags/hk.png" />
+        <image type="single" name="flag_hm" file="Data/Atlases/System/Flags/hm.png" />
+        <image type="single" name="flag_hn" file="Data/Atlases/System/Flags/hn.png" />
+        <image type="single" name="flag_hr" file="Data/Atlases/System/Flags/hr.png" />
+        <image type="single" name="flag_ht" file="Data/Atlases/System/Flags/ht.png" />
+        <image type="single" name="flag_hu" file="Data/Atlases/System/Flags/hu.png" />
+        <image type="single" name="flag_id" file="Data/Atlases/System/Flags/id.png" />
+        <image type="single" name="flag_ie" file="Data/Atlases/System/Flags/ie.png" />
+        <image type="single" name="flag_il" file="Data/Atlases/System/Flags/il.png" />
+        <image type="single" name="flag_in" file="Data/Atlases/System/Flags/in.png" />
+        <image type="single" name="flag_io" file="Data/Atlases/System/Flags/io.png" />
+        <image type="single" name="flag_iq" file="Data/Atlases/System/Flags/iq.png" />
+        <image type="single" name="flag_ir" file="Data/Atlases/System/Flags/ir.png" />
+        <image type="single" name="flag_is" file="Data/Atlases/System/Flags/is.png" />
+        <image type="single" name="flag_it" file="Data/Atlases/System/Flags/it.png" />
+        <image type="single" name="flag_jm" file="Data/Atlases/System/Flags/jm.png" />
+        <image type="single" name="flag_jo" file="Data/Atlases/System/Flags/jo.png" />
+        <image type="single" name="flag_jp" file="Data/Atlases/System/Flags/jp.png" />
+        <image type="single" name="flag_ke" file="Data/Atlases/System/Flags/ke.png" />
+        <image type="single" name="flag_kg" file="Data/Atlases/System/Flags/kg.png" />
+        <image type="single" name="flag_kh" file="Data/Atlases/System/Flags/kh.png" />
+        <image type="single" name="flag_ki" file="Data/Atlases/System/Flags/ki.png" />
+        <image type="single" name="flag_km" file="Data/Atlases/System/Flags/km.png" />
+        <image type="single" name="flag_kn" file="Data/Atlases/System/Flags/kn.png" />
+        <image type="single" name="flag_kp" file="Data/Atlases/System/Flags/kp.png" />
+        <image type="single" name="flag_kr" file="Data/Atlases/System/Flags/kr.png" />
+        <image type="single" name="flag_kw" file="Data/Atlases/System/Flags/kw.png" />
+        <image type="single" name="flag_ky" file="Data/Atlases/System/Flags/ky.png" />
+        <image type="single" name="flag_kz" file="Data/Atlases/System/Flags/kz.png" />
+        <image type="single" name="flag_la" file="Data/Atlases/System/Flags/la.png" />
+        <image type="single" name="flag_lb" file="Data/Atlases/System/Flags/lb.png" />
+        <image type="single" name="flag_lc" file="Data/Atlases/System/Flags/lc.png" />
+        <image type="single" name="flag_li" file="Data/Atlases/System/Flags/li.png" />
+        <image type="single" name="flag_lk" file="Data/Atlases/System/Flags/lk.png" />
+        <image type="single" name="flag_lr" file="Data/Atlases/System/Flags/lr.png" />
+        <image type="single" name="flag_ls" file="Data/Atlases/System/Flags/ls.png" />
+        <image type="single" name="flag_lt" file="Data/Atlases/System/Flags/lt.png" />
+        <image type="single" name="flag_lu" file="Data/Atlases/System/Flags/lu.png" />
+        <image type="single" name="flag_lv" file="Data/Atlases/System/Flags/lv.png" />
+        <image type="single" name="flag_ly" file="Data/Atlases/System/Flags/ly.png" />
+        <image type="single" name="flag_ma" file="Data/Atlases/System/Flags/ma.png" />
+        <image type="single" name="flag_mc" file="Data/Atlases/System/Flags/mc.png" />
+        <image type="single" name="flag_md" file="Data/Atlases/System/Flags/md.png" />
+        <image type="single" name="flag_me" file="Data/Atlases/System/Flags/me.png" />
+        <image type="single" name="flag_mg" file="Data/Atlases/System/Flags/mg.png" />
+        <image type="single" name="flag_mh" file="Data/Atlases/System/Flags/mh.png" />
+        <image type="single" name="flag_mk" file="Data/Atlases/System/Flags/mk.png" />
+        <image type="single" name="flag_ml" file="Data/Atlases/System/Flags/ml.png" />
+        <image type="single" name="flag_mm" file="Data/Atlases/System/Flags/mm.png" />
+        <image type="single" name="flag_mn" file="Data/Atlases/System/Flags/mn.png" />
+        <image type="single" name="flag_mo" file="Data/Atlases/System/Flags/mo.png" />
+        <image type="single" name="flag_mp" file="Data/Atlases/System/Flags/mp.png" />
+        <image type="single" name="flag_mq" file="Data/Atlases/System/Flags/mq.png" />
+        <image type="single" name="flag_mr" file="Data/Atlases/System/Flags/mr.png" />
+        <image type="single" name="flag_ms" file="Data/Atlases/System/Flags/ms.png" />
+        <image type="single" name="flag_mt" file="Data/Atlases/System/Flags/mt.png" />
+        <image type="single" name="flag_mu" file="Data/Atlases/System/Flags/mu.png" />
+        <image type="single" name="flag_mv" file="Data/Atlases/System/Flags/mv.png" />
+        <image type="single" name="flag_mw" file="Data/Atlases/System/Flags/mw.png" />
+        <image type="single" name="flag_mx" file="Data/Atlases/System/Flags/mx.png" />
+        <image type="single" name="flag_my" file="Data/Atlases/System/Flags/my.png" />
+        <image type="single" name="flag_mz" file="Data/Atlases/System/Flags/mz.png" />
+        <image type="single" name="flag_na" file="Data/Atlases/System/Flags/na.png" />
+        <image type="single" name="flag_nc" file="Data/Atlases/System/Flags/nc.png" />
+        <image type="single" name="flag_ne" file="Data/Atlases/System/Flags/ne.png" />
+        <image type="single" name="flag_nf" file="Data/Atlases/System/Flags/nf.png" />
+        <image type="single" name="flag_ng" file="Data/Atlases/System/Flags/ng.png" />
+        <image type="single" name="flag_ni" file="Data/Atlases/System/Flags/ni.png" />
+        <image type="single" name="flag_nl" file="Data/Atlases/System/Flags/nl.png" />
+        <image type="single" name="flag_no" file="Data/Atlases/System/Flags/no.png" />
+        <image type="single" name="flag_np" file="Data/Atlases/System/Flags/np.png" />
+        <image type="single" name="flag_nr" file="Data/Atlases/System/Flags/nr.png" />
+        <image type="single" name="flag_nu" file="Data/Atlases/System/Flags/nu.png" />
+        <image type="single" name="flag_nz" file="Data/Atlases/System/Flags/nz.png" />
+        <image type="single" name="flag_om" file="Data/Atlases/System/Flags/om.png" />
+        <image type="single" name="flag_pa" file="Data/Atlases/System/Flags/pa.png" />
+        <image type="single" name="flag_pe" file="Data/Atlases/System/Flags/pe.png" />
+        <image type="single" name="flag_pf" file="Data/Atlases/System/Flags/pf.png" />
+        <image type="single" name="flag_pg" file="Data/Atlases/System/Flags/pg.png" />
+        <image type="single" name="flag_ph" file="Data/Atlases/System/Flags/ph.png" />
+        <image type="single" name="flag_pk" file="Data/Atlases/System/Flags/pk.png" />
+        <image type="single" name="flag_pl" file="Data/Atlases/System/Flags/pl.png" />
+        <image type="single" name="flag_pm" file="Data/Atlases/System/Flags/pm.png" />
+        <image type="single" name="flag_pn" file="Data/Atlases/System/Flags/pn.png" />
+        <image type="single" name="flag_pr" file="Data/Atlases/System/Flags/pr.png" />
+        <image type="single" name="flag_ps" file="Data/Atlases/System/Flags/ps.png" />
+        <image type="single" name="flag_pt" file="Data/Atlases/System/Flags/pt.png" />
+        <image type="single" name="flag_pw" file="Data/Atlases/System/Flags/pw.png" />
+        <image type="single" name="flag_py" file="Data/Atlases/System/Flags/py.png" />
+        <image type="single" name="flag_qa" file="Data/Atlases/System/Flags/qa.png" />
+        <image type="single" name="flag_re" file="Data/Atlases/System/Flags/re.png" />
+        <image type="single" name="flag_ro" file="Data/Atlases/System/Flags/ro.png" />
+        <image type="single" name="flag_rs" file="Data/Atlases/System/Flags/rs.png" />
+        <image type="single" name="flag_ru" file="Data/Atlases/System/Flags/ru.png" />
+        <image type="single" name="flag_rw" file="Data/Atlases/System/Flags/rw.png" />
+        <image type="single" name="flag_sa" file="Data/Atlases/System/Flags/sa.png" />
+        <image type="single" name="flag_sb" file="Data/Atlases/System/Flags/sb.png" />
+        <image type="single" name="flag_sc" file="Data/Atlases/System/Flags/sc.png" />
+        <image type="single" name="flag_scotland" file="Data/Atlases/System/Flags/scotland.png" />
+        <image type="single" name="flag_sd" file="Data/Atlases/System/Flags/sd.png" />
+        <image type="single" name="flag_se" file="Data/Atlases/System/Flags/se.png" />
+        <image type="single" name="flag_sg" file="Data/Atlases/System/Flags/sg.png" />
+        <image type="single" name="flag_sh" file="Data/Atlases/System/Flags/sh.png" />
+        <image type="single" name="flag_si" file="Data/Atlases/System/Flags/si.png" />
+        <image type="single" name="flag_sj" file="Data/Atlases/System/Flags/sj.png" />
+        <image type="single" name="flag_sk" file="Data/Atlases/System/Flags/sk.png" />
+        <image type="single" name="flag_sl" file="Data/Atlases/System/Flags/sl.png" />
+        <image type="single" name="flag_sm" file="Data/Atlases/System/Flags/sm.png" />
+        <image type="single" name="flag_sn" file="Data/Atlases/System/Flags/sn.png" />
+        <image type="single" name="flag_so" file="Data/Atlases/System/Flags/so.png" />
+        <image type="single" name="flag_sr" file="Data/Atlases/System/Flags/sr.png" />
+        <image type="single" name="flag_st" file="Data/Atlases/System/Flags/st.png" />
+        <image type="single" name="flag_sv" file="Data/Atlases/System/Flags/sv.png" />
+        <image type="single" name="flag_sy" file="Data/Atlases/System/Flags/sy.png" />
+        <image type="single" name="flag_sz" file="Data/Atlases/System/Flags/sz.png" />
+        <image type="single" name="flag_tc" file="Data/Atlases/System/Flags/tc.png" />
+        <image type="single" name="flag_td" file="Data/Atlases/System/Flags/td.png" />
+        <image type="single" name="flag_tf" file="Data/Atlases/System/Flags/tf.png" />
+        <image type="single" name="flag_tg" file="Data/Atlases/System/Flags/tg.png" />
+        <image type="single" name="flag_th" file="Data/Atlases/System/Flags/th.png" />
+        <image type="single" name="flag_tj" file="Data/Atlases/System/Flags/tj.png" />
+        <image type="single" name="flag_tk" file="Data/Atlases/System/Flags/tk.png" />
+        <image type="single" name="flag_tl" file="Data/Atlases/System/Flags/tl.png" />
+        <image type="single" name="flag_tm" file="Data/Atlases/System/Flags/tm.png" />
+        <image type="single" name="flag_tn" file="Data/Atlases/System/Flags/tn.png" />
+        <image type="single" name="flag_to" file="Data/Atlases/System/Flags/to.png" />
+        <image type="single" name="flag_tr" file="Data/Atlases/System/Flags/tr.png" />
+        <image type="single" name="flag_tt" file="Data/Atlases/System/Flags/tt.png" />
+        <image type="single" name="flag_tv" file="Data/Atlases/System/Flags/tv.png" />
+        <image type="single" name="flag_tw" file="Data/Atlases/System/Flags/tw.png" />
+        <image type="single" name="flag_tz" file="Data/Atlases/System/Flags/tz.png" />
+        <image type="single" name="flag_ua" file="Data/Atlases/System/Flags/ua.png" />
+        <image type="single" name="flag_ug" file="Data/Atlases/System/Flags/ug.png" />
+        <image type="single" name="flag_um" file="Data/Atlases/System/Flags/um.png" />
+        <image type="single" name="flag_us" file="Data/Atlases/System/Flags/us.png" />
+        <image type="single" name="flag_uy" file="Data/Atlases/System/Flags/uy.png" />
+        <image type="single" name="flag_uz" file="Data/Atlases/System/Flags/uz.png" />
+        <image type="single" name="flag_va" file="Data/Atlases/System/Flags/va.png" />
+        <image type="single" name="flag_vc" file="Data/Atlases/System/Flags/vc.png" />
+        <image type="single" name="flag_ve" file="Data/Atlases/System/Flags/ve.png" />
+        <image type="single" name="flag_vg" file="Data/Atlases/System/Flags/vg.png" />
+        <image type="single" name="flag_vi" file="Data/Atlases/System/Flags/vi.png" />
+        <image type="single" name="flag_vn" file="Data/Atlases/System/Flags/vn.png" />
+        <image type="single" name="flag_vu" file="Data/Atlases/System/Flags/vu.png" />
+        <image type="single" name="flag_wales" file="Data/Atlases/System/Flags/wales.png" />
+        <image type="single" name="flag_wf" file="Data/Atlases/System/Flags/wf.png" />
+        <image type="single" name="flag_ws" file="Data/Atlases/System/Flags/ws.png" />
+        <image type="single" name="flag_ye" file="Data/Atlases/System/Flags/ye.png" />
+        <image type="single" name="flag_yt" file="Data/Atlases/System/Flags/yt.png" />
+        <image type="single" name="flag_za" file="Data/Atlases/System/Flags/za.png" />
+        <image type="single" name="flag_zm" file="Data/Atlases/System/Flags/zm.png" />
+        <image type="single" name="flag_zw" file="Data/Atlases/System/Flags/zw.png" />
+        <image type="single" name="tutorial_armour" file="Data/Atlases/System/Tutorials/armour.png" />
+        <image type="single" name="tutorial_bag" file="Data/Atlases/System/Tutorials/bag.png" />
+        <image type="single" name="tutorial_baseball bat" file="Data/Atlases/System/Tutorials/baseball bat.png" />
+        <image type="single" name="tutorial_coin" file="Data/Atlases/System/Tutorials/coin.png" />
+        <image type="single" name="tutorial_default" file="Data/Atlases/System/Tutorials/default.png" />
+        <image type="single" name="tutorial_double barrel shotgun" file="Data/Atlases/System/Tutorials/double barrel shotgun.png" />
+        <image type="single" name="tutorial_explosive ammo" file="Data/Atlases/System/Tutorials/explosive ammo.png" />
+        <image type="single" name="tutorial_fire_turret" file="Data/Atlases/System/Tutorials/fire_turret.png" />
+        <image type="single" name="tutorial_flamethrower" file="Data/Atlases/System/Tutorials/flamethrower.png" />
+        <image type="single" name="tutorial_flare gun" file="Data/Atlases/System/Tutorials/flare gun.png" />
+        <image type="single" name="tutorial_freeze ammo" file="Data/Atlases/System/Tutorials/freeze ammo.png" />
+        <image type="single" name="tutorial_freeze ray" file="Data/Atlases/System/Tutorials/freeze ray.png" />
+        <image type="single" name="tutorial_gem" file="Data/Atlases/System/Tutorials/gem.png" />
+        <image type="single" name="tutorial_grenade launcher" file="Data/Atlases/System/Tutorials/grenade launcher.png" />
+        <image type="single" name="tutorial_health" file="Data/Atlases/System/Tutorials/health.png" />
+        <image type="single" name="tutorial_help" file="Data/Atlases/System/Tutorials/help.png" />
+        <image type="single" name="tutorial_incendiary ammo" file="Data/Atlases/System/Tutorials/incendiary ammo.png" />
+        <image type="single" name="tutorial_info" file="Data/Atlases/System/Tutorials/info.png" />
+        <image type="single" name="tutorial_interactable object" file="Data/Atlases/System/Tutorials/interactable object.png" />
+        <image type="single" name="tutorial_key" file="Data/Atlases/System/Tutorials/key.png" />
+        <image type="single" name="tutorial_laser cannon" file="Data/Atlases/System/Tutorials/laser cannon.png" />
+        <image type="single" name="tutorial_love cannon" file="Data/Atlases/System/Tutorials/love cannon.png" />
+        <image type="single" name="tutorial_magnum" file="Data/Atlases/System/Tutorials/magnum.png" />
+        <image type="single" name="tutorial_rankup" file="Data/Atlases/System/Tutorials/rankup.png" />
+        <image type="single" name="tutorial_rocket launcher" file="Data/Atlases/System/Tutorials/rocket launcher.png" />
+        <image type="single" name="tutorial_rocket_turret" file="Data/Atlases/System/Tutorials/rocket_turret.png" />
+        <image type="single" name="tutorial_rpc" file="Data/Atlases/System/Tutorials/rpc.png" />
+        <image type="single" name="tutorial_scatter gun" file="Data/Atlases/System/Tutorials/scatter gun.png" />
+        <image type="single" name="tutorial_shotgun" file="Data/Atlases/System/Tutorials/shotgun.png" />
+        <image type="single" name="tutorial_spaz" file="Data/Atlases/System/Tutorials/spaz.png" />
+        <image type="single" name="tutorial_sticky launcher" file="Data/Atlases/System/Tutorials/sticky launcher.png" />
+        <image type="single" name="tutorial_tripmine" file="Data/Atlases/System/Tutorials/tripmine.png" />
+        <image type="single" name="tutorial_turret" file="Data/Atlases/System/Tutorials/turret.png" />
+        <image type="single" name="tutorial_update" file="Data/Atlases/System/Tutorials/update.png" />
+        <image type="single" name="tutorial_uzi" file="Data/Atlases/System/Tutorials/uzi.png" />
+        <image type="single" name="tutorial_welcome" file="Data/Atlases/System/Tutorials/welcome.png" />
+        <image type="single" name="skill_blank" file="Data/Atlases/System/Skills/blank.png" />
+        <image type="single" name="skill_active_overlay" file="Data/Atlases/System/Skills/active_overlay.png" />
+        <image type="single" name="skill_ready_overlay" file="Data/Atlases/System/Skills/ready_overlay.png" /> 
+        <image type="single" name="skill_root" file="Data/Atlases/System/Skills/skill_root.png" /> 
+        <image type="single" name="skill_active_skills" file="Data/Atlases/System/Skills/skill_active_skills.png" />
+        <image type="single" name="skill_infinite_ammo_1" file="Data/Atlases/System/Skills/skill_infinite_ammo_1.png" />
+        <image type="single" name="skill_infinite_ammo_2" file="Data/Atlases/System/Skills/skill_infinite_ammo_2.png" />
+        <image type="single" name="skill_group_infinite_ammo_1" file="Data/Atlases/System/Skills/skill_group_infinite_ammo_1.png" />
+        <image type="single" name="skill_group_infinite_ammo_2" file="Data/Atlases/System/Skills/skill_group_infinite_ammo_2.png" />
+        <image type="single" name="skill_group_infinite_ammo_3" file="Data/Atlases/System/Skills/skill_group_infinite_ammo_3.png" />
+        <image type="single" name="skill_infinite_ammo_3" file="Data/Atlases/System/Skills/skill_infinite_ammo_3.png" />
+        <image type="single" name="skill_infinite_ammo_4" file="Data/Atlases/System/Skills/skill_infinite_ammo_4.png" />
+        <image type="single" name="skill_god_mode_1" file="Data/Atlases/System/Skills/skill_god_mode_1.png" />
+        <image type="single" name="skill_god_mode_2" file="Data/Atlases/System/Skills/skill_god_mode_2.png" />
+        <image type="single" name="skill_group_god_mode_1" file="Data/Atlases/System/Skills/skill_group_god_mode_1.png" />
+        <image type="single" name="skill_group_god_mode_2" file="Data/Atlases/System/Skills/skill_group_god_mode_2.png" />
+        <image type="single" name="skill_group_god_mode_3" file="Data/Atlases/System/Skills/skill_group_god_mode_3.png" />
+        <image type="single" name="skill_infinite_god_mode_3" file="Data/Atlases/System/Skills/skill_infinite_god_mode_3.png" />
+        <image type="single" name="skill_infinite_god_mode_4" file="Data/Atlases/System/Skills/skill_infinite_god_mode_4.png" />
+        <image type="single" name="skill_xp_boost_1" file="Data/Atlases/System/Skills/skill_xp_boost_1.png" />
+        <image type="single" name="skill_xp_boost_2" file="Data/Atlases/System/Skills/skill_xp_boost_2.png" />
+        <image type="single" name="skill_group_xp_boost_1" file="Data/Atlases/System/Skills/skill_group_xp_boost_1.png" />
+        <image type="single" name="skill_group_xp_boost_2" file="Data/Atlases/System/Skills/skill_group_xp_boost_2.png" />
+        <image type="single" name="skill_group_xp_boost_3" file="Data/Atlases/System/Skills/skill_group_xp_boost_3.png" />
+        <image type="single" name="skill_xp_boost_3" file="Data/Atlases/System/Skills/skill_xp_boost_3.png" />
+        <image type="single" name="skill_xp_boost_4" file="Data/Atlases/System/Skills/skill_xp_boost_4.png" />
+        <image type="single" name="skill_heal_1" file="Data/Atlases/System/Skills/skill_heal_1.png" />
+        <image type="single" name="skill_heal_2" file="Data/Atlases/System/Skills/skill_heal_2.png" />
+        <image type="single" name="skill_group_heal_1" file="Data/Atlases/System/Skills/skill_group_heal_1.png" />
+        <image type="single" name="skill_group_heal_2" file="Data/Atlases/System/Skills/skill_group_heal_2.png" />
+        <image type="single" name="skill_group_heal_3" file="Data/Atlases/System/Skills/skill_group_heal_3.png" />
+        <image type="single" name="skill_heal_3" file="Data/Atlases/System/Skills/skill_heal_3.png" />
+        <image type="single" name="skill_heal_4" file="Data/Atlases/System/Skills/skill_heal_4.png" />
+        <image type="single" name="skill_full_ammo_1" file="Data/Atlases/System/Skills/skill_full_ammo_1.png" />
+        <image type="single" name="skill_full_ammo_2" file="Data/Atlases/System/Skills/skill_full_ammo_2.png" />
+        <image type="single" name="skill_group_full_ammo_1" file="Data/Atlases/System/Skills/skill_group_full_ammo_1.png" />
+        <image type="single" name="skill_group_full_ammo_2" file="Data/Atlases/System/Skills/skill_group_full_ammo_2.png" />
+        <image type="single" name="skill_group_full_ammo_3" file="Data/Atlases/System/Skills/skill_group_full_ammo_3.png" />
+        <image type="single" name="skill_full_ammo_3" file="Data/Atlases/System/Skills/skill_full_ammo_3.png" />
+        <image type="single" name="skill_full_ammo_4" file="Data/Atlases/System/Skills/skill_full_ammo_4.png" />
+        <image type="single" name="skill_bomb_1" file="Data/Atlases/System/Skills/skill_bomb_1.png" />
+        <image type="single" name="skill_bomb_2" file="Data/Atlases/System/Skills/skill_bomb_2.png" />
+        <image type="single" name="skill_incendiary_bomb_1" file="Data/Atlases/System/Skills/skill_incendiary_bomb_1.png" />
+        <image type="single" name="skill_incendiary_bomb_2" file="Data/Atlases/System/Skills/skill_incendiary_bomb_2.png" />
+        <image type="single" name="skill_freeze_bomb_1" file="Data/Atlases/System/Skills/skill_freeze_bomb_1.png" />
+        <image type="single" name="skill_freeze_bomb_2" file="Data/Atlases/System/Skills/skill_freeze_bomb_2.png" />
+        <image type="single" name="skill_bomb_3" file="Data/Atlases/System/Skills/skill_bomb_3.png" />
+        <image type="single" name="skill_bomb_4" file="Data/Atlases/System/Skills/skill_bomb_4.png" />
+        <image type="single" name="skill_blind_zombies_1" file="Data/Atlases/System/Skills/skill_blind_zombies_1.png" />
+        <image type="single" name="skill_blind_zombies_2" file="Data/Atlases/System/Skills/skill_blind_zombies_2.png" />
+        <image type="single" name="skill_group_blind_zombies_1" file="Data/Atlases/System/Skills/skill_group_blind_zombies_1.png" />
+        <image type="single" name="skill_group_blind_zombies_2" file="Data/Atlases/System/Skills/skill_group_blind_zombies_2.png" />
+        <image type="single" name="skill_group_blind_zombies_3" file="Data/Atlases/System/Skills/skill_group_blind_zombies_3.png" />
+        <image type="single" name="skill_blind_zombies_3" file="Data/Atlases/System/Skills/skill_blind_zombies_3.png" />
+        <image type="single" name="skill_blind_zombies_4" file="Data/Atlases/System/Skills/skill_blind_zombies_4.png" />
+        <image type="single" name="skill_speed_gunner_1" file="Data/Atlases/System/Skills/skill_speed_gunner_1.png" />
+        <image type="single" name="skill_speed_gunner_2" file="Data/Atlases/System/Skills/skill_speed_gunner_2.png" />
+        <image type="single" name="skill_speed_gunner_3" file="Data/Atlases/System/Skills/skill_speed_gunner_3.png" />
+        <image type="single" name="skill_speed_gunner_4" file="Data/Atlases/System/Skills/skill_speed_gunner_4.png" />
+        <image type="single" name="skill_random_weapon_1" file="Data/Atlases/System/Skills/skill_random_weapon_1.png" />
+        <image type="single" name="skill_random_small_arms_1" file="Data/Atlases/System/Skills/skill_random_small_arms_1.png" />
+        <image type="single" name="skill_random_rifle_1" file="Data/Atlases/System/Skills/skill_random_rifle_1.png" />
+        <image type="single" name="skill_random_heavy_1" file="Data/Atlases/System/Skills/skill_random_heavy_1.png" />
+        <image type="single" name="skill_random_support_1" file="Data/Atlases/System/Skills/skill_random_support_1.png" />
+        <image type="single" name="skill_insta_kill_1" file="Data/Atlases/System/Skills/skill_insta_kill_1.png" />
+        <image type="single" name="skill_insta_kill_2" file="Data/Atlases/System/Skills/skill_insta_kill_2.png" />
+        <image type="single" name="skill_group_insta_kill_1" file="Data/Atlases/System/Skills/skill_group_insta_kill_1.png" />
+        <image type="single" name="skill_group_insta_kill_2" file="Data/Atlases/System/Skills/skill_group_insta_kill_2.png" />
+        <image type="single" name="skill_group_insta_kill_3" file="Data/Atlases/System/Skills/skill_group_insta_kill_3.png" />
+        <image type="single" name="skill_insta_kill_3" file="Data/Atlases/System/Skills/skill_insta_kill_3.png" />
+        <image type="single" name="skill_insta_kill_4" file="Data/Atlases/System/Skills/skill_insta_kill_4.png" />
+        <image type="single" name="skill_passive_skills" file="Data/Atlases/System/Skills/skill_passive_skills.png" />
+        <image type="single" name="skill_increase_hp_1" file="Data/Atlases/System/Skills/skill_increase_hp_1.png" />
+        <image type="single" name="skill_increase_hp_2" file="Data/Atlases/System/Skills/skill_increase_hp_2.png" />
+        <image type="single" name="skill_increase_hp_3" file="Data/Atlases/System/Skills/skill_increase_hp_3.png" />
+        <image type="single" name="skill_instant_skill_1" file="Data/Atlases/System/Skills/skill_instant_skill_1.png" />
+        <image type="single" name="skill_health_regen_1" file="Data/Atlases/System/Skills/skill_health_regen_1.png" />
+        <image type="single" name="skill_health_regen_2" file="Data/Atlases/System/Skills/skill_health_regen_2.png" />
+        <image type="single" name="skill_health_regen_3" file="Data/Atlases/System/Skills/skill_health_regen_3.png" />
+        <image type="single" name="skill_increase_speed_1" file="Data/Atlases/System/Skills/skill_increase_speed_1.png" />
+        <image type="single" name="skill_increase_speed_2" file="Data/Atlases/System/Skills/skill_increase_speed_2.png" />
+        <image type="single" name="skill_increase_speed_3" file="Data/Atlases/System/Skills/skill_increase_speed_3.png" />
+        <image type="single" name="skill_instant_skill_2" file="Data/Atlases/System/Skills/skill_instant_skill_2.png" />
+        <image type="single" name="skill_increase_ammo_capacity_1" file="Data/Atlases/System/Skills/skill_increase_ammo_capacity_1.png" />
+        <image type="single" name="skill_increase_ammo_capacity_2" file="Data/Atlases/System/Skills/skill_increase_ammo_capacity_2.png" />
+        <image type="single" name="skill_increase_ammo_capacity_3" file="Data/Atlases/System/Skills/skill_increase_ammo_capacity_3.png" />
+        <image type="single" name="skill_instant_level_up" file="Data/Atlases/System/Skills/skill_instant_level_up.png" />
+        <image type="single" name="skill_ammo_regen_1" file="Data/Atlases/System/Skills/skill_ammo_regen_1.png" />
+        <image type="single" name="skill_ammo_regen_2" file="Data/Atlases/System/Skills/skill_ammo_regen_2.png" />
+        <image type="single" name="skill_ammo_regen_3" file="Data/Atlases/System/Skills/skill_ammo_regen_3.png" />
+        <image type="single" name="skill_gold_drop_1" file="Data/Atlases/System/Skills/skill_gold_drop_1.png" />
+        <image type="single" name="skill_gold_drop_2" file="Data/Atlases/System/Skills/skill_gold_drop_2.png" />
+        <image type="single" name="skill_gold_drop_3" file="Data/Atlases/System/Skills/skill_gold_drop_3.png" />
+        <image type="single" name="skill_instant_gold_1" file="Data/Atlases/System/Skills/skill_instant_gold_1.png" />
+        <image type="single" name="skill_gold_magnet_1" file="Data/Atlases/System/Skills/skill_gold_magnet_1.png" />
+        <image type="single" name="skill_gold_magnet_2" file="Data/Atlases/System/Skills/skill_gold_magnet_2.png" />
+        <image type="single" name="skill_gold_magnet_3" file="Data/Atlases/System/Skills/skill_gold_magnet_3.png" />
+        <image type="single" name="skill_price_decrease_1" file="Data/Atlases/System/Skills/skill_price_decrease_1.png" />
+        <image type="single" name="skill_price_decrease_2" file="Data/Atlases/System/Skills/skill_price_decrease_2.png" />
+        <image type="single" name="skill_price_decrease_3" file="Data/Atlases/System/Skills/skill_price_decrease_3.png" />
+        <image type="single" name="skill_sell_price_1" file="Data/Atlases/System/Skills/skill_sell_price_1.png" />
+        <image type="single" name="skill_sell_price_2" file="Data/Atlases/System/Skills/skill_sell_price_2.png" />
+        <image type="single" name="skill_sell_price_3" file="Data/Atlases/System/Skills/skill_sell_price_3.png" />
+        <image type="single" name="skill_gem_drop_1" file="Data/Atlases/System/Skills/skill_gem_drop_1.png" />
+        <image type="single" name="skill_gem_drop_2" file="Data/Atlases/System/Skills/skill_gem_drop_2.png" />
+        <image type="single" name="skill_gem_drop_3" file="Data/Atlases/System/Skills/skill_gem_drop_3.png" />
+        <image type="single" name="skill_instant_gem_1" file="Data/Atlases/System/Skills/skill_instant_gem_1.png" />
+        <image type="single" name="skill_gem_magnet_1" file="Data/Atlases/System/Skills/skill_gem_magnet_1.png" />
+        <image type="single" name="skill_gem_magnet_2" file="Data/Atlases/System/Skills/skill_gem_magnet_2.png" />
+        <image type="single" name="skill_gem_magnet_3" file="Data/Atlases/System/Skills/skill_gem_magnet_3.png" />
+        <image type="single" name="skill_increase_xp_1" file="Data/Atlases/System/Skills/skill_increase_xp_1.png" />
+        <image type="single" name="skill_increase_xp_2" file="Data/Atlases/System/Skills/skill_increase_xp_2.png" />
+        <image type="single" name="skill_increase_xp_3" file="Data/Atlases/System/Skills/skill_increase_xp_3.png" />
+        <image type="single" name="skill_instant_item_1" file="Data/Atlases/System/Skills/skill_instant_item_1.png" />
+        <image type="single" name="skill_wallet_increase_1" file="Data/Atlases/System/Skills/skill_wallet_increase_1.png" />
+        <image type="single" name="skill_wallet_increase_2" file="Data/Atlases/System/Skills/skill_wallet_increase_2.png" />
+        <image type="single" name="skill_wallet_increase_3" file="Data/Atlases/System/Skills/skill_wallet_increase_3.png" />
+        <image type="single" name="skill_wallet_interest_1" file="Data/Atlases/System/Skills/skill_wallet_interest_1.png" />
+        <image type="single" name="skill_inventory_increase_1" file="Data/Atlases/System/Skills/skill_inventory_increase_1.png" />
+        <image type="single" name="skill_inventory_increase_2" file="Data/Atlases/System/Skills/skill_inventory_increase_2.png" />
+        <image type="single" name="skill_inventory_increase_3" file="Data/Atlases/System/Skills/skill_inventory_increase_3.png" />
+        <image type="single" name="skill_play_styles" file="Data/Atlases/System/Skills/skill_play_styles.png" />
+        <image type="single" name="skill_combat" file="Data/Atlases/System/Skills/skill_combat.png" />
+        <image type="single" name="skill_melee_damage_1" file="Data/Atlases/System/Skills/skill_melee_damage_1.png" />
+        <image type="single" name="skill_melee_damage_2" file="Data/Atlases/System/Skills/skill_melee_damage_2.png" />
+        <image type="single" name="skill_melee_damage_3" file="Data/Atlases/System/Skills/skill_melee_damage_3.png" />
+        <image type="single" name="skill_melee_stamina_1" file="Data/Atlases/System/Skills/skill_melee_stamina_1.png" />
+        <image type="single" name="skill_melee_stamina_2" file="Data/Atlases/System/Skills/skill_melee_stamina_2.png" />
+        <image type="single" name="skill_melee_stamina_3" file="Data/Atlases/System/Skills/skill_melee_stamina_3.png" />
+        <image type="single" name="skill_rifle_damage_1" file="Data/Atlases/System/Skills/skill_rifle_damage_1.png" />
+        <image type="single" name="skill_rifle_damage_2" file="Data/Atlases/System/Skills/skill_rifle_damage_2.png" />
+        <image type="single" name="skill_rifle_damage_3" file="Data/Atlases/System/Skills/skill_rifle_damage_3.png" />
+        <image type="single" name="skill_rifle_ammo_1" file="Data/Atlases/System/Skills/skill_rifle_ammo_1.png" />
+        <image type="single" name="skill_rifle_ammo_2" file="Data/Atlases/System/Skills/skill_rifle_ammo_2.png" />
+        <image type="single" name="skill_rifle_ammo_3" file="Data/Atlases/System/Skills/skill_rifle_ammo_3.png" />
+        <image type="single" name="skill_ghost_life_time_1" file="Data/Atlases/System/Skills/skill_ghost_life_time_1.png" />
+        <image type="single" name="skill_ghost_life_time_2" file="Data/Atlases/System/Skills/skill_ghost_life_time_2.png" />
+        <image type="single" name="skill_ghost_life_time_3" file="Data/Atlases/System/Skills/skill_ghost_life_time_3.png" />
+        <image type="single" name="skill_heavy" file="Data/Atlases/System/Skills/skill_heavy.png" />
+        <image type="single" name="skill_heavy_weapon_damage_1" file="Data/Atlases/System/Skills/skill_heavy_weapon_damage_1.png" />
+        <image type="single" name="skill_heavy_weapon_damage_2" file="Data/Atlases/System/Skills/skill_heavy_weapon_damage_2.png" />
+        <image type="single" name="skill_heavy_weapon_damage_3" file="Data/Atlases/System/Skills/skill_heavy_weapon_damage_3.png" />
+        <image type="single" name="skill_heavy_weapon_ammo_1" file="Data/Atlases/System/Skills/skill_heavy_weapon_ammo_1.png" />
+        <image type="single" name="skill_heavy_weapon_ammo_2" file="Data/Atlases/System/Skills/skill_heavy_weapon_ammo_2.png" />
+        <image type="single" name="skill_heavy_weapon_ammo_3" file="Data/Atlases/System/Skills/skill_heavy_weapon_ammo_3.png" />
+        <image type="single" name="skill_explosion_radius_1" file="Data/Atlases/System/Skills/skill_explosion_radius_1.png" />
+        <image type="single" name="skill_explosion_radius_2" file="Data/Atlases/System/Skills/skill_explosion_radius_2.png" />
+        <image type="single" name="skill_explosion_radius_3" file="Data/Atlases/System/Skills/skill_explosion_radius_3.png" />
+        <image type="single" name="skill_status_duration_1" file="Data/Atlases/System/Skills/skill_status_duration_1.png" />
+        <image type="single" name="skill_status_duration_2" file="Data/Atlases/System/Skills/skill_status_duration_2.png" />
+        <image type="single" name="skill_status_duration_3" file="Data/Atlases/System/Skills/skill_status_duration_3.png" />
+        <image type="single" name="skill_turret_damage_1" file="Data/Atlases/System/Skills/skill_turret_damage_1.png" />
+        <image type="single" name="skill_turret_damage__2" file="Data/Atlases/System/Skills/skill_turret_damage__2.png" />
+        <image type="single" name="skill_turret_damage_3" file="Data/Atlases/System/Skills/skill_turret_damage_3.png" />
+        <image type="single" name="skill_turret_ammo_1" file="Data/Atlases/System/Skills/skill_turret_ammo_1.png" />
+        <image type="single" name="skill_turret_ammo_2" file="Data/Atlases/System/Skills/skill_turret_ammo_2.png" />
+        <image type="single" name="skill_turret_ammo_3" file="Data/Atlases/System/Skills/skill_turret_ammo_3.png" />
+        <image type="single" name="skill_support" file="Data/Atlases/System/Skills/skill_support.png" />
+        <image type="single" name="skill_small_arms_damage_1" file="Data/Atlases/System/Skills/skill_small_arms_damage_1.png" />
+        <image type="single" name="skill_small_arms_damage_2" file="Data/Atlases/System/Skills/skill_small_arms_damage_2.png" />
+        <image type="single" name="skill_small_arms_damage_3" file="Data/Atlases/System/Skills/skill_small_arms_damage_3.png" />
+        <image type="single" name="skill_small_arms_ammo_1" file="Data/Atlases/System/Skills/skill_small_arms_ammo_1.png" />
+        <image type="single" name="skill_small_arms_ammo_2" file="Data/Atlases/System/Skills/skill_small_arms_ammo_2.png" />
+        <image type="single" name="skill_small_arms_ammo_3" file="Data/Atlases/System/Skills/skill_small_arms_ammo_3.png" />
+        <image type="single" name="skill_buff_grenade_radius_1" file="Data/Atlases/System/Skills/skill_buff_grenade_radius_1.png" />
+        <image type="single" name="skill_buff_grenade_radius_2" file="Data/Atlases/System/Skills/skill_buff_grenade_radius_2.png" />
+        <image type="single" name="skill_buff_grenade_radius_3" file="Data/Atlases/System/Skills/skill_buff_grenade_radius_3.png" />
+        <image type="single" name="skill_buff_grenade_ammo_1" file="Data/Atlases/System/Skills/skill_buff_grenade_ammo_1.png" />
+        <image type="single" name="skill_buff_grenade_ammo_2" file="Data/Atlases/System/Skills/skill_buff_grenade_ammo_2.png" />
+        <image type="single" name="skill_buff_grenade_ammo_3" file="Data/Atlases/System/Skills/skill_buff_grenade_ammo_3.png" />
+        <image type="single" name="skill_ghost_revive_time_1" file="Data/Atlases/System/Skills/skill_ghost_revive_time_1.png" />
+        <image type="single" name="skill_ghost_revive_time_2" file="Data/Atlases/System/Skills/skill_ghost_revive_time_2.png" />
+        <image type="single" name="skill_ghost_revive_time_3" file="Data/Atlases/System/Skills/skill_ghost_revive_time_3.png" />
+        <image type="single" name="skill_healing_speed_1" file="Data/Atlases/System/Skills/skill_healing_speed_1.png" />
+        <image type="single" name="skill_healing_speed_2" file="Data/Atlases/System/Skills/skill_healing_speed_2.png" />
+        <image type="single" name="skill_healing_speed_3" file="Data/Atlases/System/Skills/skill_healing_speed_3.png" />
+      
+        <!-- HUD -->
+      <image type="single" name="game_hud_compass_ghost" file="Data/Atlases/Screens/Game/compass_ghost.png" origin="0.5,0.5" />
+      <image type="single" name="game_hud_compass_health" file="Data/Atlases/Screens/Game/compass_health.png" origin="0.5,0.5" />
+      <image type="single" name="game_hud_compass_player" file="Data/Atlases/Screens/Game/compass_player.png" origin="0.5,0.5" />
+      <image type="single" name="game_hud_compass_objective" file="Data/Atlases/Screens/Game/compass_objective.png" origin="0.5,0.5" />
+	  
+      <image type="single" name="game_hud_apple" file="Data/Atlases/Screens/Game/apple.png" />
+      <image type="single" name="game_hud_dead_text" file="Data/Atlases/Screens/Game/dead_text.png" />
+      <image type="grid" name="game_hud_health_bar_#" file="Data/Atlases/Screens/Game/health_bar.png" width="4" height="9" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_health_bar_border_#" file="Data/Atlases/Screens/Game/health_bar_border.png" width="4" height="3" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_hud_icons_#" file="Data/Atlases/Screens/Game/hud_icons.png"  width="9" height="9" hspace="1" vspace="1" />
+      <image type="single" name="game_hud_infinite_symbol" file="Data/Atlases/Screens/Game/infinite_symbol.png" />
+      <image type="single" name="game_hud_invisible" file="Data/Atlases/Screens/Game/invisible.png" />
+      <image type="single" name="game_hud_linux" file="Data/Atlases/Screens/Game/linux.png" />
+      <image type="single" name="game_hud_lock" file="Data/Atlases/Screens/Game/lock.png" />
+      <image type="single" name="game_hud_minimap" file="Data/Atlases/Screens/Game/minimap.png" />
+      <image type="single" name="game_hud_player_compass_pip" file="Data/Atlases/Screens/Game/player_compass_pip.png" origin="0.5,0.5"/>
+      <image type="grid" name="game_hud_score_bg_#" file="Data/Atlases/Screens/Game/score_bg.png" width="3" height="3" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_score_bg_full_#" file="Data/Atlases/Screens/Game/score_bg_full.png" width="3" height="3" hspace="1" vspace="1"  />
+      <image type="single" name="game_hud_visible" file="Data/Atlases/Screens/Game/visible.png" />
+      <image type="single" name="game_hud_win32" file="Data/Atlases/Screens/Game/win32.png" />
+      
+	  <image type="grid" name="game_hud_ammoicon_barricade_#" file="Data/Atlases/Screens/Game/Ammo Icons/barricade.png"  width="8" height="8" hspace="0" vspace="0" />
+      
+	  <image type="grid" name="game_hud_ammoicon_enemy_#" file="Data/Atlases/Screens/Game/Ammo Icons/enemy.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_acid_#" file="Data/Atlases/Screens/Game/Ammo Icons/acid.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_ak47_#" file="Data/Atlases/Screens/Game/Ammo Icons/ak47.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_ar_#" file="Data/Atlases/Screens/Game/Ammo Icons/ar.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_bolt_gun_#" file="Data/Atlases/Screens/Game/Ammo Icons/bolt_gun.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_buff_grenade_ammo_#" file="Data/Atlases/Screens/Game/Ammo Icons/buff_grenade_ammo.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_buff_grenade_damage_#" file="Data/Atlases/Screens/Game/Ammo Icons/buff_grenade_damage.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_buff_grenade_health_#" file="Data/Atlases/Screens/Game/Ammo Icons/buff_grenade_health.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_buff_grenade_price_#" file="Data/Atlases/Screens/Game/Ammo Icons/buff_grenade_price.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_buff_grenade_reload_#" file="Data/Atlases/Screens/Game/Ammo Icons/buff_grenade_reload.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_buff_grenade_rof_#" file="Data/Atlases/Screens/Game/Ammo Icons/buff_grenade_rof.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_buff_grenade_speed_#" file="Data/Atlases/Screens/Game/Ammo Icons/buff_grenade_speed.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_buff_grenade_xp_#" file="Data/Atlases/Screens/Game/Ammo Icons/buff_grenade_xp.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_confetti_#" file="Data/Atlases/Screens/Game/Ammo Icons/confetti.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_explosive_#" file="Data/Atlases/Screens/Game/Ammo Icons/explosive.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_flare_#" file="Data/Atlases/Screens/Game/Ammo Icons/flare.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_freeze_#" file="Data/Atlases/Screens/Game/Ammo Icons/freeze.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_grenade_#" file="Data/Atlases/Screens/Game/Ammo Icons/grenade.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_incendiary_#" file="Data/Atlases/Screens/Game/Ammo Icons/incendiary.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_laser_#" file="Data/Atlases/Screens/Game/Ammo Icons/laser.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_love_#" file="Data/Atlases/Screens/Game/Ammo Icons/love.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_m16_#" file="Data/Atlases/Screens/Game/Ammo Icons/m16.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_magnum_#" file="Data/Atlases/Screens/Game/Ammo Icons/magnum.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_melee_#" file="Data/Atlases/Screens/Game/Ammo Icons/melee.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_pistol_#" file="Data/Atlases/Screens/Game/Ammo Icons/pistol.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_rocket_#" file="Data/Atlases/Screens/Game/Ammo Icons/rocket.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_shock_rifle_#" file="Data/Atlases/Screens/Game/Ammo Icons/shock_rifle.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_shotgun_#" file="Data/Atlases/Screens/Game/Ammo Icons/shotgun.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_smg_#" file="Data/Atlases/Screens/Game/Ammo Icons/smg.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_sticky_#" file="Data/Atlases/Screens/Game/Ammo Icons/sticky.png"  width="8" height="8" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_tripmine_#" file="Data/Atlases/Screens/Game/Ammo Icons/tripmine.png"  width="10" height="10" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_turret_#" file="Data/Atlases/Screens/Game/Ammo Icons/turret.png"  width="10" height="10" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_ammoicon_winchester_rifle_#" file="Data/Atlases/Screens/Game/Ammo Icons/winchester_rifle.png"  width="8" height="8" hspace="0" vspace="0" />
+
+
+
+
+    <image type="grid" name="game_hud_ammoicon_molotov_#" file="Data/Atlases/Screens/Game/Ammo Icons/molotov.png"  width="8" height="8" hspace="0" vspace="0" />
+    <image type="grid" name="game_hud_ammoicon_frag_#" file="Data/Atlases/Screens/Game/Ammo Icons/frag.png"  width="8" height="8" hspace="0" vspace="0" />
+
+
+
+    <image type="grid" name="game_hud_chat_chat_border_#" file="Data/Atlases/Screens/Game/Chat/chat_border.png"  width="1" height="1" hspace="1" vspace="1" />
+      <image type="single" name="game_hud_chat_chat_gradient_end" file="Data/Atlases/Screens/Game/Chat/chat_gradient_end.png" />
+      <image type="grid" name="game_hud_chat_scroll_bar_#" file="Data/Atlases/Screens/Game/Chat/scroll_bar.png"  width="7" height="10" hspace="1" vspace="1" />
+      <image type="single" name="game_hud_emblem_developer" file="Data/Atlases/Screens/Game/Emblems/DEVELOPER.png" />
+      <image type="single" name="game_hud_emblem_donator" file="Data/Atlases/Screens/Game/Emblems/DONATOR.png" />
+      <image type="single" name="game_hud_emblem_large_donator" file="Data/Atlases/Screens/Game/Emblems/LARGE_DONATOR.png" />
+      <image type="single" name="game_hud_emblem_moderator" file="Data/Atlases/Screens/Game/Emblems/MODERATOR.png" /> 
+      <image type="grid" name="game_hud_ctb_bags_#" file="Data/Atlases/Screens/Game/Game Modes/Capture The Bag/bags.png" width="11" height="14" hspace="1" vspace="1" origin="0.5,0.5" />
+      <image type="grid" name="game_hud_dm_position_#" file="Data/Atlases/Screens/Game/Game Modes/Deathmatch/position.png" width="26" height="14" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_ru_position_#" file="Data/Atlases/Screens/Game/Game Modes/Rack Em Up/position.png" width="26" height="14" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_tdm_position_#" file="Data/Atlases/Screens/Game/Game Modes/Team Deathmatch/position.png" width="26" height="14" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_down_#" file="Data/Atlases/Screens/Game/Keys/keyboard_down.png" width="10" height="10" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_up_#" file="Data/Atlases/Screens/Game/Keys/keyboard_up.png" width="10" height="10" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_230_#" file="Data/Atlases/Screens/Game/Keys/key_230.png" width="22" height="22" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_231_#" file="Data/Atlases/Screens/Game/Keys/key_231.png" width="22" height="22" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_232_#" file="Data/Atlases/Screens/Game/Keys/key_232.png" width="22" height="22" hspace="1" vspace="1"  />
+      <image type="grid" name="game_hud_key_233_#" file="Data/Atlases/Screens/Game/Keys/key_233.png" width="22" height="22" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_234_#" file="Data/Atlases/Screens/Game/Keys/key_234.png" width="22" height="22" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_235_#" file="Data/Atlases/Screens/Game/Keys/key_235.png" width="22" height="22" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_236_#" file="Data/Atlases/Screens/Game/Keys/key_236.png" width="22" height="22" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_237_#" file="Data/Atlases/Screens/Game/Keys/key_237.png" width="22" height="22" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_240_#" file="Data/Atlases/Screens/Game/Keys/key_240.png" width="18" height="23" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_241_#" file="Data/Atlases/Screens/Game/Keys/key_241.png" width="18" height="23" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_242_#" file="Data/Atlases/Screens/Game/Keys/key_242.png" width="22" height="22" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_243_#" file="Data/Atlases/Screens/Game/Keys/key_243.png" width="22" height="22" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_244_#" file="Data/Atlases/Screens/Game/Keys/key_244.png" width="22" height="22" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_245_#" file="Data/Atlases/Screens/Game/Keys/key_245.png" width="22" height="22" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_246_#" file="Data/Atlases/Screens/Game/Keys/key_246.png" width="19" height="22" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_247_#" file="Data/Atlases/Screens/Game/Keys/key_247.png" width="19" height="22" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_248_#" file="Data/Atlases/Screens/Game/Keys/key_248.png" width="19" height="22" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_249_#" file="Data/Atlases/Screens/Game/Keys/key_249.png" width="19" height="22" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_250_#" file="Data/Atlases/Screens/Game/Keys/key_250.png" width="31" height="22" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_251_#" file="Data/Atlases/Screens/Game/Keys/key_251.png" width="31" height="22" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_252_#" file="Data/Atlases/Screens/Game/Keys/key_252.png" width="25" height="21" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_253_#" file="Data/Atlases/Screens/Game/Keys/key_253.png" width="25" height="21" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_254_#" file="Data/Atlases/Screens/Game/Keys/key_254.png" width="30" height="24" hspace="1" vspace="1" />
+      <image type="grid" name="game_hud_key_255_#" file="Data/Atlases/Screens/Game/Keys/key_255.png" width="30" height="24" hspace="1" vspace="1" />
+      <image type="single" name="game_hud_messagebubble_arrow" file="Data/Atlases/Screens/Game/Message Bubble/arrow.png" />
+      <image type="grid" name="game_hud_messagebubble_borders_#" file="Data/Atlases/Screens/Game/Message Bubble/borders.png" width="3" height="3" hspace="1" vspace="1" />
+      <image type="single" name="game_hud_foodvendingmachine_background" file="Data/Atlases/Screens/Game/UI/Food Vending Machine/background.png" />
+      <image type="grid" name="game_hud_foodvendingmachine_cursor_#" file="Data/Atlases/Screens/Game/UI/Food Vending Machine/cursor.png" width="35" height="99" hspace="1" vspace="1" />
+      <image type="single" name="game_hud_foodvendingmachine_foreground" file="Data/Atlases/Screens/Game/UI/Food Vending Machine/foreground.png" />
+      <image type="single" name="game_hud_foodvendingmachine_buttons" file="Data/Atlases/Screens/Game/UI/Food Vending Machine/highlight_buttons.png" />
+      <image type="grid" name="game_hud_foodvendingmachine_items_#" file="Data/Atlases/Screens/Game/UI/Food Vending Machine/items.png" width="30" height="30" hspace="1" vspace="1" />
+      <image type="single" name="game_hud_sodavendingmachine_background" file="Data/Atlases/Screens/Game/UI/Soda Vending Machine/background.png" />
+      <image type="single" name="game_hud_sodavendingmachine_cursor" file="Data/Atlases/Screens/Game/UI/Soda Vending Machine/cursor.png" />
+      <image type="single" name="game_hud_sodavendingmachine_pip" file="Data/Atlases/Screens/Game/UI/Soda Vending Machine/off_pip.png" />
+      <image type="grid" name="game_hud_sodavendingmachine_buttons_#" file="Data/Atlases/Screens/Game/UI/Soda Vending Machine/pressed_buttons.png" width="121" height="50" hspace="1" vspace="1" />
+       
+	  <image type="grid" name="game_hud_weaponicon_enemy_#" file="Data/Atlases/Screens/Game/Weapon Icons/enemy.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_barricade_#" file="Data/Atlases/Screens/Game/Weapon Icons/barricade.png"  width="12" height="12" hspace="0" vspace="0" />
+      
+	  <image type="grid" name="game_hud_weaponicon_acid_gun_#" file="Data/Atlases/Screens/Game/Weapon Icons/acid_gun.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_ak47_#" file="Data/Atlases/Screens/Game/Weapon Icons/ak47.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_ar_#" file="Data/Atlases/Screens/Game/Weapon Icons/ar.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_baseball_bat_#" file="Data/Atlases/Screens/Game/Weapon Icons/baseball_bat.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_bolt_gun_#" file="Data/Atlases/Screens/Game/Weapon Icons/bolt_gun.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_buff_grenade_ammo_#" file="Data/Atlases/Screens/Game/Weapon Icons/buff_grenade_ammo.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_buff_grenade_damage_#" file="Data/Atlases/Screens/Game/Weapon Icons/buff_grenade_damage.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_buff_grenade_health_#" file="Data/Atlases/Screens/Game/Weapon Icons/buff_grenade_health.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_buff_grenade_price_#" file="Data/Atlases/Screens/Game/Weapon Icons/buff_grenade_price.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_buff_grenade_reload_#" file="Data/Atlases/Screens/Game/Weapon Icons/buff_grenade_reload.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_buff_grenade_rof_#" file="Data/Atlases/Screens/Game/Weapon Icons/buff_grenade_rof.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_buff_grenade_speed_#" file="Data/Atlases/Screens/Game/Weapon Icons/buff_grenade_speed.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_buff_grenade_xp_#" file="Data/Atlases/Screens/Game/Weapon Icons/buff_grenade_xp.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_confetti_#" file="Data/Atlases/Screens/Game/Weapon Icons/confetti.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_doublebarrelshotgun_#" file="Data/Atlases/Screens/Game/Weapon Icons/doublebarrelshotgun.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_explosive_#" file="Data/Atlases/Screens/Game/Weapon Icons/explosive.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_fight_saber_#" file="Data/Atlases/Screens/Game/Weapon Icons/fight_saber.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_flamethrower_#" file="Data/Atlases/Screens/Game/Weapon Icons/flamethrower.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_flaregun_#" file="Data/Atlases/Screens/Game/Weapon Icons/flaregun.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_freeze_#" file="Data/Atlases/Screens/Game/Weapon Icons/freeze.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_freezeray_#" file="Data/Atlases/Screens/Game/Weapon Icons/freezeray.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_grenade_launcher_#" file="Data/Atlases/Screens/Game/Weapon Icons/grenade_launcher.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_incendiary_#" file="Data/Atlases/Screens/Game/Weapon Icons/incendiary.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_lasercannon_#" file="Data/Atlases/Screens/Game/Weapon Icons/lasercannon.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_lovecannon_#" file="Data/Atlases/Screens/Game/Weapon Icons/lovecannon.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_lovethrower_#" file="Data/Atlases/Screens/Game/Weapon Icons/lovethrower.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_m16_#" file="Data/Atlases/Screens/Game/Weapon Icons/m16.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_magnum_#" file="Data/Atlases/Screens/Game/Weapon Icons/magnum.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_none_#" file="Data/Atlases/Screens/Game/Weapon Icons/none.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_pistol_#" file="Data/Atlases/Screens/Game/Weapon Icons/pistol.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_rifle_#" file="Data/Atlases/Screens/Game/Weapon Icons/rifle.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_rocket_launcher_#" file="Data/Atlases/Screens/Game/Weapon Icons/rocket_launcher.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_rpc_#" file="Data/Atlases/Screens/Game/Weapon Icons/rpc.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_scattergun_#" file="Data/Atlases/Screens/Game/Weapon Icons/scattergun.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_shock_rifle_#" file="Data/Atlases/Screens/Game/Weapon Icons/shock_rifle.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_shotgun_#" file="Data/Atlases/Screens/Game/Weapon Icons/shotgun.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_spaz_#" file="Data/Atlases/Screens/Game/Weapon Icons/spaz.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_sticky_launcher_#" file="Data/Atlases/Screens/Game/Weapon Icons/sticky_launcher.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_tripmine_#" file="Data/Atlases/Screens/Game/Weapon Icons/tripmine.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_turret_#" file="Data/Atlases/Screens/Game/Weapon Icons/turret.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_uzi_#" file="Data/Atlases/Screens/Game/Weapon Icons/uzi.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="grid" name="game_hud_weaponicon_winchester_rifle_#" file="Data/Atlases/Screens/Game/Weapon Icons/winchester_rifle.png"  width="12" height="12" hspace="0" vspace="0" />
+	  <image type="grid" name="game_hud_weaponicon_love_pylon_#" file="Data/Atlases/Screens/Game/Weapon Icons/love_pylon.png"  width="12" height="12" hspace="0" vspace="0" />
+     
+    
+    
+    <image type="grid" name="game_hud_weaponicon_frag_#" file="Data/Atlases/Screens/Game/Weapon Icons/frag.png"  width="12" height="12" hspace="0" vspace="0" />
+    <image type="grid" name="game_hud_weaponicon_molotov_#" file="Data/Atlases/Screens/Game/Weapon Icons/molotov.png"  width="12" height="12" hspace="0" vspace="0" />
+    <image type="grid" name="game_hud_weaponicon_sword_#" file="Data/Atlases/Screens/Game/Weapon Icons/sword.png"  width="12" height="12" hspace="0" vspace="0" />
+    <image type="grid" name="game_hud_weaponicon_rocket_launcher_2_#" file="Data/Atlases/Screens/Game/Weapon Icons/rocket_launcher_2.png"  width="12" height="12" hspace="0" vspace="0" />
+    <image type="grid" name="game_hud_weaponicon_rocket_launcher_3_#" file="Data/Atlases/Screens/Game/Weapon Icons/rocket_launcher_3.png"  width="12" height="12" hspace="0" vspace="0" />
+
+
+
+    <image type="grid" name="game_hud_weaponicon_unknown_#" file="Data/Atlases/Screens/Game/Weapon Icons/unknown.png"  width="12" height="12" hspace="0" vspace="0" />
+      <image type="single" name="game_hud_slot_empty" file="Data/Atlases/Screens/Game/slot_empty.png" />
+      <image type="single" name="game_hud_slot_fore" file="Data/Atlases/Screens/Game/slot_fore.png" />
+    <image type="single" name="game_hud_slot_fore_active" file="Data/Atlases/Screens/Game/slot_fore_active.png" />
+    <image type="single" name="game_hud_slot_fore_no_energy" file="Data/Atlases/Screens/Game/slot_fore_no_energy.png" />
+    <image type="single" name="game_hud_slot_fore_ready" file="Data/Atlases/Screens/Game/slot_fore_ready.png" />
+
+  </images> 
+	<animations>
+	
+
+	</animations>
+</xml>

@@ -1,0 +1,8 @@
+<xml>
+	<settings>
+		<name>SoundExampleSounds</name>
+	</settings>
+	<sounds>
+		<sound name="sfx_objects_weapons_pistol_fire" looping="False" streaming="False" file="Data/Audio/pewpew.wav" />
+	</sounds>
+</xml>

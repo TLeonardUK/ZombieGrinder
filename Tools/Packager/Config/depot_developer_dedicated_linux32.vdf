@@ -1,0 +1,18 @@
+"DepotBuildConfig"
+{
+	"DepotID" "374983"
+
+	// include all files recursivley
+	"FileMapping"
+	{
+		"LocalPath" "./linux32/Binary/*"
+		"DepotPath" "./Binary/"
+		"recursive" "1"
+	}
+
+	// but exclude all symbol files  
+	"FileExclusion" "*.pdb"
+	"FileExclusion" "*.symbols"
+	"FileExclusion" "*Game"
+	"FileExclusion" "*Builder"
+}

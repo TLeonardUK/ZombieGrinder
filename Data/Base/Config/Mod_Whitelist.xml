@@ -1,0 +1,52 @@
+ <xml>
+ 
+	<!--
+		This file defines what resources can be modified by end-users for the purposes of modding.
+
+		If any greylisted files are modified then the game will become highly restricted - saves will not work,
+		achievements will not work, games cannot be played on VAC servers, etc.
+
+		If the user wants to lift these restrictions, they must upload the greylisted mod to 
+		the workshop and ask an admin to whitelist the mod. (Ask infinitus@zombiegrinder.com)
+		
+		Any resources marked with server-enforced are required to be the same on the client and server, 
+		meaning the server and client must have the same mods installed. Resources not marked as such
+		can be modified freely on the local-server.
+		
+		Blacklisted files can never be modified by unsigned end-user mods, and the game will refuse to start
+		if they are modified.
+	-->
+
+ 	<!-- 
+		Scripts are greylisted as its both easy to cheat, and do naughty things with the users computer. They are 
+		enforced as not doing so will cause gameplay differences between client and server, causing desyncs.
+	-->
+	<grey pattern="Data/Scripts/*" />
+	<server_enforced pattern="Data/Scripts/*" />
+	
+ 	<!-- 
+		Config files are blacklisted as they define engine configuration that should never be modified by the end-user,
+		such as this whitelist. 
+	-->
+	<black pattern="Data/Config/*" />
+
+	<!--
+		Tilesets are server-enforced as they define collision as well as appearence. They are not grey-listed though as 
+		custom maps may want their own tilesets.
+	-->
+	<server_enforced pattern="Data/Atlases/Tilesets/*" />
+	
+	<!--
+		Effects are server-enforced as they define damage related properties. They are not greylisted however as users
+		may wish to make custom weapons etc.
+	-->
+	<server_enforced pattern="Data/Effects/*" />
+	
+	<!--
+		Maps are server-enforced for fairly obvious reasons. They are greylisted to prevent users doing things such
+		as just spawning a million chests in a room -_-, or other similarly cheating things.
+	-->
+	<grey pattern="Data/Maps/*" />
+	<server_enforced pattern="Data/Maps/*" />
+	
+ </xml>

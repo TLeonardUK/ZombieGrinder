@@ -1,0 +1,35 @@
+ <xml>
+   <editor>
+     <asset_type>AudioBank</asset_type>
+   </editor>
+	<settings>
+		<name>UI Sounds</name>
+	</settings>
+   <groups>
+
+     <group name="hud"              volume="0.7" />
+     <group name="hud_frequent"     volume="0.1" />
+
+   </groups>
+	<sounds>
+	
+		<sound name="sfx_screens_main_back"                                   group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/Screens/Main/back.wav" />
+		<sound name="sfx_screens_main_char"                                   group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/Screens/Main/char.wav" />
+		<sound name="sfx_screens_main_click"                                  group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/Screens/Main/click.wav" />
+		<sound name="sfx_screens_main_small_click"                            group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/Screens/Main/small_click.wav" />
+		<sound name="sfx_screens_main_close_popup"                            group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/Screens/Main/close_popup.wav" />
+		<sound name="sfx_screens_main_hover"                                  group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/Screens/Main/hover.wav" />
+		<sound name="sfx_screens_main_paint"                                  group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/Screens/Main/paint.wav" />
+		<sound name="sfx_screens_main_popup"                                  group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/Screens/Main/popup.wav" />
+		<sound name="sfx_screens_main_select"                                 group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/Screens/Main/select.wav" />
+		<sound name="sfx_screens_sub_enter"                                   group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/Screens/Sub/enter.wav" />
+		<sound name="sfx_screens_sub_exit"                                    group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/Screens/Sub/exit.wav" />
+		<sound name="sfx_screens_main_pop"                               	    group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/Screens/Main/pop.wav" />
+		<sound name="sfx_screens_main_thud"                          	        group="hud" looping="False" streaming="False" file="Data/Audio/Sounds/Screens/Main/thud.wav" />
+
+		<sound name="sfx_hud_score_decrease"                                  group="hud_frequent" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/score_decrease.wav" />
+		<sound name="sfx_hud_score_increase"                                  group="hud_frequent" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/score_increase.wav" />
+		<sound name="sfx_hud_multiplier_decrease"                             group="hud_frequent" looping="False" streaming="False" file="Data/Audio/Sounds/HUD/multiplier_decrease.wav" />
+		
+	</sounds>
+</xml>

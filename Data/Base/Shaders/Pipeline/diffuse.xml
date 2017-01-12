@@ -1,0 +1,16 @@
+<xml>
+  <editor>
+    <asset_type>Shader</asset_type>
+  </editor>
+	<settings>
+		<name>diffuse</name>
+	</settings>
+	<fragment>Data/Shaders/Pipeline/diffuse.frag</fragment>
+	<vertex>Data/Shaders/Pipeline/diffuse.vert</vertex>
+	<uniforms>
+		<uniform name="g_texture" 						type="texture" 	value="MATERIAL_TEXTURE" />
+		<uniform name="g_draw_color" 					type="vector4" 	value="DRAW_COLOR" />
+		<!--<uniform name="g_object_mask" 					type="vector4" 	value="OBJECT_MASK" />-->
+		<uniform name="g_world_view_projection_matrix" 	type="matrix4" 	value="WORLD_VIEW_PROJECTION_MATRIX" />
+	</uniforms>
+</xml>

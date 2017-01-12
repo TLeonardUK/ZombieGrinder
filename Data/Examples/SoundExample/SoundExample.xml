@@ -1,0 +1,32 @@
+<xml>
+	<package>
+		<name>SoundExample</name>
+		<root>Data/</root>
+		<compile_directory>../../Output/Data/SoundExample/.compiled/</compile_directory>
+		<script_directory>../../Data/SoundExample/Scripts/</script_directory>
+		<pak_file>../../Data/SoundExample/SoundExample.dat</pak_file>
+		<private_key/>
+		<pak_keep_source>True</pak_keep_source>
+		<pak_use_compression>True</pak_use_compression>
+		<workshop>
+			<id>500352768</id>
+			<title>Example Sound</title>
+			<preview_file>SoundExample.png</preview_file>
+			<description>Example of creating a mod package for a custom sound pack!</description>
+			<tags>Example Sound Official</tags>
+		</workshop>
+	</package>
+	<languages/>
+	<atlases/>
+	<audio_banks>
+		<bank file="Data/Audio/SoundExampleSounds.xml"/>
+	</audio_banks>
+	<fonts/>
+	<particlefx/>
+	<scripts/>
+	<shaders/>
+	<raw/>
+	<layouts/>
+	<maps/>
+</xml>
+

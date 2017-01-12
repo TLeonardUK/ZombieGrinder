@@ -1,0 +1,21 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>select_profile</name>
+	</settings>
+	<layout> 
+		<element name="real_background"		type="Panel" 		box="0.0,0.0,1.0,1.0" 		  BackColor="0,0,0,40" AspectScaling="0" />		
+		<element name="background"			type="Panel" 		box="0.20,0.10,0.6,0.8" 	  BackColor="0,0,0,220" />		
+		<element name="title_label"  		type="Label" 		box="0.20,0.10,0.6,0.1" 		HAlign="Center" VAlign="Center" ForeColor="102,102,102,255" Padding="0,0,0,0" value="#menu_select_character_title" />	
+		<element name="profile_listview" 	type="ListView" 	box="0.23,0.19,0.56,0.58" 		ItemHeight="36" ItemSpacing="4"	ForeColor="156,157,158,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,0" Padding="10,10,10,10" NoHeader="True" />			
+		<element name="back_button" 		type="Button" 		box="0.23,0.80,0.54,0.070"  	FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#menu_cancel"  />	 -->
+	  
+		<element name="profile_option_menu"	type="DropDownMenu" box="0.50,0.16,0.20,0.16" FrameColor="255,255,255,200">
+			<element name="use_button"	 	type="Button" 	box="0.05,0.05,0.9,0.30" FrameColor="255,255,255,230" Value="#menu_select_character_select" 	HAlign="Left" VAlign="Center" NoFrame="1" />			
+			<element name="delete_button" 	type="Button" 	box="0.05,0.35,0.9,0.30" FrameColor="255,255,255,230" Value="#menu_select_character_delete" 	HAlign="Left" VAlign="Center" NoFrame="1" />			
+			<element name="close_button" 	type="Button" 	box="0.05,0.65,0.9,0.30" FrameColor="255,255,255,230" Value="#menu_close" 			HAlign="Left" VAlign="Center" NoFrame="1" />					
+		</element> 	
+	</layout> 
+</xml> 

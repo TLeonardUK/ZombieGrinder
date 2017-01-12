@@ -1,0 +1,11 @@
+<xml>
+	<settings>
+		<name>copy</name>
+	</settings>
+	<fragment>Data/Shaders/Pipeline/copy.frag</fragment>
+	<vertex>Data/Shaders/Pipeline/copy.vert</vertex>
+	<uniforms>
+		<uniform name="g_texture" 								type="texture" 	value="POST_PROCESS_RESULT_TEXTURE" />
+		<uniform name="g_world_view_projection_matrix" 			type="matrix4" 	value="WORLD_VIEW_PROJECTION_MATRIX" />
+	</uniforms>
+</xml>

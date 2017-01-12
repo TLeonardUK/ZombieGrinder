@@ -1,0 +1,32 @@
+<xml>
+	<package>
+		<name>LanguageExample</name>
+		<root>Data/</root>
+		<compile_directory>../../Output/Data/LanguageExample/.compiled/</compile_directory>
+		<script_directory>../../Data/LanguageExample/Scripts/</script_directory>
+		<pak_file>../../Data/LanguageExample/LanguageExample.dat</pak_file>
+		<private_key/>
+		<pak_keep_source>True</pak_keep_source>
+		<pak_use_compression>True</pak_use_compression>
+		<workshop>
+			<id>498805359</id>
+			<title>Example Language</title>
+			<preview_file>LanguageExample.png</preview_file>
+			<description>Example of creating a mod package for a custom language!</description>
+			<tags>Example Language Official</tags>
+		</workshop>
+	</package>
+	<languages>
+		<language file="Data/Languages/en-gb-extensions.xml" priority="initial"/>
+	</languages>
+	<atlases/>
+	<audio_banks/>
+	<fonts/>
+	<particlefx/>
+	<scripts/>
+	<shaders/>
+	<raw/>
+	<layouts/>
+	<maps/>
+</xml>
+

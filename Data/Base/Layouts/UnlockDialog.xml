@@ -1,0 +1,13 @@
+<xml>
+	<settings>
+		<name>unlock_dialog</name>
+	</settings>
+	<layout>
+		<element name="background"			type="Panel" 		box="0,0.15,1.0,0.7" 	  BackColor="0,0,0,220" AspectScaling="0" />		
+		<element name="intro_label"		 	type="Label"		box="0.1,0.15,0.8,0.10"     ForeColor="200,200,200,220" HAlign="Center" VAlign="ScaleToFit" Padding="0,0,0,0" Value="#unlock_dialog_title" UseMarkup="true" />
+		
+		<element name="listview" 			type="ListView" 	box="0.1,0.25,0.8,0.50" 		ItemHeight="35" ItemSpacing="3"	ForeColor="156,157,158,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,0" Padding="10,10,10,10" NoHeader="True" />			
+		
+		<element name="back_button" 		type="Button" 		box="0.35,0.75,0.3,0.070"  FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#menu_confirm"  />	
+	</layout>
+</xml>

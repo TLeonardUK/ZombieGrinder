@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="global_chat_not_connected">U heeft geen verbinding tot de global chat server.</string>
+  <string name="global_chat_not_access">U heeft geen toestemming tot de global chat server.</string>
+  <string name="global_chat_lost_connection">U hebt uw verbinding verloren tot de global chat server.</string>
+  <string name="global_chat_kicked">Je bent gekicked van de global chat server.</string>
+
+  <string name="autosave_warning">Dit spel gebruikt een autosave systeem. Gelieve niet het spel te sluiten↵\nterwijl dit icoon verschijnt.↵\n↵\n↵\n[img=autosave_icon,1.0,1.0]</string>
+  <string name="menu_premium_purchase">Open Steam om te Kopen</string>
+  <string name="ban_notice_message">Je bent verbannen van het spelen van VAC beveiligde server tot \'%s\'. Dit was te wijten aan een overtreding die werd gerapporteerd op \'%s\' en is bepaald door verschillende onderzoeken, na het bekijken van replay bewijs, in de volgende vormen: %s.</string>
+  <string name="ban_notice_message_indefinite">Je bent verbannen van het spelen op VAC beveiligde servers voor indefiniet. Dit was te wijten aan een overtreding die werd gerapporteerd op \'%s\' en is bepaald door verschillende onderzoeken, na het bekijken van replay bewijs, in de volgende vormen: %s.</string>
+
+  <string name="ban_notice_exploit">exploiteren</string>
+  <string name="ban_notice_cheat">Valsspelen</string>
+  <string name="ban_notice_abuse">misbruik</string>
+  <string name="ban_notice_grief">zeuren</string>
+  <string name="ban_notice_type_seperator">", "</string>
+  
+  
+  <string name="moderation_notice">Gefeliciteerd, je bent willekeurig gekozen om te helpen bij de community! De knop wordt ingeschakeld en u kunt replays van de games die door andere spelers zijn gemeld bekijken. Je zult in staat zijn om te oordelen over deze replays. Als je oordelen correct blijken, en in overeenstemming met andere gebruikers hun oordelen, dan kunt u steeds nieuwe onderwerpen beoordelen.</string>
+ 
+
+	<string name="moderation_description">Gelieve zorgvuldig te kijken naar de gebruiker die speelt en proberen te bepalen of ze schuldig zijn aan wat er over hun gerapporteerd werd. Negeer kleine discrepanties in de replay - kogels missen wanneer ze moeten raken, etc - soms kunnen er technische redenen voor zijn, in plaats daarvan ga je zoek naar globaal bewijs waar de gebruiker zich schuldig aan maakt. U zal worden gevraagd om na het bekijken van de replay van de gebruiker te beoordelen.</string>
+	<string name="moderation_downloading"/>
+	<string name="moderation_download_success">Replay Gedownload</string>
+ 	<string name="moderation_download_failed">Replay Download Mislukt</string>
+ 	<string name="moderation_download_retry">Opnieuw</string>
+ 	<string name="moderation_download_judgement_dialog">Je hebt het einde van de replay bereikt, wil je nu een mening geven (zo niet wil je dan de replay herstarten)?</string>	
+	<string name="moderation_judgement_submit">Oordeel bevestigen</string>
+	<string name="moderation_judgement_guilty">Ik geloof dat de gebruiker schuldig is van:</string>
+	<string name="moderation_judgement_innocent">Ik geloof dat de gebruiker onschuldig is.</string>
+	
+	<string name="moderation_judgement_exploit">Exploiteren (Misbruik van spel gebreken)</string>
+	<string name="moderation_judgement_cheat">Valsspelen (Gebruik van software om het spel te manipuleren)</string>
+	<string name="moderation_judgement_abuse">Misbruik (Opzettelijke onaangenaam gedrag)</string>
+	<string name="moderation_judgement_grief">Griefing (Proberen om negatieve reacties uit te lokken)</string>
+
+	<string name="moderation_judgement_upload_message">Uw oordeel wordt nu geüpload. U kunt blijven spelen, terwijl dit gebeurt. Gelieve niet het spel te sluiten totdat het pictogram in de rechterbovenhoek van het scherm verdwijnt.</string>
+
+  <string name="restricted_mode_ingame_warning">Tijdens het spelen zul je niets bereiken - xp, munten, prestaties etc.</string>
+
+  <string name="mod_whitelisted">Goedgekeurd</string>
+  <string name="mod_not_whitelisted">Niet Goedgekeurd</string>
+  <string name="mod_view_non_whitelisted">Bekijk Niet-Goedgekeurde?</string>
+  <string name="inventory_item_drop_title">Je vond net een ...</string>
+  <string name="inventory_item_unpack_drop_title">Je opende ...</string>
+  <string name="inventory_item_challenge_drop_title">Uitdaging Beloning</string>
+
+  <string name="inventory_item_drop_coins_name">%i Munten</string>
+  <string name="inventory_item_drop_coins_description">Waar ga je het allemaal aan uitgeven?</string>
+  <string name="inventory_item_drop_xp_name">%i XP</string>
+  <string name="inventory_item_drop_xp_description">Uw vaardigheden en kennis worden steeds sterker!</string>
+
+  <string name="no_user_assigned_to_input_device">Geen karakter toegewezen aan dit invoerapparaat. Kan karakter niet wijzigen.</string>
+
+  <string name="inventory_item_broken_title">[c=255,64,64]Je Item Brak ...[/c]</string>
+  <string name="inventory_item_broken_sub">Om dit te voorkomen, probeer een onverwoestbaar voorwerp te verwerven in-game of via de Steam Market!</string>
+ 
+  <string name="unlock_dialog_title">[c=255,194,14,255]Nieuwe Dingen ...[/c]</string>
+
+  <string name="unlock_dialog_title_item_broken">[c=255,64,64,255]Je %s is gebroken ...[/c]</string>
+  <string name="unlock_dialog_action_item_broken">[c=255,64,64,255]ITEM GEBROKEN[/c]</string>
+  <string name="unlock_dialog_description_item_broken">Je kunt een nieuwe kopen in de shop, of zoeken↵\nvoor een onverwoestbare in-game!</string>
+  
+  <string name="unlock_dialog_title_challenge">[c=255,194,14,255]Je ontvangt een %s ...[/c]</string>
+  <string name="unlock_dialog_action_challenge">[c=255,194,14,255]UITDAGING BELONING[/c]</string>
+    
+  <string name="unlock_dialog_title_online">[c=255,194,14,255]Je vond een %s ...[/c]</string>
+  <string name="unlock_dialog_action_online">[c=255,194,14,255]STEAM ITEM[/c]</string>
+  
+  <string name="unlock_dialog_title_item_unlocked">[c=255,194,14,255]Je opende de %s ...[/c]</string>
+  <string name="unlock_dialog_action_item_unlocked">[c=255,194,14,255]ITEM GEOPEND[/c]</string>
+  <string name="unlock_dialog_description_item_unlocked">%s↵\nJe kunt een kopen in de shop!</string>
+  
+  <string name="unlock_dialog_title_skill_unlocked">[c=64,64,255,255]Je opende de [c=255,194,14,255]%s[/c] ...[/c]</string>
+  <string name="unlock_dialog_action_skill_unlocked">[c=64,64,255,255]SKILL VRIJGESPEELD[/c]</string>
+  <string name="unlock_dialog_description_skill_unlocked">%s↵\nJe kunt het kopen in het skill scherm!</string>
+  
+  <string name="unlock_dialog_title_unpack_xp">[c=64,64,255,255]Je opende [c=255,194,14,255]%i[/c] XP ...[/c]</string>
+  <string name="unlock_dialog_action_unpack_xp">[c=64,64,255,255]XP GEOPEND[/c]</string>
+  <string name="unlock_dialog_description_unpack_xp">Tijd om te gaan levelen!</string>
+  
+  <string name="name_long">Dutch (Incomplete)</string>
+  <string name="name_short">NL-NL</string>
+  <string name="glyphs"> !#$%&amp;'()*+,-./0123456789:&lt;&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[^_`abcdefghijklmnopqrstuvwxyz{|}~¦ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜø£Ø×ƒáíóúñÑªº¿®¬½¼¡«»¦¦¦¦¦ÁÂÀ©¦¦++¢¥++--+-+ãÃ++--¦-+¤ðÐÊËÈiÍÎÏ++¦_¦Ì¯ÓßÔÒõÕµþÞÚÛÙýÝ¯´­±=¾¶§÷¸°¨·¹³²¦</string>
+
+  <string name="title">Zombie Grinder</string>
+
+  <string name="menu_copyright">Version {GAME_VERSION} - Copyright TwinDrills 2009-2016</string>
+  </resources>

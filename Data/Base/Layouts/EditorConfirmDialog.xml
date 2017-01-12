@@ -1,0 +1,17 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>editor_confirm_dialog</name>
+	</settings>
+	<layout>
+		<element name="bg_fade"				type="Panel" box="0,0,1.0,1.0" 	  BackColor="0,0,0,190" AspectScaling="0" />		
+			
+		<element name="background"			type="Panel"  Frame="dialog_frame_#"		box="0,0.35,1.0,0.3" 	  BackColor="255,255,255,255" AspectScaling="0" />		
+			
+		<element name="label"				type="Label"		box="0.1,0.32,0.8,0.25"     ForeColor="0,0,0,255" Value=""  HAlign="Center" VAlign="Center" Padding="10,0,10,10" UseMarkup="true" GameStyle="false" />
+		<element name="button_1" 			type="Button" 		box="0.33,0.54,0.15,0.050"  FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#menu_no" GameStyle="false"  />	
+		<element name="button_2" 			type="Button" 		box="0.52,0.54,0.15,0.050"  FrameColor="255,255,255,200" Value="#menu_yes" GameStyle="false"  />	
+	</layout>
+</xml>

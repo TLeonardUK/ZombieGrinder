@@ -1,0 +1,24 @@
+<xml>
+	<settings>
+		<name>paint_item_color_selector</name>
+	</settings>
+	<layout>
+		<element name="bg_fade"				type="Panel" box="0,0,1.0,1.0" 	  BackColor="0,0,0,190" AspectScaling="0" />
+
+		<element name="background"			type="Panel" 		box="0,0.25,1.0,0.50" 	  BackColor="0,0,0,220" AspectScaling="0" />	
+
+		<element name="" 					type="Label"  	box="0.15,0.30,0.2,0.070" ForeColor="255,255,255,255" Value="Red"  />	
+		<element name="red_slider"		 	type="Slider" 	box="0.25,0.30,0.45,0.05"   ForeColor="112,154,209,255" />	
+		<element name="" 					type="Label"  	box="0.15,0.37,0.2,0.070" ForeColor="255,255,255,255" Value="Green"  />	
+		<element name="green_slider"		type="Slider" 	box="0.25,0.37,0.45,0.05"   ForeColor="112,154,209,255" />	
+		<element name="" 					type="Label"  	box="0.15,0.44,0.2,0.070" ForeColor="255,255,255,255" Value="Blue"  />	
+		<element name="blue_slider"			type="Slider" 	box="0.25,0.44,0.45,0.05"   ForeColor="112,154,209,255" />	
+		<element name="" 					type="Label"  	box="0.15,0.51,0.2,0.070" ForeColor="255,255,255,255" Value="Alpha"  />	
+		<element name="alpha_slider"		type="Slider" 	box="0.25,0.51,0.45,0.05"   ForeColor="112,154,209,255" />	
+	 
+		<element name="preview" 		    type="Panel" 	box="0.75,0.30,0.20,0.25" ForeColor="156,157,158,255" Frame="screen_main_box_inactive_#" FrameColor="255,255,255,200" Padding="10,10,10,10" Value="" />
+	
+		<element name="button_1" 			type="Button" 		box="0.25,0.61,0.2,0.070"  FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#menu_cancel"  />	
+		<element name="button_2" 			type="Button" 		box="0.55,0.61,0.2,0.070"  FrameColor="255,255,255,200" Value="#menu_apply_paint"  />	
+	</layout>
+</xml>

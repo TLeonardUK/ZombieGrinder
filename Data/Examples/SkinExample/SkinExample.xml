@@ -1,0 +1,32 @@
+<xml>
+	<package>
+		<name>SkinExample</name>
+		<root>Data/</root>
+		<compile_directory>../../Output/Data/SkinExample/.compiled/</compile_directory>
+		<script_directory>../../Data/SkinExample/Scripts/</script_directory>
+		<pak_file>../../Data/SkinExample/SkinExample.dat</pak_file>
+		<private_key/>
+		<pak_keep_source>True</pak_keep_source>
+		<pak_use_compression>True</pak_use_compression>
+		<workshop>
+			<id>500334111</id>
+			<title>Example Skin</title>
+			<preview_file>SkinExample.png</preview_file>
+			<description>Example of creating a mod package for a custom texture pack!</description>
+			<tags>Example Skin Official</tags>
+		</workshop>
+	</package>
+	<languages/>
+	<atlases>
+		<atlas file="Data/Atlases/SkinExampleAtlas.xml" priority="initial"/>
+	</atlases>
+	<audio_banks/>
+	<fonts/>
+	<particlefx/>
+	<scripts/>
+	<shaders/>
+	<raw/>
+	<layouts/>
+	<maps/>
+</xml>
+

@@ -1,0 +1,12 @@
+<xml>
+	<settings>
+		<name>ExampleWeaponSounds</name>
+	</settings>
+	<sounds>		
+		<sound name="sfx_example_gun_casing_bounce" looping="False" streaming="False" file="Data/Audio/casing_bounce.wav" />		
+		<sound name="sfx_example_gun_dry_fire" 		looping="False" streaming="False" file="Data/Audio/dry_fire.wav" />		
+		<sound name="sfx_example_gun_fire" 			looping="False" streaming="False" file="Data/Audio/fire.wav" />		
+		<sound name="sfx_example_gun_pickup" 		looping="False" streaming="False" file="Data/Audio/pickup.wav" />		
+		<sound name="sfx_example_gun_reload" 		looping="False" streaming="False" file="Data/Audio/reload.wav" />		
+	</sounds>
+</xml>

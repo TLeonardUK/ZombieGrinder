@@ -1,0 +1,17 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>Scoreboard</name>
+	</settings>
+	<layout>
+	
+		<element name="background" type="Panel" box="0,0,1,1" BackColor="0,0,0,180" AspectScaling="False" />			
+			
+		<element name="list_view" type="SimpleListView" box="0.1,0.175,0.8,0.69" Padding="0,0,0,0" Scale="0.75,0.75" FrameColor="255,255,255,190" />			
+		<element name="map_detail_label" type="Label" box="0.1,0.575,0.8,0.7" Padding="0,0,0,0" Scale="0.75,0.75" VAlign="Center" HAlign="Center" ForeColor="255,255,255,255" value="" />				
+		<element name="map_stage_label" type="Label" box="0.1,0.0,0.8,0.15" Padding="0,0,0,0" Scale="1.5,1.5" VAlign="Center" HAlign="Center" ForeColor="255,255,255,255" value="" />				
+
+	</layout>
+</xml>

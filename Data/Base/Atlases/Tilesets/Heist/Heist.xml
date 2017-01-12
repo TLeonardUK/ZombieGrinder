@@ -1,0 +1,22 @@
+<xml>
+  <editor>
+    <asset_type>Atlas</asset_type>
+  </editor>
+	<settings>
+		<texture-size>256</texture-size>
+		<max-textures>1</max-textures>
+		<name>Heist</name>
+	</settings>
+	<images> 
+		<image type="grid" name="heist_tile_#" file="Data/Atlases/Tilesets/Heist/Heist.png" width="16" height="16" hspace="1" vspace="1" />	
+	</images> 
+	<animations>
+		<animation name="escalate_v" mode="loop" speed="50">
+			<frame type="multiple_indexed" from="36" to="43" />
+		</animation>
+		<animation name="escalate_h" mode="loop" speed="50">
+			<frame type="multiple_indexed" from="44" to="51" />
+		</animation>
+	</animations>
+</xml>
+

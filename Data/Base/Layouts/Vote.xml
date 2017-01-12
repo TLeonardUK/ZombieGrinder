@@ -1,0 +1,17 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>vote</name>
+	</settings>
+	<layout>
+		<element name="kick_player_button" 	type="Button" 		box="0.13,0.34,0.3,0.070" FrameColor="255,255,255,200" Value="#sub_menu_vote_kick_player" />	
+		<element name="restart_map_button" 	type="Button" 		box="0.13,0.42,0.3,0.070" FrameColor="255,255,255,200" Value="#sub_menu_vote_restart_map" />	
+		<element name="change_map_button" 	type="Button" 		box="0.13,0.50,0.3,0.070" FrameColor="255,255,255,200" Value="#sub_menu_vote_change_map" />	
+		<element name="edit_mode_button" 	type="Button" 		box="0.13,0.58,0.3,0.070" FrameColor="255,255,255,200" Value="#sub_menu_vote_enter_edit_mode" />	
+		<element name="report_button" 		type="Button" 		box="0.13,0.66,0.3,0.070" FrameColor="255,255,255,200" Value="#sub_menu_vote_report_player" />	
+
+		<element name="back_button" 		type="Button" 		box="0.13,0.80,0.3,0.070" FrameColor="255,255,255,200" Value="#menu_back" />	
+	</layout>
+</xml>

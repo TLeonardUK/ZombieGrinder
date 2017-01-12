@@ -1,0 +1,11 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>splash</name>
+	</settings>
+	<layout>
+		<element name="splash_image" type="Panel" box="0,0,1,1" BGScaleMode="Zoom" BackColor="0,0,0,0" />	  
+		<element name="autosave_text" type="Label" box="0.1,0.1,0.8,0.8" HAlign="Center" VAlign="Center" UseMarkup="True" ForeColor="255,255,255,0" value="#autosave_warning" AspectScaling="False" />"</layout>
+</xml>

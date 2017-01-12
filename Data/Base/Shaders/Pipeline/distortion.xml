@@ -1,0 +1,14 @@
+<xml>
+  <editor>
+    <asset_type>Shader</asset_type>
+  </editor>
+	<settings>
+		<name>distortion</name>
+	</settings>
+	<vertex>Data/Shaders/Pipeline/distortion.vert</vertex>
+	<fragment>Data/Shaders/Pipeline/distortion.frag</fragment>
+	<uniforms>
+		<uniform name="g_texture" 						type="texture" 	value="MATERIAL_TEXTURE" />
+		<uniform name="g_world_view_projection_matrix" 	type="matrix4" 	value="WORLD_VIEW_PROJECTION_MATRIX" />
+	</uniforms>
+</xml>

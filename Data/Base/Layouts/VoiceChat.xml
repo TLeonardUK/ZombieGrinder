@@ -1,0 +1,13 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>VoiceChat</name>
+	</settings>
+	<layout>
+						
+		<element name="list_view" type="SimpleListView" box="0.75,0.1,0.20,0.8" Padding="0,0,0,0" Scale="0.75,0.75" AspectScaling="False"  FrameColor="255,255,255,0" />			
+	
+	</layout>
+</xml>

@@ -1,0 +1,14 @@
+<xml>
+  <editor>
+    <asset_type>Shader</asset_type>
+  </editor>
+	<settings>
+		<name>gbuffer_clear</name>
+	</settings>
+	<fragment>Data/Shaders/Pipeline/gbuffer_clear.frag</fragment>
+	<vertex>Data/Shaders/Pipeline/gbuffer_clear.vert</vertex>
+	<uniforms>
+		<uniform name="g_world_view_projection_matrix" 	type="matrix4" 	value="WORLD_VIEW_PROJECTION_MATRIX" />
+    <uniform name="g_clear_color" 	type="vector4" 	value="GAME_CLEAR_COLOR" />    
+  </uniforms>
+</xml>

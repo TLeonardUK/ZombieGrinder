@@ -1,0 +1,11 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>loading_background</name>
+	</settings>
+	<layout>	
+		<element name="bg_image_fade" 	type="Panel" box="0,0,1,1" BackImage="screen_main_bg_1_fade" AspectScaling="False" />		
+	</layout>
+</xml>

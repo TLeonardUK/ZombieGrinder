@@ -1,0 +1,30 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>inventory</name>
+	</settings>
+	<layout>
+		<element name="title_label"   			type="Label" box="0,0,1,0.1" HAlign="Center" VAlign="Center" ForeColor="102,102,102,255" Padding="0,0,0,0" value="#menu_inventory_title" />	
+		
+		<element name="inventory_button" 		type="Button" 		box="0.15,0.12,0.3,0.070" FrameColor="255,255,255,200" Value="#menu_inventory_equipment" UseMarkup="True" />	
+		<element name="skills_button" 			type="Button" 		box="0.15,0.20,0.3,0.070" FrameColor="255,255,255,200" Value="#menu_inventory_skill_tree" UseMarkup="True" />	
+		<element name="shop_button" 			type="Button" 		box="0.15,0.28,0.3,0.070" FrameColor="255,255,255,200" Value="#menu_inventory_item_shop" UseMarkup="True" />
+
+		
+		<element name="voice_label" 			type="Label" 		box="0.15,0.375,0.3,0.070" ForeColor="255,255,255,200" Value="#menu_inventory_voice_type" UseMarkup="True" />
+		<element name="voice_box" 				type="ComboBox" 	box="0.15,0.44,0.3,0.070" FrameColor="255,255,255,200" UseMarkup="True" />
+
+		
+    <element name="back_button" 			type="Button" 		box="0.15,0.85,0.3,0.070" FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#menu_back"  />	
+ 
+		<element name="name_box" 				type="TextBox" 		box="0.65,0.12,0.30,0.070" BackColor="255,0,255,220" Value=""  />	
+		<element name="gold_label"   			type="Label"		 box="0.65,0.19,0.30,0.070" HAlign="Left" VAlign="Center" ForeColor="255,255,255,255" Padding="0,0,0,0" value="" UseMarkup="True" />	
+		<element name="skill_label"   			type="Label"		 box="0.65,0.19,0.30,0.070" HAlign="Right" VAlign="Center" ForeColor="255,255,255,255" Padding="0,0,0,0" value="" UseMarkup="True" />	
+
+    <element name="description_label" 		type="Panel" 		box="0.65,0.27,0.30,0.54" ForeColor="156,157,158,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,200" Padding="10,10,10,10" Value="" />	
+		<element name="level_label" 			type="Label" 		box="0.65,0.83,0.30,0.045" ForeColor="156,157,158,255"  FrameColor="255,255,255,200" Value="#menu_inventory_level" />	
+		<element name="level_progress" 			type="ProgressBar" 	box="0.65,0.88,0.30,0.040" Padding="0,0,0,0" progress="0" ForeColor="255,194,14,255" />	
+	</layout>
+</xml>

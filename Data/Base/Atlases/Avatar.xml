@@ -1,0 +1,828 @@
+<xml>
+	<editor>
+    <asset_type>Atlas</asset_type>
+	</editor>
+	<settings>
+		<texture-size>2048</texture-size>
+		<max-textures>8</max-textures>
+		<name>Avatar</name>
+	</settings>
+	<images>
+		<image type="grid" name="avatar_shadow_#" file="Data/Atlases/Actors/Avatars/shadow.png"  width="64" height="64" hspace="1" vspace="1" />
+		<image type="grid" name="avatar_flashlight_#" file="Data/Atlases/Actors/Avatars/flashlight.png"  width="256" height="256" hspace="0" vspace="0" />
+		<image type="grid" name="avatar_ghost_#" file="Data/Atlases/Actors/Avatars/ghost.png"  width="27" height="34" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_ghost_walk_s" speed="300" mode="loop" from_frame="0" to_frame="1" />
+				<animation name="avatar_ghost_walk_se" speed="300" mode="loop" from_frame="2" to_frame="3" />
+				<animation name="avatar_ghost_walk_n" speed="300" mode="loop" from_frame="4" to_frame="5" />
+				<animation name="avatar_ghost_walk_ne" speed="300" mode="loop" from_frame="6" to_frame="7" />
+				<animation name="avatar_ghost_walk_e" speed="300" mode="loop" from_frame="8" to_frame="9" />
+				<animation name="avatar_ghost_walk_nw" speed="300" mode="loop" from_frame="10" to_frame="11" />
+				<animation name="avatar_ghost_walk_w" speed="300" mode="loop" from_frame="12" to_frame="13" />
+				<animation name="avatar_ghost_walk_sw" speed="300" mode="loop" from_frame="14" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="avatar_body_acid_gun_#" file="Data/Atlases/Actors/Avatars/Body/Body/acid_gun.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_acid_gun_s" speed="120" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_acid_gun_se" speed="120" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_acid_gun_e" speed="120" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_acid_gun_ne" speed="120" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_acid_gun_n" speed="120" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_acid_gun_nw" speed="120" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_acid_gun_w" speed="120" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_acid_gun_sw" speed="120" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_acid_gun_fire_s" speed="50" mode="once" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_acid_gun_fire_se" speed="50" mode="once" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_acid_gun_fire_e" speed="50" mode="once" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_acid_gun_fire_ne" speed="50" mode="once" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_acid_gun_fire_n" speed="50" mode="once" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_acid_gun_fire_nw" speed="50" mode="once" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_acid_gun_fire_w" speed="50" mode="once" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_acid_gun_fire_sw" speed="50" mode="once" from_frame="7" to_frame="7" />
+			</animations>
+		</image>
+		<image type="grid" name="avatar_body_ak47_#" file="Data/Atlases/Actors/Avatars/Body/Body/ak47.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_ak47_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_ak47_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_ak47_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_ak47_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_ak47_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_ak47_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_ak47_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_ak47_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_ak47_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_ak47_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_ak47_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_ak47_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_ak47_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_ak47_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_ak47_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_ak47_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="avatar_body_ammocapacity_grenade_#" file="Data/Atlases/Actors/Avatars/Body/Body/ammocapacity_grenade.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_ammocapacity_grenade_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_ammocapacity_grenade_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_ammocapacity_grenade_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_ammocapacity_grenade_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_ammocapacity_grenade_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_ammocapacity_grenade_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_ammocapacity_grenade_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_ammocapacity_grenade_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_ammocapacity_grenade_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_ammocapacity_grenade_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_ammocapacity_grenade_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_ammocapacity_grenade_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_ammocapacity_grenade_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_ammocapacity_grenade_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_ammocapacity_grenade_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_ammocapacity_grenade_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="avatar_body_baseballbat_#" file="Data/Atlases/Actors/Avatars/Body/Body/baseballbat.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_baseballbat_s" speed="50" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_baseballbat_se" speed="50" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_baseballbat_e" speed="50" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_baseballbat_ne" speed="50" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_baseballbat_n" speed="50" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_baseballbat_nw" speed="50" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_baseballbat_w" speed="50" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_baseballbat_sw" speed="50" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_baseballbat_fire_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_baseballbat_fire_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_baseballbat_fire_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_baseballbat_fire_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_baseballbat_fire_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_baseballbat_fire_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_baseballbat_fire_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_baseballbat_fire_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="avatar_body_bolt_gun_#" file="Data/Atlases/Actors/Avatars/Body/Body/bolt_gun.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_bolt_gun_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_bolt_gun_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_bolt_gun_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_bolt_gun_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_bolt_gun_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_bolt_gun_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_bolt_gun_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_bolt_gun_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_bolt_gun_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_bolt_gun_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_bolt_gun_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_bolt_gun_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_bolt_gun_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_bolt_gun_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_bolt_gun_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_bolt_gun_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_damage_grenade_#" file="Data/Atlases/Actors/Avatars/Body/Body/damage_grenade.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_damage_grenade_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_damage_grenade_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_damage_grenade_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_damage_grenade_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_damage_grenade_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_damage_grenade_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_damage_grenade_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_damage_grenade_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_damage_grenade_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_damage_grenade_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_damage_grenade_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_damage_grenade_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_damage_grenade_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_damage_grenade_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_damage_grenade_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_damage_grenade_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_dbshotgun_#" file="Data/Atlases/Actors/Avatars/Body/Body/dbshotgun.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_dbshotgun_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_dbshotgun_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_dbshotgun_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_dbshotgun_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_dbshotgun_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_dbshotgun_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_dbshotgun_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_dbshotgun_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_dbshotgun_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_dbshotgun_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_dbshotgun_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_dbshotgun_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_dbshotgun_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_dbshotgun_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_dbshotgun_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_dbshotgun_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+    <image type="grid" name="avatar_body_sword_#" file="Data/Atlases/Actors/Avatars/Body/Body/sword.png"  width="64" height="64" hspace="1" vspace="1">
+      <animations>
+        <animation name="avatar_body_sword_s" speed="50" mode="loop" from_frame="0" to_frame="0" />
+        <animation name="avatar_body_sword_se" speed="50" mode="loop" from_frame="1" to_frame="1" />
+        <animation name="avatar_body_sword_e" speed="50" mode="loop" from_frame="2" to_frame="2" />
+        <animation name="avatar_body_sword_ne" speed="50" mode="loop" from_frame="3" to_frame="3" />
+        <animation name="avatar_body_sword_n" speed="50" mode="loop" from_frame="4" to_frame="4" />
+        <animation name="avatar_body_sword_nw" speed="50" mode="loop" from_frame="5" to_frame="5" />
+        <animation name="avatar_body_sword_w" speed="50" mode="loop" from_frame="6" to_frame="6" />
+        <animation name="avatar_body_sword_sw" speed="50" mode="loop" from_frame="7" to_frame="7" />
+        <animation name="avatar_body_sword_fire_s" speed="25" mode="once" from_frame="8" to_frame="9" />
+        <animation name="avatar_body_sword_fire_se" speed="25" mode="once" from_frame="10" to_frame="11" />
+        <animation name="avatar_body_sword_fire_e" speed="25" mode="once" from_frame="12" to_frame="13" />
+        <animation name="avatar_body_sword_fire_ne" speed="25" mode="once" from_frame="14" to_frame="15" />
+        <animation name="avatar_body_sword_fire_n" speed="25" mode="once" from_frame="16" to_frame="17" />
+        <animation name="avatar_body_sword_fire_nw" speed="25" mode="once" from_frame="18" to_frame="19" />
+        <animation name="avatar_body_sword_fire_w" speed="25" mode="once" from_frame="20" to_frame="21" />
+        <animation name="avatar_body_sword_fire_sw" speed="25" mode="once" from_frame="22" to_frame="23" />
+      </animations>
+    </image>
+    <image type="grid" name="avatar_body_fight_saber_#" file="Data/Atlases/Actors/Avatars/Body/Body/fight_saber.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_fight_saber_s" speed="50" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_fight_saber_se" speed="50" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_fight_saber_e" speed="50" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_fight_saber_ne" speed="50" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_fight_saber_n" speed="50" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_fight_saber_nw" speed="50" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_fight_saber_w" speed="50" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_fight_saber_sw" speed="50" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_fight_saber_fire_s" speed="25" mode="once" from_frame="8" to_frame="9" />
+				<animation name="avatar_body_fight_saber_fire_se" speed="25" mode="once" from_frame="10" to_frame="11" />
+				<animation name="avatar_body_fight_saber_fire_e" speed="25" mode="once" from_frame="12" to_frame="13" />
+				<animation name="avatar_body_fight_saber_fire_ne" speed="25" mode="once" from_frame="14" to_frame="15" />
+				<animation name="avatar_body_fight_saber_fire_n" speed="25" mode="once" from_frame="16" to_frame="17" />
+				<animation name="avatar_body_fight_saber_fire_nw" speed="25" mode="once" from_frame="18" to_frame="19" />
+				<animation name="avatar_body_fight_saber_fire_w" speed="25" mode="once" from_frame="20" to_frame="21" />
+				<animation name="avatar_body_fight_saber_fire_sw" speed="25" mode="once" from_frame="22" to_frame="23" />
+				<animation name="avatar_body_fight_saber_tint_s" speed="50" mode="loop" from_frame="24" to_frame="24" />
+				<animation name="avatar_body_fight_saber_tint_se" speed="50" mode="loop" from_frame="25" to_frame="25" />
+				<animation name="avatar_body_fight_saber_tint_e" speed="50" mode="loop" from_frame="26" to_frame="26" />
+				<animation name="avatar_body_fight_saber_tint_ne" speed="50" mode="loop" from_frame="27" to_frame="27" />
+				<animation name="avatar_body_fight_saber_tint_n" speed="50" mode="loop" from_frame="28" to_frame="28" />
+				<animation name="avatar_body_fight_saber_tint_nw" speed="50" mode="loop" from_frame="29" to_frame="29" />
+				<animation name="avatar_body_fight_saber_tint_w" speed="50" mode="loop" from_frame="30" to_frame="30" />
+				<animation name="avatar_body_fight_saber_tint_sw" speed="50" mode="loop" from_frame="31" to_frame="31" />
+				<animation name="avatar_body_fight_saber_fire_tint_s" speed="25" mode="once" from_frame="32" to_frame="33" />
+				<animation name="avatar_body_fight_saber_fire_tint_se" speed="25" mode="once" from_frame="34" to_frame="35" />
+				<animation name="avatar_body_fight_saber_fire_tint_e" speed="25" mode="once" from_frame="36" to_frame="37" />
+				<animation name="avatar_body_fight_saber_fire_tint_ne" speed="25" mode="once" from_frame="38" to_frame="39" />
+				<animation name="avatar_body_fight_saber_fire_tint_n" speed="25" mode="once" from_frame="40" to_frame="41" />
+				<animation name="avatar_body_fight_saber_fire_tint_nw" speed="25" mode="once" from_frame="42" to_frame="43" />
+				<animation name="avatar_body_fight_saber_fire_tint_w" speed="25" mode="once" from_frame="44" to_frame="45" />
+				<animation name="avatar_body_fight_saber_fire_tint_sw" speed="25" mode="once" from_frame="46" to_frame="47" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_flamethrower_#" file="Data/Atlases/Actors/Avatars/Body/Body/flamethrower.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_flamethrower_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_flamethrower_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_flamethrower_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_flamethrower_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_flamethrower_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_flamethrower_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_flamethrower_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_flamethrower_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_flamethrower_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_flamethrower_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_flamethrower_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_flamethrower_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_flamethrower_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_flamethrower_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_flamethrower_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_flamethrower_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_flaregun_#" file="Data/Atlases/Actors/Avatars/Body/Body/flaregun.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_flaregun_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_flaregun_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_flaregun_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_flaregun_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_flaregun_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_flaregun_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_flaregun_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_flaregun_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_flaregun_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_flaregun_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_flaregun_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_flaregun_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_flaregun_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_flaregun_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_flaregun_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_flaregun_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_freezeray_#" file="Data/Atlases/Actors/Avatars/Body/Body/freezeray.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_freezeray_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_freezeray_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_freezeray_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_freezeray_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_freezeray_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_freezeray_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_freezeray_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_freezeray_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_freezeray_fire_s" speed="200" mode="once" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_freezeray_fire_se" speed="200" mode="once" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_freezeray_fire_e" speed="200" mode="once" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_freezeray_fire_ne" speed="200" mode="once" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_freezeray_fire_n" speed="200" mode="once" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_freezeray_fire_nw" speed="200" mode="once" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_freezeray_fire_w" speed="200" mode="once" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_freezeray_fire_sw" speed="200" mode="once" from_frame="7" to_frame="7" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_grenadelauncher_#" file="Data/Atlases/Actors/Avatars/Body/Body/grenadelauncher.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_grenadelauncher_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_grenadelauncher_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_grenadelauncher_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_grenadelauncher_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_grenadelauncher_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_grenadelauncher_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_grenadelauncher_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_grenadelauncher_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_grenadelauncher_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_grenadelauncher_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_grenadelauncher_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_grenadelauncher_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_grenadelauncher_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_grenadelauncher_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_grenadelauncher_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_grenadelauncher_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_health_grenade_#" file="Data/Atlases/Actors/Avatars/Body/Body/health_grenade.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_health_grenade_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_health_grenade_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_health_grenade_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_health_grenade_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_health_grenade_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_health_grenade_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_health_grenade_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_health_grenade_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_health_grenade_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_health_grenade_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_health_grenade_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_health_grenade_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_health_grenade_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_health_grenade_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_health_grenade_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_health_grenade_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_idle_#" file="Data/Atlases/Actors/Avatars/Body/Body/idle.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_idle_s" speed="200" mode="once" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_idle_se" speed="200" mode="once" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_idle_e" speed="200" mode="once" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_idle_ne" speed="200" mode="once" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_idle_n" speed="200" mode="once" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_idle_nw" speed="200" mode="once" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_idle_w" speed="200" mode="once" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_idle_sw" speed="200" mode="once" from_frame="7" to_frame="7" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_lasercannon_#" file="Data/Atlases/Actors/Avatars/Body/Body/lasercannon.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_lasercannon_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_lasercannon_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_lasercannon_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_lasercannon_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_lasercannon_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_lasercannon_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_lasercannon_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_lasercannon_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_lasercannon_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_lasercannon_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_lasercannon_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_lasercannon_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_lasercannon_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_lasercannon_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_lasercannon_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_lasercannon_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_lovecannon_#" file="Data/Atlases/Actors/Avatars/Body/Body/lovecannon.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_lovecannon_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_lovecannon_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_lovecannon_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_lovecannon_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_lovecannon_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_lovecannon_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_lovecannon_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_lovecannon_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_lovecannon_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_lovecannon_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_lovecannon_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_lovecannon_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_lovecannon_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_lovecannon_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_lovecannon_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_lovecannon_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_love_thrower_#" file="Data/Atlases/Actors/Avatars/Body/Body/love_thrower.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_love_thrower_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_love_thrower_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_love_thrower_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_love_thrower_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_love_thrower_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_love_thrower_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_love_thrower_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_love_thrower_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_love_thrower_fire_s" speed="200" mode="once" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_love_thrower_fire_se" speed="200" mode="once" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_love_thrower_fire_e" speed="200" mode="once" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_love_thrower_fire_ne" speed="200" mode="once" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_love_thrower_fire_n" speed="200" mode="once" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_love_thrower_fire_nw" speed="200" mode="once" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_love_thrower_fire_w" speed="200" mode="once" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_love_thrower_fire_sw" speed="200" mode="once" from_frame="7" to_frame="7" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_m16_#" file="Data/Atlases/Actors/Avatars/Body/Body/m16.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_m16_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_m16_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_m16_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_m16_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_m16_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_m16_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_m16_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_m16_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_m16_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_m16_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_m16_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_m16_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_m16_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_m16_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_m16_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_m16_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_magnum_#" file="Data/Atlases/Actors/Avatars/Body/Body/magnum.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_magnum_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_magnum_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_magnum_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_magnum_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_magnum_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_magnum_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_magnum_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_magnum_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_magnum_fire_s" speed="100" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_magnum_fire_se" speed="100" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_magnum_fire_e" speed="100" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_magnum_fire_ne" speed="100" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_magnum_fire_n" speed="100" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_magnum_fire_nw" speed="100" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_magnum_fire_w" speed="100" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_magnum_fire_sw" speed="100" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_pistol_#" file="Data/Atlases/Actors/Avatars/Body/Body/pistol.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_pistol_s" speed="120" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_pistol_se" speed="120" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_pistol_e" speed="120" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_pistol_ne" speed="120" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_pistol_n" speed="120" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_pistol_nw" speed="120" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_pistol_w" speed="120" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_pistol_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_pistol_fire_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_pistol_fire_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_pistol_fire_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_pistol_fire_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_pistol_fire_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_pistol_fire_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_pistol_fire_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_pistol_fire_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_price_grenade_#" file="Data/Atlases/Actors/Avatars/Body/Body/price_grenade.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_price_grenade_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_price_grenade_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_price_grenade_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_price_grenade_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_price_grenade_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_price_grenade_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_price_grenade_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_price_grenade_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_price_grenade_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_price_grenade_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_price_grenade_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_price_grenade_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_price_grenade_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_price_grenade_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_price_grenade_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_price_grenade_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_reload_grenade_#" file="Data/Atlases/Actors/Avatars/Body/Body/reload_grenade.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_reload_grenade_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_reload_grenade_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_reload_grenade_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_reload_grenade_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_reload_grenade_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_reload_grenade_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_reload_grenade_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_reload_grenade_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_reload_grenade_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_reload_grenade_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_reload_grenade_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_reload_grenade_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_reload_grenade_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_reload_grenade_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_reload_grenade_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_reload_grenade_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_rocketlauncher_#" file="Data/Atlases/Actors/Avatars/Body/Body/rocketlauncher.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_rocketlauncher_s" speed="120" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_rocketlauncher_se" speed="120" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_rocketlauncher_e" speed="120" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_rocketlauncher_ne" speed="120" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_rocketlauncher_n" speed="120" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_rocketlauncher_nw" speed="120" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_rocketlauncher_w" speed="120" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_rocketlauncher_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_rocketlauncher_fire_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_rocketlauncher_fire_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_rocketlauncher_fire_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_rocketlauncher_fire_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_rocketlauncher_fire_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_rocketlauncher_fire_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_rocketlauncher_fire_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_rocketlauncher_fire_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+    <image type="grid" name="avatar_body_rocketlauncher_2_#" file="Data/Atlases/Actors/Avatars/Body/Body/rocketlauncher_2.png"  width="64" height="64" hspace="1" vspace="1">
+      <animations>
+        <animation name="avatar_body_rocketlauncher_2_s" speed="120" mode="loop" from_frame="0" to_frame="0" />
+        <animation name="avatar_body_rocketlauncher_2_se" speed="120" mode="loop" from_frame="1" to_frame="1" />
+        <animation name="avatar_body_rocketlauncher_2_e" speed="120" mode="loop" from_frame="2" to_frame="2" />
+        <animation name="avatar_body_rocketlauncher_2_ne" speed="120" mode="loop" from_frame="3" to_frame="3" />
+        <animation name="avatar_body_rocketlauncher_2_n" speed="120" mode="loop" from_frame="4" to_frame="4" />
+        <animation name="avatar_body_rocketlauncher_2_nw" speed="120" mode="loop" from_frame="5" to_frame="5" />
+        <animation name="avatar_body_rocketlauncher_2_w" speed="120" mode="loop" from_frame="6" to_frame="6" />
+        <animation name="avatar_body_rocketlauncher_2_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+        <animation name="avatar_body_rocketlauncher_2_fire_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+        <animation name="avatar_body_rocketlauncher_2_fire_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+        <animation name="avatar_body_rocketlauncher_2_fire_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+        <animation name="avatar_body_rocketlauncher_2_fire_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+        <animation name="avatar_body_rocketlauncher_2_fire_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+        <animation name="avatar_body_rocketlauncher_2_fire_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+        <animation name="avatar_body_rocketlauncher_2_fire_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+        <animation name="avatar_body_rocketlauncher_2_fire_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+      </animations>
+    </image>
+    <image type="grid" name="avatar_body_rocketlauncher_3_#" file="Data/Atlases/Actors/Avatars/Body/Body/rocketlauncher_3.png"  width="64" height="64" hspace="1" vspace="1">
+      <animations>
+        <animation name="avatar_body_rocketlauncher_3_s" speed="120" mode="loop" from_frame="0" to_frame="0" />
+        <animation name="avatar_body_rocketlauncher_3_se" speed="120" mode="loop" from_frame="1" to_frame="1" />
+        <animation name="avatar_body_rocketlauncher_3_e" speed="120" mode="loop" from_frame="2" to_frame="2" />
+        <animation name="avatar_body_rocketlauncher_3_ne" speed="120" mode="loop" from_frame="3" to_frame="3" />
+        <animation name="avatar_body_rocketlauncher_3_n" speed="120" mode="loop" from_frame="4" to_frame="4" />
+        <animation name="avatar_body_rocketlauncher_3_nw" speed="120" mode="loop" from_frame="5" to_frame="5" />
+        <animation name="avatar_body_rocketlauncher_3_w" speed="120" mode="loop" from_frame="6" to_frame="6" />
+        <animation name="avatar_body_rocketlauncher_3_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+        <animation name="avatar_body_rocketlauncher_3_fire_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+        <animation name="avatar_body_rocketlauncher_3_fire_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+        <animation name="avatar_body_rocketlauncher_3_fire_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+        <animation name="avatar_body_rocketlauncher_3_fire_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+        <animation name="avatar_body_rocketlauncher_3_fire_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+        <animation name="avatar_body_rocketlauncher_3_fire_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+        <animation name="avatar_body_rocketlauncher_3_fire_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+        <animation name="avatar_body_rocketlauncher_3_fire_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+      </animations>
+    </image>
+    <image type="grid" name="avatar_body_rof_grenade_#" file="Data/Atlases/Actors/Avatars/Body/Body/rof_grenade.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_rof_grenade_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_rof_grenade_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_rof_grenade_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_rof_grenade_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_rof_grenade_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_rof_grenade_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_rof_grenade_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_rof_grenade_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_rof_grenade_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_rof_grenade_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_rof_grenade_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_rof_grenade_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_rof_grenade_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_rof_grenade_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_rof_grenade_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_rof_grenade_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_rpc_#" file="Data/Atlases/Actors/Avatars/Body/Body/rpc.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_rpc_s" speed="120" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_rpc_se" speed="120" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_rpc_e" speed="120" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_rpc_ne" speed="120" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_rpc_n" speed="120" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_rpc_nw" speed="120" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_rpc_w" speed="120" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_rpc_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_rpc_fire_s" speed="50" mode="once" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_rpc_fire_se" speed="50" mode="once" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_rpc_fire_e" speed="50" mode="once" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_rpc_fire_ne" speed="50" mode="once" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_rpc_fire_n" speed="50" mode="once" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_rpc_fire_nw" speed="50" mode="once" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_rpc_fire_w" speed="50" mode="once" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_rpc_fire_sw" speed="50" mode="once" from_frame="7" to_frame="7" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_shock_rifle_#" file="Data/Atlases/Actors/Avatars/Body/Body/shock_rifle.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_shock_rifle_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_shock_rifle_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_shock_rifle_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_shock_rifle_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_shock_rifle_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_shock_rifle_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_shock_rifle_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_shock_rifle_sw" speed="200" mode="once" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_shock_rifle_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_shock_rifle_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_shock_rifle_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_shock_rifle_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_shock_rifle_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_shock_rifle_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_shock_rifle_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_shock_rifle_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_shotgun_#" file="Data/Atlases/Actors/Avatars/Body/Body/shotgun.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_shotgun_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_shotgun_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_shotgun_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_shotgun_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_shotgun_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_shotgun_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_shotgun_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_shotgun_sw" speed="200" mode="once" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_shotgun_fire_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_shotgun_fire_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_shotgun_fire_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_shotgun_fire_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_shotgun_fire_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_shotgun_fire_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_shotgun_fire_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_shotgun_fire_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_spaz_#" file="Data/Atlases/Actors/Avatars/Body/Body/spaz.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_spaz_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_spaz_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_spaz_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_spaz_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_spaz_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_spaz_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_spaz_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_spaz_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_spaz_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_spaz_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_spaz_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_spaz_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_spaz_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_spaz_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_spaz_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_spaz_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_speed_grenade_#" file="Data/Atlases/Actors/Avatars/Body/Body/speed_grenade.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_speed_grenade_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_speed_grenade_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_speed_grenade_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_speed_grenade_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_speed_grenade_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_speed_grenade_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_speed_grenade_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_speed_grenade_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_speed_grenade_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_speed_grenade_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_speed_grenade_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_speed_grenade_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_speed_grenade_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_speed_grenade_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_speed_grenade_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_speed_grenade_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_spread_#" file="Data/Atlases/Actors/Avatars/Body/Body/spread.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_spread_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_spread_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_spread_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_spread_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_spread_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_spread_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_spread_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_spread_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_spread_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_spread_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_spread_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_spread_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_spread_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_spread_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_spread_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_spread_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_stickylauncher_#" file="Data/Atlases/Actors/Avatars/Body/Body/stickylauncher.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_stickylauncher_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_stickylauncher_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_stickylauncher_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_stickylauncher_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_stickylauncher_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_stickylauncher_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_stickylauncher_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_stickylauncher_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_stickylauncher_fire_s" speed="200" mode="once" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_stickylauncher_fire_se" speed="200" mode="once" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_stickylauncher_fire_e" speed="200" mode="once" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_stickylauncher_fire_ne" speed="200" mode="once" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_stickylauncher_fire_n" speed="200" mode="once" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_stickylauncher_fire_nw" speed="200" mode="once" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_stickylauncher_fire_w" speed="200" mode="once" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_stickylauncher_fire_sw" speed="200" mode="once" from_frame="7" to_frame="7" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_uzi_#" file="Data/Atlases/Actors/Avatars/Body/Body/uzi.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_uzi_s" speed="50" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_uzi_se" speed="50" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_uzi_e" speed="50" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_uzi_ne" speed="50" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_uzi_n" speed="50" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_uzi_nw" speed="50" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_uzi_w" speed="50" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_uzi_sw" speed="50" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_uzi_fire_s" speed="50" mode="once" from_frame="8" to_frame="9" />
+				<animation name="avatar_body_uzi_fire_se" speed="50" mode="once" from_frame="10" to_frame="11" />
+				<animation name="avatar_body_uzi_fire_e" speed="50" mode="once" from_frame="12" to_frame="13" />
+				<animation name="avatar_body_uzi_fire_ne" speed="50" mode="once" from_frame="14" to_frame="15" />
+				<animation name="avatar_body_uzi_fire_n" speed="50" mode="once" from_frame="16" to_frame="17" />
+				<animation name="avatar_body_uzi_fire_nw" speed="50" mode="once" from_frame="18" to_frame="19" />
+				<animation name="avatar_body_uzi_fire_w" speed="50" mode="once" from_frame="20" to_frame="21" />
+				<animation name="avatar_body_uzi_fire_sw" speed="50" mode="once" from_frame="22" to_frame="23" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_winchester_rifle_#" file="Data/Atlases/Actors/Avatars/Body/Body/winchester_rifle.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_winchester_rifle_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_winchester_rifle_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_winchester_rifle_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_winchester_rifle_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_winchester_rifle_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_winchester_rifle_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_winchester_rifle_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_winchester_rifle_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_winchester_rifle_fire_s" speed="200" mode="once" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_winchester_rifle_fire_se" speed="200" mode="once" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_winchester_rifle_fire_e" speed="200" mode="once" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_winchester_rifle_fire_ne" speed="200" mode="once" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_winchester_rifle_fire_n" speed="200" mode="once" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_winchester_rifle_fire_nw" speed="200" mode="once" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_winchester_rifle_fire_w" speed="200" mode="once" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_winchester_rifle_fire_sw" speed="200" mode="once" from_frame="7" to_frame="7" />
+			</animations>
+		</image>	
+		<image type="grid" name="avatar_body_xp_grenade_#" file="Data/Atlases/Actors/Avatars/Body/Body/xp_grenade.png" width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="avatar_body_xp_grenade_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="avatar_body_xp_grenade_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="avatar_body_xp_grenade_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="avatar_body_xp_grenade_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="avatar_body_xp_grenade_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="avatar_body_xp_grenade_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="avatar_body_xp_grenade_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="avatar_body_xp_grenade_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="avatar_body_xp_grenade_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+				<animation name="avatar_body_xp_grenade_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+				<animation name="avatar_body_xp_grenade_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+				<animation name="avatar_body_xp_grenade_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+				<animation name="avatar_body_xp_grenade_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+				<animation name="avatar_body_xp_grenade_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+				<animation name="avatar_body_xp_grenade_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+				<animation name="avatar_body_xp_grenade_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+		<image type="grid" name="avatar_body_frag_grenade_#" file="Data/Atlases/Actors/Avatars/Body/Body/frag.png" width="64" height="64" hspace="1" vspace="1">
+		  <animations>
+			<animation name="avatar_body_frag_grenade_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+			<animation name="avatar_body_frag_grenade_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+			<animation name="avatar_body_frag_grenade_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+			<animation name="avatar_body_frag_grenade_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+			<animation name="avatar_body_frag_grenade_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+			<animation name="avatar_body_frag_grenade_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+			<animation name="avatar_body_frag_grenade_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+			<animation name="avatar_body_frag_grenade_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+			<animation name="avatar_body_frag_grenade_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+			<animation name="avatar_body_frag_grenade_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+			<animation name="avatar_body_frag_grenade_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+			<animation name="avatar_body_frag_grenade_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+			<animation name="avatar_body_frag_grenade_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+			<animation name="avatar_body_frag_grenade_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+			<animation name="avatar_body_frag_grenade_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+			<animation name="avatar_body_frag_grenade_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+		  </animations>
+		</image>
+		<image type="grid" name="avatar_body_molotov_#" file="Data/Atlases/Actors/Avatars/Body/Body/molotov.png" width="64" height="64" hspace="1" vspace="1">
+		  <animations>
+			<animation name="avatar_body_molotov_s" speed="200" mode="loop" from_frame="0" to_frame="0" />
+			<animation name="avatar_body_molotov_se" speed="200" mode="loop" from_frame="1" to_frame="1" />
+			<animation name="avatar_body_molotov_e" speed="200" mode="loop" from_frame="2" to_frame="2" />
+			<animation name="avatar_body_molotov_ne" speed="200" mode="loop" from_frame="3" to_frame="3" />
+			<animation name="avatar_body_molotov_n" speed="200" mode="loop" from_frame="4" to_frame="4" />
+			<animation name="avatar_body_molotov_nw" speed="200" mode="loop" from_frame="5" to_frame="5" />
+			<animation name="avatar_body_molotov_w" speed="200" mode="loop" from_frame="6" to_frame="6" />
+			<animation name="avatar_body_molotov_sw" speed="200" mode="loop" from_frame="7" to_frame="7" />
+			<animation name="avatar_body_molotov_fire_s" speed="200" mode="once" from_frame="8" to_frame="8" />
+			<animation name="avatar_body_molotov_fire_se" speed="200" mode="once" from_frame="9" to_frame="9" />
+			<animation name="avatar_body_molotov_fire_e" speed="200" mode="once" from_frame="10" to_frame="10" />
+			<animation name="avatar_body_molotov_fire_ne" speed="200" mode="once" from_frame="11" to_frame="11" />
+			<animation name="avatar_body_molotov_fire_n" speed="200" mode="once" from_frame="12" to_frame="12" />
+			<animation name="avatar_body_molotov_fire_nw" speed="200" mode="once" from_frame="13" to_frame="13" />
+			<animation name="avatar_body_molotov_fire_w" speed="200" mode="once" from_frame="14" to_frame="14" />
+			<animation name="avatar_body_molotov_fire_sw" speed="200" mode="once" from_frame="15" to_frame="15" />
+		  </animations>
+		</image>
+		<image type="grid" name="avatar_legs_#" file="Data/Atlases/Actors/Avatars/Body/Leg/legs.png"  width="64" height="64" hspace="1" vspace="1">
+				<animations>
+					<animation name="avatar_legs_s" speed="120" mode="loop" from_frame="0" to_frame="3" />
+					<animation name="avatar_legs_se" speed="120" mode="loop" from_frame="4" to_frame="7" />
+					<animation name="avatar_legs_e" speed="120" mode="loop" from_frame="8" to_frame="11" />
+					<animation name="avatar_legs_ne" speed="120" mode="loop" from_frame="12" to_frame="15" />
+					<animation name="avatar_legs_n" speed="120" mode="loop" from_frame="16" to_frame="19" />
+					<animation name="avatar_legs_nw" speed="120" mode="loop" from_frame="20" to_frame="23" />
+					<animation name="avatar_legs_w" speed="120" mode="loop" from_frame="24" to_frame="27" />
+					<animation name="avatar_legs_sw" speed="120" mode="loop" from_frame="28" to_frame="31" />
+				</animations>
+		</image>
+	</images>
+	<animations>
+	</animations>
+</xml>

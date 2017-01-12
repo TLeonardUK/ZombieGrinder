@@ -1,0 +1,12 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>menu_background_simple</name>
+	</settings>
+	<layout>
+		<element name="bg_image" 		type="Panel" box="0,0,1,1" BackImage="screen_main_bg_1" BGScaleMode="FullHeight" AspectScaling="False" />	
+		<element name="bg_image_fade" 	type="Panel" box="0,0,1,1" BackImage="screen_main_bg_1_fade" AspectScaling="False" />	
+	</layout>
+</xml>

@@ -1,0 +1,948 @@
+<xml>
+  <editor>
+    <asset_type>Atlas</asset_type>
+  </editor>
+	<settings>
+		<texture-size>2048</texture-size>
+		<max-textures>8</max-textures>
+		<name>Actors</name>
+	</settings>
+	<images>
+
+    <image type="grid" name="actor_shape_rect_#" file="Data/Atlases/Actors/Shapes/rect.png"  width="64" height="64" hspace="1" vspace="1" />
+    <image type="grid" name="actor_shape_oval_#" file="Data/Atlases/Actors/Shapes/oval.png"  width="64" height="64" hspace="1" vspace="1" />
+
+    <image type="grid" name="actor_ammo_crate_default_#" file="Data/Atlases/Actors/Ammo Crate/default.png"  width="34" height="36" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_ammo_crate_default_idle" speed="150" mode="loop" from_frame="0" to_frame="0" />
+        <animation name="actor_ammo_crate_default_open1" speed="150" mode="once|ping_pong" from_frame="0" to_frame="2" />
+        <animation name="actor_ammo_crate_default_open2" speed="150" mode="once|ping_pong" from_frame="3" to_frame="5" />
+        <animation name="actor_ammo_crate_default_open3" speed="150" mode="once|ping_pong" from_frame="6" to_frame="8" />
+        <animation name="actor_ammo_crate_default_open4" speed="150" mode="once|ping_pong" from_frame="9" to_frame="11" />
+        <animation name="actor_ammo_crate_default_open_empty" speed="150" mode="once" from_frame="9" to_frame="11" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_barricade_human_barricade_1_#" file="Data/Atlases/Actors/Barricades/Human/barricade_1.png"  width="64" height="32" hspace="1" vspace="1" />
+		<image type="grid" name="actor_barricade_human_barricade_2_#" file="Data/Atlases/Actors/Barricades/Human/barricade_2.png"  width="8" height="32" hspace="1" vspace="1" />
+		<image type="grid" name="actor_barricade_human_barricade_horizontal_1_#" file="Data/Atlases/Actors/Barricades/Human/barricade_horizontal_1.png"  width="65" height="49" hspace="0" vspace="0" />
+		<image type="grid" name="actor_barricade_human_barricade_vertical_1_#" file="Data/Atlases/Actors/Barricades/Human/barricade_vertical_1.png"  width="64" height="96" hspace="0" vspace="0" />
+		<image type="grid" name="actor_barricade_human_box_1_#" file="Data/Atlases/Actors/Barricades/Human/box_1.png"  width="17" height="25" hspace="0" vspace="0" />
+		<image type="grid" name="actor_barricade_human_box_2_#" file="Data/Atlases/Actors/Barricades/Human/box_2.png"  width="34" height="50" hspace="0" vspace="0" />
+		<image type="grid" name="actor_barricade_human_metal_box_1_#" file="Data/Atlases/Actors/Barricades/Human/metal_box_1.png"  width="12" height="31" hspace="0" vspace="0" />
+		<image type="grid" name="actor_barricade_human_metal_box_2_#" file="Data/Atlases/Actors/Barricades/Human/metal_box_2.png"  width="31" height="16" hspace="0" vspace="0" />
+		<image type="grid" name="actor_barricade_zombie_barricade_1_#" file="Data/Atlases/Actors/Barricades/Zombie/barricade_1.png"  width="32" height="32" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_barricade_zombie_barricade_1_destroy" speed="100" mode="once" from_frame="0" to_frame="9" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_barricade_zombie_barricade_2_#" file="Data/Atlases/Actors/Barricades/Zombie/barricade_2.png"  width="8" height="32" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_barricade_zombie_barricade_2_destroy" speed="100" mode="once" from_frame="0" to_frame="5" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_barricade_zombie_barricade_3_#" file="Data/Atlases/Actors/Barricades/Zombie/barricade_3.png"  width="32" height="8" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_barricade_zombie_barricade_3_destroy" speed="100" mode="once" from_frame="0" to_frame="5" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_chest_special_#" file="Data/Atlases/Actors/Chests/special.png"  width="32" height="32" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_chest_special_open" speed="70" mode="once" from_frame="0" to_frame="5" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_chest_standard_#" file="Data/Atlases/Actors/Chests/standard.png"  width="30" height="27" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_chest_standard_open" speed="70" mode="once" from_frame="0" to_frame="5" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_cutscene_camera_#" file="Data/Atlases/Actors/Cutscene/camera.png"  width="16" height="16" hspace="1" vspace="1" />
+		<image type="grid" name="actor_damage_zone_default_#" file="Data/Atlases/Actors/Damage Zone/default.png"  width="32" height="32" hspace="1" vspace="1" />
+		<image type="grid" name="actor_destroyable_default_#" file="Data/Atlases/Actors/Destroyable/default.png"  width="16" height="16" hspace="0" vspace="0" />
+    <image type="grid" name="actor_explosive_#" file="Data/Atlases/Actors/Doors/explosive.png"  width="32" height="32" hspace="0" vspace="0">
+      <animations>
+        <animation name="actor_explosive_tick" speed="500" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+    </image>
+    <image type="grid" name="actor_door_default_#" file="Data/Atlases/Actors/Doors/default.png"  width="48" height="48" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_door_default_open" speed="50" mode="once" from_frame="0" to_frame="0" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_door_door_1_#" file="Data/Atlases/Actors/Doors/door_1.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_door_door_1_open" speed="100" mode="once" from_frame="0" to_frame="5" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_door_door_2_#" file="Data/Atlases/Actors/Doors/door_2.png"  width="80" height="48" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_door_door_2_open" speed="100" mode="once" from_frame="0" to_frame="7" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_door_exit_door_#" file="Data/Atlases/Actors/Doors/exit_door.png"  width="128" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_door_exit_door_open" speed="100" mode="once" from_frame="0" to_frame="1" />
+			</animations>
+		</image>
+    <image type="grid" name="actor_door_exit_door_normal_#" file="Data/Atlases/Actors/Doors/exit_door_normal.png"  width="128" height="64" hspace="1" vspace="1">
+      <animations>
+        <animation name="actor_door_exit_door_normal_open" speed="100" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+    </image>
+		<image type="grid" name="actor_door_exit_door_debris_#" file="Data/Atlases/Actors/Doors/exit_door_debris.png"  width="128" height="64" hspace="1" vspace="1" />
+		<image type="grid" name="actor_door_exit_sign_#" file="Data/Atlases/Actors/Doors/exit_sign.png"  width="32" height="32" hspace="0" vspace="0" />
+		<image type="grid" name="actor_door_inside_door_#" file="Data/Atlases/Actors/Doors/inside_door.png"  width="48" height="68" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_door_inside_door_open" speed="50" mode="once" from_frame="0" to_frame="5" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_door_laser_blueh_#" file="Data/Atlases/Actors/Doors/laser_blueH.png"  width="64" height="37" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_door_laser_blueh_idle" speed="50" mode="once" from_frame="0" to_frame="1" />
+				<animation name="actor_door_laser_blueh_open" speed="50" mode="once" from_frame="1" to_frame="5" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_door_laser_bluev_#" file="Data/Atlases/Actors/Doors/laser_blueV.png"  width="16" height="104" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_door_laser_bluev_idle" speed="50" mode="once" from_frame="0" to_frame="1" />
+				<animation name="actor_door_laser_bluev_open" speed="50" mode="once" from_frame="1" to_frame="5" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_door_laser_greenh_#" file="Data/Atlases/Actors/Doors/laser_greenH.png"  width="64" height="37" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_door_laser_greenh_idle" speed="50" mode="once" from_frame="0" to_frame="1" />
+				<animation name="actor_door_laser_greenh_open" speed="50" mode="once" from_frame="1" to_frame="5" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_door_laser_greenv_#" file="Data/Atlases/Actors/Doors/laser_greenV.png"  width="16" height="104" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_door_laser_greenv_idle" speed="50" mode="once" from_frame="0" to_frame="1" />
+				<animation name="actor_door_laser_greenv_open" speed="50" mode="once" from_frame="1" to_frame="5" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_door_laser_redh_#" file="Data/Atlases/Actors/Doors/laser_redH.png"  width="64" height="37" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_door_laser_redh_idle" speed="50" mode="once" from_frame="0" to_frame="1" />
+				<animation name="actor_door_laser_redh_open" speed="50" mode="once" from_frame="1" to_frame="5" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_door_laser_redv_#" file="Data/Atlases/Actors/Doors/laser_redV.png"  width="16" height="104" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_door_laser_redv_idle" speed="50" mode="once" from_frame="0" to_frame="1" />
+				<animation name="actor_door_laser_redv_open" speed="50" mode="once" from_frame="1" to_frame="5" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_door_laser_yellowh_#" file="Data/Atlases/Actors/Doors/laser_yellowH.png"  width="64" height="37" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_door_laser_yellowh_idle" speed="50" mode="once" from_frame="0" to_frame="1" />
+				<animation name="actor_door_laser_yellowh_open" speed="50" mode="once" from_frame="1" to_frame="5" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_door_laser_yellowv_#" file="Data/Atlases/Actors/Doors/laser_yellowV.png"  width="16" height="104" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_door_laser_yellowv_idle" speed="50" mode="once" from_frame="0" to_frame="1" />
+				<animation name="actor_door_laser_yellowv_open" speed="50" mode="once" from_frame="1" to_frame="5" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_door_pip_#" file="Data/Atlases/Actors/Doors/pip.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_door_pip_bob" speed="200" mode="loop" from_frame="0" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_door_house_#" file="Data/Atlases/Actors/Doors/house_door.png"  width="64" height="64" hspace="1" vspace="1" depthbias="64">
+			<animations>
+				<animation name="actor_door_house_open" speed="50" mode="once" from_frame="0" to_frame="5" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_door_toilet_#" file="Data/Atlases/Actors/Doors/toilet.png"  width="48" height="68" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_door_toilet_open" speed="50" mode="once" from_frame="0" to_frame="5" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_door_blue_#" file="Data/Atlases/Actors/Doors/blue.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_door_blue_open" speed="50" mode="once" from_frame="0" to_frame="10" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_door_green_#" file="Data/Atlases/Actors/Doors/green.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_door_green_open" speed="50" mode="once" from_frame="0" to_frame="10" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_door_red_#" file="Data/Atlases/Actors/Doors/red.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_door_red_open" speed="50" mode="once" from_frame="0" to_frame="10" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_door_yellow_#" file="Data/Atlases/Actors/Doors/yellow.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_door_yellow_open" speed="50" mode="once" from_frame="0" to_frame="10" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_emitter_default_#" file="Data/Atlases/Actors/Emitter/default.png"  width="16" height="16" hspace="0" vspace="0" />
+		<image type="grid" name="actor_light_blend_#" file="Data/Atlases/Actors/Light/blend.png"  width="256" height="256" hspace="0" vspace="0" />
+		<image type="grid" name="actor_light_default_#" file="Data/Atlases/Actors/Light/default.png"  width="16" height="16" hspace="1" vspace="1" />
+		<image type="grid" name="actor_light_light_#" file="Data/Atlases/Actors/Light/tile_light.png"  width="16" height="16" hspace="1" vspace="1" />
+		<image type="grid" name="actor_lock_default_#" file="Data/Atlases/Actors/Locks/default.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_lock_default_close" speed="100" mode="once" from_frame="0" to_frame="0" />
+				<animation name="actor_lock_default_open" speed="100" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_marker_default_#" file="Data/Atlases/Actors/Marker/default.png"  width="16" height="16" hspace="1" vspace="1" />
+    <image type="grid" name="actor_tutorial_default_#" file="Data/Atlases/Actors/Marker/tutorial.png"  width="16" height="16" hspace="1" vspace="1" />
+    <image type="single" name="actor_preview_center_0" file="Data/Atlases/Actors/Marker/preview_center.png" />
+    <image type="grid" name="actor_actor_chooser_default_#" file="Data/Atlases/Actors/Marker/actor_chooser.png"  width="16" height="16" hspace="1" vspace="1" />
+    <image type="grid" name="actor_spawn_marker_default_#" file="Data/Atlases/Actors/Marker/spawn_marker.png"  width="16" height="16" hspace="1" vspace="1" />
+		<image type="grid" name="actor_move_zone_default_#" file="Data/Atlases/Actors/Move Zone/default.png"  width="32" height="32" hspace="1" vspace="1" />
+
+    <image type="grid" name="actor_pickups_barricade_#" file="Data/Atlases/Actors/Pickups/barricade.png"  width="20" height="32" hspace="0" vspace="0" />
+    <image type="grid" name="actor_pickups_pistol_#" file="Data/Atlases/Actors/Pickups/pistol.png"  width="16" height="16" hspace="0" vspace="0" />
+    <image type="grid" name="actor_pickups_sword_#" file="Data/Atlases/Actors/Pickups/sword.png"  width="21" height="21" hspace="0" vspace="0" />
+    <image type="grid" name="actor_pickups_frag_#" file="Data/Atlases/Actors/Pickups/frag.png"  width="12" height="19" hspace="0" vspace="0" />
+    <image type="grid" name="actor_pickups_molotov_#" file="Data/Atlases/Actors/Pickups/molotov.png"  width="13" height="21" hspace="0" vspace="0" />
+    <image type="grid" name="actor_pickups_rocket_launcher_2_#" file="Data/Atlases/Actors/Pickups/rocket_launcher_2.png"  width="26" height="17" hspace="0" vspace="0" />
+    <image type="grid" name="actor_pickups_rocket_launcher_3_#" file="Data/Atlases/Actors/Pickups/rocket_launcher_3.png"  width="26" height="17" hspace="0" vspace="0" />
+    
+    <image type="grid" name="actor_pickups_coin_bag_#" file="Data/Atlases/Actors/Pickups/coin_bag.png"  width="19" height="21" hspace="0" vspace="0" />
+    
+		<image type="grid" name="actor_pickups_acid_gun_#" file="Data/Atlases/Actors/Pickups/acid_gun.png"  width="34" height="21" hspace="0" vspace="0" />
+		<image type="grid" name="actor_pickups_ak47_#" file="Data/Atlases/Actors/Pickups/ak47.png"  width="33" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_ammo_#" file="Data/Atlases/Actors/Pickups/ammo.png"  width="33" height="22" hspace="0" vspace="0" />
+		<image type="grid" name="actor_pickups_armour_large_#" file="Data/Atlases/Actors/Pickups/armour_large.png"  width="18" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_armour_medium_#" file="Data/Atlases/Actors/Pickups/armour_medium.png"  width="18" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_armour_small_#" file="Data/Atlases/Actors/Pickups/armour_small.png"  width="18" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_bag_#" file="Data/Atlases/Actors/Pickups/bag.png"  width="20" height="26" hspace="0" vspace="0" />
+		<image type="grid" name="actor_pickups_bag_no_outline_#" file="Data/Atlases/Actors/Pickups/bag_no_outline.png"  width="20" height="26" hspace="0" vspace="0" />
+		<image type="grid" name="actor_pickups_baseball_bat_#" file="Data/Atlases/Actors/Pickups/baseball_bat.png"  width="10" height="32" hspace="0" vspace="0" />
+		<image type="grid" name="actor_pickups_bolt_gun_#" file="Data/Atlases/Actors/Pickups/bolt_gun.png"  width="25" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_buff_grenade_ammo_#" file="Data/Atlases/Actors/Pickups/buff_grenade_ammo.png"  width="16" height="21" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_pickups_buff_grenade_ammo_idle" speed="120" mode="loop" from_frame="0" to_frame="0" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_pickups_buff_grenade_damage_#" file="Data/Atlases/Actors/Pickups/buff_grenade_damage.png"  width="16" height="21" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_pickups_buff_grenade_damage_idle" speed="120" mode="loop" from_frame="0" to_frame="0" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_pickups_buff_grenade_health_#" file="Data/Atlases/Actors/Pickups/buff_grenade_health.png"  width="16" height="21" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_pickups_buff_grenade_health_idle" speed="120" mode="loop" from_frame="0" to_frame="0" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_pickups_buff_grenade_price_#" file="Data/Atlases/Actors/Pickups/buff_grenade_price.png"  width="16" height="21" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_pickups_buff_grenade_price_idle" speed="120" mode="loop" from_frame="0" to_frame="0" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_pickups_buff_grenade_reload_#" file="Data/Atlases/Actors/Pickups/buff_grenade_reload.png"  width="16" height="21" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_pickups_buff_grenade_reload_idle" speed="120" mode="loop" from_frame="0" to_frame="0" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_pickups_buff_grenade_rof_#" file="Data/Atlases/Actors/Pickups/buff_grenade_rof.png"  width="16" height="21" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_pickups_buff_grenade_rof_idle" speed="120" mode="loop" from_frame="0" to_frame="0" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_pickups_buff_grenade_speed_#" file="Data/Atlases/Actors/Pickups/buff_grenade_speed.png"  width="16" height="21" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_pickups_buff_grenade_speed_idle" speed="120" mode="loop" from_frame="0" to_frame="0" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_pickups_buff_grenade_xp_#" file="Data/Atlases/Actors/Pickups/buff_grenade_xp.png"  width="16" height="21" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_pickups_buff_grenade_xp_idle" speed="120" mode="loop" from_frame="0" to_frame="0" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_pickups_cardkeys_#" file="Data/Atlases/Actors/Pickups/cardkeys.png"  width="20" height="20" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_pickups_cardkeys_red" speed="60" mode="once" from_frame="0" to_frame="0" />
+				<animation name="actor_pickups_cardkeys_blue" speed="60" mode="once" from_frame="1" to_frame="1" />
+				<animation name="actor_pickups_cardkeys_green" speed="60" mode="once" from_frame="2" to_frame="2" />
+				<animation name="actor_pickups_cardkeys_yellow" speed="60" mode="once" from_frame="3" to_frame="3" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_pickups_chest_key_#" file="Data/Atlases/Actors/Pickups/chest_key.png"  width="18" height="16" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_doublebarrelshotgun_#" file="Data/Atlases/Actors/Pickups/doublebarrelshotgun.png"  width="24" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_drink_#" file="Data/Atlases/Actors/Pickups/drink.png"  width="20" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_explosiveammo_#" file="Data/Atlases/Actors/Pickups/explosiveammo.png"  width="32" height="40" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_fight_saber_#" file="Data/Atlases/Actors/Pickups/fight_saber.png"  width="18" height="32" hspace="0" vspace="0" />
+		<image type="grid" name="actor_pickups_fire_turret_#" file="Data/Atlases/Actors/Pickups/fire_turret.png"  width="31" height="23" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_freeze_turret_#" file="Data/Atlases/Actors/Pickups/freeze_turret.png"  width="31" height="23" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_flamethrower_#" file="Data/Atlases/Actors/Pickups/flamethrower.png"  width="25" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_flaregun_#" file="Data/Atlases/Actors/Pickups/flaregun.png"  width="31" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_freezeammo_#" file="Data/Atlases/Actors/Pickups/freezeammo.png"  width="32" height="40" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_freeze_ray_#" file="Data/Atlases/Actors/Pickups/freeze_ray.png"  width="25" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_grenade_launcher_#" file="Data/Atlases/Actors/Pickups/grenade_launcher.png"  width="31" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_incendiaryammo_#" file="Data/Atlases/Actors/Pickups/incendiaryammo.png"  width="32" height="40" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_key_#" file="Data/Atlases/Actors/Pickups/key.png"  width="20" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_lasercannon_#" file="Data/Atlases/Actors/Pickups/lasercannon.png"  width="35" height="24" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_lovecannon_#" file="Data/Atlases/Actors/Pickups/lovecannon.png"  width="35" height="24" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_lovethrower_#" file="Data/Atlases/Actors/Pickups/lovethrower.png"  width="35" height="24" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_m16_#" file="Data/Atlases/Actors/Pickups/m16.png"  width="27" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_magnum_#" file="Data/Atlases/Actors/Pickups/magnum.png"  width="24" height="24" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_map_#" file="Data/Atlases/Actors/Pickups/map.png"  width="21" height="21" hspace="0" vspace="0" />
+		<image type="grid" name="actor_pickups_medipack_#" file="Data/Atlases/Actors/Pickups/medipack.png"  width="20" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_nachos_#" file="Data/Atlases/Actors/Pickups/nachos.png"  width="20" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_pill_#" file="Data/Atlases/Actors/Pickups/pill.png"  width="20" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_pillcontainer_#" file="Data/Atlases/Actors/Pickups/pillcontainer.png"  width="20" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_random_#" file="Data/Atlases/Actors/Pickups/random.png"  width="33" height="28" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_rocket_launcher_#" file="Data/Atlases/Actors/Pickups/rocket_launcher.png"  width="31" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_rocket_turret_#" file="Data/Atlases/Actors/Pickups/rocket_turret.png"  width="31" height="23" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_rpc_#" file="Data/Atlases/Actors/Pickups/rpc.png"  width="31" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_scatter_gun_#" file="Data/Atlases/Actors/Pickups/scatter_gun.png"  width="25" height="16" hspace="0" vspace="0" />
+		<image type="grid" name="actor_pickups_shock_rifle_#" file="Data/Atlases/Actors/Pickups/shock_rifle.png"  width="28" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_shotgun_#" file="Data/Atlases/Actors/Pickups/shotgun.png"  width="20" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_spaz_#" file="Data/Atlases/Actors/Pickups/spaz.png"  width="35" height="24" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_sticky_launcher_#" file="Data/Atlases/Actors/Pickups/sticky_launcher.png"  width="31" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_tripmine_#" file="Data/Atlases/Actors/Pickups/tripmine.png"  width="22" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_turret_#" file="Data/Atlases/Actors/Pickups/turret.png"  width="31" height="23" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_love_pylon_#" file="Data/Atlases/Actors/Pickups/health_dispenser.png"  width="31" height="23" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_uzi_#" file="Data/Atlases/Actors/Pickups/uzi.png"  width="20" height="20" hspace="1" vspace="1" />
+		<image type="grid" name="actor_pickups_winchester_rifle_#" file="Data/Atlases/Actors/Pickups/winchester_rifle.png"  width="34" height="21" hspace="0" vspace="0" />
+		<image type="grid" name="actor_pickups_candy_corn_#" file="Data/Atlases/Actors/Pickups/candy_corn.png"  width="16" height="16" hspace="1" vspace="1" />
+		<image type="grid" name="actor_player_start_default_#" file="Data/Atlases/Actors/Player Start/default.png"  width="64" height="64" hspace="1" vspace="1" />
+ 
+		<image type="single" name="actor_player_end_corner" file="Data/Atlases/Actors/Player Start/player_end_corner.png" />
+		<image type="single" name="actor_player_end_overlay" file="Data/Atlases/Actors/Player Start/player_end_overlay.png" />
+		<image type="single" name="actor_player_end_underlay" file="Data/Atlases/Actors/Player Start/player_end_underlay.png" />
+				
+		<image type="grid" name="actor_projectile_spawner_default_#" file="Data/Atlases/Actors/Projectile Spawner/default.png"  width="16" height="16" hspace="1" vspace="1" />
+		<image type="grid" name="actor_reflection_zone_default_#" file="Data/Atlases/Actors/Reflection Zone/default.png"  width="32" height="32" hspace="1" vspace="1" />
+		<image type="grid" name="actor_shaders_default_#" file="Data/Atlases/Actors/Shaders/default.png"  width="16" height="16" hspace="1" vspace="1" />
+		<image type="grid" name="actor_sound_source_default_#" file="Data/Atlases/Actors/Sound Source/default.png"  width="16" height="16" hspace="0" vspace="0" />
+		<image type="grid" name="actor_spawn_chamber_bottom_#" file="Data/Atlases/Actors/Spawn Chamber/bottom.png"  width="64" height="64" hspace="0" vspace="0" />
+		<image type="grid" name="actor_spawn_chamber_sign_#" file="Data/Atlases/Actors/Spawn Chamber/sign.png"  width="31" height="35" hspace="0" vspace="0" />
+		<image type="grid" name="actor_spawn_chamber_top_#" file="Data/Atlases/Actors/Spawn Chamber/top.png"  width="64" height="64" hspace="0" vspace="0" />
+		<image type="grid" name="actor_switch_blue_#" file="Data/Atlases/Actors/Switchs/blue.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_switch_blue_close" speed="100" mode="once" from_frame="0" to_frame="0" />
+				<animation name="actor_switch_blue_open" speed="100" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_trap_switch_1_#" file="Data/Atlases/Actors/Switchs/trap_switch_1.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_trap_switch_1_close" speed="100" mode="once" from_frame="0" to_frame="0" />
+				<animation name="actor_trap_switch_1_open" speed="100" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_trap_switch_2_#" file="Data/Atlases/Actors/Switchs/trap_switch_2.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_trap_switch_2_close" speed="100" mode="once" from_frame="0" to_frame="0" />
+				<animation name="actor_trap_switch_2_open" speed="100" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_trap_switch_3_#" file="Data/Atlases/Actors/Switchs/trap_switch_3.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_trap_switch_3_close" speed="100" mode="once" from_frame="0" to_frame="0" />
+				<animation name="actor_trap_switch_3_open" speed="100" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_trap_switch_4_#" file="Data/Atlases/Actors/Switchs/trap_switch_4.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_trap_switch_4_close" speed="100" mode="once" from_frame="0" to_frame="0" />
+				<animation name="actor_trap_switch_4_open" speed="100" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_switch_default_#" file="Data/Atlases/Actors/Switchs/default.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_switch_default_close" speed="100" mode="once" from_frame="0" to_frame="0" />
+				<animation name="actor_switch_default_open" speed="100" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_switch_green_#" file="Data/Atlases/Actors/Switchs/green.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_switch_green_close" speed="100" mode="once" from_frame="0" to_frame="0" />
+				<animation name="actor_switch_green_open" speed="100" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_switch_pressure_plate_#" file="Data/Atlases/Actors/Switchs/pressure_plate.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_switch_pressure_plate_close" speed="100" mode="once" from_frame="0" to_frame="0" />
+				<animation name="actor_switch_pressure_plate_open" speed="100" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_switch_pressure_plate_blue_#" file="Data/Atlases/Actors/Switchs/pressure_plate_blue.png"  width="32" height="32" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_switch_pressure_plate_blue_close" speed="100" mode="once" from_frame="0" to_frame="0" />
+				<animation name="actor_switch_pressure_plate_blue_open" speed="100" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_switch_pressure_plate_green_#" file="Data/Atlases/Actors/Switchs/pressure_plate_green.png"  width="32" height="32" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_switch_pressure_plate_green_close" speed="100" mode="once" from_frame="0" to_frame="0" />
+				<animation name="actor_switch_pressure_plate_green_open" speed="100" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_switch_pressure_plate_red_#" file="Data/Atlases/Actors/Switchs/pressure_plate_red.png"  width="32" height="32" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_switch_pressure_plate_red_close" speed="100" mode="once" from_frame="0" to_frame="0" />
+				<animation name="actor_switch_pressure_plate_red_open" speed="100" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_switch_pressure_plate_yellow_#" file="Data/Atlases/Actors/Switchs/pressure_plate_yellow.png"  width="32" height="32" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_switch_pressure_plate_yellow_close" speed="100" mode="once" from_frame="0" to_frame="0" />
+				<animation name="actor_switch_pressure_plate_yellow_open" speed="100" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_switch_yellow_#" file="Data/Atlases/Actors/Switchs/yellow.png"  width="16" height="16" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_switch_yellow_close" speed="100" mode="once" from_frame="0" to_frame="0" />
+				<animation name="actor_switch_yellow_open" speed="100" mode="once" from_frame="1" to_frame="1" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_trigger_default_#" file="Data/Atlases/Actors/Trigger/default.png"  width="16" height="16" hspace="1" vspace="1" />
+		<image type="grid" name="actor_trigger_change_#" file="Data/Atlases/Actors/Trigger/map_change.png"  width="16" height="16" hspace="1" vspace="1" />
+		<image type="grid" name="actor_trigger_exit_#" file="Data/Atlases/Actors/Trigger/map_exit.png"  width="16" height="16" hspace="1" vspace="1" />
+		<image type="single" name="actor_turrets_ammo_bubble_0" file="Data/Atlases/Actors/Turrets/ammo_bubble.png" />
+		<image type="grid" name="actor_love_pylon_#" file="Data/Atlases/Actors/Turrets/love_pylon.png"  width="26" height="41" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_love_pylon_idle" speed="120" mode="loop" from_frame="0" to_frame="0" />
+			</animations>
+		</image>		
+		<image type="grid" name="actor_turrets_fire_turret_#" file="Data/Atlases/Actors/Turrets/fire_turret.png"  width="48" height="48" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_turrets_fire_turret_1_n" speed="120" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="actor_turrets_fire_turret_1_nw" speed="120" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="actor_turrets_fire_turret_1_ne" speed="120" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="actor_turrets_fire_turret_1_s" speed="120" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="actor_turrets_fire_turret_1_se" speed="120" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="actor_turrets_fire_turret_1_sw" speed="120" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="actor_turrets_fire_turret_1_e" speed="120" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="actor_turrets_fire_turret_1_w" speed="120" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="actor_turrets_fire_turret_2_n" speed="120" mode="loop" from_frame="8" to_frame="8" />
+				<animation name="actor_turrets_fire_turret_2_nw" speed="120" mode="loop" from_frame="9" to_frame="9" />
+				<animation name="actor_turrets_fire_turret_2_ne" speed="120" mode="loop" from_frame="10" to_frame="10" />
+				<animation name="actor_turrets_fire_turret_2_s" speed="120" mode="loop" from_frame="11" to_frame="11" />
+				<animation name="actor_turrets_fire_turret_2_se" speed="120" mode="loop" from_frame="12" to_frame="12" />
+				<animation name="actor_turrets_fire_turret_2_sw" speed="120" mode="loop" from_frame="13" to_frame="13" />
+				<animation name="actor_turrets_fire_turret_2_e" speed="120" mode="loop" from_frame="14" to_frame="14" />
+				<animation name="actor_turrets_fire_turret_2_w" speed="120" mode="loop" from_frame="15" to_frame="15" />
+				<animation name="actor_turrets_fire_turret_3_n" speed="120" mode="loop" from_frame="16" to_frame="16" />
+				<animation name="actor_turrets_fire_turret_3_nw" speed="120" mode="loop" from_frame="17" to_frame="17" />
+				<animation name="actor_turrets_fire_turret_3_ne" speed="120" mode="loop" from_frame="18" to_frame="18" />
+				<animation name="actor_turrets_fire_turret_3_s" speed="120" mode="loop" from_frame="19" to_frame="19" />
+				<animation name="actor_turrets_fire_turret_3_se" speed="120" mode="loop" from_frame="20" to_frame="20" />
+				<animation name="actor_turrets_fire_turret_3_sw" speed="120" mode="loop" from_frame="21" to_frame="21" />
+				<animation name="actor_turrets_fire_turret_3_e" speed="120" mode="loop" from_frame="22" to_frame="22" />
+				<animation name="actor_turrets_fire_turret_3_w" speed="120" mode="loop" from_frame="23" to_frame="23" />
+				<animation name="actor_turrets_fire_turret_4_n" speed="120" mode="loop" from_frame="24" to_frame="24" />
+				<animation name="actor_turrets_fire_turret_4_nw" speed="120" mode="loop" from_frame="25" to_frame="25" />
+				<animation name="actor_turrets_fire_turret_4_ne" speed="120" mode="loop" from_frame="26" to_frame="26" />
+				<animation name="actor_turrets_fire_turret_4_s" speed="120" mode="loop" from_frame="27" to_frame="27" />
+				<animation name="actor_turrets_fire_turret_4_se" speed="120" mode="loop" from_frame="28" to_frame="28" />
+				<animation name="actor_turrets_fire_turret_4_sw" speed="120" mode="loop" from_frame="29" to_frame="29" />
+				<animation name="actor_turrets_fire_turret_4_e" speed="120" mode="loop" from_frame="30" to_frame="30" />
+				<animation name="actor_turrets_fire_turret_4_w" speed="120" mode="loop" from_frame="31" to_frame="31" />
+				<animation name="actor_turrets_fire_turret_5_n" speed="120" mode="loop" from_frame="32" to_frame="32" />
+				<animation name="actor_turrets_fire_turret_5_nw" speed="120" mode="loop" from_frame="33" to_frame="33" />
+				<animation name="actor_turrets_fire_turret_5_ne" speed="120" mode="loop" from_frame="34" to_frame="34" />
+				<animation name="actor_turrets_fire_turret_5_s" speed="120" mode="loop" from_frame="35" to_frame="35" />
+				<animation name="actor_turrets_fire_turret_5_se" speed="120" mode="loop" from_frame="36" to_frame="36" />
+				<animation name="actor_turrets_fire_turret_5_sw" speed="120" mode="loop" from_frame="37" to_frame="37" />
+				<animation name="actor_turrets_fire_turret_5_e" speed="120" mode="loop" from_frame="38" to_frame="38" />
+				<animation name="actor_turrets_fire_turret_5_w" speed="120" mode="loop" from_frame="39" to_frame="39" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_turrets_rocket_turret_#" file="Data/Atlases/Actors/Turrets/rocket_turret.png"  width="48" height="48" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_turrets_rocket_turret_1_n" speed="120" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="actor_turrets_rocket_turret_1_nw" speed="120" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="actor_turrets_rocket_turret_1_ne" speed="120" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="actor_turrets_rocket_turret_1_s" speed="120" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="actor_turrets_rocket_turret_1_se" speed="120" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="actor_turrets_rocket_turret_1_sw" speed="120" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="actor_turrets_rocket_turret_1_e" speed="120" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="actor_turrets_rocket_turret_1_w" speed="120" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="actor_turrets_rocket_turret_2_n" speed="120" mode="loop" from_frame="8" to_frame="8" />
+				<animation name="actor_turrets_rocket_turret_2_nw" speed="120" mode="loop" from_frame="9" to_frame="9" />
+				<animation name="actor_turrets_rocket_turret_2_ne" speed="120" mode="loop" from_frame="10" to_frame="10" />
+				<animation name="actor_turrets_rocket_turret_2_s" speed="120" mode="loop" from_frame="11" to_frame="11" />
+				<animation name="actor_turrets_rocket_turret_2_se" speed="120" mode="loop" from_frame="12" to_frame="12" />
+				<animation name="actor_turrets_rocket_turret_2_sw" speed="120" mode="loop" from_frame="13" to_frame="13" />
+				<animation name="actor_turrets_rocket_turret_2_e" speed="120" mode="loop" from_frame="14" to_frame="14" />
+				<animation name="actor_turrets_rocket_turret_2_w" speed="120" mode="loop" from_frame="15" to_frame="15" />
+				<animation name="actor_turrets_rocket_turret_3_n" speed="120" mode="loop" from_frame="16" to_frame="16" />
+				<animation name="actor_turrets_rocket_turret_3_nw" speed="120" mode="loop" from_frame="17" to_frame="17" />
+				<animation name="actor_turrets_rocket_turret_3_ne" speed="120" mode="loop" from_frame="18" to_frame="18" />
+				<animation name="actor_turrets_rocket_turret_3_s" speed="120" mode="loop" from_frame="19" to_frame="19" />
+				<animation name="actor_turrets_rocket_turret_3_se" speed="120" mode="loop" from_frame="20" to_frame="20" />
+				<animation name="actor_turrets_rocket_turret_3_sw" speed="120" mode="loop" from_frame="21" to_frame="21" />
+				<animation name="actor_turrets_rocket_turret_3_e" speed="120" mode="loop" from_frame="22" to_frame="22" />
+				<animation name="actor_turrets_rocket_turret_3_w" speed="120" mode="loop" from_frame="23" to_frame="23" />
+				<animation name="actor_turrets_rocket_turret_4_n" speed="120" mode="loop" from_frame="24" to_frame="24" />
+				<animation name="actor_turrets_rocket_turret_4_nw" speed="120" mode="loop" from_frame="25" to_frame="25" />
+				<animation name="actor_turrets_rocket_turret_4_ne" speed="120" mode="loop" from_frame="26" to_frame="26" />
+				<animation name="actor_turrets_rocket_turret_4_s" speed="120" mode="loop" from_frame="27" to_frame="27" />
+				<animation name="actor_turrets_rocket_turret_4_se" speed="120" mode="loop" from_frame="28" to_frame="28" />
+				<animation name="actor_turrets_rocket_turret_4_sw" speed="120" mode="loop" from_frame="29" to_frame="29" />
+				<animation name="actor_turrets_rocket_turret_4_e" speed="120" mode="loop" from_frame="30" to_frame="30" />
+				<animation name="actor_turrets_rocket_turret_4_w" speed="120" mode="loop" from_frame="31" to_frame="31" />
+				<animation name="actor_turrets_rocket_turret_5_n" speed="120" mode="loop" from_frame="32" to_frame="32" />
+				<animation name="actor_turrets_rocket_turret_5_nw" speed="120" mode="loop" from_frame="33" to_frame="33" />
+				<animation name="actor_turrets_rocket_turret_5_ne" speed="120" mode="loop" from_frame="34" to_frame="34" />
+				<animation name="actor_turrets_rocket_turret_5_s" speed="120" mode="loop" from_frame="35" to_frame="35" />
+				<animation name="actor_turrets_rocket_turret_5_se" speed="120" mode="loop" from_frame="36" to_frame="36" />
+				<animation name="actor_turrets_rocket_turret_5_sw" speed="120" mode="loop" from_frame="37" to_frame="37" />
+				<animation name="actor_turrets_rocket_turret_5_e" speed="120" mode="loop" from_frame="38" to_frame="38" />
+				<animation name="actor_turrets_rocket_turret_5_w" speed="120" mode="loop" from_frame="39" to_frame="39" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_turrets_uzi_turret_#" file="Data/Atlases/Actors/Turrets/uzi_turret.png"  width="48" height="48" hspace="1" vspace="1">
+			<animations>
+				<animation name="actor_turrets_uzi_turret_1_n" speed="120" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="actor_turrets_uzi_turret_1_nw" speed="120" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="actor_turrets_uzi_turret_1_ne" speed="120" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="actor_turrets_uzi_turret_1_s" speed="120" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="actor_turrets_uzi_turret_1_se" speed="120" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="actor_turrets_uzi_turret_1_sw" speed="120" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="actor_turrets_uzi_turret_1_e" speed="120" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="actor_turrets_uzi_turret_1_w" speed="120" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="actor_turrets_uzi_turret_2_n" speed="120" mode="loop" from_frame="8" to_frame="8" />
+				<animation name="actor_turrets_uzi_turret_2_nw" speed="120" mode="loop" from_frame="9" to_frame="9" />
+				<animation name="actor_turrets_uzi_turret_2_ne" speed="120" mode="loop" from_frame="10" to_frame="10" />
+				<animation name="actor_turrets_uzi_turret_2_s" speed="120" mode="loop" from_frame="11" to_frame="11" />
+				<animation name="actor_turrets_uzi_turret_2_se" speed="120" mode="loop" from_frame="12" to_frame="12" />
+				<animation name="actor_turrets_uzi_turret_2_sw" speed="120" mode="loop" from_frame="13" to_frame="13" />
+				<animation name="actor_turrets_uzi_turret_2_e" speed="120" mode="loop" from_frame="14" to_frame="14" />
+				<animation name="actor_turrets_uzi_turret_2_w" speed="120" mode="loop" from_frame="15" to_frame="15" />
+				<animation name="actor_turrets_uzi_turret_3_n" speed="120" mode="loop" from_frame="16" to_frame="16" />
+				<animation name="actor_turrets_uzi_turret_3_nw" speed="120" mode="loop" from_frame="17" to_frame="17" />
+				<animation name="actor_turrets_uzi_turret_3_ne" speed="120" mode="loop" from_frame="18" to_frame="18" />
+				<animation name="actor_turrets_uzi_turret_3_s" speed="120" mode="loop" from_frame="19" to_frame="19" />
+				<animation name="actor_turrets_uzi_turret_3_se" speed="120" mode="loop" from_frame="20" to_frame="20" />
+				<animation name="actor_turrets_uzi_turret_3_sw" speed="120" mode="loop" from_frame="21" to_frame="21" />
+				<animation name="actor_turrets_uzi_turret_3_e" speed="120" mode="loop" from_frame="22" to_frame="22" />
+				<animation name="actor_turrets_uzi_turret_3_w" speed="120" mode="loop" from_frame="23" to_frame="23" />
+				<animation name="actor_turrets_uzi_turret_4_n" speed="120" mode="loop" from_frame="24" to_frame="24" />
+				<animation name="actor_turrets_uzi_turret_4_nw" speed="120" mode="loop" from_frame="25" to_frame="25" />
+				<animation name="actor_turrets_uzi_turret_4_ne" speed="120" mode="loop" from_frame="26" to_frame="26" />
+				<animation name="actor_turrets_uzi_turret_4_s" speed="120" mode="loop" from_frame="27" to_frame="27" />
+				<animation name="actor_turrets_uzi_turret_4_se" speed="120" mode="loop" from_frame="28" to_frame="28" />
+				<animation name="actor_turrets_uzi_turret_4_sw" speed="120" mode="loop" from_frame="29" to_frame="29" />
+				<animation name="actor_turrets_uzi_turret_4_e" speed="120" mode="loop" from_frame="30" to_frame="30" />
+				<animation name="actor_turrets_uzi_turret_4_w" speed="120" mode="loop" from_frame="31" to_frame="31" />
+				<animation name="actor_turrets_uzi_turret_5_n" speed="120" mode="loop" from_frame="32" to_frame="32" />
+				<animation name="actor_turrets_uzi_turret_5_nw" speed="120" mode="loop" from_frame="33" to_frame="33" />
+				<animation name="actor_turrets_uzi_turret_5_ne" speed="120" mode="loop" from_frame="34" to_frame="34" />
+				<animation name="actor_turrets_uzi_turret_5_s" speed="120" mode="loop" from_frame="35" to_frame="35" />
+				<animation name="actor_turrets_uzi_turret_5_se" speed="120" mode="loop" from_frame="36" to_frame="36" />
+				<animation name="actor_turrets_uzi_turret_5_sw" speed="120" mode="loop" from_frame="37" to_frame="37" />
+				<animation name="actor_turrets_uzi_turret_5_e" speed="120" mode="loop" from_frame="38" to_frame="38" />
+				<animation name="actor_turrets_uzi_turret_5_w" speed="120" mode="loop" from_frame="39" to_frame="39" />
+			</animations>
+		</image>
+		<image type="grid" name="actor_vending_machine_food_machine_#" file="Data/Atlases/Actors/Vending Machines/Food/machine.png"  width="48" height="64" hspace="0" vspace="0" />
+		<image type="grid" name="actor_vending_machine_soda_machine_#" file="Data/Atlases/Actors/Vending Machines/Soda/machine.png"  width="48" height="64" hspace="0" vspace="0" />
+		<image type="grid" name="actor_weather_default_#" file="Data/Atlases/Actors/Weather/default.png"  width="16" height="16" hspace="0" vspace="0" />
+		<image type="grid" name="actor_weather_nozone_#" file="Data/Atlases/Actors/Weather/nozone.png"  width="25" height="25" hspace="0" vspace="0" />
+		<image type="grid" name="actor_zombie_zone_default_#" file="Data/Atlases/Actors/Zombie Zone/default.png"  width="32" height="32" hspace="1" vspace="1" />
+		<image type="grid" name="actor_zombie_zone_nofodderzombiezone_#" file="Data/Atlases/Actors/Zombie Zone/NoFodderZombieZone.png"  width="32" height="32" hspace="1" vspace="1" />
+		<image type="grid" name="actor_zombie_zone_single_#" file="Data/Atlases/Actors/Zombie Zone/single.png"  width="32" height="32" hspace="1" vspace="1" />
+		<image type="grid" name="actor_game_mode_default_#" file="Data/Atlases/Actors/Game Mode/default.png"  width="32" height="32" hspace="1" vspace="1" />
+    <image type="grid" name="actor_objective_default_#" file="Data/Atlases/Actors/Game Mode/objective.png"  width="32" height="32" hspace="1" vspace="1" />
+ 
+    <image type="grid" name="decal_default_#" file="Data/Atlases/Decals/default.png"  width="16" height="16" hspace="1" vspace="1" />
+    <image type="grid" name="decal_ai_breadcrumb_#" file="Data/Atlases/Decals/AI/BReadcrumb.png"  width="16" height="16" hspace="1" vspace="1" />
+    <image type="grid" name="decal_inside_insidemapmarker_#" file="Data/Atlases/Decals/Inside/InsideMapMarker.png"  width="16" height="16" hspace="1" vspace="1" />
+    <image type="grid" name="decal_outsidemapmarker_#" file="Data/Atlases/Decals/OutsideMapMarker.png"  width="16" height="16" hspace="1" vspace="1" />
+    <image type="grid" name="decal_barrel_all_colors_#" file="Data/Atlases/Decals/Barrels/all_colors.png"  width="18" height="29" hspace="1" vspace="1" />
+    <image type="grid" name="decal_barrel_all_colors_side_#" file="Data/Atlases/Decals/Barrels/all_colors_side.png"  width="30" height="24" hspace="1" vspace="1" />
+    <image type="grid" name="decal_barrel_blue_#" file="Data/Atlases/Decals/Barrels/blue.png"  width="16" height="27" hspace="0" vspace="0" />
+    <image type="grid" name="decal_barrel_brown_#" file="Data/Atlases/Decals/Barrels/brown.png"  width="16" height="27" hspace="0" vspace="0" />
+    <image type="grid" name="decal_barrel_green_#" file="Data/Atlases/Decals/Barrels/green.png"  width="16" height="27" hspace="0" vspace="0" />
+    <image type="grid" name="decal_barrel_red_#" file="Data/Atlases/Decals/Barrels/red.png"  width="16" height="27" hspace="0" vspace="0" />
+    <image type="grid" name="decal_barricade_horizontal_#" file="Data/Atlases/Decals/Barricades/horizontal.png"  width="56" height="32" hspace="0" vspace="0" />
+    <image type="grid" name="decal_barricade_nw_se_#" file="Data/Atlases/Decals/Barricades/nw_se.png"  width="48" height="40" hspace="0" vspace="0" />
+    <image type="grid" name="decal_barricade_sw_ne_#" file="Data/Atlases/Decals/Barricades/sw_ne.png"  width="48" height="40" hspace="0" vspace="0" />
+    <image type="grid" name="decal_barricade_vertical_#" file="Data/Atlases/Decals/Barricades/vertical.png"  width="10" height="56" hspace="0" vspace="0" />
+    <image type="grid" name="decal_bin_dumpster_brown_#" file="Data/Atlases/Decals/Bins/dumpster_brown.png"  width="64" height="48" hspace="0" vspace="0" depthbias="16" />
+    <image type="grid" name="decal_bin_dumpster_green_#" file="Data/Atlases/Decals/Bins/dumpster_green.png"  width="64" height="48" hspace="0" vspace="0" depthbias="16" />
+    <image type="grid" name="decal_bin_gold_#" file="Data/Atlases/Decals/Bins/gold.png"  width="16" height="32" hspace="0" vspace="0" />
+    <image type="grid" name="decal_bin_green_#" file="Data/Atlases/Decals/Bins/green.png"  width="16" height="32" hspace="0" vspace="0" />
+    <image type="grid" name="decal_bin_silver_#" file="Data/Atlases/Decals/Bins/silver.png"  width="16" height="32" hspace="0" vspace="0" />
+    <image type="grid" name="decal_blood_blood_1_#" file="Data/Atlases/Decals/Bloods/blood_1.png"  width="33" height="10" hspace="0" vspace="0" />
+    <image type="grid" name="decal_blood_blood_2_#" file="Data/Atlases/Decals/Bloods/blood_2.png"  width="16" height="16" hspace="1" vspace="1" />
+    <image type="grid" name="decal_bush_bush_1_#" file="Data/Atlases/Decals/Bushs/bush_1.png"  width="19" height="23" hspace="0" vspace="0" depthbias="16" />
+    <image type="grid" name="decal_bush_bush_2_#" file="Data/Atlases/Decals/Bushs/bush_2.png"  width="22" height="15" hspace="0" vspace="0" depthbias="8" />
+    <image type="grid" name="decal_bush_corner_#" file="Data/Atlases/Decals/Bushs/corner.png"  width="30" height="38" hspace="0" vspace="0"  DepthBias="16" />
+    <image type="grid" name="decal_bush_dead_stump_#" file="Data/Atlases/Decals/Bushs/dead_stump.png"  width="31" height="20" hspace="0" vspace="0" />
+    <image type="grid" name="decal_bush_dead_tree1_#" file="Data/Atlases/Decals/Bushs/dead_tree1.png"  width="43" height="48" hspace="0" vspace="0" depthbias="48" />
+    <image type="grid" name="decal_bush_horizontal_#" file="Data/Atlases/Decals/Bushs/horizontal.png"  width="49" height="38" hspace="0" vspace="0"  DepthBias="16" />
+    <image type="grid" name="decal_bush_tall_tree_#" file="Data/Atlases/Decals/Bushs/tall_tree.png"  width="36" height="57" hspace="0" vspace="0" depthbias="48" />
+    <image type="grid" name="decal_bush_tiled_tree_#" file="Data/Atlases/Decals/Bushs/tiled_tree.png"  width="120" height="96" hspace="0" vspace="0" depthbias="1" /> <!-- Depth is slightly biased so we don't get Z-fighting trees layered over them -->
+    <image type="grid" name="decal_bush_tree_#" file="Data/Atlases/Decals/Bushs/tree.png"  width="40" height="41" hspace="0" vspace="0" depthbias="32" />
+    <image type="grid" name="decal_bush_vertical_#" file="Data/Atlases/Decals/Bushs/vertical.png"  width="31" height="57" hspace="0" vspace="0" DepthBias="16" />
+    <image type="grid" name="decal_bush_vines_#" file="Data/Atlases/Decals/Bushs/vines.png"  width="16" height="28" hspace="1" vspace="1" />
+    <image type="grid" name="decal_crate_crate_1_#" file="Data/Atlases/Decals/Crates/crate_1.png"  width="34" height="33" hspace="0" vspace="0" />
+    <image type="grid" name="decal_crate_crate_2_#" file="Data/Atlases/Decals/Crates/crate_2.png"  width="27" height="30" hspace="0" vspace="0" />
+    <image type="grid" name="decal_crate_crate_3_#" file="Data/Atlases/Decals/Crates/crate_3.png"  width="27" height="30" hspace="0" vspace="0" />
+    <image type="grid" name="decal_crate_crate_4_#" file="Data/Atlases/Decals/Crates/crate_4.png"  width="33" height="42" hspace="0" vspace="0" />
+    <image type="grid" name="decal_crate_crate_5_#" file="Data/Atlases/Decals/Crates/crate_5.png"  width="44" height="45" hspace="0" vspace="0" />
+    <image type="single" name="decal_egypt_block_1" file="Data/Atlases/Decals/Egypt/block_1.png" />
+    <image type="single" name="decal_egypt_block_2" file="Data/Atlases/Decals/Egypt/block_2.png" />
+    <image type="single" name="decal_egypt_egyptian_brix1" file="Data/Atlases/Decals/Egypt/egyptian_brix1.png" />
+    <image type="single" name="decal_egypt_egyptian_brix2" file="Data/Atlases/Decals/Egypt/egyptian_brix2.png" />
+    <image type="grid" name="decal_egypt_grass_1_#" file="Data/Atlases/Decals/Egypt/grass_1.png"  width="34" height="34" hspace="1" vspace="1">
+      <multi_layer_frames>
+        <multi_layer_frame layer_index="-1" frame_offset="1" />
+        <multi_layer_frame layer_index="0" frame_offset="0" />
+      </multi_layer_frames>
+    </image>
+    <image type="grid" name="decal_egypt_grass_2_#" file="Data/Atlases/Decals/Egypt/grass_2.png"  width="66" height="45" hspace="1" vspace="1">
+      <multi_layer_frames>
+        <multi_layer_frame layer_index="-1" frame_offset="1" />
+        <multi_layer_frame layer_index="0" frame_offset="0" />
+      </multi_layer_frames>
+    </image>
+    <image type="grid" name="decal_egypt_grass_3_#" file="Data/Atlases/Decals/Egypt/grass_3.png"  width="54" height="38" hspace="1" vspace="1">
+      <multi_layer_frames>
+        <multi_layer_frame layer_index="-1" frame_offset="1" />
+        <multi_layer_frame layer_index="0" frame_offset="0" />
+      </multi_layer_frames>
+    </image>
+    <image type="grid" name="decal_egypt_pillar1_#" file="Data/Atlases/Decals/Egypt/pillar1.png"  width="25" height="57" hspace="0" vspace="0" depthbias="40" />
+    <image type="grid" name="decal_egypt_pillar2_#" file="Data/Atlases/Decals/Egypt/pillar2.png"  width="25" height="43" hspace="0" vspace="0" depthbias="30" />
+    <image type="grid" name="decal_egypt_pillar3_#" file="Data/Atlases/Decals/Egypt/pillar3.png"  width="25" height="43" hspace="0" vspace="0" depthbias="30" />
+    <image type="grid" name="decal_egypt_pillar4_#" file="Data/Atlases/Decals/Egypt/pillar4.png"  width="25" height="34" hspace="0" vspace="0" depthbias="20" />
+    <image type="grid" name="decal_egypt_pillar5_#" file="Data/Atlases/Decals/Egypt/pillar5.png"  width="25" height="34" hspace="0" vspace="0" depthbias="20" />
+    <image type="grid" name="decal_egypt_pillar_down1_#" file="Data/Atlases/Decals/Egypt/pillar_down1.png"  width="44" height="29" hspace="0" vspace="0" depthbias="16" />
+    <image type="grid" name="decal_egypt_pillar_down2_#" file="Data/Atlases/Decals/Egypt/pillar_down2.png"  width="44" height="29" hspace="0" vspace="0" depthbias="16" />
+    <image type="grid" name="decal_egypt_pillar_down3_#" file="Data/Atlases/Decals/Egypt/pillar_down3.png"  width="36" height="26" hspace="0" vspace="0" depthbias="16" />
+    <image type="grid" name="decal_egypt_pillar_down4_#" file="Data/Atlases/Decals/Egypt/pillar_down4.png"  width="36" height="26" hspace="0" vspace="0" depthbias="16" />
+    <image type="grid" name="decal_egypt_pillar_down5_#" file="Data/Atlases/Decals/Egypt/pillar_down5.png"  width="55" height="36" hspace="0" vspace="0" depthbias="26" />
+    <image type="single" name="decal_egypt_pillar_top" file="Data/Atlases/Decals/Egypt/pillar_top.png" />
+    <image type="single" name="decal_egypt_wall_decal1" file="Data/Atlases/Decals/Egypt/wall_decal1.png" />
+    <image type="single" name="decal_egypt_wall_decal2" file="Data/Atlases/Decals/Egypt/wall_decal2.png" />
+    <image type="single" name="decal_egypt_wall_decal3" file="Data/Atlases/Decals/Egypt/wall_decal3.png" />
+    <image type="single" name="decal_egypt_wall_decal4" file="Data/Atlases/Decals/Egypt/wall_decal4.png" />
+    <image type="single" name="decal_egypt_wall_decal5" file="Data/Atlases/Decals/Egypt/wall_decal5.png" />
+    <image type="single" name="decal_egypt_wall_decal6" file="Data/Atlases/Decals/Egypt/wall_decal6.png" />
+    <image type="single" name="decal_egypt_wall_decal7" file="Data/Atlases/Decals/Egypt/wall_decal7.png" />
+
+
+
+    <image type="single" name="decal_dungeon_block_1" file="Data/Atlases/Decals/Dungeon/block_1.png" />
+    <image type="single" name="decal_dungeon_block_2" file="Data/Atlases/Decals/Dungeon/block_2.png" />
+    <image type="single" name="decal_dungeon_egyptian_brix1" file="Data/Atlases/Decals/Dungeon/egyptian_brix1.png" />
+    <image type="single" name="decal_dungeon_egyptian_brix2" file="Data/Atlases/Decals/Dungeon/egyptian_brix2.png" />
+    <image type="grid" name="decal_dungeon_pillar1_#" file="Data/Atlases/Decals/Dungeon/pillar1.png"  width="25" height="57" hspace="0" vspace="0" depthbias="45" />
+    <image type="grid" name="decal_dungeon_pillar2_#" file="Data/Atlases/Decals/Dungeon/pillar2.png"  width="25" height="43" hspace="0" vspace="0" depthbias="30" />
+    <image type="grid" name="decal_dungeon_pillar3_#" file="Data/Atlases/Decals/Dungeon/pillar3.png"  width="25" height="43" hspace="0" vspace="0" depthbias="30" />
+    <image type="grid" name="decal_dungeon_pillar4_#" file="Data/Atlases/Decals/Dungeon/pillar4.png"  width="25" height="34" hspace="0" vspace="0" depthbias="25" />
+    <image type="grid" name="decal_dungeon_pillar5_#" file="Data/Atlases/Decals/Dungeon/pillar5.png"  width="25" height="34" hspace="0" vspace="0" depthbias="25" />
+    <image type="grid" name="decal_dungeon_pillar_down1_#" file="Data/Atlases/Decals/Dungeon/pillar_down1.png"  width="44" height="29" hspace="0" vspace="0" depthbias="16" />
+    <image type="grid" name="decal_dungeon_pillar_down2_#" file="Data/Atlases/Decals/Dungeon/pillar_down2.png"  width="44" height="29" hspace="0" vspace="0" depthbias="16" />
+    <image type="grid" name="decal_dungeon_pillar_down3_#" file="Data/Atlases/Decals/Dungeon/pillar_down3.png"  width="36" height="26" hspace="0" vspace="0" depthbias="16" />
+    <image type="grid" name="decal_dungeon_pillar_down4_#" file="Data/Atlases/Decals/Dungeon/pillar_down4.png"  width="36" height="26" hspace="0" vspace="0" depthbias="16" />
+    <image type="grid" name="decal_dungeon_pillar_down5_#" file="Data/Atlases/Decals/Dungeon/pillar_down5.png"  width="55" height="36" hspace="0" vspace="0" depthbias="26" />
+    <image type="single" name="decal_dungeon_pillar_top" file="Data/Atlases/Decals/Dungeon/pillar_top.png" depthbias="25" />
+    <image type="single" name="decal_dungeon_wall_decal1" file="Data/Atlases/Decals/Dungeon/wall_decal1.png" />
+    <image type="single" name="decal_dungeon_wall_decal2" file="Data/Atlases/Decals/Dungeon/wall_decal2.png" />
+    <image type="single" name="decal_dungeon_wall_decal3" file="Data/Atlases/Decals/Dungeon/wall_decal3.png" />
+    <image type="single" name="decal_dungeon_wall_decal4" file="Data/Atlases/Decals/Dungeon/wall_decal4.png" />
+    <image type="single" name="decal_dungeon_wall_decal5" file="Data/Atlases/Decals/Dungeon/wall_decal5.png" />
+    <image type="single" name="decal_dungeon_wall_decal6" file="Data/Atlases/Decals/Dungeon/wall_decal6.png" />
+    <image type="single" name="decal_dungeon_wall_decal7" file="Data/Atlases/Decals/Dungeon/wall_decal7.png" />
+
+    <image type="grid" name="decal_fence_#" file="Data/Atlases/Decals/Fences/fence.png"  width="16" height="32" hspace="1" vspace="1" DepthBias="16" />
+    <image type="grid" name="decal_metal_fence_#" file="Data/Atlases/Decals/Fences/metal_fence.png"  width="16" height="48" hspace="1" vspace="1" DepthBias="34" />
+    <image type="grid" name="decal_fence_under_#" file="Data/Atlases/Decals/Fences/fence_under.png"  width="16" height="32" hspace="1" vspace="1" DepthBias="0" />
+    <image type="grid" name="decal_brick_wall_#" file="Data/Atlases/Decals/Fences/brick_wall.png"  width="16" height="32" hspace="1" vspace="1" DepthBias="16" />
+    <image type="grid" name="decal_brick_wall_under_#" file="Data/Atlases/Decals/Fences/brick_wall_under.png"  width="16" height="32" hspace="1" vspace="1" DepthBias="0" />
+    <image type="grid" name="decal_grass_brick_wall_#" file="Data/Atlases/Decals/Fences/grass_brick_wall.png"  width="16" height="32" hspace="1" vspace="1" DepthBias="16" />
+    <image type="grid" name="decal_grass_brick_wall_under_#" file="Data/Atlases/Decals/Fences/grass_brick_wall_under.png"  width="16" height="32" hspace="1" vspace="1" DepthBias="0" />
+
+    <image type="grid" name="decal_fence_horizontal_fence_tile_#" file="Data/Atlases/Decals/Fences/horizontal_fence_tile.png"  width="96" height="16" hspace="0" vspace="0" />
+    <image type="grid" name="decal_fence_vertical_fence_tile_#" file="Data/Atlases/Decals/Fences/vertical_fence_tile.png"  width="16" height="96" hspace="0" vspace="0" />
+    <image type="grid" name="decal_furniture_bed_#" file="Data/Atlases/Decals/Furniture/bed.png"  width="96" height="80" hspace="0" vspace="0" />
+    <image type="grid" name="decal_furniture_fridge_#" file="Data/Atlases/Decals/Furniture/fridge.png"  width="26" height="48" hspace="0" vspace="0" />
+    <image type="grid" name="decal_furniture_hob_#" file="Data/Atlases/Decals/Furniture/hob.png"  width="32" height="48" hspace="0" vspace="0" />
+    <image type="grid" name="decal_inside_toilet_#" file="Data/Atlases/Decals/Inside/toilet.png"  width="22" height="40" hspace="1" vspace="1" />
+    <image type="grid" name="decal_lab_air_vent_#" file="Data/Atlases/Decals/Lab/air_vent.png"  width="48" height="23" hspace="1" vspace="1" />
+    <image type="grid" name="decal_lab_gas_silo_#" file="Data/Atlases/Decals/Lab/gas_silo.png" width="43" height="67" hspace="1" vspace="1" DepthBias="46" />
+    <image type="single" name="decal_lab_table_horizontal" file="Data/Atlases/Decals/Lab/table_horizontal.png" DepthBias="16" />
+    <image type="single" name="decal_lab_table_vertical" file="Data/Atlases/Decals/Lab/table_vertical.png" DepthBias="16" />
+    <image type="grid" name="decal_lab_wall_vent_#" file="Data/Atlases/Decals/Lab/wall_vent.png"  width="16" height="16" hspace="0" vspace="0" />
+    <image type="single" name="decal_lab_zombie_jar" file="Data/Atlases/Decals/Lab/zombie_jar.png" DepthBias="64" />
+    <image type="grid" name="decal_light_light_1_#" file="Data/Atlases/Decals/Lights/light_1.png"  width="19" height="12" hspace="0" vspace="0" />
+    <image type="grid" name="decal_light_tall_light_#" file="Data/Atlases/Decals/Lights/tall_light.png"  width="18" height="78" hspace="0" vspace="0" depthbias="70" />
+    <image type="grid" name="decal_light_wall_lamp_#" file="Data/Atlases/Decals/Lights/wall_lamp.png"  width="32" height="16" hspace="0" vspace="0" />
+    <image type="grid" name="decal_misc_barricade_horizontal_#" file="Data/Atlases/Decals/Misc/barricade_horizontal.png"  width="37" height="32" hspace="1" vspace="1"  depthbias="26">
+      <animations>
+        <animation name="decal_misc_barricade_horizontal_main" speed="1000" mode="loop" from_frame="0" to_frame="1" />
+      </animations>
+    </image>
+    <image type="grid" name="decal_misc_bench_down_#" file="Data/Atlases/Decals/Misc/bench_down.png"  width="48" height="32" hspace="0" vspace="0" depthbias="16" />
+    <image type="grid" name="decal_misc_bench_left_#" file="Data/Atlases/Decals/Misc/bench_left.png"  width="20" height="52" hspace="0" vspace="0" depthbias="16" />
+    <image type="grid" name="decal_misc_bench_right_#" file="Data/Atlases/Decals/Misc/bench_right.png"  width="20" height="52" hspace="0" vspace="0" depthbias="16" />
+    <image type="grid" name="decal_misc_bricks_rgb_#" file="Data/Atlases/Decals/Misc/bricks_rgb.png" width="20" height="19" hspace="1" vspace="1" depthbias="6" />
+    <image type="single" name="decal_misc_centerpiece" file="Data/Atlases/Decals/Misc/centerpiece.png" />
+    <image type="grid" name="decal_misc_cone_#" file="Data/Atlases/Decals/Misc/cone.png"  width="16" height="24" hspace="0" vspace="0" depthbias="18" />
+    <image type="single" name="decal_misc_gravestone_rgb" file="Data/Atlases/Decals/Misc/gravestone_rgb.png" depthbias="24" />
+    <image type="single" name="decal_misc_hydrant_rgb" file="Data/Atlases/Decals/Misc/hydrant_rgb.png" depthbias="16" />
+    <image type="single" name="decal_misc_logs" file="Data/Atlases/Decals/Misc/logs.png" depthbias="10" />
+    <image type="grid" name="decal_misc_pole_diagonal_ns_#" file="Data/Atlases/Decals/Misc/pole_diagonal_ns.png"  width="41" height="46" hspace="0" vspace="0" depthbias="33" />
+    <image type="grid" name="decal_misc_pole_diagonal_sn_#" file="Data/Atlases/Decals/Misc/pole_diagonal_sn.png"  width="41" height="46" hspace="0" vspace="0" depthbias="33" />
+    <image type="grid" name="decal_misc_pole_horizontal_#" file="Data/Atlases/Decals/Misc/pole_horizontal.png"  width="53" height="34" hspace="0" vspace="0" depthbias="25" />
+    <image type="grid" name="decal_misc_pole_single_#" file="Data/Atlases/Decals/Misc/pole_single.png"  width="17" height="34" hspace="0" vspace="0"  depthbias="25" />
+    <image type="grid" name="decal_misc_pole_vertical_#" file="Data/Atlases/Decals/Misc/pole_vertical.png"  width="17" height="66" hspace="0" vspace="0" depthbias="25" />
+    <image type="grid" name="decal_misc_rocks_#" file="Data/Atlases/Decals/Misc/rocks.png"  width="22" height="18" hspace="1" vspace="1" depthbias="10" />
+    <image type="grid" name="decal_misc_stencil_numbers_#" file="Data/Atlases/Decals/Misc/stencil_numbers.png" width="48" height="90" hspace="1" vspace="1" />
+    <image type="grid" name="decal_misc_tree_log_#" file="Data/Atlases/Decals/Misc/tree_log.png"  width="53" height="27" hspace="0" vspace="0" depthbias="10" />
+    <image type="grid" name="decal_misc_vault_#" file="Data/Atlases/Decals/Misc/vault.png"  width="48" height="48" hspace="0" vspace="0" />
+    <image type="grid" name="decal_path_sand_1_#" file="Data/Atlases/Decals/Paths/sand_1.png"  width="48" height="48" hspace="0" vspace="0">
+      <multi_layer_frames>
+        <multi_layer_frame layer_index="-1" frame_offset="1" />
+        <multi_layer_frame layer_index="0" frame_offset="0" />
+      </multi_layer_frames>
+    </image>
+    <image type="grid" name="decal_poster_poster_alert_#" file="Data/Atlases/Decals/Posters/poster_alert.png"  width="23" height="25" hspace="0" vspace="0" />
+    <image type="grid" name="decal_poster_poster_biffs_burgers_#" file="Data/Atlases/Decals/Posters/poster_biffs_burgers.png"  width="67" height="26" hspace="0" vspace="0" />
+    <image type="grid" name="decal_poster_poster_claymores_#" file="Data/Atlases/Decals/Posters/poster_claymores.png"  width="44" height="35" hspace="0" vspace="0" />
+    <image type="grid" name="decal_poster_poster_escape_#" file="Data/Atlases/Decals/Posters/poster_escape.png"  width="37" height="53" hspace="0" vspace="0" />
+    <image type="grid" name="decal_poster_poster_magnum_#" file="Data/Atlases/Decals/Posters/poster_magnum.png"  width="45" height="38" hspace="0" vspace="0" />
+    <image type="single" name="decal_poster_poster_narrow" file="Data/Atlases/Decals/Posters/poster_narrow.png" />
+    <image type="grid" name="decal_poster_poster_narrow_1_#" file="Data/Atlases/Decals/Posters/poster_narrow_1.png"  width="18" height="26" hspace="0" vspace="0" />
+    <image type="grid" name="decal_poster_poster_paint_#" file="Data/Atlases/Decals/Posters/poster_paint.png"  width="93" height="39" hspace="0" vspace="0" />
+    <image type="grid" name="decal_poster_poster_wanted_#" file="Data/Atlases/Decals/Posters/poster_wanted.png"  width="30" height="40" hspace="0" vspace="0" />
+    <image type="single" name="decal_poster_poster_wide" file="Data/Atlases/Decals/Posters/poster_wide.png" />
+    <image type="grid" name="decal_poster_poster_wide_1_#" file="Data/Atlases/Decals/Posters/poster_wide_1.png"  width="36" height="26" hspace="0" vspace="0" />
+    <image type="grid" name="decal_rack_rack_1_#" file="Data/Atlases/Decals/Racks/rack_1.png"  width="54" height="55" hspace="1" vspace="1" depthbias="48" />
+    <image type="grid" name="decal_rack_rack_2_#" file="Data/Atlases/Decals/Racks/rack_2.png"  width="54" height="55" hspace="1" vspace="1" depthbias="48" />
+    <image type="grid" name="decal_rack_rack_3_#" file="Data/Atlases/Decals/Racks/rack_3.png"  width="54" height="55" hspace="1" vspace="1" depthbias="48" />
+    <image type="grid" name="decal_rack_game_rack_1_#" file="Data/Atlases/Decals/Racks/game_rack_1.png" width="54" height="64" hspace="1" vspace="1" depthbias="48" />
+    <image type="grid" name="decal_rack_game_rack_2_#" file="Data/Atlases/Decals/Racks/game_rack_2.png" width="54" height="64" hspace="1" vspace="1" depthbias="48" />
+    <image type="grid" name="decal_rack_game_rack_3_#" file="Data/Atlases/Decals/Racks/game_rack_3.png" width="54" height="64" hspace="1" vspace="1" depthbias="48" />
+    
+    <image type="grid" name="decal_rubbish_ball_1_#" file="Data/Atlases/Decals/Rubbish/ball_1.png"  width="13" height="12" hspace="0" vspace="0" />
+    <image type="grid" name="decal_rubbish_bottle_side_brown_#" file="Data/Atlases/Decals/Rubbish/bottle_side_brown.png"  width="21" height="15" hspace="0" vspace="0" depthbias="8" />
+    <image type="grid" name="decal_rubbish_bottle_side_green_#" file="Data/Atlases/Decals/Rubbish/bottle_side_green.png"  width="21" height="15" hspace="0" vspace="0" depthbias="8" />
+    <image type="grid" name="decal_rubbish_bottle_upright_brown_#" file="Data/Atlases/Decals/Rubbish/bottle_upright_brown.png"  width="9" height="25" hspace="0" vspace="0"  depthbias="20" />
+    <image type="grid" name="decal_rubbish_bottle_upright_green_#" file="Data/Atlases/Decals/Rubbish/bottle_upright_green.png"  width="9" height="25" hspace="0" vspace="0" depthbias="20" />
+    <image type="grid" name="decal_rubbish_newspaper_1_#" file="Data/Atlases/Decals/Rubbish/newspaper_1.png"  width="50" height="24" hspace="0" vspace="0" />
+    <image type="grid" name="decal_rubbish_newspaper_2_#" file="Data/Atlases/Decals/Rubbish/newspaper_2.png"  width="50" height="24" hspace="0" vspace="0" />
+
+    <image type="grid" name="decal_shopping_carts_#" file="Data/Atlases/Decals/Shopping/carts.png"  width="33" height="34" hspace="1" vspace="1" />
+    <image type="single" name="decal_shopping_apples" file="Data/Atlases/Decals/Shopping/apples.png" />
+    <image type="single" name="decal_shopping_boxes" file="Data/Atlases/Decals/Shopping/boxes.png" />
+    <image type="single" name="decal_shopping_cans" file="Data/Atlases/Decals/Shopping/cans.png" />
+    <image type="single" name="decal_shopping_carrots" file="Data/Atlases/Decals/Shopping/carrots.png" />
+    <image type="single" name="decal_shopping_fridge_1" file="Data/Atlases/Decals/Shopping/fridge_1.png"  depthbias="10" />
+    <image type="single" name="decal_shopping_fridge_2" file="Data/Atlases/Decals/Shopping/fridge_2.png"  depthbias="16" />
+    <image type="single" name="decal_shopping_register" file="Data/Atlases/Decals/Shopping/register.png" />
+    <image type="single" name="decal_shopping_shelf" file="Data/Atlases/Decals/Shopping/shelf.png" />
+    <image type="single" name="decal_shopping_table" file="Data/Atlases/Decals/Shopping/table.png" depthbias="10" />
+    <image type="single" name="decal_shopping_table_2" file="Data/Atlases/Decals/Shopping/table_2.png" depthbias="10"  />
+    <image type="single" name="decal_shopping_table_3" file="Data/Atlases/Decals/Shopping/table_3.png" depthbias="16"  />
+    <image type="single" name="decal_shopping_box_pyramid" file="Data/Atlases/Decals/Shopping/boxpyramid.png" />
+    <image type="single" name="decal_shopping_clothes_rail" file="Data/Atlases/Decals/Shopping/clothes_rail.png" />
+
+    <image type="grid" name="decal_sign_24_7_large_#" file="Data/Atlases/Decals/Signs/24_7_large.png"  width="55" height="54" hspace="0" vspace="0" />
+    <image type="grid" name="decal_sign_24_7_small_#" file="Data/Atlases/Decals/Signs/24_7_small.png"  width="73" height="25" hspace="0" vspace="0" />
+    <image type="grid" name="decal_sign_advert_#" file="Data/Atlases/Decals/Signs/advert.png"  width="156" height="105" hspace="0" vspace="0" />
+    <image type="grid" name="decal_sign_bank_#" file="Data/Atlases/Decals/Signs/bank.png"  width="87" height="36" hspace="1" vspace="1" />
+    <image type="grid" name="decal_sign_buffco_#" file="Data/Atlases/Decals/Signs/buffco.png"  width="156" height="105" hspace="0" vspace="0" />
+    <image type="grid" name="decal_sign_buff_beacon_#" file="Data/Atlases/Decals/Signs/buff_beacon.png"  width="156" height="105" hspace="0" vspace="0" />
+    <image type="grid" name="decal_sign_game_center_#" file="Data/Atlases/Decals/Signs/game_center.png"  width="90" height="54" hspace="0" vspace="0" />
+    <image type="grid" name="decal_sign_hospital_#" file="Data/Atlases/Decals/Signs/hospital.png"  width="112" height="25" hspace="0" vspace="0" />
+    <image type="grid" name="decal_sign_pole_#" file="Data/Atlases/Decals/Signs/pole.png"  width="7" height="93" hspace="0" vspace="0" />
+    <image type="grid" name="decal_sign_pole_small_#" file="Data/Atlases/Decals/Signs/pole_small.png"  width="7" height="63" hspace="0" vspace="0" />
+    <image type="grid" name="decal_sign_salon_#" file="Data/Atlases/Decals/Signs/salon.png"  width="112" height="25" hspace="0" vspace="0" />
+    <image type="grid" name="decal_sign_small_#" file="Data/Atlases/Decals/Signs/small.png"  width="22" height="28" hspace="0" vspace="0" DepthBias="20" />
+    <image type="single" name="decal_sign_stat_display" file="Data/Atlases/Decals/Signs/stat_display.png" />
+    <image type="grid" name="decal_sign_street_lights_#" file="Data/Atlases/Decals/Signs/street_lights.png"  width="46" height="73" hspace="1" vspace="1" depthbias="64" />
+    <image type="grid" name="decal_sign_street_sign_#" file="Data/Atlases/Decals/Signs/street_sign.png"  width="29" height="67" hspace="1" vspace="1" depthbias="60" />
+    <image type="grid" name="decal_sign_subway_#" file="Data/Atlases/Decals/Signs/subway.png"  width="87" height="36" hspace="1" vspace="1" />
+    <image type="single" name="decal_sign_welcome" file="Data/Atlases/Decals/Signs/welcome.png" depthbias="72" />
+    <image type="grid" name="decal_vehicle_truck_buffco_#" file="Data/Atlases/Decals/Vehicles/truck_buffco.png"  width="112" height="90" hspace="0" vspace="0" depthbias="76" />
+    <image type="grid" name="decal_vehicle_truck_drsoda_#" file="Data/Atlases/Decals/Vehicles/truck_drsoda.png"  width="112" height="90" hspace="0" vspace="0" depthbias="76" />
+    <image type="grid" name="decal_winter_background_#" file="Data/Atlases/Decals/Winter Map/background.png"  width="23" height="24" hspace="0" vspace="0" />
+    <image type="grid" name="decal_winter_barricade1_#" file="Data/Atlases/Decals/Winter Map/barricade1.png"  width="56" height="33" hspace="0" vspace="0" depthbias="10" />
+    <image type="grid" name="decal_winter_barricade2_#" file="Data/Atlases/Decals/Winter Map/barricade2.png"  width="56" height="33" hspace="0" vspace="0" depthbias="10" />
+    <image type="grid" name="decal_winter_barricade3_#" file="Data/Atlases/Decals/Winter Map/barricade3.png"  width="36" height="56" hspace="0" vspace="0" depthbias="10" />
+    <image type="grid" name="decal_winter_barricade4_#" file="Data/Atlases/Decals/Winter Map/barricade4.png"  width="36" height="56" hspace="0" vspace="0" depthbias="10" />
+    <image type="grid" name="decal_winter_dirt1_#" file="Data/Atlases/Decals/Winter Map/dirt1.png"  width="53" height="43" hspace="1" vspace="1">
+      <multi_layer_frames>
+        <multi_layer_frame layer_index="-1" frame_offset="1" />
+        <multi_layer_frame layer_index="0" frame_offset="0" />
+      </multi_layer_frames>
+    </image>
+    <image type="grid" name="decal_winter_dirt2_#" file="Data/Atlases/Decals/Winter Map/dirt2.png"  width="45" height="34" hspace="1" vspace="1">
+      <multi_layer_frames>
+        <multi_layer_frame layer_index="-1" frame_offset="1" />
+        <multi_layer_frame layer_index="0" frame_offset="0" />
+      </multi_layer_frames>
+    </image>
+    <image type="grid" name="decal_winter_dirt3_#" file="Data/Atlases/Decals/Winter Map/dirt3.png"  width="33" height="26" hspace="1" vspace="1">
+      <multi_layer_frames>
+        <multi_layer_frame layer_index="-1" frame_offset="1" />
+        <multi_layer_frame layer_index="0" frame_offset="0" />
+      </multi_layer_frames>
+    </image>
+    <image type="grid" name="decal_winter_dirt4_#" file="Data/Atlases/Decals/Winter Map/dirt4.png"  width="20" height="17" hspace="1" vspace="1">
+      <multi_layer_frames>
+        <multi_layer_frame layer_index="-1" frame_offset="1" />
+        <multi_layer_frame layer_index="0" frame_offset="0" />
+      </multi_layer_frames>
+    </image>
+    <image type="grid" name="decal_winter_fire_pit_#" file="Data/Atlases/Decals/Winter Map/fire_pit.png"  width="45" height="34" hspace="0" vspace="0" />
+    <image type="grid" name="decal_winter_snow_bank_#" file="Data/Atlases/Decals/Winter Map/snow_bank.png"  width="23" height="18" hspace="0" vspace="0" />
+    <image type="grid" name="decal_winter_snow_corpses_#" file="Data/Atlases/Decals/Winter Map/snow_corpses.png"  width="32" height="32" hspace="1" vspace="1" />
+    <image type="grid" name="decal_winter_snow_pine_#" file="Data/Atlases/Decals/Winter Map/snow_pine.png"  width="47" height="64" hspace="0" vspace="0" depthbias="54" />
+    <image type="grid" name="decal_winter_snow_rocks_#" file="Data/Atlases/Decals/Winter Map/snow_rocks.png"  width="29" height="30" hspace="1" vspace="1" />
+    <image type="grid" name="decal_winter_snow_tree_#" file="Data/Atlases/Decals/Winter Map/snow_tree.png"  width="58" height="53" hspace="0" vspace="0" depthbias="42" />
+
+    <image type="single" name="decal_dungeon_stairs" file="Data/Atlases/Decals/Dungeon/stairs.png" />
+    <image type="single" name="decal_dungeon_stairs_up" file="Data/Atlases/Decals/Dungeon/stairs_up.png" depthbias="16" />
+ 
+    <image type="grid" name="actor_door_dungeon_up_#" file="Data/Atlases/Actors/Doors/dungeon_up_multilayer.png"  width="48" height="48" hspace="1" vspace="1" depthbias="-10">
+      <animations>
+        <animation name="actor_door_dungeon_up_open" speed="50" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+      <multi_layer_frames>
+        <multi_layer_frame layer_index="1" frame_offset="2" />
+        <multi_layer_frame layer_index="0" frame_offset="0" />
+      </multi_layer_frames>
+	</image>
+    <image type="grid" name="actor_door_dungeon_down_#" file="Data/Atlases/Actors/Doors/dungeon_down_multilayer.png"  width="48" height="48" hspace="1" vspace="1">
+      <animations>
+        <animation name="actor_door_dungeon_down_open" speed="50" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+      <multi_layer_frames>
+        <multi_layer_frame layer_index="1" frame_offset="2" />
+        <multi_layer_frame layer_index="0" frame_offset="0" />
+      </multi_layer_frames>
+    </image> 
+	
+	
+    <image type="grid" name="actor_door_dungeon_left_#" file="Data/Atlases/Actors/Doors/dungeon_left_multilayer.png"  width="48" height="61" hspace="1" vspace="1" origin="0,0.10">
+      <animations>
+        <animation name="actor_door_dungeon_left_open" speed="50" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+      <multi_layer_frames>
+        <multi_layer_frame layer_index="1" frame_offset="2" />
+        <multi_layer_frame layer_index="0" frame_offset="0" />
+      </multi_layer_frames>
+    </image>
+    <image type="grid" name="actor_door_dungeon_right_#" file="Data/Atlases/Actors/Doors/dungeon_right_multilayer.png"  width="48" height="61" hspace="1" vspace="1" origin="0,0.10">
+      <animations>
+        <animation name="actor_door_dungeon_right_open" speed="50" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+      <multi_layer_frames>
+        <multi_layer_frame layer_index="1" frame_offset="2" />
+        <multi_layer_frame layer_index="0" frame_offset="0" />
+      </multi_layer_frames>
+    </image>
+ 
+
+    <image type="grid" name="actor_door_dungeon_up_destroyable_#" file="Data/Atlases/Actors/Doors/dungeon_up_destroyable.png"  width="48" height="48" hspace="1" vspace="1" depthbias="-10">
+      <animations>
+        <animation name="actor_door_dungeon_up_destroyable_open" speed="50" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+    </image>
+    <image type="grid" name="actor_door_dungeon_down_destroyable_#" file="Data/Atlases/Actors/Doors/dungeon_down_destroyable.png"  width="48" height="48" hspace="1" vspace="1">
+      <animations>
+        <animation name="actor_door_dungeon_down_destroyable_open" speed="50" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+    </image>
+    <image type="grid" name="actor_door_dungeon_left_destroyable_#" file="Data/Atlases/Actors/Doors/dungeon_left_destroyable.png"  width="48" height="48" hspace="1" vspace="1">
+      <animations>
+        <animation name="actor_door_dungeon_left_destroyable_open" speed="50" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+    </image>
+    <image type="grid" name="actor_door_dungeon_right_destroyable_#" file="Data/Atlases/Actors/Doors/dungeon_right_destroyable.png"  width="48" height="48" hspace="1" vspace="1">
+      <animations>
+        <animation name="actor_door_dungeon_right_destroyable_open" speed="50" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+    </image>
+
+    <image type="grid" name="actor_door_dungeon_up_locked_#" file="Data/Atlases/Actors/Doors/dungeon_up_locked_multilayer.png"  width="48" height="48" hspace="1" vspace="1" depthbias="-10">
+      <animations>
+        <animation name="actor_door_dungeon_up_locked_open" speed="50" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+      <multi_layer_frames>
+        <multi_layer_frame layer_index="1" frame_offset="2" />
+        <multi_layer_frame layer_index="0" frame_offset="0" />
+      </multi_layer_frames>
+    </image>
+    <image type="grid" name="actor_door_dungeon_down_locked_#" file="Data/Atlases/Actors/Doors/dungeon_down_locked_multilayer.png"  width="48" height="48" hspace="1" vspace="1">
+      <animations>
+        <animation name="actor_door_dungeon_down_locked_open" speed="50" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+      <multi_layer_frames>
+        <multi_layer_frame layer_index="1" frame_offset="2" />
+        <multi_layer_frame layer_index="0" frame_offset="0" />
+      </multi_layer_frames>
+    </image>
+    <image type="grid" name="actor_door_dungeon_left_locked_#" file="Data/Atlases/Actors/Doors/dungeon_left_locked_multilayer.png"  width="48" height="61" hspace="1" vspace="1"  origin="0,0.10">
+      <animations>
+        <animation name="actor_door_dungeon_left_locked_open" speed="50" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+      <multi_layer_frames>
+        <multi_layer_frame layer_index="1" frame_offset="2" />
+        <multi_layer_frame layer_index="0" frame_offset="0" />
+      </multi_layer_frames>
+    </image>
+    <image type="grid" name="actor_door_dungeon_right_locked_#" file="Data/Atlases/Actors/Doors/dungeon_right_locked_multilayer.png"  width="48" height="61" hspace="1" vspace="1"  origin="0,0.10">
+      <animations>
+        <animation name="actor_door_dungeon_right_locked_open" speed="50" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+      <multi_layer_frames>
+        <multi_layer_frame layer_index="1" frame_offset="2" />
+        <multi_layer_frame layer_index="0" frame_offset="0" />
+      </multi_layer_frames>
+    </image>
+    
+    
+    
+    
+
+    <image type="grid" name="actor_door_forest_dungeon_up_#" file="Data/Atlases/Actors/Doors/Forest/dungeon_up.png"  width="48" height="48" hspace="1" vspace="1" depthbias="-10">
+      <animations>
+        <animation name="actor_door_forest_dungeon_up_open" speed="50" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+    </image>
+    <image type="grid" name="actor_door_forest_dungeon_down_#" file="Data/Atlases/Actors/Doors/Forest/dungeon_down.png"  width="48" height="48" hspace="1" vspace="1"  depthbias="-10">
+      <animations>
+        <animation name="actor_door_forest_dungeon_down_open" speed="50" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+    </image>
+    <image type="grid" name="actor_door_forest_dungeon_left_#" file="Data/Atlases/Actors/Doors/Forest/dungeon_left.png"  width="48" height="48" hspace="1" vspace="1"  depthbias="-32">
+      <animations>
+        <animation name="actor_door_forest_dungeon_left_open" speed="50" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+    </image>
+    <image type="grid" name="actor_door_forest_dungeon_right_#" file="Data/Atlases/Actors/Doors/Forest/dungeon_right.png"  width="48" height="48" hspace="1" vspace="1"  depthbias="-32">
+      <animations>
+        <animation name="actor_door_forest_dungeon_right_open" speed="50" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+    </image>
+
+    <image type="grid" name="actor_door_forest_dungeon_up_locked_#" file="Data/Atlases/Actors/Doors/Forest/dungeon_up_locked.png"  width="48" height="48" hspace="1" vspace="1" depthbias="-64">
+      <animations>
+        <animation name="actor_door_forest_dungeon_up_locked_open" speed="50" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+    </image>
+    <image type="grid" name="actor_door_forest_dungeon_down_locked_#" file="Data/Atlases/Actors/Doors/Forest/dungeon_down_locked.png"  width="48" height="48" hspace="1" vspace="1" depthbias="-64">
+      <animations>
+        <animation name="actor_door_forest_dungeon_down_locked_open" speed="50" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+    </image>
+    <image type="grid" name="actor_door_forest_dungeon_left_locked_#" file="Data/Atlases/Actors/Doors/Forest/dungeon_left_locked.png"  width="48" height="48" hspace="1" vspace="1" depthbias="-64">
+      <animations>
+        <animation name="actor_door_forest_dungeon_left_locked_open" speed="50" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+    </image>
+    <image type="grid" name="actor_door_forest_dungeon_right_locked_#" file="Data/Atlases/Actors/Doors/Forest/dungeon_right_locked.png"  width="48" height="48" hspace="1" vspace="1" depthbias="-64">
+      <animations>
+        <animation name="actor_door_forest_dungeon_right_locked_open" speed="50" mode="once" from_frame="0" to_frame="1" />
+      </animations>
+    </image>
+    
+  </images>
+	<animations>
+	</animations>
+</xml>

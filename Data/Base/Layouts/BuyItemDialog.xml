@@ -1,0 +1,21 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>buy_item_dialog</name>
+	</settings>
+	<layout>
+		<element name="background"			type="Panel" 		box="0,0.15,1.0,0.70" 	  BackColor="0,0,0,220" AspectScaling="0" />		
+		
+    <element name="title"				type="Label"		    box="0.1,0.18,0.8,0.25"     ForeColor="200,200,200,220" Value="#menu_buy_item_title"  HAlign="Center" VAlign="Top" Padding="10,0,10,10" UseMarkup="true" />
+  
+    <element name="label"			  	type="Label"		  box="0.10,0.26,0.8,0.540"    ForeColor="200,200,200,220" Value="#menu_buy_item_fragile_item"  HAlign="Left" VAlign="Top" Padding="0,0,0,0" UseMarkup="true" />
+    <element name="button_1" 			type="Button" 		box="0.10,0.36,0.8,0.070"  FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#menu_buy_item_fragile_item_button" UseMarkup="true" />
+
+    <element name="label"			  	type="Label"		  box="0.10,0.45,0.8,0.540"    ForeColor="200,200,200,220" Value="#menu_buy_item_indestructable_item"  HAlign="Left" VAlign="Top" Padding="0,0,0,0" UseMarkup="true" />
+    <element name="button_2" 			type="Button" 		box="0.10,0.59,0.8,0.070"  FrameColor="255,255,255,200" Value="#menu_buy_item_indestructable_item_button"  UseMarkup="true"  />
+    
+    <element name="button_3" 			type="Button" 		box="0.10,0.71,0.8,0.070"  FrameColor="255,255,255,200" Value="Cancel"  />
+  </layout>
+</xml>

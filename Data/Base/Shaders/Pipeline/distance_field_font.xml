@@ -1,0 +1,13 @@
+<xml>
+  <editor>
+    <asset_type>Shader</asset_type>
+  </editor>
+	<settings>
+		<name>distance_field_font</name>
+	</settings>
+	<vertex>Data/Shaders/Pipeline/distance_field_font.vert</vertex>
+	<fragment>Data/Shaders/Pipeline/distance_field_font.frag</fragment>
+	<uniforms>
+		<uniform name="g_world_view_projection_matrix" 	type="matrix4" 	value="WORLD_VIEW_PROJECTION_MATRIX" />
+	</uniforms>
+</xml>

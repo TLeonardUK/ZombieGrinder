@@ -1,0 +1,27 @@
+<xml>
+	<settings>
+		<name>report_player</name>
+	</settings>
+	<layout>			
+		<element name="" 					type="Label"  		box="0.50,0.07,0.65,0.070" 	ForeColor="255,255,255,255" 	Value="#sub_menu_vote_report_player"  />	
+		<element name="description" 		type="Label"  		box="0.50,0.14,0.45,0.20" 	ForeColor="156,157,158,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,200" Padding="10,10,10,10" Scale="0.5,0.5"	Value="#menu_report_player_description"  />	
+			
+		<element name="" 					type="Label"  		box="0.50,0.35,0.65,0.040" 	ForeColor="255,255,255,255" 	Value="#menu_report_player_explanation_title"  />	
+		<element name="description_box"		type="TextBox"		box="0.50,0.40,0.45,0.053" Scale="0.75,0.75" BackColor="255,0,255,220" AlwaysActive="True" LeftElement="ok_button" UpElement="grief_checkbox" />		
+			
+		<element name="" 					type="Label"  		box="0.50,0.45,0.65,0.040" 	ForeColor="255,255,255,255" 	Value="#menu_report_player_timeline_title"  />	
+		<element name="timeline_box"		type="ComboBox"		box="0.50,0.50,0.45,0.053" Scale="0.75,0.75" BackColor="255,0,255,220" AlwaysActive="True"  LeftElement="ok_button" />
+
+    <element name="" 					type="Label"  		box="0.50,0.55,0.65,0.040" 	ForeColor="255,255,255,255" 	Value="#menu_report_player_player_title"  />
+    <element name="player_box"		type="ComboBox"		box="0.50,0.60,0.45,0.053" Scale="0.75,0.75" BackColor="255,0,255,220" AlwaysActive="True"  LeftElement="ok_button" />
+
+    <element name="" 					type="Label"  		box="0.50,0.66,0.65,0.040" 	ForeColor="255,255,255,255" 	Value="#menu_report_player_type_title"  />	
+		<element name="exploit_checkbox" 	type="CheckBox" 	box="0.51,0.69,0.5,0.070" FrameColor="255,255,255,200" 		Value="#menu_report_player_exploit"  	Scale="0.6,0.6"   LeftElement="ok_button" />	
+		<element name="cheat_checkbox" 		type="CheckBox" 	box="0.51,0.73,0.5,0.070" FrameColor="255,255,255,200" 		Value="#menu_report_player_cheat"  		Scale="0.6,0.6"   LeftElement="ok_button"	/>	
+		<element name="abuse_checkbox" 		type="CheckBox" 	box="0.51,0.77,0.5,0.070" FrameColor="255,255,255,200" 		Value="#menu_report_player_abusive"  	Scale="0.6,0.6"   LeftElement="back_button" />	
+		<element name="grief_checkbox" 		type="CheckBox" 	box="0.51,0.81,0.5,0.070" FrameColor="255,255,255,200" 		Value="#menu_report_player_griefing"  	Scale="0.6,0.6"   LeftElement="back_button" DownElement="description_box" />	
+			
+		<element name="ok_button" 			type="Button" 		box="0.13,0.72,0.3,0.070" 	FrameColor="255,255,255,200" 	Value="#menu_report_player_send_report"  RightElement="cheat_checkbox" />	
+		<element name="back_button" 		type="Button" 		box="0.13,0.80,0.3,0.070" FrameColor="255,255,255,200" Value="#menu_back" RightElement="grief_checkbox"  />	
+	</layout>
+</xml>

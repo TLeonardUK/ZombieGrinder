@@ -1,0 +1,40 @@
+<xml>
+	<package>
+		<name>WeaponExample</name>
+		<root>Data/</root>
+		<compile_directory>../../Output/Data/WeaponExample/.compiled/</compile_directory>
+		<script_directory>../../Data/Base/Scripts/</script_directory>
+		<pak_file>../../Data/WeaponExample/WeaponExample.dat</pak_file>
+		<private_key/>
+		<pak_keep_source>True</pak_keep_source>
+		<pak_use_compression>True</pak_use_compression>
+		<workshop>
+			<id>500522659</id>
+			<title>Example Weapon</title>
+			<preview_file>../../Data/WeaponExample/WeaponExample.png</preview_file>
+			<description>Example of creating a mod package for a custom weapon!</description>
+			<tags>Example Weapon Official</tags>
+		</workshop>
+	</package>
+	<languages/>
+	<atlases>
+		<atlas file="Data/Atlases/ExampleWeaponAtlas.xml" priority="gfx"/>
+	</atlases>
+	<audio_banks>
+		<bank file="Data/Audio/ExampleWeaponSounds.xml"/>
+	</audio_banks>
+	<fonts/>
+	<particlefx>
+		<fx file="Data/Effects/example_gun_fire.xml" priority="last"/>
+		<fx file="Data/Effects/example_gun_hit.xml" priority="last"/>
+		<fx file="Data/Effects/example_gun_trail.xml" priority="last"/>
+	</particlefx>
+	<scripts>
+		<script file="Data/Scripts/weapon_example_unity.xs"/>
+	</scripts>
+	<shaders/>
+	<raw/>
+	<layouts/>
+	<maps/>
+</xml>
+

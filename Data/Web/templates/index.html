@@ -1,0 +1,95 @@
+<html>
+<head>
+	<title>Zombie Grinder - Administration</title>
+	<link rel="stylesheet" type="text/css" href="res/main.css">
+	<script src="lib/chart.js"></script>	
+	<script src="lib/main.js"></script>	
+	<script type="text/javascript">
+	
+		function setup()
+		{
+			var data = {
+				labels: [ {{ACTIVE_PLAYERS_GRAPH_X_AXIS}} ],
+				datasets: [
+					{
+						label: "Active Players",
+						fillColor: "rgba(151,187,205,0.2)",
+						strokeColor: "rgba(151,187,205,1)",
+						pointColor: "rgba(151,187,205,1)",
+						pointStrokeColor: "#fff",
+						pointHighlightFill: "#fff",
+						pointHighlightStroke: "rgba(151,187,205,1)",
+						data: [ {{ACTIVE_PLAYERS_GRAPH_Y_AXIS}} ]
+					}
+				]
+			};
+			var options = {
+				scaleShowGridLines : true,
+				scaleGridLineColor : "rgba(0,0,0,.05)",
+				scaleGridLineWidth : 1,
+				scaleShowHorizontalLines: true,
+				scaleShowVerticalLines: true,
+				bezierCurve : true,
+				bezierCurveTension : 0.4,
+				pointDot : true,
+				pointDotRadius : 4,
+				pointDotStrokeWidth : 1,
+				pointHitDetectionRadius : 20,
+				datasetStroke : true,
+				datasetStrokeWidth : 2,
+				datasetFill : true,
+				legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].strokeColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>"
+			};
+			var ctx = document.getElementById("ActivePlayerChart").getContext("2d");
+			var chart = new Chart(ctx).Line(data, options);
+		}
+	
+	</script>
+</head>
+<body onload="setup()">
+	<div class="header">
+		<div class="header_overview">
+			<b>{{SERVER_NAME}}</b>
+		</div>	
+		<div class="menu">
+			<div class="menu_item_warning" onclick="RedirectConfirm('shutdown_when_empty', 'Are you sure you wish to shutdown this server when its empty?');">{{SHUTDOWN_WHEN_EMPTY_TEXT}}</div>
+			<div class="menu_item_warning" onclick="RedirectConfirm('shutdown', 'Are you sure you wish to shutdown this server?');">Shutdown</div>
+			<div class="menu_item" onclick="Redirect('logout');">Logout</div>
+			<div class="menu_item" onclick="Redirect('bans');">Bans</div>
+			<div class="menu_item" onclick="Redirect('players');">Players</div>
+			<div class="menu_item" onclick="Redirect('settings');">Settings</div>
+			<div class="menu_item" onclick="Redirect('chat');">Chat</div>
+			<div class="menu_item" onclick="Redirect('overview');">Overview</div>
+		</div>
+	</div>
+	<div class="main_body">	
+		<table class="content_table">
+			<tr>
+				<td class="content_box">
+					<h1>Server History</h1>
+					<div class="pair_name">Up Time</div><div class="pair_value">{{UP_TIME}}</div><br/>
+					<div class="pair_name">Active Time</div><div class="pair_value">{{ACTIVE_TIME}}</div><br/>
+					<div class="pair_name">Idle Time</div><div class="pair_value">{{IDLE_TIME}}</div><br/>
+					<div class="pair_name">Total Unique Players</div><div class="pair_value">{{TOTAL_UNIQUE_PLAYERS}}</div><br/>
+					<div class="pair_name">Peak Players</div><div class="pair_value">{{PEAK_PLAYERS}}</div><br/>
+					<div class="pair_name">Map's Played</div><div class="pair_value">{{MAPS_PLAYED}}</div><br/>				
+				</td>
+				<td class="content_box" style="width:65%;" rowspan="2">
+					<h1>Active Player Count</h1>
+					<canvas id="ActivePlayerChart" style="display:block; width:100%; height:400;"></canvas>	
+				</td>
+			</tr>
+			<tr>
+				<td class="content_box">
+					<h1>Current State</h1>
+					<div class="pair_name">Map</div><div class="pair_value">{{CURRENT_MAP}}</div><br/>
+					<div class="pair_name">Players</div><div class="pair_value">{{CURRENT_PLAYER_COUNT}} / {{CURRENT_MAX_PLAYER_COUNT}}</div><br/>
+				</td>
+			</tr>
+		</table>
+	</div>	
+	<div class="footer">
+		Copyright (C) 2015 TwinDrills
+	</div>
+</body>
+</html>

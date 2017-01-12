@@ -1,0 +1,18 @@
+<xml>
+  <editor>
+    <asset_type>Font</asset_type>
+  </editor>
+	<generation>
+		<name>UI</name>
+		<ttfs> 		
+			<ttf>Data/Fonts/Bitmap/Source/pf_tempesta_seven_condensed.TTF</ttf>			
+			<ttf>Data/Fonts/Bitmap/Source/NotoSansCJKjp-Thin.otf</ttf> 
+		</ttfs> 
+		<texture-size>2048</texture-size>        
+		<max-textures>16</max-textures> 
+		<glyph-size>24</glyph-size> 
+		<glyph-spacing>4</glyph-spacing> 
+		<shadow-scale>3</shadow-scale>
+		<glyphs>&#10; !"#$%&'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~¦ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜø£Ø×ƒáíóúñÑªº¿®¬½¼¡«»¦¦¦¦¦ÁÂÀ©¦¦++¢¥++--+-+ãÃ++--¦-+¤ðÐÊËÈiÍÎÏ++¦_¦Ì¯ÓßÔÒõÕµþÞÚÛÙýÝ¯´­±=¾¶§÷¸°¨·¹³²¦</glyphs>
+	</generation> 
+</xml>      

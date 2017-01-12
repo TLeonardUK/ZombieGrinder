@@ -1,0 +1,25 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>publish_map</name>
+	</settings>
+	<layout>
+		<element name="bg_fade"				type="Panel" box="0,0,1.0,1.0" 	  BackColor="0,0,0,190" AspectScaling="0" />		
+			
+		<element name="background"	  type="Panel"  Frame="dialog_frame_#"		box="0,0.25,1.0,0.5" 	  BackColor="255,255,255,255" AspectScaling="0" />
+
+    <element name="preview_panel"	type="Panel"    box="0.2,0.29,0.225,0.25" 	  BackColor="255,255,255,255" AspectScaling="0" />
+    <element name="name_label"	  type="Label"		box="0.43,0.32,0.6,0.075"     ForeColor="0,0,0,255" Value="#editor_publish_name_text"  HAlign="Left" VAlign="Top" Scale="1,1" WordWrap="false" UseMarkup="true" GameStyle="false" />
+    <element name="description_label"	  type="Label"		box="0.43,0.35,0.6,0.075"     ForeColor="0,0,0,255" Value="#editor_publish_description_text"  HAlign="Left" VAlign="Top" Scale="1,1" WordWrap="false" UseMarkup="true" GameStyle="false" />
+
+    <element name="label"				  type="Label"		box="0.1,0.55,0.8,0.075"     ForeColor="0,0,0,255" Value="#editor_publish_text"  HAlign="Center" VAlign="Bottom" Scale="1,1" WordWrap="false" UseMarkup="true" GameStyle="false" />
+
+    <element name="upload_label"				  type="Label"		box="0,0.25,1.0,0.5" AspectScaling="0"     ForeColor="0,0,0,255" Value="#editor_publish_progress_text"  HAlign="Center" VAlign="Center" Scale="2,2" WordWrap="false" UseMarkup="true" GameStyle="false" />
+
+    <element name="agreement_button" 			type="Button" 		box="0.18,0.66,0.2,0.050"  FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#editor_view_agreement" GameStyle="false"  />
+    <element name="cancel_button" 			type="Button" 		box="0.4,0.66,0.2,0.050"  FrameColor="255,255,255,200" Value="#editor_cancel" GameStyle="false"  />
+    <element name="upload_button" 			type="Button" 		box="0.62,0.66,0.2,0.050"  FrameColor="255,255,255,200" Value="#editor_publish" GameStyle="false"  />	
+	</layout>
+</xml>

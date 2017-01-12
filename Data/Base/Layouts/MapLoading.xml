@@ -1,0 +1,22 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>map_loading</name>
+	</settings>
+	<layout>
+		<!-- Map Name -->
+		<element name="map_name_text" type="Label" box="0.05,0.05,0.9,0.075" HAlign="Left" VAlign="ScaleToFit" ForeColor="255,255,255,255" value="" />	
+		<element name="map_description_text" type="Label" box="0.05,0.14,0.6,0.065" HAlign="Left" VAlign="Top" ForeColor="170,170,170,255" value="" />	
+		
+		<!-- Logo/Character (Just locators for use by native code / LoadingBackground) -->
+		<element name="bg_character_position" type="Panel" box="0.2,0.5,0,0" BackColor="255,0,0,255" />
+		<element name="bg_logo_position" type="Panel" box="0.70,0.35,0,0"  BackColor="255,0,0,255" />
+		
+		<!-- Loading Progress --> 
+		<element name="loading_text" type="Label" box="0.05,0.77,0.9,0.065" HAlign="Left" VAlign="Bottom" ForeColor="255,255,255,255" value="#map_load_waiting_for_server" />	
+		<element name="progress_bar" type="ProgressBar" box="0.05,0.858,0.9,0.040" Padding="0,0,0,0" Progress="0.0" ForeColor="113,145,188,255" showprogress="0" />	
+		<element name="loading_tip_text" type="Label" box="0.05,0.905,0.9,0.065" HAlign="Left" VAlign="Bottom" ForeColor="170,170,170,255" value="" />	
+	</layout>
+</xml>

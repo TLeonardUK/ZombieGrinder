@@ -1,0 +1,485 @@
+<xml>
+  <editor>
+    <asset_type>Atlas</asset_type>
+  </editor>
+	<settings>
+		<texture-size>2048</texture-size>
+		<max-textures>8</max-textures>
+		<name>NPCs</name>
+	</settings>
+	<images>
+    <!--
+		<image type="grid" name="enemy_boss1_zombie_#" file="Data/Atlases/Actors/Enemies/Boss1/zombie.png"  width="64" height="64" hspace="1" vspace="1">
+			<animations>
+				<animation name="enemy_boss1_zombie_walk_s" speed="120" mode="loop" from_frame="0" to_frame="3" />
+				<animation name="enemy_boss1_zombie_walk_se" speed="120" mode="loop" from_frame="4" to_frame="7" />
+				<animation name="enemy_boss1_zombie_walk_e" speed="120" mode="loop" from_frame="8" to_frame="11" />
+				<animation name="enemy_boss1_zombie_walk_ne" speed="120" mode="loop" from_frame="12" to_frame="15" />
+				<animation name="enemy_boss1_zombie_walk_n" speed="120" mode="loop" from_frame="16" to_frame="19" />
+				<animation name="enemy_boss1_zombie_walk_nw" speed="120" mode="loop" from_frame="20" to_frame="23" />
+				<animation name="enemy_boss1_zombie_walk_w" speed="120" mode="loop" from_frame="24" to_frame="27" />
+				<animation name="enemy_boss1_zombie_walk_sw" speed="120" mode="loop" from_frame="28" to_frame="31" />
+				<animation name="enemy_boss1_zombie_attack_s" speed="120" mode="once" from_frame="32" to_frame="35" />
+				<animation name="enemy_boss1_zombie_attack_se" speed="120" mode="once" from_frame="36" to_frame="39" />
+				<animation name="enemy_boss1_zombie_attack_e" speed="120" mode="once" from_frame="40" to_frame="43" />
+				<animation name="enemy_boss1_zombie_attack_ne" speed="120" mode="once" from_frame="44" to_frame="47" />
+				<animation name="enemy_boss1_zombie_attack_n" speed="120" mode="once" from_frame="48" to_frame="51" />
+				<animation name="enemy_boss1_zombie_attack_nw" speed="120" mode="once" from_frame="52" to_frame="55" />
+				<animation name="enemy_boss1_zombie_attack_w" speed="120" mode="once" from_frame="56" to_frame="59" />
+				<animation name="enemy_boss1_zombie_attack_sw" speed="120" mode="once" from_frame="60" to_frame="63" />
+				<animation name="enemy_boss1_zombie_hurt_s" speed="60" mode="once" from_frame="64" to_frame="64" />
+				<animation name="enemy_boss1_zombie_hurt_se" speed="60" mode="once" from_frame="65" to_frame="65" />
+				<animation name="enemy_boss1_zombie_hurt_e" speed="60" mode="once" from_frame="66" to_frame="66" />
+				<animation name="enemy_boss1_zombie_hurt_ne" speed="60" mode="once" from_frame="67" to_frame="67" />
+				<animation name="enemy_boss1_zombie_hurt_n" speed="60" mode="once" from_frame="68" to_frame="68" />
+				<animation name="enemy_boss1_zombie_hurt_nw" speed="60" mode="once" from_frame="69" to_frame="69" />
+				<animation name="enemy_boss1_zombie_hurt_w" speed="60" mode="once" from_frame="70" to_frame="70" />
+				<animation name="enemy_boss1_zombie_hurt_sw" speed="60" mode="once" from_frame="71" to_frame="71" />
+				<animation name="enemy_boss1_zombie_dead_s" speed="120" mode="loop" from_frame="72" to_frame="72" />
+				<animation name="enemy_boss1_zombie_dead_se" speed="120" mode="loop" from_frame="73" to_frame="73" />
+				<animation name="enemy_boss1_zombie_dead_e" speed="120" mode="loop" from_frame="74" to_frame="74" />
+				<animation name="enemy_boss1_zombie_dead_ne" speed="120" mode="loop" from_frame="75" to_frame="75" />
+				<animation name="enemy_boss1_zombie_dead_n" speed="120" mode="loop" from_frame="76" to_frame="76" />
+				<animation name="enemy_boss1_zombie_dead_nw" speed="120" mode="loop" from_frame="77" to_frame="77" />
+				<animation name="enemy_boss1_zombie_dead_w" speed="120" mode="loop" from_frame="78" to_frame="78" />
+				<animation name="enemy_boss1_zombie_dead_sw" speed="120" mode="loop" from_frame="79" to_frame="79" />
+				<animation name="enemy_boss1_zombie_walk_nohead_s" speed="120" mode="loop" from_frame="80" to_frame="81" />
+				<animation name="enemy_boss1_zombie_walk_nohead_se" speed="120" mode="loop" from_frame="82" to_frame="83" />
+				<animation name="enemy_boss1_zombie_walk_nohead_e" speed="120" mode="loop" from_frame="84" to_frame="85" />
+				<animation name="enemy_boss1_zombie_walk_nohead_ne" speed="120" mode="loop" from_frame="86" to_frame="87" />
+				<animation name="enemy_boss1_zombie_walk_nohead_n" speed="120" mode="loop" from_frame="88" to_frame="89" />
+				<animation name="enemy_boss1_zombie_walk_nohead_nw" speed="120" mode="loop" from_frame="90" to_frame="91" />
+				<animation name="enemy_boss1_zombie_walk_nohead_w" speed="120" mode="loop" from_frame="92" to_frame="93" />
+				<animation name="enemy_boss1_zombie_walk_nohead_sw" speed="120" mode="loop" from_frame="94" to_frame="95" />
+				<animation name="enemy_boss1_zombie_rise_from_ground_start" speed="120" mode="once" from_frame="96" to_frame="108" />
+				<animation name="enemy_boss1_zombie_rise_from_ground_end" speed="120" mode="once" from_frame="109" to_frame="111" />
+				<animation name="enemy_boss1_zombie_dead_nohead_s" speed="120" mode="loop" from_frame="112" to_frame="112" />
+				<animation name="enemy_boss1_zombie_dead_nohead_se" speed="120" mode="loop" from_frame="113" to_frame="113" />
+				<animation name="enemy_boss1_zombie_dead_nohead_e" speed="120" mode="loop" from_frame="114" to_frame="114" />
+				<animation name="enemy_boss1_zombie_dead_nohead_ne" speed="120" mode="loop" from_frame="115" to_frame="115" />
+				<animation name="enemy_boss1_zombie_dead_nohead_n" speed="120" mode="loop" from_frame="116" to_frame="116" />
+				<animation name="enemy_boss1_zombie_dead_nohead_nw" speed="120" mode="loop" from_frame="117" to_frame="117" />
+				<animation name="enemy_boss1_zombie_dead_nohead_w" speed="120" mode="loop" from_frame="118" to_frame="118" />
+				<animation name="enemy_boss1_zombie_dead_nohead_sw" speed="120" mode="loop" from_frame="119" to_frame="119" />
+				<animation name="enemy_boss1_zombie_walk_burnt_s" speed="120" mode="loop" from_frame="120" to_frame="121" />
+				<animation name="enemy_boss1_zombie_walk_burnt_se" speed="120" mode="loop" from_frame="122" to_frame="123" />
+				<animation name="enemy_boss1_zombie_walk_burnt_e" speed="120" mode="loop" from_frame="124" to_frame="125" />
+				<animation name="enemy_boss1_zombie_walk_burnt_ne" speed="120" mode="loop" from_frame="126" to_frame="127" />
+				<animation name="enemy_boss1_zombie_walk_burnt_n" speed="120" mode="loop" from_frame="128" to_frame="129" />
+				<animation name="enemy_boss1_zombie_walk_burnt_nw" speed="120" mode="loop" from_frame="130" to_frame="131" />
+				<animation name="enemy_boss1_zombie_walk_burnt_w" speed="120" mode="loop" from_frame="132" to_frame="133" />
+				<animation name="enemy_boss1_zombie_walk_burnt_sw" speed="120" mode="loop" from_frame="134" to_frame="135" />
+				<animation name="enemy_boss1_zombie_dead_burnt_s" speed="120" mode="loop" from_frame="136" to_frame="136" />
+				<animation name="enemy_boss1_zombie_dead_burnt_se" speed="120" mode="loop" from_frame="137" to_frame="137" />
+				<animation name="enemy_boss1_zombie_dead_burnt_e" speed="120" mode="loop" from_frame="138" to_frame="138" />
+				<animation name="enemy_boss1_zombie_dead_burnt_ne" speed="120" mode="loop" from_frame="139" to_frame="139" />
+				<animation name="enemy_boss1_zombie_dead_burnt_n" speed="120" mode="loop" from_frame="140" to_frame="140" />
+				<animation name="enemy_boss1_zombie_dead_burnt_nw" speed="120" mode="loop" from_frame="141" to_frame="141" />
+				<animation name="enemy_boss1_zombie_dead_burnt_w" speed="120" mode="loop" from_frame="142" to_frame="142" />
+				<animation name="enemy_boss1_zombie_dead_burnt_sw" speed="120" mode="loop" from_frame="143" to_frame="143" />
+			</animations>
+		</image>
+    -->
+		<image type="grid" name="enemy_bouncer_zombie_#" file="Data/Atlases/Actors/Enemies/Bouncer/zombie.png"  width="31" height="38" hspace="1" vspace="1">
+			<animations>
+				<animation name="enemy_bouncer_zombie_mid_s" speed="120" mode="loop" from_frame="0" to_frame="0" />
+				<animation name="enemy_bouncer_zombie_mid_se" speed="120" mode="loop" from_frame="1" to_frame="1" />
+				<animation name="enemy_bouncer_zombie_mid_e" speed="120" mode="loop" from_frame="2" to_frame="2" />
+				<animation name="enemy_bouncer_zombie_mid_ne" speed="120" mode="loop" from_frame="3" to_frame="3" />
+				<animation name="enemy_bouncer_zombie_mid_n" speed="120" mode="loop" from_frame="4" to_frame="4" />
+				<animation name="enemy_bouncer_zombie_mid_nw" speed="120" mode="loop" from_frame="5" to_frame="5" />
+				<animation name="enemy_bouncer_zombie_mid_w" speed="120" mode="loop" from_frame="6" to_frame="6" />
+				<animation name="enemy_bouncer_zombie_mid_sw" speed="120" mode="loop" from_frame="7" to_frame="7" />
+				<animation name="enemy_bouncer_zombie_low_s" speed="50" mode="loop" from_frame="8" to_frame="8" />
+				<animation name="enemy_bouncer_zombie_low_se" speed="50" mode="loop" from_frame="9" to_frame="9" />
+				<animation name="enemy_bouncer_zombie_low_e" speed="50" mode="loop" from_frame="10" to_frame="10" />
+				<animation name="enemy_bouncer_zombie_low_ne" speed="50" mode="loop" from_frame="11" to_frame="11" />
+				<animation name="enemy_bouncer_zombie_low_n" speed="50" mode="loop" from_frame="12" to_frame="12" />
+				<animation name="enemy_bouncer_zombie_low_nw" speed="50" mode="loop" from_frame="13" to_frame="13" />
+				<animation name="enemy_bouncer_zombie_low_w" speed="50" mode="loop" from_frame="14" to_frame="14" />
+				<animation name="enemy_bouncer_zombie_low_sw" speed="50" mode="loop" from_frame="15" to_frame="15" />
+				<animation name="enemy_bouncer_zombie_high_s" speed="120" mode="loop" from_frame="16" to_frame="16" />
+				<animation name="enemy_bouncer_zombie_high_se" speed="120" mode="loop" from_frame="17" to_frame="17" />
+				<animation name="enemy_bouncer_zombie_high_e" speed="120" mode="loop" from_frame="18" to_frame="18" />
+				<animation name="enemy_bouncer_zombie_high_ne" speed="120" mode="loop" from_frame="19" to_frame="19" />
+				<animation name="enemy_bouncer_zombie_high_n" speed="120" mode="loop" from_frame="20" to_frame="20" />
+				<animation name="enemy_bouncer_zombie_high_nw" speed="120" mode="loop" from_frame="21" to_frame="21" />
+				<animation name="enemy_bouncer_zombie_high_w" speed="120" mode="loop" from_frame="22" to_frame="22" />
+				<animation name="enemy_bouncer_zombie_high_sw" speed="120" mode="loop" from_frame="23" to_frame="23" />
+				<animation name="enemy_bouncer_zombie_spin" speed="120" mode="loop" from_frame="24" to_frame="27" />
+				<animation name="enemy_bouncer_zombie_stunned" speed="120" mode="loop" from_frame="28" to_frame="31" />
+				<animation name="enemy_bouncer_zombie_hurt_s" speed="100" mode="once" from_frame="32" to_frame="32" />
+				<animation name="enemy_bouncer_zombie_hurt_se" speed="100" mode="once" from_frame="33" to_frame="33" />
+				<animation name="enemy_bouncer_zombie_hurt_e" speed="100" mode="once" from_frame="34" to_frame="34" />
+				<animation name="enemy_bouncer_zombie_hurt_ne" speed="100" mode="once" from_frame="35" to_frame="35" />
+				<animation name="enemy_bouncer_zombie_hurt_n" speed="100" mode="once" from_frame="36" to_frame="36" />
+				<animation name="enemy_bouncer_zombie_hurt_nw" speed="100" mode="once" from_frame="37" to_frame="37" />
+				<animation name="enemy_bouncer_zombie_hurt_w" speed="100" mode="once" from_frame="38" to_frame="38" />
+				<animation name="enemy_bouncer_zombie_hutt_sw" speed="100" mode="once" from_frame="39" to_frame="39" />
+				<animation name="enemy_bouncer_zombie_shocked_s" speed="50" mode="loop" from_frame="40" to_frame="41" />
+				<animation name="enemy_bouncer_zombie_shocked_se" speed="50" mode="loop" from_frame="42" to_frame="43" />
+				<animation name="enemy_bouncer_zombie_shocked_e" speed="50" mode="loop" from_frame="44" to_frame="45" />
+				<animation name="enemy_bouncer_zombie_shocked_ne" speed="50" mode="loop" from_frame="46" to_frame="47" />
+				<animation name="enemy_bouncer_zombie_shocked_n" speed="50" mode="loop" from_frame="48" to_frame="49" />
+				<animation name="enemy_bouncer_zombie_shocked_nw" speed="50" mode="loop" from_frame="50" to_frame="51" />
+				<animation name="enemy_bouncer_zombie_shocked_w" speed="50" mode="loop" from_frame="52" to_frame="53" />
+				<animation name="enemy_bouncer_zombie_shocked_sw" speed="50" mode="loop" from_frame="54" to_frame="55" />
+         
+        <animation name="enemy_bouncer_zombie_walk_s" speed="120" mode="loop" from_frame="56" to_frame="58" />
+        <animation name="enemy_bouncer_zombie_walk_se" speed="120" mode="loop" from_frame="59" to_frame="61" />
+        <animation name="enemy_bouncer_zombie_walk_e" speed="120" mode="loop" from_frame="62" to_frame="64" />
+        <animation name="enemy_bouncer_zombie_walk_ne" speed="120" mode="loop" from_frame="65" to_frame="67" />
+        <animation name="enemy_bouncer_zombie_walk_n" speed="120" mode="loop" from_frame="68" to_frame="70" />
+        <animation name="enemy_bouncer_zombie_walk_nw" speed="120" mode="loop" from_frame="71" to_frame="73" />
+        <animation name="enemy_bouncer_zombie_walk_w" speed="120" mode="loop" from_frame="74" to_frame="76" />
+        <animation name="enemy_bouncer_zombie_walk_sw" speed="120" mode="loop" from_frame="77" to_frame="79" />
+			</animations>
+		</image>
+		<image type="grid" name="enemy_exploder_zombie_#" file="Data/Atlases/Actors/Enemies/Exploder/zombie.png"  width="48" height="48" hspace="1" vspace="1">
+			<animations>
+				<animation name="enemy_exploder_zombie_walk_s" speed="120" mode="loop" from_frame="0" to_frame="3" />
+				<animation name="enemy_exploder_zombie_walk_e" speed="120" mode="loop" from_frame="4" to_frame="7" />
+				<animation name="enemy_exploder_zombie_walk_n" speed="120" mode="loop" from_frame="8" to_frame="11" />
+				<animation name="enemy_exploder_zombie_walk_w" speed="120" mode="loop" from_frame="12" to_frame="15" />
+				<animation name="enemy_exploder_zombie_charge_s" speed="60" mode="once" from_frame="16" to_frame="16" />
+				<animation name="enemy_exploder_zombie_charge_e" speed="60" mode="once" from_frame="17" to_frame="17" />
+				<animation name="enemy_exploder_zombie_charge_n" speed="60" mode="once" from_frame="18" to_frame="18" />
+				<animation name="enemy_exploder_zombie_charge_w" speed="60" mode="once" from_frame="19" to_frame="19" />
+				<animation name="enemy_exploder_zombie_hurt_s" speed="60" mode="once" from_frame="20" to_frame="20" />
+				<animation name="enemy_exploder_zombie_hurt_e" speed="60" mode="once" from_frame="21" to_frame="21" />
+				<animation name="enemy_exploder_zombie_hurt_n" speed="60" mode="once" from_frame="22" to_frame="22" />
+				<animation name="enemy_exploder_zombie_hurt_w" speed="60" mode="once" from_frame="23" to_frame="23" />
+				<animation name="enemy_exploder_zombie_walk_s_tint" speed="120" mode="loop" from_frame="24" to_frame="27" />
+				<animation name="enemy_exploder_zombie_walk_e_tint" speed="120" mode="loop" from_frame="28" to_frame="31" />
+				<animation name="enemy_exploder_zombie_walk_n_tint" speed="120" mode="loop" from_frame="32" to_frame="35" />
+				<animation name="enemy_exploder_zombie_walk_w_tint" speed="120" mode="loop" from_frame="36" to_frame="39" />
+				<animation name="enemy_exploder_zombie_charge_s_tint" speed="60" mode="once" from_frame="40" to_frame="40" />
+				<animation name="enemy_exploder_zombie_charge_e_tint" speed="60" mode="once" from_frame="41" to_frame="41" />
+				<animation name="enemy_exploder_zombie_charge_n_tint" speed="60" mode="once" from_frame="42" to_frame="42" />
+				<animation name="enemy_exploder_zombie_charge_w_tint" speed="60" mode="once" from_frame="43" to_frame="43" />
+				<animation name="enemy_exploder_zombie_hurt_s_tint" speed="60" mode="once" from_frame="44" to_frame="44" />
+				<animation name="enemy_exploder_zombie_hurt_e_tint" speed="60" mode="once" from_frame="45" to_frame="45" />
+				<animation name="enemy_exploder_zombie_hurt_n_tint" speed="60" mode="once" from_frame="46" to_frame="46" />
+				<animation name="enemy_exploder_zombie_hurt_w_tint" speed="60" mode="once" from_frame="47" to_frame="47" />
+			</animations>
+		</image>
+		<image type="grid" name="enemy_fodder_zombie_#" file="Data/Atlases/Actors/Enemies/Fodder/zombie.png"  width="32" height="32" hspace="1" vspace="1">
+			<animations>
+				<animation name="enemy_fodder_zombie_walk_s" speed="120" mode="loop" from_frame="0" to_frame="3" />
+				<animation name="enemy_fodder_zombie_walk_se" speed="120" mode="loop" from_frame="4" to_frame="7" />
+				<animation name="enemy_fodder_zombie_walk_e" speed="120" mode="loop" from_frame="8" to_frame="11" />
+				<animation name="enemy_fodder_zombie_walk_ne" speed="120" mode="loop" from_frame="12" to_frame="15" />
+				<animation name="enemy_fodder_zombie_walk_n" speed="120" mode="loop" from_frame="16" to_frame="19" />
+				<animation name="enemy_fodder_zombie_walk_nw" speed="120" mode="loop" from_frame="20" to_frame="23" />
+				<animation name="enemy_fodder_zombie_walk_w" speed="120" mode="loop" from_frame="24" to_frame="27" />
+				<animation name="enemy_fodder_zombie_walk_sw" speed="120" mode="loop" from_frame="28" to_frame="31" />
+				<animation name="enemy_fodder_zombie_attack_s" speed="120" mode="once" from_frame="32" to_frame="35" />
+				<animation name="enemy_fodder_zombie_attack_se" speed="120" mode="once" from_frame="36" to_frame="39" />
+				<animation name="enemy_fodder_zombie_attack_e" speed="120" mode="once" from_frame="40" to_frame="43" />
+				<animation name="enemy_fodder_zombie_attack_ne" speed="120" mode="once" from_frame="44" to_frame="47" />
+				<animation name="enemy_fodder_zombie_attack_n" speed="120" mode="once" from_frame="48" to_frame="51" />
+				<animation name="enemy_fodder_zombie_attack_nw" speed="120" mode="once" from_frame="52" to_frame="55" />
+				<animation name="enemy_fodder_zombie_attack_w" speed="120" mode="once" from_frame="56" to_frame="59" />
+				<animation name="enemy_fodder_zombie_attack_sw" speed="120" mode="once" from_frame="60" to_frame="63" />
+				<animation name="enemy_fodder_zombie_hurt_s" speed="60" mode="once" from_frame="64" to_frame="64" />
+				<animation name="enemy_fodder_zombie_hurt_se" speed="60" mode="once" from_frame="65" to_frame="65" />
+				<animation name="enemy_fodder_zombie_hurt_e" speed="60" mode="once" from_frame="66" to_frame="66" />
+				<animation name="enemy_fodder_zombie_hurt_ne" speed="60" mode="once" from_frame="67" to_frame="67" />
+				<animation name="enemy_fodder_zombie_hurt_n" speed="60" mode="once" from_frame="68" to_frame="68" />
+				<animation name="enemy_fodder_zombie_hurt_nw" speed="60" mode="once" from_frame="69" to_frame="69" />
+				<animation name="enemy_fodder_zombie_hurt_w" speed="60" mode="once" from_frame="70" to_frame="70" />
+				<animation name="enemy_fodder_zombie_hurt_sw" speed="60" mode="once" from_frame="71" to_frame="71" />
+				<animation name="enemy_fodder_zombie_dead_s" speed="120" mode="loop" from_frame="72" to_frame="72" />
+				<animation name="enemy_fodder_zombie_dead_se" speed="120" mode="loop" from_frame="73" to_frame="73" />
+				<animation name="enemy_fodder_zombie_dead_e" speed="120" mode="loop" from_frame="74" to_frame="74" />
+				<animation name="enemy_fodder_zombie_dead_ne" speed="120" mode="loop" from_frame="75" to_frame="75" />
+				<animation name="enemy_fodder_zombie_dead_n" speed="120" mode="loop" from_frame="76" to_frame="76" />
+				<animation name="enemy_fodder_zombie_dead_nw" speed="120" mode="loop" from_frame="77" to_frame="77" />
+				<animation name="enemy_fodder_zombie_dead_w" speed="120" mode="loop" from_frame="78" to_frame="78" />
+				<animation name="enemy_fodder_zombie_dead_sw" speed="120" mode="loop" from_frame="79" to_frame="79" />
+				<animation name="enemy_fodder_zombie_dead_main" speed="120" mode="loop" from_frame="72" to_frame="79" />
+				<animation name="enemy_fodder_zombie_walk_nohead_s" speed="120" mode="loop" from_frame="80" to_frame="81" />
+				<animation name="enemy_fodder_zombie_walk_nohead_se" speed="120" mode="loop" from_frame="82" to_frame="83" />
+				<animation name="enemy_fodder_zombie_walk_nohead_e" speed="120" mode="loop" from_frame="84" to_frame="85" />
+				<animation name="enemy_fodder_zombie_walk_nohead_ne" speed="120" mode="loop" from_frame="86" to_frame="87" />
+				<animation name="enemy_fodder_zombie_walk_nohead_n" speed="120" mode="loop" from_frame="88" to_frame="89" />
+				<animation name="enemy_fodder_zombie_walk_nohead_nw" speed="120" mode="loop" from_frame="90" to_frame="91" />
+				<animation name="enemy_fodder_zombie_walk_nohead_w" speed="120" mode="loop" from_frame="92" to_frame="93" />
+				<animation name="enemy_fodder_zombie_walk_nohead_sw" speed="120" mode="loop" from_frame="94" to_frame="95" />
+				<animation name="enemy_fodder_zombie_rise_from_ground_start" speed="120" mode="once" from_frame="96" to_frame="108" />
+				<animation name="enemy_fodder_zombie_rise_from_ground_end" speed="120" mode="once" from_frame="109" to_frame="111" />
+				<animation name="enemy_fodder_zombie_dead_nohead_s" speed="120" mode="loop" from_frame="112" to_frame="112" />
+				<animation name="enemy_fodder_zombie_dead_nohead_se" speed="120" mode="loop" from_frame="113" to_frame="113" />
+				<animation name="enemy_fodder_zombie_dead_nohead_e" speed="120" mode="loop" from_frame="114" to_frame="114" />
+				<animation name="enemy_fodder_zombie_dead_nohead_ne" speed="120" mode="loop" from_frame="115" to_frame="115" />
+				<animation name="enemy_fodder_zombie_dead_nohead_n" speed="120" mode="loop" from_frame="116" to_frame="116" />
+				<animation name="enemy_fodder_zombie_dead_nohead_nw" speed="120" mode="loop" from_frame="117" to_frame="117" />
+				<animation name="enemy_fodder_zombie_dead_nohead_w" speed="120" mode="loop" from_frame="118" to_frame="118" />
+				<animation name="enemy_fodder_zombie_dead_nohead_sw" speed="120" mode="loop" from_frame="119" to_frame="119" />
+				<animation name="enemy_fodder_zombie_dead_nohead_main" speed="120" mode="loop" from_frame="112" to_frame="119" />
+				<animation name="enemy_fodder_zombie_walk_burnt_s" speed="120" mode="loop" from_frame="120" to_frame="121" />
+				<animation name="enemy_fodder_zombie_walk_burnt_se" speed="120" mode="loop" from_frame="122" to_frame="123" />
+				<animation name="enemy_fodder_zombie_walk_burnt_e" speed="120" mode="loop" from_frame="124" to_frame="125" />
+				<animation name="enemy_fodder_zombie_walk_burnt_ne" speed="120" mode="loop" from_frame="126" to_frame="127" />
+				<animation name="enemy_fodder_zombie_walk_burnt_n" speed="120" mode="loop" from_frame="128" to_frame="129" />
+				<animation name="enemy_fodder_zombie_walk_burnt_nw" speed="120" mode="loop" from_frame="130" to_frame="131" />
+				<animation name="enemy_fodder_zombie_walk_burnt_w" speed="120" mode="loop" from_frame="132" to_frame="133" />
+				<animation name="enemy_fodder_zombie_walk_burnt_sw" speed="120" mode="loop" from_frame="134" to_frame="135" />
+				<animation name="enemy_fodder_zombie_dead_burnt_s" speed="120" mode="loop" from_frame="136" to_frame="136" />
+				<animation name="enemy_fodder_zombie_dead_burnt_se" speed="120" mode="loop" from_frame="137" to_frame="137" />
+				<animation name="enemy_fodder_zombie_dead_burnt_e" speed="120" mode="loop" from_frame="138" to_frame="138" />
+				<animation name="enemy_fodder_zombie_dead_burnt_ne" speed="120" mode="loop" from_frame="139" to_frame="139" />
+				<animation name="enemy_fodder_zombie_dead_burnt_n" speed="120" mode="loop" from_frame="140" to_frame="140" />
+				<animation name="enemy_fodder_zombie_dead_burnt_nw" speed="120" mode="loop" from_frame="141" to_frame="141" />
+				<animation name="enemy_fodder_zombie_dead_burnt_w" speed="120" mode="loop" from_frame="142" to_frame="142" />
+				<animation name="enemy_fodder_zombie_dead_burnt_sw" speed="120" mode="loop" from_frame="143" to_frame="143" />
+				<animation name="enemy_fodder_zombie_shocked_s" speed="50" mode="loop" from_frame="144" to_frame="145" />
+				<animation name="enemy_fodder_zombie_shocked_se" speed="50" mode="loop" from_frame="146" to_frame="147" />
+				<animation name="enemy_fodder_zombie_shocked_e" speed="50" mode="loop" from_frame="148" to_frame="149" />
+				<animation name="enemy_fodder_zombie_shocked_ne" speed="50" mode="loop" from_frame="150" to_frame="151" />
+				<animation name="enemy_fodder_zombie_shocked_n" speed="50" mode="loop" from_frame="152" to_frame="153" />
+				<animation name="enemy_fodder_zombie_shocked_nw" speed="50" mode="loop" from_frame="154" to_frame="155" />
+				<animation name="enemy_fodder_zombie_shocked_w" speed="50" mode="loop" from_frame="156" to_frame="157" />
+				<animation name="enemy_fodder_zombie_shocked_sw" speed="50" mode="loop" from_frame="158" to_frame="159" />
+			</animations>
+		</image>
+		<image type="grid" name="enemy_trailer_zombie_#" file="Data/Atlases/Actors/Enemies/Trailer/zombie.png"  width="32" height="32" hspace="1" vspace="1">
+			<animations>
+				<animation name="enemy_trailer_zombie_walk_s" speed="120" mode="loop" from_frame="0" to_frame="3" />
+				<animation name="enemy_trailer_zombie_walk_se" speed="120" mode="loop" from_frame="4" to_frame="7" />
+				<animation name="enemy_trailer_zombie_walk_e" speed="120" mode="loop" from_frame="8" to_frame="11" />
+				<animation name="enemy_trailer_zombie_walk_ne" speed="120" mode="loop" from_frame="12" to_frame="15" />
+				<animation name="enemy_trailer_zombie_walk_n" speed="120" mode="loop" from_frame="16" to_frame="19" />
+				<animation name="enemy_trailer_zombie_walk_nw" speed="120" mode="loop" from_frame="20" to_frame="23" />
+				<animation name="enemy_trailer_zombie_walk_w" speed="120" mode="loop" from_frame="24" to_frame="27" />
+				<animation name="enemy_trailer_zombie_walk_sw" speed="120" mode="loop" from_frame="28" to_frame="31" />
+				<animation name="enemy_trailer_zombie_attack_s" speed="120" mode="once" from_frame="32" to_frame="35" />
+				<animation name="enemy_trailer_zombie_attack_se" speed="120" mode="once" from_frame="36" to_frame="39" />
+				<animation name="enemy_trailer_zombie_attack_e" speed="120" mode="once" from_frame="40" to_frame="43" />
+				<animation name="enemy_trailer_zombie_attack_ne" speed="120" mode="once" from_frame="44" to_frame="47" />
+				<animation name="enemy_trailer_zombie_attack_n" speed="120" mode="once" from_frame="48" to_frame="51" />
+				<animation name="enemy_trailer_zombie_attack_nw" speed="120" mode="once" from_frame="52" to_frame="55" />
+				<animation name="enemy_trailer_zombie_attack_w" speed="120" mode="once" from_frame="56" to_frame="59" />
+				<animation name="enemy_trailer_zombie_attack_sw" speed="120" mode="once" from_frame="60" to_frame="63" />
+				<animation name="enemy_trailer_zombie_hurt_s" speed="60" mode="once" from_frame="64" to_frame="64" />
+				<animation name="enemy_trailer_zombie_hurt_se" speed="60" mode="once" from_frame="65" to_frame="65" />
+				<animation name="enemy_trailer_zombie_hurt_e" speed="60" mode="once" from_frame="66" to_frame="66" />
+				<animation name="enemy_trailer_zombie_hurt_ne" speed="60" mode="once" from_frame="67" to_frame="67" />
+				<animation name="enemy_trailer_zombie_hurt_n" speed="60" mode="once" from_frame="68" to_frame="68" />
+				<animation name="enemy_trailer_zombie_hurt_nw" speed="60" mode="once" from_frame="69" to_frame="69" />
+				<animation name="enemy_trailer_zombie_hurt_w" speed="60" mode="once" from_frame="70" to_frame="70" />
+				<animation name="enemy_trailer_zombie_hurt_sw" speed="60" mode="once" from_frame="71" to_frame="71" />
+				<animation name="enemy_trailer_zombie_dead_s" speed="120" mode="loop" from_frame="72" to_frame="72" />
+				<animation name="enemy_trailer_zombie_dead_se" speed="120" mode="loop" from_frame="73" to_frame="73" />
+				<animation name="enemy_trailer_zombie_dead_e" speed="120" mode="loop" from_frame="74" to_frame="74" />
+				<animation name="enemy_trailer_zombie_dead_ne" speed="120" mode="loop" from_frame="75" to_frame="75" />
+				<animation name="enemy_trailer_zombie_dead_n" speed="120" mode="loop" from_frame="76" to_frame="76" />
+				<animation name="enemy_trailer_zombie_dead_nw" speed="120" mode="loop" from_frame="77" to_frame="77" />
+				<animation name="enemy_trailer_zombie_dead_w" speed="120" mode="loop" from_frame="78" to_frame="78" />
+				<animation name="enemy_trailer_zombie_dead_sw" speed="120" mode="loop" from_frame="79" to_frame="79" />
+				<animation name="enemy_trailer_zombie_dead_main" speed="120" mode="loop" from_frame="72" to_frame="79" />
+				<animation name="enemy_trailer_zombie_walk_nohead_s" speed="120" mode="loop" from_frame="80" to_frame="81" />
+				<animation name="enemy_trailer_zombie_walk_nohead_se" speed="120" mode="loop" from_frame="82" to_frame="83" />
+				<animation name="enemy_trailer_zombie_walk_nohead_e" speed="120" mode="loop" from_frame="84" to_frame="85" />
+				<animation name="enemy_trailer_zombie_walk_nohead_ne" speed="120" mode="loop" from_frame="86" to_frame="87" />
+				<animation name="enemy_trailer_zombie_walk_nohead_n" speed="120" mode="loop" from_frame="88" to_frame="89" />
+				<animation name="enemy_trailer_zombie_walk_nohead_nw" speed="120" mode="loop" from_frame="90" to_frame="91" />
+				<animation name="enemy_trailer_zombie_walk_nohead_w" speed="120" mode="loop" from_frame="92" to_frame="93" />
+				<animation name="enemy_trailer_zombie_walk_nohead_sw" speed="120" mode="loop" from_frame="94" to_frame="95" />
+				<animation name="enemy_trailer_zombie_rise_from_ground_start" speed="120" mode="once" from_frame="96" to_frame="108" />
+				<animation name="enemy_trailer_zombie_rise_from_ground_end" speed="120" mode="once" from_frame="109" to_frame="111" />
+				<animation name="enemy_trailer_zombie_dead_nohead_s" speed="120" mode="loop" from_frame="112" to_frame="112" />
+				<animation name="enemy_trailer_zombie_dead_nohead_se" speed="120" mode="loop" from_frame="113" to_frame="113" />
+				<animation name="enemy_trailer_zombie_dead_nohead_e" speed="120" mode="loop" from_frame="114" to_frame="114" />
+				<animation name="enemy_trailer_zombie_dead_nohead_ne" speed="120" mode="loop" from_frame="115" to_frame="115" />
+				<animation name="enemy_trailer_zombie_dead_nohead_n" speed="120" mode="loop" from_frame="116" to_frame="116" />
+				<animation name="enemy_trailer_zombie_dead_nohead_nw" speed="120" mode="loop" from_frame="117" to_frame="117" />
+				<animation name="enemy_trailer_zombie_dead_nohead_w" speed="120" mode="loop" from_frame="118" to_frame="118" />
+				<animation name="enemy_trailer_zombie_dead_nohead_sw" speed="120" mode="loop" from_frame="119" to_frame="119" />
+				<animation name="enemy_trailer_zombie_dead_nohead_main" speed="120" mode="loop" from_frame="112" to_frame="119" />
+				<animation name="enemy_trailer_zombie_walk_burnt_s" speed="120" mode="loop" from_frame="120" to_frame="121" />
+				<animation name="enemy_trailer_zombie_walk_burnt_se" speed="120" mode="loop" from_frame="122" to_frame="123" />
+				<animation name="enemy_trailer_zombie_walk_burnt_e" speed="120" mode="loop" from_frame="124" to_frame="125" />
+				<animation name="enemy_trailer_zombie_walk_burnt_ne" speed="120" mode="loop" from_frame="126" to_frame="127" />
+				<animation name="enemy_trailer_zombie_walk_burnt_n" speed="120" mode="loop" from_frame="128" to_frame="129" />
+				<animation name="enemy_trailer_zombie_walk_burnt_nw" speed="120" mode="loop" from_frame="130" to_frame="131" />
+				<animation name="enemy_trailer_zombie_walk_burnt_w" speed="120" mode="loop" from_frame="132" to_frame="133" />
+				<animation name="enemy_trailer_zombie_walk_burnt_sw" speed="120" mode="loop" from_frame="134" to_frame="135" />
+				<animation name="enemy_trailer_zombie_dead_burnt_s" speed="120" mode="loop" from_frame="136" to_frame="136" />
+				<animation name="enemy_trailer_zombie_dead_burnt_se" speed="120" mode="loop" from_frame="137" to_frame="137" />
+				<animation name="enemy_trailer_zombie_dead_burnt_e" speed="120" mode="loop" from_frame="138" to_frame="138" />
+				<animation name="enemy_trailer_zombie_dead_burnt_ne" speed="120" mode="loop" from_frame="139" to_frame="139" />
+				<animation name="enemy_trailer_zombie_dead_burnt_n" speed="120" mode="loop" from_frame="140" to_frame="140" />
+				<animation name="enemy_trailer_zombie_dead_burnt_nw" speed="120" mode="loop" from_frame="141" to_frame="141" />
+				<animation name="enemy_trailer_zombie_dead_burnt_w" speed="120" mode="loop" from_frame="142" to_frame="142" />
+				<animation name="enemy_trailer_zombie_dead_burnt_sw" speed="120" mode="loop" from_frame="143" to_frame="143" />
+			</animations>
+		</image>
+		<image type="grid" name="enemy_chaser_zombie_#" file="Data/Atlases/Actors/Enemies/Chaser/chaser.png"  width="32" height="32" hspace="1" vspace="1">
+			<animations>
+				<animation name="enemy_chaser_zombie_walk_s" speed="120" mode="loop" from_frame="0" to_frame="3" />
+				<animation name="enemy_chaser_zombie_walk_se" speed="120" mode="loop" from_frame="4" to_frame="7" />
+				<animation name="enemy_chaser_zombie_walk_e" speed="120" mode="loop" from_frame="8" to_frame="11" />
+				<animation name="enemy_chaser_zombie_walk_ne" speed="120" mode="loop" from_frame="12" to_frame="15" />
+				<animation name="enemy_chaser_zombie_walk_n" speed="120" mode="loop" from_frame="16" to_frame="19" />
+				<animation name="enemy_chaser_zombie_walk_nw" speed="120" mode="loop" from_frame="20" to_frame="23" />
+				<animation name="enemy_chaser_zombie_walk_w" speed="120" mode="loop" from_frame="24" to_frame="27" />
+				<animation name="enemy_chaser_zombie_walk_sw" speed="120" mode="loop" from_frame="28" to_frame="31" />
+				<animation name="enemy_chaser_zombie_attack_s" speed="120" mode="once" from_frame="32" to_frame="35" />
+				<animation name="enemy_chaser_zombie_attack_se" speed="120" mode="once" from_frame="36" to_frame="39" />
+				<animation name="enemy_chaser_zombie_attack_e" speed="120" mode="once" from_frame="40" to_frame="43" />
+				<animation name="enemy_chaser_zombie_attack_ne" speed="120" mode="once" from_frame="44" to_frame="47" />
+				<animation name="enemy_chaser_zombie_attack_n" speed="120" mode="once" from_frame="48" to_frame="51" />
+				<animation name="enemy_chaser_zombie_attack_nw" speed="120" mode="once" from_frame="52" to_frame="55" />
+				<animation name="enemy_chaser_zombie_attack_w" speed="120" mode="once" from_frame="56" to_frame="59" />
+				<animation name="enemy_chaser_zombie_attack_sw" speed="120" mode="once" from_frame="60" to_frame="63" />
+				<animation name="enemy_chaser_zombie_hurt_s" speed="60" mode="once" from_frame="64" to_frame="64" />
+				<animation name="enemy_chaser_zombie_hurt_se" speed="60" mode="once" from_frame="65" to_frame="65" />
+				<animation name="enemy_chaser_zombie_hurt_e" speed="60" mode="once" from_frame="66" to_frame="66" />
+				<animation name="enemy_chaser_zombie_hurt_ne" speed="60" mode="once" from_frame="67" to_frame="67" />
+				<animation name="enemy_chaser_zombie_hurt_n" speed="60" mode="once" from_frame="68" to_frame="68" />
+				<animation name="enemy_chaser_zombie_hurt_nw" speed="60" mode="once" from_frame="69" to_frame="69" />
+				<animation name="enemy_chaser_zombie_hurt_w" speed="60" mode="once" from_frame="70" to_frame="70" />
+				<animation name="enemy_chaser_zombie_hurt_sw" speed="60" mode="once" from_frame="71" to_frame="71" />
+				<animation name="enemy_chaser_zombie_dead_s" speed="120" mode="loop" from_frame="72" to_frame="72" />
+				<animation name="enemy_chaser_zombie_dead_se" speed="120" mode="loop" from_frame="73" to_frame="73" />
+				<animation name="enemy_chaser_zombie_dead_e" speed="120" mode="loop" from_frame="74" to_frame="74" />
+				<animation name="enemy_chaser_zombie_dead_ne" speed="120" mode="loop" from_frame="75" to_frame="75" />
+				<animation name="enemy_chaser_zombie_dead_n" speed="120" mode="loop" from_frame="76" to_frame="76" />
+				<animation name="enemy_chaser_zombie_dead_nw" speed="120" mode="loop" from_frame="77" to_frame="77" />
+				<animation name="enemy_chaser_zombie_dead_w" speed="120" mode="loop" from_frame="78" to_frame="78" />
+				<animation name="enemy_chaser_zombie_dead_sw" speed="120" mode="loop" from_frame="79" to_frame="79" />
+				<animation name="enemy_chaser_zombie_dead_main" speed="120" mode="loop" from_frame="72" to_frame="79" />
+				<animation name="enemy_chaser_zombie_walk_nohead_s" speed="120" mode="loop" from_frame="80" to_frame="81" />
+				<animation name="enemy_chaser_zombie_walk_nohead_se" speed="120" mode="loop" from_frame="82" to_frame="83" />
+				<animation name="enemy_chaser_zombie_walk_nohead_e" speed="120" mode="loop" from_frame="84" to_frame="85" />
+				<animation name="enemy_chaser_zombie_walk_nohead_ne" speed="120" mode="loop" from_frame="86" to_frame="87" />
+				<animation name="enemy_chaser_zombie_walk_nohead_n" speed="120" mode="loop" from_frame="88" to_frame="89" />
+				<animation name="enemy_chaser_zombie_walk_nohead_nw" speed="120" mode="loop" from_frame="90" to_frame="91" />
+				<animation name="enemy_chaser_zombie_walk_nohead_w" speed="120" mode="loop" from_frame="92" to_frame="93" />
+				<animation name="enemy_chaser_zombie_walk_nohead_sw" speed="120" mode="loop" from_frame="94" to_frame="95" />
+				<animation name="enemy_chaser_zombie_rise_from_ground_start" speed="120" mode="once" from_frame="96" to_frame="108" />
+				<animation name="enemy_chaser_zombie_rise_from_ground_end" speed="120" mode="once" from_frame="109" to_frame="111" />
+				<animation name="enemy_chaser_zombie_dead_nohead_s" speed="120" mode="loop" from_frame="112" to_frame="112" />
+				<animation name="enemy_chaser_zombie_dead_nohead_se" speed="120" mode="loop" from_frame="113" to_frame="113" />
+				<animation name="enemy_chaser_zombie_dead_nohead_e" speed="120" mode="loop" from_frame="114" to_frame="114" />
+				<animation name="enemy_chaser_zombie_dead_nohead_ne" speed="120" mode="loop" from_frame="115" to_frame="115" />
+				<animation name="enemy_chaser_zombie_dead_nohead_n" speed="120" mode="loop" from_frame="116" to_frame="116" />
+				<animation name="enemy_chaser_zombie_dead_nohead_nw" speed="120" mode="loop" from_frame="117" to_frame="117" />
+				<animation name="enemy_chaser_zombie_dead_nohead_w" speed="120" mode="loop" from_frame="118" to_frame="118" />
+				<animation name="enemy_chaser_zombie_dead_nohead_sw" speed="120" mode="loop" from_frame="119" to_frame="119" />
+				<animation name="enemy_chaser_zombie_dead_nohead_main" speed="120" mode="loop" from_frame="112" to_frame="119" />
+				<animation name="enemy_chaser_zombie_walk_burnt_s" speed="120" mode="loop" from_frame="120" to_frame="121" />
+				<animation name="enemy_chaser_zombie_walk_burnt_se" speed="120" mode="loop" from_frame="122" to_frame="123" />
+				<animation name="enemy_chaser_zombie_walk_burnt_e" speed="120" mode="loop" from_frame="124" to_frame="125" />
+				<animation name="enemy_chaser_zombie_walk_burnt_ne" speed="120" mode="loop" from_frame="126" to_frame="127" />
+				<animation name="enemy_chaser_zombie_walk_burnt_n" speed="120" mode="loop" from_frame="128" to_frame="129" />
+				<animation name="enemy_chaser_zombie_walk_burnt_nw" speed="120" mode="loop" from_frame="130" to_frame="131" />
+				<animation name="enemy_chaser_zombie_walk_burnt_w" speed="120" mode="loop" from_frame="132" to_frame="133" />
+				<animation name="enemy_chaser_zombie_walk_burnt_sw" speed="120" mode="loop" from_frame="134" to_frame="135" />
+				<animation name="enemy_chaser_zombie_dead_burnt_s" speed="120" mode="loop" from_frame="136" to_frame="136" />
+				<animation name="enemy_chaser_zombie_dead_burnt_se" speed="120" mode="loop" from_frame="137" to_frame="137" />
+				<animation name="enemy_chaser_zombie_dead_burnt_e" speed="120" mode="loop" from_frame="138" to_frame="138" />
+				<animation name="enemy_chaser_zombie_dead_burnt_ne" speed="120" mode="loop" from_frame="139" to_frame="139" />
+				<animation name="enemy_chaser_zombie_dead_burnt_n" speed="120" mode="loop" from_frame="140" to_frame="140" />
+				<animation name="enemy_chaser_zombie_dead_burnt_nw" speed="120" mode="loop" from_frame="141" to_frame="141" />
+				<animation name="enemy_chaser_zombie_dead_burnt_w" speed="120" mode="loop" from_frame="142" to_frame="142" />
+				<animation name="enemy_chaser_zombie_dead_burnt_sw" speed="120" mode="loop" from_frame="143" to_frame="143" />
+				<animation name="enemy_chaser_zombie_shocked_s" speed="50" mode="loop" from_frame="144" to_frame="145" />
+				<animation name="enemy_chaser_zombie_shocked_se" speed="50" mode="loop" from_frame="146" to_frame="147" />
+				<animation name="enemy_chaser_zombie_shocked_e" speed="50" mode="loop" from_frame="148" to_frame="149" />
+				<animation name="enemy_chaser_zombie_shocked_ne" speed="50" mode="loop" from_frame="150" to_frame="151" />
+				<animation name="enemy_chaser_zombie_shocked_n" speed="50" mode="loop" from_frame="152" to_frame="153" />
+				<animation name="enemy_chaser_zombie_shocked_nw" speed="50" mode="loop" from_frame="154" to_frame="155" />
+				<animation name="enemy_chaser_zombie_shocked_w" speed="50" mode="loop" from_frame="156" to_frame="157" />
+				<animation name="enemy_chaser_zombie_shocked_sw" speed="50" mode="loop" from_frame="158" to_frame="159" />
+			</animations>
+		</image>
+    <image type="grid" name="enemy_large_blobby_zombie_#" file="Data/Atlases/Actors/Enemies/Blobby/large.png"  width="57" height="48" hspace="1" vspace="1">
+      <animations>
+        <animation name="enemy_large_blobby_walk"  speed="120" mode="loop" from_frame="0" to_frame="5" />
+        <animation name="enemy_large_blobby_hurt"  speed="60" mode="once" from_frame="6" to_frame="6" />
+        <animation name="enemy_large_blobby_shock" speed="50" mode="loop" from_frame="7" to_frame="8" />
+      </animations>
+    </image>
+    <image type="grid" name="enemy_small_blobby_zombie_#" file="Data/Atlases/Actors/Enemies/Blobby/small.png"  width="28" height="34" hspace="1" vspace="1">
+      <animations>
+        <animation name="enemy_small_blobby_v0_walk" speed="120" mode="loop" from_frame="0" to_frame="5" />
+        <animation name="enemy_small_blobby_v0_hurt" speed="60" mode="once" from_frame="6" to_frame="6" />
+        <animation name="enemy_small_blobby_v0_shock" speed="50" mode="loop" from_frame="7" to_frame="8" />
+
+        <animation name="enemy_small_blobby_v1_walk" speed="120" mode="loop" from_frame="9" to_frame="14" />
+        <animation name="enemy_small_blobby_v1_hurt" speed="60" mode="once" from_frame="15" to_frame="15" />
+        <animation name="enemy_small_blobby_v1_shock" speed="50" mode="loop" from_frame="16" to_frame="17" />
+
+        <animation name="enemy_small_blobby_v2_walk" speed="120" mode="loop" from_frame="18" to_frame="23" />
+        <animation name="enemy_small_blobby_v2_hurt" speed="60" mode="once" from_frame="24" to_frame="24" />
+        <animation name="enemy_small_blobby_v2_shock" speed="50" mode="loop" from_frame="25" to_frame="26" />
+      </animations>
+    </image>
+		<image type="single" name="npc_nurse_nurse" file="Data/Atlases/Actors/NPC/Nurse/nurse.png" />
+		<image type="grid" name="npc_stylist_stylist_#" file="Data/Atlases/Actors/NPC/Stylist/stylist.png"  width="47" height="43" hspace="1" vspace="1">
+			<animations>
+				<animation name="npc_stylist_stylist_idle" speed="120" mode="loop" from_frame="0" to_frame="3" />
+			</animations>
+		</image>
+		<image type="grid" name="npc_survivor_survivor_#" file="Data/Atlases/Actors/NPC/Survivor/survivors.png"  width="36" height="41" hspace="1" vspace="1" depthbias="35">
+			<animations>
+				<animation name="npc_survivor_v1_scared" speed="120" mode="loop" from_frame="0" to_frame="3" />
+				<animation name="npc_survivor_v1_saved" speed="120" mode="loop" from_frame="4" to_frame="5" />
+        <animation name="npc_survivor_v2_scared" speed="120" mode="loop" from_frame="6" to_frame="9" />
+        <animation name="npc_survivor_v2_saved" speed="120" mode="loop" from_frame="10" to_frame="11" />
+			</animations>
+		</image>
+    <image type="grid" name="npc_survivor_ballon_#" file="Data/Atlases/Actors/NPC/Survivor/ballons.png"  width="27" height="64" hspace="0" vspace="0" />
+    <image type="grid" name="npc_survivor_cucco_#" file="Data/Atlases/Actors/NPC/cucco/cucco.png"  width="29" height="29" hspace="1" vspace="1" depthbias="29">
+      <animations>
+        <animation name="npc_cucco_idle" speed="120" mode="loop" from_frame="0" to_frame="1" />
+        <animation name="npc_cucco_hurt" speed="70" mode="once" from_frame="2" to_frame="2" />
+        <animation name="npc_cucco_scared" speed="120" mode="once" from_frame="4" to_frame="7" />
+      </animations> 
+    </image>
+    <image type="grid" name="enemy_floater_zombie_#" file="Data/Atlases/Actors/Enemies/Floater/floater.png"  width="50" height="50" hspace="1" vspace="1">
+      <animations>
+        <animation name="enemy_floater_walk_s" speed="150" mode="loop" from_frame="0" to_frame="3" />
+        <animation name="enemy_floater_walk_n" speed="150" mode="loop" from_frame="4" to_frame="7" />
+        <animation name="enemy_floater_hurt_s" speed="75" mode="once" from_frame="8" to_frame="11" />
+        <animation name="enemy_floater_hurt_n" speed="75" mode="once" from_frame="12" to_frame="15" />
+        <animation name="enemy_floater_shock_s" speed="35" mode="loop" from_frame="16" to_frame="23" />
+        <animation name="enemy_floater_shock_n" speed="35" mode="loop" from_frame="24" to_frame="31" />
+        <animation name="enemy_floater_fire_s" speed="35" mode="loop" from_frame="32" to_frame="35" />
+        <animation name="enemy_floater_fire_n" speed="35" mode="loop" from_frame="36" to_frame="39" />
+      </animations>
+    </image>
+   
+  
+   
+    <image type="grid" name="boss_whipper_body_#" file="Data/Atlases/Actors/Enemies/Bosses/Whipper/body.png"  width="31" height="33" hspace="1" vspace="1">
+      <animations>
+        <animation name="boss_whipper_body_idle_s" speed="250" mode="loop" from_frame="0" to_frame="1" />
+        <animation name="boss_whipper_body_idle_n" speed="250" mode="loop" from_frame="2" to_frame="3" />
+        <animation name="boss_whipper_body_hurt_s" speed="250" mode="loop" from_frame="4" to_frame="4" />
+        <animation name="boss_whipper_body_hurt_n" speed="250" mode="loop" from_frame="5" to_frame="5" />
+        <animation name="boss_whipper_body_shock_s" speed="250" mode="loop" from_frame="6" to_frame="7" />
+        <animation name="boss_whipper_body_shock_n" speed="250" mode="loop" from_frame="8" to_frame="9" />
+        <animation name="boss_whipper_body_blink_s" speed="250" mode="loop" from_frame="10" to_frame="10" />
+        <animation name="boss_whipper_body_blink_n" speed="250" mode="loop" from_frame="11" to_frame="11" />
+      </animations>
+    </image>  
+    <image type="grid" name="boss_whipper_tentacle_#" file="Data/Atlases/Actors/Enemies/Bosses/Whipper/tentacle.png"  width="20" height="20" hspace="1" vspace="1" origin="0.5,0.5">
+      <animations>
+        <animation name="boss_whipper_tentacle_idle" speed="150" mode="loop" from_frame="0" to_frame="0" />
+        <animation name="boss_whipper_tentacle_idle_squashed" speed="150" mode="loop" from_frame="1" to_frame="1" />
+        <animation name="boss_whipper_tentacle_hurt" speed="150" mode="loop" from_frame="2" to_frame="2" />
+        <animation name="boss_whipper_tentacle_hurt_squashed" speed="150" mode="loop" from_frame="3" to_frame="3" />
+        <animation name="boss_whipper_tentacle_shocked" speed="150" mode="loop" from_frame="4" to_frame="5" />
+        <animation name="boss_whipper_tentacle_shocked_squashed" speed="150" mode="loop" from_frame="6" to_frame="7" />
+        <animation name="boss_whipper_tentacle_blink" speed="150" mode="loop" from_frame="8" to_frame="8" />
+        <animation name="boss_whipper_tentacle_blink_squashed" speed="150" mode="loop" from_frame="9" to_frame="9" />
+      </animations>
+    </image>
+  
+	</images>
+	<animations>
+	</animations>
+</xml>

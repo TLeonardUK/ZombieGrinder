@@ -1,0 +1,26 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>gameplay_options</name>
+	</settings>
+	<layout>
+		<element name="title_label"   					type="Label" 		box="0,0,1,0.1" HAlign="Center" VAlign="Center" ForeColor="102,102,102,255" Padding="0,0,0,0" value="#menu_options_gameplay_title" />	
+
+		<element name="screen_shake_checkbox" 			type="CheckBox" 	box="0.15,0.15,0.7,0.070" FrameColor="255,255,255,200" Value="#menu_options_gameplay_screen_shake"  />	
+		<element name="interaction_arrows_checkbox" 	type="CheckBox" 	box="0.15,0.21,0.7,0.070" FrameColor="255,255,255,200" Value="#menu_options_gameplay_interaction_arrows"  />	
+		<element name="interaction_messages_checkbox" 	type="CheckBox" 	box="0.15,0.27,0.7,0.070" FrameColor="255,255,255,200" Value="#menu_options_gameplay_interaction_messages"  />
+    <!--
+    <element name="occluding_objects_checkbox" 		type="CheckBox" 	box="0.15,0.33,0.7,0.070" FrameColor="255,255,255,200" Value="#menu_options_gameplay_occluding_objects"  />	
+    -->
+		<element name="input_to_pickup_checkbox" 		type="CheckBox" 	box="0.15,0.33,0.7,0.070" FrameColor="255,255,255,200" Value="#menu_options_gameplay_input_to_pickup"  />
+    <element name="fire_when_aiming_checkbox" 		type="CheckBox" 	box="0.15,0.39,0.7,0.070" FrameColor="255,255,255,200" Value="#menu_options_gameplay_fire_when_aiming"  />
+    <element name="show_numeric_stats_checkbox" 		type="CheckBox" 	box="0.15,0.45,0.7,0.070" FrameColor="255,255,255,200" Value="#menu_options_gameplay_show_numeric_stats"  />
+
+    <element name="description_label" 	type="Label" 		box="0.15,0.55,0.7,0.24" ForeColor="156,157,158,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,200" Padding="10,10,10,10" Value="#menu_options_input_description" />	
+		
+		<element name="back_button" 					type="Button" 		box="0.15,0.85,0.3,0.070" FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#menu_back"  />	
+	</layout>
+</xml>
+

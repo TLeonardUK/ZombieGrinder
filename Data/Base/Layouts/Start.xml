@@ -1,0 +1,11 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>start</name>
+	</settings>
+	<layout>
+		<element name="title_label"   type="Label" box="0,0,1,0.1" HAlign="Center" VAlign="Center" ForeColor="102,102,102,255" Padding="0,0,0,0" value="#menu_start_title" />	
+	</layout>
+</xml>

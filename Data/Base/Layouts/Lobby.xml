@@ -1,0 +1,39 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>lobby</name>
+	</settings>
+	<layout>
+	
+		<element name="title_label"   			type="Label" box="0,0,1,0.1" HAlign="Center" VAlign="Center" ForeColor="102,102,102,255" Padding="0,0,0,0" value="#lobby_title" />	
+		
+		<element name="map_image_panel"			type="Panel"		box="0.15,0.15,0.3,0.3"    	 BackColor="255,255,255,255" BGScaleMode="Zoom" ForeImage="screen_main_map_preview_foreground" />
+		<element name="map_name_label"			type="Label"		box="0.16,0.16,0.28,0.28"	 ForeColor="255,255,255,220" Value="Names Goes Here" />	
+	
+    <!--
+		<element name="max_players_label"		type="Label"		box="0.15,0.45,0.3,0.050"	 ForeColor="255,255,255,220" VAlign="Bottom" Value="#lobby_number_of_players" />	
+    -->
+		<element name="secure_label"			type="Label"		box="0.16,0.34,0.3,0.050"	 ForeColor="255,255,255,220" VAlign="Bottom" Value="#lobby_vac_secure" />	
+		<element name="private_label"			type="Label"		box="0.16,0.39,0.3,0.050"	 ForeColor="255,255,255,220" VAlign="Bottom" Value="#lobby_private_game" />	
+		
+		<element name="player_list"				type="ListView"		box="0.49,0.15,0.45,0.3"     BackColor="255,255,255,220" BGScaleMode="Zoom" ForeImage="screen_main_map_preview_foreground" NoHeader="1" LeftElement="chat_box" DownElement="chat_box" />
+				
+		<element name="chat_panel"				type="Panel"		box="0.15,0.48,0.79,0.37"    BackColor="255,255,255,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,220" />
+		<element name="chat_history"			type="TextPanel"	box="0.16,0.49,0.77,0.26"    BackColor="255,255,0,220" />
+		<element name="chat_box"				type="TextBox"		box="0.16,0.76,0.77,0.070"   BackColor="255,0,255,220" LeftElement="back_button" UpElement="player_list" DownElement="start_button" />
+
+    <element name="start_button" 			type="Button" 		      box="0.15,0.87,0.18,0.070" 	FrameColor="255,255,255,200" Value="#lobby_start_game"                    RightElement="change_settings_button" LeftElement="back_button"             UpElement="chat_box" />
+    <element name="change_settings_button" 	type="Button" 		box="0.35,0.87,0.18,0.070" 	FrameColor="255,255,255,200" Value="#lobby_change_settings"               RightElement="invite_button"          LeftElement="start_button"            UpElement="chat_box" />
+    <element name="invite_button" 			type="Button" 		    box="0.55,0.87,0.18,0.070" 	FrameColor="255,255,255,200" Value="#lobby_invite"                        RightElement="back_button"            LeftElement="change_settings_button"  UpElement="chat_box" />
+    <element name="back_button" 			type="Button" 		      box="0.75,0.87,0.18,0.070" 	FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#lobby_leave_game"  RightElement="start_button"           LeftElement="invite_button"           UpElement="chat_box" />	
+
+		<element name="player_list_option_menu"	type="DropDownMenu" box="0.50,0.16,0.20,0.16" FrameColor="255,255,255,200">
+			<element name="kick_button" 	type="Button" 	box="0.05,0.05,0.9,0.30" FrameColor="255,255,255,200" Value="#lobby_kick_player" 	HAlign="Left" VAlign="Center" NoFrame="1" />			
+			<element name="profile_button" 	type="Button" 	box="0.05,0.35,0.9,0.30" FrameColor="255,255,255,200" Value="#lobby_view_profile" 	HAlign="Left" VAlign="Center" NoFrame="1" />			
+			<element name="close_button" 	type="Button" 	box="0.05,0.65,0.9,0.30" FrameColor="255,255,255,200" Value="#menu_close" 			HAlign="Left" VAlign="Center" NoFrame="1" />					
+		</element>
+		
+	</layout>
+</xml>

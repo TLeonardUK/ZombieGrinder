@@ -1,0 +1,15 @@
+<xml>
+	<editor>
+    <asset_type>Atlas</asset_type>
+	</editor>
+	<settings>
+		<texture-size>128</texture-size>
+		<max-textures>1</max-textures>
+		<name>Lab</name>
+	</setting>
+	<images>
+		<image type="grid" name="lab_tile_#" file="Data/Atlases/Tilesets/Lab/Lab.png" width="16" height="16" hspace="1" vspace="1" />	
+	</images> 
+	<animations>
+	</animations>
+</xml>

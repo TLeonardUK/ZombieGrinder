@@ -1,0 +1,13 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>confirm_resolution_dialog</name>
+	</settings>
+	<layout>
+		<element name="background"			type="Panel" 		box="0,0.35,1.0,0.3" 	  BackColor="0,0,0,220" AspectScaling="0" />		
+		<element name="label"				type="Label"		box="0.1,0.32,0.8,0.25"     ForeColor="200,200,200,220" Value=""  HAlign="Center" VAlign="Center" Padding="10,0,10,10" />
+		<element name="back_button" 		type="Button" 		box="0.35,0.54,0.3,0.070"  FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#menu_confirm"  />	
+	</layout>
+</xml>

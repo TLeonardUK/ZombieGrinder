@@ -1,0 +1,10 @@
+<xml>
+	<settings>
+		<name>large_dialog</name>
+	</settings>
+	<layout>
+		<element name="background"			type="Panel" 		box="0,0.15,1.0,0.7" 	  BackColor="0,0,0,220" AspectScaling="0" />		
+		<element name="label"				type="Label"		box="0.1,0.12,0.8,0.65"     ForeColor="200,200,200,220" HAlign="Center" VAlign="Center" Padding="10,0,10,10" Value="" UseMarkup="true" />
+		<element name="back_button" 		type="Button" 		box="0.35,0.74,0.3,0.070"  FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#menu_confirm"  />	
+	</layout>
+</xml>

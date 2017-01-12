@@ -1,0 +1,1538 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="name_long">日本語</string>
+  <string name="name_short">JPN</string>
+  <string name="title">ゾンビグラインダー</string>
+
+  <string name="menu_copyright">バージョン{GAME_VERSION} - Copyright TwinDrills 2009-2016</string>
+  <string name="load_message">ロード中 ...</string>
+
+  <string name="global_chat_server">サーバー</string>
+  <string name="global_chat_global">全体</string>
+  <string name="global_chat_not_access">あなたは全体チャットへのアクセスが許可されていません.</string>
+  <string name="global_chat_not_connected">あなたは全体チャットに接続されていません.</string>
+  <string name="global_chat_lost_connection">あなたは全体チャットへの接続に失敗しました.</string>
+  <string name="global_chat_kicked">あなたは全体チャットからKickあｓれました.</string>
+
+  <string name="autosave_warning">このゲームは自動保存システムを使用しています↵\nセーブの表示中はゲームを終了させないで下さい.↵\n↵\n↵\n[img=autosave_icon,1.0,1.0]</string>
+  <string name="premium_warning">あなたがこのゲームを楽しむために↵\n[c=255,194,14,255]Gold Account[/c] ゴールドアカウントの購入ができる!↵\n↵\nこれらの得点が付属されます↵\nこのナビ画面を消します!</string>
+
+  <string name="menu_premium_title">.ゴールドアカウントにアップデート</string>
+  <string name="menu_premium_purchase">Steamで購入する</string>
+  <string name="ban_notice_title">[c=235,52,52]ゲーム BAN[/c]</string>
+  <string name="ban_notice_exploit">不正</string>
+  <string name="ban_notice_cheat">チート</string>
+  <string name="ban_notice_abuse">不正行為</string>
+  <string name="ban_notice_grief">嫌がらせ</string>
+  <string name="ban_notice_type_seperator">", "</string>
+  
+  
+  <string name="moderation_download_success">リプレイのダウンロード</string>
+ 	<string name="moderation_download_failed">リプレイのダウンロードに失敗しました</string>
+ 	<string name="moderation_download_retry">リトライ</string>
+ 	<string name="moderation_judgement_inconclusive">私は証拠が決定的であると考えています。</string>
+	<string name="moderation_judgement_guilty">私は、ユーザーが有罪であると考えています。</string>
+	<string name="moderation_judgement_submit">判決を提出</string>
+	<string name="moderation_judgement_innocent">私は、ユーザーが無実であると考えています。</string>
+	
+	<string name="moderation_judgement_exploit">不正（ゲーム上の欠陥の悪用）</string>
+	<string name="moderation_judgement_cheat">不正行為（不正ソフトを使用してゲームを操作している）</string>
+	<string name="moderation_judgement_abuse">迷惑行為 (意図的な不愉快な行為)</string>
+	<string name="moderation_judgement_grief">嫌がらせ (不快になるような事を行っています)</string>
+
+	<string name="moderation_judgement_upload_message">あなたの判断はアップロードされていません.あなたは中段してプレイを続けることができます.右上のアイコンが消えるまでゲームを終了させないで下さい.</string>
+
+  <string name="restricted_mode_ingame_warning_title">[c=235,52,52]未認証のMAP[/c]</string>
+  <string name="restricted_mode_ingame_warning">認証が通るまであなたはXP、コイン、実績を得る事ができません.</string>
+
+  <string name="restricted_mode_warning_title">[c=235,52,52]制限付きモード[/c]</string>
+  <string name="mod_whitelisted">承認されました</string>
+  <string name="mod_not_whitelisted">未承認</string>
+  <string name="mod_view_non_whitelisted">未承認か？</string>
+  <string name="mod_whitelisted_warning_title">[c=235,52,52]改造警告[/c]</string>
+  <string name="inventory_item_drop_title">見つかりません ...</string>
+  <string name="inventory_item_challenge_drop_title">チャレンジ報酬</string>
+
+  <string name="inventory_item_drop_coins_name">%i コイン</string>
+  <string name="inventory_item_drop_coins_description">あなたは何にそれをすべてを費やすつもりですか？</string>
+  <string name="inventory_item_drop_xp_name">%i XP</string>
+  <string name="inventory_item_drop_xp_description">あなたのスキルや能力が強くなりました！</string>
+
+  <string name="no_user_assigned_to_input_device">この入力デバイスに割り当てられる文字はありません。文字を変更することはできません.</string>
+
+  <string name="inventory_item_broken_title">[c=255,64,64]あなたのアイテムが壊れました ...[/c]</string>
+  <string name="inventory_item_broken_sub">アイテムの破損を避けるためにはゲームやSteam マーケットを利用して無限耐久のアイテムを獲得!</string>
+ 
+  <string name="unlock_dialog_title">"[c=255,194,14,255]新しい物  ...[/c]"</string>
+
+  <string name="unlock_dialog_title_item_broken">[c=255,64,64,255]あなたのアイテムは %s 壊れている ...[/c]</string>
+  <string name="unlock_dialog_action_item_broken">[c=255,64,64,255]アイテム破損[/c]</string>
+  <string name="unlock_dialog_description_item_broken">あなたはゲーム中に長く生存するためにショップで↵\n新しい物を購入、検索する事ができます!</string>
+  
+  <string name="unlock_dialog_title_challenge">[c=255,194,14,255]あなたは %s を受け取った ...[/c]</string>
+  <string name="unlock_dialog_action_challenge">[c=255,194,14,255]チャレンジの報酬[/c]</string>
+    
+  <string name="unlock_dialog_title_online">[c=255,194,14,255]あなたは %s 達成した ...[/c]</string>
+  <string name="unlock_dialog_action_online">[c=255,194,14,255]STEAM アイテム[/c]</string>
+  
+  <string name="unlock_dialog_title_item_unlocked">[c=255,194,14,255]あなたは %s をアンロックしました ...[/c]</string>
+  <string name="unlock_dialog_action_item_unlocked">[c=255,194,14,255]アイテムのアンロック[/c]</string>
+  <string name="unlock_dialog_description_item_unlocked">%s↵\nあなたはショップから1つ購入する事ができます!</string>
+  
+  <string name="unlock_dialog_title_skill_unlocked">[c=64,64,255,255]あなたが必要なアンロック条件 [c=255,194,14,255]%s[/c] ...[/c]</string>
+  <string name="unlock_dialog_action_skill_unlocked">[c=64,64,255,255]スキル アンロック[/c]</string>
+  <string name="unlock_dialog_description_skill_unlocked">%s↵\nあなたはスキル画面から購入する事ができる!</string>
+  
+  <string name="unlock_dialog_title_unpack_xp">[c=64,64,255,255]あなたは開封できる [c=255,194,14,255]%i[/c] XP ...[/c]</string>
+  <string name="unlock_dialog_action_unpack_xp">[c=64,64,255,255]XP 開放[/c]</string>
+  <string name="unlock_dialog_description_unpack_xp">時間を読み上げを開始します!</string>
+  
+  <string name="unlock_dialog_title_unpack_coins">[c=64,64,255,255]あなたは開封します [c=255,194,14,255]%i[/c] コイン ...[/c]</string>
+  <string name="unlock_dialog_action_unpack_coins">[c=64,64,255,255]コイン開封[/c]</string>
+  <string name="unlock_dialog_description_unpack_coins">カウントダウンを開始します!</string>
+  
+  <string name="unlock_dialog_title_unpack_item">[c=64,64,255,255]あなたは開放します %s ...[/c]</string>
+  <string name="unlock_dialog_action_unpack_item">[c=64,64,255,255]アイテムの開封[/c]</string>
+  
+  <string name="menu_back">戻る</string>
+  <string name="menu_begin">開始</string>
+  <string name="menu_cancel">キャンセル</string>
+  <string name="menu_confirm">確認</string>
+  <string name="menu_refresh">更新</string>
+  <string name="menu_continue">続ける</string>
+  <string name="menu_combine">結合</string>
+  <string name="menu_apply_paint">ペイントを加える</string>
+  <string name="menu_cancel_combine">結合のキャンセル</string>
+  <string name="menu_equip">装備</string>
+  <string name="menu_unequip">装備解除</string>
+  <string name="menu_unpack">開放</string>
+  <string name="menu_sell">売却</string>
+  <string name="menu_upgrade">アップグレード</string>
+  <string name="menu_yes">はい</string>
+  <string name="menu_no">いいえ</string>
+  <string name="menu_close">閉じる</string>
+  <string name="menu_apply_changes">更新を適応</string>
+  <string name="menu_back_description">メニュー画面に戻る.</string>
+  <string name="menu_gamepad_enter_text">文字を入力します</string>
+  <string name="menu_open_workshop">ワークショップを開く</string>
+
+  <string name="menu_item_start">ゲームスタート</string>
+  <string name="menu_item_premium_account">ゴールドへのアップグレード</string>
+  <string name="menu_item_options">オプション</string>
+  <string name="menu_item_global_chat">全体チャット</string>
+  <string name="menu_item_credits">クレジット</string>
+  <string name="menu_item_quit">退出</string>
+
+  <string name="tutorial_title">[c=34,177,76]チュートリアル[/c]</string>
+  <string name="tutorial_movement">移動ボタン [key=left][key=up][key=down][key=right].</string>
+  <string name="tutorial_shoot">射撃ボタン [key=fire].</string>
+  <string name="tutorial_reload">リロードボタン [key=reload].</string>
+  <string name="tutorial_strafe">固定 [key=strafe] 移動しながら向いている方向を固定させる!</string>
+  <string name="tutorial_cycle_weapons">武器を変更する [key=WeaponCycleBackward][key=WeaponCycleForward].</string>
+  <string name="tutorial_fodder_zombies">ブルーゾンビはゾンビの視界に入らなければ無害です.</string>
+  <string name="tutorial_chaser_zombies">緑の凶悪なゾンビはあなたに向かって接近し襲いかかってきます.</string>
+  <string name="tutorial_explosive_zombies">爆弾ゾンビは弾丸を数発当てると爆発し近距離だとダメージを受けます.</string>
+  <string name="tutorial_large_blobby_zombies">大きい液体ゾンビは毒を吐く。液体ゾンビは分裂する事ができるので気を付けろ!</string>&gt;
+  <string name="tutorial_small_blobby_zombies">小さい液体ゾンビも毒を吐くが遅く死亡後しばらく毒をバラ撒くので注意が必要.</string>
+  <string name="tutorial_bouncer_zombies">バウンドは移動は遅いがジャンプして襲い掛かってくるので気を付けろ.</string>
+  <string name="tutorial_floater_zombies">フローターゾンビは血液ボールを吐き出し狙ってくるので注意が必要!</string>
+  <string name="tutorial_alt_fire">いくつかの武器は [key=altfire]を押すことで発動させる事ができる.</string>
+  <string name="tutorial_gems">宝石は強力なスキルを使用するのに使える [key=SkillSlot1][key=SkillSlot2][key=SkillSlot3]. スキルをメニューで確認して下さい.</string>
+  <string name="tutorial_coins">コインはショップから新しいアイテムや装備などを購入するのに使う事ができる!</string>
+  <string name="tutorial_interact">あなたは[key=interact]を押すとオブジェクトを使用する事ができる. 金色の矢印を覚えておいて下さい!</string>
+  <string name="tutorial_sprint">スタミナバーが満タンになってる場合[key=sprint] を押すとダッシュします.</string>
+
+  <string name="minimap_title">ダンジョンマップ - レベル %i</string>
+  <string name="minimap_controls">"移動 [key=left][key=up][key=down][key=right]  する"</string>
+
+  <string name="message_pickup_gem_title">[c=34,177,76]収集したアイテム[/c]</string>
+  <string name="message_pickup_gem">あなたが獲得した [c=34,177,76]%s[/c]はイベントリーに入りました.</string>
+
+  <string name="message_pickup_gem_sold_title">[c=235,152,152]イベントリーが限界です[/c]</string>
+  <string name="message_pickup_gem_sold">[c=34,177,76]%s[/c] はイベントリが限界のため [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]で売却されました</string>
+
+  <string name="message_inventory_full_title">[c=235,152,152]イベントリ限界[/c]</string>
+  <string name="message_inventory_full">イベントリが限界になりました!収集したアイテムは自動的に売却されます.</string>
+
+  <string name="message_wallet_full_title">[c=235,152,152]所持金限界[/c]</string>
+  <string name="message_wallet_full">財布は限界です!収集したコインは保存されません.</string>
+
+
+  <string name="scoreboard_column_coins">コイン</string>
+  <string name="scoreboard_column_kills">キル</string>
+  <string name="scoreboard_column_captures">キャプチャ</string>
+  <string name="scoreboard_column_deaths">死亡</string>
+  <string name="scoreboard_column_revives">復活</string>
+  <string name="scoreboard_title_eliminate_threat">脅威を排除せよ!</string>
+  <string name="scoreboard_title_survive">生き残るため戦え!</string>
+  <string name="scoreboard_title_follow_objectives">命令に従え!</string>
+  <string name="scoreboard_title_kill_everything">動くものすべてを殺せ!</string>
+  <string name="scoreboard_title_first_to_n">素早く %i 殺せ!</string>
+  <string name="scoreboard_title_capture_the_bag">カバンを取り戻せ!</string>
+  <string name="scoreboard_title_find_the_exit">出口を探せ!</string>
+
+  <string name="scoreboard_team_humans">生存者</string>
+  <string name="scoreboard_team_red">赤 チーム</string>
+  <string name="scoreboard_team_blue">青 チーム</string>
+  <string name="scoreboard_team_green">緑 チーム</string>
+  <string name="scoreboard_team_yellow">黄 チーム</string>
+
+  <string name="hud_boss_whipper_intro_text">The Whipper 出現</string>
+  <string name="hud_boss">[c=255,14,14]ボス[/c]</string>
+  <string name="hud_free_camera">フリーカメラ</string>
+  <string name="hud_spectating">観戦 - [c=0,200,200,255]%s[/c]</string>
+  <string name="hud_cycle_cameras">[key=fire] カメラチェンジ</string>
+  <string name="hud_cycle_cameras_demo_pause">%02i:%02i - %02i:%02i [key=fire] カメラ [key=interact] ポーズ [key=altfire] 再開 [key=left][key=right] 中止</string>
+  <string name="hud_cycle_cameras_demo_resume">%02i:%02i - %02i:%02i [key=fire] カメラ [key=interact] 履歴 [key=altfire] 再開 [key=left][key=right] 中止</string>
+  <string name="hud_being_revived">復活まで - [c=0,200,200,255]%s[/c]</string>
+  <string name="hud_press_to_control_zombie">[key=interact] ゾンビで復活できる</string>
+  <string name="hud_press_to_control_zombie_waiting">利用可能なゾンビを待っています ...</string>
+
+  <string name="game_over_coins_earnt">[c=255,194,14,255]コイン枚数[/c]</string>
+  <string name="game_over_skill_points_earnt">[c=0,200,200,255]残りスキルポイント[/c]</string>
+  <string name="leaderboad_auto_map">最高スコア - %s</string>
+
+  <string name="profile_stat_name_wallet_interest">最大所持金</string>
+  <string name="profile_stat_name_max_health">最大体力</string>
+  <string name="profile_stat_name_health_regen">体力回復</string>
+  <string name="profile_stat_name_speed">移動速度</string>
+  <string name="profile_stat_name_ammo_capacity">弾数容量</string>
+  <string name="profile_stat_name_ammo_regen">弾薬の回復</string>
+  <string name="profile_stat_name_gold_drop">コインのドロップ確率</string>
+  <string name="profile_stat_name_gold_magnet">ゴールドの獲得範囲</string>
+  <string name="profile_stat_name_buy_price">アイテムの購入価格</string>
+  <string name="profile_stat_name_sell_price">アイテムの販売価格</string>
+  <string name="profile_stat_name_gem_drop">宝石のドロップ確率</string>
+  <string name="profile_stat_name_gem_magnet">ジェムの収集範囲</string>
+  <string name="profile_stat_name_xp">経験値取得</string>
+  <string name="profile_stat_name_melee_damage">近接ダメージ</string>
+  <string name="profile_stat_name_melee_stamina">スタミナ</string>
+  <string name="profile_stat_name_rifle_damage">ライフルダメージ</string>
+  <string name="profile_stat_name_rifle_ammo">ライフルの弾数容量</string>
+  <string name="profile_stat_name_heavy_weapon_damage">重火器のダメージ</string>
+  <string name="profile_stat_name_heavy_weapon_ammo">重火器の弾</string>
+  <string name="profile_stat_name_explosion_radius">爆発半径</string>
+  <string name="profile_stat_name_enemy_status_duration">敵の状態異常時間</string>
+  <string name="profile_stat_name_turret_damage">タレットダメージ</string>
+  <string name="profile_stat_name_turret_ammo">タレットの弾数容量</string>
+  <string name="profile_stat_name_small_arms_damage">小型武器のダメージ</string>
+  <string name="profile_stat_name_small_arms_ammo">小型武器の弾数の容量</string>
+  <string name="profile_stat_name_buff_grenade_radius">グレネードの効果範囲</string>
+  <string name="profile_stat_name_buff_grenade_ammo">グレネードの所持容量</string>
+  <string name="profile_stat_name_ghost_life_time">ゴーストの存続時間</string>
+  <string name="profile_stat_name_ghost_revive_time">ゴーストの蘇生時間</string>
+  <string name="profile_stat_name_healing_speed">回復速度</string>
+  <string name="profile_stat_name_damage">ダメージ</string>
+  <string name="profile_stat_name_damage_taken">ダメージ耐性</string>
+  <string name="profile_stat_name_rate_of_fire">発射速度</string>
+  <string name="profile_stat_name_reload_speed">装填速度</string>
+  <string name="profile_stat_name_ammo_usage">弾薬の使用方法</string>
+  <string name="profile_stat_name_targetable">ターゲット表</string>
+
+  <string name="video_skip">スキップ</string>
+
+  <string name="game_over_level_complete_title">レベル コンプリート</string>
+  <string name="game_over_title">ゲームオーバー</string>
+  <string name="game_over_restart_text">再スタートまで %i ...</string>
+  <string name="game_over_continue_text">コンティニュー %i ...</string>
+  <string name="game_over_waiting_for_cutscenes">シーンカットのためプレイヤーを待っています ...</string>
+  <string name="game_over_bonus_base">チーム スコア</string>
+  <string name="game_over_bonus_round">ラウンド ボーナス</string>
+  <string name="game_over_bonus_time">時間ボーナス</string>
+  <string name="game_over_bonus_multiplier">Multiplier ボーナス</string>
+  <string name="game_over_bonus_pity">同情 ボーナス</string>
+  <string name="game_over_bonus_kills">キル ボーナス</string>
+  <string name="game_over_bonus_revives">蘇生ボーナス</string>
+  <string name="game_over_bonus_dungeon_level">ダンジョンレベル ボーナス</string>
+
+  <string name="prompt_price_postfix">" のため [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%i[/c]"</string>
+  <string name="ghost_revive_prompt">[key=interact] 蘇生</string>
+  <string name="press_button_prompt">[key=interact] 押す</string>
+  <string name="fill_ammo_prompt">[key=interact] 弾を拾う</string>
+  <string name="move_prompt">[key=interact] 移動</string>
+  <string name="place_prompt">[key=interact] 配置</string>
+  <string name="pickup_prompt">[key=interact] 拾う</string>
+  <string name="rebuild_prompt">[key=interact] 改造</string>
+  <string name="buy_generic_prompt">[key=interact] 購入 %s</string>
+  <string name="buy_open_prompt">[key=interact] 開ける</string>
+  <string name="interact_prompt">[key=interact] 応答</string>
+  <string name="interact_map_prompt">[key=interact] マップを観る</string>
+  <string name="buy_close_prompt">[key=interact] 閉じる</string>
+  <string name="buy_health_prompt">[key=interact] 体力購入 %s (+ %i HP)</string>
+  <string name="buy_armour_prompt">[key=interact] 防弾チョッキ購入 %s (+ %i Armor)</string>
+  <string name="save_survivor_prompt">[key=interact] 救助</string>
+  <string name="pet_cucco_prompt">[key=interact] ペット</string>
+  <string name="descend_prompt">[key=interact] 降りる</string>
+  <string name="item_soda_name">炭酸</string>
+  <string name="item_food_name">食料</string>
+
+  <string name="not_enough_coins_prompt">[img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%i[/c] が必要</string>
+
+  <string name="objective_push_the_button">ボタンを押して下さい!</string>
+  <string name="objective_get_to_the_mall">ショッピングセンターに迎え!</string>
+  <string name="objective_mall_closed_find_another_path">モールは閉じられた、別の入り口を見つけよう!</string>
+  <string name="objective_mall_find_entrance">モールへの入り口を探せ!</string>
+  <string name="objective_hold_out">"生存せよ  %s!"</string>
+
+  <string name="objective_load_up_at_gun_shop">ガンショップで強化せよ!</string>
+  <string name="objective_get_to_mall_back">モールの裏口へ迎え!</string>
+  <string name="objective_find_game_shop">ビデオゲームを探せ!</string>
+  <string name="objective_escape_mall">モールから逃げろ!</string>
+  <string name="objective_find_a_key">ドアは閉まっている、鍵を探せ!</string>
+
+  <string name="objective_find_transport">運輸会社を探せ!</string>
+
+  <string name="menu_mod_options_title">.steam ワークショップ</string>
+  <string name="menu_mod_options_apply">MODの変更を適応させるためにゲームを再起動します.</string>
+  <string name="menu_view_workshop">Steamのブラウザを参照</string>
+  <string name="menu_mod_preview">プレビュー</string>
+  <string name="menu_mod_name">名前</string>
+  <string name="menu_mod_author">著者</string>
+  <string name="menu_mod_not_subscribed">Modを登録しない.</string>
+
+  <string name="menu_mod_restart_dialog">Modを加えた変更が有効になったためゲームを再起動します.</string>
+
+  <string name="menu_mod_subscribe">登録</string>
+  <string name="menu_mod_unsubscribe">登録解除</string>
+  <string name="menu_mod_favorite">お気に入り</string>
+  <string name="menu_mod_unfavorite">お気に入りの解除</string>
+  <string name="menu_mod_view_on_steam">Staemで観覧する</string>
+  <string name="menu_mod_vote_up">良い</string>
+  <string name="menu_mod_vote_down">悪い</string>
+  <string name="menu_report_player_confirm_dialog">あなたのレポートがアップロードされています。アップロード中が終わったらゲームを続ける事ができますが画面右上のアイコンが消えるまでゲームを終了させないで下さい.</string>
+
+  <string name="menu_report_player_title">.チートを報告する</string>
+  <string name="menu_report_player_description">悪用、不正行為や選手を乱用の開発者に通知するためにこのツールを使用することができます。レポートを送信すると、あなたの最後のいくつかのゲームのデモ、そしてあなたの提供された情報は、アップロードされます。これは検討し、作用されます。このツールのミス使用は、時間を浪費し、一時的な禁止になることがあります。適切な場合にご使用ください.</string>
+  <string name="menu_report_player_explanation_title">説明：</string>
+  <string name="menu_report_player_timeline_title">時間：</string>
+  <string name="menu_report_player_player_title">プレイヤー:</string>
+
+  <string name="menu_report_player_timeline_5min">5分</string>
+  <string name="menu_report_player_timeline_10min">10分</string>
+  <string name="menu_report_player_timeline_15min">15分以上</string>  
+  <string name="menu_report_player_timeline_30min">30分</string>
+  <string name="menu_report_player_timeline_1hr">1時間以上</string>
+  
+  <string name="menu_report_player_send_report">レポートの送信</string>
+  <string name="menu_report_player_type_title">カテゴリー:</string>
+  <string name="menu_report_player_exploit">悪用（ゲーム上の欠陥の悪用）</string>
+  <string name="menu_report_player_cheat">チート（ツールなどを使用してゲームを動かしている）</string>
+  <string name="menu_report_player_abusive">暴言 (意図的な不愉快な行動)</string>
+  <string name="menu_report_player_griefing">嫌がらせ（不快になる好意を行う）</string>
+  
+  <string name="menu_server_browser_title">.サーバーブラウザ</string>
+  <string name="menu_server_browser_dedicated_label">[c=0,200,255,255]色[/c] = 専用</string>
+  <string name="menu_server_browser_user_label">[c=255,255,255,255]色[/c] = 着色されている</string>
+  <string name="menu_server_browser_name_column">名前</string>
+  <string name="menu_server_browser_map_column">マップ</string>
+  <string name="menu_server_browser_players_column">プレイヤー数</string>
+  <string name="menu_server_browser_ping_column">ピング</string>
+  <string name="menu_server_browser_source_internet">オンライン サーバー</string>
+  <string name="menu_server_browser_source_lan">LAN サーバー</string>
+  <string name="menu_server_browser_source_friends">フレンド達がいるサーバー</string>
+  <string name="menu_server_browser_source_favorites">お気に入りサーバー</string>
+  <string name="menu_server_browser_source_history">サーバー履歴</string>
+
+  <string name="menu_connecting_to_server">サーバーに接続 ...</string>
+
+  <string name="connect_overlay_error">接続中段時間 (%.1f s) ...</string>
+
+  <string name="menu_starting_local_server">ローカルサーバーでスタートします ...</string>
+
+  <string name="menu_rank_stats_title">.ランキングと統計</string>
+  
+  <string name="menu_game_setup_title">.ゲームのセットアップ</string>
+  <string name="menu_game_setup_find_game">ゲームを探す</string>
+  <string name="menu_game_setup_find_game_any_map">すべてのMAP</string>
+  <string name="menu_game_setup_quick_game">クイック ゲーム</string>
+  <string name="menu_game_setup_host_game">ホスト ゲーム</string>
+  <string name="menu_game_setup_browse_servers">サーバー参照</string>
+  <string name="menu_game_setup_moderation">適度</string>
+  <string name="menu_game_setup_ranks">ランキング / 統計</string>
+  <string name="menu_game_setup_find_game_description">自動であなたの要求に適したゲームに入場します.</string>
+  <string name="menu_game_setup_quick_game_description">素早くプレイ中のプレイヤーを探しゲームに坂します.</string>
+  <string name="menu_game_setup_host_game_description">ゲームをホストし独自の設定で一般プレイヤーが入れるゲームやフレンド限定の部屋を作成します.</string>
+  <string name="menu_game_setup_browse_servers_description">ゲーム中のすべての鯖や部屋を参照し任意の部屋を選ぶ事ができます.</string>
+  <string name="menu_game_setup_inventory_description">スキルや能力をアップグレード、アイテムを装備や改造、キャラクターの作成が可能!</string>
+  <string name="menu_game_setup_global_chat_description">すべてのプレイヤーにチャットが可能！全体チャットは各ゲームのチャットと繋がっていてコミュニケーションが可能.</string>
+  <string name="menu_game_setup_achievements_description">プレイして獲得した実績を観覧できます.</string>
+  <string name="menu_game_setup_leaderboards_description">あなたの世界ランキングや統計などを観覧できます.</string>
+  <string name="menu_game_setup_back_description">プレイヤーログインメニューに戻ります.</string>
+
+  <string name="menu_game_setup_challenge_daily">日替わりチャレンジ</string>
+  <string name="menu_game_setup_challenge_weekly">週替りチャレンジ</string>
+  <string name="menu_game_setup_challenge_monthly">月替りチャレンジ</string>
+  <string name="menu_game_setup_challenge_completed">完了</string>
+  <string name="menu_game_setup_challenge_time_remaining">残り時間: %02llud %02lluh %02llum %02llus</string>
+  <string name="menu_game_setup_challenge_rewards">報酬</string>
+  <string name="daily_challenge_completed_description">あなたは日替わりチャレンジを完了させました。報酬はメニュー画面で表示されます!</string>
+  <string name="weekly_challenge_completed_description">あなたは週替りチャレンジを完了させました。報酬はメニュー画面で表示されます!</string>
+  <string name="monthly_challenge_completed_description">あなたは月替りチャレンジを完了させました。報酬はメニュー画面で表示されます!</string>
+  <string name="daily_challenge_completed_name">[c=152,152,235]日替わりチャレンジ完了[/c]</string>
+  <string name="weekly_challenge_completed_name">[c=152,152,235]週替りチャレンジ終了[/c]</string>
+  <string name="monthly_challenge_completed_name">[c=152,152,235]月替りチャレンジ完了[/c]</string>
+
+  <string name="challenge_1hp_survival_description">体力1, 能力無し ＆ 無改造銃、あなたは %i on %s点のスコアを取得できますか?</string>
+  <string name="challenge_hp_bullets_description">射つたびに体力が減ります. あなたは %i on %s点のスコアを取得できますか?</string>
+  <string name="challenge_hp_movement_description">移動するたびに体力が減少、動かないと回復します.。あなたは %i on %s 点のスコアを取得できますか?</string>
+  <string name="challenge_max_multiplier_description">"あなたは1ゲームで  %i on %s のmultiplierを取得できますか?"</string>
+  <string name="challenge_max_score_description">あなたは %i on %s 点のスコアを取得できますか?</string>
+  <string name="challenge_max_waves_description">あなたはWaveゲームで %i on %s waveまでクリアできますか?</string>
+  <string name="challenge_bullets_fired_description">あなたは %i 発の弾を発射できますか?</string>
+  <string name="challenge_zombie_kills_description">あなたは %i 体の敵を倒せますか?</string>
+  <string name="challenge_pvp_kills_description">あなたは %i 人のプレイヤーを殺せますか?</string>
+  <string name="challenge_revive_players_description">あやなたは %i 人のプレイヤーを蘇生できますか?</string>
+  <string name="challenge_heal_players_description">あなたは他のプレイヤーの体力を累計で %i の回復を行なえますか?</string>
+  <string name="challenge_weapon_switch_description">あなたは10秒ごとに武器が切り替わります。Waveゲームで %i on %s　waveまでクリアできまｓか?</string>
+  <string name="challenge_reversed_controls_description">コントローラーが左右上下が逆転します。あなたは%i on %s waveまでクリアできますか?</string>
+  <string name="challenge_boxes_destroyed_description">あなたは箱を %i 個破壊できますか?</string>
+  <string name="challenge_modded_map_description">他の誰かとカスタム マップをプレイして下さい!</string>
+  <string name="challenge_pvp_top_place_description">あなたは対戦MAPで %i 回1位を取れますか?</string>
+  <string name="challenge_halloween_announce_name">不気味な幽霊で挑戦!</string>
+  <string name="challenge_halloween_description">不気味な幽霊になって1000個の飴やトウモロコシを集めるチャレンジ！</string>
+
+  <string name="challenge_halloween_announce_description">不気味な幽霊であなたはハローウィンの宝探しに挑戦します！飴やトウモロコシを1000個見つけると報酬を貰えます!</string>
+    
+  <string name="challenge_weapon_kills_description">あなたは%i ダメージの %s の武器修復できますか?</string>
+  <string name="challenge_weapon_sub_type_melee">近接武器</string>
+  <string name="challenge_weapon_sub_type_heavy">重火器</string>
+  <string name="challenge_weapon_sub_type_turret">タレット</string>
+  <string name="challenge_weapon_sub_type_small_arms">小型火器</string>
+  <string name="challenge_weapon_sub_type_rifle">ライフル</string>
+  <string name="challenge_weapon_sub_type_grenade">手榴弾</string>
+
+  <string name="challenge_to_many_local_users">チャレンジマップは自分1人のみで挑戦になります。他のユーザーはすべてログアウトさせてもう一度お試し下さい.</string>
+
+  <string name="menu_options_title">.オプション</string>
+  <string name="menu_options_input">キー配置</string>
+  <string name="menu_options_audio">音楽</string>
+  <string name="menu_options_graphics">グラフィック</string>
+  <string name="menu_options_gameplay">ゲームプレイ</string>
+  <string name="menu_options_misc">その他</string>
+  <string name="menu_options_mod">Steam ワークショップ</string>
+  <string name="menu_options_resolution_change_confirm">この解像度が正しい事を確認して下さい. %i 秒で元の解像度に戻します ...</string>
+  <string name="menu_options_input_press_bind_key">この動作を配置したいキーボード、ゲームパッドのキーを押して下さい.</string>
+  <string name="menu_options_input_description">自分の好みのキー配置の再び設定します。キーボード、マウス、ゲームパッドを完全にサポートします!</string>
+  <string name="menu_options_audio_description">ゲームの様々な音を調整できます。音楽や効果音のボリュームなどの調整.</string>
+  <string name="menu_options_graphics_description">ゲームの表示方法の設定の変更ができます。解像度の変更やグラフィックの細かい設定が可能.</string>
+  <string name="menu_options_gameplay_description">ゲーム中の様々な設定を変更できます。画面の揺れや矢印、表示物も含まれます.</string>
+  <string name="menu_options_misc_description">他のカテゴリーに適合しない別の設定を変更できます。言語やsteamの設定など.</string>
+  <string name="menu_options_mod_description">Steam ワークショップのユーザーが作成したコンテンツを検索、登録、削除できます.</string>
+  <string name="menu_options_credits_description">このゲームを作成した人々を観覧できます!</string>
+  <string name="menu_options_back_description">変更を適応せずに戻ります.</string>
+  <string name="menu_options_apply_description">すべての変更を適応します.</string>
+  
+  <string name="menu_options_gameplay_title">.ゲームプレイ オプション</string>
+  <string name="menu_options_gameplay_screen_shake">画面が揺れるのを有効にしますか？</string>
+  <string name="menu_options_gameplay_interaction_arrows">ナビゲーション矢印を表示しますか？</string>
+  <string name="menu_options_gameplay_interaction_messages">ナビゲーションメッセージを表示しますか？</string>
+  <string name="menu_options_gameplay_occluding_objects">邪魔な物体を透明化させますか?</string>
+  <string name="menu_options_gameplay_input_to_pickup">アイテムを拾う時にボタンで操作しますか？</string>
+  <string name="menu_options_gameplay_fire_when_aiming">自分が向いた方向を自動で撃ちますか?</string>
+  <string name="menu_options_gameplay_show_numeric_stats">体力などの情報を表示しますか?</string>
+  
+  <string name="menu_options_gameplay_screen_shake_description">近くで爆発して画面が揺れた時や特定の武器を発射した時.</string>
+  <string name="menu_options_gameplay_interaction_arrows_description">ナビゲーションに関する矢印の表示をします.</string>
+  <string name="menu_options_gameplay_interaction_messages_description">ナビゲーションメッセージの表示をします.</string>
+  <string name="menu_options_gameplay_occluding_objects_description">自分の周囲の邪魔な表示物を消し去ります.</string>
+  <string name="menu_options_gameplay_input_to_pickup_description">アイテムなどを拾う時にボタンを押して自分で拾います.</string>
+  <string name="menu_options_gameplay_fire_when_aiming_description">自分が向いた方向に自動で武器を発射します、これはよくあるツインスティックシューティングゲームの設定に似ています.</string>
+  <string name="menu_options_gameplay_show_numeric_stats_description">体力、スタミナ、XPなどの数値を表示しますか?</string>
+
+  <string name="menu_options_misc_title">.その他のオプション</string>
+  <string name="menu_options_misc_language_text">言語</string>
+  <string name="menu_options_misc_notification_text">Steam お知らせコーナー</string>
+
+  <string name="menu_options_audio_title">.音 オプション</string>
+  <string name="menu_options_audio_bgm_text">背景で流れる音楽のボリューム</string>
+  <string name="menu_options_audio_sfx_text">エフェクト音のボリューム</string>
+  <string name="menu_options_audio_voice_recv_text">ボイスチャットの受信のボリューム</string>
+  <string name="menu_options_audio_voice_send_text">ボイスチャットの送信のボリューム</string>
+  <string name="menu_options_audio_voice_enabled_text">ボイスチャットの有効化?</string>
+  <string name="menu_options_audio_voice_push_to_talk_enabled_text">押してる間だけ話す?</string>
+
+  <string name="menu_options_input_title">.インプット オプション</string>
+  <string name="menu_options_input_gamepad_dead_zone">ゲームパッドのデッドゾーン</string>
+  <string name="menu_options_input_column_1">アクション</string>
+  <string name="menu_options_input_column_2">キーボード</string>
+  <string name="menu_options_input_column_3">ゲームパッド</string>
+
+  <string name="menu_options_graphics_title">.グラフィック オプション</string>
+  <string name="menu_options_graphics_resolution">解像度:</string>
+  <string name="menu_options_graphics_mode">グラフィックモード：</string>
+  <string name="menu_options_graphics_quality">エフェクト密度：</string>
+  <string name="menu_options_graphics_advanced_settings">高度な設定</string>
+  <string name="menu_graphics_resolution_description">ゲームにレンダリングされるウィンドウのサイズを決定します。</string>
+  <string name="menu_graphics_mode_description">グラフィックスモードは、ウィンドウが表示される方法を決定します。</string>
+  <string name="menu_graphics_quality_description">このオプションは、グローバルガス、粒子と画面上の同様のオプションの効果の量を調整します。それを下げるとFPSを向上させることができます。</string>
+  <string name="menu_graphics_advanced_description">通常のレンダリングより詳細な調整を行えます.</string>
+
+  <string name="menu_options_advanced_graphics_title">.グラフィック オプション</string>
+  <string name="menu_options_advanced_graphics_vsync">垂直同期の有効?</string>
+  <string name="menu_options_advanced_graphics_hq2x">平滑化のフィルターを有効にする?</string>
+  <string name="menu_options_advanced_graphics_shaders">ポスト処理を有効化する?</string>
+  <string name="menu_options_advanced_graphics_distortion">ディストーションエフェクトを有効化する？</string>
+  <string name="menu_options_advanced_graphics_legacy">レガシーレンダラを使用しますか?</string>
+  <string name="menu_options_advanced_graphics_perf_overlay">パフォーマンス統計を表示しますか?</string>
+  <string name="menu_options_advanced_graphics_extended_perf_overlay">拡張パフォーマンスの統計を表示しますか?</string>
+  <string name="menu_options_advanced_graphics_vsync_description">垂直同期はあなたのモニターにゲームのフレームレートがリフレッシュレートをロックします。これは、画面引き裂きや他のグラフィカルアーティファクトを防ぐことができます。</string>
+  <string name="menu_options_advanced_graphics_hq2x_description">" 平滑化フィルタは、それがより高い解像度にアップスケールだとき、ピクセルアートを滑らかにするために使用されます。まだ非常に荒いが調整中! "</string>
+  <string name="menu_options_advanced_graphics_distortion_description">ディストーションエフェクトは、火災や爆発の周りの画面リップルを作るために使用されています.</string>
+  <string name="menu_options_advanced_graphics_perf_overlay_description">ゲーム内のパフォーマンスに関連する内部フレーム・タイミング情報を表示するオーバーレイを表示します.</string>
+  <string name="menu_options_advanced_graphics_shaders_description">後処理の効果がフルスクリーン効果の数を提供するために使用されます.</string>
+  <string name="menu_options_advanced_graphics_extended_perf_overlay_description">パーフォレーションオーバーレイのさらにより詳細なバージョンは、拡張されたタイミング情報が含まれていました.</string>
+  <string name="menu_options_advanced_graphics_legacy_description">固定機能パイプラインレンダラを使用します。ゲームは、機能的でなければなりませんが、ほとんどのグラフィック効果は使用できません.</string>
+  <string name="menu_options_advanced_graphics_legacy_description_forced">固定機能パイプラインレンダラを使用します。ゲームは、機能的でなければなりませんが、ほとんどのグラフィック効果が使用できなくなります。非常に下給電またはサポートされていないのGPUのみに使用すべきです。 [C=255,64,64,255]警告：お使いのGPUがサポートされていない[/ C]</string>
+
+  <string name="menu_player_login_title">コントローラーの割り当て</string>
+  <string name="menu_player_login_guest_name">ゲスト</string>
+  <string name="menu_player_login_press_to_join_first_player">[key=gui_input_select,keyboard] か[key=gui_input_select,joystick]</string>
+  <string name="menu_player_login_keyboard">[c=255,255,255]キーボード[/c]</string>
+  <string name="menu_player_login_joystick">[c=255,255,255]コントローラー %i[/c]</string>
+
+  <string name="menu_select_character_title">.キャラクター選択</string>
+  <string name="menu_select_character_new_character">&lt; 新しいキャラクターを作る &gt;</string>
+  <string name="menu_select_character_level">レベル %i</string>
+  <string name="menu_select_character_select">キャラクター決定</string>
+  <string name="menu_select_character_delete">キャラクター削除</string>
+  <string name="menu_select_character_create">キャラクター作成</string>
+  <string name="menu_select_character_confirm_delete">本当にこのキャラクターを削除して良いですか？</string>
+  <string name="menu_select_character_untitled_name">無名のキャラクター</string>
+  <string name="menu_select_character_confirm_untitled">あなたの標準の名前をキャラクターの名前として残しますか?</string>
+
+  <string name="matching_error_internal_error">内部エラーは整合処理によって防止しました.</string>
+  <string name="matching_error_invalid_state">マッチングシステムは無効な状態になったため操作を完了できませんでした.</string>
+  <string name="matching_error_offline">マッチングサーバへの接続がありません.</string>
+  <string name="matching_error_timeout">マッチング操作中にタイムアウトになりました.</string>
+  <string name="matching_error_access_denied">マッチングシステムはアクセスが拒否され操作を完了できませんでした.</string>
+  <string name="matching_error_limit_exceeded">マッチングシステムは、レート制限が発生し、操作を完了することができませんでした.</string>
+  <string name="matching_error_kicked">あなたはゲームから追放されました.</string>
+  <string name="matching_error_map_not_found">あなたはこのロビーで使用されるMAPがインストールされていません.</string>
+  <string name="matching_error_no_lobby_matches">ゲームが存在しないか条件が一致するおのが発見できませんでした.</string>
+
+  <string name="matching_error_dosent_exist">ゲームが存在しません.</string>
+  <string name="matching_error_no_permission">ゲームに参加する権限がありません.</string>
+  <string name="matching_error_full">このゲームは満員です.</string>
+  <string name="matching_error_banned">あなたはこのゲームへの入室を禁止されています.</string>
+  <string name="matching_error_clan_disabled">あなたのクランは無効になっています.</string>
+  <string name="matching_error_community_lock">あなたのアカウントはコミュニティーロックされています.</string>
+  <string name="matching_error_blocked_by_member">このゲームのメンバーがあなたをブロックしました.</string>
+  <string name="matching_error_contains_blocked_member">このゲームにはあなたがブロックしているメンバーが含まれます.</string>
+
+  <string name="net_error_internal_error">内部エラーで接続を防止しました.</string>
+  <string name="net_error_unavailable">接続する事ができません、リモートピアは利用できません.</string>
+  <string name="net_error_timeout">接続がタイムアウトになりました.</string>
+  <string name="net_error_wrong_version">このサーバーはゲームの異なるバージョンを使用してます.</string>
+  <string name="net_error_server_full">サーバーは満員です.</string>
+  <string name="net_error_server_premium">サーバーはプレミアムユーザーのみです.</string>
+  <string name="net_error_banned">あなたはこのサーバーへの接続を禁止されています.</string>
+  <string name="net_error_kicked">あなたはサーバーから追放されました.</string>
+  <string name="net_error_lost_connection">あなたはサーバーへの接続を失いました.</string>
+  <string name="net_error_duplicate_connection">サーバーは接続を拒否しました。すでにあなたはサーバーに接続しています.</string>
+  <string name="net_error_tranmission_error">接続は閉じられました.不正な形式のデーターを送受信したため.</string>
+  <string name="net_error_server_reserved">このサーバーは予約されています.</string>
+  <string name="net_error_invalid_ticket">サーバーは接続を拒否しました。無効な認証ticket.</string>
+  <string name="net_error_client_mod_missmatch">あなたはサーバーが現在実行しているバージョンが異なるか、またはModが入っていません、具体的には: %s</string>
+  <string name="net_error_server_mod_missmatch">サーバーはあなたが実行しているModのバージョンが違うか欠損しています、具体的には: %s</string>
+
+  <string name="online_platform_error_offline">オンライン・プラットフォームへの接続がありません.</string>
+  <string name="online_platform_feature_not_available_offline">あなたはSteamに接続されていません。Steamに接続が無いとこの機能は使えません.</string>
+  <string name="online_platform_feature_offline_lobby">このロビーはオフラインで作成されたため、この機能を使用できません。この機能を使うにはオンラインで再び作成して下さい.</string>
+
+  <string name="game_mode_prefix_name_ctb">バッグを奪え</string>
+  <string name="game_mode_prefix_name_arena">アリーナ</string>
+  <string name="game_mode_prefix_name_wave">WAVE</string>
+  <string name="game_mode_prefix_name_tdm">チーム デスマッチ</string>
+  <string name="game_mode_prefix_name_dm">デスマッチ</string>
+  <string name="game_mode_prefix_name_dc">ランダム ダンジョン</string>
+  <string name="game_mode_prefix_name_gg">ガン ゲーム</string>
+  <string name="game_mode_prefix_name_ggwave">ガンゲーム - WAVE</string>
+  <string name="game_mode_prefix_name_c1">キャンペーン - ニューゲーム</string>
+  <string name="game_mode_prefix_name_misc">その他</string>
+
+  <string name="host_game_game_mode_name_label">ゲームモード:</string>
+  <string name="host_game_map_name_label">マップ:</string>
+  <string name="host_game_map_player_count_label">プレイヤー人数:</string>
+  <string name="host_game_map_private_game">プライベートゲーム?</string>
+  <string name="host_game_map_secure_game">VAC 有効?</string>
+  <string name="host_game_map_local_host">ローカルホスト?</string>
+  <string name="host_game_map_host_game">ホスト ゲーム</string>
+  <string name="host_game_setting_up_server">ゲームの設定...</string>
+
+  <string name="find_game_game_mode_name_label">ゲームモード:</string>
+  <string name="find_game_map_name_label">マップ:</string>
+  <string name="find_game_map_join_games_in_progress">進行中のゲームに参加?</string>
+  <string name="find_game_map_join_lobbies">ロビーに参加?</string>
+  <string name="find_game_map_find_game">ゲームを探す</string>
+  <string name="find_game_finding_game">ゲームを検索中...</string>
+
+  <string name="lobby_change_settings">設定</string>
+  <string name="lobby_start_game">開始</string>
+  <string name="lobby_cancel_start">キャンセル</string>
+  <string name="lobby_invite">招待</string>
+  <string name="lobby_leave_game">退出</string>
+  <string name="lobby_title">.ロビー</string>
+  <string name="lobby_number_of_players">%i プレイヤーゲーム</string>
+  <string name="lobby_vac_secure">VAC 有効</string>
+  <string name="lobby_vac_insecure">VAC 無効</string>
+  <string name="lobby_private_game">プライベートゲーム</string>
+  <string name="lobby_public_game">公開ゲーム</string>
+  <string name="lobby_member_joined_lobby">[c=152,193,235,255]%s ロビーに参加.[/c]</string>
+  <string name="lobby_member_left_lobby">[c=152,193,235,255]%s ロビーを退出.[/c]</string>
+  <string name="lobby_member_searching_server">[c=152,193,235,255]ゲームサーバーを検索中.[/c]</string>
+  <string name="lobby_member_search_server_cancel">[c=152,193,235,255]検索をキャンセル.[/c]</string>
+  <string name="lobby_member_search_server_found">[c=152,193,235,255]サーバーを発見、ゲームを開始します.[/c]</string>
+  <string name="lobby_member_search_no_server_found">[c=152,193,235,255]サーバーが無いのでローカルホストで開始します.[/c]</string>
+  <string name="lobby_member_search_no_local_server">[c=152,193,235,255]ローカルホストで始める事ができません.[/c]</string>
+  <string name="lobby_member_open_slot">[c=128,128,128,128]オープンスロット[/c]</string>
+  <string name="lobby_member_owner_postfix">[c=255,64,64,128](リーダー)[/c]</string>
+  <string name="lobby_kick_player">プレイヤー追放</string>
+  <string name="lobby_view_profile">プロフィールを見る</string>
+  <string name="lobby_custom_map">カスタム マップ</string>
+
+  <string name="map_load_waiting_for_server">サーバーコマンドを待っています</string>
+  <string name="map_load_loading_map">マップを読み込んでいます</string>menu_game_setup_inventory_description
+  <string name="map_load_sending_client_info">クライアント情報を送信します</string>
+  <string name="map_load_sync_with_server">サーバーとの同期</string>
+  <string name="map_load_error_unknown_map">サーバーが使用しているマップがインストールされていません.</string>
+  <string name="map_load_error_failed_load">マップはありましたがデータが一致せずロードができませんでした.</string>
+  <string name="map_load_error_unknown_map_workshop">このサーバーに入るにはSteamのワークショップでユーザーが作ったマップを登録してから参加して下さい.</string>
+
+  <string name="sub_menu_copyright">バージョン {GAME_VERSION} - Copyright TwinDrills 2009-2016</string>
+  <string name="sub_menu_server_name">[c=0,200,200,255]%s[/c] - ホスト By %s</string>
+  <string name="sub_menu_global_chat_button_text">世界チャット</string>
+  <string name="sub_menu_inventory_button_text">キャラクタークラフト</string>
+  <string name="sub_menu_vote_button_text">投票 / 報告</string>
+  <string name="sub_menu_team_button_text">チーム変更</string>
+  <string name="sub_menu_achievements_button_text">実績</string>
+  <string name="sub_menu_leaderboards_button_text">リーダーボード</string>
+  <string name="sub_menu_statistics_button_text">統計</string>
+  <string name="sub_menu_exit_button_text">メニューを終了</string>
+
+  <string name="menu_global_chat_pipe_checkbox">ゲーム内すべての人のチャットにリンクする?</string>
+  <string name="menu_global_chat_online_label">全体チャットに%i 人参加してます.</string>
+  <string name="menu_global_chat_title">.世界チャット</string>
+
+  <string name="menu_inventory_not_available_in_pvp">[c=200,32,32]対戦では使用できません.[/c]</string>
+  <string name="menu_inventory_title">.キャラクター改造</string>
+  <string name="menu_inventory_voice_type">ボイスタイプ</string>
+  <string name="menu_inventory_voice_type_male">男性</string>
+  <string name="menu_inventory_voice_type_female">女性</string>
+  <string name="menu_inventory_max_level">最大レベル</string>
+  <string name="menu_inventory_create_title">.キャラクター作成</string>
+  <string name="menu_inventory_equipment">装備</string>
+  <string name="menu_inventory_skill_tree">スキルツリー</string>
+  <string name="menu_inventory_item_shop">アイテムショップ</string>
+  <string name="menu_inventory_broken">[c=255,64,64,255]破損[/c]</string>
+  <string name="menu_inventory_skill_tree_avail">スキルツリー ([img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c])</string>
+  <string name="menu_inventory_item_shop_avail">アイテムショップ ([img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c])</string>
+  <string name="menu_inventory_locked">[c=255,64,64]ロック[/c]</string>
+  <string name="menu_inventory_durability">耐久力</string>
+  <string name="menu_inventory_level">レベル %i</string>
+  <string name="menu_upgrade_title">武器をアップグレード</string>
+  <string name="menu_upgrade_multi_purchase">このアップグレードは1度しか行えません.</string>
+  <string name="menu_upgrade_not_available">このアップグレードは今までのアップグレードを購入するまで使用できません.</string>
+  <string name="menu_upgrade_no_energy">アップグレードするたに必要な宝石を持っていません.</string>
+  <string name="menu_upgrade_no_energy_can_combo">アップグレードに必要な宝石を持っていません、しかし何個かの宝石を合成する事でアップグレードが可能です。自動で宝石を結合しますか?</string>
+  <string name="menu_upgrade_max_level">この武器は最大レベルです。さらにアップグレードするには最大レベルを上げる必要がある。マイナスアップグレードを行う事で最大レベルを上げる事ができる.</string>
+  <string name="menu_upgrade_socket_name">%s　用のソケット</string>
+  <string name="menu_upgrade_socket_cost">%s アップグレードレベル</string>
+  <string name="menu_upgrade_socket_cost_negative">%s 最大アップグレードレベル</string>  
+  <string name="menu_upgrade_level_text">アップグレードレベル - %i/%i</string>
+
+  <string name="weapon_upgrade_mod_damage_description">%s%% ダメージ</string>
+  <string name="weapon_upgrade_mod_damage_description_bbcode">[color=#22B14C]%s%% ダメージ[/color]</string>
+  
+  <string name="weapon_upgrade_mod_ammocapacity_description">%s%% 弾数容量</string>
+  <string name="weapon_upgrade_mod_ammocapacity_description_bbcode">[color=#C06ADD]%s%% 弾数容量[/color]</string>
+  
+  <string name="weapon_upgrade_mod_rateoffire_description">%s%% 発射速度</string>
+  <string name="weapon_upgrade_mod_rateoffire_description_bbcode">[color=#FFC924]%s%% 発射速度[/color]</string>
+  
+  <string name="weapon_upgrade_mod_reloadspeed_description">%s%% 装填速度</string>
+  <string name="weapon_upgrade_mod_reloadspeed_description_bbcode">[color=#FF7E00]%s%%装填速度[/color]</string>
+  
+  <string name="weapon_upgrade_mod_projectilespeed_description">%s%% 弾速</string>
+  <string name="weapon_upgrade_mod_projectilespeed_description_bbcode">[color=#0080FF]%s%% 弾速[/color]</string>
+  
+  <string name="weapon_upgrade_mod_durability_description">%s%% 耐久力</string>
+  <string name="weapon_upgrade_mod_durability_description_bbcode">[color=#ED1C24]%s%% 耐久力[/color]</string>
+
+  <string name="weapon_upgrade_mod_infinite_durability_description">+ 無限耐久力</string>
+  <string name="weapon_upgrade_mod_infinite_durability_description_bbcode">[color=#ED1C24]+ 無限耐久力[/color]</string>
+
+  <string name="weapon_upgrade_mod_accuracy_description">%s%% 精度</string>
+  <string name="weapon_upgrade_mod_accuracy_description_bbcode">[color=#30BDF3]%s%% 精度[/color]</string>
+  
+  
+  <string name="weapon_upgrade_mod_penetration_description">%s%% 貫通</string>
+  <string name="weapon_upgrade_mod_penetration_description_bbcode">[color=#ED1C24]%s%% 貫通[/color]</string>
+
+  <string name="weapon_upgrade_mod_tri_barrel_description">+ 3倍の射線</string>
+  <string name="weapon_upgrade_mod_tri_barrel_description_bbcode">[color=#ED1C24]+ 3倍の射線[/color]</string>
+  
+  <string name="weapon_upgrade_mod_quad_barrel_description">+ 4倍の射線</string>
+  <string name="weapon_upgrade_mod_quad_barrel_description_bbcode">[color=#ED1C24]+ 4倍の射線[/color]</string>
+  
+  <string name="weapon_upgrade_mod_multi_tap_description">+ 2倍の射線</string>
+  <string name="weapon_upgrade_mod_multi_tap_description_bbcode">[color=#ED1C24]+ 2倍の射線[/color]</string>
+  
+  <string name="weapon_upgrade_mod_suicidal_description">+ 自滅的な射線</string>
+  <string name="weapon_upgrade_mod_suicidal_description_bbcode">[color=#ED1C24]+ 自滅的な射線[/color]</string>
+  
+
+  <string name="menu_equipment_title">.装備修理</string>
+  <string name="menu_equipment_sell_confirm">あなたは %s for [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]を販売しますか?</string>
+  <string name="menu_equipment_sell_confirm_inventory">あなたは %s [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]を販売しますか? これはsteam マーケットで売り買い可能なアイテムです.</string>
+  <string name="menu_equipment_sell_must_have_head">あなたは頭部のパーツを少なくても1つ所持しておく必要があります!このアイテムを販売するとあなたは頭が無くなってしまいます!</string>
+  <string name="menu_equipment_need_inventory_connection">オンラインの時にこのアクションを行う事ができます。マーケットプレスのイベントリ項目の観覧にはSteamへの接続が必要です.</string>
+  <string name="menu_equipment_cannot_equip_broken">壊れたアイテムを装備する事はできません。このアイテムは修復する事で装備できます.</string>
+  
+  <string name="menu_skills_title">.スキルツリー</string>
+  <string name="menu_skills_reroll">リロールスキル</string>
+  <string name="menu_skills_energy_source">%s 以上のポイントが必要です.</string>
+  <string name="menu_skills_reroll_cannot_multi_purchase">このスキルは初期化しても1度しか購入する事はできません.</string>
+  <string name="menu_skills_reroll_not_enough">初期化費用 [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c] が必要です.↵\n↵\n今より [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]が必要です.</string>
+  <string name="menu_skills_reroll_confirm">初期化に [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c] が必要です.↵\n↵\n初期化してスキルを振り直しますか?</string>
+  <string name="menu_skills_purchase_confirm">スキルを %s for[img=screen_main_skill_icon,1.0,1.0]で[c=0,200,200,255]%s[/c]ポイントで購入しますか?</string>
+  <string name="menu_skills_purchase_not_enough">[img=screen_main_skill_icon,1.0,1.0]で[c=0,200,200,255]%s[/c] で購入します.</string>
+  <string name="menu_skills_purchase_sibling_unlocked_mutex">このスキルは \'%s\' のスキルツリーを取得したために取ることができない.</string>
+  <string name="menu_skills_purchase_parent_not_unlocked">この \'%s\' を取得するためには、 \'%s\'を取得する必要があります.</string>
+  <string name="menu_skills_purchase_confirm_mutex">このスキルを取得した場合赤い線で表示されるどらかのラインにしか進めません.↵\n↵\nあなたは %s for [img=screen_main_skill_icon,1.0,1.0]を[c=0,200,200,255]%s[/c]で購入しますか?</string>
+  <string name="menu_skills_equip_slots">装備しているアクティブスキル</string>
+  <string name="menu_skills_purchase_skill_locked">このスキルは [c=255,64,64]ロック[/c]されています。解除するには条件を満たす必要があります.</string>  
+
+  <string name="menu_buy_item_title">\'[c=128,128,255,255]%s[/c]\'を購入する ...</string>
+  <string name="menu_buy_item_fragile_item_button_inventory_full">イベントリーが最大です.</string>
+  <string name="menu_buy_item_fragile_item_button_not_enoungh_coins">さらに [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c] が必要です.</string>
+  <string name="menu_buy_item_indestructable_item">耐久力が無制限なアイテムはSteamで売り買い、トレードが可能です。無制限アイテムはゲーム内でランダムでドロップかSteamマーケットを通して取得可能です.</string>
+  <string name="menu_buy_item_indestructable_item_button">無制限アイテムをSteamマーケットで購入します.</string>
+
+  <string name="menu_shop_title">.アイテムショップ</string>  
+  <string name="menu_shop_purchase_item_locked">このアイテムは [c=255,64,64]ロック[/c]されています。購入するためには条件を満たす必要があります.</string>  
+  <string name="menu_shop_purchase_item_confirm">あなたは \'%s\' for [img=screen_main_gold_icon,1.0,1.0]を[c=255,194,14,255]%s[/c]コインで購入しますか?</string>
+  <string name="menu_shop_purchase_full_inventory">あなたのインベントリがいっぱいです、スペースを作るまで、新しいアイテムを購入することはできません。</string>
+  <string name="menu_shop_unlock_required_rank">[img=game_hud_weaponicon_none_0,1.0,1.0][c=255,64,64,255]必要レベル %i[/c]</string>
+  <string name="menu_statistics_title">.統計</string>
+  <string name="menu_statistics_name_column">名前</string>
+  <string name="menu_statistics_value_column">数値</string>
+  <string name="menu_statistics_local">ローカルプレーヤー統計</string>
+  <string name="menu_statistics_global">世界 統計</string>
+
+  <string name="scoreboard_header_name">名前</string>
+  <string name="scoreboard_header_score">スコア</string>
+  <string name="scoreboard_header_deaths">死亡回数</string>
+  <string name="scoreboard_header_kills">殺傷数</string>
+  <string name="scoreboard_header_ping">Ping</string>
+
+  <string name="menu_achievements_title">.実績</string>
+
+  <string name="achievement_gold_name">金賞</string>
+  <string name="achievement_gold_description">1,000,000,000.以上のスコアを得る.</string>
+
+  <string name="achievement_silver_name">銀賞</string>
+  <string name="achievement_silver_description">10,000,000以上のスコアを得る.</string>
+
+  <string name="achievement_bronze_name">銅賞</string>
+  <string name="achievement_bronze_description">1,000,000以上のスコアを取得する.</string>
+
+  <string name="achievement_horder_name">買い物依存症じゃない</string>
+  <string name="achievement_horder_description">500.000Gold所持する!</string>
+
+  <string name="achievement_canttouchthis_name">俺って最高</string>
+  <string name="achievement_canttouchthis_description">ArenaかWaveで50Waveをクリアする.</string>
+
+  <string name="achievement_cheater_name">強者</string>
+  <string name="achievement_cheater_description">LV99に到達する ...</string>
+
+  <string name="achievement_cremationship_name">遠距離恋愛</string>
+  <string name="achievement_cremationship_description">128ピクセル離れた場所から累計で100体のゾンビを燃やす!</string>
+
+  <string name="achievement_developerdeath_name">くたばれ！開発者</string>
+  <string name="achievement_developerdeath_description">開発者を倒す.</string>
+
+  <string name="achievement_dick_name">ちんぽこ</string>
+  <string name="achievement_dick_description">なぜそんな事をするの？</string>
+
+  <string name="achievement_eagleeye_name">鋭い目</string>
+  <string name="achievement_eagleeye_description">50発撃ち一度も敵にヒットさせない.</string>
+
+  <string name="achievement_failure_name">死亡名人</string>
+  <string name="achievement_failure_description">死亡回数が501回なんて死ぬのが大好きなの?</string>
+
+  <string name="achievement_frigid_name">肌寒い</string>
+  <string name="achievement_frigid_description">100体のゾンビを凍らせる!</string>
+
+  <string name="achievement_itshotinhere_name">この中は暑い!</string>
+  <string name="achievement_itshotinhere_description">ゾンビを100体燃やす!</string>
+
+  <string name="achievement_headshothoncho_name">ヘッドショット主任</string>
+  <string name="achievement_headshothoncho_description">100体のゾンビの頭を吹き飛ばす!</string>
+
+  <string name="achievement_healinglevel1_name">愛の律法</string>
+  <string name="achievement_healinglevel1_description">10,000ポイントのHPを回復させる!</string>
+
+  <string name="achievement_healinglevel2_name">愛のギフト</string>
+  <string name="achievement_healinglevel2_description">50,000ポイントのHPを回復させる!</string>
+
+  <string name="achievement_healinglevel3_name">愛の力</string>
+  <string name="achievement_healinglevel3_description">100,000ポイントのHPを回復させる!</string>
+
+  <string name="achievement_healinglevel4_description">1,000,000ポイントのHPを回復させる!</string>
+
+  <string name="achievement_iceandfire_name">氷と炎</string>
+  <string name="achievement_iceandfire_description">5体の凍らせた敵に火を付ける.</string>
+
+  <string name="achievement_ihateboxes_name">私は箱を憎みます</string>
+  <string name="achievement_ihateboxes_description">あなたは物を大事にしないのですか?</string>
+
+  <string name="achievement_mammy_name">ママ</string>
+  <string name="achievement_mammy_description">お前下手くそだな、全滅したぞ!</string>
+
+  <string name="achievement_marathonman_name">ピクセルプッシャー</string>
+  <string name="achievement_marathonman_description">100万ピクセル移動する!</string>
+
+  <string name="achievement_n00b_name">初心者</string>
+  <string name="achievement_n00b_description">ゾンビを初めて倒す!</string>
+
+  <string name="achievement_owned_name">惨敗!</string>
+  <string name="achievement_owned_description">10人のプレイヤーを倒す.</string>
+
+  <string name="achievement_penetrator_name">貫通</string>
+  <string name="achievement_penetrator_description">1発で5体の敵を貫通させる!</string>
+
+  <string name="achievement_winner_name">勝者!</string>
+  <string name="achievement_winner_description">複数でプレイしてランキング10位以内に入る.</string>
+
+  <string name="achievement_redmist_name">赤い霧</string>
+  <string name="achievement_redmist_description">爆発で3体の敵を倒す.</string>
+
+  <string name="achievement_saviour_name">救世主</string>
+  <string name="achievement_saviour_description">死後の世界から戻ってきた相棒をお忘れなく!</string>
+
+  <string name="achievement_theghostisclear_name">幽霊はいません!</string>
+  <string name="achievement_theghostisclear_description">20人のプレイヤーを復活させる!</string>
+
+  <string name="achievement_trickshot_name">トリックショット</string>
+  <string name="achievement_trickshot_description">跳ね返った弾で累計100体の敵を倒す.</string>
+
+  <string name="achievement_youdidntcrash_name">あなたは私のヒーロー!</string>
+  <string name="achievement_youdidntcrash_description">60分間、一度も死亡する事無くプレイする事ができますか?</string>
+
+  <string name="achievement_zombiekiller_name">ゾンビキラー</string>
+  <string name="achievement_zombiekiller_description">Waveで10Waveをクリア!</string>
+
+  <string name="achievement_zombiemaster_name">ゾンビマスター</string>
+  <string name="achievement_zombiemaster_description">Waveで20Waveをクリア!</string>
+
+  <string name="achievement_zombiegrinder_name">ゾンビグラインダー</string>
+  <string name="achievement_zombiegrinder_description">Waveで30Waveをクリア!</string>
+
+  <string name="achievement_zombinator_name">ゾンビ虐殺者</string>
+  <string name="achievement_zombinator_description">ゾンビを53,598体倒す!</string>
+
+  <string name="achievement_multiplier5_name">獲得!</string>
+  <string name="achievement_multiplier5_description">multiplierを5倍にする.</string>
+
+  <string name="achievement_multiplier10_name">より高みへ!</string>
+  <string name="achievement_multiplier10_description">multiplierを10倍にする.</string>
+
+  <string name="achievement_multiplier15_name">こんなに多く</string>
+  <string name="achievement_multiplier15_description">multiplierを15倍にする.</string>
+
+  <string name="achievement_dungeonlevel1_name">ダンジョンクローラ</string>
+  <string name="achievement_dungeonlevel1_description">ランダムダンジョンモードの1階をクリア!</string>
+
+  <string name="achievement_dungeonlevel2_name">ダンジョンマスター</string>
+  <string name="achievement_dungeonlevel2_description">ランダムダンジョンモードの5階をクリア!</string>
+
+  <string name="achievement_dungeonlevel3_name">ダンジョンボス</string>
+  <string name="achievement_dungeonlevel3_description">ランダムダンジョンモードの10階をクリア!</string>
+
+  <string name="achievement_workshop_name">私はアイテムを作りました!</string>
+  <string name="achievement_workshop_description">ワークショップのアイテムを登録する!</string>
+
+  <string name="statistic_group_general">将軍</string>
+  <string name="statistic_group_players">プレーヤー</string>
+  <string name="statistic_group_enemies">敵</string>
+
+  <string name="statistic_aggregated_boxes_destroyed_name">グローバル・ボックスが破壊されました</string>
+  <string name="statistic_aggregated_boxes_destroyed_description">[未使用]</string>
+
+  <string name="statistic_aggregated_characters_created_name">キャラクター作成</string>
+  <string name="statistic_aggregated_characters_created_description">[未使用]</string>
+
+  <string name="statistic_aggregated_gold_gathered_name">ゴールド集め</string>
+  <string name="statistic_aggregated_gold_gathered_description">[未使用]</string>
+
+  <string name="statistic_aggregated_human_deaths_description">[未使用]</string>
+
+  <string name="statistic_aggregated_human_revives_description">[未使用]</string>
+
+  <string name="statistic_aggregated_level_ups_description">[未使用]</string>
+
+  <string name="statistic_aggregated_maps_played_description">[未使用]</string>
+
+  <string name="statistic_aggregated_pixels_moved_description">[未使用]</string>
+
+  <string name="statistic_aggregated_pvp_kills_description">[未使用]</string>
+
+  <string name="statistic_aggregated_human_deaths_name">人間の死亡</string>
+  <string name="statistic_aggregated_human_revives_name">人間の復活</string>
+  <string name="statistic_aggregated_level_ups_name">レベルアップ</string>
+  <string name="statistic_aggregated_maps_played_name">マップを遊んだ回数</string>
+  <string name="statistic_aggregated_pixels_moved_name">ピクセル移動</string>
+  <string name="statistic_aggregated_pvp_kills_name">PVPキル数</string>
+  <string name="statistic_aggregated_zombies_frozen_name">敵を凍らせた</string>
+  <string name="statistic_aggregated_zombies_frozen_description">[未使用]</string>
+
+  <string name="statistic_aggregated_zombies_ignited_name">敵を発火させた</string>
+  <string name="statistic_aggregated_zombies_ignited_description">[未使用]</string>
+
+  <string name="statistic_aggregated_zombies_killed_name">敵を倒した数</string>
+  <string name="statistic_aggregated_zombies_killed_description">[未使用]</string>
+
+  <string name="statistic_aggregated_zombies_shocked_name">ショックを受けた敵</string>
+  <string name="statistic_aggregated_zombies_shocked_description">[未使用]</string>
+
+  <string name="statistic_aggregated_play_time_name">プレイ時間 (時間)</string>
+  <string name="statistic_aggregated_play_time_description">[未使用]</string>
+
+  <string name="statistic_boxes_destroyed_name">ボックス破壊</string>
+  <string name="statistic_boxes_destroyed_description">[未使用]</string>
+
+  <string name="statistic_gold_gathered_name">ゴールド収集</string>
+  <string name="statistic_gold_gathered_description">[未使用]</string>
+
+  <string name="statistic_human_deaths_name">人の死亡の数</string>
+  <string name="statistic_human_deaths_description">[未使用]</string>
+
+  <string name="statistic_human_revives_name">人の復活</string>
+  <string name="statistic_human_revives_description">[未使用]</string>
+
+  <string name="statistic_maps_played_name">プレイしたマップ</string>
+  <string name="statistic_maps_played_description">[未使用]</string>
+
+  <string name="statistic_pixels_moved_name">ピクセル移動数</string>
+  <string name="statistic_pixels_moved_description">[未使用</string>
+
+  <string name="statistic_pvp_kills_name">対人キル数</string>
+  <string name="statistic_pvp_kills_description">[未使用]</string>
+
+  <string name="statistic_zombies_frozen_name">凍らせた敵の数</string>
+  <string name="statistic_zombies_frozen_description">[未使用]</string>
+
+  <string name="statistic_zombies_ignited_name">燃えた敵の数</string>
+  <string name="moderation_downloading">リプレイのダウンロード中, %.2f%% ...</string>
+	<string name="moderation_download_judgement_dialog">リプレイの再生は終了しています。（再生がまた始まっていない場合）今判断をしたいと思いますか？</string>	
+	<string name="moderation_judgement_description">解答を見ましたが、何らかの不正の有効な証拠があるとは信じられません.</string>
+ 	<string name="inventory_item_unpack_drop_title">開封できません ...</string>
+  <string name="menu_buy_item_fragile_item_button_not_available">このアイテムは破損していて利用できません.</string>
+  <string name="statistic_zombies_ignited_description">[未使用]</string>
+
+  <string name="statistic_zombies_killed_name">敵を倒した</string>
+  <string name="statistic_zombies_killed_description">[未使用]</string>
+
+  <string name="statistic_zombies_shocked_name">敵はショックを受けた</string>
+  <string name="statistic_zombies_shocked_description">[未使用]</string>
+
+  <string name="statistic_zombies_long_distance_ignited_name">離れた敵は発火する</string>
+  <string name="statistic_zombies_long_distance_ignited_description">[未使用]</string>
+
+  <string name="statistic_damage_dealt_name">ダメージの分散</string>
+  <string name="statistic_damage_dealt_description">[未使用]</string>
+
+  <string name="statistic_healing_dealt_name">回復の分散</string>
+  <string name="statistic_healing_dealt_description">[未使用]</string>
+
+  <string name="statistic_zombies_frozen_ignited_name">凍った敵が発火します</string>
+  <string name="statistic_zombies_frozen_Ignited_description">[未分類]</string>
+
+  <string name="statistic_highest_rank_name">最高ランク</string>
+  <string name="statistic_highest_rank_description">[未使用]</string>
+
+  <string name="statistic_highest_score_name">最高スコア</string>
+  <string name="statistic_highest_score_description">[未使用]</string>
+
+  <string name="statistic_highest_multiplier_name">最高 Multiplier</string>
+  <string name="statistic_highest_multiplier_description">[未使用]</string>
+
+  <string name="statistic_highest_wave_name">最高 Wave</string>
+  <string name="statistic_highest_wave_description">[未使用]</string>
+
+  <string name="statistic_rebound_shots_name">キルリバウンド</string>
+  <string name="statistic_rebound_shots_description">[未使用]</string>
+
+  <string name="statistic_play_time_name">プレイ時間 (時間)</string>
+  <string name="statistic_play_time_description">[未使用]</string>
+
+  <string name="statistic_zombies_headshots_name">ヘッドショット数</string>
+  <string name="statistic_zombies_headhosts_description">[未使用]</string>
+
+  <string name="statistic_dungeon_level_name">最高ダンジョンレベル</string>
+  <string name="statistic_dungeon_level_description">[未使用]</string>
+
+  <string name="menu_leaderboards_title">.リーダーボード</string>
+  <string name="menu_leaderboards_friends_only">フレンド限定表示?</string>
+  <string name="menu_leaderboards_rank_column">ランク</string>
+  <string name="menu_leaderboards_rank_short_column">#</string>
+  <string name="menu_leaderboards_name_column">名前</string>
+  <string name="menu_leaderboards_score_column">スコア</string>
+  <string name="menu_leaderboards_loading_text">ロード中...</string>
+  <string name="menu_leaderboards_no_entries_text">リーダーボードにエントリーがありません.</string>
+  <string name="menu_leaderboards_no_entries_short_text">参加者がいません.</string>
+
+  <string name="chat_message_player_join">%s はゲームに参加しています.</string>
+  <string name="chat_message_player_leave">%s はゲームを退出しました.</string>
+  <string name="chat_message_player_rename">%s は %s に名前を変更しました.</string>
+  <string name="chat_message_player_team_change">%s は [c=%i,%i,%i,255]%s[/c] にチームを変更しました.</string>
+  <string name="chat_message_invalid_command">無効な形式のコマンド.</string>
+  <string name="chat_message_invalid_destination">不明のユーザー.</string>
+  <string name="chat_message_game_global">[c=100,255,100](世界) [c=80,200,80]%s[/c]: %s[/c]</string>
+  <string name="chat_message_vote_passed">投票は可決された!</string>
+  <string name="chat_message_vote_failed">投票は否決された!</string>
+  <string name=" chat_message_vote_cannot_kick_dev">開発者は投票結果を回避できる.</string>
+  <string name="chat_message_vote_cannot_kick_host">ホストは投票結果を回避できる.</string>
+  <string name="chat_message_player_killed">[c=220,60,70]%s[/c] は [c=220,60,70]%s[/c]を殺した.</string>
+  <string name="chat_message_player_killed_imposter">[c=220,60,70]%s[/c] は [c=220,60,70]%s[/c]\'s [c=220,60,70]%s[/c] に殺された.</string>
+  <string name="chat_message_player_killed_enemy">[c=220,60,70]%s[/c] が殺された.</string>
+  <string name="chat_message_player_captured_bag">[c=%i,%i,%i,255]%s[/c] はカバンを盗んだ.</string>
+  <string name="chat_message_called_invalid_map_vote">%s はMAPの投票を呼びかけた.</string>
+
+  <string name="sub_menu_vote_report_player">不正を報告中</string>
+  <string name="sub_menu_vote_kick_player">プレイヤーを追放</string>
+  <string name="sub_menu_vote_restart_map">マップを再スタート</string>
+  <string name="sub_menu_vote_enter_edit_mode">編集モードに入る</string>
+  <string name="sub_menu_vote_exit_edit_mode">編集モードをやめる</string>
+  <string name="sub_menu_vote_change_map">マップ変更</string>
+  <string name="sub_menu_vote_start">投票スタート</string>
+  <string name="sub_menu_vote_player_title">プレイヤーを選択してください:</string>
+  <string name="sub_menu_vote_map_title">マップ選択:</string>
+  <string name="sub_menu_edit_mode_vote_name">編集モードの変更</string>
+  <string name="sub_menu_edit_mode_vote_enter_description">編集モードに入る?</string>
+  <string name="sub_menu_edit_mode_vote_exit_description">編集モードを出る?</string>
+  <string name="sub_menu_kick_vote_name">プレイヤー追放</string>
+  <string name="sub_menu_kick_vote_description">追放 \'%s\'?</string>
+  <string name="sub_menu_kick_vote_unknown_user">不明のユーザー</string>
+  <string name="sub_menu_restart_vote_name">マップ再スタート</string>
+  <string name="sub_menu_restart_vote_description">マップを再スタートする?</string>
+  <string name="sub_menu_change_map_vote_name">マップ変更</string>
+  <string name="sub_menu_change_map_vote_description">マップを \'%s\' に変更する?</string>
+  <string name="sub_menu_kick_vote_unknown_map">不明のマップ</string>
+  <string name="vote_overlay_vote_yes">[key=voteyes] で はい</string>
+  <string name="vote_overlay_vote_no">[key=voteno] で いいえ</string>
+
+  <string name="editor_pfx_editor">パーティクルFX編集</string>
+  <string name="editor_show_collision">コリジョンのオプティマイズ</string>
+  <string name="editor_show_lighting">照明 表示</string>
+  <string name="editor_show_paths">パスの表示</string>
+  <string name="editor_show_randgen">ランダム生成テンプレートを表示</string>
+  <string name="editor_show_grid">グリッドの表示テンプレート</string>
+  <string name="editor_new_map">新しいマップ</string>
+  <string name="editor_open_map">マップを開く</string>
+  <string name="editor_save_map">マップ保存</string>
+  <string name="editor_save_map_as">マップの上書き</string>
+  <string name="editor_return_to_game">ゲームに戻る</string>
+  <string name="editor_exit_to_menu">メニューに戻る</string>
+  <string name="editor_exit_to_editor">編集に戻る</string>
+  <string name="editor_new_pfx">新しいPFX</string>
+  <string name="editor_open_pfx">PFXを開く</string>
+  <string name="editor_save_pfx">PFXの保存</string>
+  <string name="editor_save_pfx_as">PFXの上書き</string>
+  <string name="editor_undo">アンド</string>
+  <string name="editor_redo">やり直す</string>
+  <string name="editor_cut">カット</string>
+  <string name="editor_copy">コピー</string>
+  <string name="editor_paste">ペースト</string>
+  <string name="editor_delete">削除</string>
+  <string name="editor_reset_camera">カメラリセット</string>
+  <string name="editor_layer1">レイヤー1</string>
+  <string name="editor_layer2">レイヤー2</string>
+  <string name="editor_layer3">レイヤー3</string>
+  <string name="editor_layer4">レイヤー4</string>
+  <string name="editor_layer5">レイヤー5</string>
+  <string name="editor_tiles">タイル</string>
+  <string name="editor_collision">コリジョン</string>
+  <string name="editor_objects">オブジェクト</string>
+  <string name="editor_select">選択</string>
+  <string name="editor_paint">ペイント</string>
+  <string name="editor_flood">食べ物</string>
+  <string name="editor_circle">サークル</string>
+  <string name="editor_erase">消去</string>
+  <string name="editor_map_properties">マップのプロパティ</string>
+  <string name="editor_object_properties">オブジェクトのプロパティ</string>
+  <string name="editor_windows">ウインドウ</string>
+  <string name="editor_change_tool">ツール変更</string>
+  <string name="editor_change_mode">モード変更</string>
+  <string name="editor_change_layer">レイヤー変更</string>
+  <string name="editor_change_layer_visibility">可視化レイヤーの変更</string>
+  <string name="editor_change_tile_properties">タイル変更のプロパティ</string>
+  <string name="editor_view">観る</string>
+  <string name="editor_edit">エデット</string>
+  <string name="editor_file">ファイル</string>
+  <string name="editor_flip_h">左右反転</string>
+  <string name="editor_flip_v">垂直方向に反転</string>
+  <string name="editor_publish_as_mod">ワークショップに公開</string>
+
+  <string name="editor_publish_text">このマップはワークショップにアップロードされ公開されます。すでに公開されてる場合はファイルが更新されます.↵\n↵\nあなたはこのマップを提出する事によりSteamのワークショップの条項に同意します.</string>
+  <string name="editor_view_agreement">規約を表示</string>
+  <string name="editor_cancel">キャンセル</string>
+  <string name="editor_publish">公開する</string>
+  <string name="editor_publish_name_text">名前: %s</string>
+  <string name="editor_publish_description_text">説明: %s</string>
+  <string name="editor_publish_mod_description_text">%s ゲームモード: %s プレイ最大人数: %i</string>
+  <string name="editor_publish_progress_text">Steamのワークショップにアップロード中 ( %.2f%% ) ... しばらくお待ち下さい ...</string>
+  <string name="editor_error_game_mode_enabled">マップをゲーム内で遊ぶためには何かゲームモードを決めなくてはいけない.</string>
+  <string name="editor_error_game_mode_main">マップを使用可能にするには少なくても1つの設定を有効にする必要があります.</string>
+  <string name="editor_error_preview_center">マップを使えるようにするにはプレビューセンターマーカーを設置する必要があります.</string>
+  <string name="editor_error_player_start">マップを使用可能にするためには少なくても1人のプレイヤースタート地点を設置する必要があります.</string>
+  <string name="editor_error_preview_save">マップを続けて作成するためには保存する必要があります.</string>
+  <string name="editor_error_internal_error">公開中に内部エラーが発生しました.</string>
+
+  <string name="editor_error_path_marker">マップを使用するためには少なくても1つのパイロンを設置する必要があります.</string>
+  <string name="wave_game_mode_refactory_countdown">%i を開始する</string>
+  <string name="wave_game_mode_active_countdown">Wave %i - 残り%i</string>
+  <string name="wave_gun_game_mode_active_countdown">"Wave %i - %s -  残り %i"</string>
+
+  <string name="dungeon_game_mode_level">ダンジョンレベル %i</string>
+
+  <string name="dm_game_mode_winning_status">[c=0,200,200,255]%s[/c] は [c=255,194,14,255]%i[/c] キルで勝利した</string>
+  <string name="dm_game_mode_kills_left_status">残り撃破数 [c=255,194,14,255]%i[/c]</string>
+  <string name="dm_game_mode_final_kill_status">[c=220,60,70]最後のキル![/c]</string>
+  <string name="dm_game_mode_tie_status">最初のキルを待っています</string>
+
+  <string name="tdm_game_mode_winning_status">[c=%i,%i,%i,255]%s[/c] は [c=255,194,14,255]%i[/c] キルで勝利</string>
+  <string name="tdm_game_mode_kills_left_status">残りキル数 [c=255,194,14,255]%i[/c]</string>
+  <string name="tdm_game_mode_final_kill_status">[c=220,60,70]最後のキル![/c]</string>
+  <string name="tdm_game_mode_tie_status">最初のキルを待っている</string>
+
+  <string name="ctb_game_mode_winning_status">[c=%i,%i,%i,255]%s[/c] は [c=255,194,14,255]%i[/c] キルで勝利した</string>
+  <string name="ctb_game_mode_final_kill_status">[c=220,60,70]最後のバッグ![/c]</string>
+  <string name="ctb_game_mode_tie_status">チームを組む</string>
+
+  <string name="gg_game_mode_winning_status">[c=0,200,200,255]%s[/c] は[c=255,194,14,255]%i / %i[/c] ティアーで勝利した</string>
+  <string name="gg_game_mode_tie_status">最初のキルを待っています</string>
+
+  <string name="reu_game_mode_winning_status">[c=0,200,200,255]%s[/c] は [c=255,194,14,255]%i[/c] キルで勝利した</string>
+  <string name="reu_game_mode_tie_status">最初のキルを待っています</string>
+  <string name="reu_game_mode_weapon_change">[c=255,194,14,255]武器変更![/c]</string>
+
+  <string name="ctb_game_mode_capture_status">[c=%i,%i,%i,255]%s[/c] バッグの争奪戦!</string>
+  <string name="ctb_game_mode_countdown_status">[c=255,194,14,255]%i[/c] でマッチのスタート...</string>
+  <string name="ctb_game_mode_bag_respawn_timer">[c=255,194,14,255]%i[/c] でバッグが復活...</string>
+  <string name="ctb_game_mode_bag_retrieve_status">[c=%i,%i,%i,255]%s[/c] はすでにバッグを持っている!</string>
+  <string name="ctb_game_mode_bag_carry_status">バッグ輸送者を殺せ!</string>
+  <string name="ctb_game_mode_bag_carry_team_status">バッグ輸送者を守れ!</string>
+  <string name="ctb_game_mode_bag_capture_status">バッグを奪取しろ!</string>
+
+  <string name="pvp_game_mode_waiting_for_players">プレイヤーを待っています...</string>
+
+  <string name="item_unlimited_prefix">無制限の %s</string>
+  <string name="item_indestructable_prefix">不滅の %s</string>
+  <string name="item_fragile_prefix">壊れ物 %s</string>
+
+  <string name="item_varient_damage">有害な %s</string>
+  <string name="item_varient_ammo_capacity">広々とした %s</string>
+  <string name="item_varient_rate_of_fire">効率的な %s</string>
+  <string name="item_varient_reload_speed">クイックロード %s</string>
+  <string name="item_varient_projectile_speed">素早い %s</string>
+  <string name="item_varient_accuracy">繊細な %s</string>
+  <string name="item_varient_penetrating">目覚ましい %s</string>
+  <string name="item_varient_tri_barrel">トライバレル %s</string>
+  <string name="item_varient_quad_barrel">クアッドバレル %s</string>
+  <string name="item_varient_multi_tap">タッピング %s</string>
+  <string name="item_varient_suicidal">自殺的な %s</string>
+  
+  
+
+  <string name="item_single_use_postfix">%s シングルプレイ限定.</string>
+  <string name="item_unlimited_use_postfix">%s 無制限に使用可.</string>
+  
+  <string name="item_drink_name">飲料</string>
+  <string name="item_armor_name">防弾チョッキ</string>
+  <string name="item_medipack_name">救急箱</string>
+  <string name="item_nachos_name">ナチョス</string>
+  <string name="item_pill_name">ピル</string>
+  <string name="item_pill_container_name">薬入れ</string>
+  <string name="item_ammo_name">弾薬</string>
+  <string name="item_coin_bag_name">お財布</string>
+
+
+
+
+  <string name="item_rocket_launcher_2_name">ターボランチャー</string>
+  <string name="item_rocket_launcher_2_description">小さいロケットと一緒にあなたの敵はスポーンする.</string>
+  <string name="item_rocket_launcher_2_category">アイテム</string>
+
+  <string name="item_rocket_launcher_3_name">皆殺しランチャー</string>
+  <string name="item_rocket_launcher_3_description">強力ですが弾は遅いです!すべてが消滅する.</string>
+  <string name="item_rocket_launcher_3_category">アイテム</string>
+
+  <string name="item_sword_name">達人の剣</string>
+  <string name="item_sword_description">達人の剣を使える。あなたは達人とほぼ同じ動きができると言えるでしょう.</string>
+  <string name="item_sword_category">アイテム</string>
+
+  <string name="item_frag_name">スタン手榴弾</string>
+  <string name="item_frag_description">ピンを抜いて投げるのを忘れないで下さい.</string>
+  <string name="item_frag_category">アイテム</string>
+
+  <string name="item_molotov_name">火炎瓶</string>
+  <string name="item_molotov_description">自分も着火するので気をつけて下さい.</string>
+  <string name="item_molotov_category">アイテム</string>
+
+
+
+
+  <string name="item_bison_cap_name">黄金の牛の角</string>
+  <string name="item_bison_cap_description">黄金？そうです！！そうです！！</string>
+  <string name="item_bison_cap_category">帽子</string>
+  <string name="item_top_hat_name">シルクハット</string>
+  <string name="item_top_hat_description">高いクラスを開く事ができる!</string>
+  <string name="item_top_hat_category">帽子</string>
+  <string name="item_headset_name">ヘッドセット</string>
+  <string name="item_headset_category">アクセサリー</string>
+  <string name="item_halo_name">ヘイロー開発者</string>
+  <string name="item_halo_description">残虐なルールで押さえ付ける!</string>
+  <string name="item_halo_category">アクセサリー</string>
+  <string name="item_pompador_name">ささやかなパフ</string>
+  <string name="item_pompador_category">帽子</string>
+  <string name="item_player1hair_name">ジョーダンの頭</string>
+  <string name="item_player1hair_description">ジョーダンでいつもプレイできる!</string>
+  <string name="item_player1hair_category">帽子</string>
+  <string name="item_player2hair_name">デルコの頭</string>
+  <string name="item_player2hair_description">いつもデルコでプレイ!</string>
+  <string name="item_player2hair_category">帽子</string>
+  <string name="item_player3hair_name">トラビスの帽子</string>
+  <string name="item_player3hair_description">いつもトラビスでプレイ!</string>
+  <string name="item_player3hair_category">帽子</string>
+  <string name="item_player4hair_name">ティムの頭</string>
+  <string name="item_player4hair_description">いつでもティムでプレイ!</string>
+  <string name="item_player4hair_category">帽子</string>
+  <string name="item_gatsby_name">ギャツビー</string>
+  <string name="item_gatsby_description">明確なスタイル!</string>
+  <string name="item_gatsby_category">帽子</string>
+  <string name="item_turbo_boy_name">ターボ少年</string>
+  <string name="item_turbo_boy_description">腕に大砲はありません.</string>
+  <string name="item_turbo_boy_category">帽子</string>
+  <string name="item_cheer_bringer_name">チアーブリンガー</string>
+  <string name="item_cheer_bringer_description">リストを作る: もう一度確認して下さい.</string>
+  <string name="item_cheer_bringer_category">帽子</string>
+  <string name="item_louisiana_jones_name">ルイジアナ・ジョーンズ</string>
+  <string name="item_louisiana_jones_description">ランチ男がやって来た!</string>
+  <string name="item_louisiana_jones_category">帽子</string>
+  <string name="item_antlers_name">又角</string>
+  <string name="item_antlers_description">ほぉ～、これは悪趣味だ!</string>
+  <string name="item_antlers_category">アクセサリー</string>
+  <string name="item_ghetto_superstar_name">ゲットースーパースター</string>
+  <string name="item_ghetto_superstar_description">ここは間違いなくあなたの世界です.</string>
+  <string name="item_ghetto_superstar_category">アクセサリー</string>
+  <string name="item_bow_name">弓</string>
+  <string name="item_bow_description">ゾンビを可愛らしく殺す!</string>
+  <string name="item_bow_category">アクセサリー</string>
+  <string name="item_glasses_name">眼鏡</string>
+  <string name="item_glasses_description">おそらく精度を向上させる事ができる...</string>
+  <string name="item_glasses_category">アクセサリー</string>
+  <string name="item_beanie_1_name">ビーニータイプ 1</string>
+  <string name="item_beanie_1_description">ビーニー帽!</string>
+  <string name="item_beanie_1_category">帽子</string>
+  <string name="item_beanie_2_name">ビーニータイプ 2</string>
+  <string name="item_beanie_2_description">可愛いビーニー帽!</string>
+  <string name="item_beanie_2_category">帽子</string>
+  <string name="item_little_sis_name">妹</string>
+  <string name="item_little_sis_description">特に面白い事を言いません...</string>
+  <string name="item_little_sis_category">帽子</string>
+  <string name="item_scruffy_sidekick_name">だらしない仲間</string>
+  <string name="item_scruffy_sidekick_description">ある日突然、あなたは脚光を浴びるでしょう!</string>
+  <string name="item_scruffy_sidekick_category">帽子</string>
+  <string name="item_pillager_name">略奪者</string>
+  <string name="item_pillager_description">唯一無二! （だと思う...）</string>
+  <string name="item_pillager_category">帽子</string>
+  <string name="item_desgardes_name">デスカプ</string>
+  <string name="item_desgardes_description">デビッド・カプランオリジナル!</string>
+  <string name="item_desgardes_category">帽子</string>
+  <string name="item_golfers_delight_name">ゴルファーの喜び</string>
+  <string name="item_golfers_delight_description">同じ目方の金に等しい値打ちがある!</string>
+  <string name="item_golfers_delight_category">帽子</string>
+  <string name="item_scouter_name">スカウター</string>
+  <string name="item_scouter_description">戦闘力を読み取ることはできません...</string>
+  <string name="item_scouter_category">アクセサリー</string>
+  <string name="item_gi_joe_description">ゾンビに頭を奪われる事は無い!</string>
+  <string name="item_gi_joe_category">帽子</string>
+  <string name="item_bsod_name">運命のバグスマッシュ</string>
+  <string name="item_bsod_description">hat.exeでエラーが発生しました.</string>
+  <string name="item_bsod_category">帽子</string>
+  <string name="item_boxbot_name">人造人間</string>
+  <string name="item_boxbot_description">面白い型の匂いが...</string>
+  <string name="item_boxbot_category">帽子</string>
+  <string name="item_pigtails_name">おさげ</string>
+  <string name="item_pigtails_description">良い！短くて良い!</string>
+  <string name="item_pigtails_category">帽子</string>
+  <string name="item_poniteru_name">ぼさぼさのポニーテール</string>
+  <string name="item_poniteru_description">調整することを忘れないでください！</string>
+  <string name="item_poniteru_category">帽子</string>
+  <string name="item_twintails_name">ツインテール</string>
+  <string name="item_twintails_description">ツインテールより多い!</string>
+  <string name="item_twintails_category">帽子</string>
+  <string name="item_twindrills_name">ツインドリル</string>
+  <string name="item_twindrills_description">空を突き抜ける!</string>
+  <string name="item_twindrills_category">帽子</string>
+  <string name="item_bison_cap_2_name">バイソンシルバー</string>
+  <string name="item_bison_cap_2_description">シルバー?まぁまぁ.</string>
+  <string name="item_bison_cap_2_category">帽子</string>
+  <string name="item_bison_cap_3_name">バイソン ブロンズ</string>
+  <string name="item_bison_cap_3_description">ブロンズ?いいえ!いいえ!</string>
+  <string name="item_bison_cap_3_category">帽子</string>
+  <string name="item_ami_name">アイドル 1</string>
+  <string name="item_ami_description">ドレスで抜けだして来た?</string>
+  <string name="item_ami_category">帽子</string>
+  <string name="item_mami_name">アイドル 2</string>
+  <string name="item_mami_description">ドレスで脱走して来た?</string>
+  <string name="item_mami_category">帽子</string>
+  <string name="item_nekomimi_name">猫耳</string>
+  <string name="item_nekomimi_description">ニャーと泣きながら顔を叩く</string>
+  <string name="item_nekomimi_category">アクセサリー</string>
+  <string name="item_aviators_name">飛行士</string>
+  <string name="item_aviators_description">尊敬し心構えよ!</string>
+  <string name="item_aviators_category">アクセサリー</string>
+  <string name="item_shades_name">サングラス</string>
+  <string name="item_shades_description">これでなんとか我慢してくれよ...</string>
+  <string name="item_shades_category">アクセサリー</string>
+  <string name="item_ball_cap_name">野球帽</string>
+  <string name="item_ball_cap_description">チームメートのサイン入りです!</string>
+  <string name="item_ball_cap_category">帽子</string>
+  <string name="item_dantz_name">ダンツ</string>
+  <string name="item_dantz_description">元4位のオリジナルプレイヤー!</string>
+  <string name="item_dantz_category">帽子</string>
+  <string name="item_flat_top_name">角刈り</string>
+  <string name="item_flat_top_description">芸術的な角刈り!</string>
+  <string name="item_flat_top_category">帽子</string>
+  <string name="item_fred_head_name">赤毛</string>
+  <string name="item_fred_head_description">赤毛のフレディー!</string>
+  <string name="item_fred_head_category">帽子</string>
+  <string name="item_trucker_name">追跡者</string>
+  <string name="item_trucker_description">ふざけた頭で身を隠すスタイル!</string>
+  <string name="item_trucker_category">帽子</string>
+  <string name="item_heroic_hood_name">英雄の頭巾</string>
+  <string name="item_heroic_hood_description">英雄の時間 - ゾンビを虐殺!</string>
+  <string name="item_heroic_hood_category">帽子</string>
+  <string name="item_desura_name">いきな帽子</string>
+  <string name="item_desura_description">Desuraのキャンペーン中のご利用ありがとうございます!</string>
+  <string name="item_desura_category">帽子</string>
+  <string name="item_masterson_name">マスターソン軍曹</string>
+  <string name="item_masterson_description">了解した 詳細を求む.</string>
+  <string name="item_masterson_category">帽子</string>
+  <string name="item_shizue_name">元気のいいポニーテール</string>
+  <string name="item_shizue_description">ドレスアップ!</string>
+  <string name="item_shizue_category">帽子</string>
+  <string name="item_thugpomp_name">暴力的なポンパドール</string>
+  <string name="item_thugpomp_description">オタクの夕食代の欲しがります!</string>
+  <string name="item_thugpomp_category">帽子</string>
+  <string name="item_pumpkin_name">パンプキン!</string>
+  <string name="item_pumpkin_description">あなたのビジョンは曖昧です...</string>
+  <string name="item_pumpkin_category">帽子</string>
+  <string name="item_skull_name">骨!!</string>
+  <string name="item_skull_description">味方を怖がらせます!!ひえー!!</string>
+  <string name="item_skull_category">帽子</string>
+  <string name="item_doppleganger_name">ゾンビ マスク</string>
+  <string name="item_doppleganger_description">しばらくすると内部にも侵食します・・・グロい...</string>
+  <string name="item_doppleganger_category">帽子</string>
+  <string name="item_yayoi_name">アイドル 3</string>
+  <string name="item_yayoi_description">デビュー後にグループから追い出された孤独な人.</string>
+  <string name="item_yayoi_category">帽子</string>
+  <string name="item_presento_name">プレゼント!</string>
+  <string name="item_presento_description">驚きの紙吹雪*</string>
+  <string name="item_presento_category">帽子</string>
+  <string name="item_steve_name">ボブ</string>
+  <string name="item_steve_description">私が採掘したものを見て!</string>
+  <string name="item_steve_category">帽子</string>
+  <string name="item_gameboy_name">古いロボット</string>
+  <string name="item_gameboy_description">4本の単三電池は付属していません。面白い付属効果があります.</string>
+  <string name="item_gameboy_category">アクセサリー</string>
+  <string name="item_deus_ex_name">深淵</string>
+  <string name="item_deus_ex_description">問題あるテロリスト集団.</string>
+  <string name="item_deus_ex_category">アクセサリー</string>
+  <string name="item_scattergun_name">散弾銃</string>
+  <string name="item_scattergun_description">どうか弱くして下さい.</string>
+  <string name="item_scattergun_category">アイテム</string>
+  <string name="item_uzi_name">ウージー</string>
+  <string name="item_uzi_description">タタタタタタッ!</string>
+  <string name="item_uzi_category">アイテム</string>
+
+  <string name="item_moe_eyes_name">可愛い目</string>
+  <string name="item_moe_eyes_description">誰か私を助けて...</string>
+  <string name="item_moe_eyes_category">アクセサリー</string>
+
+  <string name="item_afro_puff_name">アフロ</string>
+  <string name="item_afro_puff_description">無理やりディスコに帰ってやる.</string>
+  <string name="item_afro_puff_category">帽子</string>
+
+  <string name="item_beret_name">ベレー</string>
+  <string name="item_beret_description">この帽子を見たら敬礼しろ.</string>
+  <string name="item_beret_category">帽子</string>
+
+  <string name="item_big_sis_name">大きい姉さん</string>
+  <string name="item_big_sis_description">アニメみたいな頭Yo!</string>
+  <string name="item_big_sis_category">帽子</string>
+
+  <string name="item_buckethead_name">ペンキの缶</string>
+  <string name="item_buckethead_description">これはペンキの缶詰であるが帽子にもなる!</string>
+  <string name="item_buckethead_category">帽子</string>
+
+  <string name="item_colbydude_name">冷徹な男</string>
+  <string name="item_colbydude_description">とても邪悪な顔をしている!</string>
+  <string name="item_colbydude_category">帽子</string>
+
+  <string name="item_cowlick_name">立ち毛</string>
+  <string name="item_cowlick_description">良く見る典型的な髪型に見えるが...........</string>
+  <string name="item_cowlick_category">帽子</string>
+
+  <string name="item_engineer_hat_name">建築業者ボブ</string>
+  <string name="item_engineer_hat_description">私を拘束する?糞食らえだ.</string>
+  <string name="item_engineer_hat_category">帽子</string>
+
+  <string name="item_foozball_name">フットボール・ヘルメット</string>
+  <string name="item_foozball_description">俺は忙しくてそれどころじゃないんだが!</string>
+  <string name="item_foozball_category">帽子</string>
+
+  <string name="item_froghat_name">カエル帽子</string>
+  <string name="item_froghat_description">少し親切です...</string>
+  <string name="item_froghat_category">帽子</string>
+
+  <string name="item_jojo_name">ジョジョ</string>
+  <string name="item_jojo_description">冒険はあなたを待っています...</string>
+  <string name="item_jojo_category">帽子</string>
+
+  <string name="item_meguca_name">マカク</string>
+  <string name="item_meguca_description">苦しんでいます...</string>
+  <string name="item_meguca_category">帽子</string>
+
+  <string name="item_messy_bun_name">汚いロールパン</string>
+  <string name="item_messy_bun_description">ゾンビが周りに多いのでちょっと良く見える.</string>
+  <string name="item_messy_bun_category">帽子</string>
+
+  <string name="item_moe_mop_name">萌えモップ</string>
+  <string name="item_moe_mop_description">毛が多すぎる...</string>
+  <string name="item_moe_mop_category">帽子</string>
+
+  <string name="item_ryuko_name">極端中の極端</string>
+  <string name="item_ryuko_description">道に迷わないでください...</string>
+  <string name="item_ryuko_category">帽子</string>
+
+  <string name="item_secret_snake_name">ジェイク・バクストン</string>
+  <string name="item_secret_snake_description">計算された妄想被害?</string>
+  <string name="item_secret_snake_category">帽子</string>
+
+  <string name="item_slenderbag_name">浪費家</string>
+  <string name="item_slenderbag_description">あれ、誰かこれを望みましたか???</string>
+  <string name="item_slenderbag_category">帽子</string>
+
+  <string name="item_twinbuns_name">リナ</string>
+  <string name="item_twinbuns_description">彼女はとても可愛い!</string>
+  <string name="item_twinbuns_category">帽子</string>
+  
+  <string name="item_barricade_name">バリケード</string>
+  <string name="item_barricade_description">役立つバリケードは後で組み立てるぜ!</string>
+  <string name="item_barricade_category">アイテム</string>
+
+  <string name="item_love_pylon_name">パイロンを愛してる</string>
+  <string name="item_love_pylon_description">さらなるパイロンを建設しなければなりません!</string>
+  <string name="item_love_pylon_category">アイテム</string>
+  <string name="item_turret_name">タレット</string>
+  <string name="item_turret_description">弾薬をまったく節約してくれません!</string>
+  <string name="item_turret_category">アイテム</string>
+  <string name="item_tripmine_name">射出地雷</string>
+  <string name="item_tripmine_description">文字通りに敵は地雷で爆発しませｎ.</string>
+  <string name="item_tripmine_category">アイテム</string>
+  <string name="item_shotgun_name">ショットガン</string>
+  <string name="item_shotgun_description">標準的なスペック!</string>
+  <string name="item_shotgun_category">アイテム</string>
+  <string name="item_rpc_name">ロケット推進チェーンソー</string>
+  <string name="item_rpc_description">このチェーンソウはどこに向かって突き進むのか?</string>
+  <string name="item_rpc_category">アイテム</string>
+  <string name="item_rocket_launcher_name">ロケットランチャー</string>
+  <string name="item_rocket_launcher_description">すべての破壊を試してみよう...</string>
+  <string name="item_rocket_launcher_category">アイテム</string>
+  <string name="item_magnum_name">マグナム</string>
+  <string name="item_magnum_description">クリント・イーストウッドが署名しました!</string>
+  <string name="item_magnum_category">アイテム</string>
+  <string name="item_grenade_launcher_name">グレネードランチャー</string>
+  <string name="item_grenade_launcher_description">ポンポン撃ってすべてを破壊せよ!</string>
+  <string name="item_grenade_launcher_category">アイテム</string>
+  <string name="item_freeze_ray_name">氷結光線</string>
+  <string name="item_freeze_ray_description">最悪のFPSのアレであるコンプトン刑務所から行くからな!</string>
+  <string name="item_freeze_ray_category">アイテム</string>
+  <string name="item_flamethrower_name">火炎放射器</string>
+  <string name="item_flamethrower_description">一般家庭にある日常品から作りました!</string>
+  <string name="item_flamethrower_category">アイテム</string>
+  <string name="item_double_barrel_shotgun_name">ダブルバレルショットガン</string>
+  <string name="item_double_barrel_shotgun_description">スマートトップの第一線武器!</string>
+  <string name="item_double_barrel_shotgun_category">アイテム</string>
+  <string name="item_sticky_launcher_name">ねばねばランチャー</string>
+  <string name="item_sticky_launcher_description">顔に向けて発射しないで下さい.</string>
+  <string name="item_sticky_launcher_category">アイテム</string>
+  <string name="item_baseball_bat_name">野球のバット</string>
+  <string name="item_baseball_bat_description">スタートウエポン</string>
+  <string name="item_baseball_bat_category">アイテム</string>
+  <string name="item_love_cannon_name">ラブ カノン</string>
+  <string name="item_love_cannon_description">世界を愛で満たそう!</string>
+  <string name="item_love_cannon_category">アイテム</string>
+  <string name="item_laser_cannon_name">レーザーカノン</string>
+  <string name="item_laser_cannon_description">充電が終わったら発射だ!</string>
+  <string name="item_laser_cannon_category">アイテム</string>
+  <string name="item_flare_gun_name">燃焼銃</string>
+  <string name="item_flare_gun_description">何かを燃やしたり手助けするのに良いです!</string>
+  <string name="item_flare_gun_category">アイテム</string>
+  <string name="item_spaz_name">無能</string>
+  <string name="item_spaz_description">もっとも色々やって欲しい銃.</string>
+  <string name="item_spaz_category">アイテム</string>
+  <string name="item_fire_turret_name">火炎放射タレット</string>
+  <string name="item_fire_turret_description">危険物の資格を取りましょう!</string>
+  <string name="item_fire_turret_category">アイテム</string>
+  <string name="item_freeze_turret_name">氷結タレット</string>
+  <string name="item_freeze_turret_description">危険物の資格を取れ!</string>
+  <string name="item_freeze_turret_category">アイテム</string>
+  <string name="item_rocket_turret_name">ロケットタレット</string>
+  <string name="item_rocket_turret_description">希望や夢を乗せて実行されます!</string>
+  <string name="item_rocket_turret_category">アイテム</string>
+  <string name="item_love_thrower_name">ラブ投射機</string>
+  <string name="item_love_thrower_description">フレンドを愛の力で燃えあげろ!</string>
+  <string name="item_love_thrower_category">アイテム</string>
+  <string name="item_winchester_rifle_name">ウィンチェスターライフル</string>
+  <string name="item_winchester_rifle_description">この武器で勝てる!</string>
+  <string name="item_winchester_rifle_category">アイテム</string>
+  <string name="item_acid_gun_name">酸化銃</string>
+  <string name="item_acid_gun_description">酷いドロドロした時間の始まり!</string>
+  <string name="item_acid_gun_category">アイテム</string>
+  <string name="item_buff_grenade_health_name">バフグレネード - 回復</string>
+  <string name="item_buff_grenade_health_description">範囲内のすべてのプレイヤーを回復させる.</string>
+  <string name="item_buff_grenade_health_category">アイテム</string>
+  <string name="item_buff_grenade_ammo_name">バフグレネード - 弾薬</string>
+  <string name="item_buff_grenade_ammo_description">範囲内のすべてのプレイヤーの弾薬を回復させる.</string>
+  <string name="item_buff_grenade_ammo_category">アイテム</string>
+  <string name="item_buff_grenade_damage_name">バフグレネード - ダメージ</string>
+  <string name="item_buff_grenade_damage_description">範囲内のすべてのプレイヤーのダメージをアップさせる.</string>
+  <string name="item_buff_grenade_damage_category">アイテム</string>
+  <string name="item_buff_grenade_price_name">バフグレネード - 価格</string>
+  <string name="item_buff_grenade_price_description">範囲内のすべてのプレイヤーが安く物を買える.</string>
+  <string name="item_buff_grenade_price_category">アイテム</string>
+  <string name="item_buff_grenade_reload_name">バフグレネード - 装填速度</string>
+  <string name="item_buff_grenade_reload_description">範囲内のすべてのプレイヤーの装填速度が速くなる.</string>
+  <string name="item_buff_grenade_reload_category">アイテム</string>
+  <string name="item_buff_grenade_rof_name">バフグレネード - 発射速度</string>
+  <string name="item_buff_grenade_rof_description">範囲内のすべてのプレイヤーの発射速度が上昇する.</string>
+  <string name="item_buff_grenade_rof_category">アイテム</string>
+  <string name="item_buff_grenade_speed_name">バフグレネード - スピード</string>
+  <string name="item_buff_grenade_speed_description">範囲内のすべてのプレイヤーの移動速度が上昇.</string>
+  <string name="item_buff_grenade_speed_category">アイテム</string>
+  <string name="item_buff_grenade_xp_name">バフグレネード - XP</string>
+  <string name="item_buff_grenade_xp_description">範囲内のすべてのプレイヤーが倒した時の貰える経験値が上昇.</string>
+  <string name="item_buff_grenade_xp_category">アイテム</string>
+  <string name="item_developer_pistol_name">開発者のピストル</string>
+  <string name="item_developer_pistol_description">どう見てもチートアイテムです...</string>
+  <string name="item_developer_pistol_category">アイテム</string>
+  <string name="item_fight_saber_name">ライトセーバー</string>
+  <string name="item_fight_saber_description">3歳未満の子供に使わせないで下さい.</string>
+  <string name="item_fight_saber_category">アイテム</string>
+  <string name="item_bolt_gun_name">ボルトガン</string>
+  <string name="glyphs"> !#$%&amp;'()*+,-./0123456789:&lt;&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[^_`abcdefghijklmnopqrstuvwxyz{|}~¦ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜø£Ø×ƒáíóúñÑªº¿®¬½¼¡«»¦¦¦¦¦ÁÂÀ©¦¦++¢¥++--+-+ãÃ++--¦-+¤ðÐÊËÈiÍÎÏ++¦_¦Ì¯ÓßÔÒõÕµþÞÚÛÙýÝ¯´­±=¾¶§÷¸°¨·¹³²¦</string>
+
+  </resources>

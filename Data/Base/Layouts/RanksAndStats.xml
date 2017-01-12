@@ -1,0 +1,18 @@
+<xml>
+	<settings>
+		<name>ranks_and_stats</name>
+	</settings>
+	<layout>
+		<element name="title_label"   					type="Label" 		box="0,0,1,0.1" HAlign="Center" VAlign="Center" ForeColor="102,102,102,255" Padding="0,0,0,0" value="#menu_rank_stats_title" />	
+
+		<element name="source_box" 						type="ComboBox" 	box="0.15,0.13,0.80,0.070"  FrameColor="112,154,209,255" />	
+				
+		<element name="entry_listview" 				type="ListView" 	box="0.15,0.23,0.80,0.58" ForeColor="156,157,158,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,200" Padding="10,10,10,10" />	
+		
+		<!--
+		<element name="filter_button" 					type="CheckBox"		box="0.15,0.85,0.2,0.070" FrameColor="255,255,255,200" Value="#menu_leaderboards_friends_only"  />	
+		-->
+		
+		<element name="back_button" 					type="Button" 		box="0.75,0.85,0.2,0.070" FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#menu_back"  />	
+	</layout>
+</xml>

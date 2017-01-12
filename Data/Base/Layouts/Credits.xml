@@ -1,0 +1,13 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>credits</name>
+	</settings>
+	<layout>
+		<element name="bg_image_fade" type="Panel" box="0,0,1,1" BackImage="screen_main_bg_1_fade" AspectScaling="False" />	
+		<element name="title_label"   type="Label" box="0,0,1,0.1" HAlign="Center" VAlign="Center" ForeColor="102,102,102,255" Padding="0,0,0,0" value="#menu_credits_title" />	
+		<element name="exit_Label"    type="Label" box="0,0.905,1,0.06" HAlign="Center" VAlign="Center" UseMarkup="True" ForeColor="102,102,102,255" Padding="0,0,0,0" value="#menu_credits_press_key" />		
+	</layout>
+</xml>

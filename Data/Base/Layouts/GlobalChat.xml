@@ -1,0 +1,22 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+  <settings>
+    <name>global_chat</name>
+  </settings>
+  <layout>
+    <element name="title_label"   					type="Label" 		box="0,0,1,0.1" HAlign="Center" VAlign="Center" ForeColor="102,102,102,255" Padding="0,0,0,0" value="#menu_global_chat_title" />
+
+    <element name="online_label" 						type="Label" 	box="0.15,0.13,0.80,0.070"  ForeColor="102,102,102,255"  value="#menu_global_chat_online_label" />
+
+    <element name="chat_panel"				      type="Panel"		box="0.15,0.21,0.80,0.57"    Scale="0.75,0.75" BackColor="255,255,255,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,220" FlatBottom="True" />
+    <element name="chat_history"			       type="TextPanel"	box="0.165,0.23,0.79,0.525" Scale="0.75,0.75" BackColor="255,255,0,220" ShadowedText="True" />
+
+    <element name="chat_box"				        type="TextBox"		box="0.15,0.765,0.80,0.053" Scale="0.75,0.75"  BackColor="255,0,255,220" AlwaysActive="True" />
+
+    <element name="pipe_in_checkbox"    	type="CheckBox" 	box="0.15,0.85,0.2,0.070" FrameColor="255,255,255,200" Value="#menu_global_chat_pipe_checkbox"  />
+
+    <element name="back_button" 					type="Button" 		box="0.75,0.85,0.2,0.070" FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#menu_back"  />
+  </layout>
+</xml>

@@ -1,0 +1,34 @@
+<xml>
+	<package>
+		<name>HatExample</name>
+		<root>Data/</root>
+		<compile_directory>../../Output/Data/HatExample/.compiled/</compile_directory>
+		<script_directory>../../Data/Base/Scripts/</script_directory>
+		<pak_file>../../Data/HatExample/HatExample.dat</pak_file>
+		<private_key/>
+		<pak_keep_source>True</pak_keep_source>
+		<pak_use_compression>True</pak_use_compression>
+		<workshop>
+			<id>494731958</id>
+			<title>Example Hat</title>
+			<preview_file>../../Data/HatExample/HatExample.png</preview_file>
+			<description>Example of creating a mod package for a custom hat!</description>
+			<tags>Example Hat Official</tags>
+		</workshop>
+	</package>
+	<languages/>
+	<atlases>
+		<atlas file="Data/Atlases/HatExampleAtlas.xml" priority="gfx"/>
+	</atlases>
+	<audio_banks/>
+	<fonts/>
+	<particlefx/>
+	<scripts>
+		<script file="Data/Scripts/hat_example_unity.xs"/>
+	</scripts>
+	<shaders/>
+	<raw/>
+	<layouts/>
+	<maps/>
+</xml>
+

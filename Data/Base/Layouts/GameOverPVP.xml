@@ -1,0 +1,18 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>GameOverPVP</name>
+	</settings>
+	<layout>
+	
+		<element name="background" type="Panel" box="0,0,1,1" BackColor="0,0,0,210" AspectScaling="False" />			
+		
+    <element name="game_over_label" type="Label" box="0.1,0.02,0.8,0.15" Padding="0,0,0,0" Scale="2.0,2.0" VAlign="Center" HAlign="Center" ForeColor="255,255,255,255" value="#game_over_title" />
+    <element name="restart_label" type="Label" box="0.1,0.85,0.8,0.2" Padding="0,0,0,0" Scale="0.75,0.75" VAlign="Center" HAlign="Center" ForeColor="255,255,255,255" value="" />
+
+	  <element name="leaderboard_entry_listview" type="SimpleListView" box="0.1,0.175,0.8,0.70" Padding="0,0,0,0" Scale="0.75,0.75" FrameColor="255,255,255,190" />			
+	
+  </layout>
+</xml>

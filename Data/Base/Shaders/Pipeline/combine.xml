@@ -1,0 +1,18 @@
+<xml>
+  <editor>
+    <asset_type>Shader</asset_type>
+  </editor>
+	<settings>
+		<name>combine</name>
+	</settings>
+	<fragment>Data/Shaders/Pipeline/combine.frag</fragment>
+	<vertex>Data/Shaders/Pipeline/combine.vert</vertex>
+	<uniforms>
+		<uniform name="g_diffuse" 			 					type="texture" value="diffuse" />
+		<uniform name="g_distortion"  							type="texture" value="distortion" />
+    <uniform name="g_lighting"  							type="texture" value="lighting" />
+		<uniform name="g_resolution" 							type="vector3" 	value="RESOLUTION" />
+    <uniform name="g_ambient_light" 	type="Vector4" 	value="AMBIENT_LIGHTING" />
+		<uniform name="g_world_view_projection_matrix" 			type="matrix4" 	value="WORLD_VIEW_PROJECTION_MATRIX" />
+	</uniforms>
+</xml>

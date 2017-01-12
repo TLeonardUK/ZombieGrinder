@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+	<string name="name_long">English (GB)</string>
+	<string name="name_short">EN-GB</string>
+	<string name="glyphs"> !#$%&amp;'()*+,-./0123456789:&lt;&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~¦ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜø£Ø×ƒáíóúñÑªº¿®¬½¼¡«»¦¦¦¦¦ÁÂÀ©¦¦++¢¥++--+-+ãÃ++--¦-+¤ðÐÊËÈiÍÎÏ++¦_¦Ì¯ÓßÔÒõÕµþÞÚÛÙýÝ¯´­±=¾¶§÷¸°¨·¹³²¦</string>
+		
+	<string name="menu_copyright">Such Copyright, Much Wow</string>
+	<string name="load_message">Reticulating Splines ...</string>
+	<string name="menu_item_start">Enter The Light</string>
+	<string name="menu_options_mod">Pimp My Game</string>
+	<string name="menu_item_options">I Need More Pixels</string>
+	<string name="menu_item_credits">I Like These Guys</string> 
+	<string name="menu_item_quit">I Hate This Game</string>	
+</resources>

@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="name_long">Spanish (Incomplete)</string>
+	<string name="name_short">ES-ES</string>
+	<string name="glyphs"> !#$%&amp;'()*+,-./0123456789:&lt;&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~¦ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜø£Ø×ƒáíóúñÑªº¿®¬½¼¡«»¦¦¦¦¦ÁÂÀ©¦¦++¢¥++--+-+ãÃ++--¦-+¤ðÐÊËÈiÍÎÏ++¦_¦Ì¯ÓßÔÒõÕµþÞÚÛÙýÝ¯´­±=¾¶§÷¸°¨·¹³²¦</string>
+		  
+	<string name="title">Zombie Grinder</string>
+  
+	<string name="menu_copyright">Version {GAME_VERSION} - Copyright TwinDrills 2009-2015</string>
+	<string name="load_message">Cargando recursos del juego ...</string>
+	 
+  <string name="global_chat_server">Servidor</string>
+  <string name="global_chat_global">Global</string>
+  <string name="global_chat_not_access">No estás autorizado para acceder al servidor del chat global.</string>
+  <string name="global_chat_not_connected">No estás conectado al chat global del servidor.</string>
+  <string name="global_chat_lost_connection">Has perdido la conexión con el chat global del servidor.</string>
+  <string name="global_chat_kicked">Has sido echado de el chat global del servidor.</string>
+
+  <string name="inventory_item_drop_title">Has encontrado ...</string>
+  
+  <string name="menu_back">Atrás</string>	
+	<string name="menu_cancel">Cancelar</string>	
+	<string name="menu_confirm">Confirmar</string>	
+	<string name="menu_refresh">Actualizar</string>	
+	<string name="menu_continue">Continuar</string>	 
+	<string name="menu_combine">Combinar</string>	
+	<string name="menu_cancel_combine">Cancelar Combinar</string>	
+	<string name="menu_equip">Equipar</string>	
+	<string name="menu_sell">Vender</string>	
+	<string name="menu_yes">Si</string>	
+	<string name="menu_no">No</string>	
+	<string name="menu_close">Cerrar</string>	
+	<string name="menu_apply_changes">Aplicar Cambios</string>
+	<string name="menu_back_description">Volver al menú anterior.</string>
+	<string name="menu_gamepad_enter_text">Introduce texto</string>
+  <string name="menu_open_workshop">Abre Workshop</string>
+
+  <string name="menu_item_start">Inicia el juego</string>
+	<string name="menu_item_premium_account">Hazte Premium</string>	
+	<string name="menu_item_options">Opciones</string>
+  <string name="menu_item_global_chat">Chat Global</string>
+	<string name="menu_item_credits">Créditos</string> 
+	<string name="menu_item_quit">Salir</string>	
+  
+  <string name="tutorial_movement">"Te puedes mover con  [key=left][key=up][key=down][key=right] ."</string>
+  <string name="tutorial_shoot">Puedes disparar presionando [key=fire].</string>
+  <string name="tutorial_reload">Puedes recargar manualmente pulsando [key=reload].</string>
+  <string name="tutorial_strafe">Mantén [key=strafe] cuando te estás moviendo para bloquear tu direccion. ¡Crítico para sobrevivir!</string>
+  <string name="tutorial_cycle_weapons">Pulsa [key=WeaponCycleBackward][key=WeaponCycleForward] Para el ciclo de armas.</string>
+  <string name="tutorial_fodder_zombies">Los zombies grises son inofensivos si tu no les miras a la cara.</string>
+  <string name="tutorial_chaser_zombies">Los zombies que te persiguen son peligrosos en grupos, ellos te pueden aplastar.</string>
+  <string name="tutorial_explosive_zombies">Los zombies explosivos son esponjas de balas y hacen mucho daño de cerca.</string>
+  <string name="tutorial_large_blobby_zombies">Los Zombies amorfos escupen veneno. Lleva cuidado o ¡Ellos pueden escupirte!</string>&gt;
+  <string name="tutorial_small_blobby_zombies">Los zombies amorfos pequeños son lentos, pero lleva cuidado, escupen veneno.</string>
+  <string name="tutorial_bouncer_zombies">Los zombies saltarines se mueven lento, pero cuando ellos saltan te hacen mucho daño.</string>
+  <string name="tutorial_floater_zombies">Los zombies flotantes pueden escupirte bolas de sangre, ¡Duélen!</string>
+  <string name="tutorial_alt_fire">Algunas armas tienen un alt-fire que puedes activar con [key=altfire].</string>
+  <string name="tutorial_gems">Las gemas pueden activar poderosas habilidades con [key=SkillSlot1][key=SkillSlot2][key=SkillSlot3]. Revisa el menú de habilidades.</string>
+  <string name="tutorial_coins">Las monedas pueden ser utilizadas para comprar nuevos objetos y habilidades de la tienda. ¡Consíguelos todos!</string>
+  <string name="tutorial_interact">Puedes interactuar con objetos pulsando [key=interact]. ¡Ten en cuenta las flechas amarillas!</string>
+  <string name="tutorial_sprint">Si tu barra de resistencia está al máximo, puedes pulsar [key=sprint] para esprintar lejos del peligro.</string>
+
+  <string name="minimap_title">Dungeon Map - Level % i</string>
+  <string name="minimap_controls">"Utiliza  [key=left][key=up][key=down][key=right] Para Moverte"</string>
+
+  <string name="message_pickup_gem_title">[c=34,177,76]OBJETO RECOGIDO[/c]</string>	
+	<string name="message_pickup_gem">"Has cogido  [c=34,177,76]%s[/c]. Está ahora en tu inventario."</string>
+
+  <string name="message_pickup_gem_sold_title">[c=235,152,152]INVENTARIO LLENO[/c]</string>
+  <string name="message_pickup_gem_sold">El [c=34,177,76]%s[/c] que has cogido ha sido vendido por [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]</string>
+
+  <string name="message_inventory_full_title">[c=235,152,152]INVENTARIO LLENO[/c]</string>
+  <string name="message_inventory_full">¡Tu inventario está ahora lleno! Los objetos que consigas serán vendidos automáticamente.</string>
+
+  <string name="message_wallet_full_title">[c=235,152,152]MONEDERO LLENO[/c]</string>
+  <string name="message_wallet_full">¡Tu monedero esta lleno! Las proximas monedas que cojas no se almacenarán.</string>
+
+  <string name="scoreboard_column_coins">Monedas</string>
+	<string name="scoreboard_column_kills">Asesinatos</string>
+  <string name="scoreboard_column_captures">Capturas</string>  
+  <string name="scoreboard_column_deaths">Muertes</string>
+  <string name="scoreboard_column_revives">Reapariciones</string>  
+  <string name="scoreboard_title_eliminate_threat">Acaba con El Trato!</string>
+	<string name="scoreboard_title_survive">¡Intenta sobrevivir!</string>
+  <string name="scoreboard_title_follow_objectives">¡Sigue los objetivos!</string>
+  <string name="scoreboard_title_kill_everything">¡Mata a todo el que se mueva!</string>
+  <string name="scoreboard_title_first_to_n">¡El primero en %i asesinatos!</string>
+  <string name="scoreboard_title_capture_the_bag">¡Captura La Bolsa!</string>
+  <string name="scoreboard_title_find_the_exit">¡Encuentra la salida!</string>
+  
+  <string name="scoreboard_team_humans">Humanos</string>
+  <string name="scoreboard_team_red">Equipo Rojo</string>
+  <string name="scoreboard_team_blue">Equipo Azul</string>
+  <string name="scoreboard_team_green">Equipo Verde</string>
+  <string name="scoreboard_team_yellow">Equipo Amarillo</string>
+
+  <string name="hud_free_camera">Cámara libre</string>
+	<string name="hud_spectating">Espectando - [c=0,200,200,255]%s[/c]</string>
+	<string name="hud_cycle_cameras">Pulsa [key=fire] para cambiar de cámara</string>
+  <string name="hud_being_revived">Siendo revivido por - [c=0,200,200,255]%s[/c]</string>
+
+  <string name="game_over_coins_earnt">[c=255,194,14,255]Monedas Ganadas[/c]</string>
+  <string name="game_over_coins_earnt_value_format"/>
+  <string name="game_over_skill_points_earnt">[c=0,200,200,255]Puntos de habilidad ganados[/c]</string>
+  <string name="game_over_skill_points_earnt_value_format"/>
+
+  <string name="leaderboad_auto_map">Mayor Puntuación - %s</string>
+  
+  <string name="profile_stat_name_wallet_interest">Interes de ahorros</string>
+  <string name="profile_stat_name_max_health">Salud Máxima</string>
+  <string name="profile_stat_name_health_regen">regeneración de Vida</string>
+  <string name="profile_stat_name_speed">Velocidad de Movimiento</string>
+  <string name="profile_stat_name_ammo_capacity">Capacidad de Munición</string>
+  <string name="profile_stat_name_ammo_regen">Regeneración de Munición</string>
+  <string name="profile_stat_name_gold_drop">Ratio de dropeo de Oro</string>
+  <string name="profile_stat_name_gold_magnet">Radio de atracción de oro</string>
+  <string name="profile_stat_name_buy_price">Precio de compra de objetos</string>
+  <string name="profile_stat_name_sell_price">Precio de venta de objetos</string>
+  <string name="tutorial_title">[c=34,177,76]TUTORIAL[/c]</string>
+  <string name="profile_stat_name_gem_drop">Ratio de dropeo de gemas</string>
+  <string name="profile_stat_name_gem_magnet">Radio de atracción de gemas</string>
+  <string name="profile_stat_name_xp">Experiencia obtenida</string>
+  <string name="profile_stat_name_melee_damage">Daño cuerpo a cuerpo</string>
+  <string name="profile_stat_name_melee_stamina">Resistencia</string>
+  <string name="profile_stat_name_rifle_damage">Daño del rifle</string>
+  <string name="profile_stat_name_rifle_ammo">Capacidad de munición del rifle</string>
+  <string name="profile_stat_name_heavy_weapon_damage">Daño con armas pesadas</string>
+  <string name="profile_stat_name_heavy_weapon_ammo">Munición Pesada</string>
+  <string name="profile_stat_name_explosion_radius">Radio de explosión</string>
+  <string name="profile_stat_name_enemy_status_duration">Duración de efecto en el enemigo</string>
+  <string name="profile_stat_name_turret_damage">Daño de la torreta</string>
+  <string name="profile_stat_name_turret_ammo">Capacidad de munición de la torreta</string>
+  <string name="profile_stat_name_small_arms_damage">Daño con armas ligeras</string>
+  <string name="profile_stat_name_small_arms_ammo">Capacidad de munición de armas ligeras</string>
+  <string name="profile_stat_name_buff_grenade_radius">Radio de la granada</string>
+  <string name="profile_stat_name_buff_grenade_ammo">Capacidad de munición de la granada</string>
+  <string name="profile_stat_name_ghost_life_time">Vida restante del fantasma</string>
+  <string name="profile_stat_name_ghost_revive_time">Velocidad de resurreción del fantasma</string>
+  <string name="profile_stat_name_healing_speed">Velocidad de curación</string>
+  <string name="profile_stat_name_damage">Daño</string>
+  <string name="profile_stat_name_damage_taken">Resistencia al Daño</string>
+  <string name="profile_stat_name_rate_of_fire">Cadencia de disparo</string>
+  <string name="profile_stat_name_reload_speed">Velocidad de recarga</string>
+  <string name="profile_stat_name_ammo_usage">Gasto de munición</string>
+  <string name="profile_stat_name_targetable">Seleccionable</string>
+
+  <string name="item_stat_negative"/>
+  <string name="item_stat_positive"/>
+          
+  <string name="game_over_level_complete_title">NIVEL COMPLETADO</string>
+  <string name="game_over_title">HAS PERDIDO</string>
+  <string name="game_over_restart_text">Reiniciando en %i ...</string>
+  <string name="game_over_continue_text">Continuando en %i ...</string>
+  <string name="game_over_bonus_base">Puntuación del equipo</string>
+  <string name="game_over_bonus_round">Bonus de ronda</string>
+  <string name="game_over_bonus_time">Bonus de tiempo</string>
+  <string name="game_over_bonus_multiplier">Bonus de multiplicado</string>
+  <string name="game_over_bonus_pity">Bonus de compadecimiento</string>
+  <string name="game_over_bonus_kills">Bonus de muertes</string>
+  <string name="game_over_bonus_revives">Bonus de resurreciones</string>
+  <string name="game_over_bonus_dungeon_level">Bonus de nivel de mazmorra</string>
+
+  <string name="prompt_price_postfix"/>
+  <string name="ghost_revive_prompt">[key=interact] Para revivir</string>
+  <string name="press_button_prompt">[key=interact] Para pulsar</string>
+  <string name="fill_ammo_prompt">[key=interact] Para recargar munición</string>
+  <string name="move_prompt">[key=interact] Para mover</string>
+  <string name="place_prompt">[key=interact] Para colocar</string>
+  <string name="pickup_prompt">[key=interact] Para recoger</string>
+  <string name="rebuild_prompt">[key=interact] Para reconstruir</string>
+  <string name="buy_generic_prompt">[key=interact] Para comprar %s</string>
+  <string name="buy_open_prompt">[key=interact] Para abrir</string>
+  <string name="interact_prompt">[key=interact] Para interactuar</string>
+  <string name="interact_map_prompt">[key=interact] Para ver el mapa</string>
+  <string name="buy_close_prompt">[key=interact] Para cerrar</string>
+  <string name="buy_health_prompt">[key=interact] Para comprar %s (+ %i HP)</string>
+  <string name="buy_armour_prompt">[key=interact] Para comprar %s (+ %i Armor)</string>
+  <string name="save_survivor_prompt">[key=interact] Para rescatar</string>
+  <string name="pet_cucco_prompt">[key=interact] Para acariciar</string>
+  <string name="descend_prompt">[key=interact] Para descender</string>
+  <string name="item_soda_name">Refresco</string> 
+  <string name="item_food_name">Comida</string>
+
+  <string name="not_enough_coins_prompt">Necesitas [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%i[/c] más</string>
+  
+  <string name="objective_push_the_button">¡Pulsa el botón!</string>
+  <string name="objective_get_to_the_mall">¡Llega a la callel!</string>
+  <string name="objective_mall_closed_find_another_path">La calle esta cerrada, ¡Encuentra otro camino!</string>
+  <string name="objective_mall_find_entrance">¡Encuentra la entrada a la calle!</string>
+  <string name="objective_hold_out">"¡Aguanta  %s!"</string>
+  
+  <string name="objective_load_up_at_gun_shop">¡Ármate en la tienda de armas!</string>
+  <string name="objective_get_to_mall_back">¡Vuelve a la calle!</string>
+  <string name="objective_find_game_shop">¡Encuentra el videojuego!</string>
+  <string name="objective_escape_mall">¡Escapa de la calle!</string>
+  <string name="objective_find_a_key">Puertas cerradas. ¡Encuentra una llave!</string>
+
+  <string name="objective_find_transport">¡Encuentra transporte para ir a casa!</string>
+
+  <string name="menu_premium_title">.Mejora a Premium</string>
+	<string name="menu_premium_purchase">Abre Steam para comprar</string>
+	<string name="menu_premium_text"/>
+
+  <string name="menu_mod_options_title">.Steam Workshop</string>
+  <string name="menu_mod_options_apply">Reinicia el juego para aplicar los cambios de subscripción.</string>
+  <string name="menu_view_workshop">Busca los Mods disponibles</string>
+  <string name="menu_mod_preview">Vista previa</string>
+  <string name="menu_mod_name">Nombre</string>
+  <string name="menu_mod_author">Autor</string>
+  <string name="menu_mod_not_subscribed">No estás suscrito a nignun mod.</string>
+
+  <string name="menu_server_browser_title">.Buscador de servidores</string>
+	<string name="menu_server_browser_dedicated_label">[c=0,200,255,255]This Color[/c] = Dedicado</string>
+	<string name="menu_server_browser_user_label"/>
+	<string name="menu_server_browser_name_column">Nombre</string>
+	<string name="menu_server_browser_map_column">Mapa</string>
+	<string name="menu_server_browser_players_column">Jugadores</string>
+	<string name="menu_server_browser_ping_column">Latencia</string>
+	<string name="menu_server_browser_source_internet">Servidores de internet</string>
+	<string name="menu_server_browser_source_lan">Servidores LAN</string>
+	<string name="menu_server_browser_source_friends">Servidores de amigos</string>
+	<string name="menu_server_browser_source_favorites">Servidores favoritos</string>
+	<string name="menu_server_browser_source_history">Historial de servidores</string>
+	
+	<string name="menu_connecting_to_server">Conectando al servidor ...</string>
+
+  <string name="connect_overlay_error">Conexión interrumpida (%.1f s) ...</string>
+  
+	<string name="menu_starting_local_server">Iniciando servidor local ...</string>	
+	
+	<string name="menu_game_setup_title">.Opciones de juego</string>
+	<string name="menu_game_setup_find_game">Encuentra Partida</string>
+	<string name="menu_game_setup_quick_game">Partida rápida</string>
+	<string name="menu_game_setup_host_game">Hostea partida</string>
+	<string name="menu_game_setup_browse_servers">Buscar servidores</string>
+	<string name="menu_game_setup_find_game_description">Se metido en una partida que se cierna a tus necesidades automaticamente.</string>
+	<string name="menu_game_setup_quick_game_description">Entra rápido a la primera partida que se encuentre.</string>
+	<string name="menu_game_setup_host_game_description">Hostea una partida con tus propias reglas, luego invita a tus amigos o que entren jugadores públicos.</string>
+	<string name="menu_game_setup_browse_servers_description">Busca todas las partidas en marcha, y escoge una manualmente.</string>
+	<string name="menu_game_setup_inventory_description">¡Equípate diferentes objetos de Spawn, mejora tu árbol de habilidades; create tu propio personaje!</string>
+  <string name="menu_game_setup_global_chat_description">Chatea con los otros jugadores que estan jugando en la partida, tu tambien puedes ajustar el chhat global al de la partida.</string>
+  <string name="menu_game_setup_achievements_description">Mira que logros has ganado cuando juegas.</string>
+	<string name="menu_game_setup_leaderboards_description">Mira como has ido puntuando en los diferentes mapas a escala global.</string>
+	<string name="menu_game_setup_back_description">Vuelve al menu de inicio.</string>
+
+	<string name="menu_options_title">.Opciones</string>	
+	<string name="menu_options_input">Configuración de teclas</string>	
+	<string name="menu_options_audio">Sonido</string>	
+	<string name="menu_options_graphics">Gráficos</string>	
+	<string name="menu_options_gameplay">Jugabilidad</string>	
+	<string name="menu_options_misc">Misceláneo</string>
+  <string name="menu_options_mod"/>
+  <string name="menu_options_resolution_change_confirm">Porfavor confirma si la resolución es correcta, Revirtiendo en %i ...</string>
+	<string name="menu_options_input_press_bind_key">Porfavor pulsa la tecla del teclado o del gamepad que quieres asignar a esta acción.</string>
+	<string name="autosave_warning">Este juego usa sistema de autoguardado, por favor no cierres↵\nel juego mientras este indicador aparezca.↵\n↵\n↵\n[img=autosave_icon,1.0,1.0]</string>
+  <string name="restricted_mode_ingame_warning">Mientras juegas no ganarás nada - xp, monedas, logros etc.</string>
+
+  <string name="restricted_mode_warning_title">[c=235,52,52]Modo Restringido[/c]</string>
+  <string name="mod_whitelisted">Aprovado</string>
+  <string name="mod_not_whitelisted">No Aprovado</string>
+  <string name="mod_view_non_whitelisted">Ver No Aprovado?</string>
+  <string name="inventory_item_challenge_drop_title">Recompensa De Reto</string>
+
+  <string name="inventory_item_drop_coins_name">%i Monedas</string>
+  <string name="inventory_item_drop_coins_description">En que vas a gastarlo todo?</string>
+  <string name="inventory_item_drop_xp_name">%i XP</string>
+  <string name="inventory_item_drop_xp_description">Tus habilidades y sabiduria estan volviendose mas potentes!</string>
+
+  <string name="inventory_item_broken_title">[c=255,64,64]Tu objeto se ha roto ...[/c]</string>
+  <string name="inventory_item_broken_sub">Para evitar esto, prueba a adquirir un objeto indestructuble in-game o a traves del Mercado de Steam!</string>
+ 
+  <string name="menu_apply_paint">Aplicar Pintura</string>
+  <string name="menu_unpack">Abrir</string>
+  <string name="hud_press_to_control_zombie">Presiona [key=interact] Para Controlar Al Zombie</string>
+  <string name="hud_press_to_control_zombie_waiting">Esperando Para Un Zombie Disponible ...</string>
+
+  <string name="menu_mod_restart_dialog">Los cambios que has echo a los mods suscritos harán efecto al reiniciar el juego.</string>
+
+  <string name="menu_mod_subscribe">Suscribirse</string>
+  <string name="menu_mod_unsubscribe">Desuscribirse</string>
+  <string name="menu_mod_favorite">Favorito</string>
+  <string name="menu_mod_unfavorite">No Favorito</string>
+  <string name="menu_mod_view_on_steam">Ver en steam</string>
+  <string name="menu_mod_vote_up">Votar a favor</string>
+  <string name="menu_mod_vote_down">Votar en contra</string>
+  <string name="menu_game_setup_challenge_daily">RETO DIARIO</string>
+  <string name="menu_game_setup_challenge_weekly">RETO SEMANAL</string>
+  <string name="menu_game_setup_challenge_monthly">RETO MENSUAL</string>
+  <string name="menu_game_setup_challenge_completed">COMPLETADO</string>
+  <string name="menu_game_setup_challenge_time_remaining">Tiempo Restante: %02id %02ih %02im %02is</string>
+  <string name="menu_game_setup_challenge_rewards">Recompensas</string>
+  <string name="daily_challenge_completed_description">Has completado el reto diario. Tus recompensas estan esperandote en el menú!</string>
+  <string name="weekly_challenge_completed_description">Has completado el reto diario. Tus recompensas estan esperandote en el menú!</string>
+  <string name="monthly_challenge_completed_description">Has completado el reto mensual. Tus recompensas estan esperandote en el menú!</string>
+  <string name="daily_challenge_completed_name">[c=152,152,235]RETO DIARIO COMPLETADO[/c]</string>
+  <string name="weekly_challenge_completed_name">[c=152,152,235]RETO SEMANAL COMPLETADO[/c]</string>
+  <string name="monthly_challenge_completed_name">[c=152,152,235]RETO MENSUAL COMPLETADO[/c]</string>
+
+  <string name="tagline_75">No</string>
+  <string name="tagline_71">NO</string>
+  <string name="tagline_73">Mostrar,no se lo digas.</string>
+  <string name="tagline_74">Por qué sombreros...</string>
+  <string name="tagline_76">De Bloccy con Liebe</string>
+  <string name="tagline_77">Exploder - ¿Es eso un cohete en el bolsillo? - Bloccy</string>
+
+<string name="premium_warning">Si te gusta el juego,puedes comprarlo en↵\n[c=255,194,14,255]Cuenta vip[/c] para financiar el desarollo!↵\n↵\nViene con un montón de golosinas↵\nelimina esta pantalla de aviso!</string>
+
+  <string name="unlock_dialog_title">[c=255,194,14,255]Cosas nuevas ...[/c]</string>
+
+  <string name="unlock_dialog_title_item_broken">[c=255,64,64,255]Tu %s ha roto ...[/c]</string>
+  <string name="unlock_dialog_action_item_broken">[c=255,64,64,255]ARTÍCULO QUEBRADO[/c]</string>
+  <string name="unlock_dialog_description_item_broken">Usted puede comprar una nueva en la tienda, o buscar↵\npara uno indestructible en el juego!</string>
+  
+  <string name="unlock_dialog_title_challenge">[c=255,194,14,255]Has recibido un %s ...[/c]</string>
+  <string name="unlock_dialog_action_challenge">[c=255,194,14,255]RECOMPENSA DE RETO[/c]</string>
+    
+  <string name="unlock_dialog_title_online">[c=255,194,14,255]Encontraste un %s ...[/c]</string>
+  <string name="unlock_dialog_action_online">[c=255,194,14,255]ARTÍCULO STEAM[/c]</string>
+  
+  <string name="unlock_dialog_title_item_unlocked">[c= 255,194,14,255]Usted desbloquear el %s ...[/c]</string>
+  </resources>

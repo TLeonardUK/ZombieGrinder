@@ -1,0 +1,36 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>player_login</name>
+	</settings>
+	<layout>
+	
+		<element name="title_label"   type="Label" box="0,0,1,0.1" HAlign="Center" VAlign="Center" ForeColor="102,102,102,255" Padding="0,0,0,0" value="#menu_player_login_title" />	
+
+		<element name="player_1_name_label" 	type="Label" 		box="0.04,0.10,0.20,0.15" ForeColor="255,255,255,255" Value="" VAlign="Center" HAlign="Center" />	
+		<element name="player_1_panel" 			type="Panel" 		box="0.04,0.22,0.20,0.50" ForeColor="156,157,158,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,220" Value="" />	
+		<element name="player_1_start_label" 	type="Label" 		box="0.04,0.69,0.20,0.15" ForeColor="160,160,160,255" Value="#menu_player_login_press_to_join" VAlign="Center" HAlign="Center" UseMarkup="True" />	
+		
+		<element name="player_2_name_label" 	type="Label" 		box="0.28,0.10,0.20,0.15" ForeColor="255,255,255,255" Value="" VAlign="Center" HAlign="Center" />	
+		<element name="player_2_panel" 			type="Panel" 		box="0.28,0.22,0.20,0.50" ForeColor="156,157,158,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,220" Value="" />	
+		<element name="player_2_start_label" 	type="Label" 		box="0.28,0.69,0.20,0.15" ForeColor="160,160,160,255" Value="#menu_player_login_press_to_join" VAlign="Center" HAlign="Center" UseMarkup="True" />	
+
+		<element name="player_3_name_label" 	type="Label" 		box="0.52,0.10,0.20,0.15" ForeColor="255,255,255,255" Value="" VAlign="Center" HAlign="Center" />	
+		<element name="player_3_panel" 			type="Panel" 		box="0.52,0.22,0.20,0.50" ForeColor="156,157,158,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,220" Value="" />	
+		<element name="player_3_start_label" 	type="Label" 		box="0.52,0.69,0.20,0.15" ForeColor="160,160,160,255" Value="#menu_player_login_press_to_join" VAlign="Center" HAlign="Center" UseMarkup="True" />	
+
+		<element name="player_4_name_label" 	type="Label" 		box="0.76,0.10,0.20,0.15" ForeColor="255,255,255,255" Value="" VAlign="Center" HAlign="Center" />	
+		<element name="player_4_panel" 			type="Panel" 		box="0.76,0.22,0.20,0.50" ForeColor="156,157,158,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,220" Value="" />	
+		<element name="player_4_start_label" 	type="Label" 		box="0.76,0.69,0.20,0.15" ForeColor="160,160,160,255" Value="#menu_player_login_press_to_join" VAlign="Center" HAlign="Center" UseMarkup="True" />	
+				
+		<element name="continue_button" 		type="Button" 		box="0.15,0.85,0.3,0.070" FrameColor="255,255,255,200" Value="#menu_continue"  />			
+		<element name="back_button" 			type="Button" 		box="0.55,0.85,0.3,0.070" FrameColor="255,255,255,200" Hotkey="GUI_Back" Value="#menu_back"  />	
+
+		<!--
+		<element name="start_label" 			type="Label" 		box="0.00,0.83,1.00,0.15" ForeColor="255,255,255,255" Value="" VAlign="Center" HAlign="Center" />	
+		-->
+		
+	</layout>
+</xml>

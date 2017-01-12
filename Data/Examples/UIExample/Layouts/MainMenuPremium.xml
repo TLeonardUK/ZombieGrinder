@@ -1,0 +1,12 @@
+<xml>
+  <settings>
+		<name>main_menu_premium</name>
+  </settings>
+  <layout>
+    <element name="start_button" type="Button" 		box="0.25,0.56,0.3,0.060" 	FrameColor="255,255,255,200" Value="#menu_item_start" />
+    <element name="mod_button" type="Button" 	box="0.45,0.625,0.3,0.060" 	FrameColor="255,255,255,200" Value="#menu_options_mod" />
+    <element name="options_button" type="Button" 	box="0.25,0.69,0.3,0.060" 	FrameColor="255,255,255,200" Value="#menu_item_options" />
+    <element name="credits_button" type="Button" 	box="0.45,0.755,0.3,0.060" 	FrameColor="255,255,255,200" Value="#menu_item_credits" />
+    <element name="quit_button" type="Button" 		box="0.25,0.820,0.3,0.060" 	FrameColor="255,255,255,200" Value="#menu_item_quit" />
+  </layout>
+</xml>

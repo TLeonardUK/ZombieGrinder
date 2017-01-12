@@ -1,0 +1,12 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>loading</name>
+	</settings>
+	<layout>
+		<element name="progress_bar" type="ProgressBar" box="0.2,0.72,0.6,0.065" Padding="0,0,0,0" progress="0" ForeColor="255,194,14,255" />	
+		<element name="progress_text" type="Label" box="0.2,0.65,0.6,0.05" HAlign="Left" VAlign="Bottom" ForeColor="170,170,170,255" value="#load_message" />	
+	</layout>
+</xml>

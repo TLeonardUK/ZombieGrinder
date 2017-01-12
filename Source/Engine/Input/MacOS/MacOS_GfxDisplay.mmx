@@ -1,0 +1,11 @@
+// ===================================================================
+//	Copyright (C) 2013 Tim Leonard
+// ===================================================================
+#ifdef PLATFORM_MACOS
+
+#include <AppKit/AppKit.h>
+#include <Carbon/Carbon.h>
+#include <OpenGL/gl.h>
+#include <OpenGL/OpenGL.h>
+
+#endif

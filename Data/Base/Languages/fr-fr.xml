@@ -1,0 +1,1171 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="name_long">Français (Incomplet)</string>
+	<string name="name_short">FR-FR</string>
+	<string name="glyphs"> !#$%&amp;'()*+,-./0123456789:&lt;&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~¦ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜø£Ø×ƒáíóúñÑªº¿®¬½¼¡«»¦¦¦¦¦ÁÂÀ©¦¦++¢¥++--+-+ãÃ++--¦-+¤ðÐÊËÈiÍÎÏ++¦_¦Ì¯ÓßÔÒõÕµþÞÚÛÙýÝ¯´­±=¾¶§÷¸°¨·¹³²¦</string>
+		  
+	<string name="title">Zombie Grinder</string>
+  
+	<string name="menu_copyright">Version {GAME_VERSION} - Copyright TwinDrills 2009-2015</string>
+	<string name="load_message">Chargement des ressources du jeu ...</string>
+	 
+	<string name="menu_back">Retour</string>	
+	<string name="menu_cancel">Retour</string>	
+	<string name="menu_confirm">Confirmer</string>	
+	<string name="menu_refresh">Rafraichir</string>	
+	<string name="menu_continue">Continuer</string>	 
+	<string name="menu_combine">Combiner</string>	
+	<string name="menu_cancel_combine">Annuler</string>	
+	<string name="menu_equip">Équiper</string>	
+	<string name="menu_sell">Vendre</string>	
+	<string name="menu_yes">Oui</string>	
+	<string name="menu_no">Non</string>	
+	<string name="menu_close">Fermer</string>	
+	<string name="menu_apply_changes">Appliquer les changements</string>
+	<string name="menu_back_description">Retourner au menu précédent.</string>
+	<string name="menu_gamepad_enter_text">Entrer texte</string>
+  <string name="menu_open_workshop">Ouvrir Workshop</string>
+
+  <string name="menu_item_start">Lancer le Jeu</string>
+	<string name="menu_item_premium_account">Passer en Compte Gold</string>	
+	<string name="menu_item_options">Options</string>
+	<string name="menu_item_credits">Crédits</string> 
+	<string name="menu_item_quit">Quitter</string>	
+  
+  <string name="tutorial_title">[c=34,177,76]TUTORIEL[/c]</string>
+  <string name="tutorial_movement">Vous pouvez vous déplacer avec les touches [key=left][key=up][key=down][key=right].</string>
+  <string name="tutorial_shoot">Pour tirer appuyez sur [key=fire].</string>
+  <string name="tutorial_reload">Vous pouvez recharger en appuyant sur [key=reload].</string>
+  <string name="tutorial_strafe">Appuyez sur [key=strafe] tout en vous déplaçant pour verrouiller votre direction. Impératif pour survivre !</string>
+  <string name="tutorial_cycle_weapons">Appuyez sur [key=WeaponCycleBackward][key=WeaponCycleForward] pour changer d\'arme.</string>
+  <string name="tutorial_fodder_zombies">Les zombies bleu sont sans danger si vous ne vous approchez pas d\'eux.</string>
+  <string name="tutorial_chaser_zombies">Les zombies verts sont dangereux en groupe, ils vous submergerons.</string>
+  <string name="tutorial_explosive_zombies">Les zombies explosifs encaisseront vos balles et vous feront de gros dommages si vous êtes proche.</string>
+  <string name="tutorial_alt_fire">Certaines armes ont des tirs secondaires que vous pouvez activer avec [key=altfire].</string>
+  <string name="tutorial_gems">Les gemmes peuvent activer des compétences déverrouillées grâce à [key=SkillSlot1][key=SkillSlot2][key=SkillSlot3]. Jetez un coup d’œil au menu de compétences.</string>
+  <string name="tutorial_coins">Les pièces peuvent être utilisés pour acheter des nouveau objets et capacités depuis le magasin. Attrapez les toutes !</string>
+  <string name="tutorial_interact">Interagissez avec les objets en appuyant sur [key=interact] ! Notez les flèches dorées !</string>
+  <string name="tutorial_sprint">Si votre barre d\'endurance est assez haute vous pouvez sprinter hors du danger en appuyant sur [key=sprint].</string>
+
+  <string name="message_pickup_gem_title">[c=34,177,76]OBJET COLLECTÉ[/c]</string>	
+	<string name="message_pickup_gem">Vous avez ramassé un [c=34,177,76]%s[/c]. Il se trouve maintenant dans votre inventaire.</string>
+
+  <string name="message_pickup_gem_sold_title">[c=235,152,152]INVENTAIRE PLEIN[/c]</string>
+  <string name="message_pickup_gem_sold">[c=34,177,76]%s[/c] que vous avez ramassé à été vendu pour [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]</string>
+
+  <string name="scoreboard_column_coins">Pièces</string>
+	<string name="scoreboard_column_kills">Kills</string>
+  <string name="scoreboard_column_captures">Captures</string>  
+  <string name="scoreboard_column_deaths">Morts</string>
+  <string name="scoreboard_column_revives">Sauvetages</string>  
+  <string name="scoreboard_title_first_to_n">Premier à faire %i morts !</string>
+  <string name="scoreboard_title_kill_everything">Tuez tout ce qui bouge !</string>
+  <string name="scoreboard_title_eliminate_threat">Éliminez la menace !</string>
+	<string name="scoreboard_title_survive">Restez en vie !</string>
+  <string name="scoreboard_title_follow_objectives">Suivez les objectifs !</string>
+  <string name="scoreboard_title_capture_the_bag">Capturez le sac !</string>
+  
+  <string name="scoreboard_team_humans">Humains</string>
+  <string name="scoreboard_team_red">Equipe Rouge</string>
+  <string name="scoreboard_team_blue">Equipe Bleu</string>
+  <string name="scoreboard_team_green">Equipe Verte</string>
+  <string name="scoreboard_team_yellow">Equipe Jaune</string>
+
+  <string name="hud_free_camera">Caméra libre</string>
+	<string name="hud_spectating">Entrain de regarder - [c=0,200,200,255]%s[/c]</string>
+	<string name="hud_cycle_cameras">Appuyer sur [key=fire] pour changer de vue</string>
+
+  <string name="game_over_coins_earnt">[c=255,194,14,255]Pièces gagnées[/c]</string>
+  <string name="game_over_coins_earnt_value_format">[img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]</string>
+  <string name="game_over_title">FIN DE LA PARTIE</string>
+  <string name="game_over_level_complete_title">NIVEAU COMPLÉTÉ</string>
+  <string name="game_over_skill_points_earnt_value_format">[img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c]</string>
+
+  <string name="game_over_skill_points_earnt">[c=0,200,200,255]Points de compétences acquis[/c]</string>
+  <string name="leaderboad_auto_map">Meilleur Score - %s</string>
+  
+  <string name="game_over_restart_text">Redémarrage dans %i ...</string>
+  <string name="game_over_continue_text">Reprise dans %i ...</string>
+  <string name="game_over_bonus_base">Score de l’équipe</string>
+  <string name="game_over_bonus_round">Round Bonus</string>
+  <string name="game_over_bonus_time">Temps Bonus</string>
+  <string name="game_over_bonus_pity">Bonus de pitié</string>
+  <string name="game_over_bonus_kills">Bonus Tués</string>
+  <string name="game_over_bonus_revives">Bonus sauvetage</string>
+
+  <string name="prompt_price_postfix">" Pour [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%i[/c]"</string>
+  <string name="ghost_revive_prompt">[key=interact] Pour réanimer</string>
+  <string name="press_button_prompt">[key=interact] Pour appuyer</string>
+  <string name="fill_ammo_prompt">[key=interact] Pour récupérer les munitions</string>
+  <string name="move_prompt">[key=interact] Pour déplacer</string>
+  <string name="place_prompt">[key=interact] Pour poser</string>
+  <string name="pickup_prompt">[key=interact] Pour prendre</string>
+  <string name="rebuild_prompt">[key=interact] Pour reconstruire</string>
+  <string name="buy_generic_prompt">[key=interact] Pour acheter %s</string>
+  <string name="buy_open_prompt">[key=interact] Pour Ouvrir</string>
+  <string name="interact_prompt">[key=interact] Pour interagir</string>
+  <string name="buy_close_prompt">[key=interact] Pour fermer</string>
+  <string name="buy_health_prompt">[key=interact] Pour acheter %s (+ %i PV)</string>
+  <string name="buy_armour_prompt">[key=interact] Pour acheter %s (+ %i Armure)</string>
+  <string name="save_survivor_prompt">[key=interact] Pour sauver</string>
+  <string name="pet_cucco_prompt">[key=interact] Pour caresser</string>  
+  <string name="item_soda_name">Soda</string> 
+  <string name="item_food_name">Nourriture</string>
+
+  <string name="game_over_bonus_multiplier">Bonus Multiplicateur</string>
+  <string name="objective_push_the_button">Appuyez sur le bouton !</string>
+  <string name="objective_get_to_the_mall">Allez au centre commercial !</string>
+  <string name="objective_mall_closed_find_another_path">Le centre commercial est fermé, trouvez un autre chemin !</string>
+  <string name="objective_mall_find_entrance">Trouvez l\'entrée du centre commercial !</string>
+  <string name="objective_hold_out">Tenez bon durant %s !</string>
+  
+  <string name="objective_load_up_at_gun_shop">Équipez vous au magasin d\'armes !</string>
+  <string name="objective_get_to_mall_back">Retournez au centre commercial !</string>
+  <string name="objective_find_game_shop">Trouvez le jeu vidéo !</string>
+  <string name="objective_escape_mall">Échappez vous du centre commercial !</string>
+  <string name="objective_find_a_key">Porte fermée, trouvez une clé !</string>
+
+  <string name="menu_premium_purchase">Ouvrir Steam Pour Acheter</string>
+	<string name="menu_mod_options_title">.Workshop Steam</string>
+  <string name="menu_mod_options_apply">Relancez le jeu pour appliquer les modifications apportées.</string>
+  <string name="menu_view_workshop">Parcourir les mods disponibles sur Steam</string>
+  <string name="menu_mod_preview">Aperçu</string>
+  <string name="menu_mod_name">Nom</string>
+  <string name="menu_mod_author">Auteur</string>
+  <string name="menu_mod_not_subscribed">Abonné à aucun mods.</string>
+
+  <string name="menu_server_browser_title">.Liste des serveurs</string>
+	<string name="menu_server_browser_dedicated_label">[c=0,200,255,255]Cette Couleur[/c] = Dédié</string>
+	<string name="menu_server_browser_user_label">[c=255,255,255,255]Cette Couleur[/c] = Hébergé par l\'utilisateur</string>
+	<string name="menu_server_browser_name_column">Nom</string>
+	<string name="menu_server_browser_map_column">Carte</string>
+	<string name="menu_server_browser_players_column">Joueurs</string>
+	<string name="menu_server_browser_ping_column">Ping</string>
+	<string name="menu_server_browser_source_internet">Serveurs internet</string>
+	<string name="menu_server_browser_source_lan">Serveurs LAN</string>
+	<string name="menu_server_browser_source_friends">Amis</string>
+	<string name="menu_server_browser_source_favorites">Favoris</string>
+	<string name="menu_server_browser_source_history">Historique</string>
+	
+	<string name="menu_connecting_to_server">Connexion au serveur...</string>
+
+  <string name="connect_overlay_error">Connexion interrompue (%.1f s) ...</string>
+  
+	<string name="menu_starting_local_server">Lancement d\'un serveur Local...</string>	
+	
+	<string name="menu_game_setup_title">.Configuration de la partie</string>
+	<string name="menu_game_setup_find_game">Trouver une partie</string>
+	<string name="menu_game_setup_quick_game">Partie rapide</string>
+	<string name="menu_game_setup_host_game">Héberger une partie</string>
+	<string name="menu_game_setup_browse_servers">Parcourir les serveurs</string>
+	<string name="menu_game_setup_find_game_description">Connexion automatique au serveur qui correspond le mieux à vos besoins.</string>
+	<string name="menu_game_setup_quick_game_description">Joindre rapidement une partie.</string>
+	<string name="menu_game_setup_host_game_description">Hébergez une nouvelle partie avec vos propres paramètres puis invitez vos amis et/ou les joueurs du jeu à se connecter.</string>
+	<string name="menu_game_setup_browse_servers_description">Parcourez toutes les parties en cours et choisissez manuellement celle que vous souhaitez rejoindre.</string>
+	<string name="not_enough_coins_prompt">Il vous faut [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%i[/c] de plus</string>
+  
+  <string name="objective_find_transport">Trouvez un moyen de rentrer !</string>
+
+  <string name="menu_premium_title">.Acheter Un Compte Gold</string>
+	<string name="menu_premium_text">Acheter un [c=255,194,14,255]Compte Gold[/c] aide au développement du jeu et vous donne les bonus suivants. Obtenir un [c=255,194,14,255]Compte Gold[/c] est permanent.
+\n[img=game_hud_weaponicon_none_0,1.0,1.0] Contrôlez des [c=14,255,14,255]Zombies[/c] quand vous êtes mort / spectateur. [img=game_hud_weaponicon_none_0,1.0,1.0] Accéder aux exclusifs [c=255,194,14,255]Serveurs Gold[/c]. [img=game_hud_weaponicon_none_0,1.0,1.0] Accéder à plusieurs [c=255,194,14,255]Objets Gold[/c] Dans le magasin. [img=game_hud_weaponicon_none_0,1.0,1.0] Chacun de vos [c=255,194,14,255]Objets Gold[/c] ajouter à votre Inventaire Steam. [img=game_hud_weaponicon_none_0,1.0,1.0] Un [c=255,194,14,255]Emblème[/c] unique à coté de votre pseudonyme dans le tableau des scores.\n[img=game_hud_weaponicon_none_0,1.0,1.0] Votre pseudonyme apparaîtra en [c=255,194,14,255]Lettres Dorées[/c]. [img=game_hud_weaponicon_none_0,1.0,1.0] Les fantômes de vos personnages seront en [c=255,194,14,255]Doré[/c]. [img=game_hud_weaponicon_none_0,1.0,1.0] La [c=255,194,14,255]Peinture Dorée[/c] et la [c=255,194,14,255]Couleur custom[/c] pour peindre vos objets avec !
+\n[img=game_hud_weaponicon_none_0,1.0,1.0] Le double de chances de trouver de l\'XP, des Gemmes et des Pièces. [img=game_hud_weaponicon_none_0,1.0,1.0] Des [c=255,194,14,255]Cases de Personnages[/c] en plus. [img=game_hud_weaponicon_none_0,1.0,1.0] De [c=255,194,14,255]L\'Espace de stockage[/c] en plus dans votre inventaire. [img=game_hud_weaponicon_none_0,1.0,1.0] Vos nouveaux personnages auront une [c=255,194,14,255]Mallette complète[/c]. [img=game_hud_weaponicon_none_0,1.0,1.0] Et plus jamais vous ne verrez [c=255,194,14,255]cet Écran[/c].
+\nCette liste n\'est pas forcément exhaustive et des choses pourront occasionnellement être ajoutées/retirées du statut du [c=255,194,14,255]Compte Gold[/c].</string>
+
+  <string name="menu_options_mod">Workshop Steam</string>
+  <string name="menu_options_audio_description">Changer les différents paramètres audio du jeu. Principalement le volume de la musique et des sons.</string>
+	<string name="menu_game_setup_leaderboards_description">Visualisez votre classement sur différentes cartes sur une échelle globale.</string>
+	<string name="menu_options_title">.Options</string>	
+	<string name="menu_options_input">Paramètres du clavier</string>	
+	<string name="menu_options_audio">Audio</string>	
+	<string name="menu_options_misc">Autres</string>
+  <string name="menu_options_resolution_change_confirm">Veuillez confirmer si cette résolution est correcte. Retour à la résolution précédente dans %i ...</string>
+	<string name="menu_options_input_press_bind_key">Veuillez entrer la touche du clavier ou de la manette correspondante pour cette action.</string>
+	<string name="menu_options_graphics_description">Changer différents paramètres influents sur le rendu du jeu. Des paramètres tels que la résolution ou le rendu graphique.</string>
+	<string name="menu_game_setup_achievements_description">Visualiser les succès que vous avez gagné en jouant.</string>
+	<string name="menu_game_setup_back_description">Retourner au menu de connexion.</string>
+
+	<string name="menu_options_gameplay">Paramètres de jeu</string>	
+	<string name="menu_options_input_description">Reconfigurez les contrôles du jeu à votre guise. Nous fournissons un support intégral du clavier, de la souris et des contrôleurs de jeux !</string>
+	<string name="menu_game_setup_inventory_description">Équipez différents objets générés, améliorez l\'arbre de compétences; appropriez vous votre personnage !</string>
+	<string name="menu_options_graphics">Graphismes</string>	
+	<string name="menu_options_gameplay_description">Changer différents paramètres concernant le comportement du jeu. Des paramètres tels que les mouvements de l’écran ou les flèches d\'interaction.</string>
+	<string name="menu_options_misc_description">Changer différents paramètres qui ne peuvent êtres classés parmi les autre catégories. Des paramètres tels que le langage ou les paramètres liées à Steam.</string>
+  <string name="menu_options_mod_description">Découvrez, installez et désinstallez du contenu crée par la communauté. Par le biais du Workshop de Steam.</string>
+	<string name="menu_options_back_description">Retour en arrière sans appliquer les changements.</string>
+	<string name="menu_options_apply_description">Appliquer tout les changements fait.</string>
+
+	<string name="menu_options_gameplay_title">.Options de jeu</string>
+	<string name="menu_options_gameplay_screen_shake">Autoriser les mouvements de caméra ?</string>	
+	<string name="menu_options_gameplay_interaction_arrows">Montrer les flèches d\'interactions ?</string>	
+	<string name="menu_options_gameplay_interaction_messages">Montrer les messages d\'interaction ?</string>	
+	<string name="menu_options_gameplay_input_to_pickup">Exiger une touche pour ramasser les objets ?</string>
+	<string name="menu_options_gameplay_input_to_pickup_description">Force le joueur a utiliser un bouton pour interagir plutôt que de juste marcher dessus.</string>
+	
+	<string name="menu_options_misc_title">.Autres</string>
+	<string name="menu_options_misc_language_text">Langage</string>
+	<string name="menu_options_misc_notification_text">Notifications Steam</string>
+
+	<string name="menu_options_audio_title">.Options audio</string>
+	<string name="menu_options_audio_bgm_text">Volume de la musique</string>
+	<string name="menu_options_audio_sfx_text">Volume des sons</string>
+	<string name="menu_options_audio_voice_recv_text">Volume des voix</string>
+	<string name="menu_options_audio_voice_send_text">Volume du microphone</string>
+	<string name="menu_options_audio_voice_enabled_text">Activer le chat vocale ?</string>
+	<string name="menu_options_audio_voice_push_to_talk_enabled_text">Appuyer pour parler ?</string>
+	
+	<string name="menu_options_input_column_2">Clavier</string>
+	<string name="menu_options_input_column_3">Manette</string>
+	
+	<string name="menu_options_graphics_title">.Options graphiques</string>
+	<string name="menu_options_graphics_resolution">Résolution :</string>
+	<string name="menu_options_graphics_quality">Densité des effets :</string>
+	<string name="menu_options_graphics_mode">Mode graphique :</string>
+	<string name="menu_options_graphics_advanced_settings">Paramètres avancés</string>
+	<string name="menu_graphics_resolution_description">La résolution décide de la taille de la fenêtre dans lequel le jeu apparaît.</string>
+	<string name="menu_graphics_mode_description">Le mode graphique décide de la façon selon laquelle la fenêtre est positionnée.</string>
+	<string name="menu_graphics_quality_description">Cette options ajuste globalement la quantités de chair, particules et autres effet similaires optionnels visibles à l\'écran. Baisser ceci peut améliorer les performances.</string>
+	<string name="editor_paint">Peinture</string>
+	<string name="scoreboard_title_find_the_exit">Trouvez la sortie !</string>
+  
+  <string name="game_over_bonus_dungeon_level">Niveau Bonus du Donjon</string>
+
+  <string name="descend_prompt">[key=interact] Pour descendre</string>
+  <string name="menu_options_gameplay_occluding_objects">Transparence des objets ?</string>	
+	<string name="menu_options_gameplay_screen_shake_description">Active des effets de secousses de l\'écran lorsque le joueur est proche d\'explosions ou utilise certaines armes.</string>	
+	<string name="menu_options_gameplay_interaction_messages_description">Montrer les messages dans l\'HUD lorsque le joueur est proche d\'objets avec lesquels il peut interagir.</string>	
+	<string name="menu_options_input_title">.Options d\'entrée</string>
+	<string name="menu_options_input_gamepad_dead_zone">Zone morte de la manette</string>
+	<string name="menu_options_input_column_1">Action</string>
+	<string name="menu_options_advanced_graphics_title">.Options Graphiques</string>
+	<string name="menu_options_advanced_graphics_vsync">Synchronisation verticale activée ?</string>
+	<string name="menu_options_advanced_graphics_hq2x">Filtre de lissage activé ?</string>
+	<string name="menu_options_advanced_graphics_shaders">Post Traitement activé ?</string>
+	<string name="menu_options_advanced_graphics_distortion">Effet de distorsion activé ?</string>
+	<string name="global_chat_server">Serveur</string>
+  <string name="global_chat_global">Global</string>
+  <string name="global_chat_not_access">Vous n’êtes pas autorisé à accéder au serveur de chat global.</string>
+  <string name="global_chat_not_connected">Vous n’êtes pas connecté au serveur de chat global.</string>
+  <string name="global_chat_lost_connection">Vous avez perdu la connexion au serveur de chat global.</string>
+  <string name="global_chat_kicked">Vous avez été exclu du serveur de chat global.</string>
+
+  <string name="inventory_item_drop_title">Vous venez de trouver: ...</string>
+  
+  <string name="menu_item_global_chat">Chat global</string>
+	<string name="minimap_title">Carte du Donjon - Niveau %i</string>
+  <string name="minimap_controls">Utilisez [key=left][key=up][key=down][key=right] pour vous déplacer</string>
+
+  <string name="hud_being_revived">Réanimé par - [c=0,200,200,255]%s[/c]</string>
+
+  <string name="profile_stat_name_wallet_interest">Intérêts du Portefeuille</string>
+  <string name="profile_stat_name_max_health">Santé Maximum</string>
+  <string name="profile_stat_name_health_regen">Régénération de la santé</string>
+  <string name="profile_stat_name_speed">Vitesse de déplacement</string>
+  <string name="profile_stat_name_ammo_capacity">Munitions maximum</string>
+  <string name="profile_stat_name_ammo_regen">Régénération des munitions</string>
+  <string name="profile_stat_name_gold_drop">Taux de drop d\'argent</string>
+  <string name="profile_stat_name_gold_magnet">Distance d\'attraction de l\'argent</string>
+  <string name="profile_stat_name_buy_price">Prix de l\'Objet à l\'Achat</string>
+  <string name="profile_stat_name_sell_price">Prix de l\'Objet à la Vente</string>
+  <string name="profile_stat_name_gem_drop">Taux de drop de gemmes</string>
+  <string name="profile_stat_name_gem_magnet">Distance d\'attraction des gemmes</string>
+  <string name="profile_stat_name_xp">Expérience gagnée</string>
+  <string name="profile_stat_name_melee_damage">Dommages au corps à corps</string>
+  <string name="profile_stat_name_melee_stamina">Endurance</string>
+  <string name="profile_stat_name_rifle_damage">Dommages au fusil</string>
+  <string name="profile_stat_name_rifle_ammo">Capacité du fusil</string>
+  <string name="profile_stat_name_heavy_weapon_damage">Dommages des armes lourdes</string>
+  <string name="profile_stat_name_heavy_weapon_ammo">Capacité des armes lourdes</string>
+  <string name="profile_stat_name_explosion_radius">Périmètre de l\'explosion</string>
+  <string name="profile_stat_name_turret_damage">Dommages des tourelles</string>
+  <string name="profile_stat_name_turret_ammo">Capacité de la tourelle</string>
+  <string name="profile_stat_name_ghost_life_time">Durée de vie en fantôme</string>
+  <string name="profile_stat_name_ghost_revive_time">Vitesse de résurrection en fantôme</string>
+  <string name="profile_stat_name_healing_speed">Vitesse de soin</string>
+  <string name="profile_stat_name_damage">Dommages</string>
+  <string name="profile_stat_name_damage_taken">Résistance au dommages</string>
+  <string name="profile_stat_name_reload_speed">Vitesse de rechargement</string>
+  <string name="profile_stat_name_ammo_usage">Utilisation des munitions</string>
+  <string name="profile_stat_name_targetable">Verrouillable</string>
+
+  <string name="item_stat_negative">[c=220,60,70]%s%% %s[/c]</string>
+  <string name="item_stat_positive">[c=60,220,70]%s%% %s[/c]</string>
+          
+  <string name="profile_stat_name_buff_grenade_radius">Périmètre du buff de la grenade</string>
+  <string name="profile_stat_name_buff_grenade_ammo">Capacité du buff de la grenade</string>
+  <string name="profile_stat_name_rate_of_fire">Cadence de tir</string>
+  <string name="interact_map_prompt">[key=interact] Pour voir la carte</string>
+  <string name="profile_stat_name_enemy_status_duration">Durée du statut de l\'ennemi</string>
+  <string name="menu_options_gameplay_interaction_arrows_description">Montre des flèches sur les objets avec interactions.</string>	
+	<string name="menu_options_advanced_graphics_perf_overlay">Montrer les statistiques de performances ?</string>
+  <string name="menu_options_advanced_graphics_extended_perf_overlay">Montrer les statistiques étendues de performances ?</string>
+	<string name="tutorial_bouncer_zombies">Les zombies rebondissants sont lents, mais quand ils sautent, ils frappent fort.</string>
+  <string name="tutorial_floater_zombies">Les zombies flottants peuvent vous cracher des boules de sang dessus, elles font mal !</string>
+  <string name="message_inventory_full_title">[c=235,152,152]L\'INVENTAIRE EST PLEIN[/c]</string>
+  <string name="message_inventory_full">Votre inventaire est complètement plein! Les objets ramassés seront vendus.</string>
+
+  <string name="message_wallet_full_title">[c=235,152,152]PORTEFEUILLE PLEIN[/c]</string>
+  <string name="message_wallet_full">Votre portefeuille est complètement plein! Les pièces obtenues à l\'avenir ne seront pas conservées.</string>
+
+  <string name="tagline_77">«L\'Exploseur» - C\'est une roquette que vous avez dans la poche ? - «Bloccy»</string>
+	
+<string name="menu_mod_subscribe">S\'abonner</string>
+  <string name="menu_mod_view_on_steam">Regardez sur \"Steam\"</string>
+  <string name="menu_options_gameplay_occluding_objects_description">Les objets en face du joueur disparaissent.</string>	
+	<string name="menu_graphics_advanced_description">Le jeu est rendu plus en détail. Cela modifie grandement l\'apparence du jeu.</string>
+		
+	<string name="menu_player_login_guest_name">Invité</string>	
+	<string name="menu_select_character_title">.Sélection du personnage</string>
+	<string name="menu_select_character_new_character">&lt; Créer Un Nouveau Personnage &gt;</string>
+	<string name="menu_select_character_select">Sélection Du Personnage</string>
+	<string name="menu_select_character_delete">Suppression Du Personnage</string>
+	<string name="menu_select_character_create">Créer Un Nouveau Personnage</string>
+	<string name="menu_select_character_confirm_delete">Êtes-vous certain que vous désirez effacer ce personnage ?</string>
+	<string name="menu_select_character_untitled_name">Personnage Sans Nom</string>
+	<string name="menu_select_character_confirm_untitled">Êtes-vous certain de vouloir utiliser le nom par défaut ?</string>
+
+	<string name="matching_error_internal_error">Une erreur interne empêche l\'opération de correspondance.</string>
+	<string name="matching_error_invalid_state">Le système de correspondance est entré un état non valide, et n\'a donc pas pu terminer l\'opération.</string>
+	<string name="matching_error_offline">Il n\'y a pas connexion aux serveurs correspondants.</string>
+	<string name="matching_error_timeout">L\'opération de correspondance a expirée.</string>
+	<string name="matching_error_kicked">Vous avez été expulsé du match.</string>
+	<string name="matching_error_map_not_found">Ce lobby utilise une carte que vous n\'avez pas installée.</string>
+	<string name="matching_error_no_lobby_matches">Aucunes parties ou lobbies correspondant à vos critères.</string>
+
+	<string name="matching_error_dosent_exist">Cette partie n\'existe plus.</string>
+	<string name="matching_error_no_permission">Vous n\'êtes pas autorisé à joindre ce match.</string>
+	<string name="matching_error_full">Cette partie est pleine.</string>
+	<string name="matching_error_banned">Vous êtes banni de ce match.</string>
+	<string name="net_error_internal_error">Une erreur interne a empêché votre connexion.</string>
+	<string name="net_error_timeout">La connexion a expiré.</string>
+	<string name="online_platform_feature_not_available_offline">Vous n\'êtes pas connecté à \"Steam\" ou à Internet. Cette fonctionnalité n\'est pas disponible hors ligne.</string>
+  <string name="online_platform_feature_offline_lobby">Vous ne pouvez pas créer un lobby si vous n\'êtes pas connecté à Internet. Pour utiliser cette fonction, s\'il vous plaît vous connecter à Internet et créer ce lobby à nouveau.</string>
+	
+	<string name="host_game_map_name_label">Carte :</string>
+	<string name="host_game_map_player_count_label">Nombre de Joueurs :</string>
+	<string name="host_game_map_secure_game">Sécurisé par \"VAC\" ?</string>
+	<string name="host_game_setting_up_server">Configuration de la partie ...</string>
+	
+	<string name="find_game_map_name_label">Carte :</string>
+	<string name="find_game_map_find_game">Trouver Une Partie ?</string>
+	<string name="find_game_finding_game">Trouver une partie ...</string>
+	
+	<string name="lobby_change_settings">Paramètres</string>
+	<string name="lobby_start_game">Lancer</string>
+	<string name="lobby_invite">Inviter</string>
+	<string name="lobby_private_game">Partie Privée</string>
+	<string name="lobby_public_game">Partie Publique</string>
+	<string name="lobby_kick_player">Expulser le Joueur</string>
+	<string name="lobby_view_profile">Voir Le Profil</string>
+	<string name="lobby_custom_map">Carte Customisée</string>
+
+	<string name="map_load_loading_map">Chargement de la carte</string>menu_game_setup_inventory_description
+	<string name="map_load_error_unknown_map">Vous avez pas installé la carte qui est utilisée sur ce serveur.</string>
+	<string name="sub_menu_global_chat_button_text">Chat Global</string>
+  <string name="sub_menu_inventory_button_text">Modifier Personnage</string>
+	<string name="sub_menu_vote_button_text">Voter/Signaler</string>
+	<string name="sub_menu_team_button_text">Changez équipe</string>
+	<string name="sub_menu_achievements_button_text">Succès</string>
+	<string name="sub_menu_statistics_button_text">Statistiques</string>
+	<string name="menu_global_chat_online_label">Il y a %i personnes dans le chat global.</string>
+  <string name="menu_global_chat_title">.Chat Global</string>
+
+  <string name="autosave_warning">Ce jeu utilise un système de sauvegarde automatique. Veuillez ne pas fermer le jeu lorsque cet indicateur est affiché.\n\n[img=autosave_icon,1.0,1.0]</string>
+  
+  <string name="restricted_mode_warning_title">[c=235,52,52]Mode Limité[/c]</string>
+  <string name="tagline_73">À montrer, pas à dire.</string>
+	<string name="tagline_74">pourquoi chapeaux ...</string>
+	<string name="tagline_71">NON</string>
+	<string name="item_ghetto_superstar_category">Accessoires</string>
+	<string name="item_bow_category">Accessoires</string>
+	<string name="item_glasses_name">Lunettes</string>
+	<string name="item_glasses_description">Vous donne une meilleure précision, probablement...</string>
+	<string name="restricted_mode_ingame_warning_title">[c=235,52,52]CARTE NON APPROUVÉE[/c]</string>
+  <string name="restricted_mode_ingame_warning">En jouant vous ne gagnerez aucun bonus - xp, pièces, succès etc.</string>
+
+  <string name="premium_warning">Si vous appréciez ce jeu, veuillez considérer l\'achat d\'un\n[c=255,194,14,255]Compte Gold[/c] pour financer le développement !
+\n\nPlein de bonus sont inclus et\ncette écran n’apparaîtra plus !</string>
+
+  <string name="restricted_mode_warning">Le jeu tourne actuellement en mode limité. C\'est parce que les mods suivant, modifiant les fichiers du jeu de manière critique, n\'ont pas été encore approuvés:↵\n↵\n%s↵\n↵\nEn mode limité, votre progression ne pourra pas être sauvée, et fonctionnalités permanentes (succès, tableau des scores, statistiques) seront annulées. Tout les serveurs sur lesquels vous irez devront avoir les même mods que les votre.↵\n↵\nCe mode a été crée pour le test, Veuillez demander aux développeurs de TwinDrills d\'approuver votre mod si vous voulez que la limite soit retirée.</string>
+  <string name="mod_whitelisted">Approuvé</string>
+  <string name="mod_not_whitelisted">Non Approuvé</string>
+  <string name="mod_whitelisted_warning_title">[c=235,52,52]Alerte Modding[/c]</string>
+  <string name="inventory_item_broken_sub">Pour éviter cela, essayez d\'obtenir un objet indestructible en jeu ou par le biais du marché Steam !</string>
+ 
+  <string name="mod_view_non_whitelisted">Consultation non autorisée ?</string>
+  <string name="mod_whitelisted_warning">Les mods qui modifient le jeu de manière critique, ou qui permettent des abus potentiels, ont besoin d\'être approuvés avant utilisation. Si vous les utilisez sans autorisation, vous entrerez en mode limité.↵\n↵\nEn mode limité, votre progression ne pourra pas être sauvée, et les fonctionnalités permanentes (succès, tableau des scores, statistiques) seront annulées. Tout les serveurs sur lesquels vous irez devront avoir les même mods que les votre.↵\n↵\nPar défaut cet écran n\'affichera que des mods approuvés, vous pouvez changez ça en cochant la boite en bas de la page.</string>
+
+  <string name="inventory_item_unpack_drop_title">Vous avez déballé ...</string>
+  <string name="inventory_item_challenge_drop_title">Récompense du challenge</string>
+
+  <string name="inventory_item_drop_coins_name">%i Pièces</string>
+  <string name="inventory_item_drop_coins_description">Dans quoi allez-vous les dépenser ?</string>
+  <string name="inventory_item_drop_xp_name">%i XP</string>
+  <string name="inventory_item_broken_title">[c=255,64,64]Votre objet est cassé ...[/c]</string>
+  <string name="unlock_dialog_title">[c=255,194,14,255]Nouveaux Trucs ...[/c]</string>
+
+  <string name="unlock_dialog_title_item_broken">[c=255,64,64,255]Votre %s est cassé ...[/c]</string>
+  <string name="unlock_dialog_action_item_broken">[c=255,64,64,255]OBJET CASSÉ[/c]</string>
+  <string name="unlock_dialog_description_item_broken">Vous pouvez en acheter un nouveau au magasin, ou en chercher↵\nun indestructible en jeu !</string>
+  
+  <string name="unlock_dialog_title_challenge">[c=255,194,14,255]Vous avez reçu: %s ...[/c]</string>
+  <string name="unlock_dialog_action_challenge">[c=255,194,14,255]RÉCOMPENSE DU CHALLENGE[/c]</string>
+    
+  <string name="unlock_dialog_title_online">[c=255,194,14,255]Vous avez trouvé: %s ...[/c]</string>
+  <string name="unlock_dialog_action_online">[c=255,194,14,255]OBJET STEAM[/c]</string>
+  
+  <string name="unlock_dialog_title_item_unlocked">[c=255,194,14,255]Vous avez débloqué: %s ...[/c]</string>
+  <string name="unlock_dialog_action_item_unlocked">[c=255,194,14,255]OBJET DÉBLOQUÉ[/c]</string>
+  <string name="unlock_dialog_description_item_unlocked">%s↵\nVous pouvez l\'acheter au magasin !</string>
+  
+  <string name="unlock_dialog_title_skill_unlocked">[c=64,64,255,255]Tu as débloqué: [c=255,194,14,255]%s[/c] ...[/c]</string>
+  <string name="unlock_dialog_action_skill_unlocked">[c=64,64,255,255]COMPÉTENCE DÉBLOQUÉE[/c]</string>
+  <string name="unlock_dialog_description_skill_unlocked">%s↵\nVous pouvez l\'acheter depuis le menu des compétences !</string>
+  
+  <string name="unlock_dialog_title_unpack_xp">[c=64,64,255,255]Vous avez déballé: [c=255,194,14,255]%i[/c] XP ...[/c]</string>
+  <string name="unlock_dialog_action_unpack_xp">[c=64,64,255,255]XP DÉBALLÉE[/c]</string>
+  <string name="unlock_dialog_description_unpack_xp">C\'est l\'heure de gagner des niveaux !</string>
+  
+  <string name="unlock_dialog_title_unpack_coins">[c=64,64,255,255]Vous avez déballé: [c=255,194,14,255]%i[/c] pièces ...[/c]</string>
+  <string name="unlock_dialog_action_unpack_coins">[c=64,64,255,255]PIÈCES DÉBALLÉES[/c]</string>
+  <string name="unlock_dialog_description_unpack_coins">C\'est l\'heure de dépenser !</string>
+  
+  <string name="unlock_dialog_title_unpack_item">[c=64,64,255,255]Vous avez déballé: %s ...[/c]</string>
+  <string name="unlock_dialog_action_unpack_item">[c=64,64,255,255]OBJET DÉBALLÉ[/c]</string>
+  
+  <string name="menu_apply_paint">"Peindre "</string>
+  <string name="menu_unpack">Déballer</string>
+  <string name="tutorial_large_blobby_zombies">Les grands zombies gluants sont empoisonnés. Faites attention à leurs crachats !</string>&gt;
+  <string name="tutorial_small_blobby_zombies">Les petits zombies gluants sont lents, mais faites attention, ils vomissent du poison.</string>
+  <string name="hud_press_to_control_zombie">Appuyez sur [key=interact] Pour contrôler le zombie</string>
+  <string name="hud_press_to_control_zombie_waiting">Attente d\'un zombie disponible ...</string>
+
+  <string name="menu_mod_restart_dialog">Les modifications que vous avez apporter à vos mods prendront effet la prochaine fois que vous lancerez le jeu.</string>
+
+  <string name="menu_mod_unsubscribe">Se désabonner</string>
+  <string name="menu_mod_favorite">Favoris</string>
+  <string name="profile_stat_name_small_arms_damage">Dommages des Armes Légères</string>
+  <string name="menu_mod_unfavorite">Retirer des Favoris</string>
+  <string name="profile_stat_name_small_arms_ammo">Capacité des Armes Légères</string>
+  <string name="inventory_item_drop_xp_description">Vous devenez plus fort !</string>
+
+  <string name="menu_mod_vote_up">Voter pour</string>
+  <string name="menu_mod_vote_down">Voter contre</string>
+  <string name="menu_mod_vote_text">[c=80,255,80]%i[/c] / [c=255,80,80]%i[/c]</string>
+
+  <string name="menu_game_setup_global_chat_description">Parler avec les autres utilisateurs qui sont actuellement en jeu ! Vous pouvez régler si le chat global se retrouve dans le chat en jeu ici.</string>
+  <string name="menu_game_setup_challenge_daily">CHALLENGE DU JOUR</string>
+  <string name="menu_game_setup_challenge_weekly">CHALLENGE DE LA SEMAINE</string>
+  <string name="menu_game_setup_challenge_monthly">CHALLENGE DU MOIS</string>
+  <string name="menu_game_setup_challenge_completed">COMPLETÉ</string>
+  <string name="menu_game_setup_challenge_time_remaining">Temps Restant : %02id %02ih %02im %02is</string>
+  <string name="menu_game_setup_challenge_rewards">Récompenses</string>
+  <string name="daily_challenge_completed_description">Vous avez accompli le challenge du jour. Vos récompenses vous attendent dans le menu !</string>
+  <string name="weekly_challenge_completed_description">Vous avez accompli le challenge de la semaine. Vos récompenses vous attendent dans le menu !</string>
+  <string name="monthly_challenge_completed_description">Vous avez accompli le challenge du mois. Vos récompenses vous attendent dans le menu !</string>
+  <string name="daily_challenge_completed_name">[c=152,152,235]CHALLENGE DU JOUR ACCOMPLI[/c]</string>
+  <string name="weekly_challenge_completed_name">[c=152,152,235]CHALLENGE DE LA SEMAINE ACCOMPLI[/c]</string>
+  <string name="monthly_challenge_completed_name">[c=152,152,235]CHALLENGE DU MOIS ACCOMPLI[/c]</string>
+
+  <string name="challenge_1hp_survival_description">1 pv, aucune compétence et un pistolet. Pouvez-vous avoir un score de %i sur %s ?</string>
+  <string name="challenge_hp_bullets_description">Vos balles sont votre santé. Pouvez-vous avoir un score de %i sur %s ?</string>
+  <string name="challenge_hp_movement_description">Le mouvement vous fait mal, l\'immobilité vous soigne. Pouvez-vous avoir un score de %i sur %s ?</string>
+  <string name="challenge_max_multiplier_description">Pouvez-vous avoir un multiplicateur de %i sur %s ?</string>
+  <string name="challenge_max_score_description">Pouvez-vous avoir un score de %i sur %s ?</string>
+  <string name="challenge_max_waves_description">Pouvez-vous arrivé à la vague %i sur %s ?</string>
+  <string name="challenge_bullets_fired_description">Pouvez-vous tiré %i balles ?</string>
+  <string name="challenge_zombie_kills_description">Pouvez-vous tué %i ennemis ?</string>
+  <string name="challenge_pvp_kills_description">Pouvez-vous tué %i joueurs ?</string>
+  <string name="challenge_revive_players_description">Pouvez-vous réanimé %i joueurs ?</string>
+  <string name="challenge_heal_players_description">Pouvez-vous soigné les autres joueurs pour un total de %i PV ?</string>
+  <string name="challenge_weapon_switch_description">Votre arme change toute les 10 secondes ? Pouvez-vous arrivé à la vague %i sur %s ?</string>
+  <string name="challenge_reversed_controls_description">Vos contrôles sont inversés. Pouvez-vous arrivé à la vague %i sur %s ?</string>
+  <string name="challenge_boxes_destroyed_description">Détestez-vous assez les boites pour détruire %i d\'entre elles ?</string>
+  <string name="challenge_modded_map_description">Joue sur une carte modée avec quelqu\'un d\'autre !</string>
+  <string name="challenge_pvp_top_place_description">Pouvez-vous finir %i cartes en pvp en étant 1ère place ?</string>
+
+  <string name="challenge_weapon_kills_description">Pouvez-vous faire %i dommages avec %s armes ?</string>
+  <string name="challenge_weapon_sub_type_melee">Mêlée</string>
+  <string name="challenge_weapon_sub_type_heavy">Lourdes</string>
+  <string name="challenge_weapon_sub_type_turret">Tourelle</string>
+  <string name="challenge_weapon_sub_type_small_arms">Arme Légère</string>
+  <string name="challenge_weapon_sub_type_rifle">Fusil</string>
+  <string name="challenge_weapon_sub_type_grenade">Grenade</string>
+
+  <string name="challenge_to_many_local_users">Les cartes challenges ne peuvent être jouées que par un seul utilisateur. Veuillez déconnecter tout les autres utilisateurs et réessayer.</string>
+
+  <string name="menu_options_credits_description">Regardez moi les noms des gars qui ont fait ce jeu !</string>
+  <string name="menu_options_advanced_graphics_legacy">Utiliser le Renderer Legacy ?</string>
+  <string name="menu_options_advanced_graphics_vsync_description">La synchronisation verticale verrouille le frame rate du jeu sur la vitesse de rafraîchissement de votre moniteur. Cela aide à prévenir des étirements d\'écran et autres problèmes graphiques.</string>
+  <string name="menu_options_advanced_graphics_hq2x_description">" Le filtre lissant sert à lisser les pixels arts quand le jeu est affiché dans de grandes résolutions. Il est toujours en travaux. "</string>
+  <string name="menu_options_advanced_graphics_shaders_description">Les effets de post-traitements servent à afficher un certains nombres d\'effet en plein écran, comme le teint gris de l\'écran quand vous êtes proches de la mort.</string>
+  <string name="menu_options_advanced_graphics_distortion_description">Les effets de distorsion servent à faire que l\'écran ondule autour du feu et des explosions. Cela peut ralentir les PC ayant de faibles cartes graphiques.</string>
+  <string name="menu_options_advanced_graphics_perf_overlay_description">Affiche un overlay qui montre les données temps de frame à l\'écran par rapport aux performances. Rarement utile pour les non-développeurs.</string>
+  <string name="menu_options_advanced_graphics_extended_perf_overlay_description">Version plus détaillée de l\'overlay des performances, incluant une extension des données de temps. Demande une grande performance graphique. Rarement utile pour les non-développeurs.</string>
+  <string name="menu_options_advanced_graphics_legacy_description">Utilise une fonction fixe du pipeline de rendu. Le jeu devrait être fonctionnel, mais la majorité des effets graphiques ne seront pas disponibles. Ne doit être utiliser uniquement sur les cartes graphiques les moins puissantes ou non supportées.</string>
+  <string name="menu_options_advanced_graphics_legacy_description_forced">Utilise une fonction fixe du pipeline de rendu. Le jeu devrait être fonctionnel, mais la majorité des effets graphiques ne seront pas disponibles. Ne doit être utiliser uniquement sur les cartes graphiques les moins puissantes ou non supportées. [c=255,64,64,255]Attention: Votre carte graphique n\'est pas supportée.[/c]</string>
+
+  <string name="legacy_rendering_notice">[c=255,64,64,255]Attention: Votre carte graphique n\'est pas supportée.[/c] Votre carte graphique ne support pas certaines fonctionnalités que le jeu utilise. Pour autoriser le jeu a se lancer nous avons réduit les performances du jeu jusqu\'au rendu legacy. Tout sauf le rendu basique est désactivé - aucun post-traitement, distorsion, etc. Certaines fonctionnalités n\'auront pas du tout de rendu. Si votre carte n\'est pas intégrée et qu\'elle a été fabriqué lors des 5 dernières années, veuillez nous contacter (twindrills.com) ceci est une possible erreur de notre part !</string>
+
+
+  <string name="menu_player_login_title">.Assigner un contrôleur</string>
+  <string name="menu_player_login_press_to_join">[key=gui_input_select,joystick]</string>
+  <string name="menu_player_login_press_to_join_first_player">[key=gui_input_select,keyboard] ou [key=gui_input_select,joystick]</string>
+  <string name="menu_player_login_keyboard">[c=255,255,255]Clavier[/c]</string>
+  <string name="menu_player_login_joystick">[c=255,255,255]Contrôleur %i[/c]</string>
+
+  <string name="menu_select_character_level">Niveau %i</string>
+  <string name="matching_error_access_denied">Le système de correspondance a eu son accès rejeté et était incapable de compléter l\'opération.</string>
+  <string name="matching_error_limit_exceeded">Le système de correspondance a rencontré une limite de vitesse et était incapable de compléter l\'opération.</string>
+  <string name="matching_error_clan_disabled">Votre clan est désactivé.</string>
+  <string name="matching_error_community_lock">Votre compte est bloqué de la communauté.</string>
+  <string name="matching_error_blocked_by_member">Un membre de cette de cette partie vous a bloqué.</string>
+  <string name="matching_error_contains_blocked_member">Cette partie contient un membre que vous avez bloqué.</string>
+
+  <string name="net_error_unavailable">Impossible de se connecter, les pairs distants sont indisponibles.</string>
+  <string name="net_error_wrong_version">Les serveurs tournent sur une autre version du jeu.</string>
+  <string name="net_error_server_full">Le Serveur est plein.</string>
+  <string name="net_error_server_premium">Ce serveurs est pour les joueurs Gold uniquement.</string>
+  <string name="net_error_banned">Vous êtes banni de ce serveur.</string>
+  <string name="net_error_kicked">Vous avez été expulser du serveur.</string>
+  <string name="net_error_lost_connection">Vous avez perdu la connexion au serveur.</string>
+  <string name="net_error_duplicate_connection">Le serveur a rejeter la connexion. Vous êtes déjà connecté au serveur.</string>
+  <string name="net_error_tranmission_error">Connexion fermée. Données corrompues envoyée ou reçues.</string>
+  <string name="net_error_server_reserved">Le serveur est réservé pour un lobby.</string>
+  <string name="net_error_invalid_ticket">Le serveur a rejeté la connexion. Ticket d\'authentification invalide.</string>
+  <string name="net_error_client_mod_missmatch">Il vous manque quelques mods que le serveur est actuellement entrain de faire tourner (ou vos versions diffèrent) En particulier : %s</string>
+  <string name="online_platform_error_offline">Aucune connexion à la plateforme en ligne.</string>
+  <string name="net_error_server_mod_missmatch">Il manque au serveur quelques mods que vous faites tournés (ou vos versions diffèrent) En particulier : %s</string>
+
+  <string name="game_mode_prefix_name_ctb">Capturez Le Sac</string>
+  <string name="game_mode_prefix_name_arena">Arène</string>
+  <string name="game_mode_prefix_name_ru">Rack \'Em All</string>
+  <string name="game_mode_prefix_name_wave">Vague</string>
+  <string name="game_mode_prefix_name_tdm">Deathmatch En Équipes</string>
+  <string name="game_mode_prefix_name_dm">Deathmatch</string>
+  <string name="game_mode_prefix_name_dc">Donjon Aléatoire</string>
+  <string name="game_mode_prefix_name_gg">Jeu du Flingue</string>
+  <string name="game_mode_prefix_name_ggwave">Jeu Du Flingue - Vague</string>
+  <string name="game_mode_prefix_name_c1">Campagne - Nouveau Jeu</string>
+  <string name="game_mode_prefix_name_misc">Autres</string>
+
+  <string name="host_game_game_mode_name_label">Mode de jeu :</string>
+  <string name="host_game_map_private_game">Partie Privée ?</string>
+  <string name="host_game_map_host_game">Héberge La Partie</string>
+  <string name="find_game_game_mode_name_label">Mode de jeu :</string>
+  <string name="find_game_map_join_games_in_progress">Rejoindre Une Partie En Cours ?</string>
+  <string name="find_game_map_join_lobbies">Rejoindre Les Lobbies ?</string>
+  <string name="lobby_cancel_start">Quitter</string>
+  <string name="lobby_leave_game">Quitter</string>
+  <string name="lobby_title">.Lobby</string>
+  <string name="lobby_number_of_players">%i Joueurs</string>
+  <string name="lobby_vac_secure">Sécurisé par VAC</string>
+  <string name="lobby_vac_insecure">Non Sécurisé par VAC</string>
+  <string name="lobby_member_joined_lobby">[c=152,193,235,255]%s a rejoint le lobby.[/c]</string>
+  <string name="lobby_member_left_lobby">[c=152,193,235,255]%s a quitté le lobby.[/c]</string>
+  <string name="lobby_member_searching_server">[c=152,193,235,255]Recherche un serveur de jeu.[/c]</string>
+  <string name="lobby_member_search_server_cancel">[c=152,193,235,255]Recherche annulée.[/c]</string>
+  <string name="lobby_member_search_server_found">[c=152,193,235,255]Serveur trouvé, lancement de la partie.[/c]</string>
+  <string name="lobby_member_search_no_server_found">[c=152,193,235,255]Aucun serveur disponible, utilisation de l\'hébergement local, lancement de la partie.[/c]</string>
+  <string name="lobby_member_search_no_local_server">[c=152,193,235,255]Impossible d\'héberger le serveur local.[/c]</string>
+  <string name="lobby_member_open_slot">[c=128,128,128,128]Place Libre[/c]</string>
+  <string name="lobby_member_owner_postfix">[c=255,64,64,128](Leader)[/c]</string>
+  <string name="map_load_waiting_for_server">Attente des commandes du serveur</string>
+  <string name="map_load_sending_client_info">Envoie des informations du client</string>
+  <string name="map_load_sync_with_server">Synchronisation avec le serveur</string>
+  <string name="map_load_error_failed_load">La carte a été trouvé, mais n\'a pas pu être chargée pour une raison interne.</string>
+  <string name="map_load_error_unknown_map_workshop">Le serveur utilise une carte crée par un joueur, pour rejoindre un serveur qui l\'utilise, veuillez vous abonnez à celle-ci dans le Workshop Steam.</string>
+
+  <string name="sub_menu_copyright">Version {GAME_VERSION} - Copyright TwinDrills 2009-2015</string>
+  <string name="sub_menu_server_name">[c=0,200,200,255]%s[/c] - Hébergé par %s</string>
+  <string name="sub_menu_leaderboards_button_text">Tableau des Scores</string>
+  <string name="sub_menu_exit_button_text">Revenir Au Menu</string>
+
+  <string name="menu_global_chat_pipe_checkbox">Mettre le chat global dans le chat en jeu ?</string>
+  <string name="menu_inventory_not_available_in_pvp">[c=200,32,32]Indisponible en PVP.[/c]</string>
+  <string name="menu_inventory_title">.Modifier Le Personnage</string>
+  <string name="menu_inventory_max_level">Niveau Max</string>
+  <string name="menu_inventory_create_title">.Créer Un Personnage</string>
+  <string name="menu_inventory_equipment">Équipement</string>
+  <string name="menu_inventory_skill_tree">Arbre Des Compétences</string>
+  <string name="menu_inventory_item_shop">Magasin D\'Objets</string>
+  <string name="menu_inventory_skill_tree_avail">Arbre Des Compétences ([img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c])</string>
+  <string name="menu_inventory_item_shop_avail">Magasin D\'Objets ([img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c])</string>
+  <string name="menu_inventory_skill_points">[img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c]</string>
+  <string name="menu_inventory_gold">[img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]</string>
+  <string name="menu_inventory_locked">[c=255,64,64]VERROUILLÉ[/c]</string>
+  <string name="menu_inventory_gold_full">[img=screen_main_gold_icon,1.0,1.0][c=255,14,14,255]%s[/c]</string>
+  <string name="menu_inventory_durability">Durabilité</string>
+  <string name="menu_inventory_level">Niveau %i</string>
+  <string name="menu_inventory_xp">%s / %s XP</string>
+  <string name="menu_inventory_confirm_unspent">Vous avez toujours [img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c] / [img=screen_main_gold_icon,2.0,2.0][c=255,194,14,255]%s[/c] à dépenser.↵\n↵\nÊtes-vous sûr de vouloir créer votre personnage maintenant ? Ne vous inquiétez pas, vous pourrez toujours les dépenser plus tard.</string>
+
+  <string name="menu_equipment_title">.Modifier L\'Équipement</string>
+  <string name="menu_equipment_sell_confirm">Êtes-vous sûr de vouloir vendre %s pour [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c] ?</string>
+  <string name="menu_equipment_sell_confirm_inventory">Êtes-vous sûr de vouloir vendre %s pour [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c] ? C\'est un objet de l\'inventaire Steam, vous pouvez aussi l\'échanger ou le vendre via le marché Steam.</string>
+  <string name="menu_equipment_sell_must_have_head">Vous devez toujours avoir au moins une tête en dehors du magasin ! Vous ne pouvez pas vendre cet objet, vous seriez sans tête !</string>
+  <string name="menu_equipment_need_inventory_connection">Vous ne pouvez faire cette action qu\'en ligne. L\'inventaire des objets du marché nécessite une connexion à Steam.</string>
+
+  <string name="menu_skills_title">.Arbre Des Compétences</string>
+  <string name="menu_skills_reroll">Recommencer Les Compétences</string>
+  <string name="menu_skills_name">[c=175,96,225]%s[/c]</string>
+  <string name="menu_skills_energy_source">Coûte un %s ou plus.</string>
+  <string name="menu_skills_reroll_cannot_multi_purchase">Cette compétence ne peut être achetée plusieurs fois, même après une relance.</string>
+  <string name="menu_skills_reroll_not_enough">Cela va coûter [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c] pour relancer vos points de compétences.↵\n↵\nIl vous faut un nouveau [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c].</string>
+  <string name="menu_skills_reroll_confirm">Cela va coûter [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c] pour relancer vos points de compétences.↵\n↵\nÊtes-vous sûr de vouloir relancer vos points de compétence ?</string>
+  <string name="menu_skills_purchase_confirm">Êtes-vous de vouloir acheter %s pour [img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c] ?</string>
+  <string name="menu_skills_purchase_not_enough">Vous avez besoin de [img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c] pour acheter ça.</string>
+  <string name="menu_skills_purchase_sibling_unlocked_mutex">Vous ne pouvez plus acheter cette compétence, Elle est exclusivement compatible avec \'%s\'.</string>
+  <string name="menu_skills_purchase_parent_not_unlocked">Vous devez acheter \'%s\' avant de pouvoir acheter \'%s\'.</string>
+  <string name="menu_skills_purchase_confirm_mutex">Cette compétence est exclusive. Si vous l\'achetez vous ne pourrez pas acheter de compétences similaires. (indiquées par des lignes rouges).↵\n↵\nÊtes-vous sûr de vouloir acheter %s pour [img=screen_main_skill_icon,1.0,1.0][c=0,200,200,255]%s[/c] ?</string>
+  <string name="menu_skills_equip_slots">Comp. Active Équipées</string>
+  <string name="menu_skills_purchase_skill_locked">Cette compétence est [c=255,64,64]Verrouillée[/c]. Tu as besoin de remplir toute les conditions de déverrouillage pour pouvoir l\'acheter.</string>  
+
+  <string name="menu_buy_item_title">Acheter \'[c=128,128,255,255]%s[/c]\' ...</string>
+  <string name="menu_buy_item_fragile_item">Les objets fragiles peuvent éventuellement se casser. Ils ne sont pas échangeable ou vendable via Steam.</string>
+  <string name="menu_buy_item_fragile_item_button">Acheter un objet fragile pour [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c]</string>
+  <string name="menu_buy_item_fragile_item_button_not_available">La version fragile de cet objet n\'est pas disponible.</string>
+  <string name="menu_buy_item_fragile_item_button_inventory_full">Votre inventaire est plein.</string>
+  <string name="menu_buy_item_fragile_item_button_not_enoungh_coins">Il vous manque [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c].</string>
+  <string name="menu_buy_item_indestructable_item">Les objets indestructibles sont échangeables et vendables. Ils peuvent être achetés avec de l\'argent réel, obtenus en jeu, échangés, ou via le marché Steam.</string>
+  <string name="menu_buy_item_indestructable_item_button">Acheter un objet Steam indestructible .</string>
+
+  <string name="menu_shop_title">.Magasin D\'Objets</string>  
+  <string name="menu_shop_purchase_item_locked">Cet objet est [c=255,64,64]Verrouillé[/c]. Vous devez remplir les conditions de déverrouillage pour pouvoir l\'acheter.</string>  
+  <string name="menu_shop_purchase_item_confirm">Êtes-vous sur de vouloir acheter \'%s\' pour [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c] ?</string>
+  <string name="menu_shop_purchase_not_enough_coins">Vous avez besoin d\'un autre [img=screen_main_gold_icon,1.0,1.0][c=255,194,14,255]%s[/c] pour acheter un \'%s\'.</string>
+  <string name="menu_shop_purchase_full_inventory">Votre inventaire est plein, vous ne pouvez pas acheter de nouveaux objets jusqu\'à ce que vous faisiez de l\'espace.</string>
+  <string name="menu_shop_purchase_premium_only">Cet item est exclusivement accessible au possesseurs d\'un [c=255,194,14,255]Compte Gold[/c]. Vous pouvez en acheter un depuis le menu principal.</string>
+
+  <string name="menu_shop_unlock_criteria">[c=255,64,64,255]CONDITIONS DE DÉVERROUILLAGE[/c]</string>
+  <string name="menu_shop_unlock_ailments_from_weapon">[img=game_hud_weaponicon_none_0,1.0,1.0][c=255,64,64,255]Paralyse %i/%i ennemis avec %s.[/c]</string>
+  <string name="menu_shop_unlock_damage_from_weapon">[img=game_hud_weaponicon_none_0,1.0,1.0][c=255,64,64,255]Faire %i/%i dommages avec %s.[/c]</string>
+  <string name="menu_shop_unlock_heal_from_weapon">[img=game_hud_weaponicon_none_0,1.0,1.0][c=255,64,64,255]Soignez %i/%i PV avec %s.[/c]</string>
+  <string name="skill_increase_hp_1_description">Vos PV maximum sont boostés de 10% !</string>
+  <string name="menu_shop_unlock_kills_from_weapon">[img=game_hud_weaponicon_none_0,1.0,1.0][c=255,64,64,255]Tuez %i/%i ennemis avec %s.[/c]</string>
+  <string name="skill_increase_hp_2_description">Vos PV maximum sont boostés de 25% !</string>
+  <string name="menu_statistics_title">.Statistiques</string>
+  <string name="skill_increase_hp_3_description">Vos PV maximum sont boostés de 50% !</string>
+  <string name="menu_statistics_name_column">Nom</string>
+  <string name="tagline_30">Depuis quand ils ont des barres de PV !?</string>
+  <string name="menu_statistics_value_column">Valeur</string>
+  <string name="menu_shop_unlock_required_rank">[img=game_hud_weaponicon_none_0,1.0,1.0][c=255,64,64,255]Atteignez Le Rang %i[/c]</string>
+  <string name="menu_statistics_local">Stats Joueurs Locaux</string>
+  <string name="menu_statistics_global">Stats Globales</string>
+
+  <string name="scoreboard_header_level">Niv</string>
+  <string name="scoreboard_header_name">Nom</string>
+  <string name="scoreboard_header_score">Score</string>
+  <string name="scoreboard_header_deaths">Morts</string>
+  <string name="scoreboard_header_kills">Tués</string>
+  <string name="scoreboard_header_ping">Ping</string>
+
+  <string name="menu_achievements_title">.Succès</string>
+
+  <string name="achievement_redmist_description">Une explosion 3 morts.</string>
+
+  <string name="achievement_trickshot_description">100 tués par rebonds ? Classe.</string>
+
+  <string name="statistic_aggregated_pvp_kills_name">Tués en PVP</string>
+  <string name="statistic_pvp_kills_name">Tués en PVP</string>
+  <string name="statistic_rebound_shots_name">Tués par Rebond</string>
+  <string name="tdm_game_mode_kills_left_status">[c=255,194,14,255]%i[/c] Restant à Tuer</string>
+  <string name="achievement_gold_name">Brille brille !</string>
+  <string name="achievement_gold_description">Avoir un score au delà des 1,000,000,000.</string>
+
+  <string name="achievement_silver_name">Argent</string>
+  <string name="achievement_silver_description">Avoir un score au delà de 10,000,000.</string>
+
+  <string name="achievement_bronze_name">Bronzar</string>
+  <string name="achievement_bronze_description">Avoir un score au delà de 1,000,000.</string>
+
+  <string name="achievement_horder_name">Anti-Fièvre Acheteuse</string>
+  <string name="achievement_horder_description">Remplir ta mallette avec 500 000 pièces !</string>
+
+  <string name="achievement_canttouchthis_name">PAS TOUCHAY !</string>
+  <string name="achievement_canttouchthis_description">Survivre une partie de vague jusqu\'à atteindre la vague 50.</string>
+
+  <string name="achievement_cheater_name">Tricheur</string>
+  <string name="achievement_cheater_description">Niveau 99 ? Sale tricheur ...</string>
+
+  <string name="achievement_cremationship_name">Crémation A Longue Distance</string>
+  <string name="achievement_cremationship_description">Brûlez 100 zombies avec 128 pixels de distance !</string>
+
+  <string name="achievement_developerdeath_name">P*tain de Développeurs</string>
+  <string name="achievement_developerdeath_description">Tuez un des développeurs.</string>
+
+  <string name="achievement_dick_name">Connard</string>
+  <string name="achievement_dick_description">Pourquoi vous feriez ça ?!</string>
+
+  <string name="achievement_eagleeye_name">Œil de l\'Aigle</string>
+  <string name="achievement_eagleeye_description">50 tirs sans aucune touche ? Beau travail mec.</string>
+
+  <string name="achievement_failure_name">Maître de la Mort</string>
+  <string name="achievement_failure_description">Vous êtes mort genre 501 fois ?</string>
+
+  <string name="achievement_frigid_name">Frigide</string>
+  <string name="achievement_frigid_description">Congelez 100 zombies !</string>
+
+  <string name="achievement_itshotinhere_name">C\'est chaud par ici !</string>
+  <string name="achievement_itshotinhere_description">Brûlez 100 zombies !</string>
+
+  <string name="achievement_headshothoncho_name">Boss du Headshot</string>
+  <string name="achievement_headshothoncho_description">Explosez 100 têtes !</string>
+
+  <string name="achievement_healinglevel1_name">La Loi de l\'Amour</string>
+  <string name="achievement_healinglevel1_description">Soignez 10.000 PV !</string>
+
+  <string name="achievement_healinglevel2_name">Le Cadeau de l\'Amour</string>
+  <string name="achievement_healinglevel2_description">Soignez 50.000 PV !</string>
+
+  <string name="achievement_healinglevel3_name">Le Pouvoir de L\'Amour</string>
+  <string name="achievement_healinglevel3_description">Soignez 100.000 PV !</string>
+
+  <string name="achievement_healinglevel4_name">&lt;3 &lt;3 &lt;3 &lt;3 </string>
+  <string name="achievement_healinglevel4_description">Soignez 1.000.000 PV !</string>
+
+  <string name="achievement_iceandfire_name">Glace Et Feu</string>
+  <string name="achievement_iceandfire_description">Brûlez 5 ennemis gelés.</string>
+
+  <string name="achievement_ihateboxes_name">Je Déteste Les Boites</string>
+  <string name="achievement_ihateboxes_description">Vous adorez détruire des trucs, hein ?</string>
+
+  <string name="achievement_mammy_name">Maman</string>
+  <string name="achievement_mammy_description">Faites planter le jeu parce que vous êtes nul !</string>
+
+  <string name="achievement_marathonman_name">Le Bousculeur de Pixel</string>
+  <string name="achievement_marathonman_description">Traversez 1.000.000 pixels !</string>
+
+  <string name="achievement_n00b_name">n00b</string>
+  <string name="achievement_n00b_description">Tuez 1 zombie !</string>
+
+  <string name="achievement_owned_name">Je t\'ai eu !</string>
+  <string name="achievement_owned_description">Tuez 10 joueurs.</string>
+
+  <string name="achievement_penetrator_name">Le Perforateur</string>
+  <string name="achievement_penetrator_description">Perforez 5 ennemis ou plus avec une seule balle !</string>
+
+  <string name="achievement_winner_name">Gagnant !</string>
+  <string name="achievement_winner_description">Soyez dans le top 10 de n\'importe quelle carte.</string>
+
+  <string name="achievement_redmist_name">Brume Rouge</string>
+  <string name="achievement_saviour_name">Sauveur</string>
+  <string name="achievement_saviour_description">Ramenez un pote parmi les vivants !</string>
+
+  <string name="achievement_theghostisclear_name">Le Fantôme Est Clair !</string>
+  <string name="achievement_theghostisclear_description">Libérez 20 joueurs de leurs formes de fantôme !</string>
+
+  <string name="achievement_trickshot_name">Trick Shot</string>
+  <string name="achievement_youdidntcrash_name">VOUS ÊTES MON HÉROS !</string>
+  <string name="achievement_youdidntcrash_description">Vous avez joué 60 minutes sans planter ?</string>
+
+  <string name="achievement_zombiekiller_name">Tueur De Zombie</string>
+  <string name="achievement_zombiekiller_description">Survivre jusqu\'à la vague 10 !</string>
+
+  <string name="achievement_zombiemaster_name">Maître Des Zombies</string>
+  <string name="achievement_zombiemaster_description">Survivre jusqu\'à la vague 20 !</string>
+
+  <string name="achievement_zombiegrinder_name">Zombie Grinder</string>
+  <string name="achievement_zombiegrinder_description">Survivre jusqu\'à la vague 30 !</string>
+
+  <string name="achievement_zombinator_name">Zombinator</string>
+  <string name="achievement_zombinator_description">Tuez 53.598 zombies !</string>
+
+  <string name="achievement_multiplier5_name">Élevez-Vous !</string>
+  <string name="achievement_multiplier5_description">Ayez un multiplicateur de 5x.</string>
+
+  <string name="achievement_multiplier10_name">Allez Plus Haut !</string>
+  <string name="achievement_multiplier10_description">Ayez un multiplicateur de 10x.</string>
+
+  <string name="achievement_multiplier15_name">Such Multipler, Much Wow</string>
+  <string name="achievement_multiplier15_description">Ayez un multiplicateur de 15x.</string>
+
+  <string name="achievement_dungeonlevel1_name">Explorateur</string>
+  <string name="achievement_dungeonlevel1_description">Atteignez le niveau 1 d\'un donjon aléatoire !</string>
+
+  <string name="achievement_dungeonlevel2_name">Maître Du Donjon</string>
+  <string name="achievement_dungeonlevel2_description">Atteignez le niveau 5 d\'un donjon aléatoire !</string>
+
+  <string name="achievement_dungeonlevel3_name">Boss Du Donjon</string>
+  <string name="achievement_dungeonlevel3_description">Atteignez le niveau 10 d\'un donjon aléatoire !</string>
+
+  <string name="achievement_workshop_name">J\'ai Fabriqué Un Truc !</string>
+  <string name="achievement_workshop_description">Mettez un item dans le workshop !</string>
+
+  <string name="statistic_group_general">Général</string>
+  <string name="statistic_group_players">Joueurs</string>
+  <string name="statistic_group_enemies">Ennemis</string>
+
+  <string name="statistic_aggregated_boxes_destroyed_name">Total Des Boites Détruites</string>
+  <string name="statistic_aggregated_boxes_destroyed_description">[Inutilisé]</string>
+
+  <string name="statistic_aggregated_characters_created_name">Personnages Crées</string>
+  <string name="statistic_aggregated_characters_created_description">[Inutilisé]</string>
+
+  <string name="statistic_aggregated_gold_gathered_name">Or Amassés</string>
+  <string name="statistic_aggregated_gold_gathered_description">[Inutilisé]</string>
+
+  <string name="statistic_aggregated_human_deaths_name">Morts Des Joueurs</string>
+  <string name="statistic_aggregated_human_deaths_description">[Inutilisé]</string>
+
+  <string name="statistic_aggregated_human_revives_name">Réanimations Des Joueurs</string>
+  <string name="statistic_aggregated_human_revives_description">[Inutilisé]</string>
+
+  <string name="statistic_aggregated_level_ups_name">Niveaux Supérieurs</string>
+  <string name="statistic_aggregated_level_ups_description">[Inutilisé]</string>
+
+  <string name="statistic_aggregated_maps_played_name">Cartes Jouées</string>
+  <string name="statistic_aggregated_maps_played_description">[Inutilisé]</string>
+
+  <string name="statistic_aggregated_pixels_moved_name">Pixels Déplacés</string>
+  <string name="statistic_aggregated_pixels_moved_description">[Inutilisé]</string>
+
+  <string name="statistic_aggregated_pvp_kills_description">[Inutilisé]</string>
+
+  <string name="statistic_aggregated_zombies_frozen_name">Ennemis Gelés</string>
+  <string name="statistic_aggregated_zombies_frozen_description">[Inutilisé]</string>
+
+  <string name="statistic_aggregated_zombies_ignited_name">Ennemis Brûlés</string>
+  <string name="statistic_aggregated_zombies_ignited_description">[Inutilisé]</string>
+
+  <string name="statistic_aggregated_zombies_killed_name">Ennemis Tués</string>
+  <string name="statistic_aggregated_zombies_killed_description">[Inutilisé]</string>
+
+  <string name="statistic_aggregated_zombies_shocked_name">Ennemis Choqués</string>
+  <string name="statistic_aggregated_zombies_shocked_description">[Inutilisé]</string>
+
+  <string name="statistic_aggregated_play_time_name">Temps De Jeu (Heures)</string>
+  <string name="statistic_aggregated_play_time_description">[Inutilisé]</string>
+
+  <string name="statistic_boxes_destroyed_name">Boites Détruites</string>
+  <string name="statistic_boxes_destroyed_description">[Inutilisé]</string>
+
+  <string name="statistic_gold_gathered_name">Or Amassé</string>
+  <string name="statistic_gold_gathered_description">[Inutilisé]</string>
+
+  <string name="statistic_human_deaths_name">Morts Des Joueurs</string>
+  <string name="statistic_human_deaths_description">[Inutilisé]</string>
+
+  <string name="statistic_human_revives_name">Réanimations Des Joueurs</string>
+  <string name="statistic_human_revives_description">[Inutilisé]</string>
+
+  <string name="statistic_maps_played_name">Cartes Jouées</string>
+  <string name="statistic_maps_played_description">[Inutilisé]</string>
+
+  <string name="statistic_pixels_moved_name">Pixels Déplacés</string>
+  <string name="statistic_pixels_moved_description">[Inutilisé]</string>
+
+  <string name="statistic_pvp_kills_description">[Inutilisé]</string>
+
+  <string name="statistic_zombies_frozen_name">Ennemis Gelés</string>
+  <string name="statistic_zombies_frozen_description">[Inutilisé]</string>
+
+  <string name="statistic_zombies_ignited_name">Ennemis Brûlés</string>
+  <string name="statistic_zombies_ignited_description">[Inutilisé]</string>
+
+  <string name="statistic_zombies_killed_name">Ennemis Tués</string>
+  <string name="statistic_zombies_killed_description">[Inutilisé]</string>
+
+  <string name="statistic_zombies_shocked_name">Ennemis Choqués</string>
+  <string name="statistic_zombies_shocked_description">[Inutilisé]</string>
+
+  <string name="statistic_zombies_long_distance_ignited_name">Ennemis Brûlés A Distance</string>
+  <string name="statistic_zombies_long_distance_ignited_description">[Inutilisé]</string>
+
+  <string name="statistic_damage_dealt_name">Dommages Causés</string>
+  <string name="statistic_damage_dealt_description">[Inutilisé]</string>
+
+  <string name="statistic_healing_dealt_name">Soins Donnés</string>
+  <string name="statistic_healing_dealt_description">[Inutilisé]</string>
+
+  <string name="statistic_zombies_frozen_ignited_name">Ennemis Gelés Brûlés</string>
+  <string name="statistic_zombies_frozen_Ignited_description">[Inutilisé]</string>
+
+  <string name="statistic_highest_rank_name">Meilleur Rang</string>
+  <string name="statistic_highest_rank_description">[Inutilisé]</string>
+
+  <string name="statistic_highest_score_name">Meilleur Score</string>
+  <string name="statistic_highest_score_description">[Inutilisé]</string>
+
+  <string name="statistic_highest_multiplier_name">Meilleur Multiplicateur</string>
+  <string name="statistic_highest_multiplier_description">[Inutilisé]</string>
+
+  <string name="statistic_highest_wave_name">Meilleure Vague</string>
+  <string name="statistic_highest_wave_description">[Inutilisé]</string>
+
+  <string name="statistic_rebound_shots_description">[Inutilisé]</string>
+
+  <string name="statistic_play_time_name">Temps De Jeu (Heures)</string>
+  <string name="statistic_play_time_description">[Inutilisé]</string>
+
+  <string name="statistic_zombies_headshots_name">Headshots Sur Les Zombies</string>
+  <string name="statistic_zombies_headhosts_description">[Inutilisé]</string>
+
+  <string name="statistic_dungeon_level_name">Meilleur Niveau En Donjon</string>
+  <string name="statistic_dungeon_level_description">[Inutilisé]</string>
+
+  <string name="menu_leaderboards_title">Tableau Des Scores</string>
+  <string name="menu_leaderboards_friends_only">Afficher Les Amis Uniquement ?</string>
+  <string name="menu_leaderboards_rank_column">Rang</string>
+  <string name="menu_leaderboards_rank_short_column">#</string>
+  <string name="menu_leaderboards_name_column">Nom</string>
+  <string name="menu_leaderboards_score_column">Score</string>
+  <string name="menu_leaderboards_loading_text">Chargement ...</string>
+  <string name="menu_leaderboards_no_entries_text">Aucune Entrées Dans Le Tableau Des Scores.</string>
+  <string name="menu_leaderboards_no_entries_short_text">Aucune Entrées.</string>
+
+  <string name="chat_message_player_join">%s a rejoint la partie.</string>
+  <string name="chat_message_player_leave">%s a quitté la partie.</string>
+  <string name="vote_overlay_vote_yes">Appuyez Sur [key=voteyes] Pour Voter Pour</string>
+  <string name="chat_message_player_rename">%s a changer de nom pour %s.</string>
+  <string name="vote_overlay_vote_no">Appuyez sur [key=voteno] Pour Voter Contre</string>
+
+  <string name="chat_message_player_team_change">%s est parti dans l\'équipe [c=%i,%i,%i,255]%s[/c].</string>
+  <string name="menu_credits_press_key">Appuyez sur [key=gui_select] Pour Passer</string>
+  <string name="chat_message_invalid_command">Commande invalide ou corrompue.</string>
+  <string name="chat_message_invalid_destination">Nom d\'utilisateur inconnu.</string>
+  <string name="chat_message_private">(MP %s) %s: %s</string>
+  <string name="chat_message_global">%s: %s</string>
+  <string name="chat_message_game_global">[c=100,255,100](Global) [c=80,200,80]%s[/c]: %s[/c]</string>
+  <string name="chat_message_action">[c=234,211,109,255]* %s %s[/c]</string>
+  <string name="chat_message_server">[c=152,193,235,255]%s[/c]</string>
+  <string name="chat_message_called_vote">%s a appelé %s un vote.</string>
+  <string name="chat_message_vote_passed">Vote Réussi !</string>
+  <string name="chat_message_vote_failed">Vote Raté !</string>
+  <string name=" chat_message_vote_cannot_kick_dev">Les Développeurs sont immunisés contre les votes d\'expulsions.</string>
+  <string name="chat_message_vote_cannot_kick_host">L\'hébergeur est immunisé contre les votes d\'expulsions.</string>
+  <string name="chat_message_player_killed">[c=220,60,70]%s[/c] s\'est fait tué par [c=220,60,70]%s[/c].</string>
+  <string name="chat_message_player_killed_imposter">[c=220,60,70]%s[/c] s\'est fait par [c=220,60,70]%s[/c] et son [c=220,60,70]%s[/c].</string>
+  <string name="chat_message_player_killed_enemy">[c=220,60,70]%s[/c] s\'est fait tué.</string>
+  <string name="chat_message_player_captured_bag">[c=%i,%i,%i,255]%s[/c] a capturé le sac.</string>
+  <string name="chat_message_called_invalid_map_vote">%s a tenté un vote pour une carte qui est disponible sur ce serveur.</string>
+
+  <string name="sub_menu_vote_kick_player">Expulser Un Joueur</string>
+  <string name="sub_menu_vote_restart_map">Redémarrer La Carte</string>
+  <string name="sub_menu_vote_enter_edit_mode">Entrer En Mode Editeur</string>
+  <string name="sub_menu_vote_exit_edit_mode">Quitter Le Mode Editeur</string>
+  <string name="sub_menu_vote_change_map">Changer De Cartes</string>
+  <string name="sub_menu_vote_start">Lancer Un Vote</string>
+  <string name="sub_menu_vote_player_title">Sélectionnez Le Joueur :</string>
+  <string name="sub_menu_vote_map_title">Sélectionnez La Carte :</string>
+  <string name="tagline_76">De Bloccy avec Liebe</string>
+  <string name="sub_menu_edit_mode_vote_name">changez le mode d\'édition</string>
+  <string name="sub_menu_edit_mode_vote_enter_description">Entrer en mode édition ?</string>
+  <string name="sub_menu_edit_mode_vote_exit_description">Quitter le mode édition ?</string>
+  <string name="sub_menu_kick_vote_name">expulser un joueur</string>
+  <string name="sub_menu_kick_vote_description">Expulser \'%s\' ?</string>
+  <string name="sub_menu_kick_vote_unknown_user">Joueur Inconnu</string>
+  <string name="sub_menu_restart_vote_name">redémarrer la carte</string>
+  <string name="sub_menu_restart_vote_description">Redémarrer La Carte ?</string>
+  <string name="sub_menu_change_map_vote_name">changer de carte</string>
+  <string name="sub_menu_change_map_vote_description">Changer la carte pour \'%s\' ?</string>
+  <string name="sub_menu_kick_vote_unknown_map">Carte Inconnue</string>
+  <string name="editor_pfx_editor">Éditeur d\'Effets</string>
+  <string name="editor_show_collision">Montrer La Collision Optimisée</string>
+  <string name="editor_show_lighting">Montrer La Luminosité</string>
+  <string name="editor_show_paths">Montrer Les Chemins</string>
+  <string name="editor_show_randgen">Montrer La Génération Aléatoire Du Modèle</string>
+  <string name="editor_new_map">Nouvelle Carte</string>
+  <string name="editor_open_map">Ouvrir Une Carte</string>
+  <string name="editor_save_map">Sauvegarder La Carte</string>
+  <string name="editor_save_map_as">Sauvegarder La Carte Sous</string>
+  <string name="editor_return_to_game">Retour Au Jeu</string>
+  <string name="editor_exit_to_menu">Retour Au Menu</string>
+  <string name="editor_exit_to_editor">Retour A l\'Éditeur</string>
+  <string name="editor_new_pfx">Nouvel Effet</string>
+  <string name="editor_open_pfx">Ouvrir Effet</string>
+  <string name="editor_save_pfx">Sauvegarder l\'Effet</string>
+  <string name="editor_save_pfx_as">Sauvegarder l\'Effet Sous</string>
+  <string name="editor_undo">Annuler</string>
+  <string name="editor_redo">Refaire</string>
+  <string name="editor_cut">Couper</string>
+  <string name="editor_copy">Copier</string>
+  <string name="editor_paste">Coller</string>
+  <string name="editor_delete">Supprimer</string>
+  <string name="editor_reset_camera">Réinitialiser La Caméra</string>
+  <string name="skill_root_name">Arbre Des Compétences</string>
+  <string name="skill_instant_skill_1_name">"Tellement de Skill. Wow. "</string>
+  <string name="skill_instant_skill_1_description">Gagnez directement 5 points de compétences !</string>
+  <string name="item_sword_description">Épée maniée d\'une main d\'expert. Vous pourrez presque dire que vous en êtes le maître.</string>
+  <string name="item_flat_top_description">Vous pourriez faire tenir un verre en équilibre sur ce dôme !</string>
+  <string name="item_grenade_launcher_description">Peut aussi être utiliser pour lancer des T-shirts !</string>
+  <string name="item_bolt_gun_description">Un Taser sous stéroïdes. Que pourriez-vous vouloir de plus ?</string>
+  <string name="editor_publish_text">Votre carte sera ajouté et sera relié à l\'objet du workshop, sa future publication mettra à jour le ficher déjà existant au lieu d\'en créer un nouveau.\n\nEn ajoutant cette carte, vous approuvez les termes de services du Workshop Steam.</string>
+  <string name="item_rarity_common">[c=79,198,120]%s[/c]</string>
+  <string name="item_rarity_uncommon">[c=136,136,255]%s[/c]</string>
+  <string name="item_rarity_rare">[c=174,28,28]%s[/c]</string>
+  <string name="item_rarity_ultra_rare">[c=255,255,23]%s[/c]</string>
+  <string name="item_rarity_legendary">[c=175,96,225]%s[/c]</string>
+
+  <string name="item_indestructable_prefix">%s Indestructible</string>
+  <string name="item_fragile_prefix">%s Fragile</string>
+
+  <string name="item_drink_name">Boisson</string>
+  <string name="item_armor_name">Armure</string>
+  <string name="item_medipack_name">Medipack</string>
+  <string name="item_nachos_name">Nachos</string>
+  <string name="item_pill_name">Pilule</string>
+  <string name="item_pill_container_name">Container de Pilule</string>
+  <string name="item_1000_coins_description">Vous autorise à prendre 1000 de vos pièces (de votre portefeuille) en jeu au début d\'une partie.</string>
+  <string name="item_ammo_name">Munitions</string>
+
+
+
+
+  <string name="item_10000_coins_description">Vous autorise à prendre 10000 de vos pièces (de votre portefeuille) en jeu au début d\'une partie.</string>
+  <string name="item_rocket_launcher_2_name">Turbo-Lanceur</string>
+  <string name="item_rocket_launcher_2_category">Objets</string>
+
+  <string name="item_2500_coins_description">Vous autorise à prendre 2500 de vos pièces (de votre portefeuille) en jeu au début d\'une partie.</string>
+  <string name="item_rocket_launcher_3_name">L\'Annihilateur</string>
+  <string name="item_rocket_launcher_3_description">Ultra puissant, mais ultra lent ! Annihile tout.</string>
+  <string name="item_rocket_launcher_3_category">Objets</string>
+
+  <string name="item_sword_name">Épée de l\'Expert</string>
+  <string name="item_sword_category">Objets</string>
+
+  <string name="item_frag_name">Grenade à Fragmentations</string>
+  <string name="item_frag_description">Après avoir retirer la goupille, n\'oubliez pas de jeter.</string>
+  <string name="item_frag_category">Objets</string>
+
+  <string name="item_molotov_name">Molotov</string>
+  <string name="item_molotov_description">Essayez d\'éviter votre propre immolation.</string>
+  <string name="item_molotov_category">Objets</string>
+
+
+
+
+  <string name="item_bison_cap_name">Bison Doré</string>
+  <string name="item_bison_cap_description">De l\'Or ? YESSSS! YESSSS!</string>
+  <string name="item_bison_cap_category">Chapeaux</string>
+  <string name="item_top_hat_name">Haut-De-Forme</string>
+  <string name="item_top_hat_description">Ouvrez une canette de haute classe !</string>
+  <string name="item_top_hat_category">Chapeaux</string>
+  <string name="item_headset_name">Casque Audio</string>
+  <string name="item_headset_description">En rythme !</string>
+  <string name="item_headset_category">Accessoires</string>
+  <string name="item_halo_name">Halo du Développeur</string>
+  <string name="item_halo_description">Dominez d\'une main de fer !</string>
+  <string name="item_halo_category">Accessoires</string>
+  <string name="item_pompador_name">Houppette</string>
+  <string name="item_pompador_description">Certains l\'appelle la demi-afro !</string>
+  <string name="item_pompador_category">Chapeaux</string>
+  <string name="editor_layer1">Calque 1</string>
+  <string name="editor_layer2">Calque 2</string>
+  <string name="editor_layer3">Calque 3</string>
+  <string name="editor_layer4">Calque 4</string>
+  <string name="editor_layer5">Calque 5</string>
+  <string name="editor_tiles">Grilles</string>
+  <string name="editor_collision">Collision</string>
+  <string name="editor_objects">Éléments</string>
+  <string name="editor_select">Sélectionner</string>
+  <string name="editor_flood">Flot</string>
+  <string name="editor_erase">Écraser</string>
+  <string name="editor_map_properties">Propriétés de la Carte</string>
+  <string name="editor_object_properties">Propriétés de l\'Élément</string>
+  <string name="editor_windows">Fenêtre</string>
+  <string name="editor_change_tool">Changer d\'Outil</string>
+  <string name="editor_change_mode">Changer de Mode</string>
+  <string name="editor_change_layer">Changer de Calque</string>
+  <string name="editor_change_layer_visibility">Change la Visibilité du Calque</string>
+  <string name="editor_change_tile_properties">Changer la Propriété de la Grille</string>
+  <string name="editor_view">Voir</string>
+  <string name="editor_edit">Editer</string>
+  <string name="editor_file">Fichier</string>
+  <string name="editor_flip_h">Retourner Horizontalement</string>
+  <string name="editor_flip_v">Retourner Verticalement</string>
+  <string name="editor_publish_as_mod">Publier Dans Le Workshop</string>
+
+  <string name="editor_view_agreement">Voir l\'Accord</string>
+  <string name="editor_cancel">Annuler</string>
+  <string name="editor_publish">Publier</string>
+  <string name="editor_publish_name_text">Nom: %s</string>
+  <string name="editor_publish_description_text">Description: %s</string>
+  <string name="editor_publish_mod_name_text">%s</string>
+  <string name="editor_publish_mod_description_text">%s Mode de Jeu: %s Joueurs Max: %i</string>
+  <string name="editor_publish_progress_text">Upload Sur Le Workshop Steam ( %.2f%% ) ... Veuillez Patienter ...</string>
+  <string name="editor_error_game_mode_enabled">La carte doit contenir au moins un mode de jeu disponible pour la carte pour être utilisable.</string>
+  <string name="editor_error_game_mode_main">La carte doit contenir au moins un mode de jeu avec Is_Main d\'inclus pour que la carte soit utilisable.</string>
+  <string name="no_user_assigned_to_input_device">Aucun personnage affecté à cet emplacement. Vous ne pouvez pas modifier le personnage.</string>
+
+  <string name="hud_boss">[c=255,14,14]BOSS[/c]</string>
+  <string name="menu_options_gameplay_fire_when_aiming">Tir automatique lors de la visée ?</string>
+  
+  <string name="editor_error_preview_save">Votre carte doit être sauvegardé avant de continuer l\'édition.</string>
+  <string name="editor_error_internal_error">Une erreur interne est survenue lors de l\'édition.</string>
+
+  <string name="wave_game_mode_refactory_countdown">Commence dans %i</string>
+  <string name="wave_game_mode_active_countdown">Vague %i - %i Restant</string>
+  <string name="wave_gun_game_mode_active_countdown">Vague %i - %s - %i Restant</string>
+
+  <string name="editor_error_preview_center">La carte doit avoir une marque de prévisualisation centrée pour être utilisable.</string>
+  <string name="ban_notice_title">[c=235,52,52]BANNI DU JEU[/c]</string>
+  <string name="ban_notice_message">Vous avez été banni des serveurs sécurisés VAC jusqu\'au \'%s\'. Ceci est dû à une infraction reportée le \'%s\' et qui a été déterminée par plusieurs investigateurs, après avoir vu les preuves en replay, qui constituent les éléments suivant: %s.</string>
+  <string name="ban_notice_message_indefinite">Vous avez été banni des serveurs sécurisés VAC pour une durée indéterminée. Ceci est dû à une infraction reportée le \'%s\' et qui a été déterminée par plusieurs investigateurs, après avoir vu les preuves en replay, qui constituent les éléments suivant: %s.</string>
+
+  <string name="ban_notice_exploit">exploitation</string>
+  <string name="ban_notice_cheat">triche</string>
+  <string name="ban_notice_abuse">comportement abusif</string>
+  <string name="ban_notice_grief">rage</string>
+  <string name="ban_notice_type_seperator">", "</string>
+  
+  
+  <string name="moderation_notice_title">[c=235,52,52]MODÉRATION[/c]</string>
+  <string name="moderation_notice">Félicitations, vous avez été sélectionné aléatoirement pour aider à modéré la communauté! Pendant une période, le bouton modérer sera disponible et vous serez autorisé à voir les parties de joueurs qui ont été signaler. Vous serez autorisé à émettre un jugement sur ces replays. Si vos jugements s\'avèrent corrects, et en fonction du jugements d\'autres joueurs, vous continuerez à modérer.</string>
+ 
+
+	<string name="moderation_title">.Modération</string>	
+	<string name="moderation_case_id">[c=0,200,200,255]Cas ID[/c]: %i</string>
+	<string name="moderation_case_timeframe">[c=0,200,200,255]Délai du cas[/c]: %i+ Minutes</string>
+	<string name="moderation_reported_user">[c=0,200,200,255]Utilisateur Signalé[/c]: %s</string>
+	<string name="moderation_reported_for">[c=0,200,200,255]Signalé pour[/c]: %s</string>		
+	<string name="moderation_description">Vous êtes prier de bien regarder l\'utilisateur joué et essayez de déterminé si ils sont coupable de la raison pour laquelle ils ont été signalés. Ignorez tout les petits écarts du replay - balles qui ratent quand elles devraient touchées, etc - il doit y avoir des raisons techniques pour cela, au lieu de ça, cherchez des preuves pour lesquelles l\'utilisateur serait coupable. Il vous sera demander de juger l\'utilisateur après avoir vu le replay.</string>
+	<string name="moderation_downloading">Téléchargement du Replay, %.2f%% ...</string>
+	<string name="moderation_download_success">Replay Téléchargé</string>
+ 	<string name="moderation_download_failed">Téléchargement du Replay Échoué</string>
+ 	<string name="moderation_download_retry">Réessayer</string>
+ 	<string name="moderation_download_judgement_dialog">Vous avez atteint la fin du replay, voulez-vous faire votre jugement maintenant (sinon le replay recommencera) ?</string>	
+	<string name="moderation_judgement_description">Après avoir vu le replay, pour quelles infractions pensez-vous qu\'il y ai des preuves valides.</string>
+ 	<string name="moderation_judgement_submit">Soumettre Jugement</string>
+	<string name="moderation_judgement_guilty">Je pense que l\'utilisateur est coupable de :</string>
+	<string name="moderation_judgement_inconclusive">Je pense que la preuve n\'est pas concrète.</string>
+	<string name="moderation_judgement_innocent">Je pense que l\'utilisateur est innocent.</string>
+	
+	<string name="moderation_judgement_exploit">Exploitation (Abus d\'erreurs du jeu)</string>
+	<string name="moderation_judgement_cheat">Triche (Utilisation d\'un logiciel pour manipuler le jeu)</string>
+	<string name="moderation_judgement_abuse">Abus (Comportement intentionnellement insupportable)</string>
+	<string name="moderation_judgement_grief">Rage (Tente de provoquer des réponses négatives)</string>
+
+	<string name="moderation_judgement_upload_message">Votre jugement est entrain d\'être chargé. Vous pouvez continué de jouer pendant que cela se fait. Ne fermez pas le jeu avant que l\'icone en haut à droite de l\'écran ne disparaisse.</string>
+
+  <string name="menu_begin">Débuter</string>
+  <string name="hud_boss_whipper_intro_text">[c=255,194,14,255]Le Perforateur Apparait![/c]</string>
+  <string name="hud_cycle_cameras_demo_pause">%02i:%02i - %02i:%02i [key=fire] Caméra [key=interact] Pause [key=altfire] Relancer [key=left][key=right] Glisser</string>
+  <string name="hud_cycle_cameras_demo_resume">%02i:%02i - %02i:%02i [key=fire] Caméra [key=interact] Reprendre [key=altfire] Relancer [key=left][key=right] Glisser</string>
+  <string name="menu_report_player_confirm_dialog">Votre signalement est entrain d\'être chargé. Vous pouvez continué de jouer pendant que cela se fait. Ne fermez pas le jeu avant que l\'icone en haut à droite de l\'écran ne disparaisse.</string>
+
+  <string name="menu_report_player_title">Signaler Triche</string>
+  <string name="menu_report_player_description">Vous pouvez utiliser cet outil pour prévenir les développeurs des joueurs exploiteurs, tricheurs ou abusifs. Quand vous soumettez un signalement, une démo de vos dernières parties, et vos informations données seront enregistrées. Elles seront analysées et le jugement se fera sur elles. Une mauvaise utilisation de cet outil et une perte de temps pourrait se terminer en ban temporairement. N\'utilisez cet outil que dans des cas appropriés.</string>
+  <string name="menu_report_player_explanation_title">Description :</string>
+  <string name="menu_report_player_timeline_title">Délai :</string>
+  <string name="menu_report_player_player_title">Joueur :</string>
+
+  <string name="menu_report_player_timeline_5min">5 Minutes</string>
+  <string name="menu_report_player_timeline_10min">10 Minutes</string>
+  <string name="menu_report_player_timeline_15min">15+ Minutes</string>  
+  <string name="menu_report_player_timeline_30min">30 Minutes</string>
+  <string name="menu_report_player_timeline_1hr">1 Heures+</string>
+  
+  <string name="menu_report_player_send_report">Envoyer Signalement</string>
+  <string name="menu_report_player_type_title">Catégorie :</string>
+  <string name="menu_report_player_exploit">Exploitation (Abus d\'erreurs du jeu)</string>
+  <string name="menu_report_player_cheat">Triche (Utilisation d\'un logiciel pour manipuler le jeu)</string>
+  <string name="menu_report_player_abusive">Grossier (Comportement déplaisant)</string>
+  <string name="menu_rank_stats_title">.Rangs Et Stats</string>
+  
+  <string name="menu_game_setup_find_game_any_map">Toutes les cartes</string>
+  <string name="menu_game_setup_moderation">Modération</string>
+  <string name="menu_game_setup_ranks">Classements / Stats</string>
+  <string name="menu_options_gameplay_fire_when_aiming_description">Utiliser le bouton de visée fera aussi tirer ton arme.</string>
+
+  <string name="sub_menu_vote_report_player">Signaler Triche</string>
+  </resources>

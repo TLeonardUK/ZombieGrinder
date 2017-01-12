@@ -1,0 +1,32 @@
+<xml>
+	<package>
+		<name>UIExample</name>
+		<root>Data/</root>
+		<compile_directory>../../Output/Data/UIExample/.compiled/</compile_directory>
+		<script_directory>../../Data/UIExample/Scripts/</script_directory>
+		<pak_file>../../Data/UIExample/UIExample.dat</pak_file>
+		<private_key/>
+		<pak_keep_source>True</pak_keep_source>
+		<pak_use_compression>True</pak_use_compression>
+		<workshop>
+			<id>498820574</id>
+			<title>Example UI</title>
+			<preview_file>UIExample.png</preview_file>
+			<description>Example of creating a mod package for a custom UI layout!</description>
+			<tags>Example UI Official</tags>
+		</workshop>
+	</package>
+	<languages/>
+	<atlases/>
+	<audio_banks/>
+	<fonts/>
+	<particlefx/>
+	<scripts/>
+	<shaders/>
+	<raw/>
+	<layouts>
+		<layout file="Data/Layouts/MainMenuPremium.xml"/>
+	</layouts>
+	<maps/>
+</xml>
+

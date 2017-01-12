@@ -1,0 +1,546 @@
+<xml>
+	<package>
+		<name>Base</name>
+		<root>Data/</root>
+		<compile_directory>../../Output/Data/Base/.compiled/</compile_directory>
+		<script_directory>../../Data/Base/Scripts/</script_directory>
+		<script_directory>../../Data/Base/Scripts/</script_directory>
+		<private_key>../../Data/Base/Private.key</private_key>
+		<pak_file>../../Data/Base/Base.dat</pak_file>
+		<pak_keep_source>True</pak_keep_source>
+		<pak_use_compression>True</pak_use_compression>
+	</package>
+	<languages>
+	   
+		<!-- All languages that we support! So one >_> -->
+		<language file="Data/Languages/en-gb.xml" priority="initial" />
+    
+    <!-- and mabe these -->
+		<language file="Data/Languages/de-de.xml" priority="initial" />
+		<language file="Data/Languages/es-es.xml" priority="initial" />
+		<language file="Data/Languages/fr-fr.xml" priority="initial" />
+		<language file="Data/Languages/it-it.xml" priority="initial" />
+    <language file="Data/Languages/ja-ja.xml" priority="initial" />
+    <language file="Data/Languages/nl-nl.xml" priority="initial" />
+    <language file="Data/Languages/pt-br.xml" priority="initial" />
+    <language file="Data/Languages/ru-ru.xml" priority="initial" />
+    <language file="Data/Languages/zh-cn.xml" priority="initial" />
+	
+	</languages>
+	<atlases>
+ 
+		<!-- System Stuff, required before loading screen. -->
+		<atlas file="Data/Atlases/UI.xml" 		priority="gfx_initial" />
+		<atlas file="Data/Atlases/Screens.xml" 	priority="gfx_initial" />
+	
+		<!-- Gameplay Stuff -->
+		<atlas file="Data/Atlases/Actors.xml" 		priority="gfx" />
+		<atlas file="Data/Atlases/Avatar.xml" 		priority="gfx" />
+		<atlas file="Data/Atlases/Inventory.xml" 	priority="gfx" />
+		<atlas file="Data/Atlases/NPCs.xml" 		priority="gfx" />
+		<atlas file="Data/Atlases/Particles.xml" 	priority="gfx" />
+		
+		<!-- Tilesets -->
+		<atlas file="Data/Atlases/Tilesets/Egypt/Egypt.xml" 	priority="gfx" />
+		<atlas file="Data/Atlases/Tilesets/Heist/Heist.xml" 	priority="gfx" />
+		<atlas file="Data/Atlases/Tilesets/Lab/Lab.xml" 		priority="gfx" />
+		<atlas file="Data/Atlases/Tilesets/Main/Main.xml" 		priority="gfx" />
+		<atlas file="Data/Atlases/Tilesets/Random/Random.xml" 	priority="gfx" />
+		<atlas file="Data/Atlases/Tilesets/Sewer/Sewer.xml" 	priority="gfx" />
+		
+	</atlases>
+	<audio_banks>
+	
+		<!-- The UI Sounds are required to be loaded first because they contain ones we have to load before the main-loading screen (clicks/initial music/etc) -->
+		<bank file="Data/Audio/UI_Sounds.xml" priority="initial" />	
+
+		<!-- We can do an intial-load on the music as its streamed, so no loading time really -->
+		<bank file="Data/Audio/Music.xml" priority="initial" />
+		
+		<!-- The main game banks, lots and slow! Defer loading. -->
+		<bank file="Data/Audio/Sounds.xml" />
+
+	</audio_banks>
+	<fonts>
+	
+		<!-- UI -->
+		<font file="Data/Fonts/Bitmap/UI.xml" priority="gfx_initial" />
+	
+	</fonts>
+	<particlefx>
+
+    <!-- Weapon Effects -->
+    <fx file="Data/Effects/weapons/generic/explosion_small.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/generic/bullet_hit_small.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/fodder_zombie_slash/fodder_zombie_slash.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/chaser_zombie_slash/chaser_zombie_slash.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/exploder_zombie_slash/exploder_zombie_slash.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/blobby_zombie_puff/blobby_zombie_puff.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/large_blobby_zombie_puff/large_blobby_zombie_puff.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/floater_zombie_fire/floater_zombie_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/floater_zombie_fire/floater_zombie_fire_hit.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/floater_zombie_fire/floater_zombie_fire_trail.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/bouncer_zombie_fire/bouncer_zombie_start_jump.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/bouncer_zombie_fire/bouncer_zombie_end_jump.xml"  priority="last" />
+
+    <fx file="Data/Effects/weapons/sword/sword_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/molotov/molotov_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/molotov/molotov_emit.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/frag/frag_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/frag/frag_emit.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/rocket_launcher_2/rocket_launcher_2_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/rocket_launcher_2/rocket_launcher_2_explode.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/rocket_launcher_2/rocket_launcher_2_trail.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/rocket_launcher_3/rocket_launcher_3_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/rocket_launcher_3/rocket_launcher_3_explode.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/rocket_launcher_3/rocket_launcher_3_trail.xml"  priority="last" />
+
+
+    <fx file="Data/Effects/weapons/developer_pistol/developer_pistol_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/pistol/pistol_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/shotgun/shotgun_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/uzi/uzi_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/spaz/spaz_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/scatter_gun/scatter_gun_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/magnum/magnum_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/double_barrel_shotgun/double_barrel_shotgun_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/m16/m16_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/ak47/ak47_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/winchester_rifle/winchester_rifle_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/flamethrower/flamethrower_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/rocket_launcher/rocket_launcher_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/rocket_launcher/rocket_launcher_explode.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/rocket_launcher/rocket_launcher_trail.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/freeze_ray/freeze_ray_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/baseball_bat/baseball_bat_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/fight_saber/fight_saber_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/flare_gun/flare_gun_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/flare_gun/flare_gun_trail.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/flare_gun/flare_gun_hit.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/grenade_launcher/grenade_launcher_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/grenade_launcher/grenade_launcher_trail.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/grenade_launcher/grenade_launcher_explode.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/love_cannon/love_cannon_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/love_cannon/love_cannon_trail.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/love_cannon/love_cannon_hit.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/love_thrower/love_thrower_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/buff_grenades/buff_grenade_ammo_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/buff_grenades/buff_grenade_ammo_emit.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/buff_grenades/buff_grenade_damage_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/buff_grenades/buff_grenade_damage_emit.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/buff_grenades/buff_grenade_health_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/buff_grenades/buff_grenade_health_emit.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/buff_grenades/buff_grenade_price_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/buff_grenades/buff_grenade_price_emit.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/buff_grenades/buff_grenade_reload_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/buff_grenades/buff_grenade_reload_emit.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/buff_grenades/buff_grenade_rof_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/buff_grenades/buff_grenade_rof_emit.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/buff_grenades/buff_grenade_speed_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/buff_grenades/buff_grenade_speed_emit.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/buff_grenades/buff_grenade_xp_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/buff_grenades/buff_grenade_xp_emit.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/acid_gun/acid_gun_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/sticky_launcher/sticky_launcher_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/sticky_launcher/sticky_launcher_explode.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/bolt_gun/bolt_gun_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/bolt_gun/bolt_gun_trail.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/bolt_gun/bolt_gun_hit.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/laser_cannon/laser_cannon_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/laser_cannon/laser_cannon_hit.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/laser_cannon/laser_cannon_charge.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/shock_rifle/shock_rifle_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/shock_rifle/shock_rifle_hit.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/rpc/rpc_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/rpc/rpc_explode.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/rpc/rpc_trail.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/tripmine/tripmine_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/turret/normal/turret_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/turret/incendiary/turret_incendiary_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/turret/freeze/turret_freeze_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/turret/explosive/turret_explosive_fire.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/turret/explosive/turret_explosive_explode.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/turret/explosive/turret_explosive_trail.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/love_pylon/love_pylon_beam.xml"  priority="last" />
+
+    <!-- Ammo Modifiers -->
+    <fx file="Data/Effects/weapons/ammo_incendiary/ammo_incendiary_attachment.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/ammo_explosive/ammo_explosive_attachment.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/ammo_explosive/ammo_explosive_explode.xml"  priority="last" />
+    <fx file="Data/Effects/weapons/ammo_freeze/ammo_freeze_attachment.xml"  priority="last" />
+
+    <!-- Player Effects -->
+		<fx file="Data/Effects/human/human_blood_splat.xml"  priority="last" />	
+		<fx file="Data/Effects/human/human_die.xml"  priority="last" />
+		<fx file="Data/Effects/human/human_die_success.xml"  priority="last" />    
+    <fx file="Data/Effects/human/human_die_explosion.xml"  priority="last" />
+    <fx file="Data/Effects/human/human_hit.xml"  priority="last" />	
+		<fx file="Data/Effects/human/human_spawn.xml"  priority="last" />
+    <fx file="Data/Effects/human/human_sprint.xml"  priority="last" />
+
+    <!-- Ambient -->
+    <fx file="Data/Effects/ambient/butterflys.xml"  priority="last" />
+
+    <!-- Score Effects -->
+    <fx file="Data/Effects/score/heal_score_spray.xml"  priority="last" />
+    <fx file="Data/Effects/score/damage_score_spray.xml"  priority="last" />	
+		<fx file="Data/Effects/score/score_spray.xml"  priority="last" />	
+		<fx file="Data/Effects/score/level_up.xml"  priority="last" />	
+    
+    <!-- Generic -->
+    <fx file="Data/Effects/generic/dust_puff.xml"  priority="last" />
+    <fx file="Data/Effects/generic/explosive_destroy.xml"  priority="last" />
+    <fx file="Data/Effects/generic/incendiary_destroy.xml"  priority="last" />
+    <fx file="Data/Effects/generic/metal_destroy.xml"  priority="last" />
+    <fx file="Data/Effects/generic/wood_destroy.xml"  priority="last" />
+    <fx file="Data/Effects/generic/cardboard_destroy.xml"  priority="last" />
+    <fx file="Data/Effects/generic/turret_destroy.xml"  priority="last" />
+    <fx file="Data/Effects/generic/pawn_frozen.xml"  priority="last" />
+    <fx file="Data/Effects/generic/pawn_burnt.xml"  priority="last" />
+    <fx file="Data/Effects/generic/pawn_shocked.xml"  priority="last" />
+    <fx file="Data/Effects/generic/ground_close_up.xml"  priority="last" />
+    <fx file="Data/Effects/generic/enemy_spawn.xml"  priority="last" />
+
+    <!-- Coins -->
+    <fx file="Data/Effects/coins/coin_splash_small.xml"  priority="last" />
+    <fx file="Data/Effects/coins/coin_splash_tiny.xml"  priority="last" />
+    <fx file="Data/Effects/coins/coin_splash_long_large.xml"  priority="last" />
+    <fx file="Data/Effects/coins/coin_splash_boss.xml"  priority="last" />
+
+    <!-- Gibs -->
+		<fx file="Data/Effects/enemies/fodder_zombie/fodder_zombie_die.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/fodder_zombie/fodder_zombie_die_decapitated.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/fodder_zombie/fodder_zombie_die_explosion.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/fodder_zombie/fodder_zombie_blood_splat.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/fodder_zombie/fodder_zombie_hit.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/fodder_zombie/fodder_zombie_decap_spray.xml"  priority="last" />
+    
+    <fx file="Data/Effects/enemies/chaser_zombie/chaser_zombie_die.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/chaser_zombie/chaser_zombie_die_decapitated.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/chaser_zombie/chaser_zombie_die_explosion.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/chaser_zombie/chaser_zombie_blood_splat.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/chaser_zombie/chaser_zombie_hit.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/chaser_zombie/chaser_zombie_decap_spray.xml"  priority="last" />
+    
+    <fx file="Data/Effects/enemies/exploder_zombie/exploder_zombie_die.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/exploder_zombie/exploder_zombie_die_decapitated.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/exploder_zombie/exploder_zombie_blood_splat.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/exploder_zombie/exploder_zombie_hit.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/exploder_zombie/exploder_zombie_decap_spray.xml"  priority="last" />
+
+    <fx file="Data/Effects/enemies/blobby_zombie/blobby_zombie_die.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/blobby_zombie/small_blobby_zombie_die.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/blobby_zombie/blobby_zombie_blood_splat.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/blobby_zombie/blobby_zombie_hit.xml"  priority="last" />
+    
+    <fx file="Data/Effects/enemies/floater_zombie/floater_zombie_die.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/floater_zombie/floater_zombie_blood_splat.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/floater_zombie/floater_zombie_hit.xml"  priority="last" />
+
+    <fx file="Data/Effects/enemies/bouncer_zombie/bouncer_zombie_die.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/bouncer_zombie/bouncer_zombie_die_explosion.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/bouncer_zombie/bouncer_zombie_blood_splat.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/bouncer_zombie/bouncer_zombie_blood_splat_trail.xml"  priority="last" />
+    <fx file="Data/Effects/enemies/bouncer_zombie/bouncer_zombie_hit.xml"  priority="last" />
+
+    <!-- Bosses -->
+	<fx file="Data/Effects/enemies/bosses/whipper_boss/whipper_boss_dirt_puff_small.xml"  priority="last" />
+	<fx file="Data/Effects/enemies/bosses/whipper_boss/whipper_boss_dirt_puff_large.xml"  priority="last" />
+	<fx file="Data/Effects/enemies/bosses/whipper_boss/whipper_boss_damage.xml"  priority="last" />
+	<fx file="Data/Effects/enemies/bosses/whipper_boss/whipper_boss_high_damage.xml"  priority="last" />
+	<fx file="Data/Effects/enemies/bosses/whipper_boss/whipper_boss_segment_destroy.xml"  priority="last" />
+	<fx file="Data/Effects/enemies/bosses/whipper_boss/whipper_boss_die.xml"  priority="last" />
+
+    <!-- Skills -->
+    <fx file="Data/Effects/skills/bombs/skill_bomb_explode_freeze_large.xml"  priority="last" />
+    <fx file="Data/Effects/skills/bombs/skill_bomb_explode_freeze_small.xml"  priority="last" />
+    <fx file="Data/Effects/skills/bombs/skill_bomb_explode_incendiary_large.xml"  priority="last" />
+    <fx file="Data/Effects/skills/bombs/skill_bomb_explode_incendiary_small.xml"  priority="last" />
+    <fx file="Data/Effects/skills/bombs/skill_bomb_explode_large.xml"  priority="last" /> 
+    <fx file="Data/Effects/skills/bombs/skill_bomb_explode_small.xml"  priority="last" />
+
+    <fx file="Data/Effects/skills/bombs/skill_bomb_trail.xml"  priority="last" />
+    <fx file="Data/Effects/skills/bombs/skill_bomb_1.xml"  priority="last" />
+    <fx file="Data/Effects/skills/bombs/skill_bomb_2.xml"  priority="last" />
+    <fx file="Data/Effects/skills/bombs/skill_bomb_3.xml"  priority="last" />
+    <fx file="Data/Effects/skills/bombs/skill_bomb_4.xml"  priority="last" />
+    <fx file="Data/Effects/skills/bombs/skill_freeze_bomb_1.xml"  priority="last" />
+    <fx file="Data/Effects/skills/bombs/skill_freeze_bomb_2.xml"  priority="last" />
+    <fx file="Data/Effects/skills/bombs/skill_incendiary_bomb_1.xml"  priority="last" />
+    <fx file="Data/Effects/skills/bombs/skill_incendiary_bomb_2.xml"  priority="last" />
+   
+    <fx file="Data/Effects/skills/blind_zombies/blind_zombies_5s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/blind_zombies/blind_zombies_10s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/blind_zombies/blind_zombies_20s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/blind_zombies/blind_zombies_30s_player.xml"  priority="last" />
+   
+    <fx file="Data/Effects/skills/heal_activate/heal_0s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/heal_activate/heal_3s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/heal_activate/heal_5s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/heal_activate/heal_8s_player.xml"  priority="last" />
+	
+    <fx file="Data/Effects/skills/insta_kill/insta_kill_10s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/insta_kill/insta_kill_15s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/insta_kill/insta_kill_20s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/insta_kill/insta_kill_30s_player.xml"  priority="last" />
+	
+    <fx file="Data/Effects/skills/god_mode/god_mode_5s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/god_mode/god_mode_10s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/god_mode/god_mode_15s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/god_mode/god_mode_30s_player.xml"  priority="last" />
+	
+    <fx file="Data/Effects/skills/xp_boost/xp_boost_30s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/xp_boost/xp_boost_60s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/xp_boost/xp_boost_90s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/xp_boost/xp_boost_120s_player.xml"  priority="last" />
+	
+    <fx file="Data/Effects/skills/speed_gunner/speed_gunner_30s_player.xml"  priority="last" />
+	
+    <fx file="Data/Effects/skills/full_ammo/full_ammo_0s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/full_ammo/full_ammo_3s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/full_ammo/full_ammo_5s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/full_ammo/full_ammo_8s_player.xml"  priority="last" />
+	
+    <fx file="Data/Effects/skills/infinite_ammo/infinite_ammo_10s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/infinite_ammo/infinite_ammo_20s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/infinite_ammo/infinite_ammo_30s_player.xml"  priority="last" />
+    <fx file="Data/Effects/skills/infinite_ammo/infinite_ammo_60s_player.xml"  priority="last" />
+	
+    <fx file="Data/Effects/skills/random_weapon_player.xml"  priority="last" />
+	
+    <!-- Weather -->
+    <fx file="Data/Effects/weather/weather_rain.xml"  priority="last" />
+    <fx file="Data/Effects/weather/weather_snow.xml"  priority="last" />
+
+    <!-- Barricades -->
+    <fx file="Data/Effects/barricades/barricade_buy.xml"  priority="last" />
+    <fx file="Data/Effects/barricades/barricade_destroy.xml"  priority="last" />
+    <fx file="Data/Effects/barricades/barricade_hit.xml"  priority="last" />
+    
+    <!-- Cucco -->
+    <fx file="Data/Effects/cucco/cucco_rage.xml"  priority="last" />
+    
+    <!-- Lighting -->
+    <fx file="Data/Effects/lighting/torch_light.xml"  priority="last" />
+    <fx file="Data/Effects/lighting/flashlight.xml"  priority="last" />
+    <fx file="Data/Effects/lighting/projectile_light_fire.xml"  priority="last" />
+    <fx file="Data/Effects/lighting/projectile_light_shock.xml"  priority="last" />
+    <fx file="Data/Effects/lighting/projectile_light_small.xml"  priority="last" />
+    <fx file="Data/Effects/lighting/projectile_light_laser.xml"  priority="last" />
+    <fx file="Data/Effects/lighting/muzzle_flash_light_small.xml"  priority="last" />
+    <fx file="Data/Effects/lighting/muzzle_flash_light_medium.xml"  priority="last" />
+    <fx file="Data/Effects/lighting/muzzle_flash_light_shock.xml"  priority="last" />
+    <fx file="Data/Effects/lighting/muzzle_flash_light_laser.xml"  priority="last" />
+    <fx file="Data/Effects/lighting/muzzle_flash_light_love.xml"  priority="last" />
+    <fx file="Data/Effects/lighting/explosion_flash_light.xml"  priority="last" />
+
+  </particlefx>
+	<scripts>
+
+    <script file="Data/Scripts/unity.xs" />
+
+  </scripts>
+	<shaders>
+	
+		<shader file="Data/Shaders/Pipeline/combine.xml" 						       priority="gfx_initial" />
+		<shader file="Data/Shaders/Pipeline/diffuse.xml" 						       priority="gfx_initial" />
+		<shader file="Data/Shaders/Pipeline/copy.xml" 							       priority="gfx_initial" />
+		<shader file="Data/Shaders/Pipeline/distortion.xml" 					     priority="gfx_initial" />
+		<shader file="Data/Shaders/Pipeline/gbuffer_clear.xml" 					    priority="gfx_initial" />
+		<shader file="Data/Shaders/Pipeline/distance_field_font.xml" 			  priority="gfx_initial" />
+		<shader file="Data/Shaders/PostProcess/health_warning.xml" 				  priority="gfx_initial" />
+		<shader file="Data/Shaders/PostProcess/chromatic_arboration.xml" 				  priority="gfx_initial" />
+    <shader file="Data/Shaders/PostProcess/gameboy.xml" 				  priority="gfx_initial" />
+    <shader file="Data/Shaders/PostProcess/deus_ex.xml" 				  priority="gfx_initial" />
+		<shader file="Data/Shaders/PostProcess/enter_the_light.xml" 				priority="gfx_initial" />
+		<shader file="Data/Shaders/PostProcess/hq2x.xml" 		          		  priority="gfx_initial" />
+		<!--  <shader file="Data/Shaders/PostProcess/hq2x_resize.xml" 		        priority="gfx_initial" /> -->
+    
+  </shaders>
+	<raw>
+	
+		<!-- Config Files -->
+		<raw file="Data/Config/Collision_Types.xml" priority="initial" />
+		<raw file="Data/Config/Render_Pipeline.xml" priority="initial" />
+		<raw file="Data/Config/Mod_Whitelist.xml" priority="initial" />
+    <raw file="Data/Config/Controller_Bindings.xml" priority="initial" />
+	
+		<!-- Shader Resources -->
+		<raw file="Data/Shaders/Resources/hq2x_lut.png" priority="initial" />
+		<raw file="Data/Shaders/Resources/deus_ex_filler.png" priority="initial" />
+		<raw file="Data/Shaders/Resources/green_scale_lut.png" priority="initial" />
+
+		</raw>
+	<layouts>
+	
+		<!-- Loading screens -->
+		<layout file="Data/Layouts/Base.xml" 					priority="initial" />
+		<layout file="Data/Layouts/MenuBackground.xml" 			priority="initial" />
+		<layout file="Data/Layouts/MenuBackgroundSimple.xml"    priority="initial" />
+		<layout file="Data/Layouts/LoadingBackground.xml"  	    priority="initial" />
+		<layout file="Data/Layouts/GameBackground.xml"			priority="initial" />
+		<layout file="Data/Layouts/Loading.xml" 				priority="initial" />
+		<layout file="Data/Layouts/Splash.xml" 					priority="initial" />
+		<layout file="Data/Layouts/SubMenuBackground.xml" 		priority="initial" />
+		
+		<!-- General screens -->
+		<layout file="Data/Layouts/BuyItemDialog.xml" />
+		<layout file="Data/Layouts/RestrictedModeWarning.xml" />
+		<layout file="Data/Layouts/InventoryDropDialog.xml" />
+		<layout file="Data/Layouts/GlobalChat.xml" />
+		<layout file="Data/Layouts/AdvancedGraphicsOptions.xml" />
+		<layout file="Data/Layouts/AudioOptions.xml" 			/>
+		<layout file="Data/Layouts/EditorConfirmDialog.xml" 	/>
+		<layout file="Data/Layouts/ConfirmDialog.xml" 			/>
+		<layout file="Data/Layouts/ConfirmResolutionDialog.xml" />
+		<layout file="Data/Layouts/Credits.xml" 				/>
+		<layout file="Data/Layouts/Editor.xml"				 	/>
+		<layout file="Data/Layouts/FileBrowser.xml"				/> 
+		<layout file="Data/Layouts/ResourceBrowser.xml"			/> 
+		<layout file="Data/Layouts/ParticleEditor.xml"			/>
+		<layout file="Data/Layouts/FindGameSetup.xml" 			/>
+		<layout file="Data/Layouts/Game.xml" 					/>
+		<layout file="Data/Layouts/GameplayOptions.xml" 		/>
+		<layout file="Data/Layouts/GameSetupMenu.xml" 			/>
+		<layout file="Data/Layouts/GraphicsOptions.xml" 		/>
+		<layout file="Data/Layouts/HostGameSetup.xml" 			/>
+		<layout file="Data/Layouts/InputOptions.xml" 			/>
+		<layout file="Data/Layouts/MainMenu.xml" 				/>
+		<layout file="Data/Layouts/MainMenuPremium.xml" 		/>
+		<layout file="Data/Layouts/MiscOptions.xml" 			/>
+		<layout file="Data/Layouts/Options.xml" 				/>
+		<layout file="Data/Layouts/PlayerLogin.xml" 			/>
+		<layout file="Data/Layouts/ServerBrowser.xml" 			/>
+		<layout file="Data/Layouts/Start.xml" 					/>
+		<layout file="Data/Layouts/TextDialog.xml" 				/>
+		<layout file="Data/Layouts/ConnectToServer.xml" 		/>
+		<layout file="Data/Layouts/FindGame.xml" 				/>
+		<layout file="Data/Layouts/HostGame.xml" 				/>
+		<layout file="Data/Layouts/EditorDialog.xml" 					/>
+		<layout file="Data/Layouts/Dialog.xml" 					/>
+		<layout file="Data/Layouts/LargeDialog.xml" 					/>
+		<layout file="Data/Layouts/Lobby.xml" 					/>
+		<layout file="Data/Layouts/StartingLocalServer.xml" 	/>
+		<layout file="Data/Layouts/MapLoading.xml"			 	/>
+		<layout file="Data/Layouts/Scoreboard.xml"			 	/>
+		<layout file="Data/Layouts/Chat.xml"				 	/>
+		<layout file="Data/Layouts/SubMenu.xml"				 	/>
+		<layout file="Data/Layouts/VoiceChat.xml"			 	/>
+		<layout file="Data/Layouts/Vote.xml"			 		/>
+		<layout file="Data/Layouts/VoteSelectPlayer.xml"		/>
+		<layout file="Data/Layouts/VoteSelectMap.xml"			/>
+		<layout file="Data/Layouts/VoteOverlay.xml"				/>
+		<layout file="Data/Layouts/ColorSelector.xml"		 	/>
+		<layout file="Data/Layouts/SelectProfile.xml"		 	/>
+		<layout file="Data/Layouts/Leaderboards.xml"		 	/>
+		<layout file="Data/Layouts/Achievements.xml"		 	/>
+		<layout file="Data/Layouts/Statistics.xml"			 	/>
+		<layout file="Data/Layouts/Inventory.xml"			 	/>
+		<layout file="Data/Layouts/NewInventory.xml"			 	/>
+		<layout file="Data/Layouts/Equipment.xml"			 	/>
+		<layout file="Data/Layouts/Skills.xml"				 	/>
+		<layout file="Data/Layouts/Shop.xml"				 	/>
+		<layout file="Data/Layouts/Premium.xml"				 	/>
+		<layout file="Data/Layouts/Profiler.xml"				 	/>
+		<layout file="Data/Layouts/GameOver.xml"				 	/>
+		<layout file="Data/Layouts/GameOverPVP.xml"				 	/>
+		<layout file="Data/Layouts/TeamChange.xml"			 	/>
+		<layout file="Data/Layouts/TimeoutOverlay.xml"			 	/>
+		<layout file="Data/Layouts/ModOptions.xml"			 	/>
+		<layout file="Data/Layouts/PublishMap.xml"			 	/>
+		<layout file="Data/Layouts/ControllerTextInputDialog.xml"			 	/>
+		<layout file="Data/Layouts/ItemBroken.xml"			 	/>
+		<layout file="Data/Layouts/PaintItemColorSelector.xml"			 	/>	
+		<layout file="Data/Layouts/UnlockDialog.xml"			 	/>	
+		<layout file="Data/Layouts/Video.xml"			 	/>	
+		<layout file="Data/Layouts/ChallengeAnnouncement.xml"			 	/>	
+		<layout file="Data/Layouts/ReportPlayer.xml"			 	/>	
+		<layout file="Data/Layouts/GameBanWarning.xml"			 	/>	
+		<layout file="Data/Layouts/RanksAndStats.xml"			 	/>		
+		<layout file="Data/Layouts/Moderation.xml"			 	/>		
+		<layout file="Data/Layouts/ModerationJudgement.xml"			 	/>		
+		<layout file="Data/Layouts/GameModWarning.xml"			 	/>			
+		<layout file="Data/Layouts/UpgradeWeapon.xml"			 	/>		
+				
+	</layouts>
+	<maps>
+
+
+    <!--		
+    <map file="Data/Maps/campaign/s1e1.zgmap" 					priority="last" />
+    <map file="Data/Maps/campaign/s1e2.zgmap" 					priority="last" />
+    <map file="Data/Maps/campaign/s1e3.zgmap" 					priority="last" />
+    <map file="Data/Maps/campaign/s2e1.zgmap" 					priority="last" />
+    <map file="Data/Maps/campaign/s2e2.zgmap" 					priority="last" />
+    <map file="Data/Maps/campaign/s2e3.zgmap" 					priority="last" />
+    <map file="Data/Maps/campaign/s3e1.zgmap" 					priority="last" />
+    <map file="Data/Maps/campaign/s3e2.zgmap" 					priority="last" />
+    <map file="Data/Maps/campaign/s3e3.zgmap" 					priority="last" />
+    <map file="Data/Maps/campaign/s3e4.zgmap" 					priority="last" />
+		-->
+
+    <map file="Data/Maps/c1_s1/c1_s1.zgmap" 					          priority="last" />
+		<map file="Data/Maps/c1_s2/c1_s2.zgmap" 					          priority="last" />
+		<map file="Data/Maps/c1_s3/c1_s3.zgmap" 					          priority="last" />
+    <map file="Data/Maps/c2_s1/c2_s1.zgmap" 					          priority="last" />
+		<map file="Data/Maps/c2_s2/c2_s2.zgmap" 					          priority="last" />
+		<map file="Data/Maps/c2_s3/c2_s3.zgmap" 					          priority="last" />		
+		<map file="Data/Maps/c3_s1/c3_s1.zgmap" 					          priority="last" />
+		<map file="Data/Maps/c3_s2/c3_s2.zgmap" 					          priority="last" />
+		<map file="Data/Maps/c3_s3/c3_s3.zgmap" 					          priority="last" />
+		
+		<!-- Arenas -->
+		<map file="Data/Maps/arena_circle/arena_circle.zgmap"		    priority="last" />
+		<map file="Data/Maps/arena_snowbound/arena_snowbound.zgmap" priority="last" />
+
+		<!-- Capture The Bag -->
+		<map file="Data/Maps/ctb_heist/ctb_heist.zgmap" 			      priority="last" />
+
+		<!-- Deathmatch -->
+		<map file="Data/Maps/dm_street/dm_street.zgmap" 			      priority="last" />
+
+		<!-- Gun Game -->
+		<map file="Data/Maps/gg_town/gg_town.zgmap" 				        priority="last" />
+
+		<!-- Rack Em Up -->
+		<map file="Data/Maps/ru_lab/ru_lab.zgmap" 					        priority="last" />
+
+		<!-- Team Deathmatch -->
+		<map file="Data/Maps/tdm_district/tdm_district.zgmap" 		  priority="last" />
+		
+		<!-- Wave -->
+		<map file="Data/Maps/wave_cliff/wave_cliff.zgmap" 			    priority="last" />
+		<map file="Data/Maps/wave_crowd/wave_crowd.zgmap" 			    priority="last" />
+		<map file="Data/Maps/wave_forest/wave_forest.zgmap" 		    priority="last" />
+		<map file="Data/Maps/wave_tiny/wave_tiny.zgmap" 			      priority="last" />
+		
+		<!-- Wave Gun Game -->
+		<map file="Data/Maps/ggwave_urban/ggwave_urban.zgmap" 			priority="last" />
+		
+		<!-- Random Dungeon Templates -->
+		<map file="Data/Maps/dc_random/dungeon.template.zgmap"      priority="last" /> 
+		<map file="Data/Maps/dc_forest/dc_forest.template.zgmap"      priority="last" />
+		
+		<!--
+		<map file="Data/Maps/tests/test_map.zgmap"      priority="last" />
+		-->
+	
+	</maps>
+	<videos>
+    
+		<video file="Data/Videos/s1e1.ogv" priority="initial" />
+		<video file="Data/Videos/s1e2.ogv" priority="initial" />
+		<video file="Data/Videos/s1e3.ogv" priority="initial" />
+		<video file="Data/Videos/s1e3_end.ogv" priority="initial" />		
+		<video file="Data/Videos/s2e1.ogv" priority="initial" />
+		<video file="Data/Videos/s2e2.ogv" priority="initial" />
+		<video file="Data/Videos/s2e3.ogv" priority="initial" />
+		<video file="Data/Videos/s2e3_end.ogv" priority="initial" />		
+		<video file="Data/Videos/s3e1.ogv" priority="initial" />
+		<video file="Data/Videos/s3e2.ogv" priority="initial" />
+		<video file="Data/Videos/s3e3.ogv" priority="initial" />
+    <video file="Data/Videos/s3e4.ogv" priority="initial" />
+    <video file="Data/Videos/s3e4_end.ogv" priority="initial" />
+    
+	</videos>
+</xml>

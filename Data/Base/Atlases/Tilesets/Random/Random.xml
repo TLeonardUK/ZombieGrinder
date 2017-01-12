@@ -1,0 +1,27 @@
+<xml>
+  <editor>
+    <asset_type>Atlas</asset_type>
+  </editor>
+	<settings>
+		<texture-size>1024</texture-size>
+		<max-textures>1</max-textures>
+		<name>Random</name>
+	</setting>
+	<images>
+		<image type="grid" name="random_tile_#" file="Data/Atlases/Tilesets/Random/Random.png" width="16" height="16" hspace="1" vspace="1" />	
+	</images> 
+	<animations>
+		<animation name="torch_north" mode="loop" speed="100">
+			<frame type="multiple_indexed" from="385" to="390" />
+		</animation>
+		<animation name="torch_west" mode="loop" speed="100">
+			<frame type="multiple_indexed" from="409" to="414" />
+		</animation>
+		<animation name="torch_east" mode="loop" speed="100">
+			<frame type="multiple_indexed" from="433" to="438" />
+		</animation>
+		<animation name="torch_south" mode="loop" speed="100">
+			<frame type="multiple_indexed" from="457" to="462" />
+		</animation>
+	</animations>
+</xml>

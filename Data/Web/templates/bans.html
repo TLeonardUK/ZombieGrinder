@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>Zombie Grinder - Administration</title>
+	<link rel="stylesheet" type="text/css" href="res/main.css">
+	<script src="lib/chart.js"></script>	
+	<script src="lib/main.js"></script>	
+	<script type="text/javascript">
+	
+		function setup()
+		{
+		}
+	
+	</script>
+</head>
+<body onload="setup()">
+	<div class="header">
+		<div class="header_overview">
+			<b>{{SERVER_NAME}}</b>
+		</div>	
+		<div class="menu">
+			<div class="menu_item_warning" onclick="RedirectConfirm('shutdown_when_empty', 'Are you sure you wish to shutdown this server when its empty?');">{{SHUTDOWN_WHEN_EMPTY_TEXT}}</div>
+			<div class="menu_item_warning" onclick="RedirectConfirm('shutdown', 'Are you sure you wish to shutdown this server?');">Shutdown</div>
+			<div class="menu_item" onclick="Redirect('logout');">Logout</div>
+			<div class="menu_item" onclick="Redirect('bans');">Bans</div>
+			<div class="menu_item" onclick="Redirect('players');">Players</div>
+			<div class="menu_item" onclick="Redirect('settings');">Settings</div>
+			<div class="menu_item" onclick="Redirect('chat');">Chat</div>
+			<div class="menu_item" onclick="Redirect('overview');">Overview</div>
+		</div>
+	</div>
+	<div class="main_body">	
+		<table class="content_table">
+			<tr>
+				<td class="content_box">
+				
+					<table class="item_list_table" cellspacing=0 cellpadding=0>
+						<tr class="item_list_table_header_row">
+							<td><b>Name</b></td>
+							<td style="text-align:right; padding-right: 15px;"><b>Control</b></td>
+						</tr>
+						{{BAN_TABLE_ROWS}}
+					</table>
+					
+				</td>
+			</tr>
+		</table>
+	</div>	
+	<div class="footer">
+		Copyright (C) 2015 TwinDrills
+	</div>
+</body>
+</html>

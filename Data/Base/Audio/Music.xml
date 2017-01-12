@@ -1,0 +1,30 @@
+<xml>
+  <editor>
+    <asset_type>AudioBank</asset_type>
+  </editor>
+	<settings>
+		<name>Music</name>
+	</settings>
+  <groups>
+
+    <group name="bgm"     volume="1.0" />
+
+  </groups>
+	<sounds>
+		<sound name="music_bommirific" 			    group="bgm" looping="True" streaming="True" file="Data/Audio/Music/bommirific.it" />
+		<sound name="music_bossu" 				      group="bgm" looping="True" streaming="True" file="Data/Audio/Music/bossu.it" />
+		<sound name="music_bumpy_ride" 			    group="bgm" looping="True" streaming="True" file="Data/Audio/Music/bumpy_ride.it" />
+		<sound name="music_corinthian" 			    group="bgm" looping="True" streaming="True" file="Data/Audio/Music/corinthian.it" />
+		<sound name="music_darkness" 			      group="bgm" looping="True" streaming="True" file="Data/Audio/Music/darkness.it" />
+		<sound name="music_different" 			    group="bgm" looping="True" streaming="True" file="Data/Audio/Music/different.it" />
+		<sound name="music_fastbeat" 			      group="bgm" looping="True" streaming="True" file="Data/Audio/Music/fastbeat.it" />
+		<sound name="music_grindaa_das_zombi" 	group="bgm" looping="True" streaming="True" file="Data/Audio/Music/grindaa_das_zombi.it" />
+		<sound name="music_outspacezomb" 		    group="bgm" looping="True" streaming="True" file="Data/Audio/Music/outspacezomb.it" />
+		<sound name="music_zombroni" 			      group="bgm" looping="True" streaming="True" file="Data/Audio/Music/zombroni.it" />
+		<sound name="music_attack_1" 			      group="bgm" looping="True" streaming="True" file="Data/Audio/Music/attack_1.wav" />
+		<sound name="music_attack_2" 			      group="bgm" looping="True" streaming="True" file="Data/Audio/Music/attack_2.wav" />
+		<sound name="music_bass_loop" 			    group="bgm" looping="True" streaming="True" file="Data/Audio/Music/bass_loop.wav" />
+		<sound name="music_beeboo" 				      group="bgm" looping="True" streaming="True" file="Data/Audio/Music/beeboo.wav" />
+		<sound name="music_menu" 				        group="bgm" looping="True" streaming="True" file="Data/Audio/Music/menu.wav" />
+	</sounds>
+</xml>

@@ -1,0 +1,12 @@
+<xml>
+	<settings>
+		<name>enter_the_light</name>
+	</settings>
+	<uniforms>
+		<uniform name="g_texture" 						type="texture" 	value="POST_PROCESS_INPUT_TEXTURE" />
+		<uniform name="g_screen_size" 					type="vector3" 	value="SCREEN_SIZE" />
+		<uniform name="g_world_view_projection_matrix" 	type="matrix4" 	value="WORLD_VIEW_PROJECTION_MATRIX" />
+	</uniforms>
+	<fragment>Data/Shaders/PostProcess/enter_the_light.frag</fragment>
+	<vertex>Data/Shaders/PostProcess/enter_the_light.vert</vertex>
+</xml>

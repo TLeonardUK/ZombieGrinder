@@ -1,0 +1,15 @@
+<xml>
+  <editor>
+    <asset_type>Layout</asset_type>
+  </editor>
+	<settings>
+		<name>Chat</name>
+	</settings>
+	<layout>
+						
+		<element name="chat_panel"				type="Panel"		box="0.05,0.5,0.5,0.28"    Scale="0.75,0.75" AspectScaling="False" BackColor="255,255,255,255" Frame="screen_main_box_active_#" FrameColor="255,255,255,220" FlatBottom="True" />
+		<element name="chat_box"				type="TextBox"		box="0.05,0.78,0.5,0.053" Scale="0.75,0.75" AspectScaling="False" BackColor="255,0,255,220" AlwaysActive="True" />
+		<element name="chat_history"			type="TextPanel"	box="0.055,0.52,0.49,0.245" Scale="0.75,0.75" AspectScaling="False" BackColor="255,255,0,220" ShadowedText="True" />
+		
+	</layout>
+</xml>
