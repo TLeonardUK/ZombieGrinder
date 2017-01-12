@@ -12,4 +12,4 @@ TODO
 Extensive documentation is available on our wiki page <a href="https://github.com/TLeonardUK/ZombieGrinder/wiki">Here</a>.
 
 ## License
-ZombieGrinder is propriatory software, it is available here to view, but is not (currently) licensed for use by anyone for any means. Please check the License file for futher information.
+ZombieGrinder is propriatory software, it is available here to view, but is not (currently) licensed for use by anyone, for any means. Please check the License file for futher information.
