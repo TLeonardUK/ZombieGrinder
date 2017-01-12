@@ -5,8 +5,15 @@ Zombie Grinder is a local and online cooperative arcade game, with the primary a
 
 http://store.steampowered.com/app/263920
 
-# Build State
-TODO
+## Build State
+<a href="https://travis-ci.org/TLeonardUK/MicroBuild">
+  <img alt="Travis CI"
+       src="https://travis-ci.org/TLeonardUK/MicroBuild.svg?branch=master"/>
+</a>
+<a href="https://ci.appveyor.com/project/TLeonardUK/microbuild">
+  <img alt="AppVeyor"
+       src="https://ci.appveyor.com/api/projects/status/dufpylwdhvinr7m7?svg=true"/>
+</a>
 
 ## Documentation
 Extensive documentation is available on our wiki page <a href="https://github.com/TLeonardUK/ZombieGrinder/wiki">Here</a>.
