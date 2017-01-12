@@ -1,3 +1,5 @@
+![logo](http://twindrills.com/res/main_logo.png)
+
 # Zombie Grinder
 Zombie Grinder is a local and online cooperative arcade game, with the primary aim of killing zombies. It supports a variety of game modes, items and features. It is currently available through Steam on Windows, Linux and MacOs.
 
